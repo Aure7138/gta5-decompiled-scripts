@@ -16,9 +16,10 @@
 	float fLocal_14 = 0f;
 	var uLocal_15 = 0;
 	var uLocal_16 = 0;
-	var uLocal_17 = 0;
-	struct<3> Local_18[2];
-	float fLocal_25[2] = { 0f, 0f };
+	int iLocal_17 = 0;
+	var uLocal_18 = 0;
+	struct<3> Local_19[2];
+	float fLocal_26[2] = { 0f, 0f };
 #endregion
 
 void __EntryFunction__()
@@ -34,31 +35,32 @@ void __EntryFunction__()
 	iLocal_10 = 12;
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
-	if (unk_0x8D841F1DD3FA555F(3))
+	iLocal_17 = -1;
+	if (unk_0x89522B8E487D4EF9(3))
 	{
 		func_1();
 	}
-	unk_0xAE2A9FD3EEF99954(1);
-	unk_0x32A12757CBF48A33(joaat("cuban800"));
-	while (!unk_0x33ACB874CECA2D4B(joaat("cuban800")))
+	unk_0x3F95CDEE236B6AD7(1);
+	unk_0x801429C020C467BA(joaat("cuban800"));
+	while (!unk_0x5053BF6D5604065B(joaat("cuban800")))
 	{
 		unk_0x4EDE34FBADD967A6(0);
 	}
-	Local_18[0 /*3*/] = { 1169.976f, 3592.572f, 32.6481f };
-	Local_18[1 /*3*/] = { 1215.738f, 3586.608f, 33.5131f };
-	fLocal_25[0] = 277.7043f;
-	fLocal_25[1] = 77.1113f;
-	if (!unk_0x930F8FBB8E9537CC(unk_0x81873881071CD9FE()))
+	Local_19[0 /*3*/] = { 1169.976f, 3592.572f, 32.6481f };
+	Local_19[1 /*3*/] = { 1215.738f, 3586.608f, 33.5131f };
+	fLocal_26[0] = 277.7043f;
+	fLocal_26[1] = 77.1113f;
+	if (!unk_0x76B2D234F1895632(unk_0xE7869D5D7816A9B6()))
 	{
-		unk_0xB067093BBAF0A747(unk_0x81873881071CD9FE(), 1220.202f, 3596.281f, 33.259f, 1, 0, 0, 1);
+		unk_0x88A973CE47FBEF95(unk_0xE7869D5D7816A9B6(), 1220.202f, 3596.281f, 33.259f, 1, 0, 0, 1);
 	}
-	unk_0xBCFD171E27A90624(1220.202f, 3596.281f, 33.259f);
-	uLocal_17 = unk_0xE00F8DEA9778FC87(joaat("cuban800"), Local_18[0 /*3*/], fLocal_25[0], 1, 1);
-	unk_0x5CC9D6711FE01F0D(uLocal_17);
-	unk_0x887F4488DA99FD21(joaat("cuban800"));
-	if (!unk_0x930F8FBB8E9537CC(unk_0x81873881071CD9FE()))
+	unk_0x899C0AB969919A6A(1220.202f, 3596.281f, 33.259f);
+	uLocal_18 = unk_0xD504D1FF5DD2FFD7(joaat("cuban800"), Local_19[0 /*3*/], fLocal_26[0], 1, 1);
+	unk_0xC9CEB5227A733CE6(uLocal_18);
+	unk_0x839E9476E54502A2(joaat("cuban800"));
+	if (!unk_0x76B2D234F1895632(unk_0xE7869D5D7816A9B6()))
 	{
-		unk_0xDC81A805934C85CD(unk_0x81873881071CD9FE(), uLocal_17, -1);
+		unk_0x0CC1C59D57D7212B(unk_0xE7869D5D7816A9B6(), uLocal_18, -1);
 	}
 	while (true)
 	{
@@ -69,15 +71,15 @@ void __EntryFunction__()
 
 void func_1()
 {
-	if (!unk_0x930F8FBB8E9537CC(unk_0x81873881071CD9FE()))
+	if (!unk_0x76B2D234F1895632(unk_0xE7869D5D7816A9B6()))
 	{
-		unk_0x1E2B48EE3EC55DCF(unk_0x81873881071CD9FE());
+		unk_0xDE31B2587775EDAD(unk_0xE7869D5D7816A9B6());
 	}
-	if (unk_0x86CCCD2FAE9D5E65(uLocal_17))
+	if (unk_0xD51CFE69539DB6D8(uLocal_18))
 	{
-		unk_0x5D00E836B6BE8693(&uLocal_17);
+		unk_0x9E55BD45B84E7BDC(&uLocal_18);
 	}
-	unk_0x887F4488DA99FD21(joaat("cuban800"));
-	unk_0xC23A229F78DAD92A();
+	unk_0x839E9476E54502A2(joaat("cuban800"));
+	unk_0x52F20802944F8DCE();
 }
 

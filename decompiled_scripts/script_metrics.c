@@ -16,9 +16,10 @@
 	float fLocal_14 = 0f;
 	var uLocal_15 = 0;
 	var uLocal_16 = 0;
-	var uLocal_17 = 0;
+	int iLocal_17 = 0;
 	var uLocal_18 = 0;
-	char* sLocal_19 = NULL;
+	var uLocal_19 = 0;
+	char* sLocal_20 = NULL;
 #endregion
 
 void __EntryFunction__()
@@ -34,6 +35,7 @@ void __EntryFunction__()
 	iLocal_10 = 12;
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
-	sLocal_19 = "NULL";
+	iLocal_17 = -1;
+	sLocal_20 = "NULL";
 }
 

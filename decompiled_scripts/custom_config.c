@@ -1,9 +1,9 @@
 void __EntryFunction__()
 {
-	if (unk_0x8D841F1DD3FA555F(3))
+	if (unk_0x89522B8E487D4EF9(3))
 	{
-		unk_0xC23A229F78DAD92A();
+		unk_0x52F20802944F8DCE();
 	}
-	unk_0xC23A229F78DAD92A();
+	unk_0x52F20802944F8DCE();
 }
 

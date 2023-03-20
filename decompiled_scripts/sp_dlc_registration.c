@@ -3,12 +3,12 @@ void __EntryFunction__()
 	int iVar0;
 	int iVar1;
 	
-	unk_0xC80B7D42E90CC8B5(&Global_2621548, 1, 1);
-	unk_0x76F8CFCB9559BEA2(&Global_2621548, "aFakeSavedInt");
-	unk_0x04F58C7477428C59();
-	unk_0xF3148AAF69AF9CBC(&Global_2550946, 0);
+	unk_0xE838C8466BD0AA3F(&Global_2621548, 1, 1);
+	unk_0x172AECEDC76A1D63(&Global_2621548, "aFakeSavedInt");
+	unk_0x099FA28A49395A50();
+	unk_0x9956FB0E4B50ECB8(&Global_2559171, 0);
 	iVar0 = 1;
-	iVar1 = unk_0xE7328001BC4C9D96(1);
+	iVar1 = unk_0xFAEC2D6E18F60333(1);
 	if (iVar0 != iVar1)
 	{
 	}

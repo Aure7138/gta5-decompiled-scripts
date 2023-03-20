@@ -16,9 +16,10 @@
 	float fLocal_14 = 0f;
 	var uLocal_15 = 0;
 	var uLocal_16 = 0;
-	var uLocal_17 = 0;
+	int iLocal_17 = 0;
 	var uLocal_18 = 0;
 	var uLocal_19 = 0;
+	var uLocal_20 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -34,9 +35,10 @@ void __EntryFunction__()
 	iLocal_10 = 12;
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
-	if (unk_0x8D841F1DD3FA555F(34))
+	iLocal_17 = -1;
+	if (unk_0x89522B8E487D4EF9(34))
 	{
-		unk_0xC23A229F78DAD92A();
+		unk_0x52F20802944F8DCE();
 	}
 }
 

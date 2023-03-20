@@ -16,6 +16,7 @@
 	float fLocal_14 = 0f;
 	var uLocal_15 = 0;
 	var uLocal_16 = 0;
+	int iLocal_17 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -31,5 +32,6 @@ void __EntryFunction__()
 	iLocal_10 = 12;
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
+	iLocal_17 = -1;
 }
 
