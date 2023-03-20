@@ -88,6 +88,11 @@
 	float fLocal_86 = 0f;
 	var uLocal_87 = 0;
 	var uLocal_88 = 0;
+	float fLocal_89 = 0f;
+	float fLocal_90 = 0f;
+	float fLocal_91 = 0f;
+	float fLocal_92 = 0f;
+	float fLocal_93 = 0f;
 #endregion
 
 void __EntryFunction__()
@@ -116,5 +121,10 @@ void __EntryFunction__()
 	iLocal_41 = 49;
 	iLocal_42 = 64;
 	fLocal_86 = ((0.05f + 0.275f) - 0.01f);
+	fLocal_89 = -0.05f;
+	fLocal_90 = 0.92f;
+	fLocal_91 = 1.94f;
+	fLocal_92 = 2.99f;
+	fLocal_93 = 3.7f;
 }
 
