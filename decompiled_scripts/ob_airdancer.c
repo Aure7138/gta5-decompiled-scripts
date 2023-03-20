@@ -2,35 +2,35 @@
 	var uLocal_0 = 0;
 	var uLocal_1 = 0;
 	int iLocal_2 = 0;
-	int iScriptParam_0 = 0;
+	var uScriptParam_0 = 0;
 #endregion
 
 void __EntryFunction__()
 {
-	if (unk_0xC968670BFACE42D9(2))
+	if (unk_0x7547D7CF93115D6D(2))
 	{
 		func_1();
 	}
-	if (unk_0x7239B21A38F536BA(iScriptParam_0))
+	if (unk_0xFD68187442384158(uScriptParam_0))
 	{
-		unk_0x428CA6DBD1094446(iScriptParam_0, true);
+		unk_0x479E7EEEBDEE245D(uScriptParam_0, 1);
 	}
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
-		if (unk_0x7239B21A38F536BA(iScriptParam_0))
+		if (unk_0xFD68187442384158(uScriptParam_0))
 		{
-			if (unk_0xCCBA154209823057(iScriptParam_0))
+			if (unk_0xDBBE1D10A2F589A7(uScriptParam_0))
 			{
 				switch (iLocal_2)
 				{
 					case 0:
-						if (unk_0x060D6E96F8B8E48D(iScriptParam_0))
+						if (unk_0xFBE2EB4D474675FC(uScriptParam_0))
 						{
-							unk_0xD3BD40951412FEF6("map_objects");
-							if (unk_0xD031A9162D01088C("map_objects"))
+							unk_0x395C5D98343F0040("map_objects");
+							if (unk_0xCE40391AB65FE305("map_objects"))
 							{
-								unk_0x7FB218262B810701(iScriptParam_0, "airdancer_test", "map_objects", 1f, true, false, false, 0f, 0);
+								unk_0x7FFC7B578074E5B8(uScriptParam_0, "airdancer_test", "map_objects", 1f, 1, 0, 0, 0, 0);
 								iLocal_2 = 1;
 							}
 						}
@@ -58,7 +58,7 @@ void __EntryFunction__()
 void func_1()
 {
 	func_2("ob_airdancer Terminated >>>>>>>>>>>>>>>>>\n");
-	unk_0x1090044AD1DA76FA();
+	unk_0x883793591E631A3B();
 }
 
 void func_2(char* sParam0)
@@ -66,9 +66,9 @@ void func_2(char* sParam0)
 	func_3(sParam0);
 }
 
-void func_3(char* sParam0)
+void func_3(var uParam0)
 {
-	if (unk_0x0C515FAB3FF9EA92(sParam0, sParam0))
+	if (unk_0xA858564DC37EED5E(uParam0, uParam0))
 	{
 	}
 }

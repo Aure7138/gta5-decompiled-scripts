@@ -36,13 +36,13 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	sLocal_19 = "NULL";
-	unk_0x9243BAC96D64C050();
+	unk_0x44E747EFAA4C6724();
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
 		if (func_1(ScriptParam_0.f_0, ScriptParam_0.f_1, ScriptParam_0.f_2))
 		{
-			unk_0x1090044AD1DA76FA();
+			unk_0x883793591E631A3B();
 		}
 	}
 }
@@ -317,7 +317,7 @@ int func_1(int iParam0, int iParam1, bool bParam2)
 		
 		case 50:
 			func_2();
-			unk_0xDA488F299A5B164E(&Global_2434318, &(Global_2434318.f_1), &(Global_2434318.f_2), &(Global_2434318.f_3), &(Global_2434318.f_4), &(Global_2434318.f_5));
+			unk_0xE447A3C9003CA31C(&Global_2434318, &(Global_2434318.f_1), &(Global_2434318.f_2), &(Global_2434318.f_3), &(Global_2434318.f_4), &(Global_2434318.f_5));
 			Global_262145.f_2301++;
 			break;
 		
@@ -1134,14 +1134,14 @@ void func_4(int iParam0, int iParam1, int iParam2, var uParam3, bool bParam4)
 	}
 }
 
-void func_5(int iParam0, int iParam1, var uParam2, bool bParam3)
+void func_5(int iParam0, var uParam1, var uParam2, bool bParam3)
 {
-	int iVar0;
+	var uVar0;
 	float fVar1;
 	
-	iVar0 = func_6(iParam0);
+	uVar0 = func_6(iParam0);
 	fVar1 = 0f;
-	if (!unk_0x972BC203BBC4C4D5(iVar0, iParam1, &fVar1))
+	if (!unk_0xC38AB0CDE29645A0(uVar0, uParam1, &fVar1))
 	{
 		if (bParam3)
 		{
@@ -1162,7 +1162,7 @@ int func_6(int iParam0)
 	{
 		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
 		StringIntConCat(&cVar0, (iParam0 - 25), 64);
-		return unk_0xD24D37CC275948CC(&cVar0);
+		return unk_0x3BA42EA02A10243D(&cVar0);
 	}
 	switch (iParam0)
 	{
@@ -1481,14 +1481,14 @@ void func_7(int iParam0, int iParam1, int iParam2, var uParam3, bool bParam4)
 	}
 }
 
-void func_8(int iParam0, int iParam1, var uParam2, bool bParam3)
+void func_8(int iParam0, var uParam1, var uParam2, bool bParam3)
 {
-	int iVar0;
+	var uVar0;
 	int iVar1;
 	
-	iVar0 = func_6(iParam0);
+	uVar0 = func_6(iParam0);
 	iVar1 = 0;
-	if (!unk_0x40FCE03E50E8DBE8(iVar0, iParam1, &iVar1))
+	if (!unk_0x7BEBDB94A54C399A(uVar0, uParam1, &iVar1))
 	{
 		if (bParam3)
 		{
@@ -1709,19 +1709,19 @@ void func_9(int iParam0, int iParam1, int iParam2, var uParam3, bool bParam4)
 	}
 }
 
-void func_10(int iParam0, int iParam1, var uParam2, bool bParam3)
+void func_10(int iParam0, var uParam1, var uParam2, bool bParam3)
 {
-	int iVar0;
+	var uVar0;
 	
-	iVar0 = func_6(iParam0);
-	if (!unk_0xE4E53E1419D81127(iVar0, iParam1))
+	uVar0 = func_6(iParam0);
+	if (!unk_0x71FE210603F89B9D(uVar0, uParam1))
 	{
 		if (bParam3)
 		{
 		}
 		return;
 	}
-	*uParam2 = unk_0xEA16B69D93D71A45(iVar0, iParam1);
+	*uParam2 = unk_0xC018BD2276FF7073(uVar0, uParam1);
 	if (bParam3)
 	{
 	}
@@ -3229,8 +3229,8 @@ void func_16(int iParam0, int iParam1)
 		StringIntConCat(&cVar1, iVar0, 32);
 		StringCopy(&cVar9, "RewardPlaylistItem_", 32);
 		StringIntConCat(&cVar9, iVar0, 32);
-		func_7(iParam0, iParam1, unk_0xD24D37CC275948CC(&cVar1), &(Global_262145.f_6235[iVar0]), 1);
-		func_7(iParam0, iParam1, unk_0xD24D37CC275948CC(&cVar9), &(Global_262145.f_6286[iVar0]), 1);
+		func_7(iParam0, iParam1, unk_0x3BA42EA02A10243D(&cVar1), &(Global_262145.f_6235[iVar0]), 1);
+		func_7(iParam0, iParam1, unk_0x3BA42EA02A10243D(&cVar9), &(Global_262145.f_6286[iVar0]), 1);
 		iVar0++;
 	}
 }
@@ -8851,10 +8851,10 @@ void func_59(int iParam0, int iParam1, bool bParam2)
 	{
 		StringCopy(&cVar1, "CRATE_DROP_WEAPON_", 32);
 		StringIntConCat(&cVar1, iVar0, 32);
-		func_7(iParam0, iParam1, unk_0xD24D37CC275948CC(&cVar1), &(Global_262145.f_15[iVar0]), 1);
+		func_7(iParam0, iParam1, unk_0x3BA42EA02A10243D(&cVar1), &(Global_262145.f_15[iVar0]), 1);
 		StringCopy(&cVar1, "CRATE_DROP_WEAPON_CLIPS_", 32);
 		StringIntConCat(&cVar1, iVar0, 32);
-		func_7(iParam0, iParam1, unk_0xD24D37CC275948CC(&cVar1), &(Global_262145.f_26[iVar0]), 1);
+		func_7(iParam0, iParam1, unk_0x3BA42EA02A10243D(&cVar1), &(Global_262145.f_26[iVar0]), 1);
 		iVar0++;
 	}
 	func_7(iParam0, iParam1, joaat("CRATE_DROP_CASH_MIN"), &(Global_262145.f_39), 1);

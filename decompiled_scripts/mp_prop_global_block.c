@@ -1520,7 +1520,7 @@ void func_5(int iParam0, int iParam1, var uParam2, int iParam3)
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_6(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_6(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0x163E252DE035A133(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0xDA0070A0FA486D72(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -1832,7 +1832,7 @@ Vector3 func_6(struct<3> Param0, float fParam3)
 	return Var0;
 }
 
-struct<6> func_7(int iParam0, int iParam1)
+struct<6> func_7(var uParam0, int iParam1)
 {
 	struct<3> Var0;
 	struct<3> Var3;
@@ -1840,7 +1840,7 @@ struct<6> func_7(int iParam0, int iParam1)
 	struct<6> Var7;
 	
 	bVar6 = iParam1 == 61;
-	unk_0xB335F761606DB47C(&Var0, &Var3, iParam0, bVar6);
+	unk_0x627A00405D8C1D2C(&Var0, &Var3, uParam0, bVar6);
 	Var7 = { Var0 };
 	Var7.f_3 = { Var3 };
 	return Var7;
@@ -5572,7 +5572,7 @@ void func_15(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struc
 	Var0 = { *uParam18 - Param0 };
 	Var0 = { func_6(Var0, -Param0.f_3.f_2) };
 	Var0 = { func_6(Var0, Param12.f_3.f_2) };
-	*uParam18 = { unk_0x163E252DE035A133(Param12, 0f, Var0) };
+	*uParam18 = { unk_0xDA0070A0FA486D72(Param12, 0f, Var0) };
 	if (!func_16(Param12.f_3, Param0.f_3))
 	{
 		while (Param0.f_3.f_2 > 180f)
@@ -6204,25 +6204,31 @@ struct<4> func_18(int iParam0)
 
 int func_19(int iParam0)
 {
-	char* sVar0;
-	int iVar16;
-	int iVar17;
-	struct<4> Var18;
-	struct<4> Var22;
+	int iVar0;
+	char* sVar1;
+	var uVar17;
+	var uVar18;
+	struct<4> Var19;
+	struct<4> Var23;
 	
-	if (unk_0x10FAB35428CCC9D7() && unk_0x48AF36444B965238())
+	if (unk_0xD95428C8AA1DBBF2() && unk_0x80AD636AD4184F2B())
 	{
-		func_20(&sVar0, iParam0);
-		iVar16 = unk_0xD24D37CC275948CC(&sVar0);
-		if (unk_0x247F0F73A182EA0B(iVar16))
+		iVar0 = 0;
+		if (func_21(iParam0))
 		{
-			iVar17 = unk_0xC27009422FCCA88D(iVar16, 426439576, true);
-			Var18 = { func_18(iParam0) };
-			return iVar17;
+			iVar0 = 1;
+		}
+		func_20(&sVar1, iParam0, iVar0);
+		uVar17 = unk_0x3BA42EA02A10243D(&sVar1);
+		if (unk_0xAA61C8EE6E2DDCA2(uVar17))
+		{
+			uVar18 = unk_0x08685E0829D91880(uVar17, 426439576, 1);
+			Var19 = { func_18(iParam0) };
+			return uVar18;
 		}
 		else
 		{
-			Var22 = { func_18(iParam0) };
+			Var23 = { func_18(iParam0) };
 		}
 	}
 	switch (iParam0)
@@ -6518,13 +6524,120 @@ int func_19(int iParam0)
 	return 0;
 }
 
-void func_20(char* sParam0, int iParam1)
+void func_20(char* sParam0, int iParam1, int iParam2)
 {
 	struct<4> Var0;
 	
 	Var0 = { func_18(iParam1) };
 	StringCopy(sParam0, "PR_", 64);
 	StringConCat(sParam0, &Var0, 64);
-	StringConCat(sParam0, "_t0_v0", 64);
+	StringConCat(sParam0, "_t0_v", 64);
+	StringIntConCat(sParam0, iParam2, 64);
+}
+
+int func_21(int iParam0)
+{
+	if (func_23() && func_22())
+	{
+		if (iParam0 == 31)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+
+int func_22()
+{
+	var uVar0;
+	var uVar1;
+	int iVar2;
+	var uVar3;
+	
+	if (unk_0x61D8FEAF64881CDA(Global_24, 1) || unk_0x61D8FEAF64881CDA(Global_24, 3))
+	{
+		return 1;
+	}
+	if (unk_0x85B80D0F84A3F70C())
+	{
+		uVar0 = unk_0x227FB8F9C772BAFB(866);
+		if (unk_0x61D8FEAF64881CDA(uVar0, 1) || unk_0x61D8FEAF64881CDA(uVar0, 3))
+		{
+			return 1;
+		}
+	}
+	if (unk_0xE802DF20297BD521(0))
+	{
+		if (Global_131418.f_3)
+		{
+			iVar2 = joaat("mpply_plat_up_lb_check");
+			if (unk_0x55FFE396AA3CA77A(iVar2, &uVar1, -1))
+			{
+				if (unk_0x61D8FEAF64881CDA(uVar1, 5))
+				{
+					return 1;
+				}
+			}
+		}
+	}
+	if (unk_0xA730AA29D1C70932())
+	{
+		if (unk_0x72B3C5483AF02F51())
+		{
+			if (unk_0x9785D134CB2612F6())
+			{
+				if (unk_0x85B80D0F84A3F70C())
+				{
+					uVar3 = unk_0x227FB8F9C772BAFB(866);
+					unk_0x3DBE2A7AF9E71C82(&uVar3, 1);
+					unk_0x3DBE2A7AF9E71C82(&uVar3, 3);
+					unk_0x6C25B3CA27EB626F(uVar3);
+				}
+				return 1;
+			}
+		}
+	}
+	return 0;
+}
+
+int func_23()
+{
+	var uVar0;
+	
+	if (unk_0x85B80D0F84A3F70C())
+	{
+		if (unk_0x61D8FEAF64881CDA(unk_0x227FB8F9C772BAFB(866), 0))
+		{
+			return 1;
+		}
+	}
+	if (!unk_0xD95428C8AA1DBBF2())
+	{
+		if (unk_0x61D8FEAF64881CDA(Global_97173.f_668.f_683, 7))
+		{
+			return 1;
+		}
+	}
+	if (Global_131417 == 2)
+	{
+		return 1;
+	}
+	if (unk_0xA730AA29D1C70932())
+	{
+		if (unk_0x72B3C5483AF02F51())
+		{
+			if (unk_0xFA66FD5789959E48())
+			{
+				if (unk_0x85B80D0F84A3F70C())
+				{
+					uVar0 = unk_0x227FB8F9C772BAFB(866);
+					unk_0x3DBE2A7AF9E71C82(&uVar0, 0);
+					unk_0x6C25B3CA27EB626F(uVar0);
+				}
+				return 1;
+			}
+		}
+	}
+	return 0;
 }
 

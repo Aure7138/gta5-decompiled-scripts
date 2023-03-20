@@ -90,8 +90,8 @@
 	var uLocal_88 = 0;
 	var uLocal_89 = 0;
 	var uLocal_90 = 0;
-	int iLocal_91 = 0;
-	int iLocal_92 = 0;
+	var uLocal_91 = 0;
+	var uLocal_92 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -119,7 +119,7 @@ void __EntryFunction__()
 	iLocal_85 = 65;
 	iLocal_86 = 49;
 	iLocal_87 = 64;
-	iLocal_91 = unk_0x4A9923385BDB9DAD();
-	iLocal_92 = unk_0x186E5D252FA50E7D();
+	uLocal_91 = unk_0xADC39FDF03F9D8CA();
+	uLocal_92 = unk_0x138F9DA1F3442BA3();
 }
 

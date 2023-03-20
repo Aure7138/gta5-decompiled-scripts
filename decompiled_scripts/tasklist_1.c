@@ -36,7 +36,7 @@ void __EntryFunction__()
 	iLocal_10 = 12;
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
-	if (unk_0xC968670BFACE42D9(2))
+	if (unk_0x7547D7CF93115D6D(2))
 	{
 		func_11();
 	}
@@ -77,13 +77,13 @@ void __EntryFunction__()
 				iLocal_21 = 0;
 				while (iLocal_21 < Global_16811[1 /*42*/].f_32[1])
 				{
-					if (!unk_0x84A2DD9AC37C35C1(unk_0xD80958FC74E988A6()))
+					if (!unk_0x9F94F2CFDCA78C55(unk_0x507DA4994C3D8EBD()))
 					{
-						if (unk_0x7239B21A38F536BA(uLocal_22[iLocal_21]))
+						if (unk_0xFD68187442384158(uLocal_22[iLocal_21]))
 						{
-							if (unk_0x84A2DD9AC37C35C1(uLocal_22[iLocal_21]))
+							if (unk_0x9F94F2CFDCA78C55(uLocal_22[iLocal_21]))
 							{
-								if (unk_0xC86D67D52A707CF8(uLocal_22[iLocal_21], unk_0xD80958FC74E988A6(), true))
+								if (unk_0x6255AE2591FE7603(uLocal_22[iLocal_21], unk_0x507DA4994C3D8EBD(), 1))
 								{
 									if (!Global_24494[iLocal_21])
 									{
@@ -91,11 +91,11 @@ void __EntryFunction__()
 										func_2("CL_C1A_J1", Global_16811[1 /*42*/].f_27[1], Global_16811[1 /*42*/].f_32[1], 2000, 1);
 										Global_24494[iLocal_21] = 1;
 									}
-									if (unk_0x5F9532F3B5CC2551(uLocal_22[iLocal_21]))
+									if (unk_0xE5D56342B0FF1D0D(uLocal_22[iLocal_21]))
 									{
 										if (!Global_24498[iLocal_21])
 										{
-											if (unk_0x439E9BC95B7E7FBE(uLocal_22[iLocal_21]) && func_1())
+											if (unk_0xBECFD8F397FC0300(uLocal_22[iLocal_21]) && func_1())
 											{
 												Global_16811[1 /*42*/].f_27[2]++;
 												func_2("CL_C1A_J2", Global_16811[1 /*42*/].f_27[2], Global_16811[1 /*42*/].f_32[2], 2000, 1);
@@ -181,21 +181,21 @@ int func_1()
 	return 0;
 }
 
-void func_2(char* sParam0, int iParam1, int iParam2, int iParam3, int iParam4)
+void func_2(char* sParam0, var uParam1, var uParam2, int iParam3, int iParam4)
 {
 	iParam4 = iParam4;
-	unk_0xB87A37EEB7FAA67D(sParam0);
-	unk_0x03B504CF259931BC(iParam1);
-	unk_0x03B504CF259931BC(iParam2);
-	unk_0x9D77056A530643F6(iParam3, false);
+	unk_0x328FE98BE3FE17FC(sParam0);
+	unk_0x844339A27F0F1508(uParam1);
+	unk_0x844339A27F0F1508(uParam2);
+	unk_0x6719DEAA365F81B2(iParam3, 0);
 }
 
 void func_3(char* sParam0, char* sParam1, int iParam2, int iParam3)
 {
 	iParam3 = iParam3;
-	unk_0xB87A37EEB7FAA67D(sParam0);
-	unk_0xC63CD5D2920ACBE7(sParam1);
-	unk_0x9D77056A530643F6(iParam2, false);
+	unk_0x328FE98BE3FE17FC(sParam0);
+	unk_0x923B18EB34FC2117(sParam1);
+	unk_0x6719DEAA365F81B2(iParam2, 0);
 }
 
 int func_4(int iParam0, int iParam1, bool bParam2, int iParam3)
@@ -213,7 +213,7 @@ int func_4(int iParam0, int iParam1, bool bParam2, int iParam3)
 
 int func_5(var uParam0, var uParam1, bool bParam2, int iParam3)
 {
-	if (unk_0x2C83A9DA6BFFC4F9(joaat("appsidetask")) > 0)
+	if (unk_0x25531002BCF0D968(joaat("appsidetask")) > 0)
 	{
 		return 0;
 	}
@@ -240,25 +240,25 @@ int func_5(var uParam0, var uParam1, bool bParam2, int iParam3)
 
 void func_6(int iParam0)
 {
-	int iVar0;
-	int iVar1;
-	int iVar2;
-	int iVar3;
+	var uVar0;
+	var uVar1;
+	var uVar2;
+	var uVar3;
 	var uVar4;
-	int iVar5;
+	var uVar5;
 	
-	iVar0 = unk_0x494E97C2EF27C470();
-	iVar1 = unk_0x13D2B8ADD79640F2();
-	iVar2 = unk_0x25223CA6B4D20B7F();
-	iVar3 = unk_0x3D10BC92A4DB1D35();
-	uVar4 = unk_0xBBC72712E80257A1() + 1;
-	iVar5 = unk_0x961777E64BDAF717();
-	Global_16980[iParam0 /*9*/].f_2 = iVar0;
-	Global_16980[iParam0 /*9*/].f_2.f_1 = iVar1;
-	Global_16980[iParam0 /*9*/].f_2.f_2 = iVar2;
-	Global_16980[iParam0 /*9*/].f_2.f_3 = iVar3;
+	uVar0 = unk_0x2784A8234E9B4202();
+	uVar1 = unk_0x06F66CEDC24218A4();
+	uVar2 = unk_0xE76C684D1C903A71();
+	uVar3 = unk_0xA277D6C04B4B44C8();
+	uVar4 = unk_0x1285C2DD1E4945FF() + 1;
+	uVar5 = unk_0xCFC08A7C99F98C5B();
+	Global_16980[iParam0 /*9*/].f_2 = uVar0;
+	Global_16980[iParam0 /*9*/].f_2.f_1 = uVar1;
+	Global_16980[iParam0 /*9*/].f_2.f_2 = uVar2;
+	Global_16980[iParam0 /*9*/].f_2.f_3 = uVar3;
 	Global_16980[iParam0 /*9*/].f_2.f_4 = uVar4;
-	Global_16980[iParam0 /*9*/].f_2.f_5 = iVar5;
+	Global_16980[iParam0 /*9*/].f_2.f_5 = uVar5;
 }
 
 void func_7()
@@ -365,6 +365,6 @@ int func_10()
 
 void func_11()
 {
-	unk_0x1090044AD1DA76FA();
+	unk_0x883793591E631A3B();
 }
 

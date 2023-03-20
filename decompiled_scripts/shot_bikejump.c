@@ -31,6 +31,6 @@ void __EntryFunction__()
 	iLocal_10 = 12;
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
-	unk_0x1090044AD1DA76FA();
+	unk_0x883793591E631A3B();
 }
 

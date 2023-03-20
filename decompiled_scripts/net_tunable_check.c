@@ -65,7 +65,7 @@ int func_1(var uParam0, var uParam1)
 	
 	if (uParam0->f_2)
 	{
-		if (unk_0xF0D31AD191A74F87(unk_0xA2C6FC031D46FFF0(unk_0x9CD27B0045628463(), uParam0->f_1)) >= uParam0->f_3)
+		if (unk_0xEC8415598F0CAF4B(unk_0x88702B74B95C046D(unk_0xF976C624234A4AA8(), uParam0->f_1)) >= uParam0->f_3)
 		{
 			func_4();
 		}
@@ -76,7 +76,7 @@ int func_1(var uParam0, var uParam1)
 		{
 			return 0;
 		}
-		if (unk_0x580CE4438479CC61())
+		if (unk_0x1E296600C34BA193())
 		{
 			func_3(*uParam0, &Var3);
 			iVar9 = 1367;
@@ -90,22 +90,22 @@ int func_1(var uParam0, var uParam1)
 						iVar10 = func_2(iVar2);
 						if (iVar10 != 0 && Var3.f_5 != 0)
 						{
-							if (unk_0x972BC203BBC4C4D5(iVar10, Var3.f_5, &fVar0))
+							if (unk_0xC38AB0CDE29645A0(iVar10, Var3.f_5, &fVar0))
 							{
 								if (fVar0 > Var3.f_1 || fVar0 < Var3.f_0)
 								{
 									uParam0->f_2 = 1;
-									uParam0->f_3 = unk_0xD53343AA4FB7DD28(20000, 30000);
-									uParam0->f_1 = unk_0x9CD27B0045628463();
+									uParam0->f_3 = unk_0x4D3E68F73B727E49(20000, 30000);
+									uParam0->f_1 = unk_0xF976C624234A4AA8();
 								}
 							}
-							else if (unk_0x40FCE03E50E8DBE8(iVar10, Var3.f_5, &iVar1))
+							else if (unk_0x7BEBDB94A54C399A(iVar10, Var3.f_5, &iVar1))
 							{
 								if (iVar1 > Var3.f_3 || iVar1 < Var3.f_2)
 								{
 									uParam0->f_2 = 1;
-									uParam0->f_3 = unk_0xD53343AA4FB7DD28(20000, 30000);
-									uParam0->f_1 = unk_0x9CD27B0045628463();
+									uParam0->f_3 = unk_0x4D3E68F73B727E49(20000, 30000);
+									uParam0->f_1 = unk_0xF976C624234A4AA8();
 								}
 							}
 						}
@@ -138,7 +138,7 @@ int func_2(int iParam0)
 	{
 		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
 		StringIntConCat(&cVar0, (iParam0 - 25), 64);
-		return unk_0xD24D37CC275948CC(&cVar0);
+		return unk_0x3BA42EA02A10243D(&cVar0);
 	}
 	switch (iParam0)
 	{
@@ -12613,15 +12613,15 @@ void func_3(int iParam0, var uParam1)
 
 void func_4()
 {
-	unk_0xB3CD58CCA6CDA852();
-	unk_0x1A992DA297A4630C(-9f, -9f, -9f, -10f, -10f, -10f, -25f, -25f, -25f, -28f, -28f, -28f, 0f, 0f, 0f, 0, 0);
-	unk_0x1B5C85C612E5256E(-9f, -9f, -9f, -10f, -10f, -10f, false, true, true, true);
+	unk_0xA3B698C66AC447B6();
+	unk_0x4A249A9E5CAAF96D(-9f, -9f, -9f, -10f, -10f, -10f, -25f, -25f, -25f, -28f, -28f, -28f, 0f, 0f, 0f, 0, 0);
+	unk_0x92832F671263F8E0(-9f, -9f, -9f, -10f, -10f, -10f, 0, 1, 1, 1);
 	func_4();
 }
 
 void func_5()
 {
-	unk_0x1090044AD1DA76FA();
+	unk_0x883793591E631A3B();
 }
 
 int func_6()
@@ -12635,7 +12635,7 @@ int func_6()
 	}
 	if (Global_1315872 == 0)
 	{
-		if (!unk_0x10FAB35428CCC9D7())
+		if (!unk_0xD95428C8AA1DBBF2())
 		{
 			return 1;
 		}
@@ -12644,7 +12644,7 @@ int func_6()
 	{
 		return 1;
 	}
-	if (Global_2436713)
+	if (Global_2436715)
 	{
 		return 1;
 	}
@@ -12663,13 +12663,13 @@ int func_6()
 	{
 		return 1;
 	}
-	if (!unk_0x1077788E268557C2())
+	if (!unk_0x0E4B4CA22DBCFA69())
 	{
 		return 1;
 	}
 	if (func_7() != 0)
 	{
-		if (unk_0x2C83A9DA6BFFC4F9(func_7()) == 0)
+		if (unk_0x25531002BCF0D968(func_7()) == 0)
 		{
 			return 1;
 		}
@@ -12704,7 +12704,7 @@ bool func_9()
 
 int func_10(int iParam0)
 {
-	if (unk_0x936E6168A9BCEDB5(1, iParam0))
+	if (unk_0x289D054E2E18C82E(1, iParam0))
 	{
 		return 1;
 	}
@@ -12729,12 +12729,12 @@ void func_13(var uParam0)
 	struct<3> Var4;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0x5F92A689A06620AA(1))
+	while (iVar0 < unk_0xB301423C53556EA6(1))
 	{
-		iVar1 = unk_0xD8F66A3A60C62153(1, iVar0);
+		iVar1 = unk_0xAAB64DCC229F922F(1, iVar0);
 		if (iVar1 == 168)
 		{
-			unk_0x2902843FCD2B2D79(1, iVar0, &iVar2, 2);
+			unk_0x6EDD33D6B8546C95(1, iVar0, &iVar2, 2);
 			switch (iVar2)
 			{
 				case 305:
@@ -12742,7 +12742,7 @@ void func_13(var uParam0)
 					break;
 				
 				case 2:
-					unk_0x2902843FCD2B2D79(1, iVar0, &Var4, 3);
+					unk_0x6EDD33D6B8546C95(1, iVar0, &Var4, 3);
 					if (Var4.f_2 == 53)
 					{
 						*uParam0 = 1;
@@ -12757,29 +12757,29 @@ void func_13(var uParam0)
 void func_14(int iParam0)
 {
 	struct<3> Var0;
-	int iVar3;
-	int iVar4;
+	var uVar3;
+	var uVar4;
 	bool bVar5;
 	
-	if (unk_0x2902843FCD2B2D79(1, iParam0, &Var0, 3))
+	if (unk_0x6EDD33D6B8546C95(1, iParam0, &Var0, 3))
 	{
 		if (func_16(Var0.f_1, 1, 1))
 		{
-			iVar3 = unk_0x43A66C31C68491C0(Var0.f_1);
-			if (unk_0x7239B21A38F536BA(iVar3))
+			uVar3 = unk_0x687D51F360787909(Var0.f_1);
+			if (unk_0xFD68187442384158(uVar3))
 			{
-				if (unk_0x997ABD671D25CA0B(iVar3, false))
+				if (unk_0x2A24448FF232F834(uVar3, 0))
 				{
-					iVar4 = unk_0x9A9112A0FE9A4713(iVar3, false);
-					if (unk_0x46E571A0E20D01F1(iVar4, Var0.f_2) && unk_0x2910669969E9535E())
+					uVar4 = unk_0x78AB10B64129B3D5(uVar3, 0);
+					if (unk_0x9067781626AA370D(uVar4, Var0.f_2) && unk_0x0D1738F09A13D367())
 					{
-						if (func_15(iVar4, &bVar5))
+						if (func_15(uVar4, &bVar5))
 						{
-							unk_0xA711568EEDB43069(iVar4, Var0.f_2);
+							unk_0xA8B02A3D719BC7B0(uVar4, Var0.f_2);
 						}
 						if (bVar5)
 						{
-							unk_0x629BFA74418D6239(&iVar4);
+							unk_0xB67623A401171555(&uVar4);
 						}
 					}
 				}
@@ -12788,21 +12788,21 @@ void func_14(int iParam0)
 	}
 }
 
-int func_15(int iParam0, var uParam1)
+int func_15(var uParam0, var uParam1)
 {
-	if (unk_0x7239B21A38F536BA(iParam0))
+	if (unk_0xFD68187442384158(uParam0))
 	{
-		if (!unk_0x0A7B270912999B3C(iParam0))
+		if (!unk_0x73E2404DC70203CD(uParam0))
 		{
-			if (unk_0x0991549DE4D64762(iParam0))
+			if (unk_0x9ACF2D423F8B5749(uParam0))
 			{
-				unk_0xAD738C3085FE7E11(iParam0, false, true);
+				unk_0xBAE5DF507EEC53C8(uParam0, 0, 1);
 				*uParam1 = 1;
 			}
 		}
-		if (unk_0xDDE6DF5AE89981D2(iParam0, false))
+		if (unk_0x51BC2FF711F8CF71(uParam0, 0))
 		{
-			if (unk_0x01BF60A500E28887(iParam0))
+			if (unk_0xFE0D96A75DA37EB0(uParam0))
 			{
 				return 1;
 			}
@@ -12811,16 +12811,16 @@ int func_15(int iParam0, var uParam1)
 	return 0;
 }
 
-int func_16(int iParam0, bool bParam1, bool bParam2)
+int func_16(var uParam0, bool bParam1, bool bParam2)
 {
 	int iVar0;
 	
-	iVar0 = iParam0;
-	if (unk_0xB8DFD30D6973E135(iParam0))
+	iVar0 = uParam0;
+	if (unk_0xB832D52B86777A35(uParam0))
 	{
 		if (bParam1)
 		{
-			if (!unk_0x5E9564D8246B909A(iParam0))
+			if (!unk_0x52A84D9C3A400EA8(uParam0))
 			{
 				return 0;
 			}
