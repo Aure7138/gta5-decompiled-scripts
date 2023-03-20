@@ -96,6 +96,7 @@
 	float fLocal_94 = 0f;
 	float fLocal_95 = 0f;
 	float fLocal_96 = 0f;
+	var uLocal_97 = 0;
 #endregion
 
 void __EntryFunction__()
