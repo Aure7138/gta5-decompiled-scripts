@@ -1,5 +1,5 @@
 void __EntryFunction__()
 {
-	unk_0xE60DEFFB2A853900();
+	unk_0x82706E6C897B0FA1();
 }
 
