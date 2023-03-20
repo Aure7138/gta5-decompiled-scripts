@@ -29,7 +29,7 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	Global_3934084 = 1;
 	Global_3934085 = 1;
-	unk_0x60F2C6DC397A6833();
+	unk_0x6516E26C513581FA();
 	func_20();
 	iVar0 = 0;
 	while (iVar0 < 36)
@@ -139,7 +139,7 @@ void func_3(int iParam0, int iParam1, var uParam2, bool bParam3)
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_4(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_4(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0x8E183FB8F99DD2D7(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0x90B89006901451E8(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -516,7 +516,7 @@ struct<6> func_5(int iParam0, int iParam1)
 			break;
 	}
 	bVar6 = iParam1 == 61;
-	unk_0x653909CE9F2741FB(&Var0, &Var3, iParam0, bVar6);
+	unk_0xED89A0464E204F9A(&Var0, &Var3, iParam0, bVar6);
 	Var7 = { Var0 };
 	Var7.f_3 = { Var3 };
 	return Var7;
@@ -569,7 +569,7 @@ struct<6> func_6(int iParam0, int iParam1)
 				
 				case 2:
 					Var0 = { -1398.001f, -477.7338f, 74.10992f };
-					Var0.f_3 = { 0f, 0f, 6.4421f };
+					Var0.f_3 = { 0f, 0f, 12f };
 					break;
 				
 				case 3:
@@ -2055,7 +2055,7 @@ struct<6> func_6(int iParam0, int iParam1)
 				
 				case 673:
 					Var0 = { -1397.326f, -482.5123f, 74.08271f };
-					Var0.f_3 = { 0f, 0f, 194.5057f };
+					Var0.f_3 = { 0f, 0f, -169.52f };
 					break;
 				
 				case 666:
@@ -2269,12 +2269,12 @@ struct<6> func_6(int iParam0, int iParam1)
 					break;
 				
 				case 713:
-					Var0 = { -1371.157f, -479.4782f, 71.04215f };
-					Var0.f_3 = { 3.25f, 0f, 0f };
+					Var0 = { -1375.476f, -472.02f, 71.04213f };
+					Var0.f_3 = { 0.75f, 0f, 0f };
 					break;
 				
 				case 632:
-					Var0 = { -1372.074f, -473.3848f, 73.54215f };
+					Var0 = { -1381.54f, -472.8741f, 73.29213f };
 					Var0.f_3 = { 0f, 0f, 0f };
 					break;
 				
@@ -2409,17 +2409,17 @@ struct<6> func_6(int iParam0, int iParam1)
 					break;
 				
 				case 741:
-					Var0 = { -1367.549f, -482.0912f, 71.05217f };
-					Var0.f_3 = { 1.25f, 0f, 0f };
+					Var0 = { -1368.093f, -482.4732f, 71.04211f };
+					Var0.f_3 = { 3.5f, 0f, 0f };
 					break;
 				
 				case 742:
-					Var0 = { -1366.609f, -481.9662f, 73.79217f };
+					Var0 = { -1368.34f, -480.3129f, 73.29211f };
 					Var0.f_3 = { 0f, 0f, 0f };
 					break;
 				
 				case 743:
-					Var0 = { -1368.201f, -482.1139f, 71.0421f };
+					Var0 = { -1370.5f, -481.3f, 71.0421f };
 					Var0.f_3 = { 0f, 0f, 0f };
 					break;
 				
@@ -2691,12 +2691,12 @@ struct<6> func_6(int iParam0, int iParam1)
 					break;
 				
 				case 806:
-					Var0 = { -1370.561f, -474.6018f, 71.04213f };
-					Var0.f_3 = { 3.75f, 0f, 0f };
+					Var0 = { -1371.157f, -479.4782f, 71.04215f };
+					Var0.f_3 = { 3.25f, 0f, 0f };
 					break;
 				
 				case 807:
-					Var0 = { -1370.13f, -477.8921f, 73.54213f };
+					Var0 = { -1372.074f, -473.3848f, 73.54215f };
 					Var0.f_3 = { 0f, 0f, 0f };
 					break;
 				
@@ -2791,8 +2791,8 @@ struct<6> func_6(int iParam0, int iParam1)
 					break;
 				
 				case 826:
-					Var0 = { -1380.28f, -474.1296f, 71.0421f };
-					Var0.f_3 = { 0f, 0f, 191.9762f };
+					Var0 = { -1380.775f, -474.2398f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
 					break;
 				
 				case 827:
@@ -12711,7 +12711,7 @@ void func_14(int iParam0, int iParam1, var uParam2, int iParam3)
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_4(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_4(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0x8E183FB8F99DD2D7(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0x90B89006901451E8(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -13798,7 +13798,7 @@ void func_18(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struc
 	Var0 = { *uParam18 - Param0 };
 	Var0 = { func_4(Var0, -Param0.f_3.f_2) };
 	Var0 = { func_4(Var0, Param12.f_3.f_2) };
-	*uParam18 = { unk_0x8E183FB8F99DD2D7(Param12, 0f, Var0) };
+	*uParam18 = { unk_0x90B89006901451E8(Param12, 0f, Var0) };
 	if (!func_19(Param12.f_3, Param0.f_3, 0))
 	{
 		while (Param0.f_3.f_2 > 180f)

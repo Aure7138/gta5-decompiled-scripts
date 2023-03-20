@@ -37,14 +37,14 @@ void __EntryFunction__()
 	Global_1318854 = 0.23f;
 	Global_1318855 = 0.77f;
 	Global_1332276 = -1;
-	Global_1347792 = 7500;
-	Global_1347793 = 250;
-	Global_1347794 = 7250;
-	Global_1347795 = 250;
-	Global_1347796 = 0.15f;
-	Global_1347797 = 0f;
-	Global_1347798 = 220;
-	Global_1347852 = -1;
-	Global_1348764 = -1;
+	Global_1347851 = 7500;
+	Global_1347852 = 250;
+	Global_1347853 = 7250;
+	Global_1347854 = 250;
+	Global_1347855 = 0.15f;
+	Global_1347856 = 0f;
+	Global_1347857 = 220;
+	Global_1347911 = -1;
+	Global_1348823 = -1;
 }
 
