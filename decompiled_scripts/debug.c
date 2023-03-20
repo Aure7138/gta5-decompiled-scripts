@@ -56,7 +56,7 @@
 	var uLocal_54 = 0;
 	var uLocal_55 = 0;
 	var uLocal_56 = 0;
-	var uLocal_57 = 8;
+	var uLocal_57 = 10;
 	var uLocal_58 = 0;
 	var uLocal_59 = 0;
 	var uLocal_60 = 0;
@@ -65,36 +65,39 @@
 	var uLocal_63 = 0;
 	var uLocal_64 = 0;
 	var uLocal_65 = 0;
-	var uLocal_66 = 2;
+	var uLocal_66 = 0;
 	var uLocal_67 = 0;
-	var uLocal_68 = 0;
-	var uLocal_69 = 8;
+	var uLocal_68 = 2;
+	var uLocal_69 = 0;
 	var uLocal_70 = 0;
-	var uLocal_71 = 0;
+	var uLocal_71 = 8;
 	var uLocal_72 = 0;
 	var uLocal_73 = 0;
 	var uLocal_74 = 0;
 	var uLocal_75 = 0;
 	var uLocal_76 = 0;
 	var uLocal_77 = 0;
-	var uLocal_78 = 8;
+	var uLocal_78 = 0;
 	var uLocal_79 = 0;
-	var uLocal_80 = 0;
+	var uLocal_80 = 8;
 	var uLocal_81 = 0;
 	var uLocal_82 = 0;
 	var uLocal_83 = 0;
 	var uLocal_84 = 0;
 	var uLocal_85 = 0;
 	var uLocal_86 = 0;
-	float fLocal_87 = 0f;
+	var uLocal_87 = 0;
 	var uLocal_88 = 0;
 	var uLocal_89 = 0;
 	float fLocal_90 = 0f;
-	float fLocal_91 = 0f;
-	float fLocal_92 = 0f;
+	var uLocal_91 = 0;
+	var uLocal_92 = 0;
 	float fLocal_93 = 0f;
 	float fLocal_94 = 0f;
-	var uLocal_95 = 0;
+	float fLocal_95 = 0f;
+	float fLocal_96 = 0f;
+	float fLocal_97 = 0f;
+	var uLocal_98 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -123,11 +126,11 @@ void __EntryFunction__()
 	iLocal_41 = 65;
 	iLocal_42 = 49;
 	iLocal_43 = 64;
-	fLocal_87 = ((0.05f + 0.275f) - 0.01f);
-	fLocal_90 = -0.05f;
-	fLocal_91 = 0.92f;
-	fLocal_92 = 1.94f;
-	fLocal_93 = 2.99f;
-	fLocal_94 = 3.7f;
+	fLocal_90 = ((0.05f + 0.275f) - 0.01f);
+	fLocal_93 = -0.05f;
+	fLocal_94 = 0.92f;
+	fLocal_95 = 1.94f;
+	fLocal_96 = 2.99f;
+	fLocal_97 = 3.7f;
 }
 

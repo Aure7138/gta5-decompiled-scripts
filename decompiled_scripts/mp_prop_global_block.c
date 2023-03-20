@@ -27,12 +27,12 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	Global_1226367 = -1;
-	unk_0x6516E26C513581FA();
+	Global_1247959 = -1;
+	unk_0xB64A6F2B8046CEF8();
 	iVar0 = 0;
-	while (iVar0 < 91)
+	while (iVar0 < 103)
 	{
-		func_1(&(Global_1049163[iVar0 /*1924*/]), iVar0);
+		func_1(&(Global_1049287[iVar0 /*1908*/]), iVar0);
 		iVar0++;
 	}
 }
@@ -54,15 +54,16 @@ int func_1(var uParam0, int iParam1)
 		uParam0->f_1876[iVar0] = 0;
 		iVar0++;
 	}
-	uParam0->f_32 = func_32(iParam1);
-	uParam0->f_16 = { func_31(iParam1) };
-	uParam0->f_20 = { func_30(iParam1) };
+	uParam0->f_32 = func_37(iParam1);
+	uParam0->f_16 = { func_36(iParam1) };
+	uParam0->f_20 = { func_35(iParam1) };
+	func_33(uParam0, iParam1);
 	switch (iParam1)
 	{
 		case 1:
 			uParam0->f_35 = 1;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 1;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -71,8 +72,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 2:
 			uParam0->f_35 = 1;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 2;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -81,8 +82,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 3:
 			uParam0->f_35 = 1;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 3;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -91,8 +92,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 4:
 			uParam0->f_35 = 1;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 4;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -101,8 +102,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 61:
 			uParam0->f_35 = 1;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 61;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -111,7 +112,7 @@ int func_1(var uParam0, int iParam1)
 		
 		case 87:
 			uParam0->f_35 = 68;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 87;
 			func_3(uParam0, 87);
 			uParam0->f_34 = 3;
@@ -120,7 +121,7 @@ int func_1(var uParam0, int iParam1)
 		
 		case 88:
 			uParam0->f_35 = 69;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 88;
 			func_3(uParam0, 88);
 			uParam0->f_34 = 3;
@@ -129,7 +130,7 @@ int func_1(var uParam0, int iParam1)
 		
 		case 89:
 			uParam0->f_35 = 70;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 89;
 			func_3(uParam0, 89);
 			uParam0->f_34 = 3;
@@ -138,7 +139,7 @@ int func_1(var uParam0, int iParam1)
 		
 		case 90:
 			uParam0->f_35 = 71;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 90;
 			func_3(uParam0, 90);
 			uParam0->f_34 = 3;
@@ -147,8 +148,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 5:
 			uParam0->f_35 = 2;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 5;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -157,8 +158,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 6:
 			uParam0->f_35 = 2;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 6;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -167,8 +168,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 7:
 			uParam0->f_35 = 3;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 7;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -177,8 +178,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 34:
 			uParam0->f_35 = 3;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 34;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -187,8 +188,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 62:
 			uParam0->f_35 = 3;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 62;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -197,8 +198,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 35:
 			uParam0->f_35 = 4;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 35;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -207,8 +208,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 36:
 			uParam0->f_35 = 4;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 36;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -217,8 +218,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 37:
 			uParam0->f_35 = 4;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 37;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -227,8 +228,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 38:
 			uParam0->f_35 = 5;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 38;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -237,8 +238,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 39:
 			uParam0->f_35 = 5;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 39;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -247,8 +248,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 65:
 			uParam0->f_35 = 5;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 65;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -257,8 +258,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 40:
 			uParam0->f_35 = 6;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 40;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -267,8 +268,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 41:
 			uParam0->f_35 = 6;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 41;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -277,8 +278,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 63:
 			uParam0->f_35 = 6;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 63;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -287,8 +288,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 42:
 			uParam0->f_35 = 7;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 42;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -297,8 +298,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 43:
 			uParam0->f_35 = 7;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 43;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -307,8 +308,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 64:
 			uParam0->f_35 = 7;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 64;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -317,8 +318,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 73:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 73;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -327,8 +328,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 74:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 74;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -337,8 +338,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 75:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 75;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -347,8 +348,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 76:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 76;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -357,8 +358,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 77:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 77;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -367,8 +368,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 78:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 78;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -377,8 +378,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case joaat("mpsv_lp0_31"):
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 79;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -387,8 +388,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 80:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 80;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -397,8 +398,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 81:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 81;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -407,8 +408,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 82:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 82;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -417,8 +418,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 83:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 83;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -427,8 +428,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 84:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 84;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -437,8 +438,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 85:
 			uParam0->f_35 = func_2(iParam1);
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 10);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 10);
 			uParam0->f_31 = 85;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -447,8 +448,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 8:
 			uParam0->f_35 = 8;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 8;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -457,8 +458,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 9:
 			uParam0->f_35 = 9;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 9;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -467,8 +468,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 10:
 			uParam0->f_35 = 10;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 10;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -477,8 +478,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 11:
 			uParam0->f_35 = 11;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 11;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -487,8 +488,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 12:
 			uParam0->f_35 = 12;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 12;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -497,8 +498,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 13:
 			uParam0->f_35 = 13;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 13;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -507,8 +508,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 14:
 			uParam0->f_35 = 14;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 14;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -517,8 +518,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 15:
 			uParam0->f_35 = 15;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 15;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -527,8 +528,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 16:
 			uParam0->f_35 = 16;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 16;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -537,8 +538,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 17:
 			uParam0->f_35 = 17;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 17;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -547,8 +548,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 18:
 			uParam0->f_35 = 18;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 18;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -557,8 +558,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 19:
 			uParam0->f_35 = 19;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 19;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -567,8 +568,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 20:
 			uParam0->f_35 = 20;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 20;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -577,8 +578,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 21:
 			uParam0->f_35 = 21;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 21;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -587,8 +588,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 22:
 			uParam0->f_35 = 22;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 22;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -597,8 +598,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 23:
 			uParam0->f_35 = 23;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 23;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -607,251 +608,251 @@ int func_1(var uParam0, int iParam1)
 		
 		case 24:
 			uParam0->f_35 = 24;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 24;
-			func_21(uParam0, 10);
+			func_23(uParam0, 10);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 25:
 			uParam0->f_35 = 25;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 25;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 26:
 			uParam0->f_35 = 26;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 26;
-			func_21(uParam0, 10);
+			func_23(uParam0, 10);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 27:
 			uParam0->f_35 = 27;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 27;
-			func_21(uParam0, 10);
+			func_23(uParam0, 10);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 28:
 			uParam0->f_35 = 28;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 28;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 29:
 			uParam0->f_35 = 29;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 29;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 30:
 			uParam0->f_35 = 30;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 30;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 31:
 			uParam0->f_35 = 31;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 31;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 32:
 			uParam0->f_35 = 32;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 32;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 33:
 			uParam0->f_35 = 33;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 33;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 44:
 			uParam0->f_35 = 34;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 44;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 45:
 			uParam0->f_35 = 35;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 45;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 46:
 			uParam0->f_35 = 36;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 46;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 47:
 			uParam0->f_35 = 37;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 47;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 48:
 			uParam0->f_35 = 38;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 48;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 49:
 			uParam0->f_35 = 39;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 49;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 50:
 			uParam0->f_35 = 40;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 50;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 51:
 			uParam0->f_35 = 41;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 51;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 52:
 			uParam0->f_35 = 42;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 52;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 53:
 			uParam0->f_35 = 43;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 53;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 54:
 			uParam0->f_35 = 44;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 54;
-			func_21(uParam0, 10);
+			func_23(uParam0, 10);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 55:
 			uParam0->f_35 = 45;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 55;
-			func_21(uParam0, 6);
+			func_23(uParam0, 6);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 56:
 			uParam0->f_35 = 46;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 56;
-			func_21(uParam0, 10);
+			func_23(uParam0, 10);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 57:
 			uParam0->f_35 = 47;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 57;
-			func_21(uParam0, 10);
+			func_23(uParam0, 10);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 58:
 			uParam0->f_35 = 48;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 58;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 59:
 			uParam0->f_35 = 49;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 59;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 60:
 			uParam0->f_35 = 50;
-			func_23(uParam0, uParam0->f_35);
+			func_25(uParam0, uParam0->f_35);
 			uParam0->f_31 = 60;
-			func_21(uParam0, 2);
+			func_23(uParam0, 2);
 			uParam0->f_34 = 1;
 			return 1;
 			break;
 		
 		case 66:
 			uParam0->f_35 = 51;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 66;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -860,8 +861,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 67:
 			uParam0->f_35 = 52;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 67;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -870,8 +871,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 68:
 			uParam0->f_35 = 53;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 68;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -880,8 +881,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 69:
 			uParam0->f_35 = 54;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 6);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 6);
 			uParam0->f_31 = 69;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -890,8 +891,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 70:
 			uParam0->f_35 = 55;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 70;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -899,8 +900,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 71:
 			uParam0->f_35 = 56;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 71;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -909,8 +910,8 @@ int func_1(var uParam0, int iParam1)
 		
 		case 72:
 			uParam0->f_35 = 57;
-			func_23(uParam0, uParam0->f_35);
-			func_21(uParam0, 2);
+			func_25(uParam0, uParam0->f_35);
+			func_23(uParam0, 2);
 			uParam0->f_31 = 72;
 			func_3(uParam0, uParam0->f_31);
 			uParam0->f_34 = 0;
@@ -1225,6 +1226,54 @@ int func_2(int iParam0)
 		case 90:
 			return 71;
 			break;
+		
+		case 91:
+			return 72;
+			break;
+		
+		case 92:
+			return 73;
+			break;
+		
+		case 93:
+			return 74;
+			break;
+		
+		case 94:
+			return 75;
+			break;
+		
+		case 95:
+			return 76;
+			break;
+		
+		case 96:
+			return 77;
+			break;
+		
+		case 97:
+			return 78;
+			break;
+		
+		case 98:
+			return 79;
+			break;
+		
+		case 99:
+			return 80;
+			break;
+		
+		case 100:
+			return 81;
+			break;
+		
+		case 101:
+			return 82;
+			break;
+		
+		case 102:
+			return 83;
+			break;
 	}
 	return 0;
 }
@@ -1276,356 +1325,376 @@ void func_3(var uParam0, int iParam1)
 		case 88:
 		case 89:
 		case 90:
-			iVar6 = func_20(iParam1);
-			func_18(iParam1, 278, &Var0, iVar6);
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+		case 101:
+		case 102:
+			iVar6 = func_22(iParam1);
+			func_20(iParam1, 278, &Var0, iVar6);
 			uParam0->f_121[0 /*12*/] = { Var0 };
-			func_18(iParam1, 279, &Var0, iVar6);
+			func_20(iParam1, 279, &Var0, iVar6);
 			uParam0->f_121[0 /*12*/].f_3 = { Var0 };
-			func_18(iParam1, 282, &Var0, iVar6);
+			func_20(iParam1, 282, &Var0, iVar6);
 			uParam0->f_121[0 /*12*/].f_7 = { Var0 };
-			func_18(iParam1, 280, &Var0, iVar6);
+			func_20(iParam1, 280, &Var0, iVar6);
 			uParam0->f_121[1 /*12*/] = { Var0 };
-			func_18(iParam1, 281, &Var0, iVar6);
+			func_20(iParam1, 281, &Var0, iVar6);
 			uParam0->f_121[1 /*12*/].f_3 = { Var0 };
-			func_18(iParam1, 282, &Var0, iVar6);
+			func_20(iParam1, 282, &Var0, iVar6);
 			uParam0->f_121[0 /*12*/].f_7 = { Var0 };
 			uParam0->f_121[0 /*12*/].f_10 = Var0.f_3;
 			uParam0->f_121[0 /*12*/].f_11 = Var0.f_3.f_1;
-			func_18(iParam1, 283, &Var0, iVar6);
+			func_20(iParam1, 283, &Var0, iVar6);
 			uParam0->f_121[1 /*12*/].f_7 = { Var0 };
 			uParam0->f_121[1 /*12*/].f_10 = Var0.f_3;
 			uParam0->f_121[1 /*12*/].f_11 = Var0.f_3.f_1;
-			func_18(iParam1, 6, &Var0, iVar6);
+			func_20(iParam1, 6, &Var0, iVar6);
 			uParam0->f_38[0 /*27*/].f_8 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_11 = Var0.f_3.f_2;
-			func_18(iParam1, 1, &Var0, iVar6);
+			func_20(iParam1, 1, &Var0, iVar6);
 			uParam0->f_146[0 /*12*/] = { Var0 };
-			func_18(iParam1, 2, &Var0, iVar6);
+			func_20(iParam1, 2, &Var0, iVar6);
 			uParam0->f_146[0 /*12*/].f_3 = { Var0 };
-			if (func_17(iParam1) || func_16(iParam1, -1))
+			if (func_19(iParam1) || func_18(iParam1, -1))
 			{
 				uParam0->f_146[0 /*12*/].f_6 = 1f;
+			}
+			else if (func_17(iParam1, 91))
+			{
+				uParam0->f_146[0 /*12*/].f_6 = 2f;
+			}
+			else if (func_17(iParam1, 97))
+			{
+				uParam0->f_146[0 /*12*/].f_6 = 2.25f;
 			}
 			else
 			{
 				uParam0->f_146[0 /*12*/].f_6 = 3.5f;
 			}
 			uParam0->f_146[0 /*12*/].f_7 = Var0.f_3.f_2;
-			if (func_15(iParam1))
+			if (func_16(iParam1))
 			{
-				func_18(iParam1, 672, &Var0, iVar6);
+				func_20(iParam1, 672, &Var0, iVar6);
 				uParam0->f_146[1 /*12*/] = { Var0 };
-				func_18(iParam1, 673, &Var0, iVar6);
+				func_20(iParam1, 673, &Var0, iVar6);
 				uParam0->f_146[1 /*12*/].f_3 = { Var0 };
 				uParam0->f_146[1 /*12*/].f_6 = 3.5f;
 				uParam0->f_146[1 /*12*/].f_7 = Var0.f_3.f_2;
 			}
-			func_18(iParam1, 7, &Var0, iVar6);
+			func_20(iParam1, 7, &Var0, iVar6);
 			uParam0->f_146.f_37 = { Var0 };
-			func_18(iParam1, 8, &Var0, iVar6);
+			func_20(iParam1, 8, &Var0, iVar6);
 			uParam0->f_146.f_40 = { Var0 };
 			uParam0->f_146.f_43 = { Var0.f_3 };
 			uParam0->f_146.f_46 = 62.8385f;
-			func_18(iParam1, 3, &Var0, iVar6);
+			func_20(iParam1, 3, &Var0, iVar6);
 			uParam0->f_146.f_47 = { Var0 };
-			func_14(&(uParam0->f_146.f_57), iParam1);
-			if (func_20(iParam1) == 86)
+			func_15(&(uParam0->f_146.f_57), iParam1);
+			if (func_22(iParam1) == 86)
 			{
-				func_18(iParam1, 341, &Var0, 86);
+				func_20(iParam1, 341, &Var0, 86);
 				uParam0->f_146.f_1595 = Var0.f_3.f_2;
 				uParam0->f_146.f_1592 = { Var0 };
 			}
-			func_18(iParam1, 15, &Var0, iVar6);
+			func_20(iParam1, 15, &Var0, iVar6);
 			uParam0->f_146.f_50 = { Var0 };
 			func_4(iParam1, &(uParam0->f_146.f_53), &(uParam0->f_146.f_56), -1);
-			func_18(iParam1, 46, &Var0, iVar6);
+			func_20(iParam1, 46, &Var0, iVar6);
 			uParam0->f_146.f_82[1 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[1 /*102*/].f_3 = Var0.f_3.f_2;
-			func_18(iParam1, 48, &Var0, iVar6);
+			func_20(iParam1, 48, &Var0, iVar6);
 			uParam0->f_146.f_82[1 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[1 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 49, &Var0, iVar6);
+			func_20(iParam1, 49, &Var0, iVar6);
 			uParam0->f_146.f_82[1 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[1 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 47, &Var0, iVar6);
+			func_20(iParam1, 47, &Var0, iVar6);
 			uParam0->f_146.f_82[1 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[1 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 50, &Var0, iVar6);
+			func_20(iParam1, 50, &Var0, iVar6);
 			uParam0->f_146.f_82[1 /*102*/].f_16 = { Var0 };
-			func_18(iParam1, 51, &Var0, iVar6);
+			func_20(iParam1, 51, &Var0, iVar6);
 			uParam0->f_146.f_82[1 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 41, &Var0, iVar6);
+			func_20(iParam1, 41, &Var0, iVar6);
 			uParam0->f_146.f_82[0 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[0 /*102*/].f_3 = Var0.f_3.f_2;
 			uParam0->f_146.f_82[0 /*102*/].f_85 = 1;
-			func_18(iParam1, 42, &Var0, iVar6);
+			func_20(iParam1, 42, &Var0, iVar6);
 			uParam0->f_146.f_82[0 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[0 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 43, &Var0, iVar6);
+			func_20(iParam1, 43, &Var0, iVar6);
 			uParam0->f_146.f_82[0 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[0 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 44, &Var0, iVar6);
+			func_20(iParam1, 44, &Var0, iVar6);
 			uParam0->f_146.f_82[0 /*102*/].f_29 = { Var0 };
 			uParam0->f_146.f_82[0 /*102*/].f_32 = { Var0.f_3 };
-			func_18(iParam1, 45, &Var0, iVar6);
+			func_20(iParam1, 45, &Var0, iVar6);
 			uParam0->f_146.f_82[0 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[0 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 126, &Var0, iVar6);
+			func_20(iParam1, 126, &Var0, iVar6);
 			uParam0->f_146.f_82[0 /*102*/].f_16 = { Var0 };
-			func_18(iParam1, 127, &Var0, iVar6);
+			func_20(iParam1, 127, &Var0, iVar6);
 			uParam0->f_146.f_82[0 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 56, &Var0, iVar6);
+			func_20(iParam1, 56, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_3 = Var0.f_3.f_2;
 			uParam0->f_146.f_82[4 /*102*/].f_4 = { 1f, 1f, 1f };
-			func_18(iParam1, 57, &Var0, iVar6);
+			func_20(iParam1, 57, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 58, &Var0, iVar6);
+			func_20(iParam1, 58, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 59, &Var0, iVar6);
+			func_20(iParam1, 59, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_35 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_38 = { Var0.f_3 };
-			func_18(iParam1, 60, &Var0, iVar6);
+			func_20(iParam1, 60, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_41 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_44 = { Var0.f_3 };
-			func_18(iParam1, 61, &Var0, iVar6);
+			func_20(iParam1, 61, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_47 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_50 = { Var0.f_3 };
-			func_18(iParam1, 62, &Var0, iVar6);
+			func_20(iParam1, 62, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_53 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_56 = { Var0.f_3 };
-			func_18(iParam1, 63, &Var0, iVar6);
+			func_20(iParam1, 63, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 64, &Var0, iVar6);
+			func_20(iParam1, 64, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_65 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_68 = { Var0.f_3 };
-			func_18(iParam1, 65, &Var0, iVar6);
+			func_20(iParam1, 65, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_71 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_74 = { Var0.f_3 };
-			func_18(iParam1, 66, &Var0, iVar6);
+			func_20(iParam1, 66, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_16 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_86 = Var0.f_3.f_2;
-			func_18(iParam1, 67, &Var0, iVar6);
+			func_20(iParam1, 67, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 110, &Var0, iVar6);
+			func_20(iParam1, 110, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_77 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_80 = Var0.f_3.f_2;
-			func_18(iParam1, 68, &Var0, iVar6);
+			func_20(iParam1, 68, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_93 = { Var0 };
-			func_18(iParam1, 109, &Var0, iVar6);
+			func_20(iParam1, 109, &Var0, iVar6);
 			uParam0->f_146.f_82[4 /*102*/].f_87 = { Var0 };
 			uParam0->f_146.f_82[4 /*102*/].f_90 = { Var0.f_3 };
 			uParam0->f_146.f_82[12 /*102*/].f_4 = { 1f, 1f, 1f };
-			func_18(iParam1, 364, &Var0, iVar6);
+			func_20(iParam1, 364, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 365, &Var0, iVar6);
+			func_20(iParam1, 365, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_35 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_38 = { Var0.f_3 };
-			func_18(iParam1, 366, &Var0, iVar6);
+			func_20(iParam1, 366, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_41 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_44 = { Var0.f_3 };
-			func_18(iParam1, 367, &Var0, iVar6);
+			func_20(iParam1, 367, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_47 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_50 = { Var0.f_3 };
-			func_18(iParam1, 368, &Var0, iVar6);
+			func_20(iParam1, 368, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 362, &Var0, iVar6);
+			func_20(iParam1, 362, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_65 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_68 = { Var0.f_3 };
-			func_18(iParam1, 363, &Var0, iVar6);
+			func_20(iParam1, 363, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_71 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_74 = { Var0.f_3 };
-			func_18(iParam1, 360, &Var0, iVar6);
+			func_20(iParam1, 360, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_16 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_86 = Var0.f_3.f_2;
-			func_18(iParam1, 361, &Var0, iVar6);
+			func_20(iParam1, 361, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 369, &Var0, iVar6);
+			func_20(iParam1, 369, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_77 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_80 = Var0.f_3.f_2;
-			func_18(iParam1, 68, &Var0, iVar6);
+			func_20(iParam1, 68, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_93 = { Var0 };
-			func_18(iParam1, 109, &Var0, iVar6);
+			func_20(iParam1, 109, &Var0, iVar6);
 			uParam0->f_146.f_82[12 /*102*/].f_87 = { Var0 };
 			uParam0->f_146.f_82[12 /*102*/].f_90 = { Var0.f_3 };
 			uParam0->f_146.f_82[13 /*102*/].f_4 = { 1f, 1f, 1f };
-			func_18(iParam1, 374, &Var0, iVar6);
+			func_20(iParam1, 374, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 375, &Var0, iVar6);
+			func_20(iParam1, 375, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_35 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_38 = { Var0.f_3 };
-			func_18(iParam1, 376, &Var0, iVar6);
+			func_20(iParam1, 376, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_41 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_44 = { Var0.f_3 };
-			func_18(iParam1, 377, &Var0, iVar6);
+			func_20(iParam1, 377, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_47 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_50 = { Var0.f_3 };
-			func_18(iParam1, 378, &Var0, iVar6);
+			func_20(iParam1, 378, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 372, &Var0, iVar6);
+			func_20(iParam1, 372, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_65 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_68 = { Var0.f_3 };
-			func_18(iParam1, 373, &Var0, iVar6);
+			func_20(iParam1, 373, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_71 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_74 = { Var0.f_3 };
-			func_18(iParam1, 370, &Var0, iVar6);
+			func_20(iParam1, 370, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_16 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_86 = Var0.f_3.f_2;
-			func_18(iParam1, 371, &Var0, iVar6);
+			func_20(iParam1, 371, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 379, &Var0, iVar6);
+			func_20(iParam1, 379, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_77 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_80 = Var0.f_3.f_2;
-			func_18(iParam1, 68, &Var0, iVar6);
+			func_20(iParam1, 68, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_93 = { Var0 };
-			func_18(iParam1, 109, &Var0, iVar6);
+			func_20(iParam1, 109, &Var0, iVar6);
 			uParam0->f_146.f_82[13 /*102*/].f_87 = { Var0 };
 			uParam0->f_146.f_82[13 /*102*/].f_90 = { Var0.f_3 };
-			func_18(iParam1, 69, &Var0, iVar6);
+			func_20(iParam1, 69, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[5 /*102*/].f_3 = Var0.f_3.f_2;
-			func_18(iParam1, 70, &Var0, iVar6);
+			func_20(iParam1, 70, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[5 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 71, &Var0, iVar6);
+			func_20(iParam1, 71, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/].f_65 = { Var0 };
-			func_18(iParam1, 72, &Var0, iVar6);
+			func_20(iParam1, 72, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/].f_71 = { Var0 };
-			func_18(iParam1, 73, &Var0, iVar6);
+			func_20(iParam1, 73, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/].f_87 = { Var0 };
-			func_18(iParam1, 74, &Var0, iVar6);
+			func_20(iParam1, 74, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/].f_16 = { Var0 };
 			uParam0->f_146.f_82[5 /*102*/].f_19 = { Var0.f_3 };
-			func_18(iParam1, 75, &Var0, iVar6);
+			func_20(iParam1, 75, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/].f_35 = { Var0 };
 			uParam0->f_146.f_82[5 /*102*/].f_38 = { Var0.f_3 };
-			func_18(iParam1, 76, &Var0, iVar6);
+			func_20(iParam1, 76, &Var0, iVar6);
 			uParam0->f_146.f_82[5 /*102*/].f_41 = { Var0 };
 			uParam0->f_146.f_82[5 /*102*/].f_44 = { Var0.f_3 };
-			func_18(iParam1, 77, &Var0, iVar6);
+			func_20(iParam1, 77, &Var0, iVar6);
 			uParam0->f_146.f_82[6 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[6 /*102*/].f_3 = Var0.f_3.f_2;
-			func_18(iParam1, 79, &Var0, iVar6);
+			func_20(iParam1, 79, &Var0, iVar6);
 			uParam0->f_146.f_82[6 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[6 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 80, &Var0, iVar6);
+			func_20(iParam1, 80, &Var0, iVar6);
 			uParam0->f_146.f_82[6 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[6 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 78, &Var0, iVar6);
+			func_20(iParam1, 78, &Var0, iVar6);
 			uParam0->f_146.f_82[6 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[6 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 81, &Var0, iVar6);
+			func_20(iParam1, 81, &Var0, iVar6);
 			uParam0->f_146.f_82[6 /*102*/].f_16 = { Var0 };
-			func_18(iParam1, 82, &Var0, iVar6);
+			func_20(iParam1, 82, &Var0, iVar6);
 			uParam0->f_146.f_82[6 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 128, &Var0, iVar6);
+			func_20(iParam1, 128, &Var0, iVar6);
 			uParam0->f_146.f_82[9 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[9 /*102*/].f_3 = Var0.f_3.f_2;
-			func_18(iParam1, 298, &Var0, iVar6);
+			func_20(iParam1, 298, &Var0, iVar6);
 			uParam0->f_146.f_82[9 /*102*/].f_81 = { Var0 };
-			func_18(iParam1, 298, &Var0, iVar6);
+			func_20(iParam1, 298, &Var0, iVar6);
 			uParam0->f_146.f_82[6 /*102*/].f_81 = { Var0 };
-			func_18(iParam1, 299, &Var0, iVar6);
+			func_20(iParam1, 299, &Var0, iVar6);
 			uParam0->f_146.f_82[7 /*102*/].f_81 = { Var0 };
-			func_18(iParam1, 131, &Var0, iVar6);
+			func_20(iParam1, 131, &Var0, iVar6);
 			uParam0->f_146.f_82[9 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[9 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 132, &Var0, iVar6);
+			func_20(iParam1, 132, &Var0, iVar6);
 			uParam0->f_146.f_82[9 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[9 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 130, &Var0, iVar6);
+			func_20(iParam1, 130, &Var0, iVar6);
 			uParam0->f_146.f_82[9 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[9 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 133, &Var0, iVar6);
+			func_20(iParam1, 133, &Var0, iVar6);
 			uParam0->f_146.f_82[9 /*102*/].f_16 = { Var0 };
-			func_18(iParam1, 134, &Var0, iVar6);
+			func_20(iParam1, 134, &Var0, iVar6);
 			uParam0->f_146.f_82[9 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 89, &Var0, iVar6);
+			func_20(iParam1, 89, &Var0, iVar6);
 			uParam0->f_146.f_82[8 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[8 /*102*/].f_3 = Var0.f_3.f_2;
-			func_18(iParam1, 91, &Var0, iVar6);
+			func_20(iParam1, 91, &Var0, iVar6);
 			uParam0->f_146.f_82[8 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[8 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 92, &Var0, iVar6);
+			func_20(iParam1, 92, &Var0, iVar6);
 			uParam0->f_146.f_82[8 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[8 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 90, &Var0, iVar6);
+			func_20(iParam1, 90, &Var0, iVar6);
 			uParam0->f_146.f_82[8 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[8 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 135, &Var0, iVar6);
+			func_20(iParam1, 135, &Var0, iVar6);
 			uParam0->f_146.f_82[8 /*102*/].f_16 = { Var0 };
-			func_18(iParam1, 136, &Var0, iVar6);
+			func_20(iParam1, 136, &Var0, iVar6);
 			uParam0->f_146.f_82[8 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 83, &Var0, iVar6);
+			func_20(iParam1, 83, &Var0, iVar6);
 			uParam0->f_146.f_82[7 /*102*/] = { Var0 };
 			uParam0->f_146.f_82[7 /*102*/].f_3 = Var0.f_3.f_2;
-			func_18(iParam1, 85, &Var0, iVar6);
+			func_20(iParam1, 85, &Var0, iVar6);
 			uParam0->f_146.f_82[7 /*102*/].f_22 = { Var0 };
 			uParam0->f_146.f_82[7 /*102*/].f_25 = { Var0.f_3 };
-			func_18(iParam1, 88, &Var0, iVar6);
+			func_20(iParam1, 88, &Var0, iVar6);
 			uParam0->f_146.f_82[7 /*102*/].f_59 = { Var0 };
 			uParam0->f_146.f_82[7 /*102*/].f_62 = { Var0.f_3 };
-			func_18(iParam1, 84, &Var0, iVar6);
+			func_20(iParam1, 84, &Var0, iVar6);
 			uParam0->f_146.f_82[7 /*102*/].f_7 = { Var0 };
 			uParam0->f_146.f_82[7 /*102*/].f_10 = { Var0.f_3 };
-			func_18(iParam1, 86, &Var0, iVar6);
+			func_20(iParam1, 86, &Var0, iVar6);
 			uParam0->f_146.f_82[7 /*102*/].f_16 = { Var0 };
-			func_18(iParam1, 87, &Var0, iVar6);
+			func_20(iParam1, 87, &Var0, iVar6);
 			uParam0->f_146.f_82[7 /*102*/].f_19 = { Var0 };
-			func_18(iParam1, 94, &Var0, iVar6);
+			func_20(iParam1, 94, &Var0, iVar6);
 			uParam0->f_146.f_1517.f_8 = { Var0 };
 			uParam0->f_146.f_1517.f_11 = { Var0.f_3 };
-			func_18(iParam1, 95, &Var0, iVar6);
+			func_20(iParam1, 95, &Var0, iVar6);
 			uParam0->f_146.f_1517 = { Var0 };
 			uParam0->f_146.f_1517.f_3 = Var0.f_3.f_2;
 			if (iParam1 == 65)
 			{
 			}
-			func_18(iParam1, 96, &Var0, iVar6);
+			func_20(iParam1, 96, &Var0, iVar6);
 			uParam0->f_146.f_1517.f_4 = { Var0 };
 			uParam0->f_146.f_1517.f_7 = Var0.f_3.f_2;
-			func_18(iParam1, 97, &Var0, iVar6);
+			func_20(iParam1, 97, &Var0, iVar6);
 			uParam0->f_146.f_1517.f_14 = { Var0 };
 			uParam0->f_146.f_1517.f_17 = Var0.f_3.f_2;
-			func_18(iParam1, 98, &Var0, iVar6);
+			func_20(iParam1, 98, &Var0, iVar6);
 			uParam0->f_146.f_1517.f_18 = { Var0 };
 			uParam0->f_146.f_1517.f_21 = Var0.f_3.f_2;
-			func_18(iParam1, 99, &Var0, iVar6);
+			func_20(iParam1, 99, &Var0, iVar6);
 			uParam0->f_146.f_1543.f_4 = { Var0 };
 			uParam0->f_146.f_1543.f_7 = { Var0.f_3 };
-			func_18(iParam1, 100, &Var0, iVar6);
+			func_20(iParam1, 100, &Var0, iVar6);
 			uParam0->f_146.f_1543 = { Var0 };
 			uParam0->f_146.f_1543.f_3 = Var0.f_3.f_2;
-			func_18(iParam1, 108, &Var0, iVar6);
+			func_20(iParam1, 108, &Var0, iVar6);
 			uParam0->f_146.f_1553 = { Var0 };
 			uParam0->f_146.f_1556 = { Var0.f_3 };
-			func_18(iParam1, 119, &Var0, iVar6);
+			func_20(iParam1, 119, &Var0, iVar6);
 			uParam0->f_146.f_1517.f_22 = { Var0 };
 			uParam0->f_146.f_1517.f_25 = Var0.f_3.f_2;
-			func_18(iParam1, 137, &Var0, iVar6);
+			func_20(iParam1, 137, &Var0, iVar6);
 			uParam0->f_146.f_1559 = { Var0 };
-			func_18(iParam1, 142, &Var0, iVar6);
+			func_20(iParam1, 142, &Var0, iVar6);
 			uParam0->f_146.f_1562 = { Var0 };
-			func_18(iParam1, 143, &Var0, iVar6);
+			func_20(iParam1, 143, &Var0, iVar6);
 			uParam0->f_146.f_1562.f_6 = { Var0 };
-			func_18(iParam1, 146, &Var0, iVar6);
+			func_20(iParam1, 146, &Var0, iVar6);
 			uParam0->f_146.f_1562.f_18 = { Var0 };
-			func_18(iParam1, 147, &Var0, iVar6);
+			func_20(iParam1, 147, &Var0, iVar6);
 			uParam0->f_146.f_1562.f_21 = { Var0 };
-			func_18(iParam1, 158, &Var0, iVar6);
+			func_20(iParam1, 158, &Var0, iVar6);
 			uParam0->f_146.f_1562.f_15 = { Var0 };
-			func_18(iParam1, 145, &Var0, iVar6);
+			func_20(iParam1, 145, &Var0, iVar6);
 			uParam0->f_146.f_1562.f_15 = { Var0 };
-			func_18(iParam1, 144, &Var0, iVar6);
+			func_20(iParam1, 144, &Var0, iVar6);
 			uParam0->f_146.f_1562.f_12 = { Var0 };
-			func_18(iParam1, 148, &Var0, iVar6);
+			func_20(iParam1, 148, &Var0, iVar6);
 			uParam0->f_146.f_1562.f_24 = { Var0 };
 			break;
 		
@@ -1653,7 +1722,7 @@ void func_3(var uParam0, int iParam1)
 			uParam0->f_146.f_43 = { 0f, 0f, 37.7289f };
 			uParam0->f_146.f_46 = 50f;
 			uParam0->f_146.f_47 = { 348.132f, -997.2031f, -100.1741f };
-			func_14(&(uParam0->f_146.f_57), iParam1);
+			func_15(&(uParam0->f_146.f_57), iParam1);
 			uParam0->f_146.f_50 = { 346.4337f, -1002.827f, -97.7941f };
 			func_4(iParam1, &(uParam0->f_146.f_53), &(uParam0->f_146.f_56), -1);
 			uParam0->f_146.f_82[1 /*102*/] = { 349.9853f, -997.8344f, -99.1952f };
@@ -1755,7 +1824,7 @@ void func_3(var uParam0, int iParam1)
 			uParam0->f_146.f_43 = { 0f, 0f, 46.9484f };
 			uParam0->f_146.f_46 = 50f;
 			uParam0->f_146.f_47 = { 262.6717f, -1000.425f, -100.0087f };
-			func_14(&(uParam0->f_146.f_57), iParam1);
+			func_15(&(uParam0->f_146.f_57), iParam1);
 			uParam0->f_146.f_50 = { 265.9362f, -1001.305f, -97.6834f };
 			func_4(iParam1, &(uParam0->f_146.f_53), &(uParam0->f_146.f_56), -1);
 			uParam0->f_146.f_82[1 /*102*/] = { 261.2055f, -1003.92f, -100.0086f };
@@ -1864,7 +1933,7 @@ void func_4(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 41:
 		case 42:
 		case 43:
-			func_18(iParam0, 40, &Var0, -1);
+			func_20(iParam0, 40, &Var0, -1);
 			*uParam1 = { Var0 };
 			if (iParam0 == 1)
 			{
@@ -1973,7 +2042,7 @@ void func_4(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 63:
 		case 64:
 		case 65:
-			func_18(iParam0, 40, &Var0, 61);
+			func_20(iParam0, 40, &Var0, 61);
 			*uParam1 = { Var0 };
 			if (iParam0 == 61)
 			{
@@ -1997,7 +2066,7 @@ void func_4(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 74:
 		case 75:
 		case 76:
-			func_18(iParam0, 40, &Var0, 73);
+			func_20(iParam0, 40, &Var0, 73);
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
@@ -2008,7 +2077,7 @@ void func_4(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 80:
 		case 81:
 		case 82:
-			func_18(iParam0, 40, &Var0, 77);
+			func_20(iParam0, 40, &Var0, 77);
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
@@ -2016,7 +2085,7 @@ void func_4(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 83:
 		case 84:
 		case 85:
-			func_18(iParam0, 40, &Var0, 83);
+			func_20(iParam0, 40, &Var0, 83);
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
@@ -2031,7 +2100,29 @@ void func_4(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 88:
 		case 89:
 		case 90:
-			func_18(iParam0, 40, &Var0, 88);
+			func_20(iParam0, 40, &Var0, 88);
+			*uParam1 = { Var0 };
+			*uParam2 = Var0.f_3.f_2;
+			break;
+		
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+			func_20(iParam0, 40, &Var0, 91);
+			*uParam1 = { Var0 };
+			*uParam2 = Var0.f_3.f_2;
+			break;
+		
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+		case 101:
+		case 102:
+			func_20(iParam0, 40, &Var0, 97);
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
@@ -2045,27 +2136,27 @@ void func_5(int iParam0, int iParam1, var uParam2, bool bParam3)
 	
 	if (!bParam3)
 	{
-		Var0[0 /*6*/] = { func_13(-1) };
+		Var0[0 /*6*/] = { func_14(-1) };
 	}
 	else
 	{
-		Var0[0 /*6*/] = { Global_4005550[iParam0 /*45*/].f_4 };
-		Var0[0 /*6*/].f_3 = { 0f, 0f, Global_4005550[iParam0 /*45*/].f_7 };
+		Var0[0 /*6*/] = { Global_4004959[iParam0 /*45*/].f_4 };
+		Var0[0 /*6*/].f_3 = { 0f, 0f, Global_4004959[iParam0 /*45*/].f_7 };
 	}
 	if (!bParam3)
 	{
-		Var0[1 /*6*/] = { func_13(iParam0) };
+		Var0[1 /*6*/] = { func_14(iParam0) };
 	}
 	else
 	{
-		Var0[1 /*6*/] = { Global_4005550[iParam0 /*45*/].f_4 };
-		Var0[1 /*6*/].f_3 = { 0f, 0f, Global_4005550[iParam0 /*45*/].f_7 };
+		Var0[1 /*6*/] = { Global_4004959[iParam0 /*45*/].f_4 };
+		Var0[1 /*6*/].f_3 = { 0f, 0f, Global_4004959[iParam0 /*45*/].f_7 };
 	}
 	*uParam2 = { func_7(iParam1, 86) };
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_6(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_6(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0x90B89006901451E8(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0x8461D93FE2207D3A(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -2421,34 +2512,2252 @@ struct<6> func_7(int iParam0, int iParam1)
 		case -1:
 		case 1:
 		case 61:
-			return func_12(iParam0, iParam1);
+			return func_13(iParam0, iParam1);
 			break;
 		
 		case 73:
 		case 77:
-			return func_11(iParam0, iParam1);
+			return func_12(iParam0, iParam1);
 			break;
 		
 		case 83:
-			return func_10(iParam0, iParam1);
+			return func_11(iParam0, iParam1);
 			break;
 		
 		case 86:
-			return func_9(iParam0, iParam1);
+			return func_10(iParam0, iParam1);
 			break;
 		
 		case 88:
+			return func_9(iParam0, iParam1);
+			break;
+		
+		case 91:
+		case 97:
 			return func_8(iParam0, iParam1);
 			break;
 	}
 	bVar6 = iParam1 == 61;
-	unk_0xED89A0464E204F9A(&Var0, &Var3, iParam0, bVar6);
+	unk_0xF9B1B8C0E49635B2(&Var0, &Var3, iParam0, bVar6);
 	Var7 = { Var0 };
 	Var7.f_3 = { Var3 };
 	return Var7;
 }
 
 struct<6> func_8(int iParam0, int iParam1)
+{
+	struct<6> Var0;
+	
+	switch (iParam1)
+	{
+		case 91:
+			switch (iParam0)
+			{
+				case 1:
+					Var0 = { 1121f, -3153.124f, -38.34927f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 2:
+					Var0 = { 1121.003f, -3152.545f, -35.56278f };
+					Var0.f_3 = { 0f, 0f, 182.057f };
+					break;
+				
+				case 3:
+					Var0 = { 1110.2f, -3157.972f, -38.5186f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 4:
+					Var0 = { 1095.574f, -3155.452f, -39.01857f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 5:
+					Var0 = { 1127f, -3155.163f, -32.80891f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 276:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 277:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 6:
+					Var0 = { 1113.456f, -3162.808f, -38.0657f };
+					Var0.f_3 = { 0f, 0f, 265.2856f };
+					break;
+				
+				case 169:
+					Var0 = { -778.2188f, 332.2201f, 206.6209f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 170:
+					Var0 = { -776.9868f, 332.502f, 208.3432f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 201:
+					Var0 = { 1121.92f, -3152.075f, -36.7361f };
+					Var0.f_3 = { -0.4756f, 0f, 153.9113f };
+					break;
+				
+				case 14:
+					Var0 = { 1120.171f, -3144.561f, -35.8581f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 557:
+					Var0 = { -780.4701f, 338.4247f, 187.5084f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 558:
+					Var0 = { -780.3515f, 338.4704f, 186.1632f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 559:
+					Var0 = { -780.3515f, 338.4704f, 186.1134f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 15:
+					Var0 = { -780.5159f, 317.8105f, 189.9103f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 9:
+					Var0 = { 1116.895f, -3162.661f, -37.8705f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 273.3452f;
+					break;
+				
+				case 10:
+					Var0 = { 1123.092f, -3143.464f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 162.6716f;
+					break;
+				
+				case 11:
+					Var0 = { 1117.546f, -3150.697f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 179.9597f;
+					break;
+				
+				case 12:
+					Var0 = { 1115.198f, -3158.511f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 309.7579f;
+					break;
+				
+				case 13:
+					Var0 = { 1121.74f, -3159.033f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 73.1282f;
+					break;
+				
+				case 16:
+					Var0 = { 1125.47f, -3144.34f, -37.61f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 22:
+					Var0 = { 1124.859f, -3144.878f, -38.06275f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 28:
+					Var0 = { 1124.858f, -3143.886f, -35.81275f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 17:
+					Var0 = { 1125.47f, -3144.34f, -37.61f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 23:
+					Var0 = { 1124.859f, -3144.878f, -38.06275f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 29:
+					Var0 = { 1124.858f, -3143.886f, -35.81275f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 18:
+					Var0 = { 1125.47f, -3144.34f, -37.61f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 24:
+					Var0 = { 1124.859f, -3144.878f, -38.06275f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 30:
+					Var0 = { 1124.858f, -3143.886f, -35.81275f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 34:
+					Var0 = { 1125.137f, -3144.445f, -36.4051f };
+					Var0.f_3 = { 0.6029f, 0f, 87.9667f };
+					break;
+				
+				case 35:
+					Var0 = { 1122.754f, -3144.49f, -35.9656f };
+					Var0.f_3 = { 2.8863f, 0.0019f, 91.1192f };
+					break;
+				
+				case 36:
+					Var0 = { -782.9214f, 338.467f, 187.6588f };
+					Var0.f_3 = { 2.0141f, -0.008f, -89.539f };
+					break;
+				
+				case 560:
+					Var0 = { -782.9009f, 337.7527f, 187.2779f };
+					Var0.f_3 = { 2.0696f, -0.0281f, -89.4518f };
+					break;
+				
+				case 37:
+					Var0 = { -795.085f, 333.845f, 205.221f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 38:
+					Var0 = { -781.9872f, 343.5015f, 188.2368f };
+					Var0.f_3 = { -12.4175f, 0f, 153.0748f };
+					break;
+				
+				case 39:
+					Var0 = { -788.0585f, 343.5015f, 188.2368f };
+					Var0.f_3 = { -12.4175f, 0f, -174.9393f };
+					break;
+				
+				case 120:
+					Var0 = { -795.7497f, 339.9315f, 191.1167f };
+					Var0.f_3 = { -3.984f, 0f, 149.8896f };
+					break;
+				
+				case 121:
+					Var0 = { -799.9801f, 340.0232f, 191.1167f };
+					Var0.f_3 = { -3.984f, 0f, -148.3764f };
+					break;
+				
+				case 125:
+					Var0 = { 1116.173f, -3160.743f, -37.2659f };
+					Var0.f_3 = { 0f, 0f, 180f };
+					break;
+				
+				case 40:
+					Var0 = { 1117.238f, -3162.81f, -37.8705f };
+					Var0.f_3 = { 0f, 0f, 306.0806f };
+					break;
+				
+				case 41:
+					Var0 = { -792.9531f, 341.6f, 206.2202f };
+					Var0.f_3 = { 0f, 0f, 119.72f };
+					break;
+				
+				case 126:
+					Var0 = { -786.1208f, 337.9957f, 186.1135f };
+					break;
+				
+				case 127:
+					Var0 = { -786.1259f, 339.1616f, 187.8635f };
+					break;
+				
+				case 42:
+					Var0 = { -785.625f, 338.649f, 186.103f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 46:
+					Var0 = { 1120.879f, -3161.953f, -36.85f };
+					Var0.f_3 = { 0f, 0f, 140f };
+					break;
+				
+				case 47:
+					Var0 = { 1120.879f, -3161.953f, -36.85f };
+					Var0.f_3 = { 0f, 0f, 140f };
+					break;
+				
+				case 48:
+					Var0 = { 1008.865f, -3171.146f, -37.0587f };
+					Var0.f_3 = { -59.0353f, 0f, -108.5875f };
+					break;
+				
+				case 49:
+					Var0 = { 1008.865f, -3171.146f, -37.0587f };
+					Var0.f_3 = { -59.0353f, 0f, -108.5875f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 50:
+					Var0 = { 1121.342f, -3163.504f, -37.87052f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 51:
+					Var0 = { 1118.497f, -3163.477f, -36.37052f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 612:
+					Var0 = { 1120.879f, -3161.953f, -36.85f };
+					Var0.f_3 = { 0f, 0f, 140f };
+					break;
+				
+				case 615:
+					Var0 = { 1121.342f, -3163.504f, -37.87052f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 616:
+					Var0 = { 1118.497f, -3163.477f, -36.37052f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 56:
+					Var0 = { -804.0815f, 335.5993f, 190.8021f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 57:
+					Var0 = { -804.216f, 335.065f, 189.952f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 64:
+					Var0 = { -803.8332f, 335.6036f, 192.1505f };
+					Var0.f_3 = { -45f, 0f, 0f };
+					break;
+				
+				case 65:
+					Var0 = { -803.7757f, 335.7051f, 192.0836f };
+					Var0.f_3 = { -64.3203f, 0f, 90.0509f };
+					break;
+				
+				case 58:
+					Var0 = { -787.2075f, 330.4225f, 201.8932f };
+					Var0.f_3 = { 0.0309f, 0.0078f, 94.294f };
+					break;
+				
+				case 59:
+					Var0 = { -804.6812f, 335.9174f, 191.8717f };
+					Var0.f_3 = { 3.6086f, 0f, -100.4403f };
+					break;
+				
+				case 60:
+					Var0 = { -805.2352f, 335.686f, 191.5975f };
+					Var0.f_3 = { -7.8804f, 0f, -90f };
+					break;
+				
+				case 61:
+					Var0 = { -805.226f, 335.5853f, 192.2601f };
+					Var0.f_3 = { -18.726f, 0.0564f, -65.9443f };
+					break;
+				
+				case 62:
+					Var0 = { -806.9933f, 331.4514f, 192.5549f };
+					Var0.f_3 = { -24.3193f, 0f, -37.258f };
+					break;
+				
+				case 63:
+					Var0 = { -806.9933f, 331.4514f, 192.5549f };
+					Var0.f_3 = { -24.3193f, 0f, -37.258f };
+					break;
+				
+				case 66:
+					Var0 = { -805.214f, 335.7104f, 189.7554f };
+					Var0.f_3 = { 0f, 0f, 1f };
+					break;
+				
+				case 67:
+					Var0 = { -803.511f, 335.6873f, 192.2554f };
+					break;
+				
+				case 110:
+					Var0 = { -804.4796f, 334.4111f, 189.7136f };
+					Var0.f_3 = { 0f, 0f, 164.7228f };
+					break;
+				
+				case 68:
+					Var0 = { -803.2f, 333.1f, 189.8f };
+					break;
+				
+				case 109:
+					Var0 = { -803.209f, 332.229f, 190.863f };
+					break;
+				
+				case 69:
+					Var0 = { -783.0114f, 336.0096f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 318.1693f };
+					break;
+				
+				case 70:
+					Var0 = { -781.938f, 335.66f, 186.65f };
+					Var0.f_3 = { 0f, 0f, 42.25f };
+					break;
+				
+				case 71:
+					Var0 = { -787.1086f, 335.7561f, 186.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 72:
+					Var0 = { -781.3259f, 337.3147f, 188.6136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 73:
+					Var0 = { -782.9689f, 336.8207f, 187.1f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 74:
+					Var0 = { -782.2608f, 336.8359f, 187.1499f };
+					Var0.f_3 = { 0f, 0f, 131.8715f };
+					break;
+				
+				case 75:
+					Var0 = { -782.9863f, 336.1273f, 187.1136f };
+					Var0.f_3 = { 0f, 0f, 309.98f };
+					break;
+				
+				case 76:
+					Var0 = { -782.2608f, 336.8359f, 187.1499f };
+					Var0.f_3 = { 0f, 0f, 318.1693f };
+					break;
+				
+				case 89:
+					Var0 = { -792.8026f, 330.2704f, 205.2183f };
+					Var0.f_3 = { 0f, 0f, 0.11f };
+					break;
+				
+				case 91:
+					Var0 = { -791.3608f, 331.6151f, 206.7155f };
+					Var0.f_3 = { -6.1061f, 0f, 124.716f };
+					break;
+				
+				case 90:
+					Var0 = { -784.825f, 327.887f, 186.314f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 92:
+					Var0 = { -791.1231f, 329.0256f, 207.0468f };
+					Var0.f_3 = { -10.5496f, 0f, 38.2733f };
+					break;
+				
+				case 135:
+					Var0 = { -784.7092f, 327.2737f, 186.3132f };
+					break;
+				
+				case 136:
+					Var0 = { -784.7196f, 328.3914f, 188.1346f };
+					break;
+				
+				case 77:
+					Var0 = { -795.4578f, 337.2369f, 205.2183f };
+					Var0.f_3 = { 0f, 0f, 82.6775f };
+					break;
+				
+				case joaat("mpsv_lp0_31"):
+					Var0 = { -796.8416f, 336.5425f, 206.3782f };
+					Var0.f_3 = { 4.1239f, 0.032f, -35.7362f };
+					break;
+				
+				case 80:
+					Var0 = { -794.1184f, 339.0253f, 207.2513f };
+					Var0.f_3 = { -14.3736f, 0f, 132.7127f };
+					break;
+				
+				case 81:
+					Var0 = { -796.8088f, 337.2715f, 207.0081f };
+					break;
+				
+				case 82:
+					Var0 = { -794.73f, 337.4924f, 205.2183f };
+					break;
+				
+				case 78:
+					Var0 = { Vector(206.15f, 337.263f, -796.115f) + Vector(0.0084f, -0.1213f, -0.0385f) + Vector(-0.0001f, 0.0008f, 0.0245f) };
+					Var0.f_3 = { Vector(84.6f, 0f, 0f) + Vector(5.64f, 0f, 0f) };
+					break;
+				
+				case 83:
+					Var0 = { -793.3814f, 333.4903f, 205.2183f };
+					Var0.f_3 = { 0f, 0f, 182.6354f };
+					break;
+				
+				case 85:
+					Var0 = { -792.4017f, 332.1834f, 206.589f };
+					Var0.f_3 = { -0.4759f, 0f, 56.2407f };
+					break;
+				
+				case 88:
+					Var0 = { -792.6917f, 334.5816f, 206.9306f };
+					Var0.f_3 = { -15.2511f, -0.1442f, 161.552f };
+					break;
+				
+				case 84:
+					Var0 = { -784.798f, 330.004f, 186.315f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 86:
+					Var0 = { -784.6601f, 330.8065f, 186.3132f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 87:
+					Var0 = { -784.6879f, 329.7155f, 188.1622f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 93:
+					Var0 = { 1120.373f, -3153.166f, -36.9128f };
+					Var0.f_3 = { 0f, 0f, 180f };
+					break;
+				
+				case 94:
+					Var0 = { 1121.303f, -3154.529f, -38.0007f };
+					Var0.f_3 = { 0f, 0f, 180f };
+					break;
+				
+				case 95:
+					Var0 = { 1121.535f, -3152.448f, -37.0007f };
+					Var0.f_3 = { 0f, 0f, 180f };
+					break;
+				
+				case 96:
+					Var0 = { 1121.582f, -3153.417f, -37.0007f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 97:
+					Var0 = { 1110.75f, -3151.034f, -37.0007f };
+					Var0.f_3 = { 0f, 0f, -132.94f };
+					break;
+				
+				case 98:
+					Var0 = { 1121.903f, -3151.882f, -37.0007f };
+					Var0.f_3 = { 0f, 0f, 141.24f };
+					break;
+				
+				case 99:
+					Var0 = { 1111.908f, -3163.958f, -36.905f };
+					Var0.f_3 = { 0f, 0f, -5.12f };
+					break;
+				
+				case 100:
+					Var0 = { 1110.892f, -3162.796f, -36.998f };
+					Var0.f_3 = { 0f, 0f, 174.88f };
+					break;
+				
+				case 101:
+					Var0 = { 1110.506f, -3161.882f, -36.6601f };
+					Var0.f_3 = { -2.5476f, 0.7873f, -155.2841f };
+					break;
+				
+				case 181:
+					Var0 = { -777.695f, 332.054f, 207.34f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 106:
+					Var0 = { -796.3882f, 336.8372f, 202.5976f };
+					Var0.f_3 = { -22.7361f, 0f, -129.0221f };
+					break;
+				
+				case 107:
+					Var0 = { -801.9172f, 326.3802f, 207.4878f };
+					Var0.f_3 = { -35.2381f, 0f, -111.7465f };
+					break;
+				
+				case 108:
+					Var0 = { -781.9736f, 316.5539f, 187.9136f };
+					Var0.f_3 = { 90f, 0f, 0f };
+					break;
+				
+				case 117:
+					Var0 = { -794.9332f, 335.1039f, 201.5308f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 118:
+					Var0 = { -800.421f, 325.5437f, 206.1822f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 119:
+					Var0 = { -784.6674f, 316.7436f, 186.9136f };
+					Var0.f_3 = { 0f, 0f, 280.1147f };
+					break;
+				
+				case 122:
+					Var0 = { 1121.761f, -3151.286f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 350.0526f };
+					break;
+				
+				case 123:
+					Var0 = { 1124.292f, -3151.267f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 69.4484f };
+					break;
+				
+				case 124:
+					Var0 = { 1119.368f, -3151.094f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 134.0545f };
+					break;
+				
+				case 137:
+					Var0 = { 1117.244f, -3155.86f, -38.0628f };
+					break;
+				
+				case 202:
+					Var0 = { 1120.855f, -3151.217f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 203:
+					Var0 = { 1122.078f, -3151.024f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 204:
+					Var0 = { 1121.272f, -3150.69f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 205:
+					Var0 = { 1120.131f, -3150.609f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 206:
+					Var0 = { 1122.237f, -3150.343f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 207:
+					Var0 = { 1121.396f, -3150.023f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 208:
+					Var0 = { 1122.548f, -3149.633f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 209:
+					Var0 = { 1120.313f, -3150.035f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 210:
+					Var0 = { 1122.661f, -3148.825f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 211:
+					Var0 = { 1120.602f, -3149.407f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 212:
+					Var0 = { 1118.939f, -3150.489f, -38.063f };
+					Var0.f_3 = { 0f, 0f, 104.3187f };
+					break;
+				
+				case 213:
+					Var0 = { 1119.057f, -3151.626f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 98.3187f };
+					break;
+				
+				case 214:
+					Var0 = { 1121.62f, -3149.294f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 0.3187f };
+					break;
+				
+				case 215:
+					Var0 = { 1119.037f, -3152.68f, -38.0627f };
+					Var0.f_3 = { 0f, 0f, 99.3187f };
+					break;
+				
+				case 216:
+					Var0 = { 1118.016f, -3151.649f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 98.0687f };
+					break;
+				
+				case 217:
+					Var0 = { 1118.347f, -3150.479f, -38.063f };
+					Var0.f_3 = { 0f, 0f, 101.3187f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 435:
+					Var0 = { 1105.59f, -3159.205f, -38.5186f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 445:
+					Var0 = { 1102.66f, -3159.819f, -38.51858f };
+					Var0.f_3 = { 6.9375f, 0f, 0f };
+					break;
+				
+				case 446:
+					Var0 = { 1102.744f, -3167.453f, -36.70681f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 436:
+					Var0 = { 1121.583f, -3161.262f, -37.8705f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 447:
+					Var0 = { 1117.699f, -3160.561f, -37.87052f };
+					Var0.f_3 = { 1.25f, 0f, 1.25f };
+					break;
+				
+				case 448:
+					Var0 = { 1120.254f, -3160.548f, -36.62052f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 437:
+					Var0 = { 1123.808f, -3146.344f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 449:
+					Var0 = { 1125.547f, -3145.699f, -38.06277f };
+					Var0.f_3 = { 2.75f, 0f, 1.25f };
+					break;
+				
+				case 450:
+					Var0 = { 1125.557f, -3147.152f, -36.31277f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 470:
+					Var0 = { 1123.6f, -3150.232f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 471:
+					Var0 = { 1124.731f, -3152.86f, -38.06276f };
+					Var0.f_3 = { 1.5f, 0f, 1.25f };
+					break;
+				
+				case 472:
+					Var0 = { 1123.178f, -3152.875f, -36.31276f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 477:
+					Var0 = { 1123.6f, -3150.232f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 478:
+					Var0 = { 1125.323f, -3148.668f, -38.06276f };
+					Var0.f_3 = { 1f, 0f, 1f };
+					break;
+				
+				case 479:
+					Var0 = { 1125.712f, -3149.527f, -36.31276f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 480:
+					Var0 = { 1123.6f, -3150.232f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 481:
+					Var0 = { 1125.711f, -3150.854f, -38.06276f };
+					Var0.f_3 = { 1f, 0f, 0f };
+					break;
+				
+				case 482:
+					Var0 = { 1125.353f, -3151.695f, -36.31276f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 504:
+					Var0 = { 1115.583f, -3151.083f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 505:
+					Var0 = { 1114.083f, -3149.311f, -37.95501f };
+					Var0.f_3 = { 1f, 0f, 1f };
+					break;
+				
+				case 506:
+					Var0 = { 1117.533f, -3149.238f, -36.31276f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 507:
+					Var0 = { 1115.583f, -3151.083f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 508:
+					Var0 = { 1114.485f, -3152.02f, -37.92591f };
+					Var0.f_3 = { 1f, 0f, 1f };
+					break;
+				
+				case 509:
+					Var0 = { 1114.535f, -3148.781f, -35.16234f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 510:
+					Var0 = { 1123.186f, -3146.416f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 511:
+					Var0 = { 1122.995f, -3142.68f, -38.06277f };
+					Var0.f_3 = { 1.57f, 0f, 1f };
+					break;
+				
+				case 512:
+					Var0 = { 1125.847f, -3142.703f, -35.96329f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 513:
+					Var0 = { 1123.613f, -3146.344f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 514:
+					Var0 = { 1125.321f, -3142.354f, -38.05168f };
+					Var0.f_3 = { 2.65f, 0f, 1.25f };
+					break;
+				
+				case 515:
+					Var0 = { 1125.324f, -3145.532f, -36.36492f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 528:
+					Var0 = { -788.878f, 338.0769f, 186.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 529:
+					Var0 = { -789.9435f, 337.4386f, 186.1135f };
+					Var0.f_3 = { 1.25f, 0f, 0f };
+					break;
+				
+				case 530:
+					Var0 = { -789.9385f, 338.612f, 188.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 531:
+					Var0 = { -782.5031f, 338.2492f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 532:
+					Var0 = { -785.4359f, 336.6565f, 186.1135f };
+					Var0.f_3 = { 4.75f, 0f, 0f };
+					break;
+				
+				case 533:
+					Var0 = { -785.3582f, 341.1275f, 188.3635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 534:
+					Var0 = { -781.649f, 320.3884f, 186.9175f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 535:
+					Var0 = { -780.7493f, 320.9498f, 186.9157f };
+					Var0.f_3 = { 1.5f, 0f, 0f };
+					break;
+				
+				case 536:
+					Var0 = { -780.7726f, 318.901f, 189.1642f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 537:
+					Var0 = { -791.6885f, 341.563f, 186.1535f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 538:
+					Var0 = { -793.2805f, 340.489f, 186.1136f };
+					Var0.f_3 = { 1.95f, 0f, 0f };
+					break;
+				
+				case 539:
+					Var0 = { -793.2911f, 343.794f, 188.3636f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 540:
+					Var0 = { -797.9947f, 327.1148f, 189.7136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 541:
+					Var0 = { -796.0374f, 326.6479f, 189.7234f };
+					Var0.f_3 = { 1f, 0f, 0f };
+					break;
+				
+				case 542:
+					Var0 = { -797.2122f, 326.6525f, 192.4635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 547:
+					Var0 = { -797.5703f, 338.8147f, 189.7159f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 548:
+					Var0 = { -795.5723f, 336.2789f, 189.7159f };
+					Var0.f_3 = { 1.75f, 0f, 0f };
+					break;
+				
+				case 549:
+					Var0 = { -795.6097f, 340.2508f, 191.9636f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 298:
+					Var0 = { -793.858f, 341.4139f, 187.1133f };
+					break;
+				
+				case 299:
+					Var0 = { -784.331f, 330.2035f, 187.2646f };
+					break;
+				
+				case 311:
+					Var0 = { -788.0102f, 319.6611f, 186.5651f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 431:
+					Var0 = { -790.1639f, 335.2293f, 187.1133f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 133:
+					Var0 = { -793.5669f, 340.5959f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 134:
+					Var0 = { -793.5555f, 341.7935f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 130:
+					Var0 = { -793.39f, 341.565f, 186.114f };
+					Var0.f_3 = { 0f, 0f, -91f };
+					break;
+				
+				case 433:
+					Var0 = { -789.6328f, 334.3963f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 434:
+					Var0 = { -789.6397f, 335.5693f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 432:
+					Var0 = { -789.696f, 335.38f, 186.114f };
+					Var0.f_3 = { 0f, 0f, -91f };
+					break;
+				
+				case 102:
+					Var0 = { -793.5547f, 342.9295f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 103:
+					Var0 = { -793.5555f, 341.7935f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 182:
+					Var0 = { -793.808f, 341.84f, 187.01f };
+					Var0.f_3 = { 0f, 0f, 88.51f };
+					break;
+				
+				case 501:
+					Var0 = { -789.6354f, 336.738f, 186.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 502:
+					Var0 = { -789.6397f, 335.5693f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 500:
+					Var0 = { -790.125f, 335.69f, 187.01f };
+					Var0.f_3 = { 0f, 0f, 88.51f };
+					break;
+				
+				case 104:
+					Var0 = { -800.4421f, 325.256f, 207.2709f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 105:
+					Var0 = { -800.4426f, 326.6761f, 205.1558f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 183:
+					Var0 = { -795.07f, 321.699f, 187.035f };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 473:
+					Var0 = { -796.497f, 331.5252f, 192.2901f };
+					Var0.f_3 = { -34.9118f, 0f, 21.4059f };
+					break;
+				
+				case 474:
+					Var0 = { -789.592f, 334.359f, 188.7709f };
+					Var0.f_3 = { -26.6941f, 0f, -139.8585f };
+					break;
+				
+				case 475:
+					Var0 = { -796.4861f, 322.8627f, 188.785f };
+					Var0.f_3 = { -27.0831f, 0f, 3.9303f };
+					break;
+				
+				case 169:
+					Var0 = { -794.368f, 322.0654f, 186.3132f };
+					break;
+				
+				case 170:
+					Var0 = { -795.291f, 322.0415f, 187.8132f };
+					break;
+				
+				case 181:
+					Var0 = { -795.102f, 321.527f, 187.025f };
+					Var0.f_3 = { 0f, 0f, -152.431f };
+					break;
+				
+				case 678:
+					Var0 = { Vector(-38.0317f, -3145.166f, 1112.594f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 679:
+					Var0 = { Vector(-38.0317f, -3146.088f, 1114.919f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 680:
+					Var0 = { Vector(-38.0317f, -3145.166f, 1117.245f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 681:
+					Var0 = { Vector(-38.0317f, -3144.245f, 1114.919f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 682:
+					Var0 = { Vector(-38.0317f, -3146.088f, 1115.992f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 683:
+					Var0 = { Vector(-38.0317f, -3146.088f, 1113.847f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 684:
+					Var0 = { Vector(-38.0317f, -3144.245f, 1115.992f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 685:
+					Var0 = { Vector(-38.0317f, -3144.245f, 1113.847f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 686:
+					Var0 = { 1116.173f, -3160.743f, -37.2659f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 818:
+					Var0 = { 1116.673f, -3161.408f, -38.01345f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 819:
+					Var0 = { 1115.147f, -3161.373f, -35.99552f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 820:
+					Var0 = { 2660f, 500f, -37.8705f };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 911:
+					Var0 = { 1111.042f, -3145.444f, -38.0628f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 912:
+					Var0 = { 1124.622f, -3162.101f, -37.7312f };
+					Var0.f_3 = { 0f, 0f, 180f };
+					break;
+			}
+			break;
+		
+		case 97:
+			switch (iParam0)
+			{
+				case 1:
+					Var0 = { 996.3246f, -3158.143f, -40.39717f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 2:
+					Var0 = { 997.3661f, -3158.133f, -37.15719f };
+					Var0.f_3 = { 0f, 0f, 92.3997f };
+					break;
+				
+				case 3:
+					Var0 = { 1005.806f, -3157.67f, -36.0897f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 4:
+					Var0 = { 1006.47f, -3179f, -40.25743f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 5:
+					Var0 = { 1005.64f, -3143.569f, -30.8295f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 276:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 277:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 6:
+					Var0 = { 1009.405f, -3170.299f, -39.9071f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 169:
+					Var0 = { -778.2188f, 332.2201f, 206.6209f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 170:
+					Var0 = { -776.9868f, 332.502f, 208.3432f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 201:
+					Var0 = { 997.909f, -3159.014f, -38.3958f };
+					Var0.f_3 = { -0.7711f, 0f, 66.1027f };
+					break;
+				
+				case 14:
+					Var0 = { 1010.696f, -3164.132f, -34.159f };
+					Var0.f_3 = { 0f, 0f, -63.98f };
+					break;
+				
+				case 557:
+					break;
+				
+				case 558:
+					break;
+				
+				case 559:
+					break;
+				
+				case 15:
+					Var0 = { -780.5159f, 317.8105f, 189.9103f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 9:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 10:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 11:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 12:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 13:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 16:
+					Var0 = { 1008.92f, -3168.06f, -34.56f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 22:
+					Var0 = { 1009.308f, -3167.443f, -35.07248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 28:
+					Var0 = { 1008.291f, -3167.388f, -32.82248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 17:
+					Var0 = { 1008.92f, -3168.06f, -34.56f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 23:
+					Var0 = { 1008.275f, -3167.339f, -35.07248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 29:
+					Var0 = { 1007.326f, -3167.266f, -32.82248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 18:
+					Var0 = { 1008.92f, -3168.06f, -34.56f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 24:
+					Var0 = { 1006.42f, -3166.866f, -35.07248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 30:
+					Var0 = { 1006.339f, -3165.978f, -32.82248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 19:
+					Var0 = { 1005.76f, -3165.23f, -34.63f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 25:
+					Var0 = { 1006.34f, -3165.615f, -35.07248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 31:
+					Var0 = { 1006.2f, -3164.762f, -32.82248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 34:
+					Var0 = { 1007.677f, -3165.726f, -34.0343f };
+					Var0.f_3 = { 0.4525f, 0f, -64.106f };
+					break;
+				
+				case 35:
+					Var0 = { 1009.256f, -3164.671f, -34.0222f };
+					Var0.f_3 = { 0.3642f, -0.0006f, -67.5503f };
+					break;
+				
+				case 36:
+					Var0 = { -782.9214f, 338.467f, 187.6588f };
+					Var0.f_3 = { 2.0141f, -0.008f, -89.539f };
+					break;
+				
+				case 560:
+					Var0 = { -782.9009f, 337.7527f, 187.2779f };
+					Var0.f_3 = { 2.0696f, -0.0281f, -89.4518f };
+					break;
+				
+				case 37:
+					Var0 = { -795.085f, 333.845f, 205.221f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 38:
+					Var0 = { -781.9872f, 343.5015f, 188.2368f };
+					Var0.f_3 = { -12.4175f, 0f, 153.0748f };
+					break;
+				
+				case 39:
+					Var0 = { -788.0585f, 343.5015f, 188.2368f };
+					Var0.f_3 = { -12.4175f, 0f, -174.9393f };
+					break;
+				
+				case 120:
+					Var0 = { -795.7497f, 339.9315f, 191.1167f };
+					Var0.f_3 = { -3.984f, 0f, 149.8896f };
+					break;
+				
+				case 121:
+					Var0 = { -799.9801f, 340.0232f, 191.1167f };
+					Var0.f_3 = { -3.984f, 0f, -148.3764f };
+					break;
+				
+				case 125:
+					Var0 = { 1007.93f, -3169.918f, -39.5485f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 40:
+					Var0 = { 1009.762f, -3167.952f, -39.9071f };
+					Var0.f_3 = { 0f, 0f, 160.0341f };
+					break;
+				
+				case 41:
+					Var0 = { -792.9531f, 341.6f, 206.2202f };
+					Var0.f_3 = { 0f, 0f, 119.72f };
+					break;
+				
+				case 126:
+					Var0 = { -786.1208f, 337.9957f, 186.1135f };
+					break;
+				
+				case 127:
+					Var0 = { -786.1259f, 339.1616f, 187.8635f };
+					break;
+				
+				case 42:
+					Var0 = { -785.625f, 338.649f, 186.103f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 46:
+					Var0 = { 1009.3f, -3170.2f, -38.9f };
+					Var0.f_3 = { 0f, 0f, -132f };
+					break;
+				
+				case 47:
+					Var0 = { 1009.3f, -3170.2f, -38.9f };
+					Var0.f_3 = { 0f, 0f, -132f };
+					break;
+				
+				case 48:
+					Var0 = { 1008.865f, -3171.146f, -37.0587f };
+					Var0.f_3 = { -59.0353f, 0f, -108.5875f };
+					break;
+				
+				case 49:
+					Var0 = { 1008.865f, -3171.146f, -37.0587f };
+					Var0.f_3 = { -59.0353f, 0f, -108.5875f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 50:
+					Var0 = { 1010.125f, -3169.914f, -39.88916f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 51:
+					Var0 = { 1010.074f, -3172.298f, -37.90714f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 612:
+					Var0 = { 1009.3f, -3170.2f, -38.9f };
+					Var0.f_3 = { 0f, 0f, -132f };
+					break;
+				
+				case 615:
+					Var0 = { 1010.125f, -3169.914f, -39.88916f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 616:
+					Var0 = { 1010.074f, -3172.298f, -37.90714f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 56:
+					Var0 = { -804.0815f, 335.5993f, 190.8021f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 57:
+					Var0 = { -804.216f, 335.065f, 189.952f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 64:
+					Var0 = { -803.8332f, 335.6036f, 192.1505f };
+					Var0.f_3 = { -45f, 0f, 0f };
+					break;
+				
+				case 65:
+					Var0 = { -803.7757f, 335.7051f, 192.0836f };
+					Var0.f_3 = { -64.3203f, 0f, 90.0509f };
+					break;
+				
+				case 58:
+					Var0 = { -787.2075f, 330.4225f, 201.8932f };
+					Var0.f_3 = { 0.0309f, 0.0078f, 94.294f };
+					break;
+				
+				case 59:
+					Var0 = { -804.6812f, 335.9174f, 191.8717f };
+					Var0.f_3 = { 3.6086f, 0f, -100.4403f };
+					break;
+				
+				case 60:
+					Var0 = { -805.2352f, 335.686f, 191.5975f };
+					Var0.f_3 = { -7.8804f, 0f, -90f };
+					break;
+				
+				case 61:
+					Var0 = { -805.226f, 335.5853f, 192.2601f };
+					Var0.f_3 = { -18.726f, 0.0564f, -65.9443f };
+					break;
+				
+				case 62:
+					Var0 = { -806.9933f, 331.4514f, 192.5549f };
+					Var0.f_3 = { -24.3193f, 0f, -37.258f };
+					break;
+				
+				case 63:
+					Var0 = { -806.9933f, 331.4514f, 192.5549f };
+					Var0.f_3 = { -24.3193f, 0f, -37.258f };
+					break;
+				
+				case 66:
+					Var0 = { -805.214f, 335.7104f, 189.7554f };
+					Var0.f_3 = { 0f, 0f, 1f };
+					break;
+				
+				case 67:
+					Var0 = { -803.511f, 335.6873f, 192.2554f };
+					break;
+				
+				case 110:
+					Var0 = { -804.4796f, 334.4111f, 189.7136f };
+					Var0.f_3 = { 0f, 0f, 164.7228f };
+					break;
+				
+				case 68:
+					Var0 = { -803.2f, 333.1f, 189.8f };
+					break;
+				
+				case 109:
+					Var0 = { -803.209f, 332.229f, 190.863f };
+					break;
+				
+				case 69:
+					Var0 = { -783.0114f, 336.0096f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 318.1693f };
+					break;
+				
+				case 70:
+					Var0 = { -781.938f, 335.66f, 186.65f };
+					Var0.f_3 = { 0f, 0f, 42.25f };
+					break;
+				
+				case 71:
+					Var0 = { -787.1086f, 335.7561f, 186.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 72:
+					Var0 = { -781.3259f, 337.3147f, 188.6136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 73:
+					Var0 = { -782.9689f, 336.8207f, 187.1f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 74:
+					Var0 = { -782.2608f, 336.8359f, 187.1499f };
+					Var0.f_3 = { 0f, 0f, 131.8715f };
+					break;
+				
+				case 75:
+					Var0 = { -782.9863f, 336.1273f, 187.1136f };
+					Var0.f_3 = { 0f, 0f, 309.98f };
+					break;
+				
+				case 76:
+					Var0 = { -782.2608f, 336.8359f, 187.1499f };
+					Var0.f_3 = { 0f, 0f, 318.1693f };
+					break;
+				
+				case 89:
+					Var0 = { -792.8026f, 330.2704f, 205.2183f };
+					Var0.f_3 = { 0f, 0f, 0.11f };
+					break;
+				
+				case 91:
+					Var0 = { -791.3608f, 331.6151f, 206.7155f };
+					Var0.f_3 = { -6.1061f, 0f, 124.716f };
+					break;
+				
+				case 90:
+					Var0 = { -784.825f, 327.887f, 186.314f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 92:
+					Var0 = { -791.1231f, 329.0256f, 207.0468f };
+					Var0.f_3 = { -10.5496f, 0f, 38.2733f };
+					break;
+				
+				case 135:
+					Var0 = { -784.7092f, 327.2737f, 186.3132f };
+					break;
+				
+				case 136:
+					Var0 = { -784.7196f, 328.3914f, 188.1346f };
+					break;
+				
+				case 77:
+					Var0 = { -795.4578f, 337.2369f, 205.2183f };
+					Var0.f_3 = { 0f, 0f, 82.6775f };
+					break;
+				
+				case joaat("mpsv_lp0_31"):
+					Var0 = { -796.8416f, 336.5425f, 206.3782f };
+					Var0.f_3 = { 4.1239f, 0.032f, -35.7362f };
+					break;
+				
+				case 80:
+					Var0 = { -794.1184f, 339.0253f, 207.2513f };
+					Var0.f_3 = { -14.3736f, 0f, 132.7127f };
+					break;
+				
+				case 81:
+					Var0 = { -796.8088f, 337.2715f, 207.0081f };
+					break;
+				
+				case 82:
+					Var0 = { -794.73f, 337.4924f, 205.2183f };
+					break;
+				
+				case 78:
+					Var0 = { Vector(206.15f, 337.263f, -796.115f) + Vector(0.0084f, -0.1213f, -0.0385f) + Vector(-0.0001f, 0.0008f, 0.0245f) };
+					Var0.f_3 = { Vector(84.6f, 0f, 0f) + Vector(5.64f, 0f, 0f) };
+					break;
+				
+				case 83:
+					Var0 = { -793.3814f, 333.4903f, 205.2183f };
+					Var0.f_3 = { 0f, 0f, 182.6354f };
+					break;
+				
+				case 85:
+					Var0 = { -792.4017f, 332.1834f, 206.589f };
+					Var0.f_3 = { -0.4759f, 0f, 56.2407f };
+					break;
+				
+				case 88:
+					Var0 = { -792.6917f, 334.5816f, 206.9306f };
+					Var0.f_3 = { -15.2511f, -0.1442f, 161.552f };
+					break;
+				
+				case 84:
+					Var0 = { -784.798f, 330.004f, 186.315f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 86:
+					Var0 = { -784.6601f, 330.8065f, 186.3132f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 87:
+					Var0 = { -784.6879f, 329.7155f, 188.1622f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 93:
+					Var0 = { 996.5215f, -3157.442f, -38.7573f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 94:
+					Var0 = { 995.1556f, -3158.37f, -39.865f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 95:
+					Var0 = { 997.3891f, -3158.384f, -38.865f };
+					Var0.f_3 = { 0f, 0f, 88.66f };
+					break;
+				
+				case 96:
+					Var0 = { 996.1075f, -3158.436f, -38.865f };
+					Var0.f_3 = { 0f, 0f, 250.3059f };
+					break;
+				
+				case 97:
+					Var0 = { 998.6428f, -3157.817f, -38.865f };
+					Var0.f_3 = { 0f, 0f, 137.06f };
+					break;
+				
+				case 98:
+					Var0 = { 997.7662f, -3158.828f, -38.865f };
+					Var0.f_3 = { 0f, 0f, -38.76f };
+					break;
+				
+				case 99:
+					Var0 = { 996.5215f, -3157.442f, -38.7573f };
+					Var0.f_3 = { 0.18f, 0f, 90f };
+					break;
+				
+				case 100:
+					Var0 = { 997.6063f, -3158.43f, -38.8515f };
+					Var0.f_3 = { 0f, 0f, 92.74f };
+					break;
+				
+				case 101:
+					Var0 = { 994.5785f, -3159.024f, -38.533f };
+					Var0.f_3 = { -2.5476f, 0.7873f, -60.1641f };
+					break;
+				
+				case 181:
+					Var0 = { -777.695f, 332.054f, 207.34f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 106:
+					Var0 = { -796.3882f, 336.8372f, 202.5976f };
+					Var0.f_3 = { -22.7361f, 0f, -129.0221f };
+					break;
+				
+				case 107:
+					Var0 = { -801.9172f, 326.3802f, 207.4878f };
+					Var0.f_3 = { -35.2381f, 0f, -111.7465f };
+					break;
+				
+				case 108:
+					Var0 = { -781.9736f, 316.5539f, 187.9136f };
+					Var0.f_3 = { 90f, 0f, 0f };
+					break;
+				
+				case 117:
+					Var0 = { -794.9332f, 335.1039f, 201.5308f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 118:
+					Var0 = { -800.421f, 325.5437f, 206.1822f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 119:
+					Var0 = { -784.6674f, 316.7436f, 186.9136f };
+					Var0.f_3 = { 0f, 0f, 280.1147f };
+					break;
+				
+				case 122:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 123:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 124:
+					Var0 = { 1008.144f, -3164.678f, -39.9082f };
+					Var0.f_3 = { 0f, 0f, 357.4597f };
+					break;
+				
+				case 137:
+					Var0 = { -787.9853f, 324.4699f, 186.3132f };
+					break;
+				
+				case 202:
+					Var0 = { 1001.202f, -3158.58f, -39.9079f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 203:
+					Var0 = { 1001.076f, -3160.03f, -39.9079f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 204:
+					Var0 = { 1001.245f, -3161.796f, -39.9078f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 205:
+					Var0 = { 1000.603f, -3157.04f, -39.9079f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 206:
+					Var0 = { 1002.135f, -3157.474f, -39.908f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 207:
+					Var0 = { 1002.494f, -3159.329f, -39.9077f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 208:
+					Var0 = { 1002.246f, -3160.889f, -39.9078f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 209:
+					Var0 = { 1002.111f, -3162.541f, -39.908f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 210:
+					Var0 = { 1001.084f, -3163.731f, -39.908f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 211:
+					Var0 = { 1001.575f, -3165.063f, -39.9079f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 212:
+					Var0 = { 1002.312f, -3163.77f, -39.9076f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 213:
+					Var0 = { 1003.43f, -3161.982f, -39.9079f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 214:
+					Var0 = { 1003.593f, -3160.275f, -39.9081f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 215:
+					Var0 = { 1003.485f, -3163.26f, -39.9075f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 216:
+					Var0 = { 1003.339f, -3157.005f, -39.9077f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+				
+				case 217:
+					Var0 = { 1003.795f, -3158.334f, -39.908f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 270f;
+					break;
+			}
+			switch (iParam0)
+			{
+				case 435:
+					Var0 = { 1000.701f, -3155.763f, -39.9078f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 445:
+					Var0 = { 1000.35f, -3153.672f, -39.90773f };
+					Var0.f_3 = { 5.875f, 0f, 0f };
+					break;
+				
+				case 446:
+					Var0 = { 1000.466f, -3145.103f, -37.40711f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 436:
+					Var0 = { 1010.597f, -3167.668f, -35.0725f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 447:
+					Var0 = { 1009.821f, -3168.223f, -35.07248f };
+					Var0.f_3 = { 3.65f, 0f, 1f };
+					break;
+				
+				case 448:
+					Var0 = { 1006.318f, -3168.077f, -33.57248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 437:
+					Var0 = { 1005.778f, -3163.722f, -35.0725f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 449:
+					Var0 = { 1005.779f, -3167.326f, -35.07248f };
+					Var0.f_3 = { 2.75f, 0f, 1.25f };
+					break;
+				
+				case 450:
+					Var0 = { 1005.39f, -3164.406f, -33.32248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 470:
+					Var0 = { 1002.249f, -3168.865f, -35.0618f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 471:
+					Var0 = { 1003.022f, -3170.581f, -35.07248f };
+					Var0.f_3 = { 1.5f, 0f, 1.25f };
+					break;
+				
+				case 472:
+					Var0 = { 1001.529f, -3170.532f, -33.32248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 477:
+					Var0 = { 998.0623f, -3166.446f, -35.0725f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 478:
+					Var0 = { 996.9713f, -3165.535f, -35.07248f };
+					Var0.f_3 = { 1f, 0f, 1f };
+					break;
+				
+				case 479:
+					Var0 = { 996.8763f, -3164.61f, -33.32248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 480:
+					Var0 = { 1000.251f, -3164.454f, -35.0536f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 481:
+					Var0 = { 998.8216f, -3163.229f, -35.07248f };
+					Var0.f_3 = { 0f, 0f, 1f };
+					break;
+				
+				case 482:
+					Var0 = { 998.1072f, -3163.847f, -33.32248f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 504:
+					Var0 = { 1008.802f, -3164.466f, -35.0725f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 505:
+					Var0 = { 1010.979f, -3167.239f, -35.07248f };
+					Var0.f_3 = { 2.25f, 0f, 0f };
+					break;
+				
+				case 506:
+					Var0 = { 1010.804f, -3162.844f, -33.17881f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 507:
+					Var0 = { -804.3848f, 333.8651f, 189.7135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 508:
+					Var0 = { -805.4896f, 335.0002f, 189.7155f };
+					Var0.f_3 = { 1f, 0f, 0f };
+					break;
+				
+				case 509:
+					Var0 = { -805.471f, 333.3125f, 191.9633f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 510:
+					Var0 = { -788.6317f, 320.9997f, 186.3132f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 511:
+					Var0 = { -789.5604f, 319.666f, 186.3132f };
+					Var0.f_3 = { 1.57f, 0f, 0f };
+					break;
+				
+				case 512:
+					Var0 = { -788.0121f, 319.6924f, 188.5632f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 513:
+					Var0 = { -792.0585f, 341.4463f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 514:
+					Var0 = { -792.0259f, 340.3044f, 186.1136f };
+					Var0.f_3 = { 2.65f, 0f, 0f };
+					break;
+				
+				case 515:
+					Var0 = { -792.1705f, 338.4408f, 189.8998f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 528:
+					Var0 = { -788.878f, 338.0769f, 186.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 529:
+					Var0 = { -789.9435f, 337.4386f, 186.1135f };
+					Var0.f_3 = { 1.25f, 0f, 0f };
+					break;
+				
+				case 530:
+					Var0 = { -789.9385f, 338.612f, 188.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 531:
+					Var0 = { -782.5031f, 338.2492f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 532:
+					Var0 = { -785.4359f, 336.6565f, 186.1135f };
+					Var0.f_3 = { 4.75f, 0f, 0f };
+					break;
+				
+				case 533:
+					Var0 = { -785.3582f, 341.1275f, 188.3635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 534:
+					Var0 = { -781.649f, 320.3884f, 186.9175f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 535:
+					Var0 = { -780.7493f, 320.9498f, 186.9157f };
+					Var0.f_3 = { 1.5f, 0f, 0f };
+					break;
+				
+				case 536:
+					Var0 = { -780.7726f, 318.901f, 189.1642f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 537:
+					Var0 = { -791.6885f, 341.563f, 186.1535f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 538:
+					Var0 = { -793.2805f, 340.489f, 186.1136f };
+					Var0.f_3 = { 1.95f, 0f, 0f };
+					break;
+				
+				case 539:
+					Var0 = { -793.2911f, 343.794f, 188.3636f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 540:
+					Var0 = { -797.9947f, 327.1148f, 189.7136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 541:
+					Var0 = { -796.0374f, 326.6479f, 189.7234f };
+					Var0.f_3 = { 1f, 0f, 0f };
+					break;
+				
+				case 542:
+					Var0 = { -797.2122f, 326.6525f, 192.4635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 547:
+					Var0 = { -797.5703f, 338.8147f, 189.7159f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 548:
+					Var0 = { -795.5723f, 336.2789f, 189.7159f };
+					Var0.f_3 = { 1.75f, 0f, 0f };
+					break;
+				
+				case 549:
+					Var0 = { -795.6097f, 340.2508f, 191.9636f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 298:
+					Var0 = { -793.858f, 341.4139f, 187.1133f };
+					break;
+				
+				case 299:
+					Var0 = { -784.331f, 330.2035f, 187.2646f };
+					break;
+				
+				case 311:
+					Var0 = { -788.0102f, 319.6611f, 186.5651f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 431:
+					Var0 = { -790.1639f, 335.2293f, 187.1133f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 133:
+					Var0 = { -793.5669f, 340.5959f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 134:
+					Var0 = { -793.5555f, 341.7935f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 130:
+					Var0 = { -793.39f, 341.565f, 186.114f };
+					Var0.f_3 = { 0f, 0f, -91f };
+					break;
+				
+				case 433:
+					Var0 = { -789.6328f, 334.3963f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 434:
+					Var0 = { -789.6397f, 335.5693f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 432:
+					Var0 = { -789.696f, 335.38f, 186.114f };
+					Var0.f_3 = { 0f, 0f, -91f };
+					break;
+				
+				case 102:
+					Var0 = { -793.5547f, 342.9295f, 186.1135f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 103:
+					Var0 = { -793.5555f, 341.7935f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 182:
+					Var0 = { -793.808f, 341.84f, 187.01f };
+					Var0.f_3 = { 0f, 0f, 88.51f };
+					break;
+				
+				case 501:
+					Var0 = { -789.6354f, 336.738f, 186.1136f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 502:
+					Var0 = { -789.6397f, 335.5693f, 187.8635f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 500:
+					Var0 = { -790.125f, 335.69f, 187.01f };
+					Var0.f_3 = { 0f, 0f, 88.51f };
+					break;
+				
+				case 104:
+					Var0 = { -800.4421f, 325.256f, 207.2709f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 105:
+					Var0 = { -800.4426f, 326.6761f, 205.1558f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 183:
+					Var0 = { -795.07f, 321.699f, 187.035f };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 473:
+					Var0 = { -796.497f, 331.5252f, 192.2901f };
+					Var0.f_3 = { -34.9118f, 0f, 21.4059f };
+					break;
+				
+				case 474:
+					Var0 = { -789.592f, 334.359f, 188.7709f };
+					Var0.f_3 = { -26.6941f, 0f, -139.8585f };
+					break;
+				
+				case 475:
+					Var0 = { -796.4861f, 322.8627f, 188.785f };
+					Var0.f_3 = { -27.0831f, 0f, 3.9303f };
+					break;
+				
+				case 169:
+					Var0 = { -794.368f, 322.0654f, 186.3132f };
+					break;
+				
+				case 170:
+					Var0 = { -795.291f, 322.0415f, 187.8132f };
+					break;
+				
+				case 181:
+					Var0 = { -795.102f, 321.527f, 187.025f };
+					Var0.f_3 = { 0f, 0f, -152.431f };
+					break;
+				
+				case 678:
+					Var0 = { Vector(-39.8986f, -3150.962f, 1009.958f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 679:
+					Var0 = { Vector(-39.8986f, -3150.042f, 1007.633f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 680:
+					Var0 = { Vector(-39.8986f, -3150.962f, 1005.307f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 681:
+					Var0 = { Vector(-39.8986f, -3151.885f, 1007.633f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 682:
+					Var0 = { Vector(-39.8986f, -3150.042f, 1008.705f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 683:
+					Var0 = { Vector(-39.8986f, -3150.042f, 1006.56f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 684:
+					Var0 = { Vector(-39.8986f, -3151.885f, 1008.705f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 685:
+					Var0 = { Vector(-39.8986f, -3151.885f, 1006.56f) + Vector(0.6f, 0f, 0f) };
+					Var0.f_3 = { 0f, 0f, -180f };
+					break;
+				
+				case 686:
+					Var0 = { 1008.018f, -3169.917f, -39.3052f };
+					Var0.f_3 = { 0f, 0f, -90f };
+					break;
+				
+				case 818:
+					Var0 = { 1007.815f, -3168.332f, -39.90714f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 819:
+					Var0 = { 1007.817f, -3169.956f, -38.28214f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 820:
+					Var0 = { -2850f, -3660.098f, -39.8891f };
+					Var0.f_3 = { 0f, 0f, -90.9063f };
+					break;
+				
+				case 911:
+					Var0 = { 1012.687f, -3150.791f, -39.9071f };
+					Var0.f_3 = { 0f, 0f, -88.5932f };
+					break;
+				
+				case 912:
+					Var0 = { 1016.022f, -3149.122f, -39.5768f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+			}
+			break;
+	}
+	return Var0;
+}
+
+struct<6> func_9(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -5068,7 +7377,7 @@ struct<6> func_8(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_9(int iParam0, int iParam1)
+struct<6> func_10(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -6549,7 +8858,7 @@ struct<6> func_9(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_10(int iParam0, int iParam1)
+struct<6> func_11(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -8236,7 +10545,7 @@ struct<6> func_10(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_11(int iParam0, int iParam1)
+struct<6> func_12(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -11083,7 +13392,7 @@ struct<6> func_11(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_12(int iParam0, int iParam1)
+struct<6> func_13(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -13895,7 +16204,7 @@ struct<6> func_12(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_13(int iParam0)
+struct<6> func_14(int iParam0)
 {
 	struct<6> Var0;
 	
@@ -14090,7 +16399,7 @@ struct<6> func_13(int iParam0)
 	return Var0;
 }
 
-void func_14(var uParam0, int iParam1)
+void func_15(var uParam0, int iParam1)
 {
 	struct<3> Var0;
 	
@@ -14113,14 +16422,14 @@ void func_14(var uParam0, int iParam1)
 		case 41:
 		case 42:
 		case 43:
-			func_18(iParam1, 4, &Var0, -1);
+			func_20(iParam1, 4, &Var0, -1);
 			*(uParam0[0 /*8*/]) = { Var0 };
-			func_18(iParam1, 5, &Var0, -1);
+			func_20(iParam1, 5, &Var0, -1);
 			(uParam0[0 /*8*/])->f_3 = { Var0 };
 			(uParam0[0 /*8*/])->f_6 = 19f;
-			func_18(iParam1, 276, &Var0, -1);
+			func_20(iParam1, 276, &Var0, -1);
 			*(uParam0[1 /*8*/]) = { Var0 };
-			func_18(iParam1, 277, &Var0, -1);
+			func_20(iParam1, 277, &Var0, -1);
 			(uParam0[1 /*8*/])->f_3 = { Var0 };
 			(uParam0[1 /*8*/])->f_6 = 14.5f;
 			break;
@@ -14167,14 +16476,14 @@ void func_14(var uParam0, int iParam1)
 		case 63:
 		case 64:
 		case 65:
-			func_18(iParam1, 4, &Var0, 61);
+			func_20(iParam1, 4, &Var0, 61);
 			*(uParam0[0 /*8*/]) = { Var0 };
-			func_18(iParam1, 5, &Var0, 61);
+			func_20(iParam1, 5, &Var0, 61);
 			(uParam0[0 /*8*/])->f_3 = { Var0 };
 			(uParam0[0 /*8*/])->f_6 = 21f;
-			func_18(iParam1, 276, &Var0, 61);
+			func_20(iParam1, 276, &Var0, 61);
 			*(uParam0[1 /*8*/]) = { Var0 };
-			func_18(iParam1, 277, &Var0, 61);
+			func_20(iParam1, 277, &Var0, 61);
 			(uParam0[1 /*8*/])->f_3 = { Var0 };
 			(uParam0[1 /*8*/])->f_6 = 14.5f;
 			break;
@@ -14183,19 +16492,19 @@ void func_14(var uParam0, int iParam1)
 		case 74:
 		case 75:
 		case 76:
-			func_18(iParam1, 4, &Var0, 73);
+			func_20(iParam1, 4, &Var0, 73);
 			*(uParam0[0 /*8*/]) = { Var0 };
-			func_18(iParam1, 5, &Var0, 73);
+			func_20(iParam1, 5, &Var0, 73);
 			(uParam0[0 /*8*/])->f_3 = { Var0 };
 			(uParam0[0 /*8*/])->f_6 = 9.75f;
-			func_18(iParam1, 276, &Var0, 73);
+			func_20(iParam1, 276, &Var0, 73);
 			*(uParam0[1 /*8*/]) = { Var0 };
-			func_18(iParam1, 277, &Var0, 73);
+			func_20(iParam1, 277, &Var0, 73);
 			(uParam0[1 /*8*/])->f_3 = { Var0 };
 			(uParam0[1 /*8*/])->f_6 = 10.25f;
-			func_18(iParam1, 483, &Var0, 73);
+			func_20(iParam1, 483, &Var0, 73);
 			*(uParam0[2 /*8*/]) = { Var0 };
-			func_18(iParam1, 484, &Var0, 73);
+			func_20(iParam1, 484, &Var0, 73);
 			(uParam0[2 /*8*/])->f_3 = { Var0 };
 			(uParam0[2 /*8*/])->f_6 = 6.75f;
 			break;
@@ -14206,19 +16515,19 @@ void func_14(var uParam0, int iParam1)
 		case 80:
 		case 81:
 		case 82:
-			func_18(iParam1, 4, &Var0, 77);
+			func_20(iParam1, 4, &Var0, 77);
 			*(uParam0[0 /*8*/]) = { Var0 };
-			func_18(iParam1, 5, &Var0, 77);
+			func_20(iParam1, 5, &Var0, 77);
 			(uParam0[0 /*8*/])->f_3 = { Var0 };
 			(uParam0[0 /*8*/])->f_6 = 9.75f;
-			func_18(iParam1, 276, &Var0, 77);
+			func_20(iParam1, 276, &Var0, 77);
 			*(uParam0[1 /*8*/]) = { Var0 };
-			func_18(iParam1, 277, &Var0, 77);
+			func_20(iParam1, 277, &Var0, 77);
 			(uParam0[1 /*8*/])->f_3 = { Var0 };
 			(uParam0[1 /*8*/])->f_6 = 5f;
-			func_18(iParam1, 483, &Var0, 77);
+			func_20(iParam1, 483, &Var0, 77);
 			*(uParam0[2 /*8*/]) = { Var0 };
-			func_18(iParam1, 484, &Var0, 77);
+			func_20(iParam1, 484, &Var0, 77);
 			(uParam0[2 /*8*/])->f_3 = { Var0 };
 			(uParam0[2 /*8*/])->f_6 = 9.5f;
 			break;
@@ -14226,27 +16535,27 @@ void func_14(var uParam0, int iParam1)
 		case 83:
 		case 84:
 		case 85:
-			func_18(iParam1, 4, &Var0, 83);
+			func_20(iParam1, 4, &Var0, 83);
 			*(uParam0[0 /*8*/]) = { Var0 };
-			func_18(iParam1, 5, &Var0, 83);
+			func_20(iParam1, 5, &Var0, 83);
 			(uParam0[0 /*8*/])->f_3 = { Var0 };
 			(uParam0[0 /*8*/])->f_6 = 26.75f;
-			func_18(iParam1, 276, &Var0, 83);
+			func_20(iParam1, 276, &Var0, 83);
 			*(uParam0[1 /*8*/]) = { Var0 };
-			func_18(iParam1, 277, &Var0, 83);
+			func_20(iParam1, 277, &Var0, 83);
 			(uParam0[1 /*8*/])->f_3 = { Var0 };
 			(uParam0[1 /*8*/])->f_6 = 18.25f;
 			break;
 		
 		case 86:
-			func_18(iParam1, 4, &Var0, 86);
+			func_20(iParam1, 4, &Var0, 86);
 			*(uParam0[0 /*8*/]) = { Var0 };
-			func_18(iParam1, 5, &Var0, 86);
+			func_20(iParam1, 5, &Var0, 86);
 			(uParam0[0 /*8*/])->f_3 = { Var0 };
 			(uParam0[0 /*8*/])->f_6 = 14.75f;
-			func_18(iParam1, 276, &Var0, 86);
+			func_20(iParam1, 276, &Var0, 86);
 			*(uParam0[1 /*8*/]) = { Var0 };
-			func_18(iParam1, 277, &Var0, 86);
+			func_20(iParam1, 277, &Var0, 86);
 			(uParam0[1 /*8*/])->f_3 = { Var0 };
 			(uParam0[1 /*8*/])->f_6 = 11.75f;
 			break;
@@ -14255,21 +16564,47 @@ void func_14(var uParam0, int iParam1)
 		case 88:
 		case 89:
 		case 90:
-			func_18(iParam1, 4, &Var0, 88);
+			func_20(iParam1, 4, &Var0, 88);
 			*(uParam0[0 /*8*/]) = { Var0 };
-			func_18(iParam1, 5, &Var0, 88);
+			func_20(iParam1, 5, &Var0, 88);
 			(uParam0[0 /*8*/])->f_3 = { Var0 };
 			(uParam0[0 /*8*/])->f_6 = 27.25f;
-			func_18(iParam1, 276, &Var0, 88);
+			func_20(iParam1, 276, &Var0, 88);
 			*(uParam0[1 /*8*/]) = { Var0 };
-			func_18(iParam1, 277, &Var0, 88);
+			func_20(iParam1, 277, &Var0, 88);
 			(uParam0[1 /*8*/])->f_3 = { Var0 };
 			(uParam0[1 /*8*/])->f_6 = 7.5f;
+			break;
+		
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+			func_20(iParam1, 4, &Var0, 91);
+			*(uParam0[0 /*8*/]) = { Var0 };
+			func_20(iParam1, 5, &Var0, 91);
+			(uParam0[0 /*8*/])->f_3 = { Var0 };
+			(uParam0[0 /*8*/])->f_6 = 29.75f;
+			break;
+		
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+		case 101:
+		case 102:
+			func_20(iParam1, 4, &Var0, 97);
+			*(uParam0[0 /*8*/]) = { Var0 };
+			func_20(iParam1, 5, &Var0, 97);
+			(uParam0[0 /*8*/])->f_3 = { Var0 };
+			(uParam0[0 /*8*/])->f_6 = 22f;
 			break;
 	}
 }
 
-int func_15(int iParam0)
+int func_16(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -14283,7 +16618,60 @@ int func_15(int iParam0)
 	return 0;
 }
 
-int func_16(int iParam0, int iParam1)
+int func_17(int iParam0, int iParam1)
+{
+	if (iParam1 == -1)
+	{
+		switch (iParam0)
+		{
+			case 91:
+			case 92:
+			case 93:
+			case 94:
+			case 95:
+			case 96:
+			case 97:
+			case 98:
+			case 99:
+			case 100:
+			case 101:
+			case 102:
+				return 1;
+				break;
+		}
+	}
+	else if (iParam1 == 91)
+	{
+		switch (iParam0)
+		{
+			case 91:
+			case 92:
+			case 93:
+			case 94:
+			case 95:
+			case 96:
+				return 1;
+				break;
+		}
+	}
+	else if (iParam1 == 97)
+	{
+		switch (iParam0)
+		{
+			case 97:
+			case 98:
+			case 99:
+			case 100:
+			case 101:
+			case 102:
+				return 1;
+				break;
+			}
+	}
+	return 0;
+}
+
+int func_18(int iParam0, int iParam1)
 {
 	if (iParam1 == -1)
 	{
@@ -14335,7 +16723,7 @@ int func_16(int iParam0, int iParam1)
 	return 0;
 }
 
-int func_17(int iParam0)
+int func_19(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -14348,18 +16736,18 @@ int func_17(int iParam0)
 	return 0;
 }
 
-void func_18(int iParam0, int iParam1, var uParam2, int iParam3)
+void func_20(int iParam0, int iParam1, var uParam2, int iParam3)
 {
 	struct<6> Var0[2];
 	struct<3> Var13;
 	
-	Var0[0 /*6*/] = { func_19(iParam3) };
-	Var0[1 /*6*/] = { func_19(iParam0) };
+	Var0[0 /*6*/] = { func_21(iParam3) };
+	Var0[1 /*6*/] = { func_21(iParam0) };
 	*uParam2 = { func_7(iParam1, iParam3) };
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_6(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_6(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0x90B89006901451E8(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0x8461D93FE2207D3A(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -15036,6 +17424,7 @@ void func_18(int iParam0, int iParam1, var uParam2, int iParam3)
 		case 906:
 		case 907:
 		case 908:
+		case 911:
 			while (Var0[0 /*6*/].f_3.f_2 > 180f)
 			{
 				Var0[0 /*6*/].f_3.f_2 = (Var0[0 /*6*/].f_3.f_2 - 360f);
@@ -15065,7 +17454,7 @@ void func_18(int iParam0, int iParam1, var uParam2, int iParam3)
 	}
 }
 
-struct<6> func_19(int iParam0)
+struct<6> func_21(int iParam0)
 {
 	struct<6> Var0;
 	
@@ -15306,11 +17695,31 @@ struct<6> func_19(int iParam0)
 			Var0 = { -74.8895f, -817.6883f, 244.8508f };
 			Var0.f_3 = { 0f, 0f, 70f };
 			break;
+		
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+			Var0 = { 1100.764f, -3159.384f, -34.9342f };
+			Var0.f_3 = { 0f, 0f, 0f };
+			break;
+		
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+		case 101:
+		case 102:
+			Var0 = { 1005.806f, -3157.67f, -36.0897f };
+			Var0.f_3 = { 0f, 0f, 0f };
+			break;
 	}
 	return Var0;
 }
 
-int func_20(int iParam0)
+int func_22(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -15390,11 +17799,29 @@ int func_20(int iParam0)
 		case 90:
 			return 88;
 			break;
+		
+		case 91:
+		case 92:
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+			return 91;
+			break;
+		
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+		case 101:
+		case 102:
+			return 97;
+			break;
 	}
 	return -1;
 }
 
-void func_21(var uParam0, int iParam1)
+void func_23(var uParam0, int iParam1)
 {
 	switch (iParam1)
 	{
@@ -15418,7 +17845,7 @@ void func_21(var uParam0, int iParam1)
 			uParam0->f_1742.f_105.f_3 = { -25.359f, 2.3332f, 44.174f };
 			uParam0->f_1742.f_105.f_6 = 50f;
 			uParam0->f_1742.f_114 = { 172.7787f, -1003.21f, -99.9999f };
-			func_22(&(uParam0->f_1742.f_117), 2);
+			func_24(&(uParam0->f_1742.f_117), 2);
 			uParam0->f_1742.f_102 = { 177.9406f, -1008.594f, -97.7757f };
 			uParam0->f_1742.f_8 = { 179.0661f, -1003.424f, -100.0622f };
 			uParam0->f_1742.f_8.f_3 = { 179.089f, -1006.223f, -97.24995f };
@@ -15458,7 +17885,7 @@ void func_21(var uParam0, int iParam1)
 			uParam0->f_1742.f_105.f_3 = { -21.4541f, -6.6235f, -45.6924f };
 			uParam0->f_1742.f_105.f_6 = 50f;
 			uParam0->f_1742.f_114 = { 198.6071f, -1000.536f, -100f };
-			func_22(&(uParam0->f_1742.f_117), 6);
+			func_24(&(uParam0->f_1742.f_117), 6);
 			uParam0->f_1742.f_102 = { 207.1707f, -1007.917f, -97.6376f };
 			uParam0->f_1742.f_8 = { 207.8867f, -999.075f, -100.25f };
 			uParam0->f_1742.f_8.f_3 = { 207.0936f, -999.0939f, -97.49996f };
@@ -15506,7 +17933,7 @@ void func_21(var uParam0, int iParam1)
 			uParam0->f_1742.f_105.f_3 = { -22.3788f, -1.5101f, -0.1088f };
 			uParam0->f_1742.f_105.f_6 = 50f;
 			uParam0->f_1742.f_114 = { 227.8602f, -991.1093f, -99.9999f };
-			func_22(&(uParam0->f_1742.f_117), 10);
+			func_24(&(uParam0->f_1742.f_117), 10);
 			uParam0->f_1742.f_102 = { 237.4485f, -1006.803f, -98.3606f };
 			uParam0->f_1742.f_8 = { 237.9517f, -1004.842f, -100.2499f };
 			uParam0->f_1742.f_8.f_3 = { 239.1281f, -1004.828f, -97.26435f };
@@ -15520,7 +17947,7 @@ void func_21(var uParam0, int iParam1)
 	}
 }
 
-struct<8> func_22(var uParam0, int iParam1)
+struct<8> func_24(var uParam0, int iParam1)
 {
 	switch (iParam1)
 	{
@@ -15538,14 +17965,14 @@ struct<8> func_22(var uParam0, int iParam1)
 		
 		case 10:
 			*uParam0 = { 230.0094f, -1009.124f, -100.6539f };
-			uParam0->f_3 = { 230.5939f, -965.522f, -94.53618f };
+			uParam0->f_3 = { 230.5939f, -964.022f, -94.53618f };
 			uParam0->f_6 = 23.5f;
 			break;
 	}
 	return *uParam0;
 }
 
-void func_23(var uParam0, int iParam1)
+void func_25(var uParam0, int iParam1)
 {
 	struct<4> Var0;
 	
@@ -15571,7 +17998,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -778.8333f, 313.5024f, 86.1362f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 0f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -774.1633f, 301.68f, 84.7287f };
@@ -15588,7 +18015,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -790.291f, 308.7186f, 86.1399f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -0.46f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -801.4907f, 309.0866f, 90.1835f };
@@ -15633,7 +18060,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -260.5696f, -969.0703f, 31.7697f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 62.19f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -250.4661f, -948.8276f, 30.221f };
@@ -15650,7 +18077,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -280.5642f, -991.5149f, 24.8514f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 70.39f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -272.2346f, -994.454f, 29.0453f };
@@ -15695,7 +18122,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1441.855f, -543.4296f, 35.2561f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 34.3f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1441.411f, -546.8956f, 33.7424f };
@@ -15712,7 +18139,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -1453.515f, -500.2265f, 33.0628f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -145.7f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -1461.336f, -504.5396f, 34.18f };
@@ -15757,7 +18184,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -912.8546f, -456.0751f, 40.1971f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -63f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -916.9406f, -458.2739f, 38.5999f };
@@ -15774,7 +18201,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -819.3383f, -441.3292f, 37.222f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -153f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -819.843f, -441.3822f, 40.5771f };
@@ -15819,7 +18246,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -49.0912f, -590.4172f, 38.4656f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 160f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -50.2013f, -584.2267f, 35.8979f };
@@ -15836,7 +18263,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -32.7921f, -618.8801f, 35.2212f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 70.13f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -34.8441f, -625.349f, 38.6518f };
@@ -15881,7 +18308,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -934.3623f, -380.0636f, 39.6193f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -62.99f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -935.1856f, -384.7494f, 37.9613f };
@@ -15898,7 +18325,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -875.1261f, -359.3368f, 36.5067f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -63f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -880.0004f, -360.9817f, 37.945f };
@@ -15943,7 +18370,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -613.5477f, 36.9706f, 44.2302f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -90f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -614.7665f, 40.6905f, 42.5906f };
@@ -15960,7 +18387,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -631.3015f, 51.9951f, 44.3777f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 180f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -638.8582f, 62.414f, 46.2529f };
@@ -16005,7 +18432,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 285.8317f, -162.205f, 65.1628f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -110f };
 			uParam0->f_38[0 /*27*/].f_22 = 0;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { 282.6784f, -158.9562f, 62.6221f };
@@ -16022,7 +18449,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 286.4148f, -144.7555f, 65.6753f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -110f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { 286.9442f, -142.8617f, 68.419f };
@@ -16067,7 +18494,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 6.1991f, 35.8211f, 72.121f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -110f };
 			uParam0->f_38[0 /*27*/].f_22 = 0;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { 1.7704f, 32.7973f, 70.0909f };
@@ -16084,7 +18511,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -5.2392f, 39.6933f, 71.7436f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -110f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -3.7128f, 38.3486f, 74.8271f };
@@ -16129,7 +18556,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 12.5023f, 80.8683f, 78.9946f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -110f };
 			uParam0->f_38[0 /*27*/].f_22 = 0;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -12.7328f, 94.7645f, 77.2155f };
@@ -16146,7 +18573,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 23.3697f, 78.2563f, 75.2878f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 160f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { 21.0105f, 79.3261f, 76.9841f };
@@ -16191,7 +18618,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -510.1327f, 108.0511f, 64.2438f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -172f };
 			uParam0->f_38[0 /*27*/].f_22 = 0;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -512.5056f, 111.1181f, 62.3456f };
@@ -16208,7 +18635,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -496.4968f, 78.337f, 56.4797f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -91.5f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -496.7119f, 77.6624f, 59.1793f };
@@ -16253,7 +18680,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -199.1217f, 85.5957f, 70.3121f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 169f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -199.7983f, 94.968f, 68.5241f };
@@ -16270,7 +18697,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -212.4217f, 31.8592f, 60.4929f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 171f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -209.6682f, 68.034f, 69.8104f };
@@ -16315,7 +18742,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -627.387f, 168.1326f, 61.8173f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -90f };
 			uParam0->f_38[0 /*27*/].f_22 = 0;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -630.0102f, 169.6864f, 60.2309f };
@@ -16332,7 +18759,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -626.4755f, 148.8474f, 57.1539f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 179.5f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -626.3999f, 148.4401f, 59.2913f };
@@ -16377,7 +18804,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -968.2812f, -1432.925f, 8.1858f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 70f };
 			uParam0->f_38[0 /*27*/].f_22 = 1;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -975.5323f, -1435.457f, 6.6791f };
@@ -16394,7 +18821,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -980.7506f, -1447.021f, 4.5223f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -70f };
 			uParam0->f_38[1 /*27*/].f_22 = 3;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -977.2012f, -1452.591f, 6.194f };
@@ -16439,7 +18866,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -833.9494f, (-862.6305f + 0.1f), 21.2407f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 90f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -831.7097f, -860.6437f, 19.6944f };
@@ -16456,7 +18883,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -763.3941f, -866.1509f, 21.3894f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 90f };
 			uParam0->f_38[1 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -763.5423f, -875.5127f, 23.5228f };
@@ -16501,7 +18928,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -763.9045f, (-750.8787f + -0.1f), 28.4594f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 90f };
 			uParam0->f_38[0 /*27*/].f_22 = 0;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -761.0186f, -753.8593f, 26.8736f };
@@ -16518,7 +18945,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -782.0396f, -799.9789f, 21.4256f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -90f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -792.3658f, -802.0107f, 23.5808f };
@@ -16563,7 +18990,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -40.9042f, -60.013f, 64.324f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -107.5f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -43.5543f, -61.1891f, 62.5837f };
@@ -16580,7 +19007,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -28.943f, -66.5774f, 60.244f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -107f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -28.5985f, -67.3177f, 62.0343f };
@@ -16625,7 +19052,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -200.5526f, 185.1893f, 80.9715f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -90f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -205.1874f, 184.6205f, 79.3279f };
@@ -16642,7 +19069,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -200.5526f, 196.626f, 80.005f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -90f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -200.8381f, 197.3646f, 82.348f };
@@ -16687,7 +19114,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -813.8711f, -979.4198f, 14.7474f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 35f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -814.5236f, -983.1685f, 13.0938f };
@@ -16704,7 +19131,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -803.2634f, -983.3758f, 13.0737f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 34.2f };
 			uParam0->f_38[1 /*27*/].f_22 = 3;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -803.7123f, -982.5094f, 14.1644f };
@@ -16749,7 +19176,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -663.2095f, -854.3929f, 25.1573f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -177f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -662.5104f, -852.2342f, 23.4378f };
@@ -16766,7 +19193,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -664.9559f, -855.7695f, 25.0188f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -90f };
 			uParam0->f_38[1 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -672.7541f, -854.4485f, 26.9547f };
@@ -16811,7 +19238,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1532.43f, -325.3266f, 48.5029f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -45f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1535.193f, -325.2051f, 46.4857f };
@@ -16828,7 +19255,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -1525.825f, -346.0658f, 45.7772f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -135f };
 			uParam0->f_38[1 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -1532.078f, -340.942f, 47.9153f };
@@ -16873,7 +19300,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1562.817f, -403.8937f, 43.0028f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 50f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1560.323f, -409.2578f, 41.389f };
@@ -16890,7 +19317,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -1556.446f, -396.3038f, 42.5343f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 50f };
 			uParam0->f_38[1 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -1552.687f, -398.0967f, 44.8597f };
@@ -16935,7 +19362,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1607.04f, -434.1056f, 41.0649f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -130f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1609.212f, -429.7664f, 39.4372f };
@@ -16952,7 +19379,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -1603.724f, -449.8294f, 38.7276f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -130f };
 			uParam0->f_38[1 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -1603.83f, -449.2337f, 40.259f };
@@ -16994,7 +19421,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 963.2421f, -1022.59f, 41.5091f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 90f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			*uParam0 = { 965.1798f, -1031.32f, 39.8384f };
@@ -17030,7 +19457,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 895.5656f, -889.3296f, 27.6491f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -90f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 895.9359f, -888.7846f, 26.2485f };
@@ -17070,7 +19497,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 812.2344f, -924.6008f, 26.7609f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -180f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 817.4532f, -924.8551f, 25.243f };
@@ -17110,7 +19537,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 759.0246f, -749.9797f, 27.6906f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 90f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 759.2387f, -755.3151f, 25.9151f };
@@ -17150,7 +19577,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 844.5184f, -1164.657f, 25.939f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -176.5f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 842.1298f, -1165.075f, 24.3046f };
@@ -17190,7 +19617,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 527.0496f, -1605.207f, 29.8629f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -130f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 528.8805f, -1603.029f, 28.3225f };
@@ -17230,7 +19657,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 567.9484f, -1568.682f, 29.2407f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 140f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 569.9441f, -1570.293f, 27.5777f };
@@ -17270,7 +19697,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 726.7885f, -1189.545f, 24.7175f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 0f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 727.757f, -1189.837f, 23.2765f };
@@ -17310,7 +19737,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 504.7454f, -1492.723f, 29.8382f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 0f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 504.6782f, -1492.887f, 28.2886f };
@@ -17350,7 +19777,7 @@ void func_23(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 471.8385f, -1544.341f, 29.8348f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 140f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 475.7058f, -1547.123f, 28.2828f };
@@ -17414,21 +19841,36 @@ void func_23(var uParam0, int iParam1)
 		case 65:
 		case 66:
 		case 67:
-			func_26(uParam0, iParam1);
+			func_29(uParam0, iParam1);
 			break;
 		
 		case 68:
 		case 69:
 		case 70:
 		case 71:
-			func_25(uParam0, iParam1);
+			func_28(uParam0, iParam1);
+			break;
+		
+		case 72:
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+		case 77:
+		case 78:
+		case joaat("mpsv_lp0_31"):
+		case 80:
+		case 81:
+		case 82:
+		case 83:
+			func_27(uParam0, iParam1);
 			break;
 	}
 	uParam0->f_35 = iParam1;
-	func_24(&(uParam0->f_1876), uParam0->f_35);
+	func_26(&(uParam0->f_1876), uParam0->f_35);
 }
 
-void func_24(var uParam0, int iParam1)
+void func_26(var uParam0, int iParam1)
 {
 	switch (iParam1)
 	{
@@ -17804,10 +20246,753 @@ void func_24(var uParam0, int iParam1)
 			(*uParam0)[0] = 90;
 			uParam0->f_9 = 1;
 			break;
+		
+		case 72:
+			(*uParam0)[0] = 91;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 73:
+			(*uParam0)[0] = 92;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 74:
+			(*uParam0)[0] = 93;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 75:
+			(*uParam0)[0] = 94;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 76:
+			(*uParam0)[0] = 95;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 77:
+			(*uParam0)[0] = 96;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 78:
+			(*uParam0)[0] = 97;
+			uParam0->f_9 = 1;
+			break;
+		
+		case joaat("mpsv_lp0_31"):
+			(*uParam0)[0] = 98;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 80:
+			(*uParam0)[0] = 99;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 81:
+			(*uParam0)[0] = 100;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 82:
+			(*uParam0)[0] = 101;
+			uParam0->f_9 = 1;
+			break;
+		
+		case 83:
+			(*uParam0)[0] = 102;
+			uParam0->f_9 = 1;
+			break;
 	}
 }
 
-void func_25(var uParam0, int iParam1)
+void func_27(var uParam0, int iParam1)
+{
+	struct<4> Var0;
+	
+	uParam0->f_38[0 /*27*/].f_22 = 5;
+	uParam0->f_38[1 /*27*/].f_22 = 5;
+	uParam0->f_38[2 /*27*/].f_22 = 5;
+	switch (iParam1)
+	{
+		case 72:
+			*uParam0 = { 252.3021f, -1813.148f, 26.1691f };
+			uParam0->f_3[0 /*3*/] = { 254.0506f, -1809.112f, 26.2643f };
+			uParam0->f_3[1 /*3*/] = { 259.5366f, -1802.303f, 26.2152f };
+			uParam0->f_24 = { 239.7418f, -1811.535f, 32.0606f };
+			uParam0->f_24.f_3 = { -11.7578f, 0f, -67.7135f };
+			uParam0->f_24.f_6 = 44.6712f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { 253.3115f, -1808.408f, 25.86314f };
+			uParam0->f_38[0 /*27*/].f_3 = { 254.2946f, -1809.26f, 28.86314f };
+			uParam0->f_38[0 /*27*/].f_6 = 2f;
+			uParam0->f_38[0 /*27*/].f_7 = 219.9318f;
+			uParam0->f_38[0 /*27*/].f_23 = { 254.0506f, -1809.112f, 26.2643f };
+			uParam0->f_38[0 /*27*/].f_16 = { 253.254f, -1809.654f, 27.417f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 230f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { 253.3365f, -1799.67f, 26.1131f };
+			uParam0->f_146[0 /*12*/].f_11 = 57.3276f;
+			uParam0->f_1886[0 /*7*/] = { 252.8545f, -1809.944f, 29.2059f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -48.2796f, 0f, -25.9045f };
+			uParam0->f_1886[0 /*7*/].f_6 = 69.8427f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { 259.5206f, -1802.301f, 26.07127f };
+			uParam0->f_38[1 /*27*/].f_3 = { 258.0708f, -1801.066f, 29.36314f };
+			uParam0->f_38[1 /*27*/].f_6 = 3.75f;
+			uParam0->f_38[1 /*27*/].f_7 = 232.4453f;
+			uParam0->f_38[1 /*27*/].f_23 = { 259.5366f, -1802.303f, 26.2152f };
+			uParam0->f_146[1 /*12*/].f_8 = { 257.5821f, -1800.841f, 26.1131f };
+			uParam0->f_146[1 /*12*/].f_11 = 56.3008f;
+			uParam0->f_1886[1 /*7*/] = { 257.8029f, -1803.087f, 28.5437f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -37.1543f, 0f, -31.4609f };
+			uParam0->f_1886[1 /*7*/].f_6 = 83.2505f;
+			uParam0->f_1742.f_24 = { 257.5821f, -1800.841f, 26.1131f };
+			uParam0->f_1742.f_27 = 56.3008f;
+			uParam0->f_1742.f_74[0 /*3*/] = { 256.502f, -1801.248f, 26.1131f };
+			uParam0->f_1742.f_90[0] = 90.9405f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { 254.0294f, -1803.602f, 26.1131f };
+			uParam0->f_1742.f_90[1] = 116.4148f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { 251.8847f, -1800.821f, 26.1131f };
+			uParam0->f_1742.f_90[2] = 141.4167f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { 255.4657f, -1796.401f, 26.1131f };
+			uParam0->f_1742.f_90[3] = 140.919f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { 248.3528f, -1806.442f, 26.1131f };
+			uParam0->f_1742.f_90[4] = 124.5272f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 73:
+			*uParam0 = { -1485.757f, -923.3176f, 19.59506f };
+			uParam0->f_3[0 /*3*/] = { -1471.832f, -920.1343f, 9.0249f };
+			uParam0->f_3[1 /*3*/] = { -1469.627f, -929.1902f, 9.1865f };
+			uParam0->f_24 = { -1455.513f, -921.6072f, 16.84116f };
+			uParam0->f_24.f_3 = { -20.00212f, 0f, 100.7331f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { -1471.107f, -919.8443f, 9.0237f };
+			uParam0->f_38[0 /*27*/].f_3 = { -1472.094f, -920.9706f, 12.0346f };
+			uParam0->f_38[0 /*27*/].f_6 = 1.5f;
+			uParam0->f_38[0 /*27*/].f_7 = 50f;
+			uParam0->f_38[0 /*27*/].f_23 = { -1471.832f, -920.1343f, 9.0249f };
+			uParam0->f_38[0 /*27*/].f_16 = { -1472.809f, -920.902f, 10.376f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 50f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { -1469.037f, -922.352f, 9.0291f };
+			uParam0->f_146[0 /*12*/].f_11 = 230f;
+			uParam0->f_1886[0 /*7*/] = { -1469.621f, -917.4292f, 12.42505f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -33.26217f, 0f, 156.6873f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { -1473.404f, -926.0901f, 9.1849f };
+			uParam0->f_38[1 /*27*/].f_3 = { -1466.255f, -932.0925f, 13.1885f };
+			uParam0->f_38[1 /*27*/].f_6 = 2f;
+			uParam0->f_38[1 /*27*/].f_7 = 140f;
+			uParam0->f_38[1 /*27*/].f_23 = { -1469.627f, -929.1902f, 9.1865f };
+			uParam0->f_146[1 /*12*/].f_8 = { -1466.577f, -925.1134f, 9.0269f };
+			uParam0->f_146[1 /*12*/].f_11 = 320f;
+			uParam0->f_1886[1 /*7*/] = { -1465.914f, -932.2122f, 12.6039f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -23.17142f, 0f, 42.55543f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { -1465.492f, -923.8866f, 9.0338f };
+			uParam0->f_1742.f_27 = 320f;
+			uParam0->f_1742.f_74[0 /*3*/] = { -1465.492f, -923.8866f, 9.0338f };
+			uParam0->f_1742.f_90[0] = 320f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { -1458.839f, -922.0121f, 9.058f };
+			uParam0->f_1742.f_90[1] = 230.6614f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { -1449.963f, -930.0195f, 8.8814f };
+			uParam0->f_1742.f_90[2] = 227.8659f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { -1444.983f, -936.6174f, 7.8077f };
+			uParam0->f_1742.f_90[3] = 227.132f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { -1464.854f, -918.0606f, 9.0349f };
+			uParam0->f_1742.f_90[4] = 231.8444f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 74:
+			*uParam0 = { 48.13491f, -1031.287f, 35.66264f };
+			uParam0->f_3[0 /*3*/] = { 37.272f, -1029.302f, 28.5669f };
+			uParam0->f_3[1 /*3*/] = { 40.1411f, -1022.589f, 28.5317f };
+			uParam0->f_24 = { 22.92001f, -1039.358f, 37.23633f };
+			uParam0->f_24.f_3 = { -18.07756f, 0f, -71.81333f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { 37.492f, -1028.755f, 28.5675f };
+			uParam0->f_38[0 /*27*/].f_3 = { 37.1163f, -1029.875f, 31.5689f };
+			uParam0->f_38[0 /*27*/].f_6 = 1.5f;
+			uParam0->f_38[0 /*27*/].f_7 = 247f;
+			uParam0->f_38[0 /*27*/].f_23 = { 37.3588f, -1029.325f, 28.5711f };
+			uParam0->f_38[0 /*27*/].f_16 = { 37.27252f, -1030.289f, 29.8f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 247f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { 34.6624f, -1028.153f, 28.52f };
+			uParam0->f_146[0 /*12*/].f_11 = 67f;
+			uParam0->f_1886[0 /*7*/] = { 34.73594f, -1034.843f, 32.46852f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -32.01322f, 0f, -11.85664f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { 40.9591f, -1020.495f, 28.5168f };
+			uParam0->f_38[1 /*27*/].f_3 = { 39.2666f, -1024.672f, 32.5593f };
+			uParam0->f_38[1 /*27*/].f_6 = 2f;
+			uParam0->f_38[1 /*27*/].f_7 = 247f;
+			uParam0->f_38[1 /*27*/].f_23 = { 40.0932f, -1022.631f, 28.531f };
+			uParam0->f_146[1 /*12*/].f_8 = { 37.0577f, -1021.25f, 28.4798f };
+			uParam0->f_146[1 /*12*/].f_11 = 67f;
+			uParam0->f_1886[1 /*7*/] = { 41.9218f, -1018.612f, 33.16658f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -43.81764f, 0f, 135.396f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { 33.227f, -1016.954f, 28.4567f };
+			uParam0->f_1742.f_27 = 340.9914f;
+			uParam0->f_1742.f_74[0 /*3*/] = { 33.227f, -1016.954f, 28.4567f };
+			uParam0->f_1742.f_90[0] = 340.9914f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { 36.3108f, -1007.784f, 28.4626f };
+			uParam0->f_1742.f_90[1] = 340.1653f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { 39.3771f, -999.3572f, 28.4154f };
+			uParam0->f_1742.f_90[2] = 339.819f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { 29.4222f, -1029.543f, 28.4506f };
+			uParam0->f_1742.f_90[3] = 157.1595f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { 31.7689f, -1033.425f, 28.4128f };
+			uParam0->f_1742.f_90[4] = 158.5681f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 75:
+			*uParam0 = { 53.03948f, 2791.662f, 65.01231f };
+			uParam0->f_3[0 /*3*/] = { 46.7547f, 2789.646f, 57.1054f };
+			uParam0->f_3[1 /*3*/] = { 56.1234f, 2785.71f, 56.8783f };
+			uParam0->f_24 = { 32.84365f, 2787.493f, 64.48982f };
+			uParam0->f_24.f_3 = { -19.86183f, 0f, -72.68176f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { 45.7077f, 2789.347f, 56.8783f };
+			uParam0->f_38[0 /*27*/].f_3 = { 46.9525f, 2788.618f, 59.8783f };
+			uParam0->f_38[0 /*27*/].f_6 = 1.5f;
+			uParam0->f_38[0 /*27*/].f_7 = 322f;
+			uParam0->f_38[0 /*27*/].f_23 = { 46.8107f, 2789.601f, 57.1054f };
+			uParam0->f_38[0 /*27*/].f_16 = { 45.86126f, 2789.767f, 58.2f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 322f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { 44.7758f, 2786.824f, 56.8781f };
+			uParam0->f_146[0 /*12*/].f_11 = 142f;
+			uParam0->f_1886[0 /*7*/] = { 42.79881f, 2791.531f, 61.48584f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -39.60403f, 1E-06f, -137.5007f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { 52.021f, 2788.568f, 56.8783f };
+			uParam0->f_38[1 /*27*/].f_3 = { 57.2193f, 2784.678f, 60.8783f };
+			uParam0->f_38[1 /*27*/].f_6 = 2f;
+			uParam0->f_38[1 /*27*/].f_7 = 322f;
+			uParam0->f_38[1 /*27*/].f_23 = { 56.2014f, 2785.769f, 56.8783f };
+			uParam0->f_146[1 /*12*/].f_8 = { 53.9654f, 2782.903f, 56.8783f };
+			uParam0->f_146[1 /*12*/].f_11 = 142f;
+			uParam0->f_1886[1 /*7*/] = { 50.61052f, 2788.691f, 60.97519f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -21.14123f, -1E-06f, -131.5959f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { 49.9789f, 2783.608f, 56.884f };
+			uParam0->f_1742.f_27 = 79.034f;
+			uParam0->f_1742.f_74[0 /*3*/] = { 49.9789f, 2783.608f, 56.884f };
+			uParam0->f_1742.f_90[0] = 79.034f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { 57.3569f, 2777.62f, 56.8783f };
+			uParam0->f_1742.f_90[1] = 189.5871f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { 47.4214f, 2776.271f, 56.884f };
+			uParam0->f_1742.f_90[2] = 58.7704f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { 35.2752f, 2782.377f, 56.8781f };
+			uParam0->f_1742.f_90[3] = 132.5531f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { 59.3515f, 2768.592f, 56.8783f };
+			uParam0->f_1742.f_90[4] = 185.7522f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 76:
+			*uParam0 = { -349.0252f, 6061.301f, 46.64357f };
+			uParam0->f_3[0 /*3*/] = { -342.0963f, 6065.629f, 30.5093f };
+			uParam0->f_3[1 /*3*/] = { -353.9768f, 6066.256f, 30.4985f };
+			uParam0->f_24 = { -345.5061f, 6083.811f, 39.05644f };
+			uParam0->f_24.f_3 = { -21.42789f, 0f, 171.8696f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { -341.6371f, 6065.159f, 30.5111f };
+			uParam0->f_38[0 /*27*/].f_3 = { -342.6248f, 6066.132f, 33.5077f };
+			uParam0->f_38[0 /*27*/].f_6 = 1.5f;
+			uParam0->f_38[0 /*27*/].f_7 = 135f;
+			uParam0->f_38[0 /*27*/].f_23 = { -342.0963f, 6065.629f, 30.5093f };
+			uParam0->f_38[0 /*27*/].f_16 = { -343.174f, 6066.212f, 31.82f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 135f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { -339.2251f, 6068.469f, 30.3603f };
+			uParam0->f_146[0 /*12*/].f_11 = 315f;
+			uParam0->f_1886[0 /*7*/] = { -339.342f, 6063.225f, 34.01251f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -32.05714f, 0f, 43.11824f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { -352.3805f, 6067.916f, 30.4979f };
+			uParam0->f_38[1 /*27*/].f_3 = { -355.7214f, 6064.556f, 34.4992f };
+			uParam0->f_38[1 /*27*/].f_6 = 2f;
+			uParam0->f_38[1 /*27*/].f_7 = 225f;
+			uParam0->f_38[1 /*27*/].f_23 = { -353.9768f, 6066.256f, 30.4985f };
+			uParam0->f_146[1 /*12*/].f_8 = { -357.9002f, 6069.958f, 30.4985f };
+			uParam0->f_146[1 /*12*/].f_11 = 45f;
+			uParam0->f_1886[1 /*7*/] = { -349.0343f, 6071.203f, 35.3861f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -32.46475f, -1E-06f, 121.3122f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { -359.765f, 6071.805f, 30.4983f };
+			uParam0->f_1742.f_27 = 45f;
+			uParam0->f_1742.f_74[0 /*3*/] = { -359.765f, 6071.805f, 30.4983f };
+			uParam0->f_1742.f_90[0] = 45f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { -355.8349f, 6076.76f, 30.5016f };
+			uParam0->f_1742.f_90[1] = 314.8498f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { -359.3047f, 6079.367f, 30.4973f };
+			uParam0->f_1742.f_90[2] = 316.1204f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { -344.8482f, 6075.544f, 30.4072f };
+			uParam0->f_1742.f_90[3] = 225.4279f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { -366.4851f, 6069.543f, 30.5001f };
+			uParam0->f_1742.f_90[4] = 88.9391f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 77:
+			*uParam0 = { 1733.58f, 3702.429f, 42.48087f };
+			uParam0->f_3[0 /*3*/] = { 1737.922f, 3709.11f, 33.1355f };
+			uParam0->f_3[1 /*3*/] = { 1729.305f, 3706.807f, 33.1207f };
+			uParam0->f_24 = { 1745.779f, 3725.659f, 39.6445f };
+			uParam0->f_24.f_3 = { -17.60909f, 0f, 158.5415f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { 1738.503f, 3709.221f, 33.145f };
+			uParam0->f_38[0 /*27*/].f_3 = { 1737.325f, 3708.843f, 36.1273f };
+			uParam0->f_38[0 /*27*/].f_6 = 1.5f;
+			uParam0->f_38[0 /*27*/].f_7 = 201f;
+			uParam0->f_38[0 /*27*/].f_23 = { 1737.922f, 3709.11f, 33.1355f };
+			uParam0->f_38[0 /*27*/].f_16 = { 1737.132f, 3708.37f, 34.44f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 201f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { 1736.702f, 3712.456f, 33.1196f };
+			uParam0->f_146[0 /*12*/].f_11 = 21f;
+			uParam0->f_1886[0 /*7*/] = { 1741.286f, 3711f, 36.02699f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -20.29556f, 1E-06f, 115.6026f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { 1733.846f, 3708.501f, 33.1237f };
+			uParam0->f_38[1 /*27*/].f_3 = { 1724.795f, 3705.227f, 37.1555f };
+			uParam0->f_38[1 /*27*/].f_6 = 2f;
+			uParam0->f_38[1 /*27*/].f_7 = 201f;
+			uParam0->f_38[1 /*27*/].f_23 = { 1729.305f, 3706.807f, 33.1207f };
+			uParam0->f_146[1 /*12*/].f_8 = { 1726.33f, 3714.007f, 33.1908f };
+			uParam0->f_146[1 /*12*/].f_11 = 21f;
+			uParam0->f_1886[1 /*7*/] = { 1735.765f, 3710.417f, 37.93658f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -28.01882f, 0f, 110.9721f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { 1724.014f, 3712.982f, 33.2183f };
+			uParam0->f_1742.f_27 = 21f;
+			uParam0->f_1742.f_74[0 /*3*/] = { 1724.014f, 3712.982f, 33.2183f };
+			uParam0->f_1742.f_90[0] = 21f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { 1729.075f, 3714.975f, 33.1545f };
+			uParam0->f_1742.f_90[1] = 21f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { 1728.612f, 3721.61f, 33.0577f };
+			uParam0->f_1742.f_90[2] = 355.1809f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { 1723.226f, 3721.503f, 33.0942f };
+			uParam0->f_1742.f_90[3] = 3.5273f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { 1733.556f, 3723.331f, 33.0045f };
+			uParam0->f_1742.f_90[4] = 357.9914f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 78:
+			*uParam0 = { 948.7073f, -1462.662f, 42.38476f };
+			uParam0->f_3[0 /*3*/] = { 939.6351f, -1458.981f, 30.47f };
+			uParam0->f_3[1 /*3*/] = { 943.48f, -1458.63f, 30.4708f };
+			uParam0->f_24 = { 928.796f, -1445.592f, 37.12785f };
+			uParam0->f_24.f_3 = { -16.38287f, 0f, -147.7017f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { 940.2686f, -1458.946f, 32.73f };
+			uParam0->f_38[0 /*27*/].f_3 = { 939.013f, -1458.946f, 30f };
+			uParam0->f_38[0 /*27*/].f_6 = 1f;
+			uParam0->f_38[0 /*27*/].f_7 = 180f;
+			uParam0->f_38[0 /*27*/].f_23 = { 939.6578f, -1458.977f, 30.4699f };
+			uParam0->f_38[0 /*27*/].f_16 = { 938.6f, -1458.778f, 31.68f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 180f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { 939.6075f, -1456.724f, 30.3631f };
+			uParam0->f_146[0 /*12*/].f_11 = 0f;
+			uParam0->f_1886[0 /*7*/] = { 935.2814f, -1458.618f, 34.20869f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -33.6694f, 0f, -80.5335f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { 941.444f, -1458.384f, 30f };
+			uParam0->f_38[1 /*27*/].f_3 = { 945.3676f, -1458.384f, 34f };
+			uParam0->f_38[1 /*27*/].f_6 = 3f;
+			uParam0->f_38[1 /*27*/].f_7 = 180f;
+			uParam0->f_38[1 /*27*/].f_23 = { 943.4398f, -1458.702f, 30.474f };
+			uParam0->f_146[1 /*12*/].f_8 = { 943.4383f, -1453.285f, 30.14f };
+			uParam0->f_146[1 /*12*/].f_11 = 0f;
+			uParam0->f_1886[1 /*7*/] = { 974.5536f, -1476f, 46.41779f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -23.05029f, 0f, 88.1022f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { 943.4383f, -1453.285f, 30.14f };
+			uParam0->f_1742.f_27 = 0f;
+			uParam0->f_1742.f_74[0 /*3*/] = { 943.401f, -1454.059f, 30.637f };
+			uParam0->f_1742.f_90[0] = -5.77f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { 947.8489f, -1454.679f, 30.6761f };
+			uParam0->f_1742.f_90[1] = -17.76f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { 932.9202f, -1454.874f, 30.2099f };
+			uParam0->f_1742.f_90[2] = 319.729f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { 935.9636f, -1455.289f, 30.2326f };
+			uParam0->f_1742.f_90[3] = -16.32f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { 950.9557f, -1454.989f, 30.2025f };
+			uParam0->f_1742.f_90[4] = 337.6744f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case joaat("mpsv_lp0_31"):
+			*uParam0 = { 177.8842f, 318.7285f, 122.2674f };
+			uParam0->f_3[0 /*3*/] = { 189.8949f, 309.2079f, 104.3896f };
+			uParam0->f_3[1 /*3*/] = { 177.9027f, 308.8062f, 104.3697f };
+			uParam0->f_24 = { 196.2953f, 298.5883f, 113.4047f };
+			uParam0->f_24.f_3 = { -20.06748f, 0f, 38.44216f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { 189.1762f, 309.1273f, 104.3897f };
+			uParam0->f_38[0 /*27*/].f_3 = { 190.5779f, 309.2284f, 107.3897f };
+			uParam0->f_38[0 /*27*/].f_6 = 1f;
+			uParam0->f_38[0 /*27*/].f_7 = 5f;
+			uParam0->f_38[0 /*27*/].f_23 = { 189.8949f, 309.2079f, 104.3896f };
+			uParam0->f_38[0 /*27*/].f_16 = { 188.48f, 309.46f, 105.716f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 5f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { 190.0721f, 305.5183f, 104.3977f };
+			uParam0->f_146[0 /*12*/].f_11 = 185f;
+			uParam0->f_1886[0 /*7*/] = { 185.6942f, 308.8315f, 107.8885f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -28.51068f, 0f, -98.60703f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { 176.0313f, 308.3507f, 104.371f };
+			uParam0->f_38[1 /*27*/].f_3 = { 180.1147f, 308.6703f, 108.3695f };
+			uParam0->f_38[1 /*27*/].f_6 = 3f;
+			uParam0->f_38[1 /*27*/].f_7 = 5f;
+			uParam0->f_38[1 /*27*/].f_23 = { 177.9027f, 308.8062f, 104.3697f };
+			uParam0->f_146[1 /*12*/].f_8 = { 178.2772f, 305.5948f, 104.3732f };
+			uParam0->f_146[1 /*12*/].f_11 = 185f;
+			uParam0->f_1886[1 /*7*/] = { 183.7406f, 308.4999f, 108.0378f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -25.27182f, 0f, 99.13209f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { 177.123f, 300.9604f, 104.3748f };
+			uParam0->f_1742.f_27 = 91.7932f;
+			uParam0->f_1742.f_74[0 /*3*/] = { 177.123f, 300.9604f, 104.3748f };
+			uParam0->f_1742.f_90[0] = 91.7932f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { 167.2899f, 300.1632f, 105.6391f };
+			uParam0->f_1742.f_90[1] = 93.2529f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { 185.748f, 298.2313f, 104.4235f };
+			uParam0->f_1742.f_90[2] = 251.0825f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { 186.2933f, 303.3362f, 104.4264f };
+			uParam0->f_1742.f_90[3] = 236.4414f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { 197.8231f, 293.2612f, 104.6384f };
+			uParam0->f_1742.f_90[4] = 248.9478f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 80:
+			*uParam0 = { -19.17074f, -185.0379f, 68.971f };
+			uParam0->f_3[0 /*3*/] = { -22.0633f, -192.056f, 51.3638f };
+			uParam0->f_3[1 /*3*/] = { -16.5396f, -191.6055f, 53.94998f };
+			uParam0->f_24 = { -40.05846f, -199.4656f, 60.36575f };
+			uParam0->f_24.f_3 = { -14.12869f, 1E-06f, -55.9272f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { -22.8026f, -191.6848f, 51.3627f };
+			uParam0->f_38[0 /*27*/].f_3 = { -21.3126f, -192.2275f, 54.3646f };
+			uParam0->f_38[0 /*27*/].f_6 = 1f;
+			uParam0->f_38[0 /*27*/].f_7 = 340f;
+			uParam0->f_38[0 /*27*/].f_23 = { -22.0633f, -192.056f, 51.3638f };
+			uParam0->f_38[0 /*27*/].f_16 = { -23.336f, -191.17f, 52.654f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 340f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { -23.1747f, -195.7159f, 51.3659f };
+			uParam0->f_146[0 /*12*/].f_11 = 160f;
+			uParam0->f_1886[0 /*7*/] = { -25.03923f, -190.7715f, 54.12894f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -26.30859f, -1E-06f, -125.9742f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { -19.0774f, -193.0987f, 51.3675f };
+			uParam0->f_38[1 /*27*/].f_3 = { -15.1719f, -194.4668f, 56.3675f };
+			uParam0->f_38[1 /*27*/].f_6 = 3f;
+			uParam0->f_38[1 /*27*/].f_7 = 340f;
+			uParam0->f_38[1 /*27*/].f_23 = { -16.5396f, -191.6055f, 53.94998f };
+			uParam0->f_146[1 /*12*/].f_8 = { -27.2982f, -193.4763f, 51.3583f };
+			uParam0->f_146[1 /*12*/].f_11 = 160f;
+			uParam0->f_1886[1 /*7*/] = { -30.74519f, -189.1472f, 56.23203f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -31.82227f, -1E-06f, -116.9683f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { -28.1203f, -196.1983f, 51.3639f };
+			uParam0->f_1742.f_27 = 160f;
+			uParam0->f_1742.f_74[0 /*3*/] = { -28.1203f, -196.1983f, 51.3639f };
+			uParam0->f_1742.f_90[0] = 160f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { -35.4665f, -197.472f, 51.3557f };
+			uParam0->f_1742.f_90[1] = 71.879f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { -34.7617f, -193.9737f, 51.359f };
+			uParam0->f_1742.f_90[2] = 72.8786f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { -21.2296f, -202.8143f, 51.3551f };
+			uParam0->f_1742.f_90[3] = 251.3569f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { -12.0377f, -206.4577f, 51.5363f };
+			uParam0->f_1742.f_90[4] = 249.2681f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 81:
+			*uParam0 = { 2473.099f, 4096.519f, 52.16207f };
+			uParam0->f_3[0 /*3*/] = { 2471.944f, 4110.662f, 37.0647f };
+			uParam0->f_3[1 /*3*/] = { 2467.937f, 4100.745f, 37.0647f };
+			uParam0->f_24 = { 2462.311f, 4123.169f, 47.58656f };
+			uParam0->f_24.f_3 = { -17.71301f, 0f, -152.8097f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { 2472.114f, 4111.497f, 37.0647f };
+			uParam0->f_38[0 /*27*/].f_3 = { 2471.534f, 4109.984f, 40.0647f };
+			uParam0->f_38[0 /*27*/].f_6 = 1f;
+			uParam0->f_38[0 /*27*/].f_7 = 248f;
+			uParam0->f_38[0 /*27*/].f_23 = { 2471.944f, 4110.662f, 37.0647f };
+			uParam0->f_38[0 /*27*/].f_16 = { 2471.648f, 4109.449f, 38.409f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 248f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { 2469.991f, 4111.604f, 37.0647f };
+			uParam0->f_146[0 /*12*/].f_11 = 68f;
+			uParam0->f_1886[0 /*7*/] = { 2470.287f, 4107.252f, 40.90748f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -35.72808f, -1E-06f, -15.28071f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { 2468.277f, 4102.203f, 37.0647f };
+			uParam0->f_38[1 /*27*/].f_3 = { 2467.25f, 4099.537f, 41.0647f };
+			uParam0->f_38[1 /*27*/].f_6 = 3f;
+			uParam0->f_38[1 /*27*/].f_7 = 248f;
+			uParam0->f_38[1 /*27*/].f_23 = { 2467.937f, 4100.745f, 37.0647f };
+			uParam0->f_146[1 /*12*/].f_8 = { 2465.368f, 4101.881f, 37.0647f };
+			uParam0->f_146[1 /*12*/].f_11 = 68f;
+			uParam0->f_1886[1 /*7*/] = { 2466.078f, 4097.307f, 40.99406f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -29.99574f, 0f, -11.94392f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { 2465.368f, 4101.881f, 37.0647f };
+			uParam0->f_1742.f_27 = 68f;
+			uParam0->f_1742.f_74[0 /*3*/] = { 2465.404f, 4102.017f, 37.0647f };
+			uParam0->f_1742.f_90[0] = 353.905f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { 2467.214f, 4107.929f, 37.0647f };
+			uParam0->f_1742.f_90[1] = 340.5299f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { 2470.307f, 4113.582f, 37.0647f };
+			uParam0->f_1742.f_90[2] = 329.253f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { 2473.95f, 4116.216f, 37.0647f };
+			uParam0->f_1742.f_90[3] = 291.3084f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { 2481.989f, 4118.289f, 37.0647f };
+			uParam0->f_1742.f_90[4] = 264.1184f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 82:
+			*uParam0 = { -45.74868f, 6429.791f, 56.77554f };
+			uParam0->f_3[0 /*3*/] = { -39.1115f, 6420.475f, 30.6905f };
+			uParam0->f_3[1 /*3*/] = { -35.3235f, 6424.116f, 30.4333f };
+			uParam0->f_24 = { -38.01412f, 6407.127f, 40.71259f };
+			uParam0->f_24.f_3 = { -21.77988f, 0f, 16.05135f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { -39.4762f, 6419.823f, 30.4904f };
+			uParam0->f_38[0 /*27*/].f_3 = { -38.4606f, 6420.841f, 33.4904f };
+			uParam0->f_38[0 /*27*/].f_6 = 1f;
+			uParam0->f_38[0 /*27*/].f_7 = 45f;
+			uParam0->f_38[0 /*27*/].f_23 = { -39.1115f, 6420.475f, 30.6905f };
+			uParam0->f_38[0 /*27*/].f_16 = { -38.42f, 6421.227f, 31.826f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 45f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { -37.188f, 6418.535f, 30.4904f };
+			uParam0->f_146[0 /*12*/].f_11 = 225f;
+			uParam0->f_1886[0 /*7*/] = { -37.06559f, 6422.331f, 33.24395f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -25.03947f, 0f, 150.0942f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { -36.7141f, 6422.576f, 30.4632f };
+			uParam0->f_38[1 /*27*/].f_3 = { -33.7452f, 6425.517f, 34.4328f };
+			uParam0->f_38[1 /*27*/].f_6 = 3f;
+			uParam0->f_38[1 /*27*/].f_7 = 45f;
+			uParam0->f_38[1 /*27*/].f_23 = { -35.3235f, 6424.116f, 30.4333f };
+			uParam0->f_146[1 /*12*/].f_8 = { -32.4131f, 6421.936f, 30.4598f };
+			uParam0->f_146[1 /*12*/].f_11 = 225f;
+			uParam0->f_1886[1 /*7*/] = { -32.62138f, 6426.55f, 34.62805f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -34.96296f, -1E-06f, 146.7703f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { -32.509f, 6421.431f, 30.4661f };
+			uParam0->f_1742.f_27 = 225f;
+			uParam0->f_1742.f_74[0 /*3*/] = { -32.509f, 6421.431f, 30.4661f };
+			uParam0->f_1742.f_90[0] = 225f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { -29.1462f, 6417.238f, 30.4904f };
+			uParam0->f_1742.f_90[1] = 225f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { -24.2641f, 6411.932f, 30.4904f };
+			uParam0->f_1742.f_90[2] = 225f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { -32.4584f, 6412.813f, 30.4904f };
+			uParam0->f_1742.f_90[3] = 225f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { -27.9055f, 6408.169f, 30.4904f };
+			uParam0->f_1742.f_90[4] = 225f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+		
+		case 83:
+			*uParam0 = { -1136.59f, -1564.309f, 12.93727f };
+			uParam0->f_3[0 /*3*/] = { -1134.796f, -1568.819f, 3.4081f };
+			uParam0->f_3[1 /*3*/] = { -1147.438f, -1577.577f, 3.5701f };
+			uParam0->f_24 = { -1117.043f, -1574.494f, 13.51503f };
+			uParam0->f_24.f_3 = { -17.01023f, 0f, 75.32748f };
+			uParam0->f_24.f_6 = 50f;
+			uParam0->f_38[0 /*27*/].f_26 = 1;
+			uParam0->f_38[0 /*27*/] = { -1135.533f, -1569.254f, 3.4117f };
+			uParam0->f_38[0 /*27*/].f_3 = { -1134.223f, -1568.373f, 6.4057f };
+			uParam0->f_38[0 /*27*/].f_6 = 1f;
+			uParam0->f_38[0 /*27*/].f_7 = 35f;
+			uParam0->f_38[0 /*27*/].f_23 = { -1134.796f, -1568.819f, 3.4081f };
+			uParam0->f_38[0 /*27*/].f_16 = { -1134.403f, -1568.09f, 4.715f };
+			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 35f };
+			uParam0->f_38[0 /*27*/].f_22 = 2;
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
+			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
+			uParam0->f_146[0 /*12*/].f_8 = { -1133.713f, -1570.185f, 3.2607f };
+			uParam0->f_146[0 /*12*/].f_11 = 215f;
+			uParam0->f_1886[0 /*7*/] = { -1137.457f, -1570.62f, 7.014599f };
+			uParam0->f_1886[0 /*7*/].f_3 = { -33.61084f, 1E-06f, -69.27267f };
+			uParam0->f_1886[0 /*7*/].f_6 = 50f;
+			uParam0->f_38[1 /*27*/].f_26 = 2;
+			uParam0->f_38[1 /*27*/] = { -1149.151f, -1578.9f, 3.4373f };
+			uParam0->f_38[1 /*27*/].f_3 = { -1145.536f, -1576.384f, 7.4348f };
+			uParam0->f_38[1 /*27*/].f_6 = 3f;
+			uParam0->f_38[1 /*27*/].f_7 = 35f;
+			uParam0->f_38[1 /*27*/].f_23 = { -1147.438f, -1577.577f, 3.5701f };
+			uParam0->f_146[1 /*12*/].f_8 = { -1146.254f, -1579.146f, 3.2626f };
+			uParam0->f_146[1 /*12*/].f_11 = 215f;
+			uParam0->f_1886[1 /*7*/] = { -1150.86f, -1580.059f, 6.993506f };
+			uParam0->f_1886[1 /*7*/].f_3 = { -35.34602f, 1E-06f, -71.9474f };
+			uParam0->f_1886[1 /*7*/].f_6 = 50f;
+			uParam0->f_1742.f_24 = { -1146.254f, -1579.146f, 3.2626f };
+			uParam0->f_1742.f_27 = 215f;
+			uParam0->f_1742.f_74[0 /*3*/] = { -1146.254f, -1579.146f, 3.2626f };
+			uParam0->f_1742.f_90[0] = 215f;
+			uParam0->f_1742.f_96[0] = 1f;
+			uParam0->f_1742.f_74[1 /*3*/] = { -1125.634f, -1577.498f, 3.2418f };
+			uParam0->f_1742.f_90[1] = 305.4502f;
+			uParam0->f_1742.f_96[1] = 0.9f;
+			uParam0->f_1742.f_74[2 /*3*/] = { -1144.936f, -1590.746f, 3.2428f };
+			uParam0->f_1742.f_90[2] = 304.4731f;
+			uParam0->f_1742.f_96[2] = 0.8f;
+			uParam0->f_1742.f_74[3 /*3*/] = { -1139.747f, -1575.177f, 3.2834f };
+			uParam0->f_1742.f_90[3] = 126.4407f;
+			uParam0->f_1742.f_96[3] = 0.7f;
+			uParam0->f_1742.f_74[4 /*3*/] = { -1157.151f, -1587.071f, 3.2301f };
+			uParam0->f_1742.f_90[4] = 126.0571f;
+			uParam0->f_1742.f_96[4] = 0.6f;
+			uParam0->f_36 = 2;
+			uParam0->f_34 = 4;
+			break;
+	}
+}
+
+void func_28(var uParam0, int iParam1)
 {
 	struct<4> Var0;
 	
@@ -17832,7 +21017,7 @@ void func_25(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1582.046f, -559.602f, 35.25f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -142.2f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1584.053f, -554.6662f, 33.9762f };
@@ -17874,7 +21059,7 @@ void func_25(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1369.081f, -504.853f, 33.4758f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -54.9f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1371.698f, -504.2646f, 32.1574f };
@@ -17916,7 +21101,7 @@ void func_25(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -119.768f, -609.7531f, 36.6249f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 70.155f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -110.9626f, -605.3646f, 35.2857f };
@@ -17958,7 +21143,7 @@ void func_25(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -82.5033f, -797.64f, 44.5225f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 136.44f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -83.3513f, -794.3069f, 43.2273f };
@@ -17986,7 +21171,7 @@ void func_25(var uParam0, int iParam1)
 	}
 }
 
-void func_26(var uParam0, int iParam1)
+void func_29(var uParam0, int iParam1)
 {
 	struct<4> Var0;
 	
@@ -18005,7 +21190,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -69.804f, 6424.731f, 31.8753f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -135f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -68.702f, 6426.148f, 30.439f };
@@ -18048,7 +21233,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -249.5378f, 6237.945f, 31.93f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 45f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -245.5158f, 6239.048f, 30.4892f };
@@ -18091,7 +21276,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 2556.394f, 4669.029f, 34.5895f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -154f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 2554.165f, 4668.059f, 33.0233f };
@@ -18134,7 +21319,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 2461.013f, 1592.082f, 33.506f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 90f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 2461.22f, 1589.255f, 32.0443f };
@@ -18177,7 +21362,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -2201.597f, 4245.499f, 48.8956f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -143f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -2203.335f, 4244.427f, 47.3305f };
@@ -18220,7 +21405,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 215.0199f, 2601.026f, 46.297f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -170f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 218.0665f, 2601.817f, 44.7668f };
@@ -18263,7 +21448,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 185.4518f, 2789.384f, 46.0915f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 99.5f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 186.1719f, 2786.343f, 45.0144f };
@@ -18306,7 +21491,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 636.8882f, 2771.198f, 42.5919f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -176f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 639.45f, 2771.2f, 41.2f };
@@ -18349,7 +21534,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1127.666f, 2697.752f, 19.3395f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -48f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -1130.938f, 2701.133f, 17.8004f };
@@ -18392,7 +21577,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -8.7565f, -1648.45f, 29.9717f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 140f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -10.944f, -1646.76f, 28.3125f };
@@ -18435,7 +21620,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 1025.504f, -2394.214f, 30.7512f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 85f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 1024.263f, -2398.404f, 29.1261f };
@@ -18478,7 +21663,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 873.3047f, -2232.607f, 31.0195f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -5f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 870.8577f, -2232.323f, 29.5508f };
@@ -18521,7 +21706,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -666.3141f, -2383.771f, 14.6044f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -120f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -663.8541f, -2380.389f, 12.9446f };
@@ -18564,7 +21749,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1091.348f, -2231.695f, 13.7872f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -135f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -1088.616f, -2235.098f, 12.2182f };
@@ -18607,7 +21792,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -342.7317f, -1466.629f, 31.2761f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 90f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -342.5126f, -1468.675f, 29.6107f };
@@ -18650,7 +21835,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1243.329f, -261.0626f, 39.5057f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -151.5f };
 			uParam0->f_38[0 /*27*/].f_22 = 6;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { -1241.54f, -259.8841f, 37.9445f };
@@ -18693,7 +21878,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 897.3796f, -145.9439f, 77.0859f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 150f };
 			uParam0->f_38[0 /*27*/].f_22 = 5;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_3[0 /*3*/] = { 899.8448f, -147.528f, 75.5674f };
@@ -18743,7 +21928,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1405.407f, 528.2228f, 124.34f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -88.8f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1406.144f, 529.9474f, 122.8361f };
@@ -18760,7 +21945,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -1405.477f, 535.6528f, 123.37f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -88.8f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -1405.871f, 543.8805f, 125.0912f };
@@ -18805,7 +21990,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 1335.67f, -1579.34f, 54.49f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 36.75f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { 1338.163f, -1580.722f, 53.0517f };
@@ -18822,7 +22007,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 1346.88f, -1573.19f, 54.49f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 30.65f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { 1347.828f, -1577.406f, 55.9645f };
@@ -18867,7 +22052,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -106.6888f, 6528.88f, 30.3018f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -137.2f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -108.2526f, 6531.63f, 28.8092f };
@@ -18884,7 +22069,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -99.7988f, 6533.01f, 30.2618f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -134.5f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -110.8133f, 6530.848f, 31.812f };
@@ -18929,7 +22114,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -301.07f, 6327.54f, 33.36f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -136.7f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -305.3481f, 6331.015f, 31.4893f };
@@ -18946,7 +22131,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -294.03f, 6333.04f, 32.98f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -133f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -300.2161f, 6330.604f, 33.8086f };
@@ -18991,7 +22176,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -14.66f, 6556.14f, 33.75f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 135f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -12.7249f, 6559.958f, 30.971f };
@@ -19008,7 +22193,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -16.99f, 6565.21f, 32.34f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 45.1f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -9.7957f, 6554.708f, 35.1352f };
@@ -19053,7 +22238,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 1899.13f, 3780.52f, 33.31f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 119.1f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { 1901.758f, 3770.143f, 31.7519f };
@@ -19070,7 +22255,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 1880.01f, 3772.35f, 33.28f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 31.6f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { 1893.417f, 3770.267f, 35.0829f };
@@ -19115,7 +22300,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 1662f, 4774.67f, 42.47f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 97.4f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { 1664.526f, 4776.464f, 40.9783f };
@@ -19132,7 +22317,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 1657.89f, 4765.6f, 42.45f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 7.6f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { 1663.792f, 4770.251f, 43.9323f };
@@ -19182,7 +22367,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -173.997f, 501.8261f, 137.7961f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -78.8f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -176.7676f, 503.9538f, 135.8529f };
@@ -19204,7 +22389,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -192.375f, 498.75f, 134.886f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 189.5f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_74[0 /*3*/] = { -187.3407f, 502.9363f, 133.6252f };
@@ -19237,7 +22422,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 345.275f, 442f, 148.053f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 116.8f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146.f_1517.f_8 = { 345.261f, 441.95f, 146.75f };
@@ -19268,7 +22453,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 352.4493f, 432.7883f, 147.83f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 115.775f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_74[0 /*3*/] = { 356.4036f, 436.1895f, 145.1594f };
@@ -19301,7 +22486,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -753.909f, 621.845f, 142.832f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 108.9f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146.f_1517.f_8 = { -753.86f, 621.628f, 142.025f };
@@ -19332,7 +22517,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -757.2359f, 631.6739f, 143.0083f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 108.93f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_74[0 /*3*/] = { -752.8541f, 626.0184f, 141.5241f };
@@ -19365,7 +22550,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -687.195f, 594.773f, 143.99f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -139.2f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146.f_1517.f_8 = { -687.152f, 594.762f, 142.71f };
@@ -19396,7 +22581,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -679.7475f, 604.0975f, 144.0625f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, -139.2f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_74[0 /*3*/] = { -682.9122f, 605.372f, 142.8277f };
@@ -19433,7 +22618,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 118.3342f, 563.5432f, 184.299f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -173.88f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { 118.369f, 569.6913f, 183.3575f };
@@ -19447,7 +22632,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 129.1583f, 565.8832f, 184.3003f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 180f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_24 = { 131.922f, 567.1509f, 182.6452f };
@@ -19485,7 +22670,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -558.77f, 663.24f, 145.67f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 160.3586f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146.f_1517.f_8 = { -687.152f, 594.762f, 142.71f };
@@ -19516,7 +22701,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -553.19f, 663.55f, 145.497f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 249.497f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_74[0 /*3*/] = { -554.8588f, 666.1501f, 143.8092f };
@@ -19550,7 +22735,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -734.1544f, 593.8073f, 142.5726f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 151f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146.f_1517.f_8 = { -733.287f, 593.431f, 141.456f };
@@ -19581,7 +22766,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -747.4618f, 602.1413f, 142.8174f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 151f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_74[0 /*3*/] = { -740.8754f, 602.3074f, 140.9152f };
@@ -19614,7 +22799,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -853.84f, 694.62f, 149.11f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, -176f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146.f_1517.f_8 = { -853.81f, 694.6f, 147.8f };
@@ -19645,7 +22830,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -861.7898f, 695.125f, 149.3596f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 157.605f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_74[0 /*3*/] = { -863.5904f, 699.6087f, 148.0632f };
@@ -19682,7 +22867,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { -1295.118f, 454.025f, 97.915f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 180f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { -1294.309f, 455.405f, 96.3444f };
@@ -19699,7 +22884,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { -1300.563f, 454.0388f, 98.0586f };
 			uParam0->f_38[1 /*27*/].f_19 = { -0.4682f, 0f, 180f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1886[1 /*7*/] = { -1300.981f, 454.1239f, 99.3252f };
@@ -19744,7 +22929,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[0 /*27*/].f_16 = { 372.6857f, 426.9829f, 146.0747f };
 			uParam0->f_38[0 /*27*/].f_19 = { 0f, 0f, 170f };
 			uParam0->f_38[0 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+			func_30(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 			uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_146[0 /*12*/].f_8 = { 372.453f, 431.8328f, 143.7681f };
@@ -19758,7 +22943,7 @@ void func_26(var uParam0, int iParam1)
 			uParam0->f_38[1 /*27*/].f_16 = { 387.2895f, 428.0783f, 144.3926f };
 			uParam0->f_38[1 /*27*/].f_19 = { 0f, 0f, 170f };
 			uParam0->f_38[1 /*27*/].f_22 = 2;
-			func_27(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
+			func_30(uParam0->f_38[1 /*27*/].f_16, uParam0->f_38[1 /*27*/].f_19, &Var0, uParam0->f_38[1 /*27*/].f_22);
 			uParam0->f_38[1 /*27*/].f_12 = { Var0 };
 			uParam0->f_38[1 /*27*/].f_15 = Var0.f_3.f_2;
 			uParam0->f_1742.f_24 = { 390.8834f, 429.929f, 142.7315f };
@@ -19785,7 +22970,7 @@ void func_26(var uParam0, int iParam1)
 	}
 }
 
-void func_27(struct<3> Param0, struct<3> Param3, var uParam6, int iParam7)
+void func_30(struct<3> Param0, struct<3> Param3, var uParam6, int iParam7)
 {
 	struct<6> Var0;
 	struct<6> Var6;
@@ -19846,10 +23031,10 @@ void func_27(struct<3> Param0, struct<3> Param3, var uParam6, int iParam7)
 	}
 	Var12 = { Param0 };
 	Var12.f_3 = { Param3 };
-	func_28(Var0, Var6, Var12, uParam6);
+	func_31(Var0, Var6, Var12, uParam6);
 }
 
-void func_28(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struct<4> Param12, var uParam16, var uParam17, var uParam18)
+void func_31(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struct<4> Param12, var uParam16, var uParam17, var uParam18)
 {
 	struct<3> Var0;
 	
@@ -19857,8 +23042,8 @@ void func_28(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struc
 	Var0 = { *uParam18 - Param0 };
 	Var0 = { func_6(Var0, -Param0.f_3.f_2) };
 	Var0 = { func_6(Var0, Param12.f_3.f_2) };
-	*uParam18 = { unk_0x90B89006901451E8(Param12, 0f, Var0) };
-	if (!func_29(Param12.f_3, Param0.f_3, 0))
+	*uParam18 = { unk_0x8461D93FE2207D3A(Param12, 0f, Var0) };
+	if (!func_32(Param12.f_3, Param0.f_3, 0))
 	{
 		while (Param0.f_3.f_2 > 180f)
 		{
@@ -19888,7 +23073,7 @@ void func_28(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struc
 	}
 }
 
-bool func_29(struct<3> Param0, struct<3> Param3, bool bParam6)
+bool func_32(struct<3> Param0, struct<3> Param3, bool bParam6)
 {
 	if (bParam6)
 	{
@@ -19897,7 +23082,206 @@ bool func_29(struct<3> Param0, struct<3> Param3, bool bParam6)
 	return ((Param0.f_0 == Param3.f_0 && Param0.f_1 == Param3.f_1) && Param0.f_2 == Param3.f_2);
 }
 
-struct<4> func_30(int iParam0)
+int func_33(var uParam0, int iParam1)
+{
+	switch (iParam1)
+	{
+		case 91:
+			uParam0->f_35 = 72;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 91);
+			uParam0->f_31 = 91;
+			func_3(uParam0, 91);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 92:
+			uParam0->f_35 = 73;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 91);
+			uParam0->f_31 = 92;
+			func_3(uParam0, 91);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 93:
+			uParam0->f_35 = 74;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 91);
+			uParam0->f_31 = 93;
+			func_3(uParam0, 91);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 94:
+			uParam0->f_35 = 75;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 91);
+			uParam0->f_31 = 94;
+			func_3(uParam0, 91);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 95:
+			uParam0->f_35 = 76;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 91);
+			uParam0->f_31 = 95;
+			func_3(uParam0, 91);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 96:
+			uParam0->f_35 = 77;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 91);
+			uParam0->f_31 = 96;
+			func_3(uParam0, 91);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 97:
+			uParam0->f_35 = 78;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 97);
+			uParam0->f_31 = 97;
+			func_3(uParam0, 97);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 98:
+			uParam0->f_35 = 79;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 97);
+			uParam0->f_31 = 98;
+			func_3(uParam0, 97);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 99:
+			uParam0->f_35 = 80;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 97);
+			uParam0->f_31 = 99;
+			func_3(uParam0, 97);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 100:
+			uParam0->f_35 = 81;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 97);
+			uParam0->f_31 = 100;
+			func_3(uParam0, 97);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 101:
+			uParam0->f_35 = 82;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 97);
+			uParam0->f_31 = 101;
+			func_3(uParam0, 97);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+		
+		case 102:
+			uParam0->f_35 = 83;
+			func_25(uParam0, uParam0->f_35);
+			func_34(uParam0, 97);
+			uParam0->f_31 = 102;
+			func_3(uParam0, 97);
+			uParam0->f_34 = 4;
+			return 1;
+			break;
+	}
+	return 0;
+}
+
+void func_34(var uParam0, int iParam1)
+{
+	switch (iParam1)
+	{
+		case 91:
+			uParam0->f_33 = 10;
+			uParam0->f_1742.f_20 = { 1105.62f, -3163.579f, -38.5186f };
+			uParam0->f_1742.f_23 = 347.4298f;
+			uParam0->f_1742.f_28[0 /*3*/] = { 1099.509f, -3153.075f, -38.0166f };
+			uParam0->f_1742.f_62[0] = -120f;
+			uParam0->f_1742.f_28[1 /*3*/] = { 1099.509f, -3150.575f, -38.0166f };
+			uParam0->f_1742.f_62[1] = -120f;
+			uParam0->f_1742.f_28[2 /*3*/] = { 1099.509f, -3148.075f, -38.0166f };
+			uParam0->f_1742.f_62[2] = -120f;
+			uParam0->f_1742.f_28[3 /*3*/] = { 1099.509f, -3145.575f, -38.0166f };
+			uParam0->f_1742.f_62[3] = -120f;
+			uParam0->f_1742.f_28[4 /*3*/] = { 1099.509f, -3143.075f, -38.0166f };
+			uParam0->f_1742.f_62[4] = -120f;
+			uParam0->f_1742.f_28[5 /*3*/] = { 1103.249f, -3143.075f, -38.0166f };
+			uParam0->f_1742.f_62[5] = 120f;
+			uParam0->f_1742.f_28[6 /*3*/] = { 1103.249f, -3145.575f, -38.0166f };
+			uParam0->f_1742.f_62[6] = 120f;
+			uParam0->f_1742.f_28[7 /*3*/] = { 1103.249f, -3148.075f, -38.0166f };
+			uParam0->f_1742.f_62[7] = 120f;
+			uParam0->f_1742.f_28[8 /*3*/] = { 1103.249f, -3150.575f, -38.0166f };
+			uParam0->f_1742.f_62[8] = 120f;
+			uParam0->f_1742.f_28[9 /*3*/] = { 1103.249f, -3153.075f, -38.0166f };
+			uParam0->f_1742.f_62[9] = 120f;
+			uParam0->f_1742 = { 1109.873f, -3166.23f, -38.47612f };
+			uParam0->f_1742.f_3 = { 1109.856f, -3167.784f, -34.36737f };
+			uParam0->f_1742.f_6 = 5f;
+			uParam0->f_1742.f_7 = 181.7343f;
+			uParam0->f_1742.f_102 = { 1094.839f, -3160.977f, -35.6881f };
+			uParam0->f_1742.f_113 = 0;
+			uParam0->f_1742.f_131 = { 1111.614f, -3158.702f, -37.5608f };
+			break;
+		
+		case 97:
+			uParam0->f_33 = 10;
+			uParam0->f_1742.f_20 = { 998.9226f, -3158.175f, -39.9075f };
+			uParam0->f_1742.f_23 = 265.1815f;
+			uParam0->f_1742.f_28[0 /*3*/] = { 1004f, -3167.315f, -39.4068f };
+			uParam0->f_1742.f_62[0] = 70f;
+			uParam0->f_1742.f_28[1 /*3*/] = { 1004f, -3169.565f, -39.4068f };
+			uParam0->f_1742.f_62[1] = 70f;
+			uParam0->f_1742.f_28[2 /*3*/] = { 1004f, -3171.815f, -39.4068f };
+			uParam0->f_1742.f_62[2] = 70f;
+			uParam0->f_1742.f_28[3 /*3*/] = { 1004f, -3174.065f, -39.4068f };
+			uParam0->f_1742.f_62[3] = 70f;
+			uParam0->f_1742.f_28[4 /*3*/] = { 1004f, -3176.315f, -39.4068f };
+			uParam0->f_1742.f_62[4] = 70f;
+			uParam0->f_1742.f_28[5 /*3*/] = { 999.7f, -3176.315f, -39.4068f };
+			uParam0->f_1742.f_62[5] = -70f;
+			uParam0->f_1742.f_28[6 /*3*/] = { 999.7f, -3174.065f, -39.4068f };
+			uParam0->f_1742.f_62[6] = -70f;
+			uParam0->f_1742.f_28[7 /*3*/] = { 999.7f, -3171.815f, -39.4068f };
+			uParam0->f_1742.f_62[7] = -70f;
+			uParam0->f_1742.f_28[8 /*3*/] = { 999.7f, -3169.565f, -39.4068f };
+			uParam0->f_1742.f_62[8] = -70f;
+			uParam0->f_1742.f_28[9 /*3*/] = { 999.7f, -3167.315f, -39.4068f };
+			uParam0->f_1742.f_62[9] = -70f;
+			uParam0->f_1742 = { 996.5621f, -3164.368f, -40.40706f };
+			uParam0->f_1742.f_3 = { 997.2445f, -3164.319f, -35.90715f };
+			uParam0->f_1742.f_6 = 4.5f;
+			uParam0->f_1742.f_7 = 111.1633f;
+			uParam0->f_1742.f_102 = { 996.7162f, -3167.093f, -38.1157f };
+			uParam0->f_1742.f_113 = 0;
+			uParam0->f_1742.f_131 = { 1009.079f, -3163.995f, -39.909f };
+			break;
+	}
+}
+
+struct<4> func_35(int iParam0)
 {
 	struct<4> Var0;
 	
@@ -20258,11 +23642,59 @@ struct<4> func_30(int iParam0)
 		case 90:
 			StringCopy(&Var0, "MP_PROP_99DES", 16);
 			break;
+		
+		case 91:
+			StringCopy(&Var0, "MP_CLUBH1DES", 16);
+			break;
+		
+		case 92:
+			StringCopy(&Var0, "MP_CLUBH2DES", 16);
+			break;
+		
+		case 93:
+			StringCopy(&Var0, "MP_CLUBH3DES", 16);
+			break;
+		
+		case 94:
+			StringCopy(&Var0, "MP_CLUBH4DES", 16);
+			break;
+		
+		case 95:
+			StringCopy(&Var0, "MP_CLUBH5DES", 16);
+			break;
+		
+		case 96:
+			StringCopy(&Var0, "MP_CLUBH6DES", 16);
+			break;
+		
+		case 97:
+			StringCopy(&Var0, "MP_CLUBH7DES", 16);
+			break;
+		
+		case 98:
+			StringCopy(&Var0, "MP_CLUBH8DES", 16);
+			break;
+		
+		case 99:
+			StringCopy(&Var0, "MP_CLUBH9DES", 16);
+			break;
+		
+		case 100:
+			StringCopy(&Var0, "MP_CLUBH10DES", 16);
+			break;
+		
+		case 101:
+			StringCopy(&Var0, "MP_CLUBH11DES", 16);
+			break;
+		
+		case 102:
+			StringCopy(&Var0, "MP_CLUBH12DES", 16);
+			break;
 	}
 	return Var0;
 }
 
-struct<4> func_31(int iParam0)
+struct<4> func_36(int iParam0)
 {
 	struct<4> Var0;
 	
@@ -20627,11 +24059,59 @@ struct<4> func_31(int iParam0)
 		case 90:
 			StringCopy(&Var0, "MP_PROP_OFF4", 16);
 			break;
+		
+		case 91:
+			StringCopy(&Var0, "MP_PROP_CLUBH1", 16);
+			break;
+		
+		case 92:
+			StringCopy(&Var0, "MP_PROP_CLUBH2", 16);
+			break;
+		
+		case 93:
+			StringCopy(&Var0, "MP_PROP_CLUBH3", 16);
+			break;
+		
+		case 94:
+			StringCopy(&Var0, "MP_PROP_CLUBH4", 16);
+			break;
+		
+		case 95:
+			StringCopy(&Var0, "MP_PROP_CLUBH5", 16);
+			break;
+		
+		case 96:
+			StringCopy(&Var0, "MP_PROP_CLUBH6", 16);
+			break;
+		
+		case 97:
+			StringCopy(&Var0, "MP_PROP_CLUBH7", 16);
+			break;
+		
+		case 98:
+			StringCopy(&Var0, "MP_PROP_CLUBH8", 16);
+			break;
+		
+		case 99:
+			StringCopy(&Var0, "MP_PROP_CLUBH9", 16);
+			break;
+		
+		case 100:
+			StringCopy(&Var0, "MP_PROP_CLUBH10", 16);
+			break;
+		
+		case 101:
+			StringCopy(&Var0, "MP_PROP_CLUBH11", 16);
+			break;
+		
+		case 102:
+			StringCopy(&Var0, "MP_PROP_CLUBH12", 16);
+			break;
 	}
 	return Var0;
 }
 
-int func_32(int iParam0)
+int func_37(int iParam0)
 {
 	int iVar0;
 	char* sVar1;
@@ -20640,387 +24120,423 @@ int func_32(int iParam0)
 	struct<4> Var19;
 	struct<4> Var23;
 	
-	if (unk_0x17CC0D5008835470() && unk_0x55812CD5A331E1F8())
+	if (unk_0xA86CA03D9749EEB3() && unk_0x955B8C8F89CC3AC0())
 	{
 		iVar0 = 0;
-		if (func_34(iParam0))
+		if (func_39(iParam0))
 		{
 			iVar0 = 1;
 		}
-		func_33(&sVar1, iParam0, iVar0);
-		uVar17 = unk_0x9F7CDE7B20BCB675(&sVar1);
-		if (unk_0x56C789202FDBDE41(uVar17))
+		func_38(&sVar1, iParam0, iVar0);
+		uVar17 = unk_0x3BB8D1C5FAAB25B3(&sVar1);
+		if (unk_0xA3BCC2671B49FEB3(uVar17))
 		{
-			uVar18 = unk_0x7866D0C3EA13B968(uVar17, 426439576, 1);
-			Var19 = { func_31(iParam0) };
+			uVar18 = unk_0xDC2FA472EA3A4874(uVar17, 426439576, 1);
+			Var19 = { func_36(iParam0) };
 			return uVar18;
 		}
 		else
 		{
-			Var23 = { func_31(iParam0) };
+			Var23 = { func_36(iParam0) };
 		}
 	}
 	switch (iParam0)
 	{
 		case 1:
-			return Global_262145.f_3945;
-			break;
-		
-		case 2:
-			return Global_262145.f_3946;
-			break;
-		
-		case 3:
 			return Global_262145.f_3947;
 			break;
 		
-		case 4:
+		case 2:
 			return Global_262145.f_3948;
 			break;
 		
-		case 5:
+		case 3:
 			return Global_262145.f_3949;
 			break;
 		
-		case 6:
+		case 4:
 			return Global_262145.f_3950;
 			break;
 		
-		case 7:
+		case 5:
 			return Global_262145.f_3951;
 			break;
 		
-		case 34:
+		case 6:
 			return Global_262145.f_3952;
 			break;
 		
-		case 35:
+		case 7:
 			return Global_262145.f_3953;
 			break;
 		
-		case 36:
+		case 34:
 			return Global_262145.f_3954;
 			break;
 		
-		case 37:
+		case 35:
 			return Global_262145.f_3955;
 			break;
 		
-		case 38:
+		case 36:
 			return Global_262145.f_3956;
 			break;
 		
-		case 39:
+		case 37:
 			return Global_262145.f_3957;
 			break;
 		
-		case 40:
+		case 38:
 			return Global_262145.f_3958;
 			break;
 		
-		case 41:
+		case 39:
 			return Global_262145.f_3959;
 			break;
 		
-		case 42:
+		case 40:
 			return Global_262145.f_3960;
 			break;
 		
-		case 43:
+		case 41:
 			return Global_262145.f_3961;
 			break;
 		
-		case 8:
+		case 42:
 			return Global_262145.f_3962;
 			break;
 		
-		case 9:
+		case 43:
 			return Global_262145.f_3963;
 			break;
 		
-		case 10:
+		case 8:
 			return Global_262145.f_3964;
 			break;
 		
-		case 11:
+		case 9:
 			return Global_262145.f_3965;
 			break;
 		
-		case 12:
+		case 10:
 			return Global_262145.f_3966;
 			break;
 		
-		case 13:
+		case 11:
 			return Global_262145.f_3967;
 			break;
 		
-		case 14:
+		case 12:
 			return Global_262145.f_3968;
 			break;
 		
-		case 15:
+		case 13:
 			return Global_262145.f_3969;
 			break;
 		
-		case 16:
+		case 14:
 			return Global_262145.f_3970;
 			break;
 		
-		case 17:
+		case 15:
 			return Global_262145.f_3971;
 			break;
 		
-		case 18:
+		case 16:
 			return Global_262145.f_3972;
 			break;
 		
-		case 19:
+		case 17:
 			return Global_262145.f_3973;
 			break;
 		
-		case 20:
+		case 18:
 			return Global_262145.f_3974;
 			break;
 		
-		case 21:
+		case 19:
 			return Global_262145.f_3975;
 			break;
 		
-		case 22:
+		case 20:
 			return Global_262145.f_3976;
 			break;
 		
-		case 23:
+		case 21:
 			return Global_262145.f_3977;
 			break;
 		
-		case 24:
+		case 22:
 			return Global_262145.f_3978;
 			break;
 		
-		case 25:
+		case 23:
 			return Global_262145.f_3979;
 			break;
 		
-		case 26:
+		case 24:
 			return Global_262145.f_3980;
 			break;
 		
-		case 27:
+		case 25:
 			return Global_262145.f_3981;
 			break;
 		
-		case 28:
+		case 26:
 			return Global_262145.f_3982;
 			break;
 		
-		case 29:
+		case 27:
 			return Global_262145.f_3983;
 			break;
 		
-		case 30:
+		case 28:
 			return Global_262145.f_3984;
 			break;
 		
-		case 31:
+		case 29:
 			return Global_262145.f_3985;
 			break;
 		
-		case 32:
+		case 30:
 			return Global_262145.f_3986;
 			break;
 		
-		case 33:
+		case 31:
 			return Global_262145.f_3987;
 			break;
 		
-		case 44:
+		case 32:
 			return Global_262145.f_3988;
 			break;
 		
-		case 45:
+		case 33:
 			return Global_262145.f_3989;
 			break;
 		
-		case 46:
+		case 44:
 			return Global_262145.f_3990;
 			break;
 		
-		case 47:
+		case 45:
 			return Global_262145.f_3991;
 			break;
 		
-		case 48:
+		case 46:
 			return Global_262145.f_3992;
 			break;
 		
-		case 49:
+		case 47:
 			return Global_262145.f_3993;
 			break;
 		
-		case 50:
+		case 48:
 			return Global_262145.f_3994;
 			break;
 		
-		case 51:
+		case 49:
 			return Global_262145.f_3995;
 			break;
 		
-		case 52:
+		case 50:
 			return Global_262145.f_3996;
 			break;
 		
-		case 53:
+		case 51:
 			return Global_262145.f_3997;
 			break;
 		
-		case 54:
+		case 52:
 			return Global_262145.f_3998;
 			break;
 		
-		case 55:
+		case 53:
 			return Global_262145.f_3999;
 			break;
 		
-		case 56:
+		case 54:
 			return Global_262145.f_4000;
 			break;
 		
-		case 57:
+		case 55:
 			return Global_262145.f_4001;
 			break;
 		
-		case 58:
+		case 56:
 			return Global_262145.f_4002;
 			break;
 		
-		case 59:
+		case 57:
 			return Global_262145.f_4003;
 			break;
 		
-		case 60:
+		case 58:
 			return Global_262145.f_4004;
 			break;
 		
+		case 59:
+			return Global_262145.f_4005;
+			break;
+		
+		case 60:
+			return Global_262145.f_4006;
+			break;
+		
 		case 61:
-			return Global_262145.f_5217[0];
+			return Global_262145.f_5419[0];
 			break;
 		
 		case 62:
-			return Global_262145.f_5217[1];
+			return Global_262145.f_5419[1];
 			break;
 		
 		case 63:
-			return Global_262145.f_5217[2];
+			return Global_262145.f_5419[2];
 			break;
 		
 		case 64:
-			return Global_262145.f_5217[3];
+			return Global_262145.f_5419[3];
 			break;
 		
 		case 65:
-			return Global_262145.f_5217[4];
+			return Global_262145.f_5419[4];
 			break;
 		
 		case 66:
-			return Global_262145.f_6426;
+			return Global_262145.f_6628;
 			break;
 		
 		case 67:
-			return Global_262145.f_6427;
+			return Global_262145.f_6629;
 			break;
 		
 		case 68:
-			return Global_262145.f_6428;
+			return Global_262145.f_6630;
 			break;
 		
 		case 69:
-			return Global_262145.f_6429;
+			return Global_262145.f_6631;
 			break;
 		
 		case 70:
-			return Global_262145.f_6430;
+			return Global_262145.f_6632;
 			break;
 		
 		case 71:
-			return Global_262145.f_6431;
+			return Global_262145.f_6633;
 			break;
 		
 		case 72:
-			return Global_262145.f_6432;
+			return Global_262145.f_6634;
 			break;
 		
 		case 73:
-			return Global_262145.f_11027;
+			return Global_262145.f_11272;
 		
 		case 74:
-			return Global_262145.f_11028;
+			return Global_262145.f_11273;
 		
 		case 75:
-			return Global_262145.f_11029;
+			return Global_262145.f_11274;
 		
 		case 76:
-			return Global_262145.f_11030;
+			return Global_262145.f_11275;
 		
 		case 77:
-			return Global_262145.f_11031;
+			return Global_262145.f_11276;
 		
 		case 78:
-			return Global_262145.f_11032;
+			return Global_262145.f_11277;
 		
 		case joaat("mpsv_lp0_31"):
-			return Global_262145.f_11033;
+			return Global_262145.f_11278;
 		
 		case 80:
-			return Global_262145.f_11034;
+			return Global_262145.f_11279;
 		
 		case 81:
-			return Global_262145.f_11035;
+			return Global_262145.f_11280;
 		
 		case 82:
-			return Global_262145.f_11036;
+			return Global_262145.f_11281;
 		
 		case 83:
-			return Global_262145.f_11024;
+			return Global_262145.f_11269;
 		
 		case 84:
-			return Global_262145.f_11025;
+			return Global_262145.f_11270;
 		
 		case 85:
-			return Global_262145.f_11026;
+			return Global_262145.f_11271;
 		
 		case 86:
 			return 27000000;
 		
 		case 87:
-			return Global_262145.f_13063;
+			return Global_262145.f_13315;
 		
 		case 88:
-			return Global_262145.f_13064;
+			return Global_262145.f_13316;
 		
 		case 89:
-			return Global_262145.f_13065;
+			return Global_262145.f_13317;
 		
 		case 90:
-			return Global_262145.f_13066;
+			return Global_262145.f_13318;
+		
+		case 91:
+			return Global_262145.f_15395;
+		
+		case 92:
+			return Global_262145.f_15397;
+		
+		case 93:
+			return Global_262145.f_15393;
+		
+		case 94:
+			return Global_262145.f_15402;
+		
+		case 95:
+			return Global_262145.f_15399;
+		
+		case 96:
+			return Global_262145.f_15401;
+		
+		case 97:
+			return Global_262145.f_15394;
+		
+		case 98:
+			return Global_262145.f_15392;
+		
+		case 99:
+			return Global_262145.f_15391;
+		
+		case 100:
+			return Global_262145.f_15400;
+		
+		case 101:
+			return Global_262145.f_15398;
+		
+		case 102:
+			return Global_262145.f_15396;
 	}
 	return 0;
 }
 
-void func_33(char* sParam0, int iParam1, int iParam2)
+void func_38(char* sParam0, int iParam1, int iParam2)
 {
 	struct<4> Var0;
 	
-	Var0 = { func_31(iParam1) };
+	Var0 = { func_36(iParam1) };
 	StringCopy(sParam0, "PR_", 64);
 	StringConCat(sParam0, &Var0, 64);
 	StringConCat(sParam0, "_t0_v", 64);
 	StringIntConCat(sParam0, iParam2, 64);
 }
 
-int func_34(int iParam0)
+int func_39(int iParam0)
 {
-	if (func_36() && func_35())
+	if (func_41() && func_40())
 	{
 		if (iParam0 == 31)
 		{
@@ -21030,7 +24546,7 @@ int func_34(int iParam0)
 	return 0;
 }
 
-int func_35()
+int func_40()
 {
 	var uVar0;
 	var uVar1;
@@ -21038,9 +24554,9 @@ int func_35()
 	var uVar3;
 	var uVar4;
 	
-	if (unk_0x7DA173D4FD42F36B(Global_25, 5))
+	if (unk_0x08BA6DD398CA197C(Global_25, 5))
 	{
-		if (unk_0x7DA173D4FD42F36B(Global_25, 1) || unk_0x7DA173D4FD42F36B(Global_25, 3))
+		if (unk_0x08BA6DD398CA197C(Global_25, 1) || unk_0x08BA6DD398CA197C(Global_25, 3))
 		{
 			return 1;
 		}
@@ -21049,11 +24565,11 @@ int func_35()
 			return 0;
 		}
 	}
-	if (unk_0xFF4D252D25F54A29(joaat("sp_unlock_exclus_content"), &uVar0, -1))
+	if (unk_0x8A3351ECF43DB941(joaat("sp_unlock_exclus_content"), &uVar0, -1))
 	{
-		if (unk_0x7DA173D4FD42F36B(uVar0, 5))
+		if (unk_0x08BA6DD398CA197C(uVar0, 5))
 		{
-			if (unk_0x7DA173D4FD42F36B(uVar0, 1) || unk_0x7DA173D4FD42F36B(uVar0, 3))
+			if (unk_0x08BA6DD398CA197C(uVar0, 1) || unk_0x08BA6DD398CA197C(uVar0, 3))
 			{
 				return 1;
 			}
@@ -21063,48 +24579,48 @@ int func_35()
 			}
 		}
 	}
-	if (unk_0xA4719609BF9D3A87(0))
+	if (unk_0x780C82A5FB0E714F(0))
 	{
-		if (Global_138383.f_3)
+		if (Global_138926.f_3)
 		{
 			iVar2 = joaat("mpply_plat_up_lb_check");
-			if (unk_0xFF4D252D25F54A29(iVar2, &uVar1, -1))
+			if (unk_0x8A3351ECF43DB941(iVar2, &uVar1, -1))
 			{
-				if (unk_0x7DA173D4FD42F36B(uVar1, 5))
+				if (unk_0x08BA6DD398CA197C(uVar1, 5))
 				{
 					return 1;
 				}
 			}
 		}
 	}
-	if (unk_0x68BFEB8408A751AF())
+	if (unk_0x3F59EA61B56AFBC2())
 	{
-		uVar3 = unk_0x424297F730B39FD1(866);
-		if (unk_0x7DA173D4FD42F36B(uVar3, 1) || unk_0x7DA173D4FD42F36B(uVar3, 3))
+		uVar3 = unk_0x680A5FBB1F20F775(866);
+		if (unk_0x08BA6DD398CA197C(uVar3, 1) || unk_0x08BA6DD398CA197C(uVar3, 3))
 		{
 			return 1;
 		}
 	}
-	if (unk_0x37C879A6840008F2())
+	if (unk_0x446ED6C2B9B18A21())
 	{
-		if (unk_0x8885412CB28B8667())
+		if (unk_0x941A660B39C95F30())
 		{
-			if (unk_0x80204FE7CEC24EEB())
+			if (unk_0x28AB0A510FC49CA4())
 			{
-				unk_0xFF4D252D25F54A29(joaat("sp_unlock_exclus_content"), &uVar4, -1);
-				unk_0xE27C8E42A97895CF(&uVar4, 1);
-				unk_0xE27C8E42A97895CF(&uVar4, 3);
-				unk_0xE27C8E42A97895CF(&uVar4, 5);
-				unk_0xE27C8E42A97895CF(&Global_25, 1);
-				unk_0xE27C8E42A97895CF(&Global_25, 3);
-				unk_0xE27C8E42A97895CF(&Global_25, 5);
-				unk_0x57B5A527FBAC251E(joaat("sp_unlock_exclus_content"), uVar4, 1);
-				if (unk_0x68BFEB8408A751AF())
+				unk_0x8A3351ECF43DB941(joaat("sp_unlock_exclus_content"), &uVar4, -1);
+				unk_0x88B0F0DC270164B7(&uVar4, 1);
+				unk_0x88B0F0DC270164B7(&uVar4, 3);
+				unk_0x88B0F0DC270164B7(&uVar4, 5);
+				unk_0x88B0F0DC270164B7(&Global_25, 1);
+				unk_0x88B0F0DC270164B7(&Global_25, 3);
+				unk_0x88B0F0DC270164B7(&Global_25, 5);
+				unk_0x10CE8769EE2626C7(joaat("sp_unlock_exclus_content"), uVar4, 1);
+				if (unk_0x3F59EA61B56AFBC2())
 				{
-					uVar4 = unk_0x424297F730B39FD1(866);
-					unk_0xE27C8E42A97895CF(&uVar4, 1);
-					unk_0xE27C8E42A97895CF(&uVar4, 3);
-					unk_0x57EDFB763ADA5656(uVar4);
+					uVar4 = unk_0x680A5FBB1F20F775(866);
+					unk_0x88B0F0DC270164B7(&uVar4, 1);
+					unk_0x88B0F0DC270164B7(&uVar4, 3);
+					unk_0xDA842F3F06329D8C(uVar4);
 				}
 				return 1;
 			}
@@ -21113,45 +24629,45 @@ int func_35()
 	return 0;
 }
 
-int func_36()
+int func_41()
 {
 	var uVar0;
 	
-	if (unk_0x37C879A6840008F2())
+	if (unk_0x446ED6C2B9B18A21())
 	{
-		if (unk_0x8885412CB28B8667())
+		if (unk_0x941A660B39C95F30())
 		{
-			if (unk_0x85D4C81816DC7E73())
+			if (unk_0x6FC368894467C692())
 			{
-				unk_0xFF4D252D25F54A29(joaat("sp_unlock_exclus_content"), &uVar0, -1);
-				unk_0xE27C8E42A97895CF(&uVar0, 2);
-				unk_0xE27C8E42A97895CF(&uVar0, 4);
-				unk_0xE27C8E42A97895CF(&uVar0, 6);
-				unk_0xE27C8E42A97895CF(&Global_25, 2);
-				unk_0xE27C8E42A97895CF(&Global_25, 4);
-				unk_0xE27C8E42A97895CF(&Global_25, 6);
-				unk_0x57B5A527FBAC251E(joaat("sp_unlock_exclus_content"), uVar0, 1);
-				if (unk_0x68BFEB8408A751AF())
+				unk_0x8A3351ECF43DB941(joaat("sp_unlock_exclus_content"), &uVar0, -1);
+				unk_0x88B0F0DC270164B7(&uVar0, 2);
+				unk_0x88B0F0DC270164B7(&uVar0, 4);
+				unk_0x88B0F0DC270164B7(&uVar0, 6);
+				unk_0x88B0F0DC270164B7(&Global_25, 2);
+				unk_0x88B0F0DC270164B7(&Global_25, 4);
+				unk_0x88B0F0DC270164B7(&Global_25, 6);
+				unk_0x10CE8769EE2626C7(joaat("sp_unlock_exclus_content"), uVar0, 1);
+				if (unk_0x3F59EA61B56AFBC2())
 				{
-					uVar0 = unk_0x424297F730B39FD1(866);
-					unk_0xE27C8E42A97895CF(&uVar0, 0);
-					unk_0x57EDFB763ADA5656(uVar0);
+					uVar0 = unk_0x680A5FBB1F20F775(866);
+					unk_0x88B0F0DC270164B7(&uVar0, 0);
+					unk_0xDA842F3F06329D8C(uVar0);
 				}
 				return 1;
 			}
 		}
 	}
-	if (Global_138382 == 2)
+	if (Global_138925 == 2)
 	{
 		return 1;
 	}
-	else if (Global_138382 == 3)
+	else if (Global_138925 == 3)
 	{
 		return 0;
 	}
-	if (unk_0x68BFEB8408A751AF())
+	if (unk_0x3F59EA61B56AFBC2())
 	{
-		if (unk_0x7DA173D4FD42F36B(unk_0x424297F730B39FD1(866), 0))
+		if (unk_0x08BA6DD398CA197C(unk_0x680A5FBB1F20F775(866), 0))
 		{
 			return 1;
 		}
