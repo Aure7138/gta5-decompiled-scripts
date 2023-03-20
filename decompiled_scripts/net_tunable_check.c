@@ -46,7 +46,7 @@ void __EntryFunction__()
 		{
 			func_5();
 		}
-		if (func_1(&uLocal_20, &Global_270488))
+		if (func_1(&uLocal_20, &Global_270815))
 		{
 			func_5();
 		}
@@ -65,7 +65,7 @@ int func_1(var uParam0, var uParam1)
 	
 	if (uParam0->f_2)
 	{
-		if (unk_0x0C214D5B8A38C828(unk_0x720C9CED76527377(unk_0x4F67E8ECA7D3F667(), uParam0->f_1)) >= uParam0->f_3)
+		if (unk_0xB65C49ABD0DAB270(unk_0xE1C532DCCBD8FED6(unk_0x17103F66FBB44C3C(), uParam0->f_1)) >= uParam0->f_3)
 		{
 			func_4();
 		}
@@ -76,10 +76,10 @@ int func_1(var uParam0, var uParam1)
 		{
 			return 0;
 		}
-		if (unk_0x4A2CBEC545FE0119())
+		if (unk_0x636171BD661823BE())
 		{
 			func_3(*uParam0, &Var3);
-			iVar9 = 1534;
+			iVar9 = 1676;
 			iVar2 = uParam0->f_4;
 			while (iVar2 <= uParam0->f_4 + 5)
 			{
@@ -90,22 +90,22 @@ int func_1(var uParam0, var uParam1)
 						iVar10 = func_2(iVar2);
 						if (iVar10 != 0 && Var3.f_5 != 0)
 						{
-							if (unk_0x8D6D5D9B0C44D3E3(iVar10, Var3.f_5, &fVar0))
+							if (unk_0x815D50A99246B854(iVar10, Var3.f_5, &fVar0))
 							{
 								if (fVar0 > Var3.f_1 || fVar0 < Var3.f_0)
 								{
 									uParam0->f_2 = 1;
-									uParam0->f_3 = unk_0x9C1C462D7B1DD1F9(20000, 30000);
-									uParam0->f_1 = unk_0x4F67E8ECA7D3F667();
+									uParam0->f_3 = unk_0x073B65E051D2F03E(20000, 30000);
+									uParam0->f_1 = unk_0x17103F66FBB44C3C();
 								}
 							}
-							else if (unk_0x7C15660C1683453B(iVar10, Var3.f_5, &iVar1))
+							else if (unk_0x397336E63DB24D69(iVar10, Var3.f_5, &iVar1))
 							{
 								if (iVar1 > Var3.f_3 || iVar1 < Var3.f_2)
 								{
 									uParam0->f_2 = 1;
-									uParam0->f_3 = unk_0x9C1C462D7B1DD1F9(20000, 30000);
-									uParam0->f_1 = unk_0x4F67E8ECA7D3F667();
+									uParam0->f_3 = unk_0x073B65E051D2F03E(20000, 30000);
+									uParam0->f_1 = unk_0x17103F66FBB44C3C();
 								}
 							}
 						}
@@ -118,7 +118,7 @@ int func_1(var uParam0, var uParam1)
 			{
 				uParam0->f_4 = 0;
 				*uParam0++;
-				if (*uParam0 >= 1534)
+				if (*uParam0 >= 1676)
 				{
 					*uParam0 = 0;
 					*uParam1 = 0;
@@ -138,7 +138,7 @@ int func_2(int iParam0)
 	{
 		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
 		StringIntConCat(&cVar0, (iParam0 - 26), 64);
-		return unk_0xFD340785ADF8CFB7(&cVar0);
+		return unk_0x398F092142D37E17(&cVar0);
 	}
 	switch (iParam0)
 	{
@@ -8554,18 +8554,18 @@ void func_3(int iParam0, var uParam1)
 			break;
 		
 		case 919:
-			*uParam1 = 12400f;
+			*uParam1 = 0f;
 			uParam1->f_1 = 1000000f;
-			uParam1->f_2 = 12400;
+			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000000;
 			uParam1->f_5 = joaat("HIPSTER_VEHICLE_PURE_GOLD_METAL_RESPRAY");
 			uParam1->f_4 = 1;
 			break;
 		
 		case 920:
-			*uParam1 = 11600f;
+			*uParam1 = 0f;
 			uParam1->f_1 = 1000000f;
-			uParam1->f_2 = 11600;
+			uParam1->f_2 = 0;
 			uParam1->f_3 = 1000000;
 			uParam1->f_5 = joaat("HIPSTER_VEHICLE_BRUSHED_GOLD_METAL_RESPRAY");
 			uParam1->f_4 = 1;
@@ -10820,27 +10820,27 @@ void func_3(int iParam0, var uParam1)
 		
 		case 1172:
 			*uParam1 = 0f;
-			uParam1->f_1 = 1000000f;
+			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
-			uParam1->f_3 = 1000000;
+			uParam1->f_3 = 1500000;
 			uParam1->f_5 = -478542030;
 			uParam1->f_4 = 1;
 			break;
 		
 		case 1173:
 			*uParam1 = 0f;
-			uParam1->f_1 = 1000000f;
+			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
-			uParam1->f_3 = 1000000;
+			uParam1->f_3 = 1500000;
 			uParam1->f_5 = joaat("HEIST_SERIES_A_FUNDING_CASH_REWARD");
 			uParam1->f_4 = 1;
 			break;
 		
 		case 1174:
 			*uParam1 = 0f;
-			uParam1->f_1 = 1350000f;
+			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 0;
-			uParam1->f_3 = 1350000;
+			uParam1->f_3 = 2500000;
 			uParam1->f_5 = -1535523991;
 			uParam1->f_4 = 1;
 			break;
@@ -14099,19 +14099,1305 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 	}
+	switch (iParam0)
+	{
+		case 1534:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = -622253716;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1535:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = -1627691056;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1536:
+			*uParam1 = 3150f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3150;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 399246382;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1537:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = -1793368988;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1538:
+			*uParam1 = 3050f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3050;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 1364365401;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1539:
+			*uParam1 = 2650f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2650;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = 2044461341;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1540:
+			*uParam1 = 2600f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2600;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = -1731591700;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1541:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 15000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 15000;
+			uParam1->f_5 = 511542655;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1542:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1937886234;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1543:
+			*uParam1 = 2750f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2750;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -770984932;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1544:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1730028949;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1545:
+			*uParam1 = 3250f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3250;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = -1594317759;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1546:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1746078541;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1547:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 420790512;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1548:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 67637077;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1549:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 1081069775;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1550:
+			*uParam1 = 3300f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3300;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = -1477118872;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1551:
+			*uParam1 = 3300f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3300;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 396035835;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1552:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 15000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 15000;
+			uParam1->f_5 = -535591151;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1553:
+			*uParam1 = 2650f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2650;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = -277350803;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1554:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1866753085;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1555:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = -279851098;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1556:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = 1701979727;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1557:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -1894272120;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1558:
+			*uParam1 = 2650f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2650;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = 325995035;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1559:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1834923172;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1560:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1226561546;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1561:
+			*uParam1 = 3000f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 3000;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = -821205110;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1562:
+			*uParam1 = 5700f;
+			uParam1->f_1 = 35000f;
+			uParam1->f_2 = 5700;
+			uParam1->f_3 = 35000;
+			uParam1->f_5 = -132197608;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1563:
+			*uParam1 = 6000f;
+			uParam1->f_1 = 37000f;
+			uParam1->f_2 = 6000;
+			uParam1->f_3 = 37000;
+			uParam1->f_5 = 415703263;
+			uParam1->f_4 = 1;
+			break;
+	}
+	switch (iParam0)
+	{
+		case 1564:
+			*uParam1 = 5400f;
+			uParam1->f_1 = 33000f;
+			uParam1->f_2 = 5400;
+			uParam1->f_3 = 33000;
+			uParam1->f_5 = 1385217028;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1565:
+			*uParam1 = 5700f;
+			uParam1->f_1 = 35000f;
+			uParam1->f_2 = 5700;
+			uParam1->f_3 = 35000;
+			uParam1->f_5 = 642554522;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1566:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1723307126;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1567:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1571556859;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1568:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1697982160;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1569:
+			*uParam1 = 2950f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 2950;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = 491458810;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1570:
+			*uParam1 = 2900f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 2900;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = 1636412319;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1571:
+			*uParam1 = 3050f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3050;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 876551036;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1572:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 15000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 15000;
+			uParam1->f_5 = 2091744836;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1573:
+			*uParam1 = 3100f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3100;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = -1105659840;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1574:
+			*uParam1 = 2600f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2600;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = 1649856226;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1575:
+			*uParam1 = 8150f;
+			uParam1->f_1 = 50000f;
+			uParam1->f_2 = 8150;
+			uParam1->f_3 = 50000;
+			uParam1->f_5 = 1340584067;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1576:
+			*uParam1 = 3150f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3150;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 29001067;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1577:
+			*uParam1 = 3150f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3150;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 1638852953;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1578:
+			*uParam1 = 3100f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3100;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 1611179743;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1579:
+			*uParam1 = 3100f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3100;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 18325263;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1580:
+			*uParam1 = 3000f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 3000;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = -837168973;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1581:
+			*uParam1 = 2650f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2650;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = 1053240799;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1582:
+			*uParam1 = 2600f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2600;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = 223375334;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1583:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 15000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 15000;
+			uParam1->f_5 = -1655754048;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1584:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -836299130;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1585:
+			*uParam1 = 2750f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2750;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 782279512;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1586:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1369424797;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1587:
+			*uParam1 = 3250f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3250;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 1041382958;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1588:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -1748895312;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1589:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 190102475;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1590:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 1102060585;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1591:
+			*uParam1 = 3200f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3200;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = -1936071814;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1592:
+			*uParam1 = 3300f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3300;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 1083353164;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1593:
+			*uParam1 = 3300f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 3300;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = -417660330;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1594:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 15000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 15000;
+			uParam1->f_5 = 1932743496;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1595:
+			*uParam1 = 2650f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2650;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = -72691188;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1596:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -602293245;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1597:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = 1398134415;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1598:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = 413711434;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1599:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 803677525;
+			uParam1->f_4 = 1;
+			break;
+	}
+	switch (iParam0)
+	{
+		case 1600:
+			*uParam1 = 2650f;
+			uParam1->f_1 = 16000f;
+			uParam1->f_2 = 2650;
+			uParam1->f_3 = 16000;
+			uParam1->f_5 = -620078051;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1601:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -628103623;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1602:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -66304196;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1603:
+			*uParam1 = 3000f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 3000;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = 800556459;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1604:
+			*uParam1 = 5700f;
+			uParam1->f_1 = 35000f;
+			uParam1->f_2 = 5700;
+			uParam1->f_3 = 35000;
+			uParam1->f_5 = -824264527;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1605:
+			*uParam1 = 6000f;
+			uParam1->f_1 = 37000f;
+			uParam1->f_2 = 6000;
+			uParam1->f_3 = 37000;
+			uParam1->f_5 = 755031110;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1606:
+			*uParam1 = 5400f;
+			uParam1->f_1 = 33000f;
+			uParam1->f_2 = 5400;
+			uParam1->f_3 = 33000;
+			uParam1->f_5 = -1068587067;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1607:
+			*uParam1 = 5700f;
+			uParam1->f_1 = 35000f;
+			uParam1->f_2 = 5700;
+			uParam1->f_3 = 35000;
+			uParam1->f_5 = 1875074953;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1608:
+			*uParam1 = 2700f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2700;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 99755424;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1609:
+			*uParam1 = 2850f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2850;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = -476349454;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1610:
+			*uParam1 = 2800f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 2800;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1115705246;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1611:
+			*uParam1 = 2950f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 2950;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = -8245662;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1612:
+			*uParam1 = 2900f;
+			uParam1->f_1 = 18000f;
+			uParam1->f_2 = 2900;
+			uParam1->f_3 = 18000;
+			uParam1->f_5 = 1380386970;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1613:
+			*uParam1 = 3050f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 3050;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 1063931600;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1614:
+			*uParam1 = 8000f;
+			uParam1->f_1 = 49000f;
+			uParam1->f_2 = 8000;
+			uParam1->f_3 = 49000;
+			uParam1->f_5 = 467758279;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1615:
+			*uParam1 = 9800f;
+			uParam1->f_1 = 60000f;
+			uParam1->f_2 = 9800;
+			uParam1->f_3 = 60000;
+			uParam1->f_5 = -1319543371;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1616:
+			*uParam1 = 6950f;
+			uParam1->f_1 = 43000f;
+			uParam1->f_2 = 6950;
+			uParam1->f_3 = 43000;
+			uParam1->f_5 = -215858403;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1617:
+			*uParam1 = 5950f;
+			uParam1->f_1 = 37000f;
+			uParam1->f_2 = 5950;
+			uParam1->f_3 = 37000;
+			uParam1->f_5 = -1081958808;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1618:
+			*uParam1 = 7750f;
+			uParam1->f_1 = 47000f;
+			uParam1->f_2 = 7750;
+			uParam1->f_3 = 47000;
+			uParam1->f_5 = -1413988397;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1619:
+			*uParam1 = 8250f;
+			uParam1->f_1 = 50000f;
+			uParam1->f_2 = 8250;
+			uParam1->f_3 = 50000;
+			uParam1->f_5 = 1656371392;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1620:
+			*uParam1 = 9500f;
+			uParam1->f_1 = 58000f;
+			uParam1->f_2 = 9500;
+			uParam1->f_3 = 58000;
+			uParam1->f_5 = -272486755;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1621:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -1242936773;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1622:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -330255991;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1623:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -1403743541;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1624:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -853299791;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1625:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -342699350;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1626:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = 546969328;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1627:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = 1436767744;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1628:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -1142176347;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1629:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = 1989937423;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1630:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -367171541;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1631:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -1489565880;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1632:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = 99570882;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1633:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -2115936932;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1634:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -1967937907;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1635:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -1870797418;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1636:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -588103474;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1637:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = 825754880;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1638:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = -591343606;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1639:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = 761909348;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1640:
+			*uParam1 = 0.5f;
+			uParam1->f_1 = 2f;
+			uParam1->f_2 = 0;
+			uParam1->f_3 = 2;
+			uParam1->f_5 = 688997908;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1641:
+			*uParam1 = 350000f;
+			uParam1->f_1 = 1000000f;
+			uParam1->f_2 = 350000;
+			uParam1->f_3 = 1000000;
+			uParam1->f_5 = -1778850088;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1642:
+			*uParam1 = 100000f;
+			uParam1->f_1 = 340000f;
+			uParam1->f_2 = 100000;
+			uParam1->f_3 = 340000;
+			uParam1->f_5 = 145064713;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1643:
+			*uParam1 = 340000f;
+			uParam1->f_1 = 1000000f;
+			uParam1->f_2 = 340000;
+			uParam1->f_3 = 1000000;
+			uParam1->f_5 = 215838966;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1644:
+			*uParam1 = 1000000f;
+			uParam1->f_1 = 3300000f;
+			uParam1->f_2 = 1000000;
+			uParam1->f_3 = 3300000;
+			uParam1->f_5 = 1145833376;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1645:
+			*uParam1 = 850000f;
+			uParam1->f_1 = 2625000f;
+			uParam1->f_2 = 850000;
+			uParam1->f_3 = 2625000;
+			uParam1->f_5 = -486041956;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1646:
+			*uParam1 = 300000f;
+			uParam1->f_1 = 1000000f;
+			uParam1->f_2 = 300000;
+			uParam1->f_3 = 1000000;
+			uParam1->f_5 = joaat("LUXE2_DINKA_VINDICATOR");
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1647:
+			*uParam1 = 15000f;
+			uParam1->f_1 = 70000f;
+			uParam1->f_2 = 15000;
+			uParam1->f_3 = 70000;
+			uParam1->f_5 = -1328179168;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1648:
+			*uParam1 = 15000f;
+			uParam1->f_1 = 70000f;
+			uParam1->f_2 = 15000;
+			uParam1->f_3 = 70000;
+			uParam1->f_5 = 1612971844;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1649:
+			*uParam1 = 15000f;
+			uParam1->f_1 = 70000f;
+			uParam1->f_2 = 15000;
+			uParam1->f_3 = 70000;
+			uParam1->f_5 = -2042311803;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1650:
+			*uParam1 = 3000f;
+			uParam1->f_1 = 15000f;
+			uParam1->f_2 = 3000;
+			uParam1->f_3 = 15000;
+			uParam1->f_5 = 881393295;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1651:
+			*uParam1 = 2000f;
+			uParam1->f_1 = 10000f;
+			uParam1->f_2 = 2000;
+			uParam1->f_3 = 10000;
+			uParam1->f_5 = -1236341588;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1652:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = -173149373;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1653:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = 1449657666;
+			uParam1->f_4 = 1;
+			break;
+	}
+	switch (iParam0)
+	{
+		case 1654:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = 1038396324;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1655:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = 1750327899;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1656:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = -1059335443;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1657:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = 763836153;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1658:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = -537772567;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1659:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = -1976352020;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1660:
+			*uParam1 = 2500f;
+			uParam1->f_1 = 21000f;
+			uParam1->f_2 = 2500;
+			uParam1->f_3 = 21000;
+			uParam1->f_5 = -1568393457;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1661:
+			*uParam1 = 5450f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 5450;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 1537969659;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1662:
+			*uParam1 = 5050f;
+			uParam1->f_1 = 15000f;
+			uParam1->f_2 = 5050;
+			uParam1->f_3 = 15000;
+			uParam1->f_5 = 2052881604;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1663:
+			*uParam1 = 7250f;
+			uParam1->f_1 = 22000f;
+			uParam1->f_2 = 7250;
+			uParam1->f_3 = 22000;
+			uParam1->f_5 = 1657765060;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1664:
+			*uParam1 = 6550f;
+			uParam1->f_1 = 20000f;
+			uParam1->f_2 = 6550;
+			uParam1->f_3 = 20000;
+			uParam1->f_5 = 118699681;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1665:
+			*uParam1 = 13100f;
+			uParam1->f_1 = 40000f;
+			uParam1->f_2 = 13100;
+			uParam1->f_3 = 40000;
+			uParam1->f_5 = -93488432;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1666:
+			*uParam1 = 9200f;
+			uParam1->f_1 = 28000f;
+			uParam1->f_2 = 9200;
+			uParam1->f_3 = 28000;
+			uParam1->f_5 = -111901410;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1667:
+			*uParam1 = 10650f;
+			uParam1->f_1 = 32000f;
+			uParam1->f_2 = 10650;
+			uParam1->f_3 = 32000;
+			uParam1->f_5 = -776037061;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1668:
+			*uParam1 = 11600f;
+			uParam1->f_1 = 35000f;
+			uParam1->f_2 = 11600;
+			uParam1->f_3 = 35000;
+			uParam1->f_5 = 1850662394;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1669:
+			*uParam1 = 14100f;
+			uParam1->f_1 = 43000f;
+			uParam1->f_2 = 14100;
+			uParam1->f_3 = 43000;
+			uParam1->f_5 = 249366521;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1670:
+			*uParam1 = 7700f;
+			uParam1->f_1 = 23000f;
+			uParam1->f_2 = 7700;
+			uParam1->f_3 = 23000;
+			uParam1->f_5 = -1861456710;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1671:
+			*uParam1 = 5700f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 5700;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 721710253;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1672:
+			*uParam1 = 7300f;
+			uParam1->f_1 = 22000f;
+			uParam1->f_2 = 7300;
+			uParam1->f_3 = 22000;
+			uParam1->f_5 = 648351172;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1673:
+			*uParam1 = 6300f;
+			uParam1->f_1 = 19000f;
+			uParam1->f_2 = 6300;
+			uParam1->f_3 = 19000;
+			uParam1->f_5 = 811933701;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1674:
+			*uParam1 = 5600f;
+			uParam1->f_1 = 17000f;
+			uParam1->f_2 = 5600;
+			uParam1->f_3 = 17000;
+			uParam1->f_5 = 600606008;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 1675:
+			*uParam1 = 14850f;
+			uParam1->f_1 = 45000f;
+			uParam1->f_2 = 14850;
+			uParam1->f_3 = 45000;
+			uParam1->f_5 = 444644043;
+			uParam1->f_4 = 1;
+			break;
+	}
 }
 
 void func_4()
 {
-	unk_0xD93B6516C6878267();
-	unk_0xB63265A0DD7E1241(-9f, -9f, -9f, -10f, -10f, -10f, -25f, -25f, -25f, -28f, -28f, -28f, 0f, 0f, 0f, 0, 0);
-	unk_0x55686F8055FF786B(-9f, -9f, -9f, -10f, -10f, -10f, 0, 1, 1, 1);
+	unk_0xAD220F5FCC927778();
+	unk_0x19C909798529D385(-9f, -9f, -9f, -10f, -10f, -10f, -25f, -25f, -25f, -28f, -28f, -28f, 0f, 0f, 0f, 0, 0);
+	unk_0x676E460800A9E1B7(-9f, -9f, -9f, -10f, -10f, -10f, 0, 1, 1, 1);
 	func_4();
 }
 
 void func_5()
 {
-	unk_0x5E8B6D17FF91CD59();
+	unk_0xE60DEFFB2A853900();
 }
 
 int func_6()
@@ -14125,7 +15411,7 @@ int func_6()
 	}
 	if (Global_1315874 == 0)
 	{
-		if (!unk_0x03A753E2C8458335())
+		if (!unk_0x4B69FB3A5B09A1BA())
 		{
 			return 1;
 		}
@@ -14134,7 +15420,7 @@ int func_6()
 	{
 		return 1;
 	}
-	if (Global_2437058)
+	if (Global_2437036)
 	{
 		return 1;
 	}
@@ -14153,13 +15439,13 @@ int func_6()
 	{
 		return 1;
 	}
-	if (!unk_0x4C82BD446C34CACD())
+	if (!unk_0x6518D9FF7C996D2B())
 	{
 		return 1;
 	}
 	if (func_7() != 0)
 	{
-		if (unk_0x8E34C953364A76DD(func_7()) == 0)
+		if (unk_0x7B47A371E2D93C2C(func_7()) == 0)
 		{
 			return 1;
 		}
@@ -14189,12 +15475,12 @@ int func_8()
 
 bool func_9()
 {
-	return Global_2428131.f_572;
+	return Global_2428162.f_572;
 }
 
 int func_10(int iParam0)
 {
-	if (unk_0xC9F59C0A710ECD34(1, iParam0))
+	if (unk_0xAFB34077E5ACCBA7(1, iParam0))
 	{
 		return 1;
 	}
@@ -14203,12 +15489,12 @@ int func_10(int iParam0)
 
 bool func_11()
 {
-	return Global_2435238;
+	return Global_2435128;
 }
 
 bool func_12()
 {
-	return Global_2428131.f_567;
+	return Global_2428162.f_567;
 }
 
 void func_13(var uParam0)
@@ -14219,12 +15505,12 @@ void func_13(var uParam0)
 	struct<3> Var4;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0x5CE8DE5909565748(1))
+	while (iVar0 < unk_0x2FAEA355B623BA14(1))
 	{
-		iVar1 = unk_0xA85E614430EFF816(1, iVar0);
+		iVar1 = unk_0x18F85CAA17F9F9A1(1, iVar0);
 		if (iVar1 == 168)
 		{
-			unk_0x57EC5FA4D4D6AFCA(1, iVar0, &iVar2, 2);
+			unk_0x2E567DCD11FE0296(1, iVar0, &iVar2, 2);
 			switch (iVar2)
 			{
 				case 306:
@@ -14232,7 +15518,7 @@ void func_13(var uParam0)
 					break;
 				
 				case 2:
-					unk_0x57EC5FA4D4D6AFCA(1, iVar0, &Var4, 3);
+					unk_0x2E567DCD11FE0296(1, iVar0, &Var4, 3);
 					if (Var4.f_2 == 53)
 					{
 						*uParam0 = 1;
@@ -14251,25 +15537,25 @@ void func_14(int iParam0)
 	var uVar4;
 	bool bVar5;
 	
-	if (unk_0x57EC5FA4D4D6AFCA(1, iParam0, &Var0, 3))
+	if (unk_0x2E567DCD11FE0296(1, iParam0, &Var0, 3))
 	{
 		if (func_16(Var0.f_1, 1, 1))
 		{
-			uVar3 = unk_0x275F255ED201B937(Var0.f_1);
-			if (unk_0xD42BD6EB2E0F1677(uVar3))
+			uVar3 = unk_0x4E6043D225B9C75F(Var0.f_1);
+			if (unk_0x746960881FB19A89(uVar3))
 			{
-				if (unk_0x52BE10F427339B39(uVar3, 0))
+				if (unk_0x827151D7B70CB853(uVar3, 0))
 				{
-					uVar4 = unk_0xB3598EA616C3FFC3(uVar3, 0);
-					if (unk_0x0E7910A63E05B12C(uVar4, Var0.f_2) && unk_0xB779D92A280DB7F7())
+					uVar4 = unk_0x1161215F69587BDA(uVar3, 0);
+					if (unk_0x4A4FC7B76BEF1AC9(uVar4, Var0.f_2) && unk_0xD28DD58204E8F9D1())
 					{
 						if (func_15(uVar4, &bVar5))
 						{
-							unk_0x745F15A215F2DDF1(uVar4, Var0.f_2);
+							unk_0xB3216D41373DA6C7(uVar4, Var0.f_2);
 						}
 						if (bVar5)
 						{
-							unk_0x6C9B2BE03BBD5C98(&uVar4);
+							unk_0x9187463EB4918A4D(&uVar4);
 						}
 					}
 				}
@@ -14280,19 +15566,19 @@ void func_14(int iParam0)
 
 int func_15(var uParam0, var uParam1)
 {
-	if (unk_0xD42BD6EB2E0F1677(uParam0))
+	if (unk_0x746960881FB19A89(uParam0))
 	{
-		if (!unk_0x138190F64DB4BBD1(uParam0))
+		if (!unk_0x34E74FF8690AA4B1(uParam0))
 		{
-			if (unk_0x3BDB448E5390D817(uParam0))
+			if (unk_0x1F298C7D5F6EEDBF(uParam0))
 			{
-				unk_0xDC19C288082E586E(uParam0, 0, 1);
+				unk_0x336AE92FD68DEF98(uParam0, 0, 1);
 				*uParam1 = 1;
 			}
 		}
-		if (unk_0x622B1980CBE13332(uParam0, 0))
+		if (unk_0xAD2C236C4A4B83C9(uParam0, 0))
 		{
-			if (unk_0x711DB131BD66A278(uParam0))
+			if (unk_0x88A3865085DFB7AD(uParam0))
 			{
 				return 1;
 			}
@@ -14306,18 +15592,18 @@ int func_16(var uParam0, bool bParam1, bool bParam2)
 	int iVar0;
 	
 	iVar0 = uParam0;
-	if (unk_0x1DB8366B5C46DA9E(uParam0))
+	if (unk_0xCB29E1C3D086FBAE(uParam0))
 	{
 		if (bParam1)
 		{
-			if (!unk_0xBFFB35986CAAE58C(uParam0))
+			if (!unk_0x378E80A2B7D7C8DF(uParam0))
 			{
 				return 0;
 			}
 		}
 		if (bParam2)
 		{
-			if (!Global_2422140.f_3[iVar0])
+			if (!Global_2422166.f_3[iVar0])
 			{
 				return 0;
 			}
