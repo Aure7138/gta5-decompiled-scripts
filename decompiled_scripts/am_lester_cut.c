@@ -1133,7 +1133,7 @@ void func_20(int iParam0, int iParam1, int iParam2, bool bParam3)
 {
 	int iVar0;
 	
-	iVar0 = Global_2454187[iParam0 /*6*/][func_70(iParam2)];
+	iVar0 = Global_2454188[iParam0 /*6*/][func_70(iParam2)];
 	if (iVar0 != 0)
 	{
 		unk_0xB3271D7AB655B441(iVar0, iParam1, bParam3);
@@ -1148,7 +1148,7 @@ int func_21(int iParam0, int iParam1, int iParam2)
 	if (iParam2 == 0)
 	{
 	}
-	iVar0 = Global_2454187[iParam0 /*6*/][func_70(iParam1)];
+	iVar0 = Global_2454188[iParam0 /*6*/][func_70(iParam1)];
 	if (unk_0x767FBC2AC802EF3D(iVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -1597,7 +1597,7 @@ void func_29(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	
 	if (func_30())
 	{
-		iVar0 = Global_2472519[iParam0 /*6*/][func_70(iParam2)];
+		iVar0 = Global_2472520[iParam0 /*6*/][func_70(iParam2)];
 		if (iVar0 != 0)
 		{
 			unk_0x4B33C4243DE0C432(iVar0, bParam1, bParam3);
@@ -1653,7 +1653,7 @@ int func_35(int iParam0, int iParam1)
 	int iVar0;
 	var uVar1;
 	
-	iVar0 = Global_2472519[iParam0 /*6*/][func_70(iParam1)];
+	iVar0 = Global_2472520[iParam0 /*6*/][func_70(iParam1)];
 	if (unk_0x11B5E6D2AE73F48E(iVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -1781,7 +1781,7 @@ int func_39(bool bParam0)
 	}
 	if (bParam0)
 	{
-		if (!unk_0xA921AA820C25702F(Global_2446207.f_1610, 26))
+		if (!unk_0xA921AA820C25702F(Global_2446208.f_1610, 26))
 		{
 			iVar0 = func_21(1177, -1, 0);
 			if (!unk_0xA921AA820C25702F(iVar0, 23))
@@ -1863,7 +1863,7 @@ int func_41()
 	{
 		return 1;
 	}
-	if (unk_0xA921AA820C25702F(Global_2446207.f_1615, 23))
+	if (unk_0xA921AA820C25702F(Global_2446208.f_1615, 23))
 	{
 		return 1;
 	}
@@ -1878,7 +1878,7 @@ int func_41()
 	iVar0 = Global_1333824[func_70(-1)];
 	if (unk_0xA921AA820C25702F(iVar0, 7))
 	{
-		unk_0x933D6A9EEC1BACD0(&(Global_2446207.f_1615), 23);
+		unk_0x933D6A9EEC1BACD0(&(Global_2446208.f_1615), 23);
 		return 1;
 	}
 	return 0;
@@ -2042,16 +2042,16 @@ int func_49()
 {
 	int iVar0;
 	
-	if (unk_0xA921AA820C25702F(Global_2446207.f_1615, 6))
+	if (unk_0xA921AA820C25702F(Global_2446208.f_1615, 6))
 	{
 		return 1;
 	}
 	iVar0 = Global_1333824[func_70(-1)];
 	if (unk_0xA921AA820C25702F(iVar0, 0))
 	{
-		if (!unk_0xA921AA820C25702F(Global_2446207.f_1615, 6))
+		if (!unk_0xA921AA820C25702F(Global_2446208.f_1615, 6))
 		{
-			unk_0x933D6A9EEC1BACD0(&(Global_2446207.f_1615), 6);
+			unk_0x933D6A9EEC1BACD0(&(Global_2446208.f_1615), 6);
 		}
 		return 1;
 	}
@@ -2409,12 +2409,12 @@ int func_58(int iParam0, int iParam1)
 			}
 			return iVar3;
 		}
-		if (Global_270025[iVar3] == iParam0)
+		if (Global_270026[iVar3] == iParam0)
 		{
 			iVar1 = iVar3;
 			iVar2 = iVar3;
 		}
-		else if (Global_270025[iVar3] < iParam0)
+		else if (Global_270026[iVar3] < iParam0)
 		{
 			if (iVar2 == iVar3)
 			{
@@ -2637,7 +2637,7 @@ void func_69(int iParam0, int iParam1, int iParam2, bool bParam3)
 {
 	int iVar0;
 	
-	iVar0 = Global_2454187[iParam0 /*6*/][func_70(iParam2)];
+	iVar0 = Global_2454188[iParam0 /*6*/][func_70(iParam2)];
 	if (iVar0 != 0)
 	{
 		unk_0xB3271D7AB655B441(iVar0, iParam1, bParam3);
@@ -2721,11 +2721,11 @@ void func_69(int iParam0, int iParam1, int iParam2, bool bParam3)
 			break;
 		
 		case 1860:
-			Global_2474966[0 /*6*/][func_70(iParam2)] = iParam1;
+			Global_2474967[0 /*6*/][func_70(iParam2)] = iParam1;
 			break;
 		
 		case 2249:
-			Global_2474966[1 /*6*/][func_70(iParam2)] = iParam1;
+			Global_2474967[1 /*6*/][func_70(iParam2)] = iParam1;
 			break;
 		
 		case 750:
@@ -2760,13 +2760,13 @@ int func_70(int iParam0)
 		iVar1 = func_67();
 		if (iVar1 > -1)
 		{
-			Global_2453900 = 0;
+			Global_2453901 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2453900 = 1;
+			Global_2453901 = 1;
 		}
 	}
 	return iVar0;
@@ -3109,7 +3109,7 @@ void func_81()
 
 void func_82(int iParam0)
 {
-	Global_2446207.f_4361 = iParam0;
+	Global_2446208.f_4361 = iParam0;
 }
 
 void func_83(int iParam0, bool bParam1, int iParam2)
@@ -4959,7 +4959,7 @@ int func_153(bool bParam0, bool bParam1)
 	{
 		return 0;
 	}
-	if (Global_2452825)
+	if (Global_2452826)
 	{
 		return 0;
 	}
@@ -5332,7 +5332,7 @@ int func_183()
 	{
 		return 1;
 	}
-	if (Global_2436712)
+	if (Global_2436713)
 	{
 		return 1;
 	}

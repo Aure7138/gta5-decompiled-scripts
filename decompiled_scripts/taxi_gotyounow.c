@@ -2291,13 +2291,13 @@ int func_57(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_66(&Global_2543696))
+	if (func_66(&Global_2543745))
 	{
-		if (func_64(&Global_2543696, iParam0))
+		if (func_64(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_58(&Global_2543696, iParam0))
+		if (func_58(&Global_2543745, iParam0))
 		{
 			return 1;
 		}
@@ -3787,13 +3787,13 @@ int func_111(int iParam0)
 		iVar1 = func_25();
 		if (iVar1 > -1)
 		{
-			Global_2453900 = 0;
+			Global_2453901 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2453900 = 1;
+			Global_2453901 = 1;
 		}
 	}
 	return iVar0;

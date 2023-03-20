@@ -312,7 +312,7 @@ void __EntryFunction__()
 
 var func_1()
 {
-	return Global_2435664;
+	return Global_2435665;
 }
 
 void func_2()

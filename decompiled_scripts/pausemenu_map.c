@@ -1635,7 +1635,7 @@ int func_36(var uParam0, int iParam1)
 		{
 			return 7;
 		}
-		if (unk_0xA921AA820C25702F(Global_2446207.f_729, 2))
+		if (unk_0xA921AA820C25702F(Global_2446208.f_729, 2))
 		{
 			return 8;
 		}
@@ -1765,7 +1765,7 @@ int func_41(int iParam0, int iParam1)
 	int iVar0;
 	var uVar1;
 	
-	iVar0 = Global_2472519[iParam0 /*6*/][func_42(iParam1)];
+	iVar0 = Global_2472520[iParam0 /*6*/][func_42(iParam1)];
 	if (unk_0x11B5E6D2AE73F48E(iVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -1784,13 +1784,13 @@ int func_42(int iParam0)
 		iVar1 = func_39();
 		if (iVar1 > -1)
 		{
-			Global_2453900 = 0;
+			Global_2453901 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2453900 = 1;
+			Global_2453901 = 1;
 		}
 	}
 	return iVar0;
@@ -2519,14 +2519,14 @@ int func_65()
 {
 	int iVar0;
 	
-	if (unk_0xA921AA820C25702F(Global_2446207.f_1615, 7))
+	if (unk_0xA921AA820C25702F(Global_2446208.f_1615, 7))
 	{
 		return 1;
 	}
 	iVar0 = Global_1333824[func_42(-1)];
 	if (unk_0xA921AA820C25702F(iVar0, 6))
 	{
-		unk_0x933D6A9EEC1BACD0(&(Global_2446207.f_1615), 7);
+		unk_0x933D6A9EEC1BACD0(&(Global_2446208.f_1615), 7);
 		return 1;
 	}
 	if (func_44())
@@ -2547,7 +2547,7 @@ bool func_66()
 
 int func_67()
 {
-	if (unk_0xA921AA820C25702F(Global_2446207.f_1615, 28) && !unk_0xA921AA820C25702F(Global_2446207.f_1615, 29))
+	if (unk_0xA921AA820C25702F(Global_2446208.f_1615, 28) && !unk_0xA921AA820C25702F(Global_2446208.f_1615, 29))
 	{
 		return 1;
 	}
@@ -2556,7 +2556,7 @@ int func_67()
 
 bool func_68()
 {
-	return unk_0xA921AA820C25702F(Global_2446207.f_1616, 3);
+	return unk_0xA921AA820C25702F(Global_2446208.f_1616, 3);
 }
 
 bool func_69()
@@ -2639,7 +2639,7 @@ int func_72()
 	{
 		return 1;
 	}
-	if (unk_0xA921AA820C25702F(Global_2446207.f_1615, 23))
+	if (unk_0xA921AA820C25702F(Global_2446208.f_1615, 23))
 	{
 		return 1;
 	}
@@ -2654,7 +2654,7 @@ int func_72()
 	iVar0 = Global_1333824[func_42(-1)];
 	if (unk_0xA921AA820C25702F(iVar0, 7))
 	{
-		unk_0x933D6A9EEC1BACD0(&(Global_2446207.f_1615), 23);
+		unk_0x933D6A9EEC1BACD0(&(Global_2446208.f_1615), 23);
 		return 1;
 	}
 	return 0;

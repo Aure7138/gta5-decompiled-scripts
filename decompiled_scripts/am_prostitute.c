@@ -640,7 +640,7 @@ int func_22()
 	{
 		return 1;
 	}
-	if (Global_2436712)
+	if (Global_2436713)
 	{
 		return 1;
 	}
@@ -831,7 +831,7 @@ void func_33()
 	{
 		unk_0x4C68DDDDF0097317("pb_prostitute", 1);
 	}
-	Global_2446207.f_2 = 0;
+	Global_2446208.f_2 = 0;
 	func_34();
 }
 

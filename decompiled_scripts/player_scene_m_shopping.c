@@ -2929,13 +2929,13 @@ int func_53(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_61(&Global_2543696))
+	if (func_61(&Global_2543745))
 	{
-		if (func_59(&Global_2543696, iParam0))
+		if (func_59(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_54(&Global_2543696, iParam0))
+		if (func_54(&Global_2543745, iParam0))
 		{
 			return 1;
 		}
@@ -3610,11 +3610,11 @@ void func_73(int iParam0)
 									iVar5 = 0;
 									while (iVar4 < 12)
 									{
-										if (Global_2542223[iVar4 /*104*/].f_24 != 0)
+										if (Global_2542272[iVar4 /*104*/].f_24 != 0)
 										{
-											if (Global_2542223[iVar4 /*104*/].f_28 == 0)
+											if (Global_2542272[iVar4 /*104*/].f_28 == 0)
 											{
-												if (Global_2542223[iVar4 /*104*/].f_99[Global_14393] == 1)
+												if (Global_2542272[iVar4 /*104*/].f_99[Global_14393] == 1)
 												{
 													iVar5++;
 												}

@@ -466,24 +466,24 @@ int func_14(int iParam0, int iParam1, int iParam2, bool bParam3)
 		{
 			return 0;
 		}
-		if (!unk_0xA921AA820C25702F(Global_2543488, 14))
+		if (!unk_0xA921AA820C25702F(Global_2543537, 14))
 		{
 			if (iParam0 == 17)
 			{
-				unk_0x933D6A9EEC1BACD0(&Global_2543488, 14);
-				unk_0x933D6A9EEC1BACD0(&Global_2543488, 16);
+				unk_0x933D6A9EEC1BACD0(&Global_2543537, 14);
+				unk_0x933D6A9EEC1BACD0(&Global_2543537, 16);
 			}
 			if (iParam0 == 3)
 			{
-				unk_0x933D6A9EEC1BACD0(&Global_2543488, 14);
-				unk_0x933D6A9EEC1BACD0(&Global_2543488, 15);
+				unk_0x933D6A9EEC1BACD0(&Global_2543537, 14);
+				unk_0x933D6A9EEC1BACD0(&Global_2543537, 15);
 			}
 		}
 		if (unk_0x2C83A9DA6BFFC4F9(Global_2270[iParam0 /*15*/].f_9) > 0)
 		{
-			unk_0xE80492A9AC099A93(&Global_2543488, 14);
-			unk_0xE80492A9AC099A93(&Global_2543488, 16);
-			unk_0xE80492A9AC099A93(&Global_2543488, 15);
+			unk_0xE80492A9AC099A93(&Global_2543537, 14);
+			unk_0xE80492A9AC099A93(&Global_2543537, 16);
+			unk_0xE80492A9AC099A93(&Global_2543537, 15);
 			return 1;
 		}
 		else
@@ -676,7 +676,7 @@ void func_17()
 		func_16(14, "CELL_29", 4, "appMPJobListNEW", 12, 1, 1, 0, 0);
 		func_16(0, "CELL_0", 2, "appContacts", 5, 1, 1, 0, 0);
 		func_16(21, "JIPMP_QJ", 3, "AppJIPMP", 14, 1, 1, 0, 0);
-		if (unk_0xA921AA820C25702F(Global_2543488, 4) == 1)
+		if (unk_0xA921AA820C25702F(Global_2543537, 4) == 1)
 		{
 			func_16(17, "CELL_28", 8, "appTrackify", 42, 1, 1, 0, 0);
 		}
@@ -696,7 +696,7 @@ void func_17()
 		func_16(31, "CELL_15", 8, "appContacts", 17, 2, 1, 0, 0);
 		func_16(32, "CELL_15", 9, "appContacts", 17, 2, 1, 0, 0);
 		func_16(33, "CELL_15", 10, "appContacts", 17, 2, 1, 0, 0);
-		if (!unk_0xA921AA820C25702F(Global_2543488, 4) == 1)
+		if (!unk_0xA921AA820C25702F(Global_2543537, 4) == 1)
 		{
 			if (Global_1573284)
 			{

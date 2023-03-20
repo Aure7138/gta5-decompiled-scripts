@@ -2055,7 +2055,7 @@ void func_44()
 		case 0:
 			if (func_67())
 			{
-				if ((!func_66() && Global_2542213 == 0) && Global_2542214 == 0)
+				if ((!func_66() && Global_2542262 == 0) && Global_2542263 == 0)
 				{
 					iLocal_77 = 1;
 				}

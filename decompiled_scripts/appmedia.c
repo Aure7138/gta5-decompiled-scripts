@@ -529,7 +529,7 @@ int func_19()
 	{
 		iVar2 = 1;
 	}
-	if (Global_2543687 || iVar2)
+	if (Global_2543736 || iVar2)
 	{
 		return 1;
 	}

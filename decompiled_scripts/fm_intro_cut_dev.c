@@ -491,9 +491,9 @@ int func_1(int* iParam0, int* iParam1)
 				{
 					iParam0->f_295 = 1;
 				}
-				if (!Global_2446207.f_1682)
+				if (!Global_2446208.f_1682)
 				{
-					Global_2446207.f_1682 = 1;
+					Global_2446208.f_1682 = 1;
 					unk_0xBABEC9E69A91C57B(false);
 				}
 				if (!func_179())
@@ -2528,7 +2528,7 @@ int func_1(int* iParam0, int* iParam1)
 			unk_0x6806C51AD12B83B8(13);
 			unk_0x6806C51AD12B83B8(4);
 		}
-		if (Global_2446207.f_1683)
+		if (Global_2446208.f_1683)
 		{
 			unk_0x351220255D64C155(2, 187, true);
 		}
@@ -2763,7 +2763,7 @@ void func_10(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	
 	if (func_13())
 	{
-		iVar0 = Global_2472519[iParam0 /*6*/][func_11(iParam2)];
+		iVar0 = Global_2472520[iParam0 /*6*/][func_11(iParam2)];
 		if (iVar0 != 0)
 		{
 			unk_0x4B33C4243DE0C432(iVar0, bParam1, bParam3);
@@ -2782,13 +2782,13 @@ int func_11(var uParam0)
 		iVar1 = func_12();
 		if (iVar1 > -1)
 		{
-			Global_2453900 = 0;
+			Global_2453901 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2453900 = 1;
+			Global_2453901 = 1;
 		}
 	}
 	return iVar0;
@@ -2889,8 +2889,8 @@ void func_14(int* iParam0, bool bParam1, bool bParam2)
 		}
 		func_15(0);
 		func_130(1);
-		Global_2446207.f_1683 = 0;
-		Global_2446207.f_1682 = 0;
+		Global_2446208.f_1683 = 0;
+		Global_2446208.f_1682 = 0;
 		if (unk_0xB65B60556E2A9225("MP_INTRO_RACE_SCENE"))
 		{
 			unk_0xDFE8422B3B94E688("MP_INTRO_RACE_SCENE");
@@ -2933,7 +2933,7 @@ void func_14(int* iParam0, bool bParam1, bool bParam2)
 
 void func_15(int iParam0)
 {
-	Global_2452828.f_1058 = iParam0;
+	Global_2452829.f_1058 = iParam0;
 }
 
 void func_16()
@@ -6389,7 +6389,7 @@ void func_129()
 
 void func_130(int iParam0)
 {
-	Global_2446207.f_4361 = iParam0;
+	Global_2446208.f_4361 = iParam0;
 }
 
 void func_131()
@@ -7127,7 +7127,7 @@ struct<6> func_149(int iParam0)
 
 int func_150()
 {
-	return Global_2435611;
+	return Global_2435612;
 }
 
 bool func_151()
@@ -7198,7 +7198,7 @@ void func_157(int iParam0)
 {
 	if (iParam0 == 0)
 	{
-		Global_2436711 = 0;
+		Global_2436712 = 0;
 	}
 	Global_1312466.f_18 = iParam0;
 }

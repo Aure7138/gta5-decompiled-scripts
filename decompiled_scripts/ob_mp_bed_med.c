@@ -401,7 +401,7 @@ void __EntryFunction__()
 	Local_346 = { 0f, 0f, -3.96f };
 	Local_333 = { ScriptParam_0.f_1[0 /*3*/] };
 	Local_333 = { 349.9853f, -997.8344f, -99.1952f };
-	if ((unk_0xC968670BFACE42D9(18) || func_73()) || Global_2446207.f_1682)
+	if ((unk_0xC968670BFACE42D9(18) || func_73()) || Global_2446208.f_1682)
 	{
 		func_72();
 	}
@@ -873,7 +873,7 @@ void func_13(int iParam0, int iParam1)
 
 void func_14()
 {
-	Global_2446207.f_4362 = 0;
+	Global_2446208.f_4362 = 0;
 }
 
 void func_15()
@@ -1751,7 +1751,7 @@ int func_49()
 
 int func_50()
 {
-	if (Global_2534343.f_770 == 1)
+	if (Global_2534344.f_770 == 1)
 	{
 		return 1;
 	}
@@ -1789,7 +1789,7 @@ int func_52()
 	{
 		return 1;
 	}
-	if (Global_2436712)
+	if (Global_2436713)
 	{
 		return 1;
 	}

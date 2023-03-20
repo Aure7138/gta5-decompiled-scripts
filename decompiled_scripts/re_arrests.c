@@ -2257,13 +2257,13 @@ int func_26(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_36(&Global_2543696))
+	if (func_36(&Global_2543745))
 	{
-		if (func_34(&Global_2543696, iParam0))
+		if (func_34(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_27(&Global_2543696, iParam0))
+		if (func_27(&Global_2543745, iParam0))
 		{
 			return 1;
 		}

@@ -5223,7 +5223,7 @@ int func_81()
 
 bool func_82()
 {
-	return Global_2435038;
+	return Global_2435039;
 }
 
 void func_83(bool bParam0)
@@ -10398,7 +10398,7 @@ void func_164(int iParam0, int iParam1)
 
 void func_165()
 {
-	Global_2446207.f_4362 = 0;
+	Global_2446208.f_4362 = 0;
 }
 
 void func_166(var uParam0, bool bParam1, bool bParam2)
@@ -14193,13 +14193,13 @@ int func_214(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_222(&Global_2543696))
+	if (func_222(&Global_2543745))
 	{
-		if (func_220(&Global_2543696, iParam0))
+		if (func_220(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_215(&Global_2543696, iParam0))
+		if (func_215(&Global_2543745, iParam0))
 		{
 			return 1;
 		}
@@ -22198,7 +22198,7 @@ void func_459(var uParam0)
 	{
 		func_84(&(Global_1840588.f_49));
 	}
-	Global_2446207.f_3797 = 0;
+	Global_2446208.f_3797 = 0;
 }
 
 void func_460()

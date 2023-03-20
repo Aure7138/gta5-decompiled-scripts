@@ -1901,13 +1901,13 @@ int func_57(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_67(&Global_2543696))
+	if (func_67(&Global_2543745))
 	{
-		if (func_65(&Global_2543696, iParam0))
+		if (func_65(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_58(&Global_2543696, iParam0))
+		if (func_58(&Global_2543745, iParam0))
 		{
 			return 1;
 		}

@@ -118,7 +118,7 @@ void __EntryFunction__()
 	unk_0xC5BC038960E9DB27(joaat("mp_prop_global_block"));
 	func_29(joaat("title_update_registration"), 1424);
 	unk_0xC5BC038960E9DB27(joaat("title_update_registration"));
-	Global_2544049 = 0;
+	Global_2544098 = 0;
 	func_29(joaat("sp_dlc_registration"), 1424);
 	unk_0xC5BC038960E9DB27(joaat("sp_dlc_registration"));
 	func_29(joaat("sp_pilotschool_reg"), 1424);
@@ -142,15 +142,15 @@ void __EntryFunction__()
 			Global_2621549 = 0;
 			func_29(joaat("standard_global_reg"), 1424);
 			unk_0xC90D2DCACD56184C("standard_global_reg");
-			while ((!unk_0xA921AA820C25702F(Global_2544049, 0) || !unk_0xA921AA820C25702F(Global_2544049, 1)) || !unk_0xA921AA820C25702F(Global_2544049, 2))
+			while ((!unk_0xA921AA820C25702F(Global_2544098, 0) || !unk_0xA921AA820C25702F(Global_2544098, 1)) || !unk_0xA921AA820C25702F(Global_2544098, 2))
 			{
-				if (!unk_0xA921AA820C25702F(Global_2544049, 0))
+				if (!unk_0xA921AA820C25702F(Global_2544098, 0))
 				{
 				}
-				if (!unk_0xA921AA820C25702F(Global_2544049, 1))
+				if (!unk_0xA921AA820C25702F(Global_2544098, 1))
 				{
 				}
-				if (!unk_0xA921AA820C25702F(Global_2544049, 2))
+				if (!unk_0xA921AA820C25702F(Global_2544098, 2))
 				{
 				}
 				unk_0x4EDE34FBADD967A6(0);

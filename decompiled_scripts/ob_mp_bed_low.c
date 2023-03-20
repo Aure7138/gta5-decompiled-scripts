@@ -397,7 +397,7 @@ void __EntryFunction__()
 	fLocal_341 = 230.5943f;
 	Local_342 = { 262.74f, -1004.344f, -99.575f };
 	Local_345 = { 0f, 0f, -162.36f };
-	if ((unk_0xC968670BFACE42D9(16) || func_72()) || Global_2446207.f_1682)
+	if ((unk_0xC968670BFACE42D9(16) || func_72()) || Global_2446208.f_1682)
 	{
 		func_71();
 	}
@@ -763,7 +763,7 @@ void func_12(int iParam0, int iParam1)
 
 void func_13()
 {
-	Global_2446207.f_4362 = 0;
+	Global_2446208.f_4362 = 0;
 }
 
 void func_14()
@@ -1641,7 +1641,7 @@ int func_48()
 
 int func_49()
 {
-	if (Global_2534343.f_770 == 1)
+	if (Global_2534344.f_770 == 1)
 	{
 		return 1;
 	}
@@ -1679,7 +1679,7 @@ int func_51()
 	{
 		return 1;
 	}
-	if (Global_2436712)
+	if (Global_2436713)
 	{
 		return 1;
 	}

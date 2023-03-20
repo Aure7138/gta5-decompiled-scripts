@@ -127,7 +127,7 @@ void __EntryFunction__()
 			{
 				if (func_10(unk_0x3FEF770D40960D5A(unk_0xD80958FC74E988A6(), false), 3, 1000, 0) || func_9(unk_0x3FEF770D40960D5A(unk_0xD80958FC74E988A6(), false), 1000))
 				{
-					if (!unk_0xA921AA820C25702F(Global_2446207.f_4385, 0))
+					if (!unk_0xA921AA820C25702F(Global_2446208.f_4385, 0))
 					{
 						if (!unk_0x5F9532F3B5CC2551(unk_0xD80958FC74E988A6()))
 						{
@@ -2515,7 +2515,7 @@ int func_79()
 	{
 		return 1;
 	}
-	if (Global_2436712)
+	if (Global_2436713)
 	{
 		return 1;
 	}

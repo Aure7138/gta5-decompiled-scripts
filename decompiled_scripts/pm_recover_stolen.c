@@ -2591,7 +2591,7 @@ void func_64(var uParam0, int iParam1, bool bParam2)
 	
 	if (unk_0x10FAB35428CCC9D7())
 	{
-		if (unk_0xA921AA820C25702F(Global_2446207.f_4393, 25))
+		if (unk_0xA921AA820C25702F(Global_2446208.f_4393, 25))
 		{
 			return;
 		}

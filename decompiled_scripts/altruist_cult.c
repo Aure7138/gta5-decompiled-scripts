@@ -4844,13 +4844,13 @@ int func_132(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_140(&Global_2543696))
+	if (func_140(&Global_2543745))
 	{
-		if (func_138(&Global_2543696, iParam0))
+		if (func_138(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_133(&Global_2543696, iParam0))
+		if (func_133(&Global_2543745, iParam0))
 		{
 			return 1;
 		}

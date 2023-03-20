@@ -7102,13 +7102,13 @@ int func_68(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_76(&Global_2543696))
+	if (func_76(&Global_2543745))
 	{
-		if (func_74(&Global_2543696, iParam0))
+		if (func_74(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_69(&Global_2543696, iParam0))
+		if (func_69(&Global_2543745, iParam0))
 		{
 			return 1;
 		}
@@ -10145,7 +10145,7 @@ void func_146(var uParam0, int iParam1, bool bParam2)
 	
 	if (unk_0x10FAB35428CCC9D7())
 	{
-		if (unk_0xA921AA820C25702F(Global_2446207.f_4393, 25))
+		if (unk_0xA921AA820C25702F(Global_2446208.f_4393, 25))
 		{
 			return;
 		}

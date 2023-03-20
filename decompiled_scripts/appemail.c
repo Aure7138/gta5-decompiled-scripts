@@ -218,9 +218,9 @@ void __EntryFunction__()
 									}
 									else if (unk_0x48AF36444B965238())
 									{
-										if (!unk_0xA921AA820C25702F(Global_2543488, 17))
+										if (!unk_0xA921AA820C25702F(Global_2543537, 17))
 										{
-											unk_0x933D6A9EEC1BACD0(&Global_2543488, 17);
+											unk_0x933D6A9EEC1BACD0(&Global_2543537, 17);
 											func_38("AM_H_FLINK", -1);
 										}
 									}
@@ -313,7 +313,7 @@ int func_2()
 	{
 		iVar2 = 1;
 	}
-	if (Global_2543687 || iVar2)
+	if (Global_2543736 || iVar2)
 	{
 		return 1;
 	}
@@ -704,7 +704,7 @@ void func_8()
 		}
 		if (Global_14393 == 3)
 		{
-			switch (Global_2543685)
+			switch (Global_2543734)
 			{
 				case 1:
 					unk_0x11D5F725F0E780E0(unk_0x4F8644AF03D0E0D6(), 0);
@@ -885,11 +885,11 @@ void func_10(int iParam0)
 									iVar5 = 0;
 									while (iVar4 < 12)
 									{
-										if (Global_2542223[iVar4 /*104*/].f_24 != 0)
+										if (Global_2542272[iVar4 /*104*/].f_24 != 0)
 										{
-											if (Global_2542223[iVar4 /*104*/].f_28 == 0)
+											if (Global_2542272[iVar4 /*104*/].f_28 == 0)
 											{
-												if (Global_2542223[iVar4 /*104*/].f_99[Global_14393] == 1)
+												if (Global_2542272[iVar4 /*104*/].f_99[Global_14393] == 1)
 												{
 													iVar5++;
 												}
@@ -4404,18 +4404,18 @@ float func_64(struct<3> Param0, struct<3> Param3, struct<3> Param6, struct<3> Pa
 	float fVar4;
 	float fVar5;
 	
-	if (Global_2543688 == 0)
+	if (Global_2543737 == 0)
 	{
 		if (unk_0xA921AA820C25702F(Global_2263, 14) && Global_14393.f_1 < 4)
 		{
 			unk_0x584FDFDA48805B86(&Var0);
 			if (Global_14346[Global_14338 /*3*/].f_1 == Var0.f_1)
 			{
-				Global_2543688 = 1;
+				Global_2543737 = 1;
 			}
 		}
 	}
-	if (func_67() && Global_2543688 == 0)
+	if (func_67() && Global_2543737 == 0)
 	{
 		return 2f;
 	}
@@ -4541,7 +4541,7 @@ int func_67()
 			}
 		}
 	}
-	if (Global_2543687 || iVar2 == 1)
+	if (Global_2543736 || iVar2 == 1)
 	{
 		if (unk_0x2C83A9DA6BFFC4F9(joaat("apptrackify")) > 0 || Global_97173.f_12272.f_89)
 		{

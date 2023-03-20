@@ -526,7 +526,7 @@ void func_4(int iParam0, bool bParam1, int iParam2, bool bParam3)
 	
 	if (func_7())
 	{
-		iVar0 = Global_2472519[iParam0 /*6*/][func_5(iParam2)];
+		iVar0 = Global_2472520[iParam0 /*6*/][func_5(iParam2)];
 		if (iVar0 != 0)
 		{
 			unk_0x4B33C4243DE0C432(iVar0, bParam1, bParam3);
@@ -545,13 +545,13 @@ int func_5(var uParam0)
 		iVar1 = func_6();
 		if (iVar1 > -1)
 		{
-			Global_2453900 = 0;
+			Global_2453901 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2453900 = 1;
+			Global_2453901 = 1;
 		}
 	}
 	return iVar0;
@@ -622,12 +622,12 @@ int func_9()
 		{
 			if (!func_37(3, -1))
 			{
-				if (func_35(&Global_2436768, 300000, 0) == 1)
+				if (func_35(&Global_2436769, 300000, 0) == 1)
 				{
-					func_34(&Global_2436766);
+					func_34(&Global_2436767);
 					func_32(3, -1);
 				}
-				else if (func_35(&Global_2436766, 7000, 0) == 0)
+				else if (func_35(&Global_2436767, 7000, 0) == 0)
 				{
 					return 0;
 				}
@@ -729,7 +729,7 @@ int func_9()
 	{
 		return 0;
 	}
-	if (Global_2446207.f_3797)
+	if (Global_2446208.f_3797)
 	{
 		return 0;
 	}
@@ -1205,7 +1205,7 @@ int func_41(int iParam0, int iParam1)
 	int iVar0;
 	var uVar1;
 	
-	iVar0 = Global_2472519[iParam0 /*6*/][func_5(iParam1)];
+	iVar0 = Global_2472520[iParam0 /*6*/][func_5(iParam1)];
 	if (unk_0x11B5E6D2AE73F48E(iVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -1544,7 +1544,7 @@ void func_46(int iParam0, int iParam1, int iParam2, bool bParam3)
 {
 	int iVar0;
 	
-	iVar0 = Global_2454187[iParam0 /*6*/][func_5(iParam2)];
+	iVar0 = Global_2454188[iParam0 /*6*/][func_5(iParam2)];
 	if (iVar0 != 0)
 	{
 		unk_0xB3271D7AB655B441(iVar0, iParam1, bParam3);
@@ -2168,7 +2168,7 @@ int func_53(int iParam0)
 
 int func_54(int iParam0, int iParam1)
 {
-	return Global_2454187[iParam0 /*6*/][func_5(iParam1)];
+	return Global_2454188[iParam0 /*6*/][func_5(iParam1)];
 }
 
 int func_55(int iParam0)
@@ -2187,7 +2187,7 @@ float func_56(int iParam0, int iParam1)
 	int iVar0;
 	var uVar1;
 	
-	iVar0 = Global_2471150[iParam0 /*6*/][func_5(iParam1)];
+	iVar0 = Global_2471151[iParam0 /*6*/][func_5(iParam1)];
 	if (unk_0xD7AE6C9C9C6AC54C(iVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -2216,7 +2216,7 @@ int func_58(int iParam0, int iParam1, int iParam2)
 	if (iParam2 == 0)
 	{
 	}
-	iVar0 = Global_2454187[iParam0 /*6*/][func_5(iParam1)];
+	iVar0 = Global_2454188[iParam0 /*6*/][func_5(iParam1)];
 	if (unk_0x767FBC2AC802EF3D(iVar0, &uVar1, -1))
 	{
 		return uVar1;

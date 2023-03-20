@@ -305,11 +305,11 @@ void func_9()
 	{
 		Local_19 = { unk_0x3FEF770D40960D5A(unk_0xD80958FC74E988A6(), true) };
 		fLocal_22 = unk_0xE83D4F9BA2A38914(unk_0xD80958FC74E988A6());
-		if (Global_2543684 > 4)
+		if (Global_2543733 > 4)
 		{
 		}
 		iVar0 = 0;
-		while (iVar0 < Global_2543684)
+		while (iVar0 < Global_2543733)
 		{
 			func_12(iVar0);
 			func_11(iVar0);
@@ -329,28 +329,28 @@ void func_9()
 				switch (iVar0)
 				{
 					case 0:
-						if (unk_0xA921AA820C25702F(Global_2543488, 5))
+						if (unk_0xA921AA820C25702F(Global_2543537, 5))
 						{
 							bVar1 = true;
 						}
 						break;
 					
 					case 1:
-						if (unk_0xA921AA820C25702F(Global_2543488, 6))
+						if (unk_0xA921AA820C25702F(Global_2543537, 6))
 						{
 							bVar1 = true;
 						}
 						break;
 					
 					case 2:
-						if (unk_0xA921AA820C25702F(Global_2543488, 7))
+						if (unk_0xA921AA820C25702F(Global_2543537, 7))
 						{
 							bVar1 = true;
 						}
 						break;
 					
 					case 3:
-						if (unk_0xA921AA820C25702F(Global_2543488, 8))
+						if (unk_0xA921AA820C25702F(Global_2543537, 8))
 						{
 							bVar1 = true;
 						}
@@ -400,8 +400,8 @@ void func_9()
 
 float func_10(int iParam0)
 {
-	fLocal_24 = (Global_2543671[iParam0 /*3*/] - Local_19.f_0);
-	fLocal_25 = (unk_0xD0FFB162F40A139C(((3.14159f / 180f) * Local_19.f_0)) * (Global_2543671[iParam0 /*3*/].f_1 - Local_19.f_1));
+	fLocal_24 = (Global_2543720[iParam0 /*3*/] - Local_19.f_0);
+	fLocal_25 = (unk_0xD0FFB162F40A139C(((3.14159f / 180f) * Local_19.f_0)) * (Global_2543720[iParam0 /*3*/].f_1 - Local_19.f_1));
 	fLocal_26 = unk_0x8927CBF9D22261A4(fLocal_24, fLocal_25);
 	if (fLocal_26 < 0f)
 	{
@@ -412,14 +412,14 @@ float func_10(int iParam0)
 
 float func_11(int iParam0)
 {
-	fLocal_28 = unk_0x71D93B57D07F9804(unk_0xB7A628320EFF8E47(Global_2543671[iParam0 /*3*/], Local_19));
-	fLocal_29 = (Global_2543671[iParam0 /*3*/].f_2 - Local_19.f_2);
+	fLocal_28 = unk_0x71D93B57D07F9804(unk_0xB7A628320EFF8E47(Global_2543720[iParam0 /*3*/], Local_19));
+	fLocal_29 = (Global_2543720[iParam0 /*3*/].f_2 - Local_19.f_2);
 	return fLocal_28;
 }
 
 float func_12(int iParam0)
 {
-	fLocal_27 = unk_0x71D93B57D07F9804((((Global_2543671[iParam0 /*3*/] - Local_19.f_0) * (Global_2543671[iParam0 /*3*/] - Local_19.f_0)) + ((Global_2543671[iParam0 /*3*/].f_1 - Local_19.f_1) * (Global_2543671[iParam0 /*3*/].f_1 - Local_19.f_1))));
+	fLocal_27 = unk_0x71D93B57D07F9804((((Global_2543720[iParam0 /*3*/] - Local_19.f_0) * (Global_2543720[iParam0 /*3*/] - Local_19.f_0)) + ((Global_2543720[iParam0 /*3*/].f_1 - Local_19.f_1) * (Global_2543720[iParam0 /*3*/].f_1 - Local_19.f_1))));
 	return fLocal_27;
 }
 

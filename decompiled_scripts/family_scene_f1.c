@@ -434,7 +434,7 @@ int func_1(int iParam0, var uParam1, struct<3> Param2, struct<3> Param5, var uPa
 	switch (iVar3)
 	{
 		case 0:
-			if (Global_2543694)
+			if (Global_2543743)
 			{
 				return 0;
 			}

@@ -1224,12 +1224,12 @@ int func_20(int iParam0, int iParam1)
 			}
 			return iVar3;
 		}
-		if (Global_270025[iVar3] == iParam0)
+		if (Global_270026[iVar3] == iParam0)
 		{
 			iVar1 = iVar3;
 			iVar2 = iVar3;
 		}
-		else if (Global_270025[iVar3] < iParam0)
+		else if (Global_270026[iVar3] < iParam0)
 		{
 			if (iVar2 == iVar3)
 			{
@@ -1302,13 +1302,13 @@ int func_23(int iParam0)
 		iVar1 = func_24();
 		if (iVar1 > -1)
 		{
-			Global_2453900 = 0;
+			Global_2453901 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2453900 = 1;
+			Global_2453901 = 1;
 		}
 	}
 	return iVar0;
@@ -2147,7 +2147,7 @@ int func_62()
 
 bool func_63()
 {
-	return Global_2435038;
+	return Global_2435039;
 }
 
 bool func_64()
@@ -2411,8 +2411,8 @@ int func_71(var uParam0, char* sParam1, int* iParam2, int iParam3, bool bParam4,
 			}
 			else if (func_81())
 			{
-				Global_2475433.f_7 = 9901;
-				Global_2475433.f_8 = Global_1601761.f_24822 + 1;
+				Global_2475434.f_7 = 9901;
+				Global_2475434.f_8 = Global_1601761.f_24822 + 1;
 				if (func_80(Global_1601761.f_21441))
 				{
 					Global_1601761.f_21441 = { Global_1601761.f_54 };
@@ -4236,13 +4236,13 @@ void func_108(int iParam0, struct<16> Param1)
 {
 	if (iParam0 == 0)
 	{
-		StringCopy(&Global_2436746, "", 64);
+		StringCopy(&Global_2436747, "", 64);
 	}
 	else
 	{
-		Global_2436746 = { Param1 };
+		Global_2436747 = { Param1 };
 	}
-	Global_2436745 = iParam0;
+	Global_2436746 = iParam0;
 }
 
 int func_109(var uParam0, char* sParam1)

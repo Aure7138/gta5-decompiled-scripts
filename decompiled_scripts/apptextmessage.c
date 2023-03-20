@@ -86,7 +86,7 @@ void __EntryFunction__()
 				case 7:
 					if (Global_16758 == 0)
 					{
-						if (Global_2452827 == 0)
+						if (Global_2452828 == 0)
 						{
 							func_32();
 							func_28();
@@ -711,7 +711,7 @@ void func_10()
 		}
 		if (Global_14393 == 3)
 		{
-			switch (Global_2543685)
+			switch (Global_2543734)
 			{
 				case 1:
 					unk_0x11D5F725F0E780E0(unk_0x4F8644AF03D0E0D6(), 0);
@@ -849,11 +849,11 @@ void func_11(int iParam0)
 									iVar5 = 0;
 									while (iVar4 < 12)
 									{
-										if (Global_2542223[iVar4 /*104*/].f_24 != 0)
+										if (Global_2542272[iVar4 /*104*/].f_24 != 0)
 										{
-											if (Global_2542223[iVar4 /*104*/].f_28 == 0)
+											if (Global_2542272[iVar4 /*104*/].f_28 == 0)
 											{
-												if (Global_2542223[iVar4 /*104*/].f_99[Global_14393] == 1)
+												if (Global_2542272[iVar4 /*104*/].f_99[Global_14393] == 1)
 												{
 													iVar5++;
 												}
@@ -1171,7 +1171,7 @@ int func_17()
 			}
 		}
 	}
-	if (Global_2543687 || iVar2 == 1)
+	if (Global_2543736 || iVar2 == 1)
 	{
 		if (unk_0x2C83A9DA6BFFC4F9(joaat("apptrackify")) > 0 || Global_97173.f_12272.f_89)
 		{
@@ -1226,7 +1226,7 @@ int func_20()
 	{
 		iVar2 = 1;
 	}
-	if (Global_2543687 || iVar2)
+	if (Global_2543736 || iVar2)
 	{
 		return 1;
 	}
@@ -1704,7 +1704,7 @@ void func_28()
 				}
 			}
 		}
-		if (Global_2452827 == 0)
+		if (Global_2452828 == 0)
 		{
 			if (Global_68067)
 			{
@@ -1712,7 +1712,7 @@ void func_28()
 				if (func_3(2, Global_14365, 0))
 				{
 					Global_14371 = 1;
-					Global_2452827 = 1;
+					Global_2452828 = 1;
 				}
 			}
 		}
@@ -1791,7 +1791,7 @@ void func_30(int iParam0)
 		switch (Global_97173.f_12362[iParam0 /*104*/].f_32)
 		{
 			case 4:
-				unk_0xC63CD5D2920ACBE7(&(Global_2446207.f_1548[iVar0 /*4*/]));
+				unk_0xC63CD5D2920ACBE7(&(Global_2446208.f_1548[iVar0 /*4*/]));
 				break;
 			
 			case 5:

@@ -46,7 +46,7 @@ void __EntryFunction__()
 		{
 			func_5();
 		}
-		if (func_1(&uLocal_20, &Global_270024))
+		if (func_1(&uLocal_20, &Global_270025))
 		{
 			func_5();
 		}
@@ -12644,7 +12644,7 @@ int func_6()
 	{
 		return 1;
 	}
-	if (Global_2436712)
+	if (Global_2436713)
 	{
 		return 1;
 	}

@@ -1092,13 +1092,13 @@ int func_14(int iParam0, int iParam1)
 	{
 		return 0;
 	}
-	if (func_24(&Global_2543696))
+	if (func_24(&Global_2543745))
 	{
-		if (func_22(&Global_2543696, iParam0))
+		if (func_22(&Global_2543745, iParam0))
 		{
 			return 0;
 		}
-		if (func_15(&Global_2543696, iParam0))
+		if (func_15(&Global_2543745, iParam0))
 		{
 			return 1;
 		}
