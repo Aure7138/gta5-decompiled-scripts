@@ -45,21 +45,21 @@ void __EntryFunction__()
 	fLocal_20 = 0f;
 	fLocal_24 = -0.0375f;
 	fLocal_25 = 0.17f;
-	if (unk_0x7547D7CF93115D6D(67))
+	if (unk_0xC11469DCA6FC3BB5(67))
 	{
-		if (unk_0x26AE414A8D829787() != 2)
+		if (unk_0x84E8E29EBD4A46D2() != 2)
 		{
 			func_4(19);
 		}
 		func_3();
 	}
 	func_2(19);
-	unk_0xD19A0D6084034A69(1);
-	while (!unk_0xDBB45AE299F05694("CONSTRUCTION_SITE_STREAM", "FBI_HEIST_SOUNDSET"))
+	unk_0xCEA4E87102552C46(1);
+	while (!unk_0x7BC40F912450F8F4("CONSTRUCTION_SITE_STREAM", "FBI_HEIST_SOUNDSET"))
 	{
 		unk_0x4EDE34FBADD967A6(0);
 	}
-	unk_0x637E22A95F4846EE(-147f, -1005f, 28f);
+	unk_0x056EEE594CF5D9BA(-147f, -1005f, 28f);
 	while (func_1(70))
 	{
 		unk_0x4EDE34FBADD967A6(0);
@@ -70,11 +70,11 @@ void __EntryFunction__()
 
 int func_1(int iParam0)
 {
-	if (iParam0 == 141 || iParam0 == -1)
+	if (iParam0 == 144 || iParam0 == -1)
 	{
 		return 0;
 	}
-	return Global_97173.f_7311.f_99.f_58[iParam0];
+	return Global_97353.f_7341.f_99.f_58[iParam0];
 }
 
 int func_2(int iParam0)
@@ -92,19 +92,19 @@ int func_2(int iParam0)
 		iVar0 = 10;
 		iVar1 = (iParam0 - 32);
 	}
-	if (unk_0x61D8FEAF64881CDA(Global_97173.f_7311.f_99.f_214[iVar0], iVar1))
+	if (unk_0x4ED6CFDFE8D4131A(Global_97353.f_7341.f_99.f_217[iVar0], iVar1))
 	{
 		return 0;
 	}
-	unk_0x3DBE2A7AF9E71C82(&(Global_97173.f_7311.f_99.f_214[iVar0]), iVar1);
+	unk_0xF73FBE4845C43B5B(&(Global_97353.f_7341.f_99.f_217[iVar0]), iVar1);
 	return 1;
 }
 
 void func_3()
 {
-	unk_0x6B08A54AEE3B5574();
-	unk_0x21FEE1ED00A9086E();
-	unk_0x883793591E631A3B();
+	unk_0x4A9A3B22FEE42DA6();
+	unk_0xA056824FDB80EA80();
+	unk_0x5E8B6D17FF91CD59();
 }
 
 int func_4(int iParam0)
@@ -122,9 +122,9 @@ int func_4(int iParam0)
 		iVar0 = 10;
 		iVar1 = (iParam0 - 32);
 	}
-	if (unk_0x61D8FEAF64881CDA(Global_97173.f_7311.f_99.f_214[iVar0], iVar1))
+	if (unk_0x4ED6CFDFE8D4131A(Global_97353.f_7341.f_99.f_217[iVar0], iVar1))
 	{
-		unk_0xCD27BF29FB9012E2(&(Global_97173.f_7311.f_99.f_214[iVar0]), iVar1);
+		unk_0x7D1D4A3602B6AD4E(&(Global_97353.f_7341.f_99.f_217[iVar0]), iVar1);
 		return 1;
 	}
 	return 0;

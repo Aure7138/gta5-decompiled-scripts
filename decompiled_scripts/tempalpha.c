@@ -36,9 +36,9 @@
 	float fLocal_34 = 0f;
 	var uLocal_35 = 0;
 	var uLocal_36 = 0;
-	var uLocal_37 = 0;
-	var uLocal_38 = 10;
-	var uLocal_39 = 0;
+	int iLocal_37 = 0;
+	var uLocal_38 = 0;
+	var uLocal_39 = 10;
 	var uLocal_40 = 0;
 	var uLocal_41 = 0;
 	var uLocal_42 = 0;
@@ -79,7 +79,7 @@
 	var uLocal_77 = 0;
 	var uLocal_78 = 0;
 	var uLocal_79 = 0;
-	int iLocal_80 = 0;
+	var uLocal_80 = 0;
 	var uLocal_81 = 0;
 	var uLocal_82 = 0;
 	var uLocal_83 = 0;
@@ -114,12 +114,12 @@ void __EntryFunction__()
 	fLocal_32 = 80f;
 	fLocal_33 = 140f;
 	fLocal_34 = 180f;
-	iLocal_80 = 3;
+	iLocal_37 = 3;
 	iLocal_84 = 1;
 	iLocal_85 = 65;
 	iLocal_86 = 49;
 	iLocal_87 = 64;
-	uLocal_91 = unk_0xADC39FDF03F9D8CA();
-	uLocal_92 = unk_0x138F9DA1F3442BA3();
+	uLocal_91 = unk_0xF41BA26D26B4196D();
+	uLocal_92 = unk_0xFA8D3ADA9D2E2615();
 }
 
