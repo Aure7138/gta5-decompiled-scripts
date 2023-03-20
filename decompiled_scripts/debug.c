@@ -86,17 +86,15 @@
 	var uLocal_84 = 0;
 	var uLocal_85 = 0;
 	var uLocal_86 = 0;
-	var uLocal_87 = 0;
+	float fLocal_87 = 0f;
 	var uLocal_88 = 0;
-	float fLocal_89 = 0f;
-	var uLocal_90 = 0;
-	var uLocal_91 = 0;
+	var uLocal_89 = 0;
+	float fLocal_90 = 0f;
+	float fLocal_91 = 0f;
 	float fLocal_92 = 0f;
 	float fLocal_93 = 0f;
 	float fLocal_94 = 0f;
-	float fLocal_95 = 0f;
-	float fLocal_96 = 0f;
-	var uLocal_97 = 0;
+	var uLocal_95 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -125,11 +123,11 @@ void __EntryFunction__()
 	iLocal_41 = 65;
 	iLocal_42 = 49;
 	iLocal_43 = 64;
-	fLocal_89 = ((0.05f + 0.275f) - 0.01f);
-	fLocal_92 = -0.05f;
-	fLocal_93 = 0.92f;
-	fLocal_94 = 1.94f;
-	fLocal_95 = 2.99f;
-	fLocal_96 = 3.7f;
+	fLocal_87 = ((0.05f + 0.275f) - 0.01f);
+	fLocal_90 = -0.05f;
+	fLocal_91 = 0.92f;
+	fLocal_92 = 1.94f;
+	fLocal_93 = 2.99f;
+	fLocal_94 = 3.7f;
 }
 

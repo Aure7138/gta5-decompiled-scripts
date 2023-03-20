@@ -7,30 +7,30 @@
 
 void __EntryFunction__()
 {
-	if (unk_0x24862A9CDC8F8874(2))
+	if (unk_0x524AF15206846700(2))
 	{
 		func_1();
 	}
-	if (unk_0x95CCECA3948CFE7B(uScriptParam_0))
+	if (unk_0xD2CFFE76B625AE55(uScriptParam_0))
 	{
-		unk_0xB7A2078CD1C9A82F(uScriptParam_0, 1);
+		unk_0xA8CA82EB31D1626F(uScriptParam_0, 1);
 	}
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
-		if (unk_0x95CCECA3948CFE7B(uScriptParam_0))
+		if (unk_0xD2CFFE76B625AE55(uScriptParam_0))
 		{
-			if (unk_0x265A690A472378A4(uScriptParam_0))
+			if (unk_0x179C5C4A19D3D535(uScriptParam_0))
 			{
 				switch (iLocal_2)
 				{
 					case 0:
-						if (unk_0x15A98230ABCA9B2D(uScriptParam_0))
+						if (unk_0x1B44B568175DB615(uScriptParam_0))
 						{
-							unk_0xC0E8B67A4385D37D("map_objects");
-							if (unk_0xF9B86DC1728F1339("map_objects"))
+							unk_0x88172B3983EC5071("map_objects");
+							if (unk_0x482101C9B3483958("map_objects"))
 							{
-								unk_0xDC31379F47A12F2B(uScriptParam_0, "airdancer_test", "map_objects", 1f, 1, 0, 0, 0, 0);
+								unk_0x7318FEB27BFEAB70(uScriptParam_0, "airdancer_test", "map_objects", 1f, 1, 0, 0, 0, 0);
 								iLocal_2 = 1;
 							}
 						}
@@ -58,7 +58,7 @@ void __EntryFunction__()
 void func_1()
 {
 	func_2("ob_airdancer Terminated >>>>>>>>>>>>>>>>>\n");
-	unk_0xA4E0D8FD51F2A6F7();
+	unk_0x7C3AA2D27E16E2AD();
 }
 
 void func_2(char* sParam0)
@@ -68,7 +68,7 @@ void func_2(char* sParam0)
 
 void func_3(var uParam0)
 {
-	if (unk_0xF8D041B05C3D1FD4(uParam0, uParam0))
+	if (unk_0xC1C5B83BB6719C6C(uParam0, uParam0))
 	{
 	}
 }

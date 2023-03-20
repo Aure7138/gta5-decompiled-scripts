@@ -27,22 +27,22 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	Global_3934068 = 1;
-	Global_3934069 = 1;
-	unk_0x84027ACC1E53BA5C();
-	func_19();
+	Global_3934084 = 1;
+	Global_3934085 = 1;
+	unk_0x60F2C6DC397A6833();
+	func_20();
 	iVar0 = 0;
 	while (iVar0 < 36)
 	{
-		func_1(&(Global_3934073[iVar0 /*1969*/]), iVar0);
+		func_1(&(Global_3934089[iVar0 /*1985*/]), iVar0);
 		iVar0++;
 	}
 }
 
 int func_1(var uParam0, int iParam1)
 {
-	func_15(uParam0, iParam1);
-	func_11(uParam0, iParam1);
+	func_16(uParam0, iParam1);
+	func_12(uParam0, iParam1);
 	uParam0->f_31 = 86;
 	uParam0->f_38[0 /*27*/].f_26 = 1;
 	uParam0->f_34 = 2;
@@ -119,27 +119,27 @@ void func_3(int iParam0, int iParam1, var uParam2, bool bParam3)
 	
 	if (!bParam3)
 	{
-		Var0[0 /*6*/] = { func_10(-1) };
+		Var0[0 /*6*/] = { func_11(-1) };
 	}
 	else
 	{
-		Var0[0 /*6*/] = { Global_4004958[iParam0 /*45*/].f_4 };
-		Var0[0 /*6*/].f_3 = { 0f, 0f, Global_4004958[iParam0 /*45*/].f_7 };
+		Var0[0 /*6*/] = { Global_4005550[iParam0 /*45*/].f_4 };
+		Var0[0 /*6*/].f_3 = { 0f, 0f, Global_4005550[iParam0 /*45*/].f_7 };
 	}
 	if (!bParam3)
 	{
-		Var0[1 /*6*/] = { func_10(iParam0) };
+		Var0[1 /*6*/] = { func_11(iParam0) };
 	}
 	else
 	{
-		Var0[1 /*6*/] = { Global_4004958[iParam0 /*45*/].f_4 };
-		Var0[1 /*6*/].f_3 = { 0f, 0f, Global_4004958[iParam0 /*45*/].f_7 };
+		Var0[1 /*6*/] = { Global_4005550[iParam0 /*45*/].f_4 };
+		Var0[1 /*6*/].f_3 = { 0f, 0f, Global_4005550[iParam0 /*45*/].f_7 };
 	}
 	*uParam2 = { func_5(iParam1, 86) };
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_4(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_4(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0xE79F1883B253E5B8(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0x8E183FB8F99DD2D7(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -495,30 +495,2654 @@ struct<6> func_5(int iParam0, int iParam1)
 		case -1:
 		case 1:
 		case 61:
-			return func_9(iParam0, iParam1);
+			return func_10(iParam0, iParam1);
 			break;
 		
 		case 73:
 		case 77:
-			return func_8(iParam0, iParam1);
+			return func_9(iParam0, iParam1);
 			break;
 		
 		case 83:
-			return func_7(iParam0, iParam1);
+			return func_8(iParam0, iParam1);
 			break;
 		
 		case 86:
+			return func_7(iParam0, iParam1);
+			break;
+		
+		case 88:
 			return func_6(iParam0, iParam1);
 			break;
 	}
 	bVar6 = iParam1 == 61;
-	unk_0x0F86ABCB5B684AFB(&Var0, &Var3, iParam0, bVar6);
+	unk_0x653909CE9F2741FB(&Var0, &Var3, iParam0, bVar6);
 	Var7 = { Var0 };
 	Var7.f_3 = { Var3 };
 	return Var7;
 }
 
 struct<6> func_6(int iParam0, int iParam1)
+{
+	struct<6> Var0;
+	
+	switch (iParam1)
+	{
+		case 88:
+			switch (iParam0)
+			{
+				case 278:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 279:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 280:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 281:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 282:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 283:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 0:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 1:
+					Var0 = { -1391.014f, -476.7234f, 70.79213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 2:
+					Var0 = { -1398.001f, -477.7338f, 74.10992f };
+					Var0.f_3 = { 0f, 0f, 6.4421f };
+					break;
+				
+				case 3:
+					Var0 = { -1383.954f, -476.7112f, 73.57f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 4:
+					Var0 = { -1386.187f, -477.2281f, 70.79214f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 5:
+					Var0 = { -1367.155f, -474.5449f, 74.6421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 276:
+					Var0 = { -1401.071f, -480.6923f, 70.79214f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 277:
+					Var0 = { -1385.056f, -478.5239f, 74.6421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 6:
+					Var0 = { -1386.264f, -478.5925f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 278.0621f };
+					break;
+				
+				case 169:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 170:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 201:
+					Var0 = { -1389.674f, -477.9422f, 72.6524f };
+					Var0.f_3 = { -2.3097f, 0f, 128.6406f };
+					break;
+				
+				case 14:
+					Var0 = { -1373.873f, -476.794f, 72.457f };
+					Var0.f_3 = { 0f, 0f, 98f };
+					break;
+				
+				case 557:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 558:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 559:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 15:
+					Var0 = { -1380.402f, -478.5354f, 71.9893f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 9:
+					Var0 = { -1374.076f, -467.7501f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 227.614f;
+					break;
+				
+				case 10:
+					Var0 = { -1371.95f, -480.9255f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 289.1039f;
+					break;
+				
+				case 11:
+					Var0 = { -1369.476f, -487.2183f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 285.5383f;
+					break;
+				
+				case 12:
+					Var0 = { -1382.257f, -480.487f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 308.8578f;
+					break;
+				
+				case 13:
+					Var0 = { -1380.136f, -470.4213f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 9.8797f;
+					break;
+				
+				case 16:
+					Var0 = { -1369.507f, -476.9786f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 22:
+					Var0 = { -1369.393f, -477.3502f, 71.05289f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 28:
+					Var0 = { -1369.491f, -476.5785f, 72.55289f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 17:
+					Var0 = { -1369.618f, -476.2482f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 23:
+					Var0 = { -1369.637f, -475.7314f, 71.05289f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 29:
+					Var0 = { -1369.491f, -476.5785f, 72.55289f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 18:
+					Var0 = { -1369.702f, -475.2167f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 24:
+					Var0 = { -1369.637f, -475.7314f, 71.05289f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 30:
+					Var0 = { -1369.757f, -474.8527f, 72.55289f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 34:
+					Var0 = { -1368.181f, -476.5546f, 72.5085f };
+					Var0.f_3 = { -0.3097f, 0f, 92.7977f };
+					break;
+				
+				case 35:
+					Var0 = { -1372.001f, -476.5192f, 72.7309f };
+					Var0.f_3 = { 3.9233f, 0f, 98.3755f };
+					break;
+				
+				case 36:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 560:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 37:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 38:
+					Var0 = { -1386.944f, -478.496f, 71.7512f };
+					Var0.f_3 = { 5.1825f, 0.5013f, -84.0825f };
+					break;
+				
+				case 39:
+					Var0 = { -1385.975f, -478.4063f, 71.9382f };
+					Var0.f_3 = { 5.1825f, 0.5013f, -84.1376f };
+					break;
+				
+				case 767:
+					Var0 = { -1381.953f, -478.9279f, 72.2409f };
+					Var0.f_3 = { -1.9217f, 0.535f, -54.7591f };
+					break;
+				
+				case 768:
+					Var0 = { -1381.828f, -478.5973f, 72.2329f };
+					Var0.f_3 = { -1.9217f, 0.535f, -61.4327f };
+					break;
+				
+				case 872:
+					Var0 = { -1381.967f, -478.0454f, 72.1758f };
+					Var0.f_3 = { 4.3412f, 0.0669f, -78.3888f };
+					break;
+				
+				case 873:
+					Var0 = { -1382.475f, -478.1498f, 72.1364f };
+					Var0.f_3 = { 4.3412f, 0.0669f, -78.3888f };
+					break;
+				
+				case 765:
+					Var0 = { -1375.141f, -465.8974f, 72.3304f };
+					Var0.f_3 = { -2.5795f, 0.7965f, 161.0134f };
+					break;
+				
+				case 766:
+					Var0 = { -1374.248f, -467.3159f, 72.3885f };
+					Var0.f_3 = { -3.1244f, 0.7965f, -167.5461f };
+					break;
+				
+				case 120:
+					Var0 = { -1371.305f, -486.9218f, 72.5809f };
+					Var0.f_3 = { -13.7347f, 0.4385f, -35.5008f };
+					break;
+				
+				case 121:
+					Var0 = { -1371.435f, -486.9694f, 72.6092f };
+					Var0.f_3 = { -13.7347f, 0.4385f, -35.8794f };
+					break;
+				
+				case 759:
+					Var0 = { -1371.715f, -467.7556f, 72.5438f };
+					Var0.f_3 = { -10.7018f, 0.0514f, 11.934f };
+					break;
+				
+				case 760:
+					Var0 = { -1371.848f, -467.295f, 72.8527f };
+					Var0.f_3 = { -8.4597f, 0.0514f, 11.275f };
+					break;
+				
+				case 874:
+					Var0 = { -1371.98f, -467.0934f, 72.6878f };
+					Var0.f_3 = { -10.9607f, 0.0409f, 28.715f };
+					break;
+				
+				case 875:
+					Var0 = { -1372.057f, -466.9533f, 72.7673f };
+					Var0.f_3 = { -10.1999f, 0.0409f, 28.715f };
+					break;
+				
+				case 876:
+					Var0 = { -1371.523f, -466.3904f, 72.533f };
+					Var0.f_3 = { -8.4142f, 0.0409f, -3.37f };
+					break;
+				
+				case 877:
+					Var0 = { -1371.411f, -466.139f, 72.4949f };
+					Var0.f_3 = { -6.5039f, 0.0409f, -2.6958f };
+					break;
+				
+				case 761:
+					Var0 = { -1378.041f, -470.9332f, 72.5258f };
+					Var0.f_3 = { -1.2251f, 0.3877f, 5.3465f };
+					break;
+				
+				case 762:
+					Var0 = { -1377.583f, -469.6385f, 72.4225f };
+					Var0.f_3 = { -1.065f, 0.3877f, 8.569f };
+					break;
+				
+				case 870:
+					Var0 = { -1378.027f, -467.2617f, 72.5326f };
+					Var0.f_3 = { -4.8769f, 0.3877f, 48.9157f };
+					break;
+				
+				case 871:
+					Var0 = { -1378.312f, -466.5706f, 72.3701f };
+					Var0.f_3 = { -7.0403f, 0.3877f, 51.3359f };
+					break;
+				
+				case 763:
+					Var0 = { -1372.144f, -462.4252f, 72.5529f };
+					Var0.f_3 = { -6.9621f, 0f, -173.3613f };
+					break;
+				
+				case 764:
+					Var0 = { -1374.89f, -462.9107f, 72.4553f };
+					Var0.f_3 = { -5.9688f, 0f, -143.2814f };
+					break;
+				
+				case 881:
+					Var0 = { -1392.938f, -479.831f, 71.042f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 882:
+					Var0 = { -1391.958f, -479.9294f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 22.34f };
+					break;
+				
+				case 883:
+					Var0 = { -1391.285f, -479.2309f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 52.14f };
+					break;
+				
+				case 884:
+					Var0 = { -1394.986f, -479.2755f, 72.251f };
+					Var0.f_3 = { 0.6344f, 0.0182f, -49.3494f };
+					break;
+				
+				case 885:
+					Var0 = { -1392.95f, -478.1647f, 71.1922f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 886:
+					Var0 = { -1393.623f, -475.4102f, 71.1949f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 888:
+					Var0 = { -1392.058f, -478.5261f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 167.25f };
+					break;
+				
+				case 889:
+					Var0 = { -1393.005f, -478.564f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, -171.18f };
+					break;
+				
+				case 890:
+					Var0 = { -1393.877f, -478.9391f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, -131.95f };
+					break;
+				
+				case 891:
+					Var0 = { -1390.469f, -479.7867f, 72.1899f };
+					Var0.f_3 = { 3.3931f, 0.0137f, 121.5152f };
+					break;
+				
+				case 892:
+					Var0 = { -1392.549f, -481.0493f, 71.2005f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 893:
+					Var0 = { -1391.323f, -483.4211f, 71.162f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 125:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 40:
+					Var0 = { -1379.844f, -470.5661f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 15.031f };
+					break;
+				
+				case 41:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 126:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 127:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 42:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 46:
+					Var0 = { -1381.782f, -466.131f, 72.081f };
+					Var0.f_3 = { 0f, 0f, -43.56f };
+					break;
+				
+				case 47:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, -172.8f };
+					break;
+				
+				case 48:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 49:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 50:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 51:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 612:
+					Var0 = { -1381.782f, -466.131f, 72.081f };
+					Var0.f_3 = { 0f, 0f, -43.56f };
+					break;
+				
+				case 615:
+					Var0 = { -1382.044f, -465.412f, 71.04213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 616:
+					Var0 = { -1379.822f, -465.0819f, 72.79213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 56:
+					Var0 = { -1386.124f, -471.4142f, 72.2421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 57:
+					Var0 = { -1385.42f, -470.797f, 71.203f };
+					Var0.f_3 = { 0f, 0f, -82.16f };
+					break;
+				
+				case 64:
+					Var0 = { -1385.72f, -471.56f, 73.37f };
+					Var0.f_3 = { -45f, 0f, 0f };
+					break;
+				
+				case 65:
+					Var0 = { -1385.42f, -470.797f, 72.3f };
+					Var0.f_3 = { 0f, 0f, -82.16f };
+					break;
+				
+				case 58:
+					Var0 = { -1384.641f, -471.3463f, 72.9289f };
+					Var0.f_3 = { -0.7841f, 0f, 77.4962f };
+					break;
+				
+				case 59:
+					Var0 = { -1384.366f, -471.2928f, 72.845f };
+					Var0.f_3 = { -7.3248f, 0f, 118.1501f };
+					break;
+				
+				case 60:
+					Var0 = { -1384.316f, -471.2809f, 73.1692f };
+					Var0.f_3 = { -20.2395f, -0.0003f, 102.8101f };
+					break;
+				
+				case 61:
+					Var0 = { -1384.568f, -471.3008f, 73.2522f };
+					Var0.f_3 = { -15.012f, 0.0423f, 105.2809f };
+					break;
+				
+				case 62:
+					Var0 = { -1385.197f, -470.0034f, 73.7174f };
+					Var0.f_3 = { -52.8011f, -0.0058f, 91.9435f };
+					break;
+				
+				case 63:
+					Var0 = { -1384.927f, -470.5415f, 72.8936f };
+					Var0.f_3 = { -20.0458f, 0f, 53.9154f };
+					break;
+				
+				case 66:
+					Var0 = { -1386.093f, -471.48f, 71.1422f };
+					break;
+				
+				case 67:
+					Var0 = { -1384.294f, -471.2281f, 73.54627f };
+					break;
+				
+				case 110:
+					Var0 = { -1385.937f, -470.1181f, 70.9901f };
+					Var0.f_3 = { 0f, 0f, 258.2184f };
+					break;
+				
+				case 68:
+					Var0 = { -1384.366f, -469.3365f, 72.2902f };
+					break;
+				
+				case 109:
+					Var0 = { -1384.366f, -469.3365f, 72.2902f };
+					break;
+				
+				case 69:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 70:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 71:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 72:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 73:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 74:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 75:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 76:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 89:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 91:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 90:
+					Var0 = { -1379.25f, -488.464f, 71.049f };
+					Var0.f_3 = { 0f, 0f, 13.32f };
+					break;
+				
+				case 92:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 135:
+					Var0 = { -1378.361f, -488.3603f, 71.0421f };
+					break;
+				
+				case 136:
+					Var0 = { -1379.683f, -488.5495f, 72.7921f };
+					break;
+				
+				case 77:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case joaat("mpsv_lp0_31"):
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 80:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 81:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 82:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 78:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 83:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 85:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 88:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 84:
+					Var0 = { -1368.3f, -480.492f, 71.042f };
+					Var0.f_3 = { 0f, 0f, -177.84f };
+					break;
+				
+				case 86:
+					Var0 = { -1367.615f, -480.0959f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 87:
+					Var0 = { -1368.761f, -480.2637f, 72.54215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 93:
+					Var0 = { -1398.157f, -479.3889f, 72.1924f };
+					Var0.f_3 = { 0f, 0f, 97f };
+					break;
+				
+				case 94:
+					Var0 = { -1397.917f, -479.589f, 72.192f };
+					Var0.f_3 = { 0f, 0f, 98f };
+					break;
+				
+				case 95:
+					Var0 = { -1383.879f, -477.9557f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 95.66f };
+					break;
+				
+				case 96:
+					Var0 = { -1398.447f, -480.4256f, 72.105f };
+					Var0.f_3 = { 0f, 0f, -80.26f };
+					break;
+				
+				case 97:
+					Var0 = { -1392.006f, -479.5026f, 72.105f };
+					Var0.f_3 = { 0f, 0f, 144.06f };
+					break;
+				
+				case 98:
+					Var0 = { -1396.753f, -480.6128f, 72.105f };
+					Var0.f_3 = { 0f, 0f, -31.76f };
+					break;
+				
+				case 99:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 100:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 101:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 181:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 106:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 107:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 108:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 117:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 118:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 119:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 122:
+					Var0 = { -1390.29f, -479.0549f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 277.8842f };
+					break;
+				
+				case 123:
+					Var0 = { -1383.99f, -477.7994f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 285.7773f };
+					break;
+				
+				case 124:
+					Var0 = { -1371.485f, -472.5331f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 247.7497f };
+					break;
+				
+				case 137:
+					Var0 = { -1371.795f, -470.0197f, 71.0421f };
+					break;
+				
+				case 202:
+					Var0 = { -1389.332f, -479.0194f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 203:
+					Var0 = { -1389.008f, -480.0021f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 303.181f;
+					break;
+				
+				case 204:
+					Var0 = { -1389.814f, -479.6433f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 205:
+					Var0 = { -1390.755f, -478.6367f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 273.1809f;
+					break;
+				
+				case 206:
+					Var0 = { -1390.449f, -479.4955f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 207:
+					Var0 = { -1390.09f, -478.5259f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 208:
+					Var0 = { -1390.938f, -479.7606f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 209:
+					Var0 = { -1389.573f, -477.7128f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 249.181f;
+					break;
+				
+				case 210:
+					Var0 = { -1386.425f, -477.8782f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 211:
+					Var0 = { -1386.284f, -479.1848f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 279.1809f;
+					break;
+				
+				case 212:
+					Var0 = { -1389.597f, -480.8671f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 305.1809f;
+					break;
+				
+				case 213:
+					Var0 = { -1391.379f, -478.654f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 214:
+					Var0 = { -1388.966f, -478.3716f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 215:
+					Var0 = { -1388.649f, -479.3325f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.181f;
+					break;
+				
+				case 216:
+					Var0 = { -1391.445f, -479.7018f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 278.1809f;
+					break;
+				
+				case 217:
+					Var0 = { -1390.214f, -477.4063f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 253.181f;
+					break;
+			}
+			switch (iParam0)
+			{
+				case 435:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 436:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 437:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 470:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 477:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 445:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 446:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 447:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 448:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 449:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 450:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 471:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 472:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 478:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 479:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 504:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 505:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 506:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 507:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 508:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 509:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 510:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 511:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 512:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 513:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 514:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 515:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 528:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 529:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 530:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 531:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 532:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 533:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 534:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 535:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 536:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 537:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 538:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 539:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 540:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 541:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 542:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 547:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 548:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 549:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 236:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 237:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 238:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 239:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 240:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 241:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 242:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 243:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 244:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 245:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 246:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 247:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 248:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 249:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 250:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 251:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 252:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 253:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 254:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 255:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 256:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 257:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 258:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 259:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 260:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 307:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 331:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 332:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 333:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 334:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 298:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 299:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 311:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 431:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 133:
+					Var0 = { -1375.394f, -467.9827f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 134:
+					Var0 = { -1375.542f, -467.0287f, 73.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 130:
+					Var0 = { -1375.271f, -467.526f, 71.042f };
+					Var0.f_3 = { 0f, 0f, -92.16f };
+					break;
+				
+				case 433:
+					Var0 = { -1375.906f, -469.4503f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 434:
+					Var0 = { -1374.99f, -468.8127f, 73.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 432:
+					Var0 = { -1375.309f, -469.039f, 71.042f };
+					Var0.f_3 = { 0f, 0f, -149.4f };
+					break;
+				
+				case 102:
+					Var0 = { -1375.297f, -466.8609f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 103:
+					Var0 = { -1375.448f, -465.9375f, 73.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 182:
+					Var0 = { -1375.943f, -467.129f, 72.067f };
+					Var0.f_3 = { 0f, 0f, 90f };
+					break;
+				
+				case 501:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 502:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 500:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 104:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 105:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 183:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 473:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 474:
+					Var0 = { -1372.745f, -476.2592f, 73.9259f };
+					Var0.f_3 = { -17.5489f, 0f, -82.352f };
+					break;
+				
+				case 169:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 170:
+					Var0 = { 0f, 0f, 0f };
+					break;
+				
+				case 181:
+					Var0 = { 0f, 0f, 0f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 629:
+					Var0 = { -1379.512f, -477.629f, 71.649f };
+					Var0.f_3 = { 0f, 0f, -82f };
+					break;
+				
+				case 630:
+					Var0 = { -1375.371f, -462.5318f, 71.04215f };
+					Var0.f_3 = { 1f, 0f, 1f };
+					break;
+				
+				case 631:
+					Var0 = { -1370.158f, -462.2543f, 71.04214f };
+					Var0.f_3 = { 1.75f, 0f, 0f };
+					break;
+				
+				case 714:
+					Var0 = { -1371.393f, -461.2212f, 71.3765f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 633:
+					Var0 = { -1391.066f, -480.86f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 634:
+					Var0 = { -1391.796f, -480.9668f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 635:
+					Var0 = { -1394.002f, -481.286f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 636:
+					Var0 = { -1393.282f, -481.1756f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 637:
+					Var0 = { -1394.44f, -478.038f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 638:
+					Var0 = { -1393.74f, -477.938f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 639:
+					Var0 = { -1391.554f, -477.6193f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 640:
+					Var0 = { -1392.254f, -477.7293f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 643:
+					Var0 = { -1393.645f, -479.5984f, 72.2997f };
+					Var0.f_3 = { 23.1365f, 0.0223f, -16.3365f };
+					break;
+				
+				case 644:
+					Var0 = { -1393.645f, -479.5984f, 72.2997f };
+					Var0.f_3 = { 3.6162f, 0.0223f, -16.3365f };
+					break;
+				
+				case 641:
+					Var0 = { -1391.824f, -479.9584f, 72.3454f };
+					Var0.f_3 = { 34.4208f, 0f, 154.6562f };
+					break;
+				
+				case 642:
+					Var0 = { -1391.824f, -479.9584f, 72.3454f };
+					Var0.f_3 = { -2.2683f, 0f, 154.6562f };
+					break;
+				
+				case 646:
+					Var0 = { -1393.123f, -477.881f, 71.04f };
+					Var0.f_3 = { 0f, 0f, -140.4f };
+					break;
+				
+				case 645:
+					Var0 = { -1392.415f, -481.031f, 71.04f };
+					Var0.f_3 = { 0f, 0f, 40f };
+					break;
+				
+				case 648:
+					Var0 = { -1392.685f, -480.3315f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 191.9762f };
+					break;
+				
+				case 649:
+					Var0 = { -1392.392f, -482.4386f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 5.3172f };
+					break;
+				
+				case 650:
+					Var0 = { -1392.644f, -479.376f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 7.1773f };
+					break;
+				
+				case 651:
+					Var0 = { -1382.967f, -480.9828f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 652:
+					Var0 = { -1382.788f, -482.5349f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 653:
+					Var0 = { -1383.662f, -485.6873f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 654:
+					Var0 = { 1384.186f, -486.728f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 655:
+					Var0 = { -1383.403f, -487.5066f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 656:
+					Var0 = { -1382.708f, -488.3592f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 657:
+					Var0 = { -1381.329f, -488.1656f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 658:
+					Var0 = { -1371.906f, -478.3103f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 659:
+					Var0 = { -1372.407f, -474.9426f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 660:
+					break;
+				
+				case 661:
+					break;
+				
+				case 662:
+					break;
+				
+				case 663:
+					Var0 = { -1371.851f, -466.166f, 71.049f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 664:
+					Var0 = { -1372.581f, -466.2719f, 71.049f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 665:
+					Var0 = { -1377.777f, -464.8911f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 672:
+					Var0 = { -1390.344f, -481.4404f, 70.79213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 673:
+					Var0 = { -1397.326f, -482.5123f, 74.08271f };
+					Var0.f_3 = { 0f, 0f, 194.5057f };
+					break;
+				
+				case 666:
+					Var0 = { -1375.277f, -462.3159f, 72.0926f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 667:
+					Var0 = { -1370.489f, -461.6438f, 72.0926f };
+					Var0.f_3 = { 0f, 0f, 8.11f };
+					break;
+				
+				case 668:
+					Var0 = { -1375.277f, -462.3159f, 72.0926f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 669:
+					Var0 = { -1370.489f, -461.6438f, 72.0926f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 670:
+					Var0 = { -1372.022f, -463.9919f, 74.1304f };
+					Var0.f_3 = { -40.8924f, 0.0193f, -23.9982f };
+					break;
+				
+				case 671:
+					Var0 = { -1370.7f, -463.5f, 72f };
+					Var0.f_3 = { -35.87f, 0f, 8.02f };
+					break;
+				
+				case 674:
+					Var0 = { -1375.277f, -462.3159f, 72.0926f };
+					Var0.f_3 = { 0f, 0.0102f, 87.88f };
+					break;
+				
+				case 675:
+					Var0 = { -1372.02f, -463.9937f, 74.1322f };
+					Var0.f_3 = { -35.4306f, 0f, 57.5758f };
+					break;
+				
+				case 676:
+					Var0 = { -1374.308f, -462.7904f, 71.0514f };
+					Var0.f_3 = { 0f, 0f, 26.5462f };
+					break;
+				
+				case 677:
+					Var0 = { -1370.489f, -461.6438f, 72.0926f };
+					Var0.f_3 = { 0f, 0f, 98.86f };
+					break;
+				
+				case 678:
+					Var0 = { -1368.419f, -485.913f, 71.638f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 679:
+					Var0 = { -1368.686f, -483.781f, 71.638f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 680:
+					Var0 = { -1369.891f, -483.951f, 71.638f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 681:
+					Var0 = { -1371.052f, -484.114f, 71.638f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 682:
+					Var0 = { -1370.785f, -486.245f, 71.638f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 683:
+					Var0 = { -1369.597f, -486.079f, 71.638f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 684:
+					Var0 = { -1372.187f, -463.935f, 71.662f };
+					Var0.f_3 = { 0f, 0f, -37f };
+					break;
+				
+				case 685:
+					Var0 = { -1367.419f, -484.652f, 71.638f };
+					Var0.f_3 = { 0f, 0f, -82f };
+					break;
+				
+				case 689:
+					Var0 = { -1373.629f, -478.7528f, 71.06213f };
+					Var0.f_3 = { 0.75f, 0f, 0f };
+					break;
+				
+				case 690:
+					Var0 = { -1374.166f, -474.9032f, 73.54213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 691:
+					Var0 = { -1372.819f, -476.6167f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 692:
+					Var0 = { -1375.222f, -466.2753f, 71.0621f };
+					Var0.f_3 = { 1f, 0f, 0f };
+					break;
+				
+				case 693:
+					Var0 = { -1375.789f, -462.2126f, 73.54211f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 694:
+					Var0 = { -1374.244f, -465.2611f, 71.049f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 695:
+					Var0 = { -1380.604f, -476.8068f, 71.14214f };
+					Var0.f_3 = { 1.5f, 0f, 0f };
+					break;
+				
+				case 696:
+					Var0 = { -1380.937f, -475.1835f, 73.54211f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 697:
+					Var0 = { -1384.38f, -478.0885f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 698:
+					Var0 = { -1384.355f, -476.2908f, 71.05213f };
+					Var0.f_3 = { 0.75f, 0f, 0f };
+					break;
+				
+				case 699:
+					Var0 = { -1384.825f, -473.0208f, 73.54213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 700:
+					Var0 = { -1383.51f, -474.9492f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 701:
+					Var0 = { -1368.4f, -472.6109f, 71.04213f };
+					Var0.f_3 = { 1.5f, 0f, 0f };
+					break;
+				
+				case 702:
+					Var0 = { -1368.804f, -469.5392f, 73.29213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 703:
+					Var0 = { -1369.993f, -471.4322f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 704:
+					Var0 = { -1378.779f, -474.3721f, 71.05211f };
+					Var0.f_3 = { 0.5f, 0f, 0f };
+					break;
+				
+				case 705:
+					Var0 = { -1377.923f, -480.5733f, 73.54211f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 706:
+					Var0 = { -1379.317f, -475.9338f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 707:
+					Var0 = { -1386.979f, -476.6814f, 71.04211f };
+					Var0.f_3 = { 1f, 0f, 0f };
+					break;
+				
+				case 708:
+					Var0 = { -1386.429f, -480.5289f, 73.79211f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 709:
+					Var0 = { -1385.6f, -478.2664f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 710:
+					Var0 = { -1369.435f, -461.8229f, 71.04211f };
+					Var0.f_3 = { 1f, 0f, 0f };
+					break;
+				
+				case 711:
+					Var0 = { -1376.22f, -462.8445f, 73.29211f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 712:
+					Var0 = { -1373.835f, -463.8867f, 71.0621f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 713:
+					Var0 = { -1371.157f, -479.4782f, 71.04215f };
+					Var0.f_3 = { 3.25f, 0f, 0f };
+					break;
+				
+				case 632:
+					Var0 = { -1372.074f, -473.3848f, 73.54215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 715:
+					Var0 = { -1370.833f, -461.1512f, 71.3765f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 716:
+					Var0 = { -1371.393f, -461.2212f, 71.6065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 717:
+					Var0 = { -1370.833f, -461.1512f, 71.6065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 718:
+					Var0 = { -1371.383f, -461.4812f, 71.3765f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 719:
+					Var0 = { -1370.803f, -461.4112f, 71.3865f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 720:
+					Var0 = { -1371.383f, -461.4812f, 71.6065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 721:
+					Var0 = { -1370.803f, -461.4112f, 71.6065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 722:
+					Var0 = { -1371.393f, -461.2112f, 71.9765f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 723:
+					Var0 = { -1370.853f, -461.1512f, 71.9765f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 724:
+					Var0 = { -1371.393f, -461.2112f, 72.2065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 725:
+					Var0 = { -1370.853f, -461.1512f, 72.2065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 726:
+					Var0 = { -1371.373f, -461.4712f, 71.9765f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 727:
+					Var0 = { -1370.813f, -461.3912f, 71.9765f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 728:
+					Var0 = { -1371.373f, -461.4712f, 72.2065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 729:
+					Var0 = { -1370.813f, -461.3912f, 72.2065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 730:
+					Var0 = { -1371.393f, -461.2212f, 72.5065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 731:
+					Var0 = { -1370.853f, -461.1512f, 72.5065f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 732:
+					Var0 = { -1371.393f, -461.2212f, 72.7365f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 733:
+					Var0 = { -1370.853f, -461.1512f, 72.7365f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 734:
+					Var0 = { -1371.373f, -461.4612f, 72.4965f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 735:
+					Var0 = { -1370.813f, -461.3912f, 72.4965f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 736:
+					Var0 = { -1371.373f, -461.4612f, 72.7365f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 737:
+					Var0 = { -1370.813f, -461.3912f, 72.7365f };
+					Var0.f_3 = { 0f, 0f, 7f };
+					break;
+				
+				case 738:
+					Var0 = { -1373.116f, -488.2086f, 71.04217f };
+					Var0.f_3 = { 1.25f, 0f, 0f };
+					break;
+				
+				case 739:
+					Var0 = { -1365.72f, -487.1443f, 73.79217f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 740:
+					Var0 = { -1372.851f, -485.1789f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 741:
+					Var0 = { -1367.549f, -482.0912f, 71.05217f };
+					Var0.f_3 = { 1.25f, 0f, 0f };
+					break;
+				
+				case 742:
+					Var0 = { -1366.609f, -481.9662f, 73.79217f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 743:
+					Var0 = { -1368.201f, -482.1139f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 744:
+					Var0 = { -1380.242f, -486.2507f, 71.04211f };
+					Var0.f_3 = { 5.5f, 0f, 0f };
+					break;
+				
+				case 745:
+					Var0 = { -1384.697f, -486.9442f, 73.29217f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 746:
+					Var0 = { -1379.289f, -486.2473f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 747:
+					Var0 = { -1374.37f, -461.766f, 72.241f };
+					Var0.f_3 = { -90f, 0f, 35.5f };
+					break;
+				
+				case 748:
+					Var0 = { -1374.638f, -461.769f, 72.246f };
+					Var0.f_3 = { -90f, 0f, 35.5f };
+					break;
+				
+				case 749:
+					Var0 = { -1374.81f, -461.8721f, 71.645f };
+					Var0.f_3 = { -2.5f, -66.5f, 91.3f };
+					break;
+				
+				case 750:
+					Var0 = { -1374.922f, -461.908f, 71.645f };
+					Var0.f_3 = { -2.75f, -66.5f, 91.3f };
+					break;
+				
+				case 751:
+					Var0 = { -1383.28f, -472.7275f, 73.44767f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 752:
+					Var0 = { -1376.303f, -470.6783f, 73.4041f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 753:
+					Var0 = { -1381.757f, -472.5135f, 70.95429f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 754:
+					Var0 = { -1376.52f, -469.1397f, 70.98588f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 755:
+					Var0 = { -1376.395f, -470.5647f, 72.1921f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 756:
+					Var0 = { -1383.19f, -472.639f, 72.1921f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 757:
+					Var0 = { -1375.052f, -461.8455f, 72.261f };
+					Var0.f_3 = { 0f, 0f, 10.1f };
+					break;
+				
+				case 758:
+					Var0 = { -1375.242f, -461.8469f, 72.29f };
+					Var0.f_3 = { 0f, 0f, 41.4f };
+					break;
+				
+				case 769:
+					Var0 = { -1392.573f, -480.1384f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 276.5135f };
+					break;
+				
+				case 770:
+					Var0 = { -1393.545f, -478.9945f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 281.3589f };
+					break;
+				
+				case 771:
+					Var0 = { -1396.718f, -479.3686f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 276.951f };
+					break;
+				
+				case 772:
+					Var0 = { -1395.378f, -480.6437f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 281.0696f };
+					break;
+				
+				case 773:
+					Var0 = { -1392.69f, -479.6239f, 72.5297f };
+					Var0.f_3 = { 14.0402f, 0f, 7.4741f };
+					break;
+				
+				case 774:
+					Var0 = { -1378.496f, -481.8039f, 72.0891f };
+					Var0.f_3 = { 0.8273f, 0f, -82.807f };
+					break;
+				
+				case 775:
+					Var0 = { -1380.646f, -481.2209f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 273.8102f };
+					break;
+				
+				case 776:
+					Var0 = { -1380.025f, -482.464f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 274.1362f };
+					break;
+				
+				case 777:
+					Var0 = { -1379.174f, -481.1526f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 273.546f };
+					break;
+				
+				case 778:
+					Var0 = { -1378.641f, -482.5946f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 272.5229f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 779:
+					Var0 = { -1370.4f, -479.8142f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 283.0016f };
+					break;
+				
+				case 780:
+					Var0 = { -1370.507f, -480.7826f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 281.4162f };
+					break;
+				
+				case 781:
+					Var0 = { -1370.4f, -479.8142f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 283.0016f };
+					break;
+				
+				case 782:
+					Var0 = { -1370.507f, -480.7826f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 281.4162f };
+					break;
+				
+				case 783:
+					Var0 = { -1372.42f, -477.419f, 72.043f };
+					Var0.f_3 = { 0f, 0f, -129.25f };
+					break;
+				
+				case 784:
+					Var0 = { -1371.118f, -478.731f, 72.043f };
+					Var0.f_3 = { 0f, 0f, -27.25f };
+					break;
+				
+				case 785:
+					Var0 = { -1373.091f, -476.2664f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 311.3689f };
+					break;
+				
+				case 786:
+					Var0 = { -1371.497f, -473.9364f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 151.6133f };
+					break;
+				
+				case 787:
+					Var0 = { -1372.355f, -478.725f, 71.561f };
+					Var0.f_3 = { 0f, 0f, -37.5f };
+					break;
+				
+				case 788:
+					Var0 = { -1372.859f, -474.543f, 71.561f };
+					Var0.f_3 = { 0f, 0f, -133.5f };
+					break;
+				
+				case 789:
+					Var0 = { -1372.758f, -477.7887f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 302.8123f };
+					break;
+				
+				case 790:
+					Var0 = { -1371.446f, -478.7147f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 332.7965f };
+					break;
+				
+				case 791:
+					Var0 = { -1371.96f, -474.174f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 205.0822f };
+					break;
+				
+				case 792:
+					Var0 = { -1373.104f, -475.6295f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 246.6334f };
+					break;
+				
+				case 793:
+					Var0 = { -1372.537f, -477.7263f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 233.9974f };
+					break;
+				
+				case 794:
+					Var0 = { -1371.131f, -478.5096f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 60.3401f };
+					break;
+				
+				case 795:
+					Var0 = { -1371.84f, -474.4755f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 150.8988f };
+					break;
+				
+				case 796:
+					Var0 = { -1372.604f, -475.7714f, 71.0529f };
+					Var0.f_3 = { 0f, 0f, 320.6061f };
+					break;
+				
+				case 797:
+					Var0 = { -1371.508f, -477.4651f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 146.0641f };
+					break;
+				
+				case 798:
+					Var0 = { -1371.854f, -475.3757f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 47.8768f };
+					break;
+				
+				case 799:
+					Var0 = { -1371.889f, -478.1164f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 144.5707f };
+					break;
+				
+				case 800:
+					Var0 = { -1372.4f, -474.8434f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 51.6376f };
+					break;
+				
+				case 802:
+					Var0 = { -1372.38f, -478.752f, 71.573f };
+					Var0.f_3 = { 0f, 0f, -35.75f };
+					break;
+				
+				case 801:
+					Var0 = { -1388.033f, -478.7589f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 286.3443f };
+					break;
+				
+				case 805:
+					Var0 = { -1382.268f, -481.5285f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 803:
+					Var0 = { -1383.237f, -483.2296f, 71.04217f };
+					Var0.f_3 = { 1.1f, 0f, 0f };
+					break;
+				
+				case 804:
+					Var0 = { -1383.649f, -480.2233f, 73.29217f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 808:
+					Var0 = { -1368.617f, -479.5128f, 71.0621f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 806:
+					Var0 = { -1370.561f, -474.6018f, 71.04213f };
+					Var0.f_3 = { 3.75f, 0f, 0f };
+					break;
+				
+				case 807:
+					Var0 = { -1370.13f, -477.8921f, 73.54213f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 809:
+					Var0 = { -1375.031f, -461.896f, 71.6313f };
+					Var0.f_3 = { -1.8f, -66.5f, 93.9f };
+					break;
+				
+				case 810:
+					Var0 = { -1371.426f, -465.332f, 71.835f };
+					Var0.f_3 = { 0f, 0f, -141.25f };
+					break;
+				
+				case 811:
+					Var0 = { -1376.985f, -482.3501f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 80.6965f };
+					break;
+				
+				case 812:
+					Var0 = { -1376.912f, -480.9891f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 74.6858f };
+					break;
+				
+				case 813:
+					Var0 = { -1375.364f, -481.7466f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 92.578f };
+					break;
+				
+				case 814:
+					Var0 = { -1374.097f, -481.0571f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 98.0056f };
+					break;
+				
+				case 815:
+					Var0 = { -1386.889f, -477.0505f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 80f };
+					break;
+				
+				case 816:
+					Var0 = { -1374.043f, -462.3639f, 73.29215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 818:
+					Var0 = { -1372.768f, -464.8512f, 71.04905f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 819:
+					Var0 = { -1374.161f, -463.5122f, 72.79215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 820:
+					Var0 = { -0.1372f, -463.9352f, 71.6622f };
+					Var0.f_3 = { 0f, 0f, 37f };
+					break;
+				
+				case 821:
+					Var0 = { -1372.619f, -464.239f, 71.432f };
+					Var0.f_3 = { 0f, 0f, -32.76f };
+					break;
+				
+				case 817:
+					Var0 = { -1371.571f, -462.438f, 73.54214f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 647:
+					Var0 = { -1393.194f, -477.075f, 71.042f };
+					Var0.f_3 = { 0f, 0f, -170f };
+					break;
+				
+				case 822:
+					Var0 = { -1392.657f, -476.4261f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 163.87f };
+					break;
+				
+				case 823:
+					Var0 = { -1392.09f, -476.787f, 71.042f };
+					Var0.f_3 = { 0f, 0f, 111.15f };
+					break;
+				
+				case 824:
+					Var0 = { -1393.702f, -476.1204f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -167.88f };
+					break;
+				
+				case 825:
+					Var0 = { -1393.058f, -477.8514f, 71.2513f };
+					Var0.f_3 = { 0f, 0f, 191.9762f };
+					break;
+				
+				case 826:
+					Var0 = { -1380.28f, -474.1296f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 191.9762f };
+					break;
+				
+				case 827:
+					Var0 = { -1370.688f, -479.6639f, 72.0422f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 828:
+					Var0 = { -1371.642f, -472.7743f, 72.0422f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 829:
+					Var0 = { -1368.66f, -478.0478f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 101.807f };
+					break;
+				
+				case 830:
+					Var0 = { -1369.159f, -479.3572f, 72.0422f };
+					Var0.f_3 = { 0f, 0f, 19.6959f };
+					break;
+				
+				case 831:
+					Var0 = { -1369.618f, -476.4316f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 168.1197f };
+					break;
+				
+				case 832:
+					Var0 = { -1374.543f, -481.3387f, 72.0422f };
+					Var0.f_3 = { 0f, 0f, 277.0777f };
+					break;
+				
+				case 833:
+					Var0 = { -1369.872f, -475.1957f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 61.6439f };
+					break;
+				
+				case 834:
+					Var0 = { -1369.106f, -473.6916f, 72.0529f };
+					Var0.f_3 = { 0f, 0f, 70.5975f };
+					break;
+				
+				case 835:
+					Var0 = { -1368.954f, -471.6623f, 72.0422f };
+					Var0.f_3 = { 0f, 0f, 76.359f };
+					break;
+				
+				case 836:
+					Var0 = { -1370.482f, -470.7346f, 72.0422f };
+					Var0.f_3 = { 0f, 0f, 155.9964f };
+					break;
+				
+				case 838:
+					Var0 = { -1378.063f, -467.0028f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 839:
+					Var0 = { -1377.933f, -467.785f, 73.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 837:
+					Var0 = { -1377.825f, -467.389f, 71.05f };
+					Var0.f_3 = { 0f, 0f, 87.84f };
+					break;
+				
+				case 842:
+					Var0 = { -1372.015f, -468.9812f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 840:
+					Var0 = { -1373.58f, -466.8963f, 71.04905f };
+					Var0.f_3 = { 1.5f, 0f, 0f };
+					break;
+				
+				case 841:
+					Var0 = { -1370.55f, -466.4406f, 73.54905f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 843:
+					Var0 = { -1375.149f, -461.8709f, 71.63f };
+					Var0.f_3 = { -1.8f, -66.5f, 93.9f };
+					break;
+				
+				case 844:
+					Var0 = { -1369.763f, -485.0164f, 72.1498f };
+					Var0.f_3 = { -23.7676f, 0f, -80.7839f };
+					break;
+				
+				case 845:
+					Var0 = { -1380.299f, -481.8173f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 846:
+					Var0 = { -1384.702f, -478.7025f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 847:
+					Var0 = { -1380.176f, -480.645f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 848:
+					Var0 = { -1384.398f, -478.1262f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 849:
+					Var0 = { -1377.932f, -481.5936f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 850:
+					Var0 = { -1384.41f, -479.2907f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 851:
+					Var0 = { -1380.405f, -481.5397f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 852:
+					Var0 = { -1383.782f, -478.5861f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 853:
+					Var0 = { -1392.677f, -479.7237f, 72.4105f };
+					Var0.f_3 = { 0.7434f, 0f, 7.4741f };
+					break;
+				
+				case 854:
+					Var0 = { -1377.628f, -481.6943f, 72.1015f };
+					Var0.f_3 = { 0.8273f, 0f, -82.807f };
+					break;
+				
+				case 855:
+					Var0 = { -1382.699f, -479.8376f, 72.2729f };
+					Var0.f_3 = { 0.8044f, 0f, -111.6133f };
+					break;
+				
+				case 856:
+					Var0 = { -1383.487f, -479.5229f, 72.2603f };
+					Var0.f_3 = { 0.8044f, 0f, -111.6133f };
+					break;
+				
+				case 686:
+					Var0 = { -1378.393f, -484.121f, 71.643f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 687:
+					Var0 = { -1376.883f, -483.909f, 71.643f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 688:
+					Var0 = { -1375.373f, -483.697f, 71.643f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+			}
+			switch (iParam0)
+			{
+				case 857:
+					Var0 = { -1371.476f, -480.6698f, 31.04214f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 858:
+					Var0 = { -1377.564f, -481.4189f, 73.72964f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 859:
+					Var0 = { -1378.863f, -479.5141f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 156f };
+					break;
+				
+				case 860:
+					Var0 = { -1381.632f, -478.6535f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 190f };
+					break;
+				
+				case 861:
+					Var0 = { -1382.021f, -482.9339f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 324f };
+					break;
+				
+				case 862:
+					Var0 = { -1369.401f, -482.3335f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 44f };
+					break;
+				
+				case 863:
+					Var0 = { -1379.681f, -477.5754f, 71.6343f };
+					Var0.f_3 = { 0f, 0f, -78.12f };
+					break;
+				
+				case 864:
+					Var0 = { -1367.611f, -473.8776f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 865:
+					Var0 = { -1369.875f, -474.216f, 72.55293f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 866:
+					Var0 = { -1366.966f, -477.8354f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 867:
+					Var0 = { -1369.294f, -478.1736f, 72.55293f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 899:
+					Var0 = { -1367.721f, -477.4963f, 71.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 900:
+					Var0 = { -1368.16f, -474.3671f, 72.54215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 868:
+					Var0 = { -1392.101f, -478.448f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 869:
+					Var0 = { -1388.971f, -478.1062f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 880:
+					Var0 = { -1376.621f, -485.3536f, 71.0422f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 878:
+					Var0 = { -1374.779f, -483.3618f, 71.04215f };
+					Var0.f_3 = { 1.75f, 0f, 0f };
+					break;
+				
+				case 879:
+					Var0 = { -1379.531f, -484.1284f, 73.04215f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 887:
+					Var0 = { -1369.734f, -484.9951f, 71.8463f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 894:
+					Var0 = { -1385.207f, -478.4178f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 279.748f;
+					break;
+				
+				case 895:
+					Var0 = { -1384.483f, -479.1004f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 279.748f;
+					break;
+				
+				case 896:
+					Var0 = { -1385.59f, -479.3416f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 279.748f;
+					break;
+				
+				case 897:
+					Var0 = { -1385.831f, -477.7351f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 279.7484f;
+					break;
+				
+				case 898:
+					Var0 = { -1384.825f, -477.4939f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					Var0.f_3.f_2 = 279.748f;
+					break;
+				
+				case 901:
+					Var0 = { -1392.254f, -477.7293f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 902:
+					Var0 = { -1393.74f, -477.938f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 903:
+					Var0 = { -1395.517f, -478.1879f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 904:
+					Var0 = { -1397.004f, -478.3966f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 905:
+					Var0 = { -1391.796f, -480.9668f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 906:
+					Var0 = { -1393.282f, -481.1756f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 907:
+					Var0 = { -1395.059f, -481.4254f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, -172f };
+					break;
+				
+				case 908:
+					Var0 = { -1396.545f, -481.6342f, 71.0421f };
+					Var0.f_3 = { 0f, 0f, 8f };
+					break;
+				
+				case 909:
+					Var0 = { -1372.66f, -476.5803f, 70.80293f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+				
+				case 910:
+					Var0 = { -1373.991f, -476.762f, 73.93909f };
+					Var0.f_3 = { 0f, 0f, 0f };
+					break;
+			}
+			break;
+	}
+	return Var0;
+}
+
+struct<6> func_7(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -1999,7 +4623,7 @@ struct<6> func_6(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_7(int iParam0, int iParam1)
+struct<6> func_8(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -2620,12 +5244,12 @@ struct<6> func_7(int iParam0, int iParam1)
 			switch (iParam0)
 			{
 				case 50:
-					Var0 = { -796.2402f, 334.6541f, 189.7135f };
+					Var0 = { -796.5303f, 334.3555f, 189.7135f };
 					Var0.f_3 = { 0f, 0f, 0f };
 					break;
 				
 				case 51:
-					Var0 = { -796.2516f, 336.7541f, 191.7135f };
+					Var0 = { -796.5093f, 336.8433f, 191.7135f };
 					Var0.f_3 = { 0f, 0f, 0f };
 					break;
 				
@@ -3686,7 +6310,7 @@ struct<6> func_7(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_8(int iParam0, int iParam1)
+struct<6> func_9(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -6280,7 +8904,7 @@ struct<6> func_8(int iParam0, int iParam1)
 					break;
 				
 				case 209:
-					Var0 = { 119.2734f, 558.5792f, 184.3018f };
+					Var0 = { 117.173f, 558.5792f, 183.2967f };
 					Var0.f_3 = { 0f, 0f, 184.5629f };
 					break;
 				
@@ -6533,7 +9157,7 @@ struct<6> func_8(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_9(int iParam0, int iParam1)
+struct<6> func_10(int iParam0, int iParam1)
 {
 	struct<6> Var0;
 	
@@ -9345,7 +11969,7 @@ struct<6> func_9(int iParam0, int iParam1)
 	return Var0;
 }
 
-struct<6> func_10(int iParam0)
+struct<6> func_11(int iParam0)
 {
 	struct<6> Var0;
 	
@@ -9540,7 +12164,7 @@ struct<6> func_10(int iParam0)
 	return Var0;
 }
 
-void func_11(var uParam0, int iParam1)
+void func_12(var uParam0, int iParam1)
 {
 	struct<3> Var0;
 	
@@ -9581,7 +12205,7 @@ void func_11(var uParam0, int iParam1)
 	uParam0->f_146.f_1592 = { Var0 };
 	func_3(iParam1, 15, &Var0, 0);
 	uParam0->f_146.f_50 = { Var0 };
-	func_12(86, &(uParam0->f_146.f_53), &(uParam0->f_146.f_56), iParam1);
+	func_13(86, &(uParam0->f_146.f_53), &(uParam0->f_146.f_56), iParam1);
 	func_3(iParam1, 46, &Var0, 0);
 	uParam0->f_146.f_82[1 /*102*/] = { Var0 };
 	uParam0->f_146.f_82[1 /*102*/].f_3 = Var0.f_3.f_2;
@@ -9879,7 +12503,7 @@ void func_11(var uParam0, int iParam1)
 	uParam0->f_146.f_1562.f_24 = { Var0 };
 }
 
-void func_12(int iParam0, var uParam1, var uParam2, int iParam3)
+void func_13(int iParam0, var uParam1, var uParam2, int iParam3)
 {
 	struct<4> Var0;
 	
@@ -9902,7 +12526,7 @@ void func_12(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 41:
 		case 42:
 		case 43:
-			func_13(iParam0, 40, &Var0, -1);
+			func_14(iParam0, 40, &Var0, -1);
 			*uParam1 = { Var0 };
 			if (iParam0 == 1)
 			{
@@ -10011,7 +12635,7 @@ void func_12(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 63:
 		case 64:
 		case 65:
-			func_13(iParam0, 40, &Var0, 61);
+			func_14(iParam0, 40, &Var0, 61);
 			*uParam1 = { Var0 };
 			if (iParam0 == 61)
 			{
@@ -10035,7 +12659,7 @@ void func_12(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 74:
 		case 75:
 		case 76:
-			func_13(iParam0, 40, &Var0, 73);
+			func_14(iParam0, 40, &Var0, 73);
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
@@ -10046,7 +12670,7 @@ void func_12(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 80:
 		case 81:
 		case 82:
-			func_13(iParam0, 40, &Var0, 77);
+			func_14(iParam0, 40, &Var0, 77);
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
@@ -10054,7 +12678,7 @@ void func_12(int iParam0, var uParam1, var uParam2, int iParam3)
 		case 83:
 		case 84:
 		case 85:
-			func_13(iParam0, 40, &Var0, 83);
+			func_14(iParam0, 40, &Var0, 83);
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
@@ -10064,21 +12688,30 @@ void func_12(int iParam0, var uParam1, var uParam2, int iParam3)
 			*uParam1 = { Var0 };
 			*uParam2 = Var0.f_3.f_2;
 			break;
+		
+		case 87:
+		case 88:
+		case 89:
+		case 90:
+			func_14(iParam0, 40, &Var0, 88);
+			*uParam1 = { Var0 };
+			*uParam2 = Var0.f_3.f_2;
+			break;
 	}
 }
 
-void func_13(int iParam0, int iParam1, var uParam2, int iParam3)
+void func_14(int iParam0, int iParam1, var uParam2, int iParam3)
 {
 	struct<6> Var0[2];
 	struct<3> Var13;
 	
-	Var0[0 /*6*/] = { func_14(iParam3) };
-	Var0[1 /*6*/] = { func_14(iParam0) };
+	Var0[0 /*6*/] = { func_15(iParam3) };
+	Var0[1 /*6*/] = { func_15(iParam0) };
 	*uParam2 = { func_5(iParam1, iParam3) };
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_4(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_4(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0xE79F1883B253E5B8(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0x8E183FB8F99DD2D7(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -10422,6 +13055,339 @@ void func_13(int iParam0, int iParam1, var uParam2, int iParam3)
 		case 616:
 		case 615:
 		case 612:
+		case 629:
+		case 630:
+		case 631:
+		case 714:
+		case 633:
+		case 634:
+		case 635:
+		case 636:
+		case 637:
+		case 638:
+		case 639:
+		case 640:
+		case 643:
+		case 644:
+		case 641:
+		case 642:
+		case 646:
+		case 645:
+		case 647:
+		case 648:
+		case 649:
+		case 650:
+		case 666:
+		case 667:
+		case 668:
+		case 669:
+		case 670:
+		case 671:
+		case 673:
+		case 674:
+		case 675:
+		case 676:
+		case 677:
+		case 689:
+		case 690:
+		case 691:
+		case 692:
+		case 693:
+		case 694:
+		case 695:
+		case 696:
+		case 697:
+		case 698:
+		case 699:
+		case 700:
+		case 701:
+		case 702:
+		case 703:
+		case 704:
+		case 705:
+		case 706:
+		case 707:
+		case 708:
+		case 709:
+		case 710:
+		case 711:
+		case 712:
+		case 713:
+		case 632:
+		case 738:
+		case 739:
+		case 740:
+		case 741:
+		case 742:
+		case 743:
+		case 744:
+		case 745:
+		case 746:
+			while (Var0[0 /*6*/].f_3.f_2 > 180f)
+			{
+				Var0[0 /*6*/].f_3.f_2 = (Var0[0 /*6*/].f_3.f_2 - 360f);
+			}
+			while (Var0[0 /*6*/].f_3.f_2 < -180f)
+			{
+				Var0[0 /*6*/].f_3.f_2 = (Var0[0 /*6*/].f_3.f_2 + 360f);
+			}
+			while (Var0[1 /*6*/].f_3.f_2 > 180f)
+			{
+				Var0[1 /*6*/].f_3.f_2 = (Var0[1 /*6*/].f_3.f_2 - 360f);
+			}
+			while (Var0[1 /*6*/].f_3.f_2 < -180f)
+			{
+				Var0[1 /*6*/].f_3.f_2 = (Var0[1 /*6*/].f_3.f_2 + 360f);
+			}
+			uParam2->f_3.f_2 = (uParam2->f_3.f_2 + (Var0[1 /*6*/].f_3.f_2 - Var0[0 /*6*/].f_3.f_2));
+			while (uParam2->f_3.f_2 > 180f)
+			{
+				uParam2->f_3.f_2 = (uParam2->f_3.f_2 - 360f);
+			}
+			while (uParam2->f_3.f_2 < -180f)
+			{
+				uParam2->f_3.f_2 = (uParam2->f_3.f_2 + 360f);
+			}
+			break;
+	}
+	switch (iParam1)
+	{
+		case 715:
+		case 716:
+		case 717:
+		case 718:
+		case 719:
+		case 720:
+		case 721:
+		case 722:
+		case 723:
+		case 724:
+		case 725:
+		case 726:
+		case 727:
+		case 728:
+		case 729:
+		case 730:
+		case 731:
+		case 732:
+		case 733:
+		case 734:
+		case 735:
+		case 736:
+		case 737:
+		case 747:
+		case 748:
+		case 749:
+		case 750:
+		case 751:
+		case 752:
+		case 753:
+		case 754:
+		case 755:
+		case 756:
+		case 757:
+		case 758:
+		case 759:
+		case 760:
+		case 761:
+		case 762:
+		case 763:
+		case 764:
+		case 765:
+		case 766:
+		case 767:
+		case 768:
+		case 769:
+		case 770:
+		case 771:
+		case 772:
+		case 773:
+		case 774:
+		case 775:
+		case 776:
+		case 777:
+		case 778:
+		case 779:
+		case 780:
+		case 781:
+		case 782:
+		case 783:
+		case 784:
+		case 785:
+		case 786:
+		case 787:
+		case 788:
+		case 789:
+		case 790:
+		case 791:
+		case 792:
+		case 793:
+		case 794:
+		case 795:
+		case 796:
+		case 797:
+		case 798:
+		case 799:
+		case 800:
+		case 802:
+		case 801:
+		case 803:
+		case 804:
+		case 805:
+		case 806:
+		case 807:
+		case 808:
+		case 809:
+		case 678:
+		case 679:
+		case 680:
+		case 681:
+		case 682:
+		case 683:
+		case 684:
+		case 685:
+		case 810:
+		case 811:
+		case 812:
+		case 813:
+		case 814:
+		case 815:
+		case 817:
+		case 816:
+		case 819:
+		case 818:
+		case 820:
+		case 821:
+		case 822:
+		case 823:
+		case 824:
+		case 825:
+		case 826:
+		case 827:
+		case 828:
+		case 829:
+		case 830:
+		case 831:
+		case 832:
+		case 833:
+		case 834:
+		case 835:
+		case 836:
+		case 837:
+		case 838:
+		case 839:
+		case 840:
+		case 841:
+		case 842:
+		case 843:
+		case 844:
+		case 845:
+		case 846:
+		case 847:
+		case 848:
+		case 849:
+		case 850:
+		case 851:
+		case 852:
+		case 853:
+		case 854:
+		case 855:
+		case 856:
+		case 686:
+		case 687:
+		case 688:
+			while (Var0[0 /*6*/].f_3.f_2 > 180f)
+			{
+				Var0[0 /*6*/].f_3.f_2 = (Var0[0 /*6*/].f_3.f_2 - 360f);
+			}
+			while (Var0[0 /*6*/].f_3.f_2 < -180f)
+			{
+				Var0[0 /*6*/].f_3.f_2 = (Var0[0 /*6*/].f_3.f_2 + 360f);
+			}
+			while (Var0[1 /*6*/].f_3.f_2 > 180f)
+			{
+				Var0[1 /*6*/].f_3.f_2 = (Var0[1 /*6*/].f_3.f_2 - 360f);
+			}
+			while (Var0[1 /*6*/].f_3.f_2 < -180f)
+			{
+				Var0[1 /*6*/].f_3.f_2 = (Var0[1 /*6*/].f_3.f_2 + 360f);
+			}
+			uParam2->f_3.f_2 = (uParam2->f_3.f_2 + (Var0[1 /*6*/].f_3.f_2 - Var0[0 /*6*/].f_3.f_2));
+			while (uParam2->f_3.f_2 > 180f)
+			{
+				uParam2->f_3.f_2 = (uParam2->f_3.f_2 - 360f);
+			}
+			while (uParam2->f_3.f_2 < -180f)
+			{
+				uParam2->f_3.f_2 = (uParam2->f_3.f_2 + 360f);
+			}
+			break;
+	}
+	switch (iParam1)
+	{
+		case 857:
+		case 858:
+		case 859:
+		case 860:
+		case 861:
+		case 862:
+		case 863:
+		case 864:
+		case 865:
+		case 866:
+		case 867:
+		case 868:
+		case 869:
+		case 870:
+		case 871:
+		case 872:
+		case 873:
+		case 874:
+		case 875:
+		case 876:
+		case 877:
+		case 878:
+		case 879:
+		case 880:
+		case 881:
+		case 882:
+		case 883:
+		case 884:
+		case 888:
+		case 889:
+		case 890:
+		case 891:
+		case 651:
+		case 652:
+		case 653:
+		case 654:
+		case 655:
+		case 656:
+		case 657:
+		case 658:
+		case 659:
+		case 660:
+		case 661:
+		case 662:
+		case 663:
+		case 664:
+		case 665:
+		case 887:
+		case 894:
+		case 895:
+		case 896:
+		case 897:
+		case 898:
+		case 899:
+		case 900:
+		case 901:
+		case 902:
+		case 903:
+		case 904:
+		case 905:
+		case 906:
+		case 907:
+		case 908:
 			while (Var0[0 /*6*/].f_3.f_2 > 180f)
 			{
 				Var0[0 /*6*/].f_3.f_2 = (Var0[0 /*6*/].f_3.f_2 - 360f);
@@ -10451,7 +13417,7 @@ void func_13(int iParam0, int iParam1, var uParam2, int iParam3)
 	}
 }
 
-struct<6> func_14(int iParam0)
+struct<6> func_15(int iParam0)
 {
 	struct<6> Var0;
 	
@@ -10672,16 +13638,36 @@ struct<6> func_14(int iParam0)
 			Var0 = { 260.3297f, -997.4288f, -100f };
 			Var0.f_3 = { 0f, 0f, 0f };
 			break;
+		
+		case 87:
+			Var0 = { -1572.187f, -570.8315f, 109.9879f };
+			Var0.f_3 = { 0f, 0f, -54f };
+			break;
+		
+		case 88:
+			Var0 = { -1383.954f, -476.7112f, 73.507f };
+			Var0.f_3 = { 0f, 0f, 8f };
+			break;
+		
+		case 89:
+			Var0 = { -138.0029f, -629.739f, 170.2854f };
+			Var0.f_3 = { 0f, 0f, -84f };
+			break;
+		
+		case 90:
+			Var0 = { -74.8895f, -817.6883f, 244.8508f };
+			Var0.f_3 = { 0f, 0f, 70f };
+			break;
 	}
 	return Var0;
 }
 
-void func_15(var uParam0, int iParam1)
+void func_16(var uParam0, int iParam1)
 {
 	struct<4> Var0;
 	
-	Var0 = { func_10(iParam1) };
-	uParam0->f_1966 = { Var0 };
+	Var0 = { func_11(iParam1) };
+	uParam0->f_1982 = { Var0 };
 	uParam0->f_38[0 /*27*/].f_26 = 1;
 	func_3(iParam1, 388, &Var0, 0);
 	uParam0->f_38[0 /*27*/] = { Var0 };
@@ -10697,29 +13683,29 @@ void func_15(var uParam0, int iParam1)
 	uParam0->f_38[0 /*27*/].f_16 = { Var0 };
 	uParam0->f_38[0 /*27*/].f_19 = { Var0.f_3 };
 	uParam0->f_38[0 /*27*/].f_22 = 2;
-	func_16(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
+	func_17(uParam0->f_38[0 /*27*/].f_16, uParam0->f_38[0 /*27*/].f_19, &Var0, uParam0->f_38[0 /*27*/].f_22);
 	uParam0->f_38[0 /*27*/].f_12 = { Var0 };
 	uParam0->f_38[0 /*27*/].f_15 = Var0.f_3.f_2;
 	func_3(iParam1, 391, &Var0, 0);
-	uParam0->f_1916 = { Var0 };
-	uParam0->f_1916.f_3 = { Var0.f_3 };
-	uParam0->f_1916.f_6 = 55;
+	uParam0->f_1932 = { Var0 };
+	uParam0->f_1932.f_3 = { Var0.f_3 };
+	uParam0->f_1932.f_6 = 55;
 	func_3(iParam1, 392, &Var0, 0);
-	uParam0->f_1923 = { Var0 };
-	uParam0->f_1923.f_3 = { Var0.f_3 };
+	uParam0->f_1939 = { Var0 };
+	uParam0->f_1939.f_3 = { Var0.f_3 };
 	func_3(iParam1, 393, &Var0, 0);
-	uParam0->f_1936 = { Var0 };
-	uParam0->f_1936.f_3 = { Var0.f_3 };
+	uParam0->f_1952 = { Var0 };
+	uParam0->f_1952.f_3 = { Var0.f_3 };
 	func_3(iParam1, 394, &Var0, 0);
-	uParam0->f_1929 = { Var0 };
-	uParam0->f_1929.f_3 = { Var0.f_3 };
-	uParam0->f_1929.f_6 = 45;
+	uParam0->f_1945 = { Var0 };
+	uParam0->f_1945.f_3 = { Var0.f_3 };
+	uParam0->f_1945.f_6 = 45;
 	func_3(iParam1, 395, &Var0, 0);
-	uParam0->f_1948 = { Var0 };
-	uParam0->f_1948.f_3 = { Var0.f_3 };
+	uParam0->f_1964 = { Var0 };
+	uParam0->f_1964.f_3 = { Var0.f_3 };
 	func_3(iParam1, 396, &Var0, 0);
-	uParam0->f_1954 = { Var0 };
-	uParam0->f_1954.f_3 = { Var0.f_3 };
+	uParam0->f_1970 = { Var0 };
+	uParam0->f_1970.f_3 = { Var0.f_3 };
 	func_3(iParam1, 397, &Var0, 0);
 	uParam0->f_146[0 /*12*/].f_8 = { Var0 };
 	uParam0->f_146[0 /*12*/].f_11 = Var0.f_3.f_2;
@@ -10728,11 +13714,11 @@ void func_15(var uParam0, int iParam1)
 	uParam0->f_24.f_3 = { Var0.f_3 };
 	uParam0->f_24.f_6 = 84f;
 	func_3(iParam1, 418, &Var0, 0);
-	uParam0->f_1942 = { Var0 };
-	uParam0->f_1942.f_3 = { Var0.f_3 };
+	uParam0->f_1958 = { Var0 };
+	uParam0->f_1958.f_3 = { Var0.f_3 };
 	func_3(iParam1, 419, &Var0, 0);
-	uParam0->f_1960 = { Var0 };
-	uParam0->f_1960.f_3 = { Var0.f_3 };
+	uParam0->f_1976 = { Var0 };
+	uParam0->f_1976.f_3 = { Var0.f_3 };
 	uParam0->f_36 = 1;
 	func_3(iParam1, 561, &Var0, 0);
 	uParam0->f_1886[0 /*7*/] = { Var0 };
@@ -10740,7 +13726,7 @@ void func_15(var uParam0, int iParam1)
 	uParam0->f_1886[0 /*7*/].f_6 = 48.9991f;
 }
 
-void func_16(struct<3> Param0, struct<3> Param3, var uParam6, int iParam7)
+void func_17(struct<3> Param0, struct<3> Param3, var uParam6, int iParam7)
 {
 	struct<6> Var0;
 	struct<6> Var6;
@@ -10801,10 +13787,10 @@ void func_16(struct<3> Param0, struct<3> Param3, var uParam6, int iParam7)
 	}
 	Var12 = { Param0 };
 	Var12.f_3 = { Param3 };
-	func_17(Var0, Var6, Var12, uParam6);
+	func_18(Var0, Var6, Var12, uParam6);
 }
 
-void func_17(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struct<4> Param12, var uParam16, var uParam17, var uParam18)
+void func_18(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struct<4> Param12, var uParam16, var uParam17, var uParam18)
 {
 	struct<3> Var0;
 	
@@ -10812,8 +13798,8 @@ void func_17(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struc
 	Var0 = { *uParam18 - Param0 };
 	Var0 = { func_4(Var0, -Param0.f_3.f_2) };
 	Var0 = { func_4(Var0, Param12.f_3.f_2) };
-	*uParam18 = { unk_0xE79F1883B253E5B8(Param12, 0f, Var0) };
-	if (!func_18(Param12.f_3, Param0.f_3, 0))
+	*uParam18 = { unk_0x8E183FB8F99DD2D7(Param12, 0f, Var0) };
+	if (!func_19(Param12.f_3, Param0.f_3, 0))
 	{
 		while (Param0.f_3.f_2 > 180f)
 		{
@@ -10843,7 +13829,7 @@ void func_17(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struc
 	}
 }
 
-bool func_18(struct<3> Param0, struct<3> Param3, bool bParam6)
+bool func_19(struct<3> Param0, struct<3> Param3, bool bParam6)
 {
 	if (bParam6)
 	{
@@ -10852,7 +13838,7 @@ bool func_18(struct<3> Param0, struct<3> Param3, bool bParam6)
 	return ((Param0.f_0 == Param3.f_0 && Param0.f_1 == Param3.f_1) && Param0.f_2 == Param3.f_2);
 }
 
-void func_19()
+void func_20()
 {
 	int iVar0;
 	struct<4> Var1;
@@ -10861,434 +13847,434 @@ void func_19()
 	iVar0 = 0;
 	while (iVar0 < 36)
 	{
-		Var1 = { func_10(iVar0) };
-		Global_4004958[iVar0 /*45*/] = { Var1 };
-		Global_4004958[iVar0 /*45*/].f_3 = Var1.f_3.f_2;
-		func_21(iVar0, &(Global_4004958[iVar0 /*45*/].f_8), &(Global_4004958[iVar0 /*45*/].f_11));
+		Var1 = { func_11(iVar0) };
+		Global_4005550[iVar0 /*45*/] = { Var1 };
+		Global_4005550[iVar0 /*45*/].f_3 = Var1.f_3.f_2;
+		func_22(iVar0, &(Global_4005550[iVar0 /*45*/].f_8), &(Global_4005550[iVar0 /*45*/].f_11));
 		iVar0++;
 	}
-	StringCopy(&(Global_4004958[0 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp01_1", 32);
-	StringCopy(&(Global_4004958[1 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp01_2", 32);
-	StringCopy(&(Global_4004958[2 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp01_3", 32);
-	StringCopy(&(Global_4004958[3 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp02_1", 32);
-	StringCopy(&(Global_4004958[4 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp02_2", 32);
-	StringCopy(&(Global_4004958[5 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp02_3", 32);
-	StringCopy(&(Global_4004958[6 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp03_1", 32);
-	StringCopy(&(Global_4004958[7 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp03_2", 32);
-	StringCopy(&(Global_4004958[8 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp03_3", 32);
-	StringCopy(&(Global_4004958[9 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp04_1", 32);
-	StringCopy(&(Global_4004958[10 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp04_2", 32);
-	StringCopy(&(Global_4004958[11 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp04_3", 32);
-	StringCopy(&(Global_4004958[12 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp05_1", 32);
-	StringCopy(&(Global_4004958[13 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp05_2", 32);
-	StringCopy(&(Global_4004958[14 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp05_3", 32);
-	StringCopy(&(Global_4004958[15 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp06_1", 32);
-	StringCopy(&(Global_4004958[16 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp06_2", 32);
-	StringCopy(&(Global_4004958[17 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp06_3", 32);
-	StringCopy(&(Global_4004958[18 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp07_1", 32);
-	StringCopy(&(Global_4004958[19 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp07_2", 32);
-	StringCopy(&(Global_4004958[20 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp07_3", 32);
-	StringCopy(&(Global_4004958[21 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp08_1", 32);
-	StringCopy(&(Global_4004958[22 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp08_2", 32);
-	StringCopy(&(Global_4004958[23 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp08_3", 32);
-	StringCopy(&(Global_4004958[24 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp09_1", 32);
-	StringCopy(&(Global_4004958[25 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp09_2", 32);
-	StringCopy(&(Global_4004958[26 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp09_3", 32);
-	StringCopy(&(Global_4004958[27 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp10_1", 32);
-	StringCopy(&(Global_4004958[28 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp10_2", 32);
-	StringCopy(&(Global_4004958[29 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp10_3", 32);
-	StringCopy(&(Global_4004958[30 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp11_1", 32);
-	StringCopy(&(Global_4004958[31 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp11_2", 32);
-	StringCopy(&(Global_4004958[32 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp11_3", 32);
-	StringCopy(&(Global_4004958[33 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp12_1", 32);
-	StringCopy(&(Global_4004958[34 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp12_2", 32);
-	StringCopy(&(Global_4004958[35 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp12_3", 32);
+	StringCopy(&(Global_4005550[0 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp01_1", 32);
+	StringCopy(&(Global_4005550[1 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp01_2", 32);
+	StringCopy(&(Global_4005550[2 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp01_3", 32);
+	StringCopy(&(Global_4005550[3 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp02_1", 32);
+	StringCopy(&(Global_4005550[4 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp02_2", 32);
+	StringCopy(&(Global_4005550[5 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp02_3", 32);
+	StringCopy(&(Global_4005550[6 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp03_1", 32);
+	StringCopy(&(Global_4005550[7 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp03_2", 32);
+	StringCopy(&(Global_4005550[8 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp03_3", 32);
+	StringCopy(&(Global_4005550[9 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp04_1", 32);
+	StringCopy(&(Global_4005550[10 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp04_2", 32);
+	StringCopy(&(Global_4005550[11 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp04_3", 32);
+	StringCopy(&(Global_4005550[12 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp05_1", 32);
+	StringCopy(&(Global_4005550[13 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp05_2", 32);
+	StringCopy(&(Global_4005550[14 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp05_3", 32);
+	StringCopy(&(Global_4005550[15 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp06_1", 32);
+	StringCopy(&(Global_4005550[16 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp06_2", 32);
+	StringCopy(&(Global_4005550[17 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp06_3", 32);
+	StringCopy(&(Global_4005550[18 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp07_1", 32);
+	StringCopy(&(Global_4005550[19 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp07_2", 32);
+	StringCopy(&(Global_4005550[20 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp07_3", 32);
+	StringCopy(&(Global_4005550[21 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp08_1", 32);
+	StringCopy(&(Global_4005550[22 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp08_2", 32);
+	StringCopy(&(Global_4005550[23 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp08_3", 32);
+	StringCopy(&(Global_4005550[24 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp09_1", 32);
+	StringCopy(&(Global_4005550[25 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp09_2", 32);
+	StringCopy(&(Global_4005550[26 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp09_3", 32);
+	StringCopy(&(Global_4005550[27 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp10_1", 32);
+	StringCopy(&(Global_4005550[28 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp10_2", 32);
+	StringCopy(&(Global_4005550[29 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp10_3", 32);
+	StringCopy(&(Global_4005550[30 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp11_1", 32);
+	StringCopy(&(Global_4005550[31 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp11_2", 32);
+	StringCopy(&(Global_4005550[32 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp11_3", 32);
+	StringCopy(&(Global_4005550[33 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp12_1", 32);
+	StringCopy(&(Global_4005550[34 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp12_2", 32);
+	StringCopy(&(Global_4005550[35 /*45*/].f_15[0 /*8*/]), "apa_yacht_grp12_3", 32);
 	iVar0 = 0;
 	while (iVar0 < 36)
 	{
-		MemCopy(&Var7, {Global_4004958[iVar0 /*45*/].f_15[0 /*8*/]}, 16);
+		MemCopy(&Var7, {Global_4005550[iVar0 /*45*/].f_15[0 /*8*/]}, 16);
 		StringConCat(&Var7, "_int", 64);
-		MemCopy(&(Global_4004958[iVar0 /*45*/].f_15[1 /*8*/]), {Var7}, 8);
+		MemCopy(&(Global_4005550[iVar0 /*45*/].f_15[1 /*8*/]), {Var7}, 8);
 		iVar0++;
 	}
-	Global_4004958[0 /*45*/].f_32[0 /*4*/] = { -3215.529f, 1337.033f, 1.2217f };
-	Global_4004958[0 /*45*/].f_32[0 /*4*/].f_3 = 233.0511f;
-	Global_4004958[0 /*45*/].f_32[1 /*4*/] = { -3187.057f, 1371.292f, 16.1699f };
-	Global_4004958[0 /*45*/].f_32[1 /*4*/].f_3 = 68.4861f;
-	Global_4004958[0 /*45*/].f_32[2 /*4*/] = { -3262.416f, 1343.043f, 0f };
-	Global_4004958[0 /*45*/].f_32[2 /*4*/].f_3 = 64.1521f;
-	Global_4004958[1 /*45*/].f_32[0 /*4*/] = { -2907.311f, 3083.429f, 2.1057f };
-	Global_4004958[1 /*45*/].f_32[0 /*4*/].f_3 = 315.0847f;
-	Global_4004958[1 /*45*/].f_32[1 /*4*/] = { -2917.641f, 3057.153f, 2.3254f };
-	Global_4004958[1 /*45*/].f_32[1 /*4*/].f_3 = 139.554f;
-	Global_4004958[1 /*45*/].f_32[2 /*4*/] = { -2959.761f, 3069.291f, 0f };
-	Global_4004958[1 /*45*/].f_32[2 /*4*/].f_3 = 140.7879f;
-	Global_4004958[2 /*45*/].f_32[0 /*4*/] = { -2781.983f, 2347.446f, 1.4625f };
-	Global_4004958[2 /*45*/].f_32[0 /*4*/].f_3 = 301.6382f;
-	Global_4004958[2 /*45*/].f_32[1 /*4*/] = { -2817.162f, 2320.752f, 1.608f };
-	Global_4004958[2 /*45*/].f_32[1 /*4*/].f_3 = 76.4715f;
-	Global_4004958[2 /*45*/].f_32[2 /*4*/] = { -2846.729f, 2354.843f, 0f };
-	Global_4004958[2 /*45*/].f_32[2 /*4*/].f_3 = 109.8094f;
-	Global_4004958[3 /*45*/].f_32[0 /*4*/] = { -2498.844f, 3752.328f, 14.2509f };
-	Global_4004958[3 /*45*/].f_32[0 /*4*/].f_3 = 217.676f;
-	Global_4004958[3 /*45*/].f_32[1 /*4*/] = { -2502.912f, 3719.516f, 13.1249f };
-	Global_4004958[3 /*45*/].f_32[1 /*4*/].f_3 = 55.3889f;
-	Global_4004958[3 /*45*/].f_32[2 /*4*/] = { -2638.53f, 3864.123f, 0f };
-	Global_4004958[3 /*45*/].f_32[2 /*4*/].f_3 = 59.3129f;
-	Global_4004958[4 /*45*/].f_32[0 /*4*/] = { -3043.023f, 3440.002f, 2.8783f };
-	Global_4004958[4 /*45*/].f_32[0 /*4*/].f_3 = 267.8972f;
-	Global_4004958[4 /*45*/].f_32[1 /*4*/] = { -2972.322f, 3456.31f, 8.8206f };
-	Global_4004958[4 /*45*/].f_32[1 /*4*/].f_3 = 40.0795f;
-	Global_4004958[4 /*45*/].f_32[2 /*4*/] = { -3107.278f, 3475.423f, 0f };
-	Global_4004958[4 /*45*/].f_32[2 /*4*/].f_3 = 33.9091f;
-	Global_4004958[5 /*45*/].f_32[0 /*4*/] = { -2408.221f, 4243.086f, 9.0072f };
-	Global_4004958[5 /*45*/].f_32[0 /*4*/].f_3 = 291.9838f;
-	Global_4004958[5 /*45*/].f_32[1 /*4*/] = { -2418.341f, 4218.906f, 8.7096f };
-	Global_4004958[5 /*45*/].f_32[1 /*4*/].f_3 = 345.1725f;
-	Global_4004958[5 /*45*/].f_32[2 /*4*/] = { -2392.848f, 4424.469f, 0f };
-	Global_4004958[5 /*45*/].f_32[2 /*4*/].f_3 = 24.173f;
-	Global_4004958[6 /*45*/].f_32[0 /*4*/] = { -3093.101f, 192.3021f, 5.8948f };
-	Global_4004958[6 /*45*/].f_32[0 /*4*/].f_3 = 282.932f;
-	Global_4004958[6 /*45*/].f_32[1 /*4*/] = { -3078.07f, 154.1856f, 9.8672f };
-	Global_4004958[6 /*45*/].f_32[1 /*4*/].f_3 = 122.1543f;
-	Global_4004958[6 /*45*/].f_32[2 /*4*/] = { -3135.21f, 65.4845f, 0f };
-	Global_4004958[6 /*45*/].f_32[2 /*4*/].f_3 = 109.4958f;
-	Global_4004958[7 /*45*/].f_32[0 /*4*/] = { -3067.833f, 182.1174f, 10.48f };
-	Global_4004958[7 /*45*/].f_32[0 /*4*/].f_3 = 316.2727f;
-	Global_4004958[7 /*45*/].f_32[1 /*4*/] = { -3092.81f, 432.5182f, 1.3684f };
-	Global_4004958[7 /*45*/].f_32[1 /*4*/].f_3 = 85.3024f;
-	Global_4004958[7 /*45*/].f_32[2 /*4*/] = { -3211.319f, 290.425f, 0f };
-	Global_4004958[7 /*45*/].f_32[2 /*4*/].f_3 = 92.1519f;
-	Global_4004958[8 /*45*/].f_32[0 /*4*/] = { -2702.644f, -104.7734f, 4.2172f };
-	Global_4004958[8 /*45*/].f_32[0 /*4*/].f_3 = 353.8816f;
-	Global_4004958[8 /*45*/].f_32[1 /*4*/] = { -2823.573f, -29.9384f, 3.1771f };
-	Global_4004958[8 /*45*/].f_32[1 /*4*/].f_3 = 178.7297f;
-	Global_4004958[8 /*45*/].f_32[2 /*4*/] = { -2734.093f, -154.0857f, 0f };
-	Global_4004958[8 /*45*/].f_32[2 /*4*/].f_3 = 141.6168f;
-	Global_4004958[9 /*45*/].f_32[0 /*4*/] = { -1463.463f, -1393.569f, 1.5368f };
-	Global_4004958[9 /*45*/].f_32[0 /*4*/].f_3 = 287.3892f;
-	Global_4004958[9 /*45*/].f_32[1 /*4*/] = { -1424.592f, -1404.746f, 3.177f };
-	Global_4004958[9 /*45*/].f_32[1 /*4*/].f_3 = 100.235f;
-	Global_4004958[9 /*45*/].f_32[2 /*4*/] = { -1534.528f, -1438.445f, 0f };
-	Global_4004958[9 /*45*/].f_32[2 /*4*/].f_3 = 121.4151f;
-	Global_4004958[10 /*45*/].f_32[0 /*4*/] = { -1239.736f, -2066f, 13.2375f };
-	Global_4004958[10 /*45*/].f_32[0 /*4*/].f_3 = 297.049f;
-	Global_4004958[10 /*45*/].f_32[1 /*4*/] = { -1332.874f, -2123.406f, 13.1281f };
-	Global_4004958[10 /*45*/].f_32[1 /*4*/].f_3 = 75.73f;
-	Global_4004958[10 /*45*/].f_32[2 /*4*/] = { -1402.575f, -2094.522f, 0f };
-	Global_4004958[10 /*45*/].f_32[2 /*4*/].f_3 = 70.1691f;
-	Global_4004958[11 /*45*/].f_32[0 /*4*/] = { -1224.04f, -1777.919f, 2.2519f };
-	Global_4004958[11 /*45*/].f_32[0 /*4*/].f_3 = 335.8759f;
-	Global_4004958[11 /*45*/].f_32[1 /*4*/] = { -1217.13f, -1833.299f, 1.5737f };
-	Global_4004958[11 /*45*/].f_32[1 /*4*/].f_3 = 123.5309f;
-	Global_4004958[11 /*45*/].f_32[2 /*4*/] = { -1277.278f, -1875.247f, 0f };
-	Global_4004958[11 /*45*/].f_32[2 /*4*/].f_3 = 118.8218f;
-	Global_4004958[12 /*45*/].f_32[0 /*4*/] = { 108.4327f, -3325.779f, 5f };
-	Global_4004958[12 /*45*/].f_32[0 /*4*/].f_3 = 0.552f;
-	Global_4004958[12 /*45*/].f_32[1 /*4*/] = { 134.3913f, -2804.358f, 5.0002f };
-	Global_4004958[12 /*45*/].f_32[1 /*4*/].f_3 = 223.52f;
-	Global_4004958[12 /*45*/].f_32[2 /*4*/] = { 98.6531f, -3324.339f, 0f };
-	Global_4004958[12 /*45*/].f_32[2 /*4*/].f_3 = 167.3062f;
-	Global_4004958[13 /*45*/].f_32[0 /*4*/] = { 108.5783f, -3258.347f, 5f };
-	Global_4004958[13 /*45*/].f_32[0 /*4*/].f_3 = 359.6605f;
-	Global_4004958[13 /*45*/].f_32[1 /*4*/] = { 149.4426f, -2791.039f, 5.0002f };
-	Global_4004958[13 /*45*/].f_32[1 /*4*/].f_3 = 218.7591f;
-	Global_4004958[13 /*45*/].f_32[2 /*4*/] = { 94.8648f, -3249.486f, 0f };
-	Global_4004958[13 /*45*/].f_32[2 /*4*/].f_3 = 164.5406f;
-	Global_4004958[14 /*45*/].f_32[0 /*4*/] = { -406.993f, -2851.122f, 5.0004f };
-	Global_4004958[14 /*45*/].f_32[0 /*4*/].f_3 = 315.8702f;
-	Global_4004958[14 /*45*/].f_32[1 /*4*/] = { -380.5807f, -2820.387f, 5.0003f };
-	Global_4004958[14 /*45*/].f_32[1 /*4*/].f_3 = 160.48f;
-	Global_4004958[14 /*45*/].f_32[2 /*4*/] = { -456.5881f, -2906.157f, 0f };
-	Global_4004958[14 /*45*/].f_32[2 /*4*/].f_3 = 162.6687f;
-	Global_4004958[15 /*45*/].f_32[0 /*4*/] = { 1292.652f, -3088.689f, 4.9066f };
-	Global_4004958[15 /*45*/].f_32[0 /*4*/].f_3 = 60.2816f;
-	Global_4004958[15 /*45*/].f_32[1 /*4*/] = { 1288.942f, -3074.029f, 4.934f };
-	Global_4004958[15 /*45*/].f_32[1 /*4*/].f_3 = 258.5226f;
-	Global_4004958[15 /*45*/].f_32[2 /*4*/] = { 1308.678f, -3083.984f, 0f };
-	Global_4004958[15 /*45*/].f_32[2 /*4*/].f_3 = 343.9506f;
-	Global_4004958[16 /*45*/].f_32[0 /*4*/] = { 1206.367f, -2669.062f, 3.001f };
-	Global_4004958[16 /*45*/].f_32[0 /*4*/].f_3 = 77.4622f;
-	Global_4004958[16 /*45*/].f_32[1 /*4*/] = { 1377.173f, -2710.035f, 2.1007f };
-	Global_4004958[16 /*45*/].f_32[1 /*4*/].f_3 = 178.4367f;
-	Global_4004958[16 /*45*/].f_32[2 /*4*/] = { 1313.231f, -2800.326f, 0f };
-	Global_4004958[16 /*45*/].f_32[2 /*4*/].f_3 = 250.5272f;
-	Global_4004958[17 /*45*/].f_32[0 /*4*/] = { 1288.72f, -3343.127f, 4.9016f };
-	Global_4004958[17 /*45*/].f_32[0 /*4*/].f_3 = 83.766f;
-	Global_4004958[17 /*45*/].f_32[1 /*4*/] = { 1291.003f, -3327.35f, 4.9049f };
-	Global_4004958[17 /*45*/].f_32[1 /*4*/].f_3 = 271.1578f;
-	Global_4004958[17 /*45*/].f_32[2 /*4*/] = { 1301.827f, -3357.499f, 0f };
-	Global_4004958[17 /*45*/].f_32[2 /*4*/].f_3 = 301.3926f;
-	Global_4004958[18 /*45*/].f_32[0 /*4*/] = { 2797.366f, -698.9788f, 2.5743f };
-	Global_4004958[18 /*45*/].f_32[0 /*4*/].f_3 = 119.8324f;
-	Global_4004958[18 /*45*/].f_32[1 /*4*/] = { 2684.635f, -863.2911f, 24.9476f };
-	Global_4004958[18 /*45*/].f_32[1 /*4*/].f_3 = 212.3963f;
-	Global_4004958[18 /*45*/].f_32[2 /*4*/] = { 2871.985f, -733.9852f, 0f };
-	Global_4004958[18 /*45*/].f_32[2 /*4*/].f_3 = 228.3137f;
-	Global_4004958[19 /*45*/].f_32[0 /*4*/] = { 2799.071f, -713.1099f, 3.5076f };
-	Global_4004958[19 /*45*/].f_32[0 /*4*/].f_3 = 92.0258f;
-	Global_4004958[19 /*45*/].f_32[1 /*4*/] = { 2784.094f, -730.8027f, 5.7956f };
-	Global_4004958[19 /*45*/].f_32[1 /*4*/].f_3 = 299.093f;
-	Global_4004958[19 /*45*/].f_32[2 /*4*/] = { 2862.474f, -601.0669f, 0f };
-	Global_4004958[19 /*45*/].f_32[2 /*4*/].f_3 = 267.4701f;
-	Global_4004958[20 /*45*/].f_32[0 /*4*/] = { 2803.415f, -676.9994f, 1.6518f };
-	Global_4004958[20 /*45*/].f_32[0 /*4*/].f_3 = 78.5588f;
-	Global_4004958[20 /*45*/].f_32[1 /*4*/] = { 2696.749f, -828.5058f, 27.1032f };
-	Global_4004958[20 /*45*/].f_32[1 /*4*/].f_3 = 193.2687f;
-	Global_4004958[20 /*45*/].f_32[2 /*4*/] = { 2866.837f, -791.7337f, 0f };
-	Global_4004958[20 /*45*/].f_32[2 /*4*/].f_3 = 232.5099f;
-	Global_4004958[21 /*45*/].f_32[0 /*4*/] = { 2768.212f, 1263.657f, 2.8663f };
-	Global_4004958[21 /*45*/].f_32[0 /*4*/].f_3 = 118.7555f;
-	Global_4004958[21 /*45*/].f_32[1 /*4*/] = { 2566.175f, 1751.526f, 23.7902f };
-	Global_4004958[21 /*45*/].f_32[1 /*4*/].f_3 = 273.4148f;
-	Global_4004958[21 /*45*/].f_32[2 /*4*/] = { 2820.863f, 1272.885f, 0f };
-	Global_4004958[21 /*45*/].f_32[2 /*4*/].f_3 = 275.3719f;
-	Global_4004958[22 /*45*/].f_32[0 /*4*/] = { 2774.699f, 1207.855f, 0.7296f };
-	Global_4004958[22 /*45*/].f_32[0 /*4*/].f_3 = 90.8381f;
-	Global_4004958[22 /*45*/].f_32[1 /*4*/] = { 2567.04f, 931.361f, 82.2892f };
-	Global_4004958[22 /*45*/].f_32[1 /*4*/].f_3 = 294.8305f;
-	Global_4004958[22 /*45*/].f_32[2 /*4*/] = { 2813.253f, 1202.955f, 0f };
-	Global_4004958[22 /*45*/].f_32[2 /*4*/].f_3 = 268.3473f;
-	Global_4004958[23 /*45*/].f_32[0 /*4*/] = { 3866.215f, 4345.182f, 5.5636f };
-	Global_4004958[23 /*45*/].f_32[0 /*4*/].f_3 = 24.0254f;
-	Global_4004958[23 /*45*/].f_32[1 /*4*/] = { 2700.47f, 2979.347f, 35.5843f };
-	Global_4004958[23 /*45*/].f_32[1 /*4*/].f_3 = 211.797f;
-	Global_4004958[23 /*45*/].f_32[2 /*4*/] = { 3892.01f, 4291.369f, 0f };
-	Global_4004958[23 /*45*/].f_32[2 /*4*/].f_3 = 228.3766f;
-	Global_4004958[24 /*45*/].f_32[0 /*4*/] = { 3868.027f, 4327.946f, 5.1203f };
-	Global_4004958[24 /*45*/].f_32[0 /*4*/].f_3 = 5.5954f;
-	Global_4004958[24 /*45*/].f_32[1 /*4*/] = { 3928.766f, 4393.218f, 15.5509f };
-	Global_4004958[24 /*45*/].f_32[1 /*4*/].f_3 = 292.8381f;
-	Global_4004958[24 /*45*/].f_32[2 /*4*/] = { 3907.16f, 4311.723f, 0f };
-	Global_4004958[24 /*45*/].f_32[2 /*4*/].f_3 = 256.1528f;
-	Global_4004958[25 /*45*/].f_32[0 /*4*/] = { 3809.338f, 4456.854f, 3.1726f };
-	Global_4004958[25 /*45*/].f_32[0 /*4*/].f_3 = 74.3336f;
-	Global_4004958[25 /*45*/].f_32[1 /*4*/] = { 3788.623f, 4507.489f, 6.0836f };
-	Global_4004958[25 /*45*/].f_32[1 /*4*/].f_3 = 328.0288f;
-	Global_4004958[25 /*45*/].f_32[2 /*4*/] = { 3854.021f, 4504.268f, 0f };
-	Global_4004958[25 /*45*/].f_32[2 /*4*/].f_3 = 285.2981f;
-	Global_4004958[26 /*45*/].f_32[0 /*4*/] = { 3811.947f, 4469.669f, 2.9054f };
-	Global_4004958[26 /*45*/].f_32[0 /*4*/].f_3 = 120.0346f;
-	Global_4004958[26 /*45*/].f_32[1 /*4*/] = { 3847.531f, 4397.894f, 3.1748f };
-	Global_4004958[26 /*45*/].f_32[1 /*4*/].f_3 = 338.2054f;
-	Global_4004958[26 /*45*/].f_32[2 /*4*/] = { 3868.626f, 4442.403f, 0f };
-	Global_4004958[26 /*45*/].f_32[2 /*4*/].f_3 = 281.4086f;
-	Global_4004958[27 /*45*/].f_32[0 /*4*/] = { 3258.916f, 5217.696f, 18.945f };
-	Global_4004958[27 /*45*/].f_32[0 /*4*/].f_3 = 181.2822f;
-	Global_4004958[27 /*45*/].f_32[1 /*4*/] = { 3275.727f, 5199.218f, 17.9096f };
-	Global_4004958[27 /*45*/].f_32[1 /*4*/].f_3 = 328.593f;
-	Global_4004958[27 /*45*/].f_32[2 /*4*/] = { 3248.643f, 5322.504f, 0f };
-	Global_4004958[27 /*45*/].f_32[2 /*4*/].f_3 = 274.5202f;
-	Global_4004958[28 /*45*/].f_32[0 /*4*/] = { 3338.185f, 5573.443f, 20.3965f };
-	Global_4004958[28 /*45*/].f_32[0 /*4*/].f_3 = 200.2075f;
-	Global_4004958[28 /*45*/].f_32[1 /*4*/] = { 3415.69f, 5493.976f, 23.6685f };
-	Global_4004958[28 /*45*/].f_32[1 /*4*/].f_3 = 294.2202f;
-	Global_4004958[28 /*45*/].f_32[2 /*4*/] = { 3386.887f, 5696.864f, 0f };
-	Global_4004958[28 /*45*/].f_32[2 /*4*/].f_3 = 285.1223f;
-	Global_4004958[29 /*45*/].f_32[0 /*4*/] = { 3780.474f, 4477.698f, 5.2422f };
-	Global_4004958[29 /*45*/].f_32[0 /*4*/].f_3 = 135.4026f;
-	Global_4004958[29 /*45*/].f_32[1 /*4*/] = { 3392.134f, 4993.051f, 30.5221f };
-	Global_4004958[29 /*45*/].f_32[1 /*4*/].f_3 = 300.8156f;
-	Global_4004958[29 /*45*/].f_32[2 /*4*/] = { 3800.573f, 4576.032f, 0f };
-	Global_4004958[29 /*45*/].f_32[2 /*4*/].f_3 = 328.0469f;
-	Global_4004958[30 /*45*/].f_32[0 /*4*/] = { 265.2008f, 6992.325f, 2.9654f };
-	Global_4004958[30 /*45*/].f_32[0 /*4*/].f_3 = 165.6404f;
-	Global_4004958[30 /*45*/].f_32[1 /*4*/] = { 228.2158f, 6992.481f, 1.5349f };
-	Global_4004958[30 /*45*/].f_32[1 /*4*/].f_3 = 338.5522f;
-	Global_4004958[30 /*45*/].f_32[2 /*4*/] = { 309.4163f, 7025.832f, 0f };
-	Global_4004958[30 /*45*/].f_32[2 /*4*/].f_3 = 298.1702f;
-	Global_4004958[31 /*45*/].f_32[0 /*4*/] = { 1459.03f, 6570.599f, 12.3527f };
-	Global_4004958[31 /*45*/].f_32[0 /*4*/].f_3 = 133.2433f;
-	Global_4004958[31 /*45*/].f_32[1 /*4*/] = { 1618.721f, 6659.766f, 22.3415f };
-	Global_4004958[31 /*45*/].f_32[1 /*4*/].f_3 = 342.8323f;
-	Global_4004958[31 /*45*/].f_32[2 /*4*/] = { 1563.629f, 6684.272f, 0f };
-	Global_4004958[31 /*45*/].f_32[2 /*4*/].f_3 = 357.4255f;
-	Global_4004958[32 /*45*/].f_32[0 /*4*/] = { 1390.502f, 6592.286f, 11.5278f };
-	Global_4004958[32 /*45*/].f_32[0 /*4*/].f_3 = 283.1772f;
-	Global_4004958[32 /*45*/].f_32[1 /*4*/] = { 1142.376f, 6535.105f, 17.5983f };
-	Global_4004958[32 /*45*/].f_32[1 /*4*/].f_3 = 342.9795f;
-	Global_4004958[32 /*45*/].f_32[2 /*4*/] = { 1280.147f, 6660.721f, 0f };
-	Global_4004958[32 /*45*/].f_32[2 /*4*/].f_3 = 344.6634f;
-	Global_4004958[33 /*45*/].f_32[0 /*4*/] = { -817.0295f, 5881.543f, 6.2074f };
-	Global_4004958[33 /*45*/].f_32[0 /*4*/].f_3 = 258.9158f;
-	Global_4004958[33 /*45*/].f_32[1 /*4*/] = { -821.1178f, 5935.959f, 19.9904f };
-	Global_4004958[33 /*45*/].f_32[1 /*4*/].f_3 = 129.2778f;
-	Global_4004958[33 /*45*/].f_32[2 /*4*/] = { -915.4951f, 5851.08f, 0f };
-	Global_4004958[33 /*45*/].f_32[2 /*4*/].f_3 = 79.7242f;
-	Global_4004958[34 /*45*/].f_32[0 /*4*/] = { -635.697f, 6156.933f, 1.9706f };
-	Global_4004958[34 /*45*/].f_32[0 /*4*/].f_3 = 272.4947f;
-	Global_4004958[34 /*45*/].f_32[1 /*4*/] = { -560.5052f, 6254.325f, 7.6306f };
-	Global_4004958[34 /*45*/].f_32[1 /*4*/].f_3 = 42.5652f;
-	Global_4004958[34 /*45*/].f_32[2 /*4*/] = { -685.4041f, 6252.036f, 0f };
-	Global_4004958[34 /*45*/].f_32[2 /*4*/].f_3 = 51.8815f;
-	Global_4004958[35 /*45*/].f_32[0 /*4*/] = { -99.1651f, 6722.008f, 0.5012f };
-	Global_4004958[35 /*45*/].f_32[0 /*4*/].f_3 = 268.104f;
-	Global_4004958[35 /*45*/].f_32[1 /*4*/] = { -142.6568f, 6651.685f, 0.9997f };
-	Global_4004958[35 /*45*/].f_32[1 /*4*/].f_3 = 32.9657f;
-	Global_4004958[35 /*45*/].f_32[2 /*4*/] = { -185.4709f, 6733.273f, 0f };
-	Global_4004958[35 /*45*/].f_32[2 /*4*/].f_3 = 14.6319f;
-	Global_4006686[0 /*4*/] = { 5.8173f, -48.2285f, -5.5287f };
-	Global_4006686[0 /*4*/].f_3 = 30.0067f;
-	Global_4006686[1 /*4*/] = { -5.0147f, -46.5139f, -5.5286f };
-	Global_4006686[1 /*4*/].f_3 = 198.2057f;
-	Global_4006686[2 /*4*/] = { -0.3064f, -40.6402f, -2.431f };
-	Global_4006686[2 /*4*/].f_3 = 190.904f;
-	Global_4006686[3 /*4*/] = { 6.708f, -25.9916f, 0.4969f };
-	Global_4006686[3 /*4*/].f_3 = 286.8118f;
-	Global_4006686[4 /*4*/] = { -3.9829f, -25.182f, 0.497f };
-	Global_4006686[4 /*4*/].f_3 = 187.8127f;
-	Global_4006686[5 /*4*/] = { 1.187f, -14.8577f, 0.4968f };
-	Global_4006686[5 /*4*/].f_3 = 223.2354f;
-	Global_4006686[6 /*4*/] = { 1.9789f, -43.6601f, -5.5216f };
-	Global_4006686[6 /*4*/].f_3 = 132.0817f;
-	Global_4006686[7 /*4*/] = { -2.2018f, -43.2581f, -5.5209f };
-	Global_4006686[7 /*4*/].f_3 = 210.6833f;
-	Global_4006686[8 /*4*/] = { -3.5979f, -37.4337f, -2.4323f };
-	Global_4006686[8 /*4*/].f_3 = 232.0388f;
-	Global_4006686[9 /*4*/] = { 3.5456f, -36.9838f, -2.4323f };
-	Global_4006686[9 /*4*/].f_3 = 141.3021f;
-	Global_4006686[10 /*4*/] = { 2.0707f, -34.8316f, -2.4323f };
-	Global_4006686[10 /*4*/].f_3 = 157.8206f;
-	Global_4006686[11 /*4*/] = { -1.0928f, -33.9597f, -2.4323f };
-	Global_4006686[11 /*4*/].f_3 = 175.8183f;
-	Global_4006686[12 /*4*/] = { -5.842f, -28.0408f, 0.5039f };
-	Global_4006686[12 /*4*/].f_3 = 215.1446f;
-	Global_4006686[13 /*4*/] = { -1.4056f, -15.1676f, 0.5038f };
-	Global_4006686[13 /*4*/].f_3 = 161.5367f;
-	Global_4006686[14 /*4*/] = { -1.4056f, -15.1676f, 0.5038f };
-	Global_4006686[14 /*4*/].f_3 = 161.5367f;
-	Global_4006686[15 /*4*/] = { 5.7803f, -18.6142f, 0.5038f };
-	Global_4006686[15 /*4*/].f_3 = 232.0092f;
-	Global_4006686[16 /*4*/] = { 4.8851f, -27.8689f, 0.504f };
-	Global_4006686[16 /*4*/].f_3 = 159.7201f;
-	Global_4006686[17 /*4*/] = { 6.4316f, -51.9249f, -5.5218f };
-	Global_4006686[17 /*4*/].f_3 = 171.7628f;
-	Global_4006686[18 /*4*/] = { -6.4454f, -51.563f, -5.5221f };
-	Global_4006686[18 /*4*/].f_3 = 170.0196f;
-	Global_4006686[19 /*4*/] = { -6.0149f, -38.0291f, -5.5207f };
-	Global_4006686[19 /*4*/].f_3 = 141.0158f;
-	Global_4006686[20 /*4*/] = { 5.9235f, -38.2919f, -5.5218f };
-	Global_4006686[20 /*4*/].f_3 = 251.4813f;
-	Global_4006686[21 /*4*/] = { 6.8878f, -27.0348f, -5.5218f };
-	Global_4006686[21 /*4*/].f_3 = 227.1692f;
-	Global_4006686[22 /*4*/] = { 6.8878f, -27.0348f, -5.5218f };
-	Global_4006686[22 /*4*/].f_3 = 227.1692f;
-	Global_4006686[23 /*4*/] = { -6.4161f, -33.4939f, -5.5201f };
-	Global_4006686[23 /*4*/].f_3 = 129.7836f;
-	Global_4006686[24 /*4*/] = { -6.4161f, -33.4939f, -5.5201f };
-	Global_4006686[24 /*4*/].f_3 = 129.7836f;
-	Global_4006686[25 /*4*/] = { -6.8883f, -28.2909f, -5.5199f };
-	Global_4006686[25 /*4*/].f_3 = 176.8486f;
-	Global_4006686[26 /*4*/] = { -6.5118f, -25.1397f, -5.5203f };
-	Global_4006686[26 /*4*/].f_3 = 113.7529f;
-	Global_4006686[27 /*4*/] = { -6.2417f, -33.0709f, -0.6002f };
-	Global_4006686[27 /*4*/].f_3 = 188.1441f;
-	Global_4006686[28 /*4*/] = { 6.1422f, -32.388f, -0.2794f };
-	Global_4006686[28 /*4*/].f_3 = 165.495f;
-	Global_4006686[29 /*4*/] = { -0.7784f, -22.1027f, 0.5038f };
-	Global_4006686[29 /*4*/].f_3 = 172.0094f;
-	Global_4006807[0 /*4*/] = { -0.8319f, 12.3016f, -5.5208f };
-	Global_4006807[0 /*4*/].f_3 = 270.5026f;
-	Global_4006807[1 /*4*/] = { -4.673f, 24.2213f, -5.521f };
-	Global_4006807[1 /*4*/].f_3 = 164.555f;
-	Global_4006807[2 /*4*/] = { -2.4334f, 5.4224f, -2.4335f };
-	Global_4006807[2 /*4*/].f_3 = 270.4796f;
-	func_20();
-	Global_4006820[0 /*3*/] = { 0f, 0f, 0f };
-	Global_4006820[1 /*3*/] = { Global_4004958[3 /*45*/] + Global_4004958[4 /*45*/] + Global_4004958[5 /*45*/] };
-	Global_4006820[2 /*3*/] = { Global_4004958[0 /*45*/] + Global_4004958[1 /*45*/] + Global_4004958[2 /*45*/] };
-	Global_4006820[3 /*3*/] = { Global_4004958[6 /*45*/] + Global_4004958[7 /*45*/] + Global_4004958[8 /*45*/] };
-	Global_4006820[4 /*3*/] = { Global_4004958[9 /*45*/] + Global_4004958[10 /*45*/] + Global_4004958[11 /*45*/] };
-	Global_4006820[5 /*3*/] = { Global_4004958[12 /*45*/] + Global_4004958[13 /*45*/] + Global_4004958[14 /*45*/] };
-	Global_4006820[6 /*3*/] = { Global_4004958[15 /*45*/] + Global_4004958[16 /*45*/] + Global_4004958[17 /*45*/] };
-	Global_4006820[7 /*3*/] = { Global_4004958[18 /*45*/] + Global_4004958[19 /*45*/] + Global_4004958[20 /*45*/] };
-	Global_4006820[8 /*3*/] = { Global_4004958[21 /*45*/] + Global_4004958[22 /*45*/] + Global_4004958[23 /*45*/] };
-	Global_4006820[9 /*3*/] = { Global_4004958[24 /*45*/] + Global_4004958[25 /*45*/] + Global_4004958[26 /*45*/] };
-	Global_4006820[10 /*3*/] = { Global_4004958[27 /*45*/] + Global_4004958[28 /*45*/] + Global_4004958[29 /*45*/] };
-	Global_4006820[11 /*3*/] = { Global_4004958[30 /*45*/] + Global_4004958[31 /*45*/] + Global_4004958[32 /*45*/] };
-	Global_4006820[12 /*3*/] = { Global_4004958[33 /*45*/] + Global_4004958[34 /*45*/] + Global_4004958[35 /*45*/] };
+	Global_4005550[0 /*45*/].f_32[0 /*4*/] = { -3215.529f, 1337.033f, 1.2217f };
+	Global_4005550[0 /*45*/].f_32[0 /*4*/].f_3 = 233.0511f;
+	Global_4005550[0 /*45*/].f_32[1 /*4*/] = { -3187.057f, 1371.292f, 16.1699f };
+	Global_4005550[0 /*45*/].f_32[1 /*4*/].f_3 = 68.4861f;
+	Global_4005550[0 /*45*/].f_32[2 /*4*/] = { -3262.416f, 1343.043f, 0f };
+	Global_4005550[0 /*45*/].f_32[2 /*4*/].f_3 = 64.1521f;
+	Global_4005550[1 /*45*/].f_32[0 /*4*/] = { -2907.311f, 3083.429f, 2.1057f };
+	Global_4005550[1 /*45*/].f_32[0 /*4*/].f_3 = 315.0847f;
+	Global_4005550[1 /*45*/].f_32[1 /*4*/] = { -2917.641f, 3057.153f, 2.3254f };
+	Global_4005550[1 /*45*/].f_32[1 /*4*/].f_3 = 139.554f;
+	Global_4005550[1 /*45*/].f_32[2 /*4*/] = { -2959.761f, 3069.291f, 0f };
+	Global_4005550[1 /*45*/].f_32[2 /*4*/].f_3 = 140.7879f;
+	Global_4005550[2 /*45*/].f_32[0 /*4*/] = { -2781.983f, 2347.446f, 1.4625f };
+	Global_4005550[2 /*45*/].f_32[0 /*4*/].f_3 = 301.6382f;
+	Global_4005550[2 /*45*/].f_32[1 /*4*/] = { -2817.162f, 2320.752f, 1.608f };
+	Global_4005550[2 /*45*/].f_32[1 /*4*/].f_3 = 76.4715f;
+	Global_4005550[2 /*45*/].f_32[2 /*4*/] = { -2846.729f, 2354.843f, 0f };
+	Global_4005550[2 /*45*/].f_32[2 /*4*/].f_3 = 109.8094f;
+	Global_4005550[3 /*45*/].f_32[0 /*4*/] = { -2498.844f, 3752.328f, 14.2509f };
+	Global_4005550[3 /*45*/].f_32[0 /*4*/].f_3 = 217.676f;
+	Global_4005550[3 /*45*/].f_32[1 /*4*/] = { -2502.912f, 3719.516f, 13.1249f };
+	Global_4005550[3 /*45*/].f_32[1 /*4*/].f_3 = 55.3889f;
+	Global_4005550[3 /*45*/].f_32[2 /*4*/] = { -2638.53f, 3864.123f, 0f };
+	Global_4005550[3 /*45*/].f_32[2 /*4*/].f_3 = 59.3129f;
+	Global_4005550[4 /*45*/].f_32[0 /*4*/] = { -3043.023f, 3440.002f, 2.8783f };
+	Global_4005550[4 /*45*/].f_32[0 /*4*/].f_3 = 267.8972f;
+	Global_4005550[4 /*45*/].f_32[1 /*4*/] = { -2972.322f, 3456.31f, 8.8206f };
+	Global_4005550[4 /*45*/].f_32[1 /*4*/].f_3 = 40.0795f;
+	Global_4005550[4 /*45*/].f_32[2 /*4*/] = { -3107.278f, 3475.423f, 0f };
+	Global_4005550[4 /*45*/].f_32[2 /*4*/].f_3 = 33.9091f;
+	Global_4005550[5 /*45*/].f_32[0 /*4*/] = { -2408.221f, 4243.086f, 9.0072f };
+	Global_4005550[5 /*45*/].f_32[0 /*4*/].f_3 = 291.9838f;
+	Global_4005550[5 /*45*/].f_32[1 /*4*/] = { -2418.341f, 4218.906f, 8.7096f };
+	Global_4005550[5 /*45*/].f_32[1 /*4*/].f_3 = 345.1725f;
+	Global_4005550[5 /*45*/].f_32[2 /*4*/] = { -2392.848f, 4424.469f, 0f };
+	Global_4005550[5 /*45*/].f_32[2 /*4*/].f_3 = 24.173f;
+	Global_4005550[6 /*45*/].f_32[0 /*4*/] = { -3093.101f, 192.3021f, 5.8948f };
+	Global_4005550[6 /*45*/].f_32[0 /*4*/].f_3 = 282.932f;
+	Global_4005550[6 /*45*/].f_32[1 /*4*/] = { -3078.07f, 154.1856f, 9.8672f };
+	Global_4005550[6 /*45*/].f_32[1 /*4*/].f_3 = 122.1543f;
+	Global_4005550[6 /*45*/].f_32[2 /*4*/] = { -3135.21f, 65.4845f, 0f };
+	Global_4005550[6 /*45*/].f_32[2 /*4*/].f_3 = 109.4958f;
+	Global_4005550[7 /*45*/].f_32[0 /*4*/] = { -3067.833f, 182.1174f, 10.48f };
+	Global_4005550[7 /*45*/].f_32[0 /*4*/].f_3 = 316.2727f;
+	Global_4005550[7 /*45*/].f_32[1 /*4*/] = { -3092.81f, 432.5182f, 1.3684f };
+	Global_4005550[7 /*45*/].f_32[1 /*4*/].f_3 = 85.3024f;
+	Global_4005550[7 /*45*/].f_32[2 /*4*/] = { -3211.319f, 290.425f, 0f };
+	Global_4005550[7 /*45*/].f_32[2 /*4*/].f_3 = 92.1519f;
+	Global_4005550[8 /*45*/].f_32[0 /*4*/] = { -2702.644f, -104.7734f, 4.2172f };
+	Global_4005550[8 /*45*/].f_32[0 /*4*/].f_3 = 353.8816f;
+	Global_4005550[8 /*45*/].f_32[1 /*4*/] = { -2823.573f, -29.9384f, 3.1771f };
+	Global_4005550[8 /*45*/].f_32[1 /*4*/].f_3 = 178.7297f;
+	Global_4005550[8 /*45*/].f_32[2 /*4*/] = { -2734.093f, -154.0857f, 0f };
+	Global_4005550[8 /*45*/].f_32[2 /*4*/].f_3 = 141.6168f;
+	Global_4005550[9 /*45*/].f_32[0 /*4*/] = { -1463.463f, -1393.569f, 1.5368f };
+	Global_4005550[9 /*45*/].f_32[0 /*4*/].f_3 = 287.3892f;
+	Global_4005550[9 /*45*/].f_32[1 /*4*/] = { -1424.592f, -1404.746f, 3.177f };
+	Global_4005550[9 /*45*/].f_32[1 /*4*/].f_3 = 100.235f;
+	Global_4005550[9 /*45*/].f_32[2 /*4*/] = { -1534.528f, -1438.445f, 0f };
+	Global_4005550[9 /*45*/].f_32[2 /*4*/].f_3 = 121.4151f;
+	Global_4005550[10 /*45*/].f_32[0 /*4*/] = { -1239.736f, -2066f, 13.2375f };
+	Global_4005550[10 /*45*/].f_32[0 /*4*/].f_3 = 297.049f;
+	Global_4005550[10 /*45*/].f_32[1 /*4*/] = { -1332.874f, -2123.406f, 13.1281f };
+	Global_4005550[10 /*45*/].f_32[1 /*4*/].f_3 = 75.73f;
+	Global_4005550[10 /*45*/].f_32[2 /*4*/] = { -1402.575f, -2094.522f, 0f };
+	Global_4005550[10 /*45*/].f_32[2 /*4*/].f_3 = 70.1691f;
+	Global_4005550[11 /*45*/].f_32[0 /*4*/] = { -1224.04f, -1777.919f, 2.2519f };
+	Global_4005550[11 /*45*/].f_32[0 /*4*/].f_3 = 335.8759f;
+	Global_4005550[11 /*45*/].f_32[1 /*4*/] = { -1217.13f, -1833.299f, 1.5737f };
+	Global_4005550[11 /*45*/].f_32[1 /*4*/].f_3 = 123.5309f;
+	Global_4005550[11 /*45*/].f_32[2 /*4*/] = { -1277.278f, -1875.247f, 0f };
+	Global_4005550[11 /*45*/].f_32[2 /*4*/].f_3 = 118.8218f;
+	Global_4005550[12 /*45*/].f_32[0 /*4*/] = { 108.4327f, -3325.779f, 5f };
+	Global_4005550[12 /*45*/].f_32[0 /*4*/].f_3 = 0.552f;
+	Global_4005550[12 /*45*/].f_32[1 /*4*/] = { 134.3913f, -2804.358f, 5.0002f };
+	Global_4005550[12 /*45*/].f_32[1 /*4*/].f_3 = 223.52f;
+	Global_4005550[12 /*45*/].f_32[2 /*4*/] = { 98.6531f, -3324.339f, 0f };
+	Global_4005550[12 /*45*/].f_32[2 /*4*/].f_3 = 167.3062f;
+	Global_4005550[13 /*45*/].f_32[0 /*4*/] = { 108.5783f, -3258.347f, 5f };
+	Global_4005550[13 /*45*/].f_32[0 /*4*/].f_3 = 359.6605f;
+	Global_4005550[13 /*45*/].f_32[1 /*4*/] = { 149.4426f, -2791.039f, 5.0002f };
+	Global_4005550[13 /*45*/].f_32[1 /*4*/].f_3 = 218.7591f;
+	Global_4005550[13 /*45*/].f_32[2 /*4*/] = { 94.8648f, -3249.486f, 0f };
+	Global_4005550[13 /*45*/].f_32[2 /*4*/].f_3 = 164.5406f;
+	Global_4005550[14 /*45*/].f_32[0 /*4*/] = { -406.993f, -2851.122f, 5.0004f };
+	Global_4005550[14 /*45*/].f_32[0 /*4*/].f_3 = 315.8702f;
+	Global_4005550[14 /*45*/].f_32[1 /*4*/] = { -380.5807f, -2820.387f, 5.0003f };
+	Global_4005550[14 /*45*/].f_32[1 /*4*/].f_3 = 160.48f;
+	Global_4005550[14 /*45*/].f_32[2 /*4*/] = { -456.5881f, -2906.157f, 0f };
+	Global_4005550[14 /*45*/].f_32[2 /*4*/].f_3 = 162.6687f;
+	Global_4005550[15 /*45*/].f_32[0 /*4*/] = { 1292.652f, -3088.689f, 4.9066f };
+	Global_4005550[15 /*45*/].f_32[0 /*4*/].f_3 = 60.2816f;
+	Global_4005550[15 /*45*/].f_32[1 /*4*/] = { 1288.942f, -3074.029f, 4.934f };
+	Global_4005550[15 /*45*/].f_32[1 /*4*/].f_3 = 258.5226f;
+	Global_4005550[15 /*45*/].f_32[2 /*4*/] = { 1308.678f, -3083.984f, 0f };
+	Global_4005550[15 /*45*/].f_32[2 /*4*/].f_3 = 343.9506f;
+	Global_4005550[16 /*45*/].f_32[0 /*4*/] = { 1206.367f, -2669.062f, 3.001f };
+	Global_4005550[16 /*45*/].f_32[0 /*4*/].f_3 = 77.4622f;
+	Global_4005550[16 /*45*/].f_32[1 /*4*/] = { 1377.173f, -2710.035f, 2.1007f };
+	Global_4005550[16 /*45*/].f_32[1 /*4*/].f_3 = 178.4367f;
+	Global_4005550[16 /*45*/].f_32[2 /*4*/] = { 1313.231f, -2800.326f, 0f };
+	Global_4005550[16 /*45*/].f_32[2 /*4*/].f_3 = 250.5272f;
+	Global_4005550[17 /*45*/].f_32[0 /*4*/] = { 1288.72f, -3343.127f, 4.9016f };
+	Global_4005550[17 /*45*/].f_32[0 /*4*/].f_3 = 83.766f;
+	Global_4005550[17 /*45*/].f_32[1 /*4*/] = { 1291.003f, -3327.35f, 4.9049f };
+	Global_4005550[17 /*45*/].f_32[1 /*4*/].f_3 = 271.1578f;
+	Global_4005550[17 /*45*/].f_32[2 /*4*/] = { 1301.827f, -3357.499f, 0f };
+	Global_4005550[17 /*45*/].f_32[2 /*4*/].f_3 = 301.3926f;
+	Global_4005550[18 /*45*/].f_32[0 /*4*/] = { 2797.366f, -698.9788f, 2.5743f };
+	Global_4005550[18 /*45*/].f_32[0 /*4*/].f_3 = 119.8324f;
+	Global_4005550[18 /*45*/].f_32[1 /*4*/] = { 2684.635f, -863.2911f, 24.9476f };
+	Global_4005550[18 /*45*/].f_32[1 /*4*/].f_3 = 212.3963f;
+	Global_4005550[18 /*45*/].f_32[2 /*4*/] = { 2871.985f, -733.9852f, 0f };
+	Global_4005550[18 /*45*/].f_32[2 /*4*/].f_3 = 228.3137f;
+	Global_4005550[19 /*45*/].f_32[0 /*4*/] = { 2799.071f, -713.1099f, 3.5076f };
+	Global_4005550[19 /*45*/].f_32[0 /*4*/].f_3 = 92.0258f;
+	Global_4005550[19 /*45*/].f_32[1 /*4*/] = { 2784.094f, -730.8027f, 5.7956f };
+	Global_4005550[19 /*45*/].f_32[1 /*4*/].f_3 = 299.093f;
+	Global_4005550[19 /*45*/].f_32[2 /*4*/] = { 2862.474f, -601.0669f, 0f };
+	Global_4005550[19 /*45*/].f_32[2 /*4*/].f_3 = 267.4701f;
+	Global_4005550[20 /*45*/].f_32[0 /*4*/] = { 2803.415f, -676.9994f, 1.6518f };
+	Global_4005550[20 /*45*/].f_32[0 /*4*/].f_3 = 78.5588f;
+	Global_4005550[20 /*45*/].f_32[1 /*4*/] = { 2696.749f, -828.5058f, 27.1032f };
+	Global_4005550[20 /*45*/].f_32[1 /*4*/].f_3 = 193.2687f;
+	Global_4005550[20 /*45*/].f_32[2 /*4*/] = { 2866.837f, -791.7337f, 0f };
+	Global_4005550[20 /*45*/].f_32[2 /*4*/].f_3 = 232.5099f;
+	Global_4005550[21 /*45*/].f_32[0 /*4*/] = { 2768.212f, 1263.657f, 2.8663f };
+	Global_4005550[21 /*45*/].f_32[0 /*4*/].f_3 = 118.7555f;
+	Global_4005550[21 /*45*/].f_32[1 /*4*/] = { 2566.175f, 1751.526f, 23.7902f };
+	Global_4005550[21 /*45*/].f_32[1 /*4*/].f_3 = 273.4148f;
+	Global_4005550[21 /*45*/].f_32[2 /*4*/] = { 2820.863f, 1272.885f, 0f };
+	Global_4005550[21 /*45*/].f_32[2 /*4*/].f_3 = 275.3719f;
+	Global_4005550[22 /*45*/].f_32[0 /*4*/] = { 2774.699f, 1207.855f, 0.7296f };
+	Global_4005550[22 /*45*/].f_32[0 /*4*/].f_3 = 90.8381f;
+	Global_4005550[22 /*45*/].f_32[1 /*4*/] = { 2567.04f, 931.361f, 82.2892f };
+	Global_4005550[22 /*45*/].f_32[1 /*4*/].f_3 = 294.8305f;
+	Global_4005550[22 /*45*/].f_32[2 /*4*/] = { 2813.253f, 1202.955f, 0f };
+	Global_4005550[22 /*45*/].f_32[2 /*4*/].f_3 = 268.3473f;
+	Global_4005550[23 /*45*/].f_32[0 /*4*/] = { 3866.215f, 4345.182f, 5.5636f };
+	Global_4005550[23 /*45*/].f_32[0 /*4*/].f_3 = 24.0254f;
+	Global_4005550[23 /*45*/].f_32[1 /*4*/] = { 2700.47f, 2979.347f, 35.5843f };
+	Global_4005550[23 /*45*/].f_32[1 /*4*/].f_3 = 211.797f;
+	Global_4005550[23 /*45*/].f_32[2 /*4*/] = { 3892.01f, 4291.369f, 0f };
+	Global_4005550[23 /*45*/].f_32[2 /*4*/].f_3 = 228.3766f;
+	Global_4005550[24 /*45*/].f_32[0 /*4*/] = { 3868.027f, 4327.946f, 5.1203f };
+	Global_4005550[24 /*45*/].f_32[0 /*4*/].f_3 = 5.5954f;
+	Global_4005550[24 /*45*/].f_32[1 /*4*/] = { 3928.766f, 4393.218f, 15.5509f };
+	Global_4005550[24 /*45*/].f_32[1 /*4*/].f_3 = 292.8381f;
+	Global_4005550[24 /*45*/].f_32[2 /*4*/] = { 3907.16f, 4311.723f, 0f };
+	Global_4005550[24 /*45*/].f_32[2 /*4*/].f_3 = 256.1528f;
+	Global_4005550[25 /*45*/].f_32[0 /*4*/] = { 3809.338f, 4456.854f, 3.1726f };
+	Global_4005550[25 /*45*/].f_32[0 /*4*/].f_3 = 74.3336f;
+	Global_4005550[25 /*45*/].f_32[1 /*4*/] = { 3788.623f, 4507.489f, 6.0836f };
+	Global_4005550[25 /*45*/].f_32[1 /*4*/].f_3 = 328.0288f;
+	Global_4005550[25 /*45*/].f_32[2 /*4*/] = { 3854.021f, 4504.268f, 0f };
+	Global_4005550[25 /*45*/].f_32[2 /*4*/].f_3 = 285.2981f;
+	Global_4005550[26 /*45*/].f_32[0 /*4*/] = { 3811.947f, 4469.669f, 2.9054f };
+	Global_4005550[26 /*45*/].f_32[0 /*4*/].f_3 = 120.0346f;
+	Global_4005550[26 /*45*/].f_32[1 /*4*/] = { 3847.531f, 4397.894f, 3.1748f };
+	Global_4005550[26 /*45*/].f_32[1 /*4*/].f_3 = 338.2054f;
+	Global_4005550[26 /*45*/].f_32[2 /*4*/] = { 3868.626f, 4442.403f, 0f };
+	Global_4005550[26 /*45*/].f_32[2 /*4*/].f_3 = 281.4086f;
+	Global_4005550[27 /*45*/].f_32[0 /*4*/] = { 3258.916f, 5217.696f, 18.945f };
+	Global_4005550[27 /*45*/].f_32[0 /*4*/].f_3 = 181.2822f;
+	Global_4005550[27 /*45*/].f_32[1 /*4*/] = { 3275.727f, 5199.218f, 17.9096f };
+	Global_4005550[27 /*45*/].f_32[1 /*4*/].f_3 = 328.593f;
+	Global_4005550[27 /*45*/].f_32[2 /*4*/] = { 3248.643f, 5322.504f, 0f };
+	Global_4005550[27 /*45*/].f_32[2 /*4*/].f_3 = 274.5202f;
+	Global_4005550[28 /*45*/].f_32[0 /*4*/] = { 3338.185f, 5573.443f, 20.3965f };
+	Global_4005550[28 /*45*/].f_32[0 /*4*/].f_3 = 200.2075f;
+	Global_4005550[28 /*45*/].f_32[1 /*4*/] = { 3415.69f, 5493.976f, 23.6685f };
+	Global_4005550[28 /*45*/].f_32[1 /*4*/].f_3 = 294.2202f;
+	Global_4005550[28 /*45*/].f_32[2 /*4*/] = { 3386.887f, 5696.864f, 0f };
+	Global_4005550[28 /*45*/].f_32[2 /*4*/].f_3 = 285.1223f;
+	Global_4005550[29 /*45*/].f_32[0 /*4*/] = { 3780.474f, 4477.698f, 5.2422f };
+	Global_4005550[29 /*45*/].f_32[0 /*4*/].f_3 = 135.4026f;
+	Global_4005550[29 /*45*/].f_32[1 /*4*/] = { 3392.134f, 4993.051f, 30.5221f };
+	Global_4005550[29 /*45*/].f_32[1 /*4*/].f_3 = 300.8156f;
+	Global_4005550[29 /*45*/].f_32[2 /*4*/] = { 3800.573f, 4576.032f, 0f };
+	Global_4005550[29 /*45*/].f_32[2 /*4*/].f_3 = 328.0469f;
+	Global_4005550[30 /*45*/].f_32[0 /*4*/] = { 265.2008f, 6992.325f, 2.9654f };
+	Global_4005550[30 /*45*/].f_32[0 /*4*/].f_3 = 165.6404f;
+	Global_4005550[30 /*45*/].f_32[1 /*4*/] = { 228.2158f, 6992.481f, 1.5349f };
+	Global_4005550[30 /*45*/].f_32[1 /*4*/].f_3 = 338.5522f;
+	Global_4005550[30 /*45*/].f_32[2 /*4*/] = { 309.4163f, 7025.832f, 0f };
+	Global_4005550[30 /*45*/].f_32[2 /*4*/].f_3 = 298.1702f;
+	Global_4005550[31 /*45*/].f_32[0 /*4*/] = { 1459.03f, 6570.599f, 12.3527f };
+	Global_4005550[31 /*45*/].f_32[0 /*4*/].f_3 = 133.2433f;
+	Global_4005550[31 /*45*/].f_32[1 /*4*/] = { 1618.721f, 6659.766f, 22.3415f };
+	Global_4005550[31 /*45*/].f_32[1 /*4*/].f_3 = 342.8323f;
+	Global_4005550[31 /*45*/].f_32[2 /*4*/] = { 1563.629f, 6684.272f, 0f };
+	Global_4005550[31 /*45*/].f_32[2 /*4*/].f_3 = 357.4255f;
+	Global_4005550[32 /*45*/].f_32[0 /*4*/] = { 1390.502f, 6592.286f, 11.5278f };
+	Global_4005550[32 /*45*/].f_32[0 /*4*/].f_3 = 283.1772f;
+	Global_4005550[32 /*45*/].f_32[1 /*4*/] = { 1142.376f, 6535.105f, 17.5983f };
+	Global_4005550[32 /*45*/].f_32[1 /*4*/].f_3 = 342.9795f;
+	Global_4005550[32 /*45*/].f_32[2 /*4*/] = { 1280.147f, 6660.721f, 0f };
+	Global_4005550[32 /*45*/].f_32[2 /*4*/].f_3 = 344.6634f;
+	Global_4005550[33 /*45*/].f_32[0 /*4*/] = { -817.0295f, 5881.543f, 6.2074f };
+	Global_4005550[33 /*45*/].f_32[0 /*4*/].f_3 = 258.9158f;
+	Global_4005550[33 /*45*/].f_32[1 /*4*/] = { -821.1178f, 5935.959f, 19.9904f };
+	Global_4005550[33 /*45*/].f_32[1 /*4*/].f_3 = 129.2778f;
+	Global_4005550[33 /*45*/].f_32[2 /*4*/] = { -915.4951f, 5851.08f, 0f };
+	Global_4005550[33 /*45*/].f_32[2 /*4*/].f_3 = 79.7242f;
+	Global_4005550[34 /*45*/].f_32[0 /*4*/] = { -635.697f, 6156.933f, 1.9706f };
+	Global_4005550[34 /*45*/].f_32[0 /*4*/].f_3 = 272.4947f;
+	Global_4005550[34 /*45*/].f_32[1 /*4*/] = { -560.5052f, 6254.325f, 7.6306f };
+	Global_4005550[34 /*45*/].f_32[1 /*4*/].f_3 = 42.5652f;
+	Global_4005550[34 /*45*/].f_32[2 /*4*/] = { -685.4041f, 6252.036f, 0f };
+	Global_4005550[34 /*45*/].f_32[2 /*4*/].f_3 = 51.8815f;
+	Global_4005550[35 /*45*/].f_32[0 /*4*/] = { -99.1651f, 6722.008f, 0.5012f };
+	Global_4005550[35 /*45*/].f_32[0 /*4*/].f_3 = 268.104f;
+	Global_4005550[35 /*45*/].f_32[1 /*4*/] = { -142.6568f, 6651.685f, 0.9997f };
+	Global_4005550[35 /*45*/].f_32[1 /*4*/].f_3 = 32.9657f;
+	Global_4005550[35 /*45*/].f_32[2 /*4*/] = { -185.4709f, 6733.273f, 0f };
+	Global_4005550[35 /*45*/].f_32[2 /*4*/].f_3 = 14.6319f;
+	Global_4007278[0 /*4*/] = { 5.8173f, -48.2285f, -5.5287f };
+	Global_4007278[0 /*4*/].f_3 = 30.0067f;
+	Global_4007278[1 /*4*/] = { -5.0147f, -46.5139f, -5.5286f };
+	Global_4007278[1 /*4*/].f_3 = 198.2057f;
+	Global_4007278[2 /*4*/] = { -0.3064f, -40.6402f, -2.431f };
+	Global_4007278[2 /*4*/].f_3 = 190.904f;
+	Global_4007278[3 /*4*/] = { 6.708f, -25.9916f, 0.4969f };
+	Global_4007278[3 /*4*/].f_3 = 286.8118f;
+	Global_4007278[4 /*4*/] = { -3.9829f, -25.182f, 0.497f };
+	Global_4007278[4 /*4*/].f_3 = 187.8127f;
+	Global_4007278[5 /*4*/] = { 1.187f, -14.8577f, 0.4968f };
+	Global_4007278[5 /*4*/].f_3 = 223.2354f;
+	Global_4007278[6 /*4*/] = { 1.9789f, -43.6601f, -5.5216f };
+	Global_4007278[6 /*4*/].f_3 = 132.0817f;
+	Global_4007278[7 /*4*/] = { -2.2018f, -43.2581f, -5.5209f };
+	Global_4007278[7 /*4*/].f_3 = 210.6833f;
+	Global_4007278[8 /*4*/] = { -3.5979f, -37.4337f, -2.4323f };
+	Global_4007278[8 /*4*/].f_3 = 232.0388f;
+	Global_4007278[9 /*4*/] = { 3.5456f, -36.9838f, -2.4323f };
+	Global_4007278[9 /*4*/].f_3 = 141.3021f;
+	Global_4007278[10 /*4*/] = { 2.0707f, -34.8316f, -2.4323f };
+	Global_4007278[10 /*4*/].f_3 = 157.8206f;
+	Global_4007278[11 /*4*/] = { -1.0928f, -33.9597f, -2.4323f };
+	Global_4007278[11 /*4*/].f_3 = 175.8183f;
+	Global_4007278[12 /*4*/] = { -5.842f, -28.0408f, 0.5039f };
+	Global_4007278[12 /*4*/].f_3 = 215.1446f;
+	Global_4007278[13 /*4*/] = { -1.4056f, -15.1676f, 0.5038f };
+	Global_4007278[13 /*4*/].f_3 = 161.5367f;
+	Global_4007278[14 /*4*/] = { -1.4056f, -15.1676f, 0.5038f };
+	Global_4007278[14 /*4*/].f_3 = 161.5367f;
+	Global_4007278[15 /*4*/] = { 5.7803f, -18.6142f, 0.5038f };
+	Global_4007278[15 /*4*/].f_3 = 232.0092f;
+	Global_4007278[16 /*4*/] = { 4.8851f, -27.8689f, 0.504f };
+	Global_4007278[16 /*4*/].f_3 = 159.7201f;
+	Global_4007278[17 /*4*/] = { 6.4316f, -51.9249f, -5.5218f };
+	Global_4007278[17 /*4*/].f_3 = 171.7628f;
+	Global_4007278[18 /*4*/] = { -6.4454f, -51.563f, -5.5221f };
+	Global_4007278[18 /*4*/].f_3 = 170.0196f;
+	Global_4007278[19 /*4*/] = { -6.0149f, -38.0291f, -5.5207f };
+	Global_4007278[19 /*4*/].f_3 = 141.0158f;
+	Global_4007278[20 /*4*/] = { 5.9235f, -38.2919f, -5.5218f };
+	Global_4007278[20 /*4*/].f_3 = 251.4813f;
+	Global_4007278[21 /*4*/] = { 6.8878f, -27.0348f, -5.5218f };
+	Global_4007278[21 /*4*/].f_3 = 227.1692f;
+	Global_4007278[22 /*4*/] = { 6.8878f, -27.0348f, -5.5218f };
+	Global_4007278[22 /*4*/].f_3 = 227.1692f;
+	Global_4007278[23 /*4*/] = { -6.4161f, -33.4939f, -5.5201f };
+	Global_4007278[23 /*4*/].f_3 = 129.7836f;
+	Global_4007278[24 /*4*/] = { -6.4161f, -33.4939f, -5.5201f };
+	Global_4007278[24 /*4*/].f_3 = 129.7836f;
+	Global_4007278[25 /*4*/] = { -6.8883f, -28.2909f, -5.5199f };
+	Global_4007278[25 /*4*/].f_3 = 176.8486f;
+	Global_4007278[26 /*4*/] = { -6.5118f, -25.1397f, -5.5203f };
+	Global_4007278[26 /*4*/].f_3 = 113.7529f;
+	Global_4007278[27 /*4*/] = { -6.2417f, -33.0709f, -0.6002f };
+	Global_4007278[27 /*4*/].f_3 = 188.1441f;
+	Global_4007278[28 /*4*/] = { 6.1422f, -32.388f, -0.2794f };
+	Global_4007278[28 /*4*/].f_3 = 165.495f;
+	Global_4007278[29 /*4*/] = { -0.7784f, -22.1027f, 0.5038f };
+	Global_4007278[29 /*4*/].f_3 = 172.0094f;
+	Global_4007399[0 /*4*/] = { -0.8319f, 12.3016f, -5.5208f };
+	Global_4007399[0 /*4*/].f_3 = 270.5026f;
+	Global_4007399[1 /*4*/] = { -4.673f, 24.2213f, -5.521f };
+	Global_4007399[1 /*4*/].f_3 = 164.555f;
+	Global_4007399[2 /*4*/] = { -2.4334f, 5.4224f, -2.4335f };
+	Global_4007399[2 /*4*/].f_3 = 270.4796f;
+	func_21();
+	Global_4007412[0 /*3*/] = { 0f, 0f, 0f };
+	Global_4007412[1 /*3*/] = { Global_4005550[3 /*45*/] + Global_4005550[4 /*45*/] + Global_4005550[5 /*45*/] };
+	Global_4007412[2 /*3*/] = { Global_4005550[0 /*45*/] + Global_4005550[1 /*45*/] + Global_4005550[2 /*45*/] };
+	Global_4007412[3 /*3*/] = { Global_4005550[6 /*45*/] + Global_4005550[7 /*45*/] + Global_4005550[8 /*45*/] };
+	Global_4007412[4 /*3*/] = { Global_4005550[9 /*45*/] + Global_4005550[10 /*45*/] + Global_4005550[11 /*45*/] };
+	Global_4007412[5 /*3*/] = { Global_4005550[12 /*45*/] + Global_4005550[13 /*45*/] + Global_4005550[14 /*45*/] };
+	Global_4007412[6 /*3*/] = { Global_4005550[15 /*45*/] + Global_4005550[16 /*45*/] + Global_4005550[17 /*45*/] };
+	Global_4007412[7 /*3*/] = { Global_4005550[18 /*45*/] + Global_4005550[19 /*45*/] + Global_4005550[20 /*45*/] };
+	Global_4007412[8 /*3*/] = { Global_4005550[21 /*45*/] + Global_4005550[22 /*45*/] + Global_4005550[23 /*45*/] };
+	Global_4007412[9 /*3*/] = { Global_4005550[24 /*45*/] + Global_4005550[25 /*45*/] + Global_4005550[26 /*45*/] };
+	Global_4007412[10 /*3*/] = { Global_4005550[27 /*45*/] + Global_4005550[28 /*45*/] + Global_4005550[29 /*45*/] };
+	Global_4007412[11 /*3*/] = { Global_4005550[30 /*45*/] + Global_4005550[31 /*45*/] + Global_4005550[32 /*45*/] };
+	Global_4007412[12 /*3*/] = { Global_4005550[33 /*45*/] + Global_4005550[34 /*45*/] + Global_4005550[35 /*45*/] };
 	iVar0 = 0;
 	while (iVar0 < 13)
 	{
-		Global_4006820[iVar0 /*3*/] = { Global_4006820[iVar0 /*3*/] * Vector(0.333333f, 0.333333f, 0.333333f) };
+		Global_4007412[iVar0 /*3*/] = { Global_4007412[iVar0 /*3*/] * Vector(0.333333f, 0.333333f, 0.333333f) };
 		iVar0++;
 	}
-	Global_4006860[0 /*3*/] = { 7.87f, -54.898f, -10.9966f };
-	Global_4006860[1 /*3*/] = { 2.417f, -60.36f, -10.9442f };
-	Global_4006860[2 /*3*/] = { -2.4168f, -60.36f, -10.9442f };
-	Global_4006860[3 /*3*/] = { -7.87f, -54.898f, -10.9966f };
+	Global_4007452[0 /*3*/] = { 7.87f, -54.898f, -10.9966f };
+	Global_4007452[1 /*3*/] = { 2.417f, -60.36f, -10.9442f };
+	Global_4007452[2 /*3*/] = { -2.4168f, -60.36f, -10.9442f };
+	Global_4007452[3 /*3*/] = { -7.87f, -54.898f, -10.9966f };
 }
 
-void func_20()
+void func_21()
 {
-	Global_4006579[0 /*10*/] = { -0.2508f, -32.3f, 0.5727f };
-	Global_4006579[0 /*10*/].f_3 = 0f;
-	Global_4006579[0 /*10*/].f_5 = joaat("supervolito2");
-	Global_4006579[0 /*10*/].f_4 = 3.5f;
-	Global_4006579[0 /*10*/].f_7 = 300000;
-	Global_4006579[0 /*10*/].f_8 = -1;
-	Global_4006579[0 /*10*/].f_9 = 400f;
-	Global_4006579[0 /*10*/].f_6 = 64;
-	Global_4006579[1 /*10*/] = { 11.25f, -55.8404f, -11f };
-	Global_4006579[1 /*10*/].f_3 = 340.8939f;
-	Global_4006579[1 /*10*/].f_5 = joaat("dinghy4");
-	Global_4006579[1 /*10*/].f_4 = 2.4f;
-	Global_4006579[1 /*10*/].f_9 = 300f;
-	Global_4006579[1 /*10*/].f_6 = 1;
-	Global_4006579[2 /*10*/] = { 6.75f, -63f, -11f };
-	Global_4006579[2 /*10*/].f_3 = 206.26f;
-	Global_4006579[2 /*10*/].f_5 = joaat("seashark3");
-	Global_4006579[2 /*10*/].f_4 = 1.4f;
-	Global_4006579[2 /*10*/].f_9 = 200f;
-	Global_4006579[2 /*10*/].f_6 = 1;
-	Global_4006579[3 /*10*/] = { 4.5f, -63f, -11f };
-	Global_4006579[3 /*10*/].f_3 = 206.26f;
-	Global_4006579[3 /*10*/].f_5 = joaat("seashark3");
-	Global_4006579[3 /*10*/].f_4 = 1.4f;
-	Global_4006579[3 /*10*/].f_9 = 200f;
-	Global_4006579[3 /*10*/].f_6 = 1;
-	Global_4006579[4 /*10*/] = { -11.25f, -55.8404f, -11f };
-	Global_4006579[4 /*10*/].f_3 = 20f;
-	Global_4006579[4 /*10*/].f_5 = joaat("toro2");
-	Global_4006579[4 /*10*/].f_4 = 2.4f;
-	Global_4006579[4 /*10*/].f_9 = 300f;
-	Global_4006579[4 /*10*/].f_6 = 1;
-	Global_4006579[5 /*10*/] = { -4.5f, -63f, -11f };
-	Global_4006579[5 /*10*/].f_3 = 153.7463f;
-	Global_4006579[5 /*10*/].f_5 = joaat("seashark3");
-	Global_4006579[5 /*10*/].f_4 = 1.4f;
-	Global_4006579[5 /*10*/].f_9 = 200f;
-	Global_4006579[5 /*10*/].f_6 = 1;
-	Global_4006579[6 /*10*/] = { -6.75f, -63f, -11f };
-	Global_4006579[6 /*10*/].f_3 = 153.7463f;
-	Global_4006579[6 /*10*/].f_5 = joaat("seashark3");
-	Global_4006579[6 /*10*/].f_4 = 1.4f;
-	Global_4006579[6 /*10*/].f_9 = 200f;
-	Global_4006579[6 /*10*/].f_6 = 1;
-	Global_4006650[0 /*5*/] = { Global_4006579[1 /*10*/] };
-	Global_4006650[0 /*5*/].f_3 = Global_4006579[1 /*10*/].f_3;
-	Global_4006650[0 /*5*/].f_4 = Global_4006579[1 /*10*/].f_4;
-	Global_4006650[1 /*5*/] = { Global_4006579[2 /*10*/] };
-	Global_4006650[1 /*5*/].f_3 = Global_4006579[2 /*10*/].f_3;
-	Global_4006650[1 /*5*/].f_4 = Global_4006579[2 /*10*/].f_4;
-	Global_4006650[2 /*5*/] = { Global_4006579[3 /*10*/] };
-	Global_4006650[2 /*5*/].f_3 = Global_4006579[3 /*10*/].f_3;
-	Global_4006650[2 /*5*/].f_4 = Global_4006579[3 /*10*/].f_4;
-	Global_4006650[3 /*5*/] = { Global_4006579[4 /*10*/] };
-	Global_4006650[3 /*5*/].f_3 = Global_4006579[4 /*10*/].f_3;
-	Global_4006650[3 /*5*/].f_4 = Global_4006579[4 /*10*/].f_4;
-	Global_4006650[4 /*5*/] = { Global_4006579[5 /*10*/] };
-	Global_4006650[4 /*5*/].f_3 = Global_4006579[5 /*10*/].f_3;
-	Global_4006650[4 /*5*/].f_4 = Global_4006579[5 /*10*/].f_4;
-	Global_4006650[5 /*5*/] = { Global_4006579[6 /*10*/] };
-	Global_4006650[5 /*5*/].f_3 = Global_4006579[6 /*10*/].f_3;
-	Global_4006650[5 /*5*/].f_4 = Global_4006579[6 /*10*/].f_4;
-	Global_4006650[6 /*5*/] = { 0f, -63f, -11.9254f };
-	Global_4006650[6 /*5*/].f_3 = 180.2068f;
-	Global_4006650[6 /*5*/].f_4 = 2.4f;
+	Global_4007171[0 /*10*/] = { -0.2508f, -32.3f, 0.5727f };
+	Global_4007171[0 /*10*/].f_3 = 0f;
+	Global_4007171[0 /*10*/].f_5 = joaat("supervolito2");
+	Global_4007171[0 /*10*/].f_4 = 3.5f;
+	Global_4007171[0 /*10*/].f_7 = 300000;
+	Global_4007171[0 /*10*/].f_8 = -1;
+	Global_4007171[0 /*10*/].f_9 = 400f;
+	Global_4007171[0 /*10*/].f_6 = 64;
+	Global_4007171[1 /*10*/] = { 11.25f, -55.8404f, -11f };
+	Global_4007171[1 /*10*/].f_3 = 340.8939f;
+	Global_4007171[1 /*10*/].f_5 = joaat("dinghy4");
+	Global_4007171[1 /*10*/].f_4 = 2.4f;
+	Global_4007171[1 /*10*/].f_9 = 300f;
+	Global_4007171[1 /*10*/].f_6 = 1;
+	Global_4007171[2 /*10*/] = { 6.75f, -63f, -11f };
+	Global_4007171[2 /*10*/].f_3 = 206.26f;
+	Global_4007171[2 /*10*/].f_5 = joaat("seashark3");
+	Global_4007171[2 /*10*/].f_4 = 1.4f;
+	Global_4007171[2 /*10*/].f_9 = 200f;
+	Global_4007171[2 /*10*/].f_6 = 1;
+	Global_4007171[3 /*10*/] = { 4.5f, -63f, -11f };
+	Global_4007171[3 /*10*/].f_3 = 206.26f;
+	Global_4007171[3 /*10*/].f_5 = joaat("seashark3");
+	Global_4007171[3 /*10*/].f_4 = 1.4f;
+	Global_4007171[3 /*10*/].f_9 = 200f;
+	Global_4007171[3 /*10*/].f_6 = 1;
+	Global_4007171[4 /*10*/] = { -11.25f, -55.8404f, -11f };
+	Global_4007171[4 /*10*/].f_3 = 20f;
+	Global_4007171[4 /*10*/].f_5 = joaat("toro2");
+	Global_4007171[4 /*10*/].f_4 = 2.4f;
+	Global_4007171[4 /*10*/].f_9 = 300f;
+	Global_4007171[4 /*10*/].f_6 = 1;
+	Global_4007171[5 /*10*/] = { -4.5f, -63f, -11f };
+	Global_4007171[5 /*10*/].f_3 = 153.7463f;
+	Global_4007171[5 /*10*/].f_5 = joaat("seashark3");
+	Global_4007171[5 /*10*/].f_4 = 1.4f;
+	Global_4007171[5 /*10*/].f_9 = 200f;
+	Global_4007171[5 /*10*/].f_6 = 1;
+	Global_4007171[6 /*10*/] = { -6.75f, -63f, -11f };
+	Global_4007171[6 /*10*/].f_3 = 153.7463f;
+	Global_4007171[6 /*10*/].f_5 = joaat("seashark3");
+	Global_4007171[6 /*10*/].f_4 = 1.4f;
+	Global_4007171[6 /*10*/].f_9 = 200f;
+	Global_4007171[6 /*10*/].f_6 = 1;
+	Global_4007242[0 /*5*/] = { Global_4007171[1 /*10*/] };
+	Global_4007242[0 /*5*/].f_3 = Global_4007171[1 /*10*/].f_3;
+	Global_4007242[0 /*5*/].f_4 = Global_4007171[1 /*10*/].f_4;
+	Global_4007242[1 /*5*/] = { Global_4007171[2 /*10*/] };
+	Global_4007242[1 /*5*/].f_3 = Global_4007171[2 /*10*/].f_3;
+	Global_4007242[1 /*5*/].f_4 = Global_4007171[2 /*10*/].f_4;
+	Global_4007242[2 /*5*/] = { Global_4007171[3 /*10*/] };
+	Global_4007242[2 /*5*/].f_3 = Global_4007171[3 /*10*/].f_3;
+	Global_4007242[2 /*5*/].f_4 = Global_4007171[3 /*10*/].f_4;
+	Global_4007242[3 /*5*/] = { Global_4007171[4 /*10*/] };
+	Global_4007242[3 /*5*/].f_3 = Global_4007171[4 /*10*/].f_3;
+	Global_4007242[3 /*5*/].f_4 = Global_4007171[4 /*10*/].f_4;
+	Global_4007242[4 /*5*/] = { Global_4007171[5 /*10*/] };
+	Global_4007242[4 /*5*/].f_3 = Global_4007171[5 /*10*/].f_3;
+	Global_4007242[4 /*5*/].f_4 = Global_4007171[5 /*10*/].f_4;
+	Global_4007242[5 /*5*/] = { Global_4007171[6 /*10*/] };
+	Global_4007242[5 /*5*/].f_3 = Global_4007171[6 /*10*/].f_3;
+	Global_4007242[5 /*5*/].f_4 = Global_4007171[6 /*10*/].f_4;
+	Global_4007242[6 /*5*/] = { 0f, -63f, -11.9254f };
+	Global_4007242[6 /*5*/].f_3 = 180.2068f;
+	Global_4007242[6 /*5*/].f_4 = 2.4f;
 }
 
-void func_21(int iParam0, var uParam1, var uParam2)
+void func_22(int iParam0, var uParam1, var uParam2)
 {
 	switch (iParam0)
 	{
