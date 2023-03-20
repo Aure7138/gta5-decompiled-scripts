@@ -48,7 +48,7 @@ void __EntryFunction__()
 		{
 			func_5();
 		}
-		if (func_1(&uLocal_21, &Global_272902))
+		if (func_1(&uLocal_21, &Global_273199))
 		{
 			func_5();
 		}
@@ -64,10 +64,12 @@ int func_1(var uParam0, var uParam1)
 	struct<6> Var3;
 	int iVar9;
 	int iVar10;
+	int iVar11;
+	int iVar12;
 	
 	if (uParam0->f_2)
 	{
-		if (unk_0xF073E12B43682F7D(unk_0x4B7B32731313EF0E(unk_0x9D40BBF80D8F5E8A(), uParam0->f_1)) >= uParam0->f_3)
+		if (unk_0x737E62570AEFEFAA(unk_0xC552B3A8E47271B7(unk_0x3EAC9995EC220C5A(), uParam0->f_1)) >= uParam0->f_3)
 		{
 			func_4();
 		}
@@ -78,49 +80,51 @@ int func_1(var uParam0, var uParam1)
 		{
 			return 0;
 		}
-		if (unk_0x178EC7B1AB184543())
+		iVar9 = 5;
+		if (unk_0xAC20362521A4003B())
 		{
-			func_3(*uParam0, &Var3);
-			iVar9 = 2234;
+			iVar10 = 2238;
+			iVar11 = (uParam0->f_4 + iVar9);
+			iVar12 = func_3(*uParam0);
 			iVar2 = uParam0->f_4;
-			while (iVar2 <= uParam0->f_4 + 5)
+			while (iVar2 <= iVar11)
 			{
-				if (iVar2 < iVar9)
+				if (iVar2 < iVar10)
 				{
+					func_2(iVar2, &Var3);
 					if (iVar2 >= Var3.f_4 && iVar2 != 25)
 					{
-						iVar10 = func_2(iVar2);
-						if (iVar10 != 0 && Var3.f_5 != 0)
+						if (iVar12 != 0 && Var3.f_5 != 0)
 						{
-							if (unk_0x2532C1A2BD63B230(iVar10, Var3.f_5, &fVar0))
+							if (unk_0x773E16AD51E71D79(iVar12, Var3.f_5, &fVar0))
 							{
 								if (fVar0 > Var3.f_1 || fVar0 < Var3.f_0)
 								{
 									uParam0->f_2 = 1;
-									uParam0->f_3 = unk_0x0ADD324BC46177EF(20000, 30000);
-									uParam0->f_1 = unk_0x9D40BBF80D8F5E8A();
+									uParam0->f_3 = unk_0xA3746E7F17F47DC2(20000, 30000);
+									uParam0->f_1 = unk_0x3EAC9995EC220C5A();
 								}
 							}
-							else if (unk_0x4302F39EE057F42A(iVar10, Var3.f_5, &iVar1))
+							else if (unk_0x1B806D6366DBF000(iVar12, Var3.f_5, &iVar1))
 							{
 								if (iVar1 > Var3.f_3 || iVar1 < Var3.f_2)
 								{
 									uParam0->f_2 = 1;
-									uParam0->f_3 = unk_0x0ADD324BC46177EF(20000, 30000);
-									uParam0->f_1 = unk_0x9D40BBF80D8F5E8A();
+									uParam0->f_3 = unk_0xA3746E7F17F47DC2(20000, 30000);
+									uParam0->f_1 = unk_0x3EAC9995EC220C5A();
 								}
 							}
 						}
 					}
 				}
+				uParam0->f_4++;
 				iVar2++;
 			}
-			uParam0->f_4 += 5;
-			if (uParam0->f_4 >= 27)
+			if (uParam0->f_4 >= 2238)
 			{
 				uParam0->f_4 = 0;
 				*uParam0++;
-				if (*uParam0 >= 2234)
+				if (*uParam0 >= 27)
 				{
 					*uParam0 = 0;
 					*uParam1 = 0;
@@ -132,130 +136,7 @@ int func_1(var uParam0, var uParam1)
 	return 0;
 }
 
-int func_2(int iParam0)
-{
-	char cVar0[64];
-	
-	if (iParam0 >= 26)
-	{
-		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
-		StringIntConCat(&cVar0, (iParam0 - 26), 64);
-		return unk_0xC7C6DDDE84A8E734(&cVar0);
-	}
-	switch (iParam0)
-	{
-		case 0:
-			return 190769267;
-			break;
-		
-		case 1:
-			return joaat("MP_Global");
-			break;
-		
-		case 2:
-			return 1398379561;
-			break;
-		
-		case 3:
-			return -295628664;
-			break;
-		
-		case 4:
-			return -1157311665;
-			break;
-		
-		case 5:
-			return 988790432;
-			break;
-		
-		case 6:
-			return 1140746429;
-			break;
-		
-		case 7:
-			return 1882254284;
-			break;
-		
-		case 8:
-			return -1021097824;
-			break;
-		
-		case 9:
-			return 1031194139;
-			break;
-		
-		case 10:
-			return -946481156;
-			break;
-		
-		case 11:
-			return -364624190;
-			break;
-		
-		case 12:
-			return -199795525;
-			break;
-		
-		case 13:
-			return -866645446;
-			break;
-		
-		case 14:
-			return -938189448;
-			break;
-		
-		case 15:
-			return 539878179;
-			break;
-		
-		case 16:
-			return 571975921;
-			break;
-		
-		case 17:
-			return 818280646;
-			break;
-		
-		case 18:
-			return -183978087;
-			break;
-		
-		case 19:
-			return -52527117;
-			break;
-		
-		case 24:
-			return -395434754;
-			break;
-		
-		case 20:
-			return -1110334219;
-			break;
-		
-		case 21:
-			return -1382306730;
-			break;
-		
-		case 22:
-			return 1453550531;
-			break;
-		
-		case 23:
-			return 1744317449;
-			break;
-		
-		case 25:
-			return 2;
-			break;
-		
-		case 27:
-			StringCopy(&cVar0, "ILLEGAL TUNABLE CONTEXT", 64);
-			break;
-	}
-	return 0;
-}
-
-void func_3(int iParam0, var uParam1)
+void func_2(int iParam0, var uParam1)
 {
 	switch (iParam0)
 	{
@@ -2153,7 +2034,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1145:
+		case 1144:
 			*uParam1 = 4f;
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 4;
@@ -2162,7 +2043,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1146:
+		case 1145:
 			*uParam1 = 4f;
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 4;
@@ -4239,15 +4120,6 @@ void func_3(int iParam0, var uParam1)
 			break;
 		
 		case 443:
-			*uParam1 = 52000f;
-			uParam1->f_1 = 131300f;
-			uParam1->f_2 = 52000;
-			uParam1->f_3 = 131300;
-			uParam1->f_5 = 1743540918;
-			uParam1->f_4 = 1;
-			break;
-		
-		case 444:
 			*uParam1 = 223000f;
 			uParam1->f_1 = 562500f;
 			uParam1->f_2 = 223000;
@@ -4256,7 +4128,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 445:
+		case 444:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 18800f;
 			uParam1->f_2 = 7000;
@@ -4265,7 +4137,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 446:
+		case 445:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 18800f;
 			uParam1->f_2 = 7000;
@@ -4274,7 +4146,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 447:
+		case 446:
 			*uParam1 = 8000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 8000;
@@ -4283,7 +4155,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 448:
+		case 447:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 37500f;
 			uParam1->f_2 = 15000;
@@ -4292,7 +4164,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 449:
+		case 448:
 			*uParam1 = 77000f;
 			uParam1->f_1 = 193800f;
 			uParam1->f_2 = 77000;
@@ -4301,7 +4173,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 450:
+		case 449:
 			*uParam1 = 248000f;
 			uParam1->f_1 = 625000f;
 			uParam1->f_2 = 248000;
@@ -4310,7 +4182,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 451:
+		case 450:
 			*uParam1 = 866000f;
 			uParam1->f_1 = 2187500f;
 			uParam1->f_2 = 866000;
@@ -4319,7 +4191,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 452:
+		case 451:
 			*uParam1 = 97000f;
 			uParam1->f_1 = 243800f;
 			uParam1->f_2 = 97000;
@@ -4328,7 +4200,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 453:
+		case 452:
 			*uParam1 = 35000f;
 			uParam1->f_1 = 87500f;
 			uParam1->f_2 = 35000;
@@ -4337,7 +4209,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 454:
+		case 453:
 			*uParam1 = 322000f;
 			uParam1->f_1 = 812500f;
 			uParam1->f_2 = 322000;
@@ -4346,7 +4218,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 455:
+		case 454:
 			*uParam1 = 260000f;
 			uParam1->f_1 = 656300f;
 			uParam1->f_2 = 260000;
@@ -4355,7 +4227,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 456:
+		case 455:
 			*uParam1 = 92000f;
 			uParam1->f_1 = 231300f;
 			uParam1->f_2 = 92000;
@@ -4364,7 +4236,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 457:
+		case 456:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 125000f;
 			uParam1->f_2 = 50000;
@@ -4373,7 +4245,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 458:
+		case 457:
 			*uParam1 = 68000f;
 			uParam1->f_1 = 172500f;
 			uParam1->f_2 = 68000;
@@ -4382,7 +4254,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 459:
+		case 458:
 			*uParam1 = 111000f;
 			uParam1->f_1 = 281300f;
 			uParam1->f_2 = 111000;
@@ -4391,7 +4263,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 460:
+		case 459:
 			*uParam1 = 119000f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 119000;
@@ -4400,7 +4272,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 461:
+		case 460:
 			*uParam1 = 12000f;
 			uParam1->f_1 = 31300f;
 			uParam1->f_2 = 12000;
@@ -4409,7 +4281,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 462:
+		case 461:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 6000;
@@ -4418,7 +4290,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 463:
+		case 462:
 			*uParam1 = 495000f;
 			uParam1->f_1 = 1250000f;
 			uParam1->f_2 = 495000;
@@ -4427,7 +4299,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 464:
+		case 463:
 			*uParam1 = 136000f;
 			uParam1->f_1 = 343800f;
 			uParam1->f_2 = 136000;
@@ -4436,7 +4308,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 465:
+		case 464:
 			*uParam1 = 394000f;
 			uParam1->f_1 = 993800f;
 			uParam1->f_2 = 394000;
@@ -4447,7 +4319,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 466:
+		case 465:
 			*uParam1 = 101000f;
 			uParam1->f_1 = 256300f;
 			uParam1->f_2 = 101000;
@@ -4456,7 +4328,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 467:
+		case 466:
 			*uParam1 = 45000f;
 			uParam1->f_1 = 112500f;
 			uParam1->f_2 = 45000;
@@ -4465,7 +4337,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 468:
+		case 467:
 			*uParam1 = 47000f;
 			uParam1->f_1 = 118800f;
 			uParam1->f_2 = 47000;
@@ -4474,7 +4346,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 469:
+		case 468:
 			*uParam1 = 72000f;
 			uParam1->f_1 = 181300f;
 			uParam1->f_2 = 72000;
@@ -4483,7 +4355,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 470:
+		case 469:
 			*uParam1 = 644000f;
 			uParam1->f_1 = 1625000f;
 			uParam1->f_2 = 644000;
@@ -4492,7 +4364,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 471:
+		case 470:
 			*uParam1 = 12000f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 12000;
@@ -4501,7 +4373,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 472:
+		case 471:
 			*uParam1 = 16000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 16000;
@@ -4510,7 +4382,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 473:
+		case 472:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 18800f;
 			uParam1->f_2 = 7000;
@@ -4519,7 +4391,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 474:
+		case 473:
 			*uParam1 = 218000f;
 			uParam1->f_1 = 550000f;
 			uParam1->f_2 = 218000;
@@ -4528,7 +4400,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 475:
+		case 474:
 			*uParam1 = 9000f;
 			uParam1->f_1 = 22500f;
 			uParam1->f_2 = 9000;
@@ -4537,7 +4409,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 476:
+		case 475:
 			*uParam1 = 173000f;
 			uParam1->f_1 = 437500f;
 			uParam1->f_2 = 173000;
@@ -4546,7 +4418,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 477:
+		case 476:
 			*uParam1 = 148000f;
 			uParam1->f_1 = 373800f;
 			uParam1->f_2 = 148000;
@@ -4555,7 +4427,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 478:
+		case 477:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 18800f;
 			uParam1->f_2 = 7000;
@@ -4564,7 +4436,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 479:
+		case 478:
 			*uParam1 = 804000f;
 			uParam1->f_1 = 2031300f;
 			uParam1->f_2 = 804000;
@@ -4573,7 +4445,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 480:
+		case 479:
 			*uParam1 = 149000f;
 			uParam1->f_1 = 375000f;
 			uParam1->f_2 = 149000;
@@ -4582,7 +4454,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 481:
+		case 480:
 			*uParam1 = 205000f;
 			uParam1->f_1 = 517500f;
 			uParam1->f_2 = 205000;
@@ -4591,7 +4463,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 482:
+		case 481:
 			*uParam1 = 386000f;
 			uParam1->f_1 = 975000f;
 			uParam1->f_2 = 386000;
@@ -4600,7 +4472,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 483:
+		case 482:
 			*uParam1 = 243000f;
 			uParam1->f_1 = 612500f;
 			uParam1->f_2 = 243000;
@@ -4609,7 +4481,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 484:
+		case 483:
 			*uParam1 = 13000f;
 			uParam1->f_1 = 33800f;
 			uParam1->f_2 = 13000;
@@ -4618,7 +4490,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 485:
+		case 484:
 			*uParam1 = 59000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 59000;
@@ -4627,7 +4499,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 486:
+		case 485:
 			*uParam1 = 64000f;
 			uParam1->f_1 = 162500f;
 			uParam1->f_2 = 64000;
@@ -4636,7 +4508,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 487:
+		case 486:
 			*uParam1 = 40000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 40000;
@@ -4645,7 +4517,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 488:
+		case 487:
 			*uParam1 = 69000f;
 			uParam1->f_1 = 175000f;
 			uParam1->f_2 = 69000;
@@ -4654,7 +4526,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 489:
+		case 488:
 			*uParam1 = 65000f;
 			uParam1->f_1 = 165000f;
 			uParam1->f_2 = 65000;
@@ -4663,7 +4535,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 490:
+		case 489:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 37500f;
 			uParam1->f_2 = 15000;
@@ -4672,7 +4544,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 491:
+		case 490:
 			*uParam1 = 743000f;
 			uParam1->f_1 = 1875000f;
 			uParam1->f_2 = 743000;
@@ -4681,7 +4553,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 492:
+		case 491:
 			*uParam1 = 42000f;
 			uParam1->f_1 = 106300f;
 			uParam1->f_2 = 42000;
@@ -4690,7 +4562,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 493:
+		case 492:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -4699,7 +4571,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 494:
+		case 493:
 			*uParam1 = 22000f;
 			uParam1->f_1 = 56300f;
 			uParam1->f_2 = 22000;
@@ -4708,7 +4580,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 495:
+		case 494:
 			*uParam1 = 40000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 40000;
@@ -4717,7 +4589,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 496:
+		case 495:
 			*uParam1 = 8000f;
 			uParam1->f_1 = 21100f;
 			uParam1->f_2 = 8000;
@@ -4726,7 +4598,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 497:
+		case 496:
 			*uParam1 = 569000f;
 			uParam1->f_1 = 1437500f;
 			uParam1->f_2 = 569000;
@@ -4735,7 +4607,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 498:
+		case 497:
 			*uParam1 = 97000f;
 			uParam1->f_1 = 245800f;
 			uParam1->f_2 = 97000;
@@ -4744,7 +4616,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 499:
+		case 498:
 			*uParam1 = 421000f;
 			uParam1->f_1 = 1062500f;
 			uParam1->f_2 = 421000;
@@ -4753,7 +4625,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 500:
+		case 499:
 			*uParam1 = 433000f;
 			uParam1->f_1 = 1093800f;
 			uParam1->f_2 = 433000;
@@ -4762,7 +4634,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 501:
+		case 500:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 37500f;
 			uParam1->f_2 = 15000;
@@ -4771,7 +4643,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 502:
+		case 501:
 			*uParam1 = 124000f;
 			uParam1->f_1 = 312500f;
 			uParam1->f_2 = 124000;
@@ -4780,7 +4652,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 503:
+		case 502:
 			*uParam1 = 12000f;
 			uParam1->f_1 = 31500f;
 			uParam1->f_2 = 12000;
@@ -4789,7 +4661,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 504:
+		case 503:
 			*uParam1 = 124000f;
 			uParam1->f_1 = 312500f;
 			uParam1->f_2 = 124000;
@@ -4798,7 +4670,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 505:
+		case 504:
 			*uParam1 = 54000f;
 			uParam1->f_1 = 137500f;
 			uParam1->f_2 = 54000;
@@ -4807,7 +4679,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 506:
+		case 505:
 			*uParam1 = 990000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 990000;
@@ -4816,7 +4688,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 507:
+		case 506:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -4825,7 +4697,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 508:
+		case 507:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -4834,7 +4706,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 509:
+		case 508:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -4843,7 +4715,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 510:
+		case 509:
 			*uParam1 = 11000f;
 			uParam1->f_1 = 27500f;
 			uParam1->f_2 = 11000;
@@ -4852,7 +4724,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 511:
+		case 510:
 			*uParam1 = 119000f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 119000;
@@ -4861,7 +4733,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 512:
+		case 511:
 			*uParam1 = 223000f;
 			uParam1->f_1 = 562500f;
 			uParam1->f_2 = 223000;
@@ -4870,7 +4742,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 513:
+		case 512:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 26300f;
 			uParam1->f_2 = 10000;
@@ -4879,7 +4751,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 514:
+		case 513:
 			*uParam1 = 74000f;
 			uParam1->f_1 = 187500f;
 			uParam1->f_2 = 74000;
@@ -4888,7 +4760,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 515:
+		case 514:
 			*uParam1 = 30000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 30000;
@@ -4897,7 +4769,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 516:
+		case 515:
 			*uParam1 = 32000f;
 			uParam1->f_1 = 81300f;
 			uParam1->f_2 = 32000;
@@ -4906,7 +4778,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 517:
+		case 516:
 			*uParam1 = 470000f;
 			uParam1->f_1 = 1187500f;
 			uParam1->f_2 = 470000;
@@ -4915,7 +4787,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 518:
+		case 517:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 6000;
@@ -4924,7 +4796,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 519:
+		case 518:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4933,7 +4805,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 520:
+		case 519:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4942,7 +4814,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 521:
+		case 520:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4951,7 +4823,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 522:
+		case 521:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4960,7 +4832,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 523:
+		case 522:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4969,7 +4841,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 524:
+		case 523:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4978,7 +4850,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 525:
+		case 524:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4987,7 +4859,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 526:
+		case 525:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -4998,7 +4870,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 527:
+		case 526:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5007,7 +4879,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 528:
+		case 527:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5016,7 +4888,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 529:
+		case 528:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5025,7 +4897,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 530:
+		case 529:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5034,7 +4906,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 531:
+		case 530:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5043,7 +4915,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 532:
+		case 531:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5052,7 +4924,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 533:
+		case 532:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5061,7 +4933,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 534:
+		case 533:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5070,7 +4942,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 535:
+		case 534:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5079,7 +4951,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 536:
+		case 535:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5088,7 +4960,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 537:
+		case 536:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5097,7 +4969,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 538:
+		case 537:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5106,7 +4978,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 539:
+		case 538:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5115,7 +4987,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 540:
+		case 539:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5124,7 +4996,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 541:
+		case 540:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5133,7 +5005,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 542:
+		case 541:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5142,7 +5014,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 543:
+		case 542:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5151,7 +5023,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 544:
+		case 543:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5160,7 +5032,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 545:
+		case 544:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5169,7 +5041,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 546:
+		case 545:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5178,7 +5050,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 547:
+		case 546:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5187,7 +5059,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 548:
+		case 547:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5196,7 +5068,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 549:
+		case 548:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5205,7 +5077,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 550:
+		case 549:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5214,7 +5086,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 551:
+		case 550:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5223,7 +5095,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 552:
+		case 551:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5232,7 +5104,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 553:
+		case 552:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5241,7 +5113,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 554:
+		case 553:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5250,7 +5122,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 555:
+		case 554:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5259,7 +5131,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 556:
+		case 555:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5268,7 +5140,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 557:
+		case 556:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5277,7 +5149,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 558:
+		case 557:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5286,7 +5158,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 559:
+		case 558:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5295,7 +5167,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 560:
+		case 559:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5304,7 +5176,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 561:
+		case 560:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5313,7 +5185,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 562:
+		case 561:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5322,7 +5194,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 563:
+		case 562:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5331,7 +5203,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 564:
+		case 563:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5340,7 +5212,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 565:
+		case 564:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5349,7 +5221,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 566:
+		case 565:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5358,7 +5230,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 567:
+		case 566:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5367,7 +5239,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 568:
+		case 567:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5376,7 +5248,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 569:
+		case 568:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5385,7 +5257,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 570:
+		case 569:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5394,7 +5266,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 571:
+		case 570:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5403,7 +5275,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 572:
+		case 571:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5412,7 +5284,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 573:
+		case 572:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5421,7 +5293,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 574:
+		case 573:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5430,7 +5302,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 575:
+		case 574:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5439,7 +5311,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 576:
+		case 575:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5448,7 +5320,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 577:
+		case 576:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5457,7 +5329,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 578:
+		case 577:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5466,7 +5338,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 579:
+		case 578:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5475,7 +5347,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 580:
+		case 579:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5484,7 +5356,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 581:
+		case 580:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5493,7 +5365,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 582:
+		case 581:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5502,7 +5374,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 583:
+		case 582:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5511,7 +5383,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 584:
+		case 583:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5520,7 +5392,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 585:
+		case 584:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5529,7 +5401,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 586:
+		case 585:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5538,7 +5410,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 587:
+		case 586:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5549,7 +5421,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 588:
+		case 587:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5558,7 +5430,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 589:
+		case 588:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5567,7 +5439,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 590:
+		case 589:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5576,7 +5448,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 591:
+		case 590:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5585,7 +5457,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 592:
+		case 591:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5594,7 +5466,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 593:
+		case 592:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5603,7 +5475,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 594:
+		case 593:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5612,7 +5484,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 595:
+		case 594:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5621,7 +5493,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 596:
+		case 595:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5630,7 +5502,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 597:
+		case 596:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5639,7 +5511,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 598:
+		case 597:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5648,7 +5520,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 599:
+		case 598:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5657,7 +5529,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 600:
+		case 599:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5666,7 +5538,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 601:
+		case 600:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5675,7 +5547,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 602:
+		case 601:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5684,7 +5556,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 603:
+		case 602:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5693,7 +5565,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 604:
+		case 603:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5702,7 +5574,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 605:
+		case 604:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5711,7 +5583,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 606:
+		case 605:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5720,7 +5592,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 607:
+		case 606:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5729,7 +5601,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 608:
+		case 607:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5738,7 +5610,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 609:
+		case 608:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5747,7 +5619,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 610:
+		case 609:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5756,7 +5628,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 611:
+		case 610:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5765,7 +5637,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 612:
+		case 611:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5774,7 +5646,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 613:
+		case 612:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5783,7 +5655,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 614:
+		case 613:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5792,7 +5664,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 615:
+		case 614:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5801,7 +5673,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 616:
+		case 615:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5810,7 +5682,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 617:
+		case 616:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5819,7 +5691,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 618:
+		case 617:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5828,7 +5700,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 619:
+		case 618:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5837,7 +5709,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 620:
+		case 619:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5846,7 +5718,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 621:
+		case 620:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5855,7 +5727,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 622:
+		case 621:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5864,7 +5736,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 623:
+		case 622:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5873,7 +5745,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 624:
+		case 623:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5882,7 +5754,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 625:
+		case 624:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5891,7 +5763,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 626:
+		case 625:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5900,7 +5772,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 627:
+		case 626:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5909,7 +5781,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 628:
+		case 627:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5918,7 +5790,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 629:
+		case 628:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5927,7 +5799,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 630:
+		case 629:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5936,7 +5808,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 631:
+		case 630:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5945,7 +5817,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 632:
+		case 631:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5954,7 +5826,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 633:
+		case 632:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5963,7 +5835,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 634:
+		case 633:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5972,7 +5844,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 635:
+		case 634:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5981,7 +5853,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 636:
+		case 635:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5990,7 +5862,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 637:
+		case 636:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -5999,7 +5871,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 638:
+		case 637:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6008,7 +5880,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 639:
+		case 638:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6017,7 +5889,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 640:
+		case 639:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6026,7 +5898,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 641:
+		case 640:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6035,7 +5907,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 642:
+		case 641:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6044,7 +5916,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 643:
+		case 642:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6053,7 +5925,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 644:
+		case 643:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6062,7 +5934,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 645:
+		case 644:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6071,7 +5943,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 646:
+		case 645:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6080,7 +5952,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 647:
+		case 646:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6089,7 +5961,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 648:
+		case 647:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6100,7 +5972,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 649:
+		case 648:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6109,7 +5981,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 650:
+		case 649:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6118,7 +5990,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 651:
+		case 650:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6127,7 +5999,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 652:
+		case 651:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6136,7 +6008,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 653:
+		case 652:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6145,7 +6017,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 654:
+		case 653:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6154,7 +6026,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 655:
+		case 654:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6163,7 +6035,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 656:
+		case 655:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6172,7 +6044,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 657:
+		case 656:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6181,7 +6053,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 658:
+		case 657:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6190,7 +6062,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 659:
+		case 658:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6199,7 +6071,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 660:
+		case 659:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6208,7 +6080,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 661:
+		case 660:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6217,7 +6089,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 662:
+		case 661:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6226,7 +6098,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 663:
+		case 662:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6235,7 +6107,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 664:
+		case 663:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6244,7 +6116,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 665:
+		case 664:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6253,7 +6125,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 666:
+		case 665:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6262,7 +6134,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 667:
+		case 666:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6271,7 +6143,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 668:
+		case 667:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6280,7 +6152,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 669:
+		case 668:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6289,7 +6161,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 670:
+		case 669:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6298,7 +6170,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 671:
+		case 670:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6307,7 +6179,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 672:
+		case 671:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6316,7 +6188,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 673:
+		case 672:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6325,7 +6197,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 674:
+		case 673:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6334,7 +6206,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 675:
+		case 674:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6343,7 +6215,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 676:
+		case 675:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6352,7 +6224,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 677:
+		case 676:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6361,7 +6233,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 678:
+		case 677:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6370,7 +6242,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 679:
+		case 678:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6379,7 +6251,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 680:
+		case 679:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6388,7 +6260,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 681:
+		case 680:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6397,7 +6269,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 682:
+		case 681:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6406,7 +6278,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 683:
+		case 682:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6415,7 +6287,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 684:
+		case 683:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6424,7 +6296,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 685:
+		case 684:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6433,7 +6305,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 686:
+		case 685:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6442,7 +6314,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 687:
+		case 686:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6451,7 +6323,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 688:
+		case 687:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6460,7 +6332,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 689:
+		case 688:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6469,7 +6341,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 690:
+		case 689:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6478,7 +6350,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 691:
+		case 690:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6487,7 +6359,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 692:
+		case 691:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6496,7 +6368,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 693:
+		case 692:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6505,7 +6377,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 694:
+		case 693:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6514,7 +6386,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 695:
+		case 694:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6523,7 +6395,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 696:
+		case 695:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6532,7 +6404,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 697:
+		case 696:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6541,7 +6413,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 698:
+		case 697:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6550,7 +6422,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 699:
+		case 698:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6559,7 +6431,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 700:
+		case 699:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6568,7 +6440,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 701:
+		case 700:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6577,7 +6449,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 702:
+		case 701:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6586,7 +6458,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 703:
+		case 702:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6595,7 +6467,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 704:
+		case 703:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6604,7 +6476,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 705:
+		case 704:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6613,7 +6485,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 706:
+		case 705:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6622,7 +6494,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 707:
+		case 706:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6631,7 +6503,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 708:
+		case 707:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6640,7 +6512,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 709:
+		case 708:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6651,7 +6523,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 710:
+		case 709:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6660,7 +6532,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 711:
+		case 710:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6669,7 +6541,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 712:
+		case 711:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6678,7 +6550,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 713:
+		case 712:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6687,7 +6559,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 714:
+		case 713:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6696,7 +6568,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 715:
+		case 714:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6705,7 +6577,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 716:
+		case 715:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6714,7 +6586,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 717:
+		case 716:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6723,7 +6595,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 718:
+		case 717:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6732,7 +6604,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 719:
+		case 718:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6741,7 +6613,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 720:
+		case 719:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6750,7 +6622,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 721:
+		case 720:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6759,7 +6631,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 722:
+		case 721:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6768,7 +6640,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 723:
+		case 722:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6777,7 +6649,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 724:
+		case 723:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6786,7 +6658,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 725:
+		case 724:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6795,7 +6667,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 726:
+		case 725:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6804,7 +6676,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 727:
+		case 726:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6813,7 +6685,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 728:
+		case 727:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6822,7 +6694,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 729:
+		case 728:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6831,7 +6703,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 730:
+		case 729:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6840,7 +6712,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 731:
+		case 730:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6849,7 +6721,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 732:
+		case 731:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6858,7 +6730,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 733:
+		case 732:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6867,7 +6739,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 734:
+		case 733:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6876,7 +6748,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 735:
+		case 734:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6885,7 +6757,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 736:
+		case 735:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6894,7 +6766,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 737:
+		case 736:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6903,7 +6775,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 738:
+		case 737:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6912,7 +6784,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 739:
+		case 738:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6921,7 +6793,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 740:
+		case 739:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6930,7 +6802,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 741:
+		case 740:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6939,7 +6811,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 742:
+		case 741:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6948,7 +6820,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 743:
+		case 742:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6957,7 +6829,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 744:
+		case 743:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6966,7 +6838,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 745:
+		case 744:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6975,7 +6847,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 746:
+		case 745:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6984,7 +6856,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 747:
+		case 746:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -6993,7 +6865,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 748:
+		case 747:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -7002,7 +6874,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 749:
+		case 748:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -7011,7 +6883,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 750:
+		case 749:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -7020,7 +6892,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 751:
+		case 750:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 1.2f;
 			uParam1->f_2 = 0;
@@ -7029,7 +6901,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 752:
+		case 751:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 32000f;
 			uParam1->f_2 = 5000;
@@ -7038,7 +6910,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 753:
+		case 752:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 10000;
@@ -7047,7 +6919,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 754:
+		case 753:
 			*uParam1 = 17000f;
 			uParam1->f_1 = 43800f;
 			uParam1->f_2 = 17000;
@@ -7056,7 +6928,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 755:
+		case 754:
 			*uParam1 = 19000f;
 			uParam1->f_1 = 47500f;
 			uParam1->f_2 = 19000;
@@ -7065,7 +6937,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 756:
+		case 755:
 			*uParam1 = 371000f;
 			uParam1->f_1 = 937500f;
 			uParam1->f_2 = 371000;
@@ -7074,7 +6946,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 757:
+		case 756:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 18300f;
 			uParam1->f_2 = 7000;
@@ -7083,7 +6955,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 758:
+		case 757:
 			*uParam1 = 74000f;
 			uParam1->f_1 = 187500f;
 			uParam1->f_2 = 74000;
@@ -7092,7 +6964,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 759:
+		case 758:
 			*uParam1 = 97000f;
 			uParam1->f_1 = 243800f;
 			uParam1->f_2 = 97000;
@@ -7101,7 +6973,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 760:
+		case 759:
 			*uParam1 = 119000f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 119000;
@@ -7110,7 +6982,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 761:
+		case 760:
 			*uParam1 = 136000f;
 			uParam1->f_1 = 343800f;
 			uParam1->f_2 = 136000;
@@ -7119,7 +6991,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 762:
+		case 761:
 			*uParam1 = 248000f;
 			uParam1->f_1 = 625000f;
 			uParam1->f_2 = 248000;
@@ -7128,7 +7000,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 763:
+		case 762:
 			*uParam1 = 359000f;
 			uParam1->f_1 = 906300f;
 			uParam1->f_2 = 359000;
@@ -7137,7 +7009,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 764:
+		case 763:
 			*uParam1 = 13000f;
 			uParam1->f_1 = 32500f;
 			uParam1->f_2 = 13000;
@@ -7146,7 +7018,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 765:
+		case 764:
 			*uParam1 = 11000f;
 			uParam1->f_1 = 28800f;
 			uParam1->f_2 = 11000;
@@ -7155,7 +7027,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 766:
+		case 765:
 			*uParam1 = 35000f;
 			uParam1->f_1 = 87500f;
 			uParam1->f_2 = 35000;
@@ -7164,7 +7036,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 767:
+		case 766:
 			*uParam1 = 17000f;
 			uParam1->f_1 = 43800f;
 			uParam1->f_2 = 17000;
@@ -7173,7 +7045,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 768:
+		case 767:
 			*uParam1 = 8000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 8000;
@@ -7182,7 +7054,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 769:
+		case 768:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 37500f;
 			uParam1->f_2 = 15000;
@@ -7191,7 +7063,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 770:
+		case 769:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7202,7 +7074,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 771:
+		case 770:
 			*uParam1 = 16000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 16000;
@@ -7211,7 +7083,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 772:
+		case 771:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7220,7 +7092,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 773:
+		case 772:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7229,7 +7101,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 774:
+		case 773:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 18800f;
 			uParam1->f_2 = 7000;
@@ -7238,7 +7110,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 775:
+		case 774:
 			*uParam1 = 470000f;
 			uParam1->f_1 = 1187500f;
 			uParam1->f_2 = 470000;
@@ -7247,7 +7119,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 776:
+		case 775:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 17500f;
 			uParam1->f_2 = 7000;
@@ -7256,7 +7128,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 777:
+		case 776:
 			*uParam1 = 8750f;
 			uParam1->f_1 = 21900f;
 			uParam1->f_2 = 8750;
@@ -7265,7 +7137,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 778:
+		case 777:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 17500f;
 			uParam1->f_2 = 7000;
@@ -7274,7 +7146,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 779:
+		case 778:
 			*uParam1 = 8750f;
 			uParam1->f_1 = 21900f;
 			uParam1->f_2 = 8750;
@@ -7283,7 +7155,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 780:
+		case 779:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 17500f;
 			uParam1->f_2 = 7000;
@@ -7292,7 +7164,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 781:
+		case 780:
 			*uParam1 = 8750f;
 			uParam1->f_1 = 21900f;
 			uParam1->f_2 = 8750;
@@ -7301,7 +7173,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 782:
+		case 781:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 17500f;
 			uParam1->f_2 = 7000;
@@ -7310,7 +7182,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 783:
+		case 782:
 			*uParam1 = 8750f;
 			uParam1->f_1 = 21900f;
 			uParam1->f_2 = 8750;
@@ -7319,7 +7191,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 784:
+		case 783:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 17500f;
 			uParam1->f_2 = 7000;
@@ -7328,7 +7200,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 785:
+		case 784:
 			*uParam1 = 8750f;
 			uParam1->f_1 = 21900f;
 			uParam1->f_2 = 8750;
@@ -7337,7 +7209,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 786:
+		case 785:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -7346,7 +7218,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 787:
+		case 786:
 			*uParam1 = 0f;
 			uParam1->f_1 = 150f;
 			uParam1->f_2 = 0;
@@ -7355,7 +7227,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 788:
+		case 787:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -7364,7 +7236,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 789:
+		case 788:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -7373,7 +7245,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 790:
+		case 789:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -7382,7 +7254,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 791:
+		case 790:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600f;
 			uParam1->f_2 = 0;
@@ -7391,7 +7263,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 792:
+		case 791:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
@@ -7400,7 +7272,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 793:
+		case 792:
 			*uParam1 = 0f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 0;
@@ -7409,7 +7281,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 794:
+		case 793:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -7418,7 +7290,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 795:
+		case 794:
 			*uParam1 = 0f;
 			uParam1->f_1 = 7500f;
 			uParam1->f_2 = 0;
@@ -7427,7 +7299,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 796:
+		case 795:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -7436,7 +7308,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 797:
+		case 796:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = 0;
@@ -7445,7 +7317,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 798:
+		case 797:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -7454,7 +7326,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 799:
+		case 798:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -7463,7 +7335,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 800:
+		case 799:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -7472,7 +7344,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 801:
+		case 800:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -7481,7 +7353,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 802:
+		case 801:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -7490,7 +7362,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 803:
+		case 802:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -7499,7 +7371,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 804:
+		case 803:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -7508,7 +7380,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 805:
+		case 804:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -7517,7 +7389,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 806:
+		case 805:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -7526,7 +7398,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 807:
+		case 806:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -7535,7 +7407,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 808:
+		case 807:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -7544,7 +7416,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 809:
+		case 808:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -7553,7 +7425,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 810:
+		case 809:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -7562,7 +7434,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 811:
+		case 810:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -7571,7 +7443,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 812:
+		case 811:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -7580,7 +7452,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 813:
+		case 812:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -7589,7 +7461,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 814:
+		case 813:
 			*uParam1 = 37000f;
 			uParam1->f_1 = 93800f;
 			uParam1->f_2 = 37000;
@@ -7600,7 +7472,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 815:
+		case 814:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7609,7 +7481,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 816:
+		case 815:
 			*uParam1 = 5200f;
 			uParam1->f_1 = 13100f;
 			uParam1->f_2 = 5200;
@@ -7618,7 +7490,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 817:
+		case 816:
 			*uParam1 = 5600f;
 			uParam1->f_1 = 14100f;
 			uParam1->f_2 = 5600;
@@ -7627,7 +7499,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 818:
+		case 817:
 			*uParam1 = 6200f;
 			uParam1->f_1 = 15600f;
 			uParam1->f_2 = 6200;
@@ -7636,7 +7508,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 819:
+		case 818:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7645,7 +7517,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 820:
+		case 819:
 			*uParam1 = 6200f;
 			uParam1->f_1 = 15600f;
 			uParam1->f_2 = 6200;
@@ -7654,7 +7526,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 821:
+		case 820:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7663,7 +7535,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 822:
+		case 821:
 			*uParam1 = 6200f;
 			uParam1->f_1 = 15600f;
 			uParam1->f_2 = 6200;
@@ -7672,7 +7544,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 823:
+		case 822:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7681,7 +7553,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 824:
+		case 823:
 			*uParam1 = 6200f;
 			uParam1->f_1 = 15600f;
 			uParam1->f_2 = 6200;
@@ -7690,7 +7562,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 825:
+		case 824:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -7699,7 +7571,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 826:
+		case 825:
 			*uParam1 = 6200f;
 			uParam1->f_1 = 15600f;
 			uParam1->f_2 = 6200;
@@ -7708,7 +7580,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 827:
+		case 826:
 			*uParam1 = 9900f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 9900;
@@ -7717,7 +7589,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 828:
+		case 827:
 			*uParam1 = 9700f;
 			uParam1->f_1 = 24400f;
 			uParam1->f_2 = 9700;
@@ -7726,7 +7598,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 829:
+		case 828:
 			*uParam1 = 5900f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 5900;
@@ -7735,7 +7607,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 830:
+		case 829:
 			*uParam1 = 9900f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 9900;
@@ -7744,7 +7616,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 831:
+		case 830:
 			*uParam1 = 9700f;
 			uParam1->f_1 = 24400f;
 			uParam1->f_2 = 9700;
@@ -7753,7 +7625,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 832:
+		case 831:
 			*uParam1 = 9900f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 9900;
@@ -7762,7 +7634,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 833:
+		case 832:
 			*uParam1 = 10600f;
 			uParam1->f_1 = 26900f;
 			uParam1->f_2 = 10600;
@@ -7771,7 +7643,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 834:
+		case 833:
 			*uParam1 = 11400f;
 			uParam1->f_1 = 28800f;
 			uParam1->f_2 = 11400;
@@ -7780,7 +7652,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 835:
+		case 834:
 			*uParam1 = 12100f;
 			uParam1->f_1 = 30600f;
 			uParam1->f_2 = 12100;
@@ -7789,7 +7661,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 836:
+		case 835:
 			*uParam1 = 12900f;
 			uParam1->f_1 = 32500f;
 			uParam1->f_2 = 12900;
@@ -7798,7 +7670,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 837:
+		case 836:
 			*uParam1 = 13600f;
 			uParam1->f_1 = 34400f;
 			uParam1->f_2 = 13600;
@@ -7807,7 +7679,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 838:
+		case 837:
 			*uParam1 = 12400f;
 			uParam1->f_1 = 31300f;
 			uParam1->f_2 = 12400;
@@ -7818,7 +7690,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 839:
+		case 838:
 			*uParam1 = 37100f;
 			uParam1->f_1 = 93800f;
 			uParam1->f_2 = 37100;
@@ -7827,7 +7699,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 840:
+		case 839:
 			*uParam1 = 19800f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 19800;
@@ -7836,7 +7708,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 841:
+		case 840:
 			*uParam1 = 12400f;
 			uParam1->f_1 = 31300f;
 			uParam1->f_2 = 12400;
@@ -7845,7 +7717,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 842:
+		case 841:
 			*uParam1 = 160900f;
 			uParam1->f_1 = 406300f;
 			uParam1->f_2 = 160900;
@@ -7854,7 +7726,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 843:
+		case 842:
 			*uParam1 = 37100f;
 			uParam1->f_1 = 93800f;
 			uParam1->f_2 = 37100;
@@ -7863,7 +7735,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 844:
+		case 843:
 			*uParam1 = 85100f;
 			uParam1->f_1 = 215000f;
 			uParam1->f_2 = 85100;
@@ -7872,7 +7744,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 845:
+		case 844:
 			*uParam1 = 62400f;
 			uParam1->f_1 = 157500f;
 			uParam1->f_2 = 62400;
@@ -7881,7 +7753,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 846:
+		case 845:
 			*uParam1 = 78700f;
 			uParam1->f_1 = 198800f;
 			uParam1->f_2 = 78700;
@@ -7890,7 +7762,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 847:
+		case 846:
 			*uParam1 = 431100f;
 			uParam1->f_1 = 1088800f;
 			uParam1->f_2 = 431100;
@@ -7899,7 +7771,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 848:
+		case 847:
 			*uParam1 = 17300f;
 			uParam1->f_1 = 43800f;
 			uParam1->f_2 = 17300;
@@ -7908,7 +7780,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 849:
+		case 848:
 			*uParam1 = 39600f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 39600;
@@ -7917,7 +7789,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 850:
+		case 849:
 			*uParam1 = 17800f;
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 17800;
@@ -7926,7 +7798,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 851:
+		case 850:
 			*uParam1 = 11900f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 11900;
@@ -7935,7 +7807,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 852:
+		case 851:
 			*uParam1 = 29700f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 29700;
@@ -7944,7 +7816,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 853:
+		case 852:
 			*uParam1 = 47000f;
 			uParam1->f_1 = 118800f;
 			uParam1->f_2 = 47000;
@@ -7955,7 +7827,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 854:
+		case 853:
 			*uParam1 = 6200f;
 			uParam1->f_1 = 15600f;
 			uParam1->f_2 = 6200;
@@ -7964,7 +7836,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 855:
+		case 854:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 15100f;
 			uParam1->f_2 = 6000;
@@ -7973,7 +7845,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 856:
+		case 855:
 			*uParam1 = 5700f;
 			uParam1->f_1 = 14400f;
 			uParam1->f_2 = 5700;
@@ -7982,7 +7854,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 857:
+		case 856:
 			*uParam1 = 6200f;
 			uParam1->f_1 = 15600f;
 			uParam1->f_2 = 6200;
@@ -7991,7 +7863,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 858:
+		case 857:
 			*uParam1 = 5600f;
 			uParam1->f_1 = 14200f;
 			uParam1->f_2 = 5600;
@@ -8000,7 +7872,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 859:
+		case 858:
 			*uParam1 = 7300f;
 			uParam1->f_1 = 18400f;
 			uParam1->f_2 = 7300;
@@ -8009,7 +7881,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 860:
+		case 859:
 			*uParam1 = 7200f;
 			uParam1->f_1 = 18100f;
 			uParam1->f_2 = 7200;
@@ -8018,7 +7890,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 861:
+		case 860:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -8027,7 +7899,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 862:
+		case 861:
 			*uParam1 = 9900f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 9900;
@@ -8036,7 +7908,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 863:
+		case 862:
 			*uParam1 = 9700f;
 			uParam1->f_1 = 24400f;
 			uParam1->f_2 = 9700;
@@ -8045,7 +7917,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 864:
+		case 863:
 			*uParam1 = 0.1f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -8054,7 +7926,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 865:
+		case 864:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -8063,7 +7935,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 866:
+		case 865:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -8072,7 +7944,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1086:
+		case 1085:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -8081,7 +7953,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 867:
+		case 866:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -8090,7 +7962,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 868:
+		case 867:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -8099,7 +7971,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 869:
+		case 868:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -8108,7 +7980,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 870:
+		case 869:
 			*uParam1 = 5f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 5;
@@ -8117,7 +7989,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 871:
+		case 870:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -8126,7 +7998,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 872:
+		case 871:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -8135,7 +8007,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 873:
+		case 872:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -8144,7 +8016,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 874:
+		case 873:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -8153,7 +8025,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 875:
+		case 874:
 			*uParam1 = 198000f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 198000;
@@ -8162,7 +8034,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 876:
+		case 875:
 			*uParam1 = 0f;
 			uParam1->f_1 = 40f;
 			uParam1->f_2 = 0;
@@ -8173,7 +8045,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 877:
+		case 876:
 			*uParam1 = 5200f;
 			uParam1->f_1 = 13100f;
 			uParam1->f_2 = 5200;
@@ -8182,7 +8054,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 878:
+		case 877:
 			*uParam1 = 79200f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = joaat("ss1_03_98_lod");
@@ -8191,7 +8063,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 879:
+		case 878:
 			*uParam1 = 99000f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 99000;
@@ -8200,7 +8072,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 880:
+		case 879:
 			*uParam1 = 69300f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 69300;
@@ -8209,7 +8081,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 881:
+		case 880:
 			*uParam1 = 59400f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 59400;
@@ -8218,7 +8090,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 882:
+		case 881:
 			*uParam1 = 42100f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 42100;
@@ -8227,7 +8099,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 883:
+		case 882:
 			*uParam1 = 123300f;
 			uParam1->f_1 = 400000f;
 			uParam1->f_2 = 123300;
@@ -8236,7 +8108,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 884:
+		case 883:
 			*uParam1 = 24800f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 24800;
@@ -8245,7 +8117,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 885:
+		case 884:
 			*uParam1 = 17300f;
 			uParam1->f_1 = 43800f;
 			uParam1->f_2 = 17300;
@@ -8254,7 +8126,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 886:
+		case 885:
 			*uParam1 = 47500f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 47500;
@@ -8263,7 +8135,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 887:
+		case 886:
 			*uParam1 = 10900f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10900;
@@ -8272,7 +8144,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 888:
+		case 887:
 			*uParam1 = 5400f;
 			uParam1->f_1 = 13800f;
 			uParam1->f_2 = 5400;
@@ -8281,7 +8153,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 889:
+		case 888:
 			*uParam1 = 27200f;
 			uParam1->f_1 = 68800f;
 			uParam1->f_2 = 27200;
@@ -8292,7 +8164,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 890:
+		case 889:
 			*uParam1 = 7900f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 7900;
@@ -8301,7 +8173,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 891:
+		case 890:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 12500f;
 			uParam1->f_2 = 5000;
@@ -8310,7 +8182,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 892:
+		case 891:
 			*uParam1 = 9900f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 9900;
@@ -8319,7 +8191,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 893:
+		case 892:
 			*uParam1 = 10600f;
 			uParam1->f_1 = 26900f;
 			uParam1->f_2 = 10600;
@@ -8328,7 +8200,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 894:
+		case 893:
 			*uParam1 = 11400f;
 			uParam1->f_1 = 28800f;
 			uParam1->f_2 = 11400;
@@ -8337,7 +8209,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 895:
+		case 894:
 			*uParam1 = 12100f;
 			uParam1->f_1 = 30600f;
 			uParam1->f_2 = 12100;
@@ -8346,7 +8218,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 896:
+		case 895:
 			*uParam1 = 11100f;
 			uParam1->f_1 = 28100f;
 			uParam1->f_2 = 11100;
@@ -8355,7 +8227,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 897:
+		case 896:
 			*uParam1 = 8200f;
 			uParam1->f_1 = 20600f;
 			uParam1->f_2 = 8200;
@@ -8364,7 +8236,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 898:
+		case 897:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 15200f;
 			uParam1->f_2 = 6000;
@@ -8373,7 +8245,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 899:
+		case 898:
 			*uParam1 = 10400f;
 			uParam1->f_1 = 26300f;
 			uParam1->f_2 = 10400;
@@ -8382,7 +8254,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 900:
+		case 899:
 			*uParam1 = 10400f;
 			uParam1->f_1 = 26300f;
 			uParam1->f_2 = 10400;
@@ -8391,7 +8263,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 901:
+		case 900:
 			*uParam1 = 10900f;
 			uParam1->f_1 = 27500f;
 			uParam1->f_2 = 10900;
@@ -8400,7 +8272,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 902:
+		case 901:
 			*uParam1 = 10900f;
 			uParam1->f_1 = 27500f;
 			uParam1->f_2 = 10900;
@@ -8409,7 +8281,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 903:
+		case 902:
 			*uParam1 = 11600f;
 			uParam1->f_1 = 29400f;
 			uParam1->f_2 = 11600;
@@ -8418,7 +8290,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 904:
+		case 903:
 			*uParam1 = 11600f;
 			uParam1->f_1 = 29400f;
 			uParam1->f_2 = 11600;
@@ -8427,7 +8299,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 905:
+		case 904:
 			*uParam1 = 12400f;
 			uParam1->f_1 = 31300f;
 			uParam1->f_2 = 12400;
@@ -8438,7 +8310,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 906:
+		case 905:
 			*uParam1 = 12400f;
 			uParam1->f_1 = 31300f;
 			uParam1->f_2 = 12400;
@@ -8447,7 +8319,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 907:
+		case 906:
 			*uParam1 = 10400f;
 			uParam1->f_1 = 26300f;
 			uParam1->f_2 = 10400;
@@ -8456,7 +8328,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 908:
+		case 907:
 			*uParam1 = 10400f;
 			uParam1->f_1 = 26300f;
 			uParam1->f_2 = 10400;
@@ -8465,7 +8337,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 909:
+		case 908:
 			*uParam1 = 10900f;
 			uParam1->f_1 = 27500f;
 			uParam1->f_2 = 10900;
@@ -8474,7 +8346,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 910:
+		case 909:
 			*uParam1 = 10900f;
 			uParam1->f_1 = 27500f;
 			uParam1->f_2 = 10900;
@@ -8483,7 +8355,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 911:
+		case 910:
 			*uParam1 = 11600f;
 			uParam1->f_1 = 29400f;
 			uParam1->f_2 = 11600;
@@ -8492,7 +8364,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 912:
+		case 911:
 			*uParam1 = 11600f;
 			uParam1->f_1 = 29400f;
 			uParam1->f_2 = 11600;
@@ -8501,7 +8373,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 913:
+		case 912:
 			*uParam1 = 12400f;
 			uParam1->f_1 = 31300f;
 			uParam1->f_2 = 12400;
@@ -8510,7 +8382,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 914:
+		case 913:
 			*uParam1 = 12400f;
 			uParam1->f_1 = 31300f;
 			uParam1->f_2 = 12400;
@@ -8519,7 +8391,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 915:
+		case 914:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 0;
@@ -8528,7 +8400,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 916:
+		case 915:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 0;
@@ -8537,7 +8409,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 917:
+		case 916:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -8546,7 +8418,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 918:
+		case 917:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -8557,7 +8429,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 919:
+		case 918:
 			*uParam1 = 500000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 500000;
@@ -8566,7 +8438,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 920:
+		case 919:
 			*uParam1 = 500000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 500000;
@@ -8575,7 +8447,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 921:
+		case 920:
 			*uParam1 = 500000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 500000;
@@ -8584,7 +8456,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 922:
+		case 921:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 300000;
@@ -8593,7 +8465,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 923:
+		case 922:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 10000;
@@ -8602,7 +8474,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 924:
+		case 923:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 10000;
@@ -8611,7 +8483,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 925:
+		case 924:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 10000;
@@ -8620,7 +8492,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 926:
+		case 925:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -8629,7 +8501,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 927:
+		case 926:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -8638,7 +8510,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 928:
+		case 927:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -8647,7 +8519,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 929:
+		case 928:
 			*uParam1 = 1f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 1;
@@ -8658,7 +8530,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 930:
+		case 929:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -8667,7 +8539,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 931:
+		case 930:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -8676,7 +8548,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 932:
+		case 931:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -8685,7 +8557,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 933:
+		case 932:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -8694,7 +8566,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 934:
+		case 933:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -8703,7 +8575,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 935:
+		case 934:
 			*uParam1 = 0f;
 			uParam1->f_1 = 4f;
 			uParam1->f_2 = 0;
@@ -8712,7 +8584,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 936:
+		case 935:
 			*uParam1 = 0f;
 			uParam1->f_1 = 4.5f;
 			uParam1->f_2 = 0;
@@ -8721,7 +8593,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 937:
+		case 936:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -8732,7 +8604,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 938:
+		case 937:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5.5f;
 			uParam1->f_2 = 0;
@@ -8741,7 +8613,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 939:
+		case 938:
 			*uParam1 = 0f;
 			uParam1->f_1 = 6f;
 			uParam1->f_2 = 0;
@@ -8750,7 +8622,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 940:
+		case 939:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -8759,7 +8631,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 941:
+		case 940:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -8768,7 +8640,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 942:
+		case 941:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -8777,7 +8649,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 943:
+		case 942:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -8786,7 +8658,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 944:
+		case 943:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -8795,7 +8667,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 945:
+		case 944:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -8806,7 +8678,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 970:
+		case 969:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8815,7 +8687,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 969:
+		case 968:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8824,7 +8696,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 968:
+		case 967:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8833,7 +8705,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 967:
+		case 966:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8842,7 +8714,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 966:
+		case 965:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8851,7 +8723,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 965:
+		case 964:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8860,7 +8732,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 964:
+		case 963:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8869,7 +8741,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 963:
+		case 962:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8878,7 +8750,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 962:
+		case 961:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8887,7 +8759,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 961:
+		case 960:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8896,7 +8768,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 960:
+		case 959:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8905,7 +8777,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 959:
+		case 958:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -8914,7 +8786,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 958:
+		case 957:
 			*uParam1 = 7500f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 7500;
@@ -8923,7 +8795,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 957:
+		case 956:
 			*uParam1 = 7500f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 7500;
@@ -8932,7 +8804,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 956:
+		case 955:
 			*uParam1 = 7500f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 7500;
@@ -8941,7 +8813,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 955:
+		case 954:
 			*uParam1 = 7500f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 7500;
@@ -8952,7 +8824,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 954:
+		case 953:
 			*uParam1 = 7500f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 7500;
@@ -8961,7 +8833,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 953:
+		case 952:
 			*uParam1 = 7500f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 7500;
@@ -8970,7 +8842,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 952:
+		case 951:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 300000;
@@ -8979,7 +8851,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 951:
+		case 950:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 300000;
@@ -8988,7 +8860,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 950:
+		case 949:
 			*uParam1 = 500000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 500000;
@@ -8997,7 +8869,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 946:
+		case 945:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 10000;
@@ -9006,7 +8878,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 947:
+		case 946:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 300000;
@@ -9015,7 +8887,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 948:
+		case 947:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 300000;
@@ -9024,7 +8896,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 949:
+		case 948:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 300000;
@@ -9033,7 +8905,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1041:
+		case 1040:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -9042,7 +8914,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1042:
+		case 1041:
 			*uParam1 = 0f;
 			uParam1->f_1 = 750f;
 			uParam1->f_2 = 0;
@@ -9051,7 +8923,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1043:
+		case 1042:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600f;
 			uParam1->f_2 = 0;
@@ -9060,7 +8932,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1044:
+		case 1043:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -9069,7 +8941,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1045:
+		case 1044:
 			*uParam1 = 0f;
 			uParam1->f_1 = 22500f;
 			uParam1->f_2 = 0;
@@ -9080,7 +8952,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 971:
+		case 970:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9089,7 +8961,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 972:
+		case 971:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9098,7 +8970,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 973:
+		case 972:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9107,7 +8979,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 974:
+		case 973:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9116,7 +8988,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 975:
+		case 974:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9125,7 +8997,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 976:
+		case 975:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9134,7 +9006,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 977:
+		case 976:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9143,7 +9015,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 978:
+		case 977:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9152,7 +9024,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 979:
+		case 978:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9161,7 +9033,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 980:
+		case 979:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9170,7 +9042,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 981:
+		case 980:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9179,7 +9051,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 982:
+		case 981:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9188,7 +9060,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 983:
+		case 982:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9197,7 +9069,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 984:
+		case 983:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9206,7 +9078,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 985:
+		case 984:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9217,7 +9089,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 986:
+		case 985:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9226,7 +9098,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 987:
+		case 986:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9235,7 +9107,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 988:
+		case 987:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9244,7 +9116,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 989:
+		case 988:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9253,7 +9125,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 990:
+		case 989:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9262,7 +9134,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 991:
+		case 990:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9271,7 +9143,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 992:
+		case 991:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9280,7 +9152,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 993:
+		case 992:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9289,7 +9161,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 994:
+		case 993:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9298,7 +9170,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 995:
+		case 994:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9309,7 +9181,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 996:
+		case 995:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9318,7 +9190,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 997:
+		case 996:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9327,7 +9199,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 998:
+		case 997:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9336,7 +9208,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 999:
+		case 998:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9345,7 +9217,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1000:
+		case 999:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9354,7 +9226,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1001:
+		case 1000:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9363,7 +9235,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1002:
+		case 1001:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9372,7 +9244,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1003:
+		case 1002:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9381,7 +9253,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1004:
+		case 1003:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9392,7 +9264,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1005:
+		case 1004:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9401,7 +9273,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1006:
+		case 1005:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9410,7 +9282,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1007:
+		case 1006:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9419,7 +9291,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1008:
+		case 1007:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9428,7 +9300,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1009:
+		case 1008:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9437,7 +9309,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1010:
+		case 1009:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9446,7 +9318,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1011:
+		case 1010:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9457,7 +9329,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1012:
+		case 1011:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9466,7 +9338,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1013:
+		case 1012:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9475,7 +9347,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1014:
+		case 1013:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9484,7 +9356,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1015:
+		case 1014:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9493,7 +9365,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1016:
+		case 1015:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9502,7 +9374,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1017:
+		case 1016:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9511,7 +9383,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1018:
+		case 1017:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9520,7 +9392,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1019:
+		case 1018:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9531,7 +9403,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1020:
+		case 1019:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9540,7 +9412,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1021:
+		case 1020:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9549,7 +9421,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1022:
+		case 1021:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9558,7 +9430,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1023:
+		case 1022:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9567,7 +9439,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1024:
+		case 1023:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9576,7 +9448,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1025:
+		case 1024:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9585,7 +9457,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1026:
+		case 1025:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9594,7 +9466,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1027:
+		case 1026:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9605,7 +9477,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1028:
+		case 1027:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9614,7 +9486,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1029:
+		case 1028:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9623,7 +9495,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1030:
+		case 1029:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9632,7 +9504,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1031:
+		case 1030:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9641,7 +9513,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1032:
+		case 1031:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9650,7 +9522,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1033:
+		case 1032:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9659,7 +9531,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1034:
+		case 1033:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9668,7 +9540,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1035:
+		case 1034:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9677,7 +9549,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1036:
+		case 1035:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = 0;
@@ -9686,7 +9558,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1037:
+		case 1036:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9695,7 +9567,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1038:
+		case 1037:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9704,7 +9576,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1039:
+		case 1038:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9713,7 +9585,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1040:
+		case 1039:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9722,7 +9594,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1046:
+		case 1045:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9731,7 +9603,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1047:
+		case 1046:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9740,7 +9612,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1048:
+		case 1047:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9749,7 +9621,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1049:
+		case 1048:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9758,7 +9630,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1050:
+		case 1049:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9767,7 +9639,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1051:
+		case 1050:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9776,7 +9648,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1052:
+		case 1051:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9785,7 +9657,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1053:
+		case 1052:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9794,7 +9666,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1054:
+		case 1053:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9803,7 +9675,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1055:
+		case 1054:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9812,7 +9684,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1056:
+		case 1055:
 			*uParam1 = 0.6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -9821,7 +9693,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1057:
+		case 1056:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -9830,7 +9702,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1058:
+		case 1057:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -9841,7 +9713,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1059:
+		case 1058:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
@@ -9850,34 +9722,34 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1060:
-			*uParam1 = 0f;
-			uParam1->f_1 = 20000f;
-			uParam1->f_2 = 0;
-			uParam1->f_3 = 20000;
+		case 1059:
+			*uParam1 = 50000f;
+			uParam1->f_1 = 125000f;
+			uParam1->f_2 = 50000;
+			uParam1->f_3 = 125000;
 			uParam1->f_5 = joaat("KHAMELION_WEB_PRICE_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1061:
-			*uParam1 = 0f;
-			uParam1->f_1 = 20000f;
-			uParam1->f_2 = 0;
-			uParam1->f_3 = 20000;
+		case 1060:
+			*uParam1 = 45000f;
+			uParam1->f_1 = 112500f;
+			uParam1->f_2 = 45000;
+			uParam1->f_3 = 112500;
 			uParam1->f_5 = joaat("HOTKNIFE_WEB_PRICE_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1062:
-			*uParam1 = 0f;
-			uParam1->f_1 = 20000f;
-			uParam1->f_2 = 0;
-			uParam1->f_3 = 20000;
+		case 1061:
+			*uParam1 = 20000f;
+			uParam1->f_1 = 50000f;
+			uParam1->f_2 = 20000;
+			uParam1->f_3 = 50000;
 			uParam1->f_5 = joaat("CARBONRS_WEB_PRICE_MODIFIER");
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1063:
+		case 1062:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -9886,7 +9758,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1064:
+		case 1063:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -9895,7 +9767,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1065:
+		case 1064:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -9904,16 +9776,16 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1066:
+		case 1065:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 3;
-			uParam1->f_5 = joaat("CARBONRS_WEB_PRICE_MODIFIER");
+			uParam1->f_5 = joaat("JOYRIDERBASEWEIGHTING");
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1067:
+		case 1066:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -9922,7 +9794,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1068:
+		case 1067:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -9931,7 +9803,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1069:
+		case 1068:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -9940,7 +9812,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1070:
+		case 1069:
 			*uParam1 = 0f;
 			uParam1->f_1 = 19f;
 			uParam1->f_2 = 0;
@@ -9951,7 +9823,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1071:
+		case 1070:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -9960,7 +9832,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1072:
+		case 1071:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -9969,7 +9841,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1073:
+		case 1072:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -9978,7 +9850,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1074:
+		case 1073:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -9987,7 +9859,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1075:
+		case 1074:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -9996,7 +9868,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1076:
+		case 1075:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10005,7 +9877,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1077:
+		case 1076:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10014,7 +9886,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1078:
+		case 1077:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10023,7 +9895,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1079:
+		case 1078:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10032,7 +9904,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1080:
+		case 1079:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10041,7 +9913,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1081:
+		case 1080:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10050,7 +9922,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1082:
+		case 1081:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10059,7 +9931,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1083:
+		case 1082:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10068,7 +9940,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1084:
+		case 1083:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10077,7 +9949,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1085:
+		case 1084:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10088,7 +9960,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1093:
+		case 1092:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -10097,7 +9969,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1094:
+		case 1093:
 			*uParam1 = 25f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
@@ -10105,7 +9977,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_5 = joaat("DISABLE_EVENT_DISTRACT_COPS");
 			break;
 		
-		case 1096:
+		case 1095:
 			*uParam1 = 2f;
 			uParam1->f_1 = unk_0xBBDA792448DB5A89(32);
 			uParam1->f_2 = 2;
@@ -10114,7 +9986,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1095:
+		case 1094:
 			*uParam1 = 25f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
@@ -10123,7 +9995,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1097:
+		case 1096:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10132,7 +10004,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1098:
+		case 1097:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10141,7 +10013,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1099:
+		case 1098:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10150,7 +10022,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1100:
+		case 1099:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10159,7 +10031,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1101:
+		case 1100:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10168,7 +10040,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1102:
+		case 1101:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5000;
@@ -10177,7 +10049,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1103:
+		case 1102:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5000;
@@ -10186,7 +10058,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1104:
+		case 1103:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5000;
@@ -10195,7 +10067,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1105:
+		case 1104:
 			*uParam1 = 5100f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5100;
@@ -10204,7 +10076,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1106:
+		case 1105:
 			*uParam1 = 5200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5200;
@@ -10213,7 +10085,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1107:
+		case 1106:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10222,7 +10094,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1108:
+		case 1107:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10231,7 +10103,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1109:
+		case 1108:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10240,7 +10112,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1110:
+		case 1109:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10249,7 +10121,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1111:
+		case 1110:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -10258,7 +10130,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1112:
+		case 1111:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5000;
@@ -10267,7 +10139,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1113:
+		case 1112:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5000;
@@ -10276,7 +10148,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1114:
+		case 1113:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5000;
@@ -10285,7 +10157,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1115:
+		case 1114:
 			*uParam1 = 5100f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5100;
@@ -10294,7 +10166,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1116:
+		case 1115:
 			*uParam1 = 5200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 5200;
@@ -10303,7 +10175,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1117:
+		case 1116:
 			*uParam1 = 40000f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 40000;
@@ -10312,7 +10184,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1118:
+		case 1117:
 			*uParam1 = 40000f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 40000;
@@ -10323,7 +10195,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1119:
+		case 1118:
 			*uParam1 = 200000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 200000;
@@ -10332,7 +10204,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1120:
+		case 1119:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 25000;
@@ -10341,7 +10213,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1121:
+		case 1120:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 6000;
@@ -10350,7 +10222,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1122:
+		case 1121:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 6000;
@@ -10359,7 +10231,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1123:
+		case 1122:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 6000;
@@ -10368,7 +10240,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1124:
+		case 1123:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 6000;
@@ -10377,7 +10249,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1125:
+		case 1124:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10386,7 +10258,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1126:
+		case 1125:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10395,7 +10267,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1127:
+		case 1126:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10404,7 +10276,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1128:
+		case 1127:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10413,7 +10285,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1129:
+		case 1128:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10422,7 +10294,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1130:
+		case 1129:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10431,7 +10303,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1131:
+		case 1130:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10440,7 +10312,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1132:
+		case 1131:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10449,7 +10321,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1133:
+		case 1132:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10458,7 +10330,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1134:
+		case 1133:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10467,7 +10339,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1135:
+		case 1134:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10476,7 +10348,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1136:
+		case 1135:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10485,7 +10357,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1137:
+		case 1136:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10494,7 +10366,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1138:
+		case 1137:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10503,7 +10375,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1139:
+		case 1138:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10512,7 +10384,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1140:
+		case 1139:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10521,7 +10393,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1141:
+		case 1140:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10530,7 +10402,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1142:
+		case 1141:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10539,7 +10411,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1143:
+		case 1142:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10548,7 +10420,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1144:
+		case 1143:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 5000;
@@ -10557,7 +10429,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1147:
+		case 1146:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -10568,7 +10440,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1148:
+		case 1147:
 			*uParam1 = 20000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 20000;
@@ -10577,7 +10449,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1149:
+		case 1148:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 300000;
@@ -10586,7 +10458,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1150:
+		case 1149:
 			*uParam1 = 85000f;
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 85000;
@@ -10595,7 +10467,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1151:
+		case 1150:
 			*uParam1 = 20000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 20000;
@@ -10604,7 +10476,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1152:
+		case 1151:
 			*uParam1 = 30000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 30000;
@@ -10613,7 +10485,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1153:
+		case 1152:
 			*uParam1 = 185000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 185000;
@@ -10622,7 +10494,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1154:
+		case 1153:
 			*uParam1 = 120000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 120000;
@@ -10631,7 +10503,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1155:
+		case 1154:
 			*uParam1 = 65000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 65000;
@@ -10640,7 +10512,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1156:
+		case 1155:
 			*uParam1 = 330000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 330000;
@@ -10649,7 +10521,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1157:
+		case 1156:
 			*uParam1 = 35000f;
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 35000;
@@ -10658,7 +10530,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1158:
+		case 1157:
 			*uParam1 = 65000f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 65000;
@@ -10667,7 +10539,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1159:
+		case 1158:
 			*uParam1 = 200000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 200000;
@@ -10676,7 +10548,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1160:
+		case 1159:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 15000;
@@ -10685,7 +10557,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1161:
+		case 1160:
 			*uParam1 = 800000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 800000;
@@ -10694,7 +10566,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1162:
+		case 1161:
 			*uParam1 = 350000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 350000;
@@ -10703,7 +10575,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1163:
+		case 1162:
 			*uParam1 = 900000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 900000;
@@ -10712,7 +10584,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1164:
+		case 1163:
 			*uParam1 = 200000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 200000;
@@ -10721,7 +10593,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1087:
+		case 1086:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
@@ -10730,7 +10602,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1088:
+		case 1087:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 0;
@@ -10739,7 +10611,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1089:
+		case 1088:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 0;
@@ -10748,7 +10620,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1090:
+		case 1089:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2E+07f;
 			uParam1->f_2 = 0;
@@ -10757,7 +10629,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1165:
+		case 1164:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -10766,7 +10638,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1166:
+		case 1165:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -10775,7 +10647,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1167:
+		case 1166:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 0;
@@ -10784,7 +10656,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1168:
+		case 1167:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
@@ -10793,7 +10665,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1169:
+		case 1168:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
@@ -10802,7 +10674,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1170:
+		case 1169:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 0;
@@ -10811,7 +10683,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1057:
+		case 1056:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -10820,7 +10692,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1058:
+		case 1057:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -10829,7 +10701,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1094:
+		case 1093:
 			*uParam1 = 25f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
@@ -10837,7 +10709,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_5 = joaat("DISABLE_EVENT_DISTRACT_COPS");
 			break;
 		
-		case 1095:
+		case 1094:
 			*uParam1 = 25f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 25;
@@ -10848,7 +10720,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1171:
+		case 1170:
 			*uParam1 = -1f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
@@ -10857,7 +10729,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1172:
+		case 1171:
 			*uParam1 = -1f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
@@ -10866,7 +10738,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1173:
+		case 1172:
 			*uParam1 = -1f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
@@ -10875,7 +10747,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1174:
+		case 1173:
 			*uParam1 = -1f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
@@ -10884,7 +10756,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1175:
+		case 1174:
 			*uParam1 = -1f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = -1;
@@ -10893,7 +10765,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1176:
+		case 1175:
 			*uParam1 = -1f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
@@ -10902,7 +10774,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1177:
+		case 1176:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -10911,7 +10783,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1178:
+		case 1177:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -10920,7 +10792,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1179:
+		case 1178:
 			*uParam1 = -1f;
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
@@ -10929,7 +10801,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1180:
+		case 1179:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -10938,7 +10810,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1181:
+		case 1180:
 			*uParam1 = -1f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
@@ -10947,7 +10819,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1182:
+		case 1181:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -10956,7 +10828,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1183:
+		case 1182:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -10965,7 +10837,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1184:
+		case 1183:
 			*uParam1 = -1f;
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
@@ -10974,7 +10846,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1185:
+		case 1184:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -10983,7 +10855,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1186:
+		case 1185:
 			*uParam1 = -1f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
@@ -10992,7 +10864,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1187:
+		case 1186:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11001,7 +10873,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1188:
+		case 1187:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11010,7 +10882,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1189:
+		case 1188:
 			*uParam1 = -1f;
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
@@ -11019,7 +10891,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1190:
+		case 1189:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11028,7 +10900,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1191:
+		case 1190:
 			*uParam1 = -1f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = -1;
@@ -11037,7 +10909,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1192:
+		case 1191:
 			*uParam1 = -1f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
@@ -11046,7 +10918,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1193:
+		case 1192:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11055,7 +10927,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1194:
+		case 1193:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11064,7 +10936,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1195:
+		case 1194:
 			*uParam1 = -1f;
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
@@ -11073,7 +10945,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1196:
+		case 1195:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11082,7 +10954,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1197:
+		case 1196:
 			*uParam1 = -1f;
 			uParam1->f_1 = 1200000f;
 			uParam1->f_2 = -1;
@@ -11091,7 +10963,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1198:
+		case 1197:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11100,7 +10972,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1199:
+		case 1198:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11109,7 +10981,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1200:
+		case 1199:
 			*uParam1 = -1f;
 			uParam1->f_1 = 300f;
 			uParam1->f_2 = -1;
@@ -11118,7 +10990,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1201:
+		case 1200:
 			*uParam1 = -1f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = -1;
@@ -11127,7 +10999,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1209:
+		case 1208:
 			*uParam1 = 0f;
 			uParam1->f_1 = 72000f;
 			uParam1->f_2 = 0;
@@ -11136,7 +11008,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1208:
+		case 1207:
 			*uParam1 = 0f;
 			uParam1->f_1 = 36000f;
 			uParam1->f_2 = 0;
@@ -11145,7 +11017,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1213:
+		case 1212:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 0;
@@ -11154,7 +11026,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1214:
+		case 1213:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -11163,7 +11035,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1210:
+		case 1209:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -11172,7 +11044,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1211:
+		case 1210:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -11181,7 +11053,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1212:
+		case 1211:
 			*uParam1 = 0f;
 			uParam1->f_1 = 45f;
 			uParam1->f_2 = 0;
@@ -11190,7 +11062,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1246:
+		case 1245:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
@@ -11201,7 +11073,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1091:
+		case 1090:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -11210,7 +11082,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1092:
+		case 1091:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -11221,7 +11093,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1215:
+		case 1214:
 			*uParam1 = 20790f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 20790;
@@ -11230,7 +11102,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1216:
+		case 1215:
 			*uParam1 = 247500f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 247500;
@@ -11239,7 +11111,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1217:
+		case 1216:
 			*uParam1 = 30690f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 30690;
@@ -11248,7 +11120,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1218:
+		case 1217:
 			*uParam1 = 247500f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 247500;
@@ -11257,7 +11129,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1219:
+		case 1218:
 			*uParam1 = 35145f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 35145;
@@ -11266,7 +11138,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1220:
+		case 1219:
 			*uParam1 = 655875f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 655875;
@@ -11275,7 +11147,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1221:
+		case 1220:
 			*uParam1 = 200f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 200;
@@ -11284,7 +11156,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1222:
+		case 1221:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -11293,7 +11165,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1223:
+		case 1222:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -11302,7 +11174,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1224:
+		case 1223:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 0;
@@ -11311,7 +11183,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1225:
+		case 1224:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -11320,7 +11192,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1226:
+		case 1225:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 0;
@@ -11329,7 +11201,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1227:
+		case 1226:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
@@ -11338,7 +11210,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1228:
+		case 1227:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -11347,7 +11219,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1229:
+		case 1228:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
@@ -11356,7 +11228,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1230:
+		case 1229:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -11365,7 +11237,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1231:
+		case 1230:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
@@ -11374,7 +11246,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1232:
+		case 1231:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
@@ -11383,7 +11255,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1233:
+		case 1232:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
@@ -11392,7 +11264,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1234:
+		case 1233:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 0;
@@ -11401,7 +11273,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1235:
+		case 1234:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -11410,7 +11282,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1236:
+		case 1235:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 10000;
@@ -11421,7 +11293,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1237:
+		case 1236:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 100000;
@@ -11430,7 +11302,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1238:
+		case 1237:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 100000;
@@ -11439,7 +11311,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1239:
+		case 1238:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 15000;
@@ -11448,7 +11320,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1240:
+		case 1239:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 15000;
@@ -11457,7 +11329,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1241:
+		case 1240:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 50000;
@@ -11466,7 +11338,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1242:
+		case 1241:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 50000;
@@ -11475,7 +11347,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1243:
+		case 1242:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 50000;
@@ -11484,7 +11356,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1244:
+		case 1243:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 50000;
@@ -11493,7 +11365,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1245:
+		case 1244:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 50000;
@@ -11504,7 +11376,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1247:
+		case 1246:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11513,7 +11385,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1248:
+		case 1247:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -11522,7 +11394,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1249:
+		case 1248:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200000f;
 			uParam1->f_2 = 0;
@@ -11531,7 +11403,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1250:
+		case 1249:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 0;
@@ -11540,7 +11412,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1251:
+		case 1250:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11549,7 +11421,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1252:
+		case 1251:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11558,7 +11430,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1253:
+		case 1252:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11567,7 +11439,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1254:
+		case 1253:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11576,7 +11448,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1255:
+		case 1254:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11585,7 +11457,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1256:
+		case 1255:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11594,7 +11466,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1257:
+		case 1256:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11603,7 +11475,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1258:
+		case 1257:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11612,7 +11484,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1259:
+		case 1258:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11621,7 +11493,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1260:
+		case 1259:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11630,7 +11502,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1261:
+		case 1260:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11639,7 +11511,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1262:
+		case 1261:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11648,7 +11520,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1263:
+		case 1262:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11657,7 +11529,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1264:
+		case 1263:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11666,7 +11538,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1265:
+		case 1264:
 			*uParam1 = 0f;
 			uParam1->f_1 = 4f;
 			uParam1->f_2 = 0;
@@ -11675,7 +11547,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1266:
+		case 1265:
 			*uParam1 = 0f;
 			uParam1->f_1 = 4.5f;
 			uParam1->f_2 = 0;
@@ -11684,7 +11556,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1267:
+		case 1266:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -11693,7 +11565,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1268:
+		case 1267:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5.5f;
 			uParam1->f_2 = 0;
@@ -11702,7 +11574,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1269:
+		case 1268:
 			*uParam1 = 0f;
 			uParam1->f_1 = 6f;
 			uParam1->f_2 = 0;
@@ -11711,7 +11583,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1270:
+		case 1269:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11720,7 +11592,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1271:
+		case 1270:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11729,7 +11601,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1272:
+		case 1271:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11738,7 +11610,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1273:
+		case 1272:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -11747,7 +11619,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1274:
+		case 1273:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -11756,7 +11628,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1275:
+		case 1274:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -11765,7 +11637,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1276:
+		case 1275:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -11774,7 +11646,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1277:
+		case 1276:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11783,7 +11655,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1278:
+		case 1277:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11792,7 +11664,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1279:
+		case 1278:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11801,7 +11673,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1280:
+		case 1279:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11810,7 +11682,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1281:
+		case 1280:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11819,7 +11691,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1282:
+		case 1281:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11828,7 +11700,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1283:
+		case 1282:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11839,7 +11711,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1284:
+		case 1283:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11848,7 +11720,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1285:
+		case 1284:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -11857,7 +11729,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1286:
+		case 1285:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11866,7 +11738,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1287:
+		case 1286:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11875,7 +11747,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1288:
+		case 1287:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11884,7 +11756,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1289:
+		case 1288:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -11893,7 +11765,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1290:
+		case 1289:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -11902,7 +11774,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1291:
+		case 1290:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11911,7 +11783,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1292:
+		case 1291:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11920,7 +11792,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1293:
+		case 1292:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11929,7 +11801,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1294:
+		case 1293:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11938,7 +11810,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1295:
+		case 1294:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11947,7 +11819,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1296:
+		case 1295:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -11956,7 +11828,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1297:
+		case 1296:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -11965,7 +11837,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1298:
+		case 1297:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -11974,7 +11846,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1299:
+		case 1298:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -11983,7 +11855,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1300:
+		case 1299:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -11992,7 +11864,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1301:
+		case 1300:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -12001,7 +11873,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1302:
+		case 1301:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -12010,7 +11882,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1303:
+		case 1302:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -12019,7 +11891,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1304:
+		case 1303:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12028,7 +11900,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1305:
+		case 1304:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12037,7 +11909,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1306:
+		case 1305:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12046,7 +11918,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1307:
+		case 1306:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12055,7 +11927,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1308:
+		case 1307:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12064,7 +11936,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1309:
+		case 1308:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12073,7 +11945,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1310:
+		case 1309:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12082,7 +11954,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1311:
+		case 1310:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -12091,7 +11963,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1312:
+		case 1311:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -12100,7 +11972,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1313:
+		case 1312:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -12109,7 +11981,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1314:
+		case 1313:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -12118,7 +11990,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1315:
+		case 1314:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -12127,7 +11999,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1316:
+		case 1315:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -12136,7 +12008,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1317:
+		case 1316:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -12145,7 +12017,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1318:
+		case 1317:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -12154,7 +12026,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1319:
+		case 1318:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -12163,7 +12035,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1320:
+		case 1319:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -12172,7 +12044,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1321:
+		case 1320:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -12181,7 +12053,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1322:
+		case 1321:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
@@ -12192,7 +12064,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1323:
+		case 1322:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
@@ -12201,7 +12073,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1324:
+		case 1323:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -12210,7 +12082,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1325:
+		case 1324:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -12219,7 +12091,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1326:
+		case 1325:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -12228,7 +12100,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1327:
+		case 1326:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -12237,7 +12109,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1328:
+		case 1327:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -12246,7 +12118,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1329:
+		case 1328:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -12255,7 +12127,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1330:
+		case 1329:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -12264,7 +12136,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1331:
+		case 1330:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -12273,7 +12145,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1332:
+		case 1331:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -12282,7 +12154,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1333:
+		case 1332:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -12291,7 +12163,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1334:
+		case 1333:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -12300,7 +12172,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1335:
+		case 1334:
 			*uParam1 = 0f;
 			uParam1->f_1 = 4f;
 			uParam1->f_2 = 0;
@@ -12309,7 +12181,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1336:
+		case 1335:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -12318,7 +12190,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1337:
+		case 1336:
 			*uParam1 = 0f;
 			uParam1->f_1 = 12000f;
 			uParam1->f_2 = 0;
@@ -12327,7 +12199,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1338:
+		case 1337:
 			*uParam1 = 0.1f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -12336,7 +12208,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1339:
+		case 1338:
 			*uParam1 = 0.0001f;
 			uParam1->f_1 = 1.5f;
 			uParam1->f_2 = 0;
@@ -12345,7 +12217,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1340:
+		case 1339:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -12354,7 +12226,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1341:
+		case 1340:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -12363,7 +12235,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1342:
+		case 1341:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -12372,7 +12244,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1343:
+		case 1342:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -12381,7 +12253,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1344:
+		case 1343:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -12390,7 +12262,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1345:
+		case 1344:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -12399,7 +12271,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1346:
+		case 1345:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -12408,7 +12280,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1347:
+		case 1346:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -12417,7 +12289,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1348:
+		case 1347:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -12426,7 +12298,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1349:
+		case 1348:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -12435,7 +12307,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1350:
+		case 1349:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -12444,7 +12316,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1351:
+		case 1350:
 			*uParam1 = 0f;
 			uParam1->f_1 = 16f;
 			uParam1->f_2 = 0;
@@ -12453,7 +12325,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1352:
+		case 1351:
 			*uParam1 = 0f;
 			uParam1->f_1 = 32f;
 			uParam1->f_2 = 0;
@@ -12464,7 +12336,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1353:
+		case 1352:
 			*uParam1 = 3000f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
@@ -12473,7 +12345,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1354:
+		case 1353:
 			*uParam1 = 6500f;
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6500;
@@ -12482,7 +12354,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1355:
+		case 1354:
 			*uParam1 = 6250f;
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6250;
@@ -12491,7 +12363,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1356:
+		case 1355:
 			*uParam1 = 5900f;
 			uParam1->f_1 = 36000f;
 			uParam1->f_2 = 5900;
@@ -12500,7 +12372,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1357:
+		case 1356:
 			*uParam1 = 6150f;
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6150;
@@ -12509,7 +12381,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1358:
+		case 1357:
 			*uParam1 = 5750f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5750;
@@ -12518,7 +12390,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1359:
+		case 1358:
 			*uParam1 = 6050f;
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6050;
@@ -12527,7 +12399,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1360:
+		case 1359:
 			*uParam1 = 5650f;
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 5650;
@@ -12536,7 +12408,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1361:
+		case 1360:
 			*uParam1 = 5850f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5850;
@@ -12545,7 +12417,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1362:
+		case 1361:
 			*uParam1 = 5600f;
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 5600;
@@ -12554,7 +12426,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1363:
+		case 1362:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 36000f;
 			uParam1->f_2 = 6000;
@@ -12563,7 +12435,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1364:
+		case 1363:
 			*uParam1 = 6300f;
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6300;
@@ -12572,7 +12444,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1365:
+		case 1364:
 			*uParam1 = 6400f;
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6400;
@@ -12581,7 +12453,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1366:
+		case 1365:
 			*uParam1 = 4950f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
@@ -12590,7 +12462,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1367:
+		case 1366:
 			*uParam1 = 5050f;
 			uParam1->f_1 = 31000f;
 			uParam1->f_2 = 5050;
@@ -12599,7 +12471,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1368:
+		case 1367:
 			*uParam1 = 5150f;
 			uParam1->f_1 = 31000f;
 			uParam1->f_2 = 5150;
@@ -12608,7 +12480,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1369:
+		case 1368:
 			*uParam1 = 4950f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
@@ -12617,7 +12489,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1370:
+		case 1369:
 			*uParam1 = 4650f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
@@ -12626,7 +12498,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1371:
+		case 1370:
 			*uParam1 = 4400f;
 			uParam1->f_1 = 26000f;
 			uParam1->f_2 = 4400;
@@ -12635,7 +12507,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1372:
+		case 1371:
 			*uParam1 = 4650f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
@@ -12644,7 +12516,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1373:
+		case 1372:
 			*uParam1 = 4700f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4700;
@@ -12653,7 +12525,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1374:
+		case 1373:
 			*uParam1 = 4600f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4600;
@@ -12662,7 +12534,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1375:
+		case 1374:
 			*uParam1 = 3550f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3550;
@@ -12671,7 +12543,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1376:
+		case 1375:
 			*uParam1 = 3500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3500;
@@ -12680,7 +12552,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1377:
+		case 1376:
 			*uParam1 = 3700f;
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 3700;
@@ -12689,7 +12561,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1378:
+		case 1377:
 			*uParam1 = 3400f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3400;
@@ -12698,7 +12570,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1379:
+		case 1378:
 			*uParam1 = 4150f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4150;
@@ -12707,7 +12579,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1380:
+		case 1379:
 			*uParam1 = 4100f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
@@ -12716,7 +12588,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1381:
+		case 1380:
 			*uParam1 = 4650f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
@@ -12725,7 +12597,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1382:
+		case 1381:
 			*uParam1 = 4400f;
 			uParam1->f_1 = 26000f;
 			uParam1->f_2 = 4400;
@@ -12734,7 +12606,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1383:
+		case 1382:
 			*uParam1 = 4650f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4650;
@@ -12743,7 +12615,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1384:
+		case 1383:
 			*uParam1 = 4700f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4700;
@@ -12752,7 +12624,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1385:
+		case 1384:
 			*uParam1 = 4600f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 4600;
@@ -12761,7 +12633,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1386:
+		case 1385:
 			*uParam1 = 3550f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3550;
@@ -12770,7 +12642,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1387:
+		case 1386:
 			*uParam1 = 3500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 3500;
@@ -12779,7 +12651,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1388:
+		case 1387:
 			*uParam1 = 3700f;
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 3700;
@@ -12788,7 +12660,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1389:
+		case 1388:
 			*uParam1 = 3400f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3400;
@@ -12797,7 +12669,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1390:
+		case 1389:
 			*uParam1 = 4150f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4150;
@@ -12806,7 +12678,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1391:
+		case 1390:
 			*uParam1 = 4100f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
@@ -12815,7 +12687,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1392:
+		case 1391:
 			*uParam1 = 10650f;
 			uParam1->f_1 = 64000f;
 			uParam1->f_2 = 10650;
@@ -12824,7 +12696,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1393:
+		case 1392:
 			*uParam1 = 11600f;
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 11600;
@@ -12833,7 +12705,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1394:
+		case 1393:
 			*uParam1 = 6750f;
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6750;
@@ -12842,7 +12714,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1395:
+		case 1394:
 			*uParam1 = 7800f;
 			uParam1->f_1 = 47000f;
 			uParam1->f_2 = 7800;
@@ -12851,7 +12723,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1396:
+		case 1395:
 			*uParam1 = 11950f;
 			uParam1->f_1 = 72000f;
 			uParam1->f_2 = 11950;
@@ -12860,7 +12732,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1397:
+		case 1396:
 			*uParam1 = 16050f;
 			uParam1->f_1 = 97000f;
 			uParam1->f_2 = 16050;
@@ -12869,7 +12741,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1398:
+		case 1397:
 			*uParam1 = 16200f;
 			uParam1->f_1 = 98000f;
 			uParam1->f_2 = 16200;
@@ -12878,7 +12750,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1399:
+		case 1398:
 			*uParam1 = 13750f;
 			uParam1->f_1 = 83000f;
 			uParam1->f_2 = 13750;
@@ -12887,7 +12759,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1400:
+		case 1399:
 			*uParam1 = 14950f;
 			uParam1->f_1 = 90000f;
 			uParam1->f_2 = 14950;
@@ -12896,7 +12768,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1401:
+		case 1400:
 			*uParam1 = 6850f;
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6850;
@@ -12905,7 +12777,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1402:
+		case 1401:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 7450;
@@ -12914,7 +12786,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1403:
+		case 1402:
 			*uParam1 = 10300f;
 			uParam1->f_1 = 62000f;
 			uParam1->f_2 = 10300;
@@ -12923,7 +12795,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1404:
+		case 1403:
 			*uParam1 = 11200f;
 			uParam1->f_1 = 68000f;
 			uParam1->f_2 = 11200;
@@ -12932,7 +12804,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1405:
+		case 1404:
 			*uParam1 = 6450f;
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6450;
@@ -12941,7 +12813,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1406:
+		case 1405:
 			*uParam1 = 6900f;
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6900;
@@ -12952,7 +12824,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1407:
+		case 1406:
 			*uParam1 = 5800f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5800;
@@ -12961,7 +12833,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1408:
+		case 1407:
 			*uParam1 = 8700f;
 			uParam1->f_1 = 53000f;
 			uParam1->f_2 = 8700;
@@ -12970,7 +12842,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1409:
+		case 1408:
 			*uParam1 = 8350f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 8350;
@@ -12979,7 +12851,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1410:
+		case 1409:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2700;
@@ -12988,7 +12860,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1411:
+		case 1410:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -12997,7 +12869,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1412:
+		case 1411:
 			*uParam1 = 2600f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
@@ -13006,7 +12878,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1413:
+		case 1412:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -13015,7 +12887,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1414:
+		case 1413:
 			*uParam1 = 3250f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3250;
@@ -13024,7 +12896,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1415:
+		case 1414:
 			*uParam1 = 4100f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
@@ -13033,7 +12905,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1416:
+		case 1415:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -13042,7 +12914,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1417:
+		case 1416:
 			*uParam1 = 4450f;
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 4450;
@@ -13051,7 +12923,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1418:
+		case 1417:
 			*uParam1 = 3000f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
@@ -13060,7 +12932,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1419:
+		case 1418:
 			*uParam1 = 4950f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
@@ -13069,7 +12941,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1420:
+		case 1419:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 5000;
@@ -13078,7 +12950,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1421:
+		case 1420:
 			*uParam1 = 4900f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4900;
@@ -13087,7 +12959,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1422:
+		case 1421:
 			*uParam1 = 4950f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 4950;
@@ -13096,7 +12968,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1423:
+		case 1422:
 			*uParam1 = 4800f;
 			uParam1->f_1 = 29000f;
 			uParam1->f_2 = 4800;
@@ -13105,7 +12977,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1424:
+		case 1423:
 			*uParam1 = 7400f;
 			uParam1->f_1 = 44000f;
 			uParam1->f_2 = 7400;
@@ -13114,7 +12986,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1425:
+		case 1424:
 			*uParam1 = 7150f;
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 7150;
@@ -13123,7 +12995,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1426:
+		case 1425:
 			*uParam1 = 6800f;
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6800;
@@ -13132,7 +13004,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1427:
+		case 1426:
 			*uParam1 = 7050f;
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 7050;
@@ -13141,7 +13013,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1428:
+		case 1427:
 			*uParam1 = 6650f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 6650;
@@ -13150,7 +13022,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1429:
+		case 1428:
 			*uParam1 = 6950f;
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6950;
@@ -13159,7 +13031,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1430:
+		case 1429:
 			*uParam1 = 6550f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 6550;
@@ -13168,7 +13040,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1431:
+		case 1430:
 			*uParam1 = 6750f;
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6750;
@@ -13177,7 +13049,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1432:
+		case 1431:
 			*uParam1 = 6500f;
 			uParam1->f_1 = 39000f;
 			uParam1->f_2 = 6500;
@@ -13186,7 +13058,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1433:
+		case 1432:
 			*uParam1 = 6900f;
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6900;
@@ -13195,7 +13067,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1434:
+		case 1433:
 			*uParam1 = 7200f;
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 7200;
@@ -13204,7 +13076,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1435:
+		case 1434:
 			*uParam1 = 7300f;
 			uParam1->f_1 = 44000f;
 			uParam1->f_2 = 7300;
@@ -13213,7 +13085,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1436:
+		case 1435:
 			*uParam1 = 5400f;
 			uParam1->f_1 = 32000f;
 			uParam1->f_2 = 5400;
@@ -13222,7 +13094,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1437:
+		case 1436:
 			*uParam1 = 5650f;
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 5650;
@@ -13231,7 +13103,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1438:
+		case 1437:
 			*uParam1 = 5250f;
 			uParam1->f_1 = 32000f;
 			uParam1->f_2 = 5250;
@@ -13240,7 +13112,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1439:
+		case 1438:
 			*uParam1 = 5550f;
 			uParam1->f_1 = 33000f;
 			uParam1->f_2 = 5550;
@@ -13249,7 +13121,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1440:
+		case 1439:
 			*uParam1 = 10650f;
 			uParam1->f_1 = 64000f;
 			uParam1->f_2 = 10650;
@@ -13258,7 +13130,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1441:
+		case 1440:
 			*uParam1 = 11600f;
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 11600;
@@ -13269,7 +13141,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1442:
+		case 1441:
 			*uParam1 = 6750f;
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6750;
@@ -13278,7 +13150,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1443:
+		case 1442:
 			*uParam1 = 7800f;
 			uParam1->f_1 = 47000f;
 			uParam1->f_2 = 7800;
@@ -13287,7 +13159,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1444:
+		case 1443:
 			*uParam1 = 11950f;
 			uParam1->f_1 = 72000f;
 			uParam1->f_2 = 11950;
@@ -13296,7 +13168,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1445:
+		case 1444:
 			*uParam1 = 16050f;
 			uParam1->f_1 = 97000f;
 			uParam1->f_2 = 16050;
@@ -13305,7 +13177,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1446:
+		case 1445:
 			*uParam1 = 16200f;
 			uParam1->f_1 = 98000f;
 			uParam1->f_2 = 16200;
@@ -13314,7 +13186,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1447:
+		case 1446:
 			*uParam1 = 13750f;
 			uParam1->f_1 = 83000f;
 			uParam1->f_2 = 13750;
@@ -13323,7 +13195,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1448:
+		case 1447:
 			*uParam1 = 14950f;
 			uParam1->f_1 = 90000f;
 			uParam1->f_2 = 14950;
@@ -13332,7 +13204,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1449:
+		case 1448:
 			*uParam1 = 6850f;
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 6850;
@@ -13341,7 +13213,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1450:
+		case 1449:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 7450;
@@ -13350,7 +13222,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1451:
+		case 1450:
 			*uParam1 = 10300f;
 			uParam1->f_1 = 62000f;
 			uParam1->f_2 = 10300;
@@ -13359,7 +13231,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1452:
+		case 1451:
 			*uParam1 = 11200f;
 			uParam1->f_1 = 68000f;
 			uParam1->f_2 = 11200;
@@ -13368,7 +13240,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1453:
+		case 1452:
 			*uParam1 = 8700f;
 			uParam1->f_1 = 53000f;
 			uParam1->f_2 = 8700;
@@ -13377,7 +13249,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1454:
+		case 1453:
 			*uParam1 = 6900f;
 			uParam1->f_1 = 42000f;
 			uParam1->f_2 = 6900;
@@ -13386,7 +13258,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1455:
+		case 1454:
 			*uParam1 = 6300f;
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6300;
@@ -13395,7 +13267,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1456:
+		case 1455:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 7450;
@@ -13404,7 +13276,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1457:
+		case 1456:
 			*uParam1 = 9450f;
 			uParam1->f_1 = 57000f;
 			uParam1->f_2 = 9450;
@@ -13413,7 +13285,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1458:
+		case 1457:
 			*uParam1 = 6300f;
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 6300;
@@ -13422,7 +13294,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1459:
+		case 1458:
 			*uParam1 = 2650f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
@@ -13431,7 +13303,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1460:
+		case 1459:
 			*uParam1 = 2750f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2750;
@@ -13440,7 +13312,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1461:
+		case 1460:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
@@ -13449,7 +13321,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1462:
+		case 1461:
 			*uParam1 = 4100f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 4100;
@@ -13458,7 +13330,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1463:
+		case 1462:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -13467,7 +13339,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1464:
+		case 1463:
 			*uParam1 = 4450f;
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 4450;
@@ -13476,7 +13348,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1465:
+		case 1464:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13485,7 +13357,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1466:
+		case 1465:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13494,7 +13366,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1467:
+		case 1466:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13503,7 +13375,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1468:
+		case 1467:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13512,7 +13384,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1469:
+		case 1468:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13521,7 +13393,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1470:
+		case 1469:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13530,7 +13402,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1471:
+		case 1470:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13539,7 +13411,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1472:
+		case 1471:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13548,7 +13420,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1473:
+		case 1472:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13557,7 +13429,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1474:
+		case 1473:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13566,7 +13438,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1475:
+		case 1474:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13575,7 +13447,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1476:
+		case 1475:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13584,7 +13456,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1477:
+		case 1476:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 1;
@@ -13595,7 +13467,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1478:
+		case 1477:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13604,7 +13476,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1479:
+		case 1478:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13613,7 +13485,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1480:
+		case 1479:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13622,7 +13494,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1481:
+		case 1480:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13631,7 +13503,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1482:
+		case 1481:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13640,7 +13512,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1483:
+		case 1482:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13649,7 +13521,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1484:
+		case 1483:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13658,7 +13530,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1485:
+		case 1484:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13667,7 +13539,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1486:
+		case 1485:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13676,7 +13548,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1487:
+		case 1486:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13685,7 +13557,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1488:
+		case 1487:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -13694,7 +13566,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1489:
+		case 1488:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -13703,7 +13575,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1490:
+		case 1489:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13712,7 +13584,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1491:
+		case 1490:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13721,7 +13593,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1492:
+		case 1491:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13730,7 +13602,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1493:
+		case 1492:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13739,7 +13611,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1494:
+		case 1493:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13748,7 +13620,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1495:
+		case 1494:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13757,7 +13629,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1496:
+		case 1495:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13766,7 +13638,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1497:
+		case 1496:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13775,7 +13647,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1498:
+		case 1497:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13784,7 +13656,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1499:
+		case 1498:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13793,7 +13665,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1500:
+		case 1499:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13802,7 +13674,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1501:
+		case 1500:
 			*uParam1 = 7450f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 7450;
@@ -13811,7 +13683,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1502:
+		case 1501:
 			*uParam1 = 5900f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 5900;
@@ -13820,7 +13692,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1503:
+		case 1502:
 			*uParam1 = 7100f;
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 7100;
@@ -13829,7 +13701,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1504:
+		case 1503:
 			*uParam1 = 6050f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 6050;
@@ -13838,7 +13710,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1505:
+		case 1504:
 			*uParam1 = 12400f;
 			uParam1->f_1 = 38000f;
 			uParam1->f_2 = 12400;
@@ -13847,7 +13719,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1506:
+		case 1505:
 			*uParam1 = 6150f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 6150;
@@ -13856,7 +13728,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1507:
+		case 1506:
 			*uParam1 = 8900f;
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 8900;
@@ -13865,7 +13737,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1508:
+		case 1507:
 			*uParam1 = 9500f;
 			uParam1->f_1 = 29000f;
 			uParam1->f_2 = 9500;
@@ -13874,7 +13746,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1509:
+		case 1508:
 			*uParam1 = 8350f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 8350;
@@ -13883,7 +13755,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1510:
+		case 1509:
 			*uParam1 = 9000f;
 			uParam1->f_1 = 27000f;
 			uParam1->f_2 = 9000;
@@ -13892,7 +13764,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1511:
+		case 1510:
 			*uParam1 = 8050f;
 			uParam1->f_1 = 24000f;
 			uParam1->f_2 = 8050;
@@ -13901,7 +13773,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1512:
+		case 1511:
 			*uParam1 = 8350f;
 			uParam1->f_1 = 25000f;
 			uParam1->f_2 = 8350;
@@ -13910,7 +13782,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1513:
+		case 1512:
 			*uParam1 = 11150f;
 			uParam1->f_1 = 34000f;
 			uParam1->f_2 = 11150;
@@ -13919,7 +13791,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1514:
+		case 1513:
 			*uParam1 = 6350f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 6350;
@@ -13928,7 +13800,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1515:
+		case 1514:
 			*uParam1 = 13500f;
 			uParam1->f_1 = 41000f;
 			uParam1->f_2 = 13500;
@@ -13939,7 +13811,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1516:
+		case 1515:
 			*uParam1 = 480000f;
 			uParam1->f_1 = 1463000f;
 			uParam1->f_2 = 480000;
@@ -13948,7 +13820,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1517:
+		case 1516:
 			*uParam1 = 2500000f;
 			uParam1->f_1 = 1.25E+07f;
 			uParam1->f_2 = 2500000;
@@ -13957,7 +13829,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1518:
+		case 1517:
 			*uParam1 = 950000f;
 			uParam1->f_1 = 2925000f;
 			uParam1->f_2 = 950000;
@@ -13966,7 +13838,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1519:
+		case 1518:
 			*uParam1 = 2500000f;
 			uParam1->f_1 = 7725000f;
 			uParam1->f_2 = 2500000;
@@ -13975,7 +13847,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1520:
+		case 1519:
 			*uParam1 = 95000f;
 			uParam1->f_1 = 293000f;
 			uParam1->f_2 = 95000;
@@ -13984,7 +13856,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1521:
+		case 1520:
 			*uParam1 = 400000f;
 			uParam1->f_1 = 1268000f;
 			uParam1->f_2 = 400000;
@@ -13993,7 +13865,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1522:
+		case 1521:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -14002,7 +13874,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1523:
+		case 1522:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -14011,7 +13883,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1524:
+		case 1523:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -14020,7 +13892,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1525:
+		case 1524:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -14029,7 +13901,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1526:
+		case 1525:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -14038,7 +13910,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1527:
+		case 1526:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -14047,7 +13919,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1528:
+		case 1527:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 25000;
@@ -14056,7 +13928,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1529:
+		case 1528:
 			*uParam1 = 5800f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 5800;
@@ -14067,7 +13939,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1530:
+		case 1529:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
@@ -14076,7 +13948,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1531:
+		case 1530:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
@@ -14085,7 +13957,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1532:
+		case 1531:
 			*uParam1 = 3150f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3150;
@@ -14094,7 +13966,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1533:
+		case 1532:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3200;
@@ -14103,7 +13975,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1534:
+		case 1533:
 			*uParam1 = 3050f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3050;
@@ -14112,7 +13984,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1535:
+		case 1534:
 			*uParam1 = 2650f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
@@ -14121,7 +13993,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1536:
+		case 1535:
 			*uParam1 = 2600f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
@@ -14130,7 +14002,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1537:
+		case 1536:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -14139,7 +14011,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1538:
+		case 1537:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
@@ -14148,7 +14020,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1539:
+		case 1538:
 			*uParam1 = 2750f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2750;
@@ -14157,7 +14029,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1540:
+		case 1539:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14166,7 +14038,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1541:
+		case 1540:
 			*uParam1 = 3250f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3250;
@@ -14175,7 +14047,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1542:
+		case 1541:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14184,7 +14056,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1543:
+		case 1542:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
@@ -14193,7 +14065,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1544:
+		case 1543:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
@@ -14202,7 +14074,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1545:
+		case 1544:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3200;
@@ -14211,7 +14083,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1546:
+		case 1545:
 			*uParam1 = 3300f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
@@ -14220,7 +14092,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1547:
+		case 1546:
 			*uParam1 = 3300f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
@@ -14229,7 +14101,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1548:
+		case 1547:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -14238,7 +14110,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1549:
+		case 1548:
 			*uParam1 = 2650f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
@@ -14247,7 +14119,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1550:
+		case 1549:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
@@ -14256,7 +14128,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1551:
+		case 1550:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2850;
@@ -14265,7 +14137,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1552:
+		case 1551:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2700;
@@ -14274,7 +14146,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1553:
+		case 1552:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
@@ -14283,7 +14155,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1554:
+		case 1553:
 			*uParam1 = 2650f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
@@ -14292,7 +14164,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1555:
+		case 1554:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14301,7 +14173,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1556:
+		case 1555:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
@@ -14310,7 +14182,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1557:
+		case 1556:
 			*uParam1 = 3000f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
@@ -14319,7 +14191,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1558:
+		case 1557:
 			*uParam1 = 5700f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
@@ -14328,7 +14200,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1559:
+		case 1558:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6000;
@@ -14339,7 +14211,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1560:
+		case 1559:
 			*uParam1 = 5400f;
 			uParam1->f_1 = 33000f;
 			uParam1->f_2 = 5400;
@@ -14348,7 +14220,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1561:
+		case 1560:
 			*uParam1 = 5700f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
@@ -14357,7 +14229,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1562:
+		case 1561:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
@@ -14366,7 +14238,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1563:
+		case 1562:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
@@ -14375,7 +14247,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1564:
+		case 1563:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14384,7 +14256,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1565:
+		case 1564:
 			*uParam1 = 2950f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2950;
@@ -14393,7 +14265,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1566:
+		case 1565:
 			*uParam1 = 2900f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2900;
@@ -14402,7 +14274,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1567:
+		case 1566:
 			*uParam1 = 3050f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3050;
@@ -14411,7 +14283,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1568:
+		case 1567:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -14420,7 +14292,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1569:
+		case 1568:
 			*uParam1 = 3100f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3100;
@@ -14429,7 +14301,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1570:
+		case 1569:
 			*uParam1 = 2600f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
@@ -14438,7 +14310,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1571:
+		case 1570:
 			*uParam1 = 8150f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 8150;
@@ -14447,7 +14319,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1572:
+		case 1571:
 			*uParam1 = 3150f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3150;
@@ -14456,7 +14328,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1573:
+		case 1572:
 			*uParam1 = 3150f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3150;
@@ -14465,7 +14337,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1574:
+		case 1573:
 			*uParam1 = 3100f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3100;
@@ -14474,7 +14346,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1575:
+		case 1574:
 			*uParam1 = 3100f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3100;
@@ -14483,7 +14355,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1576:
+		case 1575:
 			*uParam1 = 3000f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
@@ -14492,7 +14364,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1577:
+		case 1576:
 			*uParam1 = 2650f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
@@ -14501,7 +14373,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1578:
+		case 1577:
 			*uParam1 = 2600f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2600;
@@ -14510,7 +14382,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1579:
+		case 1578:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -14519,7 +14391,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1580:
+		case 1579:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
@@ -14528,7 +14400,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1581:
+		case 1580:
 			*uParam1 = 2750f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2750;
@@ -14537,7 +14409,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1582:
+		case 1581:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14546,7 +14418,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1583:
+		case 1582:
 			*uParam1 = 3250f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3250;
@@ -14555,7 +14427,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1584:
+		case 1583:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14564,7 +14436,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1585:
+		case 1584:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
@@ -14573,7 +14445,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1586:
+		case 1585:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3200;
@@ -14582,7 +14454,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1587:
+		case 1586:
 			*uParam1 = 3200f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3200;
@@ -14591,7 +14463,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1588:
+		case 1587:
 			*uParam1 = 3300f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
@@ -14600,7 +14472,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1589:
+		case 1588:
 			*uParam1 = 3300f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 3300;
@@ -14609,7 +14481,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1590:
+		case 1589:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 2500;
@@ -14618,7 +14490,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1591:
+		case 1590:
 			*uParam1 = 2650f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
@@ -14627,7 +14499,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1592:
+		case 1591:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
@@ -14636,7 +14508,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1593:
+		case 1592:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2850;
@@ -14645,7 +14517,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1594:
+		case 1593:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2700;
@@ -14654,7 +14526,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1595:
+		case 1594:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
@@ -14665,7 +14537,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1596:
+		case 1595:
 			*uParam1 = 2650f;
 			uParam1->f_1 = 16000f;
 			uParam1->f_2 = 2650;
@@ -14674,7 +14546,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1597:
+		case 1596:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14683,7 +14555,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1598:
+		case 1597:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
@@ -14692,7 +14564,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1599:
+		case 1598:
 			*uParam1 = 3000f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 3000;
@@ -14701,7 +14573,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1600:
+		case 1599:
 			*uParam1 = 5700f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
@@ -14710,7 +14582,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1601:
+		case 1600:
 			*uParam1 = 6000f;
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 6000;
@@ -14719,7 +14591,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1602:
+		case 1601:
 			*uParam1 = 5400f;
 			uParam1->f_1 = 33000f;
 			uParam1->f_2 = 5400;
@@ -14728,7 +14600,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1603:
+		case 1602:
 			*uParam1 = 5700f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 5700;
@@ -14737,7 +14609,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1604:
+		case 1603:
 			*uParam1 = 2700f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2700;
@@ -14746,7 +14618,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1605:
+		case 1604:
 			*uParam1 = 2850f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2850;
@@ -14755,7 +14627,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1606:
+		case 1605:
 			*uParam1 = 2800f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 2800;
@@ -14764,7 +14636,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1607:
+		case 1606:
 			*uParam1 = 2950f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2950;
@@ -14773,7 +14645,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1608:
+		case 1607:
 			*uParam1 = 2900f;
 			uParam1->f_1 = 18000f;
 			uParam1->f_2 = 2900;
@@ -14782,7 +14654,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1609:
+		case 1608:
 			*uParam1 = 3050f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 3050;
@@ -14791,7 +14663,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1610:
+		case 1609:
 			*uParam1 = 8000f;
 			uParam1->f_1 = 49000f;
 			uParam1->f_2 = 8000;
@@ -14800,7 +14672,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1611:
+		case 1610:
 			*uParam1 = 9800f;
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 9800;
@@ -14809,7 +14681,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1612:
+		case 1611:
 			*uParam1 = 6950f;
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 6950;
@@ -14818,7 +14690,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1613:
+		case 1612:
 			*uParam1 = 5950f;
 			uParam1->f_1 = 37000f;
 			uParam1->f_2 = 5950;
@@ -14827,7 +14699,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1614:
+		case 1613:
 			*uParam1 = 7750f;
 			uParam1->f_1 = 47000f;
 			uParam1->f_2 = 7750;
@@ -14836,7 +14708,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1615:
+		case 1614:
 			*uParam1 = 8250f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 8250;
@@ -14845,7 +14717,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1616:
+		case 1615:
 			*uParam1 = 9500f;
 			uParam1->f_1 = 58000f;
 			uParam1->f_2 = 9500;
@@ -14854,7 +14726,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1617:
+		case 1616:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14863,7 +14735,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1618:
+		case 1617:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14872,7 +14744,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1619:
+		case 1618:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14881,7 +14753,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1620:
+		case 1619:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14890,7 +14762,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1621:
+		case 1620:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14899,7 +14771,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1622:
+		case 1621:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14908,7 +14780,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1623:
+		case 1622:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14917,7 +14789,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1624:
+		case 1623:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14926,7 +14798,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1625:
+		case 1624:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14935,7 +14807,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1626:
+		case 1625:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14944,7 +14816,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1627:
+		case 1626:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14953,7 +14825,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1628:
+		case 1627:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14962,7 +14834,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1629:
+		case 1628:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14971,7 +14843,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1630:
+		case 1629:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14980,7 +14852,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1631:
+		case 1630:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14989,7 +14861,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1632:
+		case 1631:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -14998,7 +14870,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1633:
+		case 1632:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -15007,7 +14879,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1634:
+		case 1633:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -15016,7 +14888,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1635:
+		case 1634:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -15025,7 +14897,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1636:
+		case 1635:
 			*uParam1 = 0.5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -15034,7 +14906,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1637:
+		case 1636:
 			*uParam1 = 350000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 350000;
@@ -15043,7 +14915,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1638:
+		case 1637:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 340000f;
 			uParam1->f_2 = 100000;
@@ -15052,7 +14924,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1639:
+		case 1638:
 			*uParam1 = 340000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 340000;
@@ -15061,7 +14933,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1640:
+		case 1639:
 			*uParam1 = 1000000f;
 			uParam1->f_1 = 3300000f;
 			uParam1->f_2 = 1000000;
@@ -15070,7 +14942,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1641:
+		case 1640:
 			*uParam1 = 850000f;
 			uParam1->f_1 = 2625000f;
 			uParam1->f_2 = 850000;
@@ -15079,7 +14951,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1642:
+		case 1641:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 300000;
@@ -15088,7 +14960,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1643:
+		case 1642:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 15000;
@@ -15097,7 +14969,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1644:
+		case 1643:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 15000;
@@ -15106,7 +14978,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1645:
+		case 1644:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 70000f;
 			uParam1->f_2 = 15000;
@@ -15115,7 +14987,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1646:
+		case 1645:
 			*uParam1 = 3000f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 3000;
@@ -15124,7 +14996,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1647:
+		case 1646:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 2000;
@@ -15133,7 +15005,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1648:
+		case 1647:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15142,7 +15014,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1649:
+		case 1648:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15153,7 +15025,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1650:
+		case 1649:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15162,7 +15034,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1651:
+		case 1650:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15171,7 +15043,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1652:
+		case 1651:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15180,7 +15052,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1653:
+		case 1652:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15189,7 +15061,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1654:
+		case 1653:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15198,7 +15070,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1655:
+		case 1654:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15207,7 +15079,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1656:
+		case 1655:
 			*uParam1 = 2500f;
 			uParam1->f_1 = 21000f;
 			uParam1->f_2 = 2500;
@@ -15216,7 +15088,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1657:
+		case 1656:
 			*uParam1 = 5450f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 5450;
@@ -15225,7 +15097,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1658:
+		case 1657:
 			*uParam1 = 5050f;
 			uParam1->f_1 = 15000f;
 			uParam1->f_2 = 5050;
@@ -15234,7 +15106,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1659:
+		case 1658:
 			*uParam1 = 7250f;
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 7250;
@@ -15243,7 +15115,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1660:
+		case 1659:
 			*uParam1 = 6550f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 6550;
@@ -15252,7 +15124,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1661:
+		case 1660:
 			*uParam1 = 13100f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 13100;
@@ -15261,7 +15133,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1662:
+		case 1661:
 			*uParam1 = 9200f;
 			uParam1->f_1 = 28000f;
 			uParam1->f_2 = 9200;
@@ -15270,7 +15142,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1663:
+		case 1662:
 			*uParam1 = 10650f;
 			uParam1->f_1 = 32000f;
 			uParam1->f_2 = 10650;
@@ -15279,7 +15151,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1664:
+		case 1663:
 			*uParam1 = 11600f;
 			uParam1->f_1 = 35000f;
 			uParam1->f_2 = 11600;
@@ -15288,7 +15160,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1665:
+		case 1664:
 			*uParam1 = 14100f;
 			uParam1->f_1 = 43000f;
 			uParam1->f_2 = 14100;
@@ -15297,7 +15169,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1666:
+		case 1665:
 			*uParam1 = 7700f;
 			uParam1->f_1 = 23000f;
 			uParam1->f_2 = 7700;
@@ -15306,7 +15178,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1667:
+		case 1666:
 			*uParam1 = 5700f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 5700;
@@ -15315,7 +15187,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1668:
+		case 1667:
 			*uParam1 = 7300f;
 			uParam1->f_1 = 22000f;
 			uParam1->f_2 = 7300;
@@ -15324,7 +15196,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1669:
+		case 1668:
 			*uParam1 = 6300f;
 			uParam1->f_1 = 19000f;
 			uParam1->f_2 = 6300;
@@ -15333,7 +15205,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1670:
+		case 1669:
 			*uParam1 = 5600f;
 			uParam1->f_1 = 17000f;
 			uParam1->f_2 = 5600;
@@ -15342,7 +15214,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1671:
+		case 1670:
 			*uParam1 = 14850f;
 			uParam1->f_1 = 45000f;
 			uParam1->f_2 = 14850;
@@ -15353,7 +15225,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1672:
+		case 1671:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -15362,7 +15234,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1673:
+		case 1672:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -15371,7 +15243,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1674:
+		case 1673:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15380,7 +15252,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1675:
+		case 1674:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15389,7 +15261,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1676:
+		case 1675:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15398,7 +15270,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1677:
+		case 1676:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15407,7 +15279,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1678:
+		case 1677:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15416,7 +15288,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1679:
+		case 1678:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15425,7 +15297,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1680:
+		case 1679:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15434,7 +15306,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1681:
+		case 1680:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15443,7 +15315,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1682:
+		case 1681:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15452,7 +15324,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1683:
+		case 1682:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15461,7 +15333,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1684:
+		case 1683:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15470,7 +15342,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1685:
+		case 1684:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15479,7 +15351,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1686:
+		case 1685:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15488,7 +15360,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1687:
+		case 1686:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15497,7 +15369,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1688:
+		case 1687:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15506,7 +15378,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1689:
+		case 1688:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15515,7 +15387,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1690:
+		case 1689:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15524,7 +15396,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1691:
+		case 1690:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15533,7 +15405,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1692:
+		case 1691:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15542,7 +15414,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2013:
+		case 2012:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -15551,7 +15423,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2014:
+		case 2013:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
@@ -15562,7 +15434,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1693:
+		case 1692:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15571,7 +15443,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1694:
+		case 1693:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15580,7 +15452,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1695:
+		case 1694:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15589,7 +15461,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1696:
+		case 1695:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15598,7 +15470,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1697:
+		case 1696:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15607,7 +15479,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1698:
+		case 1697:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15616,7 +15488,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1699:
+		case 1698:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15625,7 +15497,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1700:
+		case 1699:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15634,7 +15506,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1701:
+		case 1700:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15643,7 +15515,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1702:
+		case 1701:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15652,7 +15524,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1703:
+		case 1702:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15661,7 +15533,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1704:
+		case 1703:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -15670,7 +15542,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1705:
+		case 1704:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15679,7 +15551,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1706:
+		case 1705:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -15688,7 +15560,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1707:
+		case 1706:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15697,7 +15569,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1708:
+		case 1707:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15706,7 +15578,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1709:
+		case 1708:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15715,7 +15587,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1710:
+		case 1709:
 			*uParam1 = 1f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 1;
@@ -15724,7 +15596,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1711:
+		case 1710:
 			*uParam1 = 100f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 100;
@@ -15733,7 +15605,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1712:
+		case 1711:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15742,7 +15614,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1713:
+		case 1712:
 			*uParam1 = 100f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 100;
@@ -15751,7 +15623,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1714:
+		case 1713:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15760,7 +15632,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1715:
+		case 1714:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15769,7 +15641,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1716:
+		case 1715:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -15778,7 +15650,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1717:
+		case 1716:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -15787,7 +15659,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1718:
+		case 1717:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -15796,7 +15668,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1719:
+		case 1718:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -15805,7 +15677,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1720:
+		case 1719:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -15814,7 +15686,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1721:
+		case 1720:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -15823,7 +15695,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1722:
+		case 1721:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -15832,7 +15704,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1954:
+		case 1953:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15841,7 +15713,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1955:
+		case 1954:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15850,7 +15722,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1956:
+		case 1955:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15859,7 +15731,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1957:
+		case 1956:
 			*uParam1 = 1f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 1;
@@ -15868,7 +15740,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1958:
+		case 1957:
 			*uParam1 = 100f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 100;
@@ -15877,7 +15749,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1959:
+		case 1958:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15886,7 +15758,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1960:
+		case 1959:
 			*uParam1 = 100f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 100;
@@ -15895,7 +15767,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1961:
+		case 1960:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15904,7 +15776,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1962:
+		case 1961:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -15913,7 +15785,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1963:
+		case 1962:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -15922,7 +15794,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1964:
+		case 1963:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -15931,7 +15803,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1965:
+		case 1964:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -15940,7 +15812,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1966:
+		case 1965:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -15949,7 +15821,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1967:
+		case 1966:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -15958,7 +15830,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1968:
+		case 1967:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -15967,7 +15839,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1969:
+		case 1968:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -15978,7 +15850,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1723:
+		case 1722:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -15987,7 +15859,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1724:
+		case 1723:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -15996,7 +15868,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1725:
+		case 1724:
 			*uParam1 = 1f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
@@ -16005,7 +15877,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1726:
+		case 1725:
 			*uParam1 = 1f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
@@ -16014,7 +15886,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1727:
+		case 1726:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16023,7 +15895,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1728:
+		case 1727:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -16032,7 +15904,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1729:
+		case 1728:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16041,7 +15913,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1730:
+		case 1729:
 			*uParam1 = 1f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
@@ -16050,7 +15922,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1731:
+		case 1730:
 			*uParam1 = 1f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
@@ -16059,7 +15931,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1732:
+		case 1731:
 			*uParam1 = 1f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 1;
@@ -16068,7 +15940,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1733:
+		case 1732:
 			*uParam1 = 1f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 1;
@@ -16077,7 +15949,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1734:
+		case 1733:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -16086,7 +15958,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1735:
+		case 1734:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -16095,7 +15967,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1736:
+		case 1735:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -16104,7 +15976,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1737:
+		case 1736:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16113,7 +15985,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1738:
+		case 1737:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16122,7 +15994,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1739:
+		case 1738:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -16131,7 +16003,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1740:
+		case 1739:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -16140,7 +16012,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1741:
+		case 1740:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -16149,7 +16021,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1742:
+		case 1741:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -16158,7 +16030,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1743:
+		case 1742:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -16169,7 +16041,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1744:
+		case 1743:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16178,7 +16050,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1745:
+		case 1744:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16187,7 +16059,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1746:
+		case 1745:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16196,7 +16068,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1747:
+		case 1746:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16205,7 +16077,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1748:
+		case 1747:
 			*uParam1 = 0f;
 			uParam1->f_1 = 300000f;
 			uParam1->f_2 = 0;
@@ -16214,7 +16086,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1749:
+		case 1748:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16223,7 +16095,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1750:
+		case 1749:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16232,7 +16104,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1751:
+		case 1750:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16241,7 +16113,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1752:
+		case 1751:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16250,7 +16122,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1753:
+		case 1752:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16259,7 +16131,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1754:
+		case 1753:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16268,7 +16140,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1755:
+		case 1754:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16277,7 +16149,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1756:
+		case 1755:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16286,7 +16158,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1757:
+		case 1756:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -16295,7 +16167,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1758:
+		case 1757:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -16304,7 +16176,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1759:
+		case 1758:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -16313,7 +16185,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1760:
+		case 1759:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1800000f;
 			uParam1->f_2 = 0;
@@ -16322,7 +16194,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1761:
+		case 1760:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -16331,7 +16203,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1762:
+		case 1761:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16340,7 +16212,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1763:
+		case 1762:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16349,7 +16221,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1764:
+		case 1763:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16358,7 +16230,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1765:
+		case 1764:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16367,7 +16239,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1766:
+		case 1765:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16376,7 +16248,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1767:
+		case 1766:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16385,7 +16257,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1768:
+		case 1767:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16396,7 +16268,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1769:
+		case 1768:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
@@ -16405,7 +16277,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1770:
+		case 1769:
 			*uParam1 = 0f;
 			uParam1->f_1 = 600000f;
 			uParam1->f_2 = 0;
@@ -16414,7 +16286,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1771:
+		case 1770:
 			*uParam1 = 2f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 2;
@@ -16423,7 +16295,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1772:
+		case 1771:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16432,7 +16304,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1773:
+		case 1772:
 			*uParam1 = 100f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 100;
@@ -16441,7 +16313,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1774:
+		case 1773:
 			*uParam1 = 1f;
 			uParam1->f_1 = 1.15f;
 			uParam1->f_2 = 0;
@@ -16450,7 +16322,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1775:
+		case 1774:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
@@ -16459,7 +16331,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1776:
+		case 1775:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
@@ -16468,7 +16340,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1777:
+		case 1776:
 			*uParam1 = 3f;
 			uParam1->f_1 = 15f;
 			uParam1->f_2 = 3;
@@ -16479,7 +16351,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1778:
+		case 1777:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -16488,7 +16360,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1779:
+		case 1778:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -16497,7 +16369,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1780:
+		case 1779:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -16506,7 +16378,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1781:
+		case 1780:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -16515,7 +16387,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1782:
+		case 1781:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16524,7 +16396,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1783:
+		case 1782:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -16533,7 +16405,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1784:
+		case 1783:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -16542,7 +16414,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1785:
+		case 1784:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -16551,7 +16423,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1786:
+		case 1785:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -16560,7 +16432,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1787:
+		case 1786:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -16569,7 +16441,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1788:
+		case 1787:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -16578,7 +16450,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1789:
+		case 1788:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16587,7 +16459,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1790:
+		case 1789:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -16596,7 +16468,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1791:
+		case 1790:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 0;
@@ -16605,7 +16477,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1792:
+		case 1791:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -16614,7 +16486,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1793:
+		case 1792:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16623,7 +16495,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1794:
+		case 1793:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -16632,7 +16504,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1795:
+		case 1794:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16641,7 +16513,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1796:
+		case 1795:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16650,7 +16522,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1797:
+		case 1796:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16659,7 +16531,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1798:
+		case 1797:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16668,7 +16540,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1799:
+		case 1798:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16677,7 +16549,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1800:
+		case 1799:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16686,7 +16558,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1801:
+		case 1800:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16695,7 +16567,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1802:
+		case 1801:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16704,7 +16576,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1803:
+		case 1802:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16713,7 +16585,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1804:
+		case 1803:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3000f;
 			uParam1->f_2 = 0;
@@ -16722,7 +16594,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1805:
+		case 1804:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -16731,7 +16603,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1806:
+		case 1805:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -16740,7 +16612,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1807:
+		case 1806:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -16749,7 +16621,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1808:
+		case 1807:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -16760,7 +16632,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1809:
+		case 1808:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -16769,7 +16641,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1810:
+		case 1809:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16778,7 +16650,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1811:
+		case 1810:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -16787,7 +16659,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1812:
+		case 1811:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -16796,7 +16668,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1813:
+		case 1812:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16805,7 +16677,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1814:
+		case 1813:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16814,7 +16686,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1815:
+		case 1814:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -16823,7 +16695,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1816:
+		case 1815:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -16832,7 +16704,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1817:
+		case 1816:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -16841,7 +16713,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1818:
+		case 1817:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -16850,7 +16722,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1819:
+		case 1818:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -16859,7 +16731,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1820:
+		case 1819:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16868,7 +16740,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1821:
+		case 1820:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -16877,7 +16749,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1822:
+		case 1821:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -16886,7 +16758,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1823:
+		case 1822:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -16895,7 +16767,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1824:
+		case 1823:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -16904,7 +16776,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1825:
+		case 1824:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -16913,7 +16785,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1826:
+		case 1825:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -16922,7 +16794,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1827:
+		case 1826:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -16931,7 +16803,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1828:
+		case 1827:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -16940,7 +16812,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1829:
+		case 1828:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -16949,7 +16821,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1830:
+		case 1829:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -16958,7 +16830,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1831:
+		case 1830:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -16967,7 +16839,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1832:
+		case 1831:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -16976,7 +16848,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1833:
+		case 1832:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -16985,7 +16857,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1834:
+		case 1833:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -16994,7 +16866,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1835:
+		case 1834:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -17003,7 +16875,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1836:
+		case 1835:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -17014,7 +16886,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1837:
+		case 1836:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17023,7 +16895,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1838:
+		case 1837:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17032,7 +16904,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1839:
+		case 1838:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17041,7 +16913,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1840:
+		case 1839:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -17050,7 +16922,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1841:
+		case 1840:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -17059,7 +16931,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1842:
+		case 1841:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -17068,7 +16940,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1843:
+		case 1842:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17077,7 +16949,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1844:
+		case 1843:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -17086,7 +16958,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1845:
+		case 1844:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17095,7 +16967,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1846:
+		case 1845:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17104,7 +16976,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1847:
+		case 1846:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -17113,7 +16985,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1848:
+		case 1847:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -17122,7 +16994,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1849:
+		case 1848:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -17131,7 +17003,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1850:
+		case 1849:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17140,7 +17012,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1851:
+		case 1850:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17149,7 +17021,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1852:
+		case 1851:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17158,7 +17030,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1970:
+		case 1969:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -17167,7 +17039,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1971:
+		case 1970:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -17176,7 +17048,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1972:
+		case 1971:
 			*uParam1 = 2f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 2;
@@ -17185,7 +17057,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2015:
+		case 2014:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -17194,7 +17066,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2016:
+		case 2015:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17205,7 +17077,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1853:
+		case 1852:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17214,7 +17086,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1854:
+		case 1853:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17223,7 +17095,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1855:
+		case 1854:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17232,7 +17104,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1856:
+		case 1855:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17241,7 +17113,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1857:
+		case 1856:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17250,7 +17122,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1858:
+		case 1857:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17259,7 +17131,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1859:
+		case 1858:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17268,7 +17140,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1860:
+		case 1859:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17277,7 +17149,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1861:
+		case 1860:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -17286,7 +17158,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1862:
+		case 1861:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -17295,7 +17167,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1863:
+		case 1862:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -17304,7 +17176,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1864:
+		case 1863:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17313,7 +17185,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1865:
+		case 1864:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17322,7 +17194,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1866:
+		case 1865:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17331,7 +17203,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1867:
+		case 1866:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17340,7 +17212,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1868:
+		case 1867:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17349,7 +17221,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1869:
+		case 1868:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -17358,7 +17230,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1870:
+		case 1869:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17367,7 +17239,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1871:
+		case 1870:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17376,7 +17248,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1872:
+		case 1871:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17385,7 +17257,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1873:
+		case 1872:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -17396,7 +17268,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1874:
+		case 1873:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17405,7 +17277,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1875:
+		case 1874:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17414,7 +17286,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1876:
+		case 1875:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17423,7 +17295,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1877:
+		case 1876:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17432,7 +17304,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1878:
+		case 1877:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
@@ -17441,7 +17313,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1879:
+		case 1878:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17450,7 +17322,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1880:
+		case 1879:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17459,7 +17331,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1881:
+		case 1880:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17468,7 +17340,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1882:
+		case 1881:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -17477,7 +17349,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1883:
+		case 1882:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17486,7 +17358,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1884:
+		case 1883:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17495,7 +17367,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1885:
+		case 1884:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17504,7 +17376,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1886:
+		case 1885:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17513,7 +17385,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1887:
+		case 1886:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -17522,7 +17394,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1888:
+		case 1887:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -17531,7 +17403,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1889:
+		case 1888:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -17540,7 +17412,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1890:
+		case 1889:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -17549,7 +17421,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1891:
+		case 1890:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17558,7 +17430,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1892:
+		case 1891:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17567,7 +17439,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1893:
+		case 1892:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17578,7 +17450,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1894:
+		case 1893:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -17587,7 +17459,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1895:
+		case 1894:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -17596,7 +17468,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1896:
+		case 1895:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -17605,7 +17477,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1897:
+		case 1896:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17614,7 +17486,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1898:
+		case 1897:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -17623,7 +17495,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1899:
+		case 1898:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17632,7 +17504,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1900:
+		case 1899:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17641,7 +17513,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1901:
+		case 1900:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17650,7 +17522,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1902:
+		case 1901:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17659,7 +17531,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1903:
+		case 1902:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17668,7 +17540,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1904:
+		case 1903:
 			*uParam1 = 0f;
 			uParam1->f_1 = 500f;
 			uParam1->f_2 = 0;
@@ -17677,7 +17549,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1905:
+		case 1904:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17686,7 +17558,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1906:
+		case 1905:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17695,7 +17567,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1907:
+		case 1906:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -17704,7 +17576,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1908:
+		case 1907:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -17713,7 +17585,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1909:
+		case 1908:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
@@ -17722,7 +17594,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1910:
+		case 1909:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -17731,7 +17603,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1911:
+		case 1910:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -17740,7 +17612,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1912:
+		case 1911:
 			*uParam1 = 0f;
 			uParam1->f_1 = 200f;
 			uParam1->f_2 = 0;
@@ -17749,7 +17621,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1913:
+		case 1912:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17758,7 +17630,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1914:
+		case 1913:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -17767,7 +17639,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1915:
+		case 1914:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17776,7 +17648,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1916:
+		case 1915:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17787,7 +17659,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1917:
+		case 1916:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -17796,7 +17668,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1918:
+		case 1917:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -17805,7 +17677,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1919:
+		case 1918:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 0;
@@ -17814,7 +17686,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1920:
+		case 1919:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -17823,7 +17695,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1921:
+		case 1920:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -17832,7 +17704,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1922:
+		case 1921:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17841,7 +17713,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1923:
+		case 1922:
 			*uParam1 = 0f;
 			uParam1->f_1 = 50f;
 			uParam1->f_2 = 0;
@@ -17850,7 +17722,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1924:
+		case 1923:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -17859,7 +17731,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1925:
+		case 1924:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -17868,7 +17740,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1926:
+		case 1925:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -17877,7 +17749,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1927:
+		case 1926:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -17886,7 +17758,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1928:
+		case 1927:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30f;
 			uParam1->f_2 = 0;
@@ -17895,7 +17767,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1929:
+		case 1928:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -17904,7 +17776,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1930:
+		case 1929:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -17913,7 +17785,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1931:
+		case 1930:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -17922,7 +17794,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1932:
+		case 1931:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -17931,7 +17803,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1933:
+		case 1932:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -17940,7 +17812,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1934:
+		case 1933:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 0;
@@ -17949,7 +17821,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1935:
+		case 1934:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17958,7 +17830,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1936:
+		case 1935:
 			*uParam1 = 0f;
 			uParam1->f_1 = 2000f;
 			uParam1->f_2 = 0;
@@ -17967,7 +17839,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1937:
+		case 1936:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10000f;
 			uParam1->f_2 = 0;
@@ -17976,7 +17848,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1938:
+		case 1937:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60000f;
 			uParam1->f_2 = 0;
@@ -17985,7 +17857,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1939:
+		case 1938:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -17994,7 +17866,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1940:
+		case 1939:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -18003,7 +17875,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1941:
+		case 1940:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -18012,7 +17884,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1942:
+		case 1941:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -18021,7 +17893,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1943:
+		case 1942:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -18030,7 +17902,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1944:
+		case 1943:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -18039,7 +17911,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1945:
+		case 1944:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1000f;
 			uParam1->f_2 = 0;
@@ -18048,7 +17920,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1946:
+		case 1945:
 			*uParam1 = 0f;
 			uParam1->f_1 = 20f;
 			uParam1->f_2 = 0;
@@ -18057,7 +17929,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1947:
+		case 1946:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 0;
@@ -18066,7 +17938,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2009:
+		case 2008:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3600f;
 			uParam1->f_2 = 0;
@@ -18075,7 +17947,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2010:
+		case 2009:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3600f;
 			uParam1->f_2 = 0;
@@ -18086,7 +17958,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 1948:
+		case 1947:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18095,7 +17967,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1949:
+		case 1948:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18104,7 +17976,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1950:
+		case 1949:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18113,7 +17985,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1951:
+		case 1950:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18122,7 +17994,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1952:
+		case 1951:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18131,7 +18003,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1953:
+		case 1952:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18140,7 +18012,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1973:
+		case 1972:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
@@ -18149,7 +18021,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1974:
+		case 1973:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3600000f;
 			uParam1->f_2 = 0;
@@ -18158,7 +18030,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1975:
+		case 1974:
 			*uParam1 = 0f;
 			uParam1->f_1 = 60f;
 			uParam1->f_2 = 0;
@@ -18167,7 +18039,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1976:
+		case 1975:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18176,7 +18048,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1977:
+		case 1976:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18185,7 +18057,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1978:
+		case 1977:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18194,7 +18066,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1979:
+		case 1978:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18203,7 +18075,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1980:
+		case 1979:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18212,7 +18084,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1981:
+		case 1980:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18221,7 +18093,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1982:
+		case 1981:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18230,7 +18102,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1983:
+		case 1982:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18239,7 +18111,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1984:
+		case 1983:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18248,7 +18120,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1985:
+		case 1984:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18257,7 +18129,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1986:
+		case 1985:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18266,7 +18138,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1987:
+		case 1986:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18275,7 +18147,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1988:
+		case 1987:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18284,7 +18156,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1989:
+		case 1988:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18293,7 +18165,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1990:
+		case 1989:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18302,7 +18174,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1991:
+		case 1990:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18311,7 +18183,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1992:
+		case 1991:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18320,7 +18192,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1993:
+		case 1992:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18329,7 +18201,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1994:
+		case 1993:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18338,7 +18210,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1995:
+		case 1994:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18347,7 +18219,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1996:
+		case 1995:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18356,7 +18228,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1997:
+		case 1996:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18365,7 +18237,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1998:
+		case 1997:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18374,7 +18246,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 1999:
+		case 1998:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18383,7 +18255,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2000:
+		case 1999:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18392,7 +18264,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2001:
+		case 2000:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18401,7 +18273,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2002:
+		case 2001:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18410,7 +18282,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2003:
+		case 2002:
 			*uParam1 = 0f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 0;
@@ -18419,7 +18291,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2004:
+		case 2003:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -18428,7 +18300,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2005:
+		case 2004:
 			*uParam1 = 0f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
@@ -18437,7 +18309,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2006:
+		case 2005:
 			*uParam1 = 0f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 0;
@@ -18446,7 +18318,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2007:
+		case 2006:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000f;
 			uParam1->f_2 = 0;
@@ -18455,7 +18327,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2008:
+		case 2007:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000000f;
 			uParam1->f_2 = 0;
@@ -18464,7 +18336,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2011:
+		case 2010:
 			*uParam1 = 0f;
 			uParam1->f_1 = 5000000f;
 			uParam1->f_2 = 0;
@@ -18473,7 +18345,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2012:
+		case 2011:
 			*uParam1 = 0f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
@@ -18482,7 +18354,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2017:
+		case 2016:
 			*uParam1 = 1f;
 			uParam1->f_1 = 100f;
 			uParam1->f_2 = 1;
@@ -18493,7 +18365,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 2018:
+		case 2017:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -18502,7 +18374,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2019:
+		case 2018:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -18511,7 +18383,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2020:
+		case 2019:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -18520,7 +18392,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2021:
+		case 2020:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -18529,7 +18401,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2022:
+		case 2021:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18538,7 +18410,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2023:
+		case 2022:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18547,7 +18419,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2024:
+		case 2023:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18556,7 +18428,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2025:
+		case 2024:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -18565,7 +18437,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2026:
+		case 2025:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -18574,7 +18446,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2027:
+		case 2026:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
@@ -18583,7 +18455,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2028:
+		case 2027:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
@@ -18592,7 +18464,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2029:
+		case 2028:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 5000;
@@ -18601,7 +18473,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2030:
+		case 2029:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 2000;
@@ -18610,7 +18482,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2031:
+		case 2030:
 			*uParam1 = 3000f;
 			uParam1->f_1 = 250000f;
 			uParam1->f_2 = 3000;
@@ -18619,7 +18491,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2032:
+		case 2031:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 340000f;
 			uParam1->f_2 = 100000;
@@ -18628,7 +18500,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2033:
+		case 2032:
 			*uParam1 = 195000f;
 			uParam1->f_1 = 468000f;
 			uParam1->f_2 = 195000;
@@ -18637,7 +18509,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2034:
+		case 2033:
 			*uParam1 = 92500f;
 			uParam1->f_1 = 222000f;
 			uParam1->f_2 = 92500;
@@ -18646,7 +18518,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2035:
+		case 2034:
 			*uParam1 = 167500f;
 			uParam1->f_1 = 402000f;
 			uParam1->f_2 = 167500;
@@ -18655,7 +18527,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2036:
+		case 2035:
 			*uParam1 = 185000f;
 			uParam1->f_1 = 444000f;
 			uParam1->f_2 = 185000;
@@ -18664,7 +18536,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2037:
+		case 2036:
 			*uParam1 = 200000f;
 			uParam1->f_1 = 480000f;
 			uParam1->f_2 = 200000;
@@ -18673,7 +18545,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2038:
+		case 2037:
 			*uParam1 = 210000f;
 			uParam1->f_1 = 504000f;
 			uParam1->f_2 = 210000;
@@ -18682,7 +18554,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2039:
+		case 2038:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
@@ -18691,7 +18563,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2040:
+		case 2039:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
@@ -18700,7 +18572,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2041:
+		case 2040:
 			*uParam1 = 7000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 7000;
@@ -18709,7 +18581,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2042:
+		case 2041:
 			*uParam1 = 1500f;
 			uParam1->f_1 = 30000f;
 			uParam1->f_2 = 1500;
@@ -18718,7 +18590,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2043:
+		case 2042:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 2000;
@@ -18727,7 +18599,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2044:
+		case 2043:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18736,7 +18608,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2045:
+		case 2044:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18745,7 +18617,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2046:
+		case 2045:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18754,7 +18626,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2047:
+		case 2046:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18763,7 +18635,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2048:
+		case 2047:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18772,7 +18644,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2049:
+		case 2048:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18781,7 +18653,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2050:
+		case 2049:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18790,7 +18662,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2051:
+		case 2050:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 10000;
@@ -18799,7 +18671,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2052:
+		case 2051:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18808,7 +18680,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2053:
+		case 2052:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18817,7 +18689,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2054:
+		case 2053:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18826,7 +18698,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2055:
+		case 2054:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18835,7 +18707,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2056:
+		case 2055:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 2000;
@@ -18846,7 +18718,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 2057:
+		case 2056:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18855,7 +18727,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2058:
+		case 2057:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18864,7 +18736,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2059:
+		case 2058:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18873,7 +18745,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2060:
+		case 2059:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18882,7 +18754,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2061:
+		case 2060:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18891,7 +18763,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2062:
+		case 2061:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18900,7 +18772,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2063:
+		case 2062:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18909,7 +18781,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2064:
+		case 2063:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18918,7 +18790,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2065:
+		case 2064:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18927,7 +18799,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2066:
+		case 2065:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18936,7 +18808,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2067:
+		case 2066:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18945,7 +18817,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2068:
+		case 2067:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18954,7 +18826,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2069:
+		case 2068:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18963,7 +18835,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2070:
+		case 2069:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18972,7 +18844,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2071:
+		case 2070:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18981,7 +18853,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2072:
+		case 2071:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18990,7 +18862,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2073:
+		case 2072:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -18999,7 +18871,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2074:
+		case 2073:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19008,7 +18880,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2075:
+		case 2074:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19017,7 +18889,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2076:
+		case 2075:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19026,7 +18898,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2077:
+		case 2076:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19035,7 +18907,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2078:
+		case 2077:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19044,7 +18916,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2079:
+		case 2078:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19053,7 +18925,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2080:
+		case 2079:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19062,7 +18934,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2081:
+		case 2080:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19071,7 +18943,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2082:
+		case 2081:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19080,7 +18952,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2083:
+		case 2082:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19089,7 +18961,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2084:
+		case 2083:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19098,7 +18970,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2085:
+		case 2084:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19107,7 +18979,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2086:
+		case 2085:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19116,7 +18988,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2087:
+		case 2086:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19125,7 +18997,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2088:
+		case 2087:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19134,7 +19006,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2089:
+		case 2088:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19143,7 +19015,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2090:
+		case 2089:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19152,7 +19024,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2091:
+		case 2090:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19161,7 +19033,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2092:
+		case 2091:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19170,7 +19042,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2093:
+		case 2092:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19179,7 +19051,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2094:
+		case 2093:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19188,7 +19060,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2095:
+		case 2094:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 75000f;
 			uParam1->f_2 = 5000;
@@ -19197,7 +19069,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2096:
+		case 2095:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -19206,7 +19078,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2097:
+		case 2096:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -19215,7 +19087,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2098:
+		case 2097:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
@@ -19224,7 +19096,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2099:
+		case 2098:
 			*uParam1 = 15000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 15000;
@@ -19233,7 +19105,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2100:
+		case 2099:
 			*uParam1 = 1000f;
 			uParam1->f_1 = 20000f;
 			uParam1->f_2 = 1000;
@@ -19244,7 +19116,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 2101:
+		case 2100:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19253,7 +19125,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2102:
+		case 2101:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19262,7 +19134,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2103:
+		case 2102:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19271,7 +19143,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2104:
+		case 2103:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19280,7 +19152,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2105:
+		case 2104:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19289,7 +19161,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2106:
+		case 2105:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19298,7 +19170,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2107:
+		case 2106:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19307,7 +19179,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2108:
+		case 2107:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19316,7 +19188,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2109:
+		case 2108:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19325,7 +19197,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2110:
+		case 2109:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19334,7 +19206,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2111:
+		case 2110:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19343,7 +19215,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2112:
+		case 2111:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19352,7 +19224,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2113:
+		case 2112:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19361,7 +19233,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2114:
+		case 2113:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19370,7 +19242,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2115:
+		case 2114:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19379,7 +19251,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2116:
+		case 2115:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19388,7 +19260,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2117:
+		case 2116:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19397,7 +19269,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2118:
+		case 2117:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19406,7 +19278,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2119:
+		case 2118:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19415,7 +19287,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2120:
+		case 2119:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19424,7 +19296,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2121:
+		case 2120:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19433,7 +19305,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2122:
+		case 2121:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19442,7 +19314,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2123:
+		case 2122:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19451,7 +19323,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2124:
+		case 2123:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19460,7 +19332,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2125:
+		case 2124:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19469,7 +19341,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2126:
+		case 2125:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19478,7 +19350,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2127:
+		case 2126:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19487,7 +19359,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2128:
+		case 2127:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19496,7 +19368,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2129:
+		case 2128:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19505,7 +19377,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2130:
+		case 2129:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19514,7 +19386,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2131:
+		case 2130:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 80000f;
 			uParam1->f_2 = 5000;
@@ -19525,7 +19397,7 @@ void func_3(int iParam0, var uParam1)
 	}
 	switch (iParam0)
 	{
-		case 2132:
+		case 2131:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 50000f;
 			uParam1->f_2 = 5000;
@@ -19534,7 +19406,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2133:
+		case 2132:
 			*uParam1 = 1000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
@@ -19543,7 +19415,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2134:
+		case 2133:
 			*uParam1 = 1000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
@@ -19552,7 +19424,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2135:
+		case 2134:
 			*uParam1 = 1000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
@@ -19561,7 +19433,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2136:
+		case 2135:
 			*uParam1 = 1000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
@@ -19570,7 +19442,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2137:
+		case 2136:
 			*uParam1 = 1000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
@@ -19579,7 +19451,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2138:
+		case 2137:
 			*uParam1 = 1000f;
 			uParam1->f_1 = 40000f;
 			uParam1->f_2 = 1000;
@@ -19588,7 +19460,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2139:
+		case 2138:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19597,7 +19469,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2140:
+		case 2139:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19606,7 +19478,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2141:
+		case 2140:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19615,7 +19487,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2142:
+		case 2141:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19624,7 +19496,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2143:
+		case 2142:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19633,7 +19505,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2144:
+		case 2143:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19642,7 +19514,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2145:
+		case 2144:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 10000;
@@ -19651,7 +19523,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2146:
+		case 2145:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 10000;
@@ -19660,7 +19532,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2147:
+		case 2146:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 10000;
@@ -19669,7 +19541,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2148:
+		case 2147:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 10000;
@@ -19678,7 +19550,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2149:
+		case 2148:
 			*uParam1 = 10000f;
 			uParam1->f_1 = 150000f;
 			uParam1->f_2 = 10000;
@@ -19687,7 +19559,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2150:
+		case 2149:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 1000000f;
 			uParam1->f_2 = 5000;
@@ -19696,7 +19568,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2151:
+		case 2150:
 			*uParam1 = 1f;
 			uParam1->f_1 = 3f;
 			uParam1->f_2 = 1;
@@ -19705,7 +19577,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2152:
+		case 2151:
 			*uParam1 = 1f;
 			uParam1->f_1 = 4f;
 			uParam1->f_2 = 1;
@@ -19714,27 +19586,72 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2153:
+		case 2152:
 			*uParam1 = 1f;
 			uParam1->f_1 = 6f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 6;
-			uParam1->f_5 = 489823853;
+			uParam1->f_5 = -301443607;
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2154:
+		case 2153:
 			*uParam1 = 1f;
 			uParam1->f_1 = 5f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 5;
-			uParam1->f_5 = 1348578130;
+			uParam1->f_5 = -20913835;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 2233:
+			*uParam1 = 5000f;
+			uParam1->f_3 = 100000;
+			uParam1->f_2 = 5000;
+			uParam1->f_3 = 100000;
+			uParam1->f_5 = -478393512;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 2234:
+			*uParam1 = 200000f;
+			uParam1->f_3 = 2000000;
+			uParam1->f_2 = 200000;
+			uParam1->f_3 = 2000000;
+			uParam1->f_5 = -1449462873;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 2235:
+			*uParam1 = 50000f;
+			uParam1->f_3 = 500000;
+			uParam1->f_2 = 50000;
+			uParam1->f_3 = 500000;
+			uParam1->f_5 = -1799704196;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 2236:
+			*uParam1 = 200000f;
+			uParam1->f_3 = 2000000;
+			uParam1->f_2 = 200000;
+			uParam1->f_3 = 2000000;
+			uParam1->f_5 = -1781440390;
+			uParam1->f_4 = 1;
+			break;
+		
+		case 2237:
+			*uParam1 = 200000f;
+			uParam1->f_3 = 4000000;
+			uParam1->f_2 = 200000;
+			uParam1->f_3 = 4000000;
+			uParam1->f_5 = -1739834394;
 			uParam1->f_4 = 1;
 			break;
 	}
 	switch (iParam0)
 	{
-		case 2155:
+		case 2154:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
@@ -19743,7 +19660,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2156:
+		case 2155:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19752,7 +19669,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2157:
+		case 2156:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
@@ -19761,7 +19678,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2158:
+		case 2157:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19770,7 +19687,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2159:
+		case 2158:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
@@ -19779,7 +19696,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2160:
+		case 2159:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19788,7 +19705,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2161:
+		case 2160:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
@@ -19797,7 +19714,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2162:
+		case 2161:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19806,7 +19723,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2163:
+		case 2162:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 7500000f;
 			uParam1->f_2 = 300000;
@@ -19815,7 +19732,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2164:
+		case 2163:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19824,7 +19741,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2165:
+		case 2164:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 100000;
@@ -19833,7 +19750,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2166:
+		case 2165:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
@@ -19842,7 +19759,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2167:
+		case 2166:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19851,7 +19768,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2168:
+		case 2167:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
@@ -19860,7 +19777,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2169:
+		case 2168:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19869,7 +19786,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2170:
+		case 2169:
 			*uParam1 = 50000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 50000;
@@ -19878,7 +19795,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2171:
+		case 2170:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 7500000f;
 			uParam1->f_2 = 300000;
@@ -19887,7 +19804,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2172:
+		case 2171:
 			*uParam1 = 300000f;
 			uParam1->f_1 = 7500000f;
 			uParam1->f_2 = 300000;
@@ -19896,7 +19813,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2173:
+		case 2172:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19905,7 +19822,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2174:
+		case 2173:
 			*uParam1 = 5000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 5000;
@@ -19914,7 +19831,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2175:
+		case 2174:
 			*uParam1 = 2000f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 2000;
@@ -19923,7 +19840,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2176:
+		case 2175:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 3E+07f;
 			uParam1->f_2 = 100000;
@@ -19932,7 +19849,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2177:
+		case 2176:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 100000;
@@ -19941,7 +19858,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2178:
+		case 2177:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 3.5E+07f;
 			uParam1->f_2 = 100000;
@@ -19950,7 +19867,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2179:
+		case 2178:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 5000000f;
 			uParam1->f_2 = 100000;
@@ -19959,7 +19876,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2180:
+		case 2179:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 4E+07f;
 			uParam1->f_2 = 100000;
@@ -19968,7 +19885,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2181:
+		case 2180:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1E+07f;
 			uParam1->f_2 = 100000;
@@ -19977,7 +19894,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2182:
+		case 2181:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 25000;
@@ -19986,7 +19903,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2183:
+		case 2182:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 3750000f;
 			uParam1->f_2 = 100000;
@@ -19995,7 +19912,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2184:
+		case 2183:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1750000f;
 			uParam1->f_2 = 25000;
@@ -20004,7 +19921,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2185:
+		case 2184:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1575000f;
 			uParam1->f_2 = 25000;
@@ -20013,7 +19930,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2186:
+		case 2185:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1650000f;
 			uParam1->f_2 = 25000;
@@ -20022,7 +19939,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2187:
+		case 2186:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 25000;
@@ -20031,7 +19948,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2188:
+		case 2187:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 3000000f;
 			uParam1->f_2 = 25000;
@@ -20040,7 +19957,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2189:
+		case 2188:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2625000f;
 			uParam1->f_2 = 25000;
@@ -20049,7 +19966,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2190:
+		case 2189:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2750000f;
 			uParam1->f_2 = 25000;
@@ -20058,7 +19975,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2191:
+		case 2190:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2500000f;
 			uParam1->f_2 = 25000;
@@ -20067,7 +19984,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2192:
+		case 2191:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 500000f;
 			uParam1->f_2 = 25000;
@@ -20076,7 +19993,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2193:
+		case 2192:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 25000;
@@ -20085,7 +20002,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2194:
+		case 2193:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 675000f;
 			uParam1->f_2 = 25000;
@@ -20094,7 +20011,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2195:
+		case 2194:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2250000f;
 			uParam1->f_2 = 25000;
@@ -20103,7 +20020,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2196:
+		case 2195:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2375000f;
 			uParam1->f_2 = 25000;
@@ -20112,7 +20029,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2197:
+		case 2196:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 3175000f;
 			uParam1->f_2 = 25000;
@@ -20121,7 +20038,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2198:
+		case 2197:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1575000f;
 			uParam1->f_2 = 25000;
@@ -20130,7 +20047,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2199:
+		case 2198:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 3100000f;
 			uParam1->f_2 = 25000;
@@ -20139,7 +20056,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2200:
+		case 2199:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1825000f;
 			uParam1->f_2 = 25000;
@@ -20148,7 +20065,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2201:
+		case 2200:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2475000f;
 			uParam1->f_2 = 25000;
@@ -20157,7 +20074,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2202:
+		case 2201:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 850000f;
 			uParam1->f_2 = 25000;
@@ -20166,7 +20083,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2203:
+		case 2202:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1700000f;
 			uParam1->f_2 = 25000;
@@ -20175,7 +20092,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2204:
+		case 2203:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2125000f;
 			uParam1->f_2 = 25000;
@@ -20184,7 +20101,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2205:
+		case 2204:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1100000f;
 			uParam1->f_2 = 25000;
@@ -20193,7 +20110,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2206:
+		case 2205:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 975000f;
 			uParam1->f_2 = 25000;
@@ -20202,7 +20119,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2207:
+		case 2206:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 3250000f;
 			uParam1->f_2 = 25000;
@@ -20211,7 +20128,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2208:
+		case 2207:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 1250000f;
 			uParam1->f_2 = 25000;
@@ -20220,7 +20137,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2209:
+		case 2208:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20229,7 +20146,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2210:
+		case 2209:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20238,7 +20155,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2211:
+		case 2210:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20247,7 +20164,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2212:
+		case 2211:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20256,7 +20173,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2213:
+		case 2212:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20265,7 +20182,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2214:
+		case 2213:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20274,7 +20191,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2215:
+		case 2214:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20283,7 +20200,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2216:
+		case 2215:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20292,7 +20209,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2217:
+		case 2216:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20301,7 +20218,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2218:
+		case 2217:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20310,7 +20227,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2219:
+		case 2218:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20319,7 +20236,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2220:
+		case 2219:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20328,7 +20245,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2221:
+		case 2220:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20337,7 +20254,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2222:
+		case 2221:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20346,7 +20263,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2223:
+		case 2222:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20355,7 +20272,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2224:
+		case 2223:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20364,7 +20281,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2225:
+		case 2224:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20373,7 +20290,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2226:
+		case 2225:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20382,7 +20299,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2227:
+		case 2226:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20391,7 +20308,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2228:
+		case 2227:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20400,7 +20317,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2229:
+		case 2228:
 			*uParam1 = 100000f;
 			uParam1->f_1 = 1500000f;
 			uParam1->f_2 = 100000;
@@ -20409,7 +20326,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2230:
+		case 2229:
 			*uParam1 = 25000f;
 			uParam1->f_1 = 2000000f;
 			uParam1->f_2 = 25000;
@@ -20418,7 +20335,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2231:
+		case 2230:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
@@ -20427,7 +20344,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2232:
+		case 2231:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
@@ -20436,7 +20353,7 @@ void func_3(int iParam0, var uParam1)
 			uParam1->f_4 = 1;
 			break;
 		
-		case 2233:
+		case 2232:
 			*uParam1 = 0f;
 			uParam1->f_1 = 100000f;
 			uParam1->f_2 = 0;
@@ -20447,17 +20364,140 @@ void func_3(int iParam0, var uParam1)
 	}
 }
 
+int func_3(int iParam0)
+{
+	char cVar0[64];
+	
+	if (iParam0 >= 26)
+	{
+		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
+		StringIntConCat(&cVar0, (iParam0 - 26), 64);
+		return unk_0x39BD4614CF899227(&cVar0);
+	}
+	switch (iParam0)
+	{
+		case 0:
+			return 190769267;
+			break;
+		
+		case 1:
+			return joaat("MP_Global");
+			break;
+		
+		case 2:
+			return 1398379561;
+			break;
+		
+		case 3:
+			return -295628664;
+			break;
+		
+		case 4:
+			return -1157311665;
+			break;
+		
+		case 5:
+			return 988790432;
+			break;
+		
+		case 6:
+			return 1140746429;
+			break;
+		
+		case 7:
+			return 1882254284;
+			break;
+		
+		case 8:
+			return -1021097824;
+			break;
+		
+		case 9:
+			return 1031194139;
+			break;
+		
+		case 10:
+			return -946481156;
+			break;
+		
+		case 11:
+			return -364624190;
+			break;
+		
+		case 12:
+			return -199795525;
+			break;
+		
+		case 13:
+			return -866645446;
+			break;
+		
+		case 14:
+			return -938189448;
+			break;
+		
+		case 15:
+			return 539878179;
+			break;
+		
+		case 16:
+			return 571975921;
+			break;
+		
+		case 17:
+			return 818280646;
+			break;
+		
+		case 18:
+			return -183978087;
+			break;
+		
+		case 19:
+			return -52527117;
+			break;
+		
+		case 24:
+			return -395434754;
+			break;
+		
+		case 20:
+			return -1110334219;
+			break;
+		
+		case 21:
+			return -1382306730;
+			break;
+		
+		case 22:
+			return 1453550531;
+			break;
+		
+		case 23:
+			return 1744317449;
+			break;
+		
+		case 25:
+			return 2;
+			break;
+		
+		case 27:
+			StringCopy(&cVar0, "ILLEGAL TUNABLE CONTEXT", 64);
+			break;
+	}
+	return 0;
+}
+
 void func_4()
 {
-	unk_0x08791DD7D249C9E1();
-	unk_0x00BF22B5FAEE1971(-9f, -9f, -9f, -10f, -10f, -10f, -25f, -25f, -25f, -28f, -28f, -28f, 0f, 0f, 0f, 0, 0);
-	unk_0x8668A841B325FF16(-9f, -9f, -9f, -10f, -10f, -10f, 0, 1, 1, 1);
+	unk_0xE9E416593B7BC2AE();
+	unk_0x1C1002A539F42D6B(-9f, -9f, -9f, -10f, -10f, -10f, -25f, -25f, -25f, -28f, -28f, -28f, 0f, 0f, 0f, 0, 0);
+	unk_0x2277155D92E898D2(-9f, -9f, -9f, -10f, -10f, -10f, 0, 1, 1, 1);
 	func_4();
 }
 
 void func_5()
 {
-	unk_0x52F20802944F8DCE();
+	unk_0x2F798BA2098FDADE();
 }
 
 int func_6()
@@ -20469,9 +20509,9 @@ int func_6()
 	{
 		return 1;
 	}
-	if (Global_1315884 == 0)
+	if (Global_1315885 == 0)
 	{
-		if (!unk_0x00AAD79B42B3E036())
+		if (!unk_0x4C779B19E6DDCDA2())
 		{
 			return 1;
 		}
@@ -20480,7 +20520,7 @@ int func_6()
 	{
 		return 1;
 	}
-	if (Global_2442886)
+	if (Global_2442895)
 	{
 		return 1;
 	}
@@ -20499,13 +20539,13 @@ int func_6()
 	{
 		return 1;
 	}
-	if (!unk_0xC8FFCE1611C4F73B())
+	if (!unk_0x3A691B47D5DE2593())
 	{
 		return 1;
 	}
 	if (func_7() != 0)
 	{
-		if (unk_0xFF6891E21E7FC193(func_7()) == 0)
+		if (unk_0xB1A77D5C890711F9(func_7()) == 0)
 		{
 			return 1;
 		}
@@ -20530,7 +20570,7 @@ int func_7()
 
 int func_8()
 {
-	return Global_25034;
+	return Global_25115;
 }
 
 bool func_9()
@@ -20540,7 +20580,7 @@ bool func_9()
 
 int func_10(int iParam0)
 {
-	if (unk_0x957F04289F04E160(1, iParam0))
+	if (unk_0xF5F50153667BD068(1, iParam0))
 	{
 		return 1;
 	}
@@ -20549,7 +20589,7 @@ int func_10(int iParam0)
 
 bool func_11()
 {
-	return Global_2440974;
+	return Global_2440977;
 }
 
 bool func_12()
@@ -20565,20 +20605,20 @@ void func_13(var uParam0)
 	struct<3> Var4;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0xE4E91039B15CA110(1))
+	while (iVar0 < unk_0xE8F73785A0FB2F57(1))
 	{
-		iVar1 = unk_0xCEDD7FE4546BFC4F(1, iVar0);
+		iVar1 = unk_0x6688A198308BEB5E(1, iVar0);
 		if (iVar1 == 168)
 		{
-			unk_0x0586E3C97DD61FE4(1, iVar0, &iVar2, 2);
+			unk_0xA961A8FBAD16D683(1, iVar0, &iVar2, 2);
 			switch (iVar2)
 			{
-				case 313:
+				case 315:
 					func_14(iVar0);
 					break;
 				
 				case 2:
-					unk_0x0586E3C97DD61FE4(1, iVar0, &Var4, 3);
+					unk_0xA961A8FBAD16D683(1, iVar0, &Var4, 3);
 					if (Var4.f_2 == 55)
 					{
 						*uParam0 = 1;
@@ -20597,25 +20637,25 @@ void func_14(int iParam0)
 	var uVar4;
 	bool bVar5;
 	
-	if (unk_0x0586E3C97DD61FE4(1, iParam0, &Var0, 3))
+	if (unk_0xA961A8FBAD16D683(1, iParam0, &Var0, 3))
 	{
 		if (func_16(Var0.f_1, 1, 1))
 		{
-			uVar3 = unk_0x91B73D905EA38F6B(Var0.f_1);
-			if (unk_0xD51CFE69539DB6D8(uVar3))
+			uVar3 = unk_0xF555CE342BA0C333(Var0.f_1);
+			if (unk_0x1F2158D615BC4B25(uVar3))
 			{
-				if (unk_0x51374A0BB2871E6E(uVar3, 0))
+				if (unk_0xB42592B9FFEB5EDE(uVar3, 0))
 				{
-					uVar4 = unk_0xF0295FF51F2D7803(uVar3, 0);
-					if (unk_0x7DF549E9DDE0A2CE(uVar4, Var0.f_2) && unk_0x0D47370227E1A847())
+					uVar4 = unk_0xF8D66A34AF0C53A5(uVar3, 0);
+					if (unk_0x8F41BA1B6610A17B(uVar4, Var0.f_2) && unk_0xCD9901F3C995D4B9())
 					{
 						if (func_15(uVar4, &bVar5))
 						{
-							unk_0x2C47D40CD2967A44(uVar4, Var0.f_2);
+							unk_0x8534CE5144691854(uVar4, Var0.f_2);
 						}
 						if (bVar5)
 						{
-							unk_0xC1F2137782A816E9(&uVar4);
+							unk_0xB84D4C251623B60C(&uVar4);
 						}
 					}
 				}
@@ -20626,19 +20666,19 @@ void func_14(int iParam0)
 
 int func_15(var uParam0, var uParam1)
 {
-	if (unk_0xD51CFE69539DB6D8(uParam0))
+	if (unk_0x1F2158D615BC4B25(uParam0))
 	{
-		if (!unk_0x28D33422BA6C479D(uParam0))
+		if (!unk_0x335346A332B62CA2(uParam0))
 		{
-			if (unk_0x4F9572356C55E94C(uParam0))
+			if (unk_0xA203F67D4FCA77C8(uParam0))
 			{
-				unk_0x20BB4B94CC6DDC9A(uParam0, 0, 1);
+				unk_0x8D429A827A931AC9(uParam0, 0, 1);
 				*uParam1 = 1;
 			}
 		}
-		if (unk_0x4C5CA989AEF3A14C(uParam0, 0))
+		if (unk_0x95CBA891BCA778AA(uParam0, 0))
 		{
-			if (unk_0x9B5F286CC8377932(uParam0))
+			if (unk_0xE8BD4B74271ABDCC(uParam0))
 			{
 				return 1;
 			}
@@ -20652,11 +20692,11 @@ int func_16(var uParam0, bool bParam1, bool bParam2)
 	int iVar0;
 	
 	iVar0 = uParam0;
-	if (unk_0xD18C3CF631455087(uParam0))
+	if (unk_0x860CE5C791DC28F5(uParam0))
 	{
 		if (bParam1)
 		{
-			if (!unk_0x2E6D4A0CE8AD9494(uParam0))
+			if (!unk_0x6DF20EAB8093DF19(uParam0))
 			{
 				return 0;
 			}
