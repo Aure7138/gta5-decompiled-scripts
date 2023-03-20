@@ -14398,21 +14398,24 @@ void func_246(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam4
 {
 	int iVar0;
 	
-	if (bParam4)
+	if (iParam0 > 0)
 	{
-		if (func_73())
+		if (bParam4)
 		{
-			func_66(68030260, iParam0, &iVar0, 1, 1);
-			Global_2539058[iVar0 /*68*/].f_8 = Global_2097152[func_125() /*8053*/][iParam1 /*111*/].f_42;
+			if (func_73())
+			{
+				func_66(68030260, iParam0, &iVar0, 1, 1);
+				Global_2539058[iVar0 /*68*/].f_8 = Global_2097152[func_125() /*8053*/][iParam1 /*111*/].f_42;
+			}
+			else
+			{
+				unk_0xF0077C797F66A355(iParam0, Global_2097152[func_125() /*8053*/][iParam1 /*111*/].f_42, 9, 1, true, 0, 0, 0, 0, true);
+			}
 		}
 		else
 		{
 			unk_0xF0077C797F66A355(iParam0, Global_2097152[func_125() /*8053*/][iParam1 /*111*/].f_42, 9, 1, true, 0, 0, 0, 0, true);
 		}
-	}
-	else
-	{
-		unk_0xF0077C797F66A355(iParam0, Global_2097152[func_125() /*8053*/][iParam1 /*111*/].f_42, 9, 1, true, 0, 0, 0, 0, true);
 	}
 	func_1(Local_155.f_1, "CT_AUD", "MPCT_MoGen1", &Local_685);
 	Global_2097152[func_125() /*8053*/][iParam1 /*111*/].f_74 = 0;

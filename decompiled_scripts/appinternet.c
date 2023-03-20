@@ -39041,6 +39041,7 @@ void func_350(int iParam0, int iParam1, int iParam2)
 			{
 				iLocal_2683 = -1;
 				iLocal_2686 = -1;
+				iLocal_2684 = -1;
 				bVar61 = false;
 				if (iVar53 == 164)
 				{
@@ -76104,6 +76105,7 @@ int func_643(int iParam0, int iParam1)
 					unk_0xEA386986E786A54F(&iVar0);
 					unk_0xE532F5D78798DAAB(Local_2610.f_42);
 					iLocal_2683 = -1;
+					iLocal_2684 = -1;
 					return 0;
 					break;
 				
@@ -76237,6 +76239,7 @@ int func_643(int iParam0, int iParam1)
 	unk_0xE532F5D78798DAAB(Local_2610.f_42);
 	iLocal_2686 = iLocal_2683;
 	iLocal_2683 = -1;
+	iLocal_2684 = -1;
 	return 1;
 }
 

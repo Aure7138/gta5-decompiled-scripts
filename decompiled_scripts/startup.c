@@ -95,7 +95,7 @@ void __EntryFunction__()
 	unk_0xEE6C5AD3ECE0A82D("prologue_LODLights");
 	iLocal_55 = 0;
 	bVar0 = func_30();
-	if (unk_0xA049A5BE0F04F2F8())
+	if (unk_0xA049A5BE0F04F2F8() || unk_0x3BBBD13E5041A79E())
 	{
 		bVar0 = false;
 	}

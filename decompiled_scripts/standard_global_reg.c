@@ -302,7 +302,7 @@ void __EntryFunction__()
 	}
 	func_1();
 	unk_0x4EDE34FBADD967A6(0);
-	if (!unk_0xA049A5BE0F04F2F8())
+	if (!unk_0xA049A5BE0F04F2F8() && !unk_0x3BBBD13E5041A79E())
 	{
 		func_75("main_persistent", 1424);
 		unk_0x67AA4D73F0CFA86B(1);
