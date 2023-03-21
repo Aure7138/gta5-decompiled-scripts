@@ -33,9 +33,9 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
-	if (!unk_0x3AB6A1A9084FB0A4(unk_0xFC1458A37D98B502()))
+	if (!unk_0x36CEFBE9B745A58D(unk_0xBC25C936A095B5BA()))
 	{
-		unk_0x1A0806871323CD16(unk_0xFC1458A37D98B502(), 1);
+		unk_0x1E5C2A1EAB944289(unk_0xBC25C936A095B5BA(), 1);
 	}
 	while (true)
 	{
