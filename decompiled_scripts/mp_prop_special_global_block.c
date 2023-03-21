@@ -30,7 +30,7 @@ void __EntryFunction__()
 	Global_3934111 = 1;
 	Global_3934112 = 1;
 	Global_4008468 = -1;
-	unk_0x5341E3E598550C46();
+	unk_0x84CFE9237092E41B();
 	func_16();
 	iVar0 = 0;
 	while (iVar0 < 36)
@@ -140,7 +140,7 @@ void func_3(int iParam0, int iParam1, var uParam2, bool bParam3)
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_4(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_4(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0x2F230B37E9FFF23F(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0xCD1EDCB38767B47C(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -495,7 +495,7 @@ struct<6> func_5(var uParam0, int iParam1)
 	{
 		iVar23 = 1;
 	}
-	if (iVar23 && unk_0x8024DD8F8A7C2282(&Var0, &(Var0.f_3), uParam0, uVar6))
+	if (iVar23 && unk_0x846C30837F025C5D(&Var0, &(Var0.f_3), uParam0, uVar6))
 	{
 		return Var0;
 	}
@@ -1334,7 +1334,7 @@ void func_10(int iParam0, int iParam1, var uParam2, int iParam3, bool bParam4)
 	Var13 = { *uParam2 - Var0[0 /*6*/] };
 	Var13 = { func_4(Var13, -Var0[0 /*6*/].f_3.f_2) };
 	Var13 = { func_4(Var13, Var0[1 /*6*/].f_3.f_2) };
-	*uParam2 = { unk_0x2F230B37E9FFF23F(Var0[1 /*6*/], 0f, Var13) };
+	*uParam2 = { unk_0xCD1EDCB38767B47C(Var0[1 /*6*/], 0f, Var13) };
 	switch (iParam1)
 	{
 		case 6:
@@ -2676,7 +2676,7 @@ void func_14(struct<4> Param0, var uParam4, var uParam5, struct<6> Param6, struc
 	Var0 = { *uParam18 - Param0 };
 	Var0 = { func_4(Var0, -Param0.f_3.f_2) };
 	Var0 = { func_4(Var0, Param12.f_3.f_2) };
-	*uParam18 = { unk_0x2F230B37E9FFF23F(Param12, 0f, Var0) };
+	*uParam18 = { unk_0xCD1EDCB38767B47C(Param12, 0f, Var0) };
 	if (!func_15(Param12.f_3, Param0.f_3, 0))
 	{
 		while (Param0.f_3.f_2 > 180f)
