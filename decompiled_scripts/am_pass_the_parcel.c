@@ -96467,7 +96467,7 @@ int func_773(int iParam0)
 	}
 	else if (iParam0 < 271)
 	{
-		return ((25539 + iParam0) - 261);
+		return (25539 + ((iParam0 - 261) * iVar0));
 	}
 	return 0;
 }
