@@ -96,6 +96,8 @@
 	var uLocal_94 = 0;
 	var uLocal_95 = 0;
 	var uLocal_96 = 0;
+	var uLocal_97 = 0;
+	var uLocal_98 = 0;
 #endregion
 
 void __EntryFunction__()

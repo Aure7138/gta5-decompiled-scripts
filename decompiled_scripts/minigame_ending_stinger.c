@@ -38,36 +38,36 @@ void __EntryFunction__()
 	iLocal_17 = -1;
 	iVar0 = -1;
 	bVar1 = false;
-	if (unk_0x9EC5BDC006623C42(3))
+	if (unk_0xD4BE58A7E3E102AC(3))
 	{
-		func_4();
+		func_5();
 	}
 	while (true)
 	{
 		if (!bVar1)
 		{
-			switch (func_1(unk_0x33CD235DF1E6A94E()))
+			switch (func_1(unk_0x0FA8183DAD2B3203()))
 			{
 				case 1:
-					if (unk_0xEABEE41AE38D3281("MISSION_COMPLETE_FRANKLIN_SMALL", 0))
+					if (unk_0x711CB1B03E023C5A("MISSION_COMPLETE_FRANKLIN_SMALL", 0))
 					{
-						unk_0x67EB575EFCCB9AD1();
+						unk_0x106A7F3631B328A2();
 						bVar1 = true;
 					}
 					break;
 				
 				case 2:
-					if (unk_0xEABEE41AE38D3281("MISSION_COMPLETE_TREVOR_SMALL", 0))
+					if (unk_0x711CB1B03E023C5A("MISSION_COMPLETE_TREVOR_SMALL", 0))
 					{
-						unk_0x67EB575EFCCB9AD1();
+						unk_0x106A7F3631B328A2();
 						bVar1 = true;
 					}
 					break;
 				
 				default:
-					if (unk_0xEABEE41AE38D3281("MISSION_COMPLETE_MICHAEL_SMALL", 0))
+					if (unk_0x711CB1B03E023C5A("MISSION_COMPLETE_MICHAEL_SMALL", 0))
 					{
-						unk_0x67EB575EFCCB9AD1();
+						unk_0x106A7F3631B328A2();
 						bVar1 = true;
 					}
 					break;
@@ -75,11 +75,11 @@ void __EntryFunction__()
 		}
 		else if (iVar0 == -1)
 		{
-			iVar0 = unk_0xE3903F59E2F22150();
+			iVar0 = unk_0x9B35D07DCD0F0B43();
 		}
-		else if (unk_0xE3903F59E2F22150() > iVar0 + 8000)
+		else if (unk_0x9B35D07DCD0F0B43() > iVar0 + 8000)
 		{
-			func_4();
+			func_5();
 		}
 		unk_0x4EDE34FBADD967A6(0);
 	}
@@ -90,9 +90,9 @@ int func_1(var uParam0)
 	int iVar0;
 	int iVar1;
 	
-	if (unk_0x765F6FEEFF39224F(uParam0))
+	if (unk_0xD4B321D9096B01FC(uParam0))
 	{
-		iVar1 = unk_0x541D5C57194E73C4(uParam0);
+		iVar1 = unk_0x7F375072508F738F(uParam0);
 		iVar0 = 0;
 		while (iVar0 <= 2)
 		{
@@ -108,9 +108,9 @@ int func_1(var uParam0)
 
 int func_2(int iParam0)
 {
-	if (func_3(iParam0))
+	if (func_4(iParam0))
 	{
-		return Global_106565.f_28044[iParam0 /*29*/];
+		return func_3(iParam0);
 	}
 	else if (iParam0 != 145)
 	{
@@ -118,14 +118,19 @@ int func_2(int iParam0)
 	return 0;
 }
 
-bool func_3(int iParam0)
+var func_3(int iParam0)
+{
+	return Global_1798[iParam0 /*29*/];
+}
+
+bool func_4(int iParam0)
 {
 	return iParam0 < 3;
 }
 
-void func_4()
+void func_5()
 {
-	unk_0x151D1B83673FCE66();
-	unk_0x5894DC159447E10A();
+	unk_0x6D9FD3E40D3CE7F9();
+	unk_0x9C9E32388A7886A2();
 }
 

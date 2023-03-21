@@ -149,14 +149,14 @@ void func_2()
 	var uVar5;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0x77BABFD1D75AA582(2))
+	while (iVar0 < unk_0xEC6B468B6F580489(2))
 	{
-		iVar1 = unk_0x5487531DB7DA4AB5(2, iVar0);
+		iVar1 = unk_0x87C4D2EB1080B8EA(2, iVar0);
 		if (func_10(iVar1))
 		{
 			func_9(&Var2);
 			func_8(2, iVar0, iVar1, &Var2);
-			Var2.f_1 = (unk_0xE77FA521699F639C() - 1);
+			Var2.f_1 = (unk_0xB3EE417AD9F0CAA2() - 1);
 			Var2.f_0 = iVar1;
 			if (!func_7(&Var2, &uVar5))
 			{
@@ -173,28 +173,28 @@ void func_3(int iParam0)
 	int iVar0;
 	
 	iVar0 = *iParam0;
-	if (((func_5() && func_4(iVar0)) && iVar0 != 237) && unk_0x303CD9CB61BCEC23())
+	if (((func_5() && func_4(iVar0)) && iVar0 != 240) && unk_0x59E27912657592E4())
 	{
-		unk_0xDB03EC449C340E55(0, 1, 0);
+		unk_0x7C4613A698EBA88E(0, 1, 0);
 	}
 }
 
 bool func_4(int iParam0)
 {
-	return (((iParam0 == 238 || iParam0 == 239) || iParam0 == 240) || iParam0 == 237);
+	return (((iParam0 == 241 || iParam0 == 242) || iParam0 == 243) || iParam0 == 240);
 }
 
 bool func_5()
 {
-	return Global_1589819[unk_0x95B959F18401C09A() /*818*/].f_196 != 0;
+	return Global_1590446[unk_0x7C7787D2D7139A85() /*871*/].f_196 != 0;
 }
 
 int func_6(int iParam0)
 {
-	if (Global_26039.f_61 < 20)
+	if (Global_31010.f_61 < 20)
 	{
-		Global_26039[Global_26039.f_61 /*3*/] = { *iParam0 };
-		Global_26039.f_61++;
+		Global_31010[Global_31010.f_61 /*3*/] = { *iParam0 };
+		Global_31010.f_61++;
 		return 1;
 	}
 	return 0;
@@ -204,9 +204,9 @@ int func_7(int iParam0, var uParam1)
 {
 	*uParam1 = 0;
 	*uParam1 = 0;
-	while (*uParam1 < Global_26039.f_61)
+	while (*uParam1 < Global_31010.f_61)
 	{
-		if (Global_26039[*uParam1 /*3*/] == *iParam0 && Global_26039[*uParam1 /*3*/].f_2 == iParam0->f_2)
+		if (Global_31010[*uParam1 /*3*/] == *iParam0 && Global_31010[*uParam1 /*3*/].f_2 == iParam0->f_2)
 		{
 			return 1;
 		}
@@ -219,9 +219,9 @@ void func_8(int iParam0, int iParam1, int iParam2, var uParam3)
 {
 	var uVar0;
 	
-	if (((iParam2 == 237 || iParam2 == 238) || iParam2 == 239) || iParam2 == 240)
+	if (((iParam2 == 240 || iParam2 == 241) || iParam2 == 242) || iParam2 == 243)
 	{
-		if (unk_0x286A5F0670063839(iParam0, iParam1, &uVar0, 1))
+		if (unk_0x3C1EC42A2CC175C5(iParam0, iParam1, &uVar0, 1))
 		{
 			uParam3->f_2 = uVar0;
 		}
@@ -247,6 +247,6 @@ int func_11()
 
 void func_12()
 {
-	unk_0x84CFE9237092E41B();
+	unk_0x0A2FDF6E490B25B3();
 }
 
