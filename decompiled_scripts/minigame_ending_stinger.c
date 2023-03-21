@@ -38,7 +38,7 @@ void __EntryFunction__()
 	iLocal_17 = -1;
 	iVar0 = -1;
 	bVar1 = false;
-	if (unk_0x2170E7BC25114A22(3))
+	if (unk_0xBCA819F9975BEDFA(3))
 	{
 		func_4();
 	}
@@ -46,28 +46,28 @@ void __EntryFunction__()
 	{
 		if (!bVar1)
 		{
-			switch (func_1(unk_0xD5A676B97920D126()))
+			switch (func_1(unk_0x17B5CC8A8615737D()))
 			{
 				case 1:
-					if (unk_0x7E1E27ABD1B4A085("MISSION_COMPLETE_FRANKLIN_SMALL", 0))
+					if (unk_0xAA18627F95EFB68D("MISSION_COMPLETE_FRANKLIN_SMALL", 0))
 					{
-						unk_0x37F90B5A49E5AE6C();
+						unk_0x49219669A551245B();
 						bVar1 = true;
 					}
 					break;
 				
 				case 2:
-					if (unk_0x7E1E27ABD1B4A085("MISSION_COMPLETE_TREVOR_SMALL", 0))
+					if (unk_0xAA18627F95EFB68D("MISSION_COMPLETE_TREVOR_SMALL", 0))
 					{
-						unk_0x37F90B5A49E5AE6C();
+						unk_0x49219669A551245B();
 						bVar1 = true;
 					}
 					break;
 				
 				default:
-					if (unk_0x7E1E27ABD1B4A085("MISSION_COMPLETE_MICHAEL_SMALL", 0))
+					if (unk_0xAA18627F95EFB68D("MISSION_COMPLETE_MICHAEL_SMALL", 0))
 					{
-						unk_0x37F90B5A49E5AE6C();
+						unk_0x49219669A551245B();
 						bVar1 = true;
 					}
 					break;
@@ -75,9 +75,9 @@ void __EntryFunction__()
 		}
 		else if (iVar0 == -1)
 		{
-			iVar0 = unk_0x84A97C70FFDEC0C8();
+			iVar0 = unk_0x94E3E074F38DF86C();
 		}
-		else if (unk_0x84A97C70FFDEC0C8() > iVar0 + 8000)
+		else if (unk_0x94E3E074F38DF86C() > iVar0 + 8000)
 		{
 			func_4();
 		}
@@ -90,9 +90,9 @@ int func_1(var uParam0)
 	int iVar0;
 	int iVar1;
 	
-	if (unk_0x7887B64A08364778(uParam0))
+	if (unk_0x23E9113C762466ED(uParam0))
 	{
-		iVar1 = unk_0xA0A4DA31DEDFAC4F(uParam0);
+		iVar1 = unk_0x0324EEB10F81965F(uParam0);
 		iVar0 = 0;
 		while (iVar0 <= 2)
 		{
@@ -110,7 +110,7 @@ int func_2(int iParam0)
 {
 	if (func_3(iParam0))
 	{
-		return Global_101652.f_26993[iParam0 /*29*/];
+		return Global_101700.f_27009[iParam0 /*29*/];
 	}
 	else if (iParam0 != 145)
 	{
@@ -125,7 +125,7 @@ bool func_3(int iParam0)
 
 void func_4()
 {
-	unk_0xC17C32A68EE07C84();
-	unk_0x01DFCA3621B68C4A();
+	unk_0x4C21FD297A827B45();
+	unk_0x921053BAF754303D();
 }
 
