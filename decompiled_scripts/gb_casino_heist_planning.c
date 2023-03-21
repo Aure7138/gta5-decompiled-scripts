@@ -30660,7 +30660,7 @@ Vector3 func_840()
 
 int func_841(int iParam0)
 {
-	if (Global_262145.f_33902 == -1)
+	if (Global_262145.f_33903 == -1)
 	{
 		return 0;
 	}

@@ -9737,7 +9737,7 @@ void func_295(var uParam0, int iParam1, int iParam2)
 
 int func_296(int iParam0)
 {
-	if (Global_262145.f_33902 == -1)
+	if (Global_262145.f_33903 == -1)
 	{
 		return 0;
 	}

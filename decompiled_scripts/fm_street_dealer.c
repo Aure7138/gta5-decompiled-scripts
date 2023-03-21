@@ -10504,7 +10504,7 @@ float func_277()
 
 int func_278(int iParam0)
 {
-	if (!Global_262145.f_34062)
+	if (!Global_262145.f_34063)
 	{
 		return 0;
 	}

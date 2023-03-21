@@ -19141,43 +19141,43 @@ int func_284(int iParam0, int iParam1)
 				switch (iParam1)
 				{
 					case joaat("component_knife_varmod_xm3"):
-						iVar0 = Global_262145.f_34096;
-						break;
-					
-					case joaat("component_knife_varmod_xm3_01"):
-						iVar0 = Global_262145.f_34100;
-						break;
-					
-					case joaat("component_knife_varmod_xm3_02"):
 						iVar0 = Global_262145.f_34097;
 						break;
 					
-					case joaat("component_knife_varmod_xm3_03"):
-						iVar0 = Global_262145.f_34098;
-						break;
-					
-					case joaat("component_knife_varmod_xm3_04"):
+					case joaat("component_knife_varmod_xm3_01"):
 						iVar0 = Global_262145.f_34101;
 						break;
 					
-					case joaat("component_knife_varmod_xm3_05"):
+					case joaat("component_knife_varmod_xm3_02"):
+						iVar0 = Global_262145.f_34098;
+						break;
+					
+					case joaat("component_knife_varmod_xm3_03"):
 						iVar0 = Global_262145.f_34099;
 						break;
 					
-					case joaat("component_knife_varmod_xm3_06"):
-						iVar0 = Global_262145.f_34103;
-						break;
-					
-					case joaat("component_knife_varmod_xm3_07"):
+					case joaat("component_knife_varmod_xm3_04"):
 						iVar0 = Global_262145.f_34102;
 						break;
 					
-					case joaat("component_knife_varmod_xm3_08"):
+					case joaat("component_knife_varmod_xm3_05"):
+						iVar0 = Global_262145.f_34100;
+						break;
+					
+					case joaat("component_knife_varmod_xm3_06"):
 						iVar0 = Global_262145.f_34104;
 						break;
 					
-					case joaat("component_knife_varmod_xm3_09"):
+					case joaat("component_knife_varmod_xm3_07"):
+						iVar0 = Global_262145.f_34103;
+						break;
+					
+					case joaat("component_knife_varmod_xm3_08"):
 						iVar0 = Global_262145.f_34105;
+						break;
+					
+					case joaat("component_knife_varmod_xm3_09"):
+						iVar0 = Global_262145.f_34106;
 						break;
 				}
 				break;
@@ -19186,43 +19186,43 @@ int func_284(int iParam0, int iParam1)
 				switch (iParam1)
 				{
 					case joaat("component_bat_varmod_xm3"):
-						iVar0 = Global_262145.f_34086;
-						break;
-					
-					case joaat("component_bat_varmod_xm3_01"):
 						iVar0 = Global_262145.f_34087;
 						break;
 					
-					case joaat("component_bat_varmod_xm3_02"):
-						iVar0 = Global_262145.f_34089;
+					case joaat("component_bat_varmod_xm3_01"):
+						iVar0 = Global_262145.f_34088;
 						break;
 					
-					case joaat("component_bat_varmod_xm3_03"):
+					case joaat("component_bat_varmod_xm3_02"):
 						iVar0 = Global_262145.f_34090;
 						break;
 					
-					case joaat("component_bat_varmod_xm3_04"):
+					case joaat("component_bat_varmod_xm3_03"):
 						iVar0 = Global_262145.f_34091;
 						break;
 					
-					case joaat("component_bat_varmod_xm3_05"):
+					case joaat("component_bat_varmod_xm3_04"):
 						iVar0 = Global_262145.f_34092;
 						break;
 					
-					case joaat("component_bat_varmod_xm3_06"):
+					case joaat("component_bat_varmod_xm3_05"):
 						iVar0 = Global_262145.f_34093;
 						break;
 					
-					case joaat("component_bat_varmod_xm3_07"):
+					case joaat("component_bat_varmod_xm3_06"):
 						iVar0 = Global_262145.f_34094;
 						break;
 					
-					case joaat("component_bat_varmod_xm3_08"):
+					case joaat("component_bat_varmod_xm3_07"):
 						iVar0 = Global_262145.f_34095;
 						break;
 					
+					case joaat("component_bat_varmod_xm3_08"):
+						iVar0 = Global_262145.f_34096;
+						break;
+					
 					case joaat("component_bat_varmod_xm3_09"):
-						iVar0 = Global_262145.f_34088;
+						iVar0 = Global_262145.f_34089;
 						break;
 				}
 				break;
@@ -19235,7 +19235,7 @@ int func_284(int iParam0, int iParam1)
 						break;
 					
 					case joaat("component_pistolxm3_supp"):
-						iVar0 = Global_262145.f_34069;
+						iVar0 = Global_262145.f_34070;
 						break;
 				}
 				break;

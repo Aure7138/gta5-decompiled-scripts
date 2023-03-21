@@ -14748,7 +14748,7 @@ int func_306(int iParam0, int iParam1, int iParam2)
 			return func_308(iParam1, iParam2);
 		
 		case 304:
-			if (Global_262145.f_34060)
+			if (Global_262145.f_34061)
 			{
 				if (func_23(iParam2) && func_307(iParam2) > 0)
 				{

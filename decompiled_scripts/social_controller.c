@@ -4794,12 +4794,12 @@ int func_133(int iParam0, int iParam1)
 			}
 			return iVar3;
 		}
-		if (Global_297010[iVar3] == iParam0)
+		if (Global_297011[iVar3] == iParam0)
 		{
 			iVar1 = iVar3;
 			iVar2 = iVar3;
 		}
-		else if (Global_297010[iVar3] < iParam0)
+		else if (Global_297011[iVar3] < iParam0)
 		{
 			if (iVar2 == iVar3)
 			{
@@ -5438,7 +5438,7 @@ int func_149(int iParam0, bool bParam1, int iParam2)
 	{
 		iParam0 = 8000;
 	}
-	return Global_297010[iParam0];
+	return Global_297011[iParam0];
 }
 
 int func_150()
@@ -31549,11 +31549,21 @@ int func_429(int iParam0)
 
 int func_430(int iParam0)
 {
+	bool bVar0;
+	
 	if (iParam0 == joaat("oppressor2"))
 	{
 		return 0;
 	}
-	if ((!func_431(unk_0x259BE71D8A81D4FA()) && iParam0 != joaat("thruster")) && iParam0 != joaat("avenger"))
+	bVar0 = false;
+	if ((iParam0 == joaat("riot2") || iParam0 == joaat("chernobog")) || iParam0 == joaat("khanjali"))
+	{
+		if (!Global_262145.f_33899)
+		{
+			bVar0 = true;
+		}
+	}
+	if (((!func_431(unk_0x259BE71D8A81D4FA()) && iParam0 != joaat("thruster")) && iParam0 != joaat("avenger")) && !bVar0)
 	{
 		return 0;
 	}
@@ -40799,7 +40809,7 @@ int func_497(int iParam0, int iParam1, int iParam2, int iParam3)
 		{
 			return (iVar0 + iParam1);
 		}
-		iVar0 += 4;
+		iVar0 = (iVar0 + 4);
 		if (((iParam3 == 39 && iParam2 == 0) && iParam1 >= 1) && iParam1 <= 3)
 		{
 			return (iVar0 + iParam1);

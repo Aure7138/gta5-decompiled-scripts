@@ -47290,119 +47290,119 @@ int func_457(int iParam0, int iParam1)
 	}
 	else if (iParam0 == joaat("manchez3"))
 	{
-		if (!Global_262145.f_33962 && iVar1 < Global_262145.f_33946)
+		if (!Global_262145.f_33963 && iVar1 < Global_262145.f_33947)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("brickade2"))
 	{
-		if (!Global_262145.f_33962 && iVar1 < Global_262145.f_33946)
+		if (!Global_262145.f_33963 && iVar1 < Global_262145.f_33947)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("eudora"))
 	{
-		if (!Global_262145.f_33971 && iVar1 < Global_262145.f_33954)
+		if (!Global_262145.f_33972 && iVar1 < Global_262145.f_33955)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("powersurge"))
 	{
-		if (!Global_262145.f_33965 && iVar1 < Global_262145.f_33949)
+		if (!Global_262145.f_33966 && iVar1 < Global_262145.f_33950)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("journey2"))
 	{
-		if (!Global_262145.f_33959 && iVar1 < Global_262145.f_33943)
+		if (!Global_262145.f_33960 && iVar1 < Global_262145.f_33944)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("surfer3"))
 	{
-		if (!Global_262145.f_33960 && iVar1 < Global_262145.f_33944)
+		if (!Global_262145.f_33961 && iVar1 < Global_262145.f_33945)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("entity3"))
 	{
-		if (!Global_262145.f_33957 && iVar1 < Global_262145.f_33941)
+		if (!Global_262145.f_33958 && iVar1 < Global_262145.f_33942)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("panthere"))
 	{
-		if (!Global_262145.f_33968 && iVar1 < Global_262145.f_33952)
+		if (!Global_262145.f_33969 && iVar1 < Global_262145.f_33953)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("boor"))
 	{
-		if (!Global_262145.f_33972 && iVar1 < Global_262145.f_33956)
+		if (!Global_262145.f_33973 && iVar1 < Global_262145.f_33957)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("everon2"))
 	{
-		if (!Global_262145.f_33969 && iVar1 < Global_262145.f_33953)
+		if (!Global_262145.f_33970 && iVar1 < Global_262145.f_33954)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("tulip2"))
 	{
-		if (!Global_262145.f_33958 && iVar1 < Global_262145.f_33942)
+		if (!Global_262145.f_33959 && iVar1 < Global_262145.f_33943)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("r300"))
 	{
-		if (!Global_262145.f_33961 && iVar1 < Global_262145.f_33945)
+		if (!Global_262145.f_33962 && iVar1 < Global_262145.f_33946)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("virtue"))
 	{
-		if (!Global_262145.f_33970 && iVar1 < Global_262145.f_33955)
+		if (!Global_262145.f_33971 && iVar1 < Global_262145.f_33956)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("issi8"))
 	{
-		if (!Global_262145.f_33966 && iVar1 < Global_262145.f_33950)
+		if (!Global_262145.f_33967 && iVar1 < Global_262145.f_33951)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("broadway"))
 	{
-		if (!Global_262145.f_33967 && iVar1 < Global_262145.f_33951)
+		if (!Global_262145.f_33968 && iVar1 < Global_262145.f_33952)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("tahoma"))
 	{
-		if (!Global_262145.f_33964 && iVar1 < Global_262145.f_33948)
+		if (!Global_262145.f_33965 && iVar1 < Global_262145.f_33949)
 		{
 			iVar0 = 0;
 		}
 	}
 	else if (iParam0 == joaat("taxi"))
 	{
-		if (!Global_262145.f_33963 && iVar1 < Global_262145.f_33947)
+		if (!Global_262145.f_33964 && iVar1 < Global_262145.f_33948)
 		{
 			iVar0 = 0;
 		}

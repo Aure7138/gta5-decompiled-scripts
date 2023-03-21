@@ -58993,11 +58993,21 @@ int func_529(int iParam0)
 
 int func_530(int iParam0)
 {
+	bool bVar0;
+	
 	if (iParam0 == joaat("oppressor2"))
 	{
 		return 0;
 	}
-	if ((!func_531(unk_0x259BE71D8A81D4FA()) && iParam0 != joaat("thruster")) && iParam0 != joaat("avenger"))
+	bVar0 = false;
+	if ((iParam0 == joaat("riot2") || iParam0 == joaat("chernobog")) || iParam0 == joaat("khanjali"))
+	{
+		if (!Global_262145.f_33899)
+		{
+			bVar0 = true;
+		}
+	}
+	if (((!func_531(unk_0x259BE71D8A81D4FA()) && iParam0 != joaat("thruster")) && iParam0 != joaat("avenger")) && !bVar0)
 	{
 		return 0;
 	}
