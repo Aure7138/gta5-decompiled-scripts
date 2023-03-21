@@ -1,5 +1,5 @@
 void __EntryFunction__()
 {
-	Global_979885 = -1;
+	Global_979886 = -1;
 }
 

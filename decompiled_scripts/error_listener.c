@@ -26,10 +26,14 @@ void __EntryFunction__()
 	iLocal_10 = 12;
 	iLocal_11 = 12;
 	func_10();
-	while (!func_9())
+	while (true)
 	{
-		func_1();
 		unk_0x4EDE34FBADD967A6(0);
+		if (func_9())
+		{
+			return;
+		}
+		func_1();
 	}
 }
 
@@ -46,14 +50,14 @@ void func_2()
 	var uVar5;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0x5B5D98FAAE6FEC3E(2))
+	while (iVar0 < unk_0xAAEEFEC091D0E30B(2))
 	{
-		iVar1 = unk_0xD8DDA9403FAEDB57(2, iVar0);
+		iVar1 = unk_0xA387B84DA2EB1BEE(2, iVar0);
 		if (func_7(iVar1))
 		{
 			func_6(&Var2);
 			func_5(2, iVar0, iVar1, &Var2);
-			Var2.f_1 = (unk_0x756DE011CEDBBD7E() - 1);
+			Var2.f_1 = (unk_0x4B64A8D052027742() - 1);
 			Var2.f_0 = iVar1;
 			if (!func_4(&Var2, &uVar5))
 			{
@@ -66,10 +70,10 @@ void func_2()
 
 int func_3(int iParam0)
 {
-	if (Global_25505.f_31 < 10)
+	if (Global_25507.f_31 < 10)
 	{
-		Global_25505[Global_25505.f_31 /*3*/] = { *iParam0 };
-		Global_25505.f_31++;
+		Global_25507[Global_25507.f_31 /*3*/] = { *iParam0 };
+		Global_25507.f_31++;
 		return 1;
 	}
 	return 0;
@@ -79,9 +83,9 @@ int func_4(int iParam0, var uParam1)
 {
 	*uParam1 = 0;
 	*uParam1 = 0;
-	while (*uParam1 < Global_25505.f_31)
+	while (*uParam1 < Global_25507.f_31)
 	{
-		if (Global_25505[*uParam1 /*3*/] == *iParam0 && Global_25505[*uParam1 /*3*/].f_2 == iParam0->f_2)
+		if (Global_25507[*uParam1 /*3*/] == *iParam0 && Global_25507[*uParam1 /*3*/].f_2 == iParam0->f_2)
 		{
 			return 1;
 		}
@@ -96,7 +100,7 @@ void func_5(int iParam0, int iParam1, int iParam2, var uParam3)
 	
 	if (((iParam2 == 236 || iParam2 == 237) || iParam2 == 238) || iParam2 == 239)
 	{
-		if (unk_0xF6A7C6FEAD04F4B3(iParam0, iParam1, &uVar0, 1))
+		if (unk_0x575EF325DA5E3F04(iParam0, iParam1, &uVar0, 1))
 		{
 			uParam3->f_2 = uVar0;
 		}
@@ -127,6 +131,6 @@ int func_9()
 
 void func_10()
 {
-	unk_0xEE998050210A7287();
+	unk_0x252CDD3D0F299441();
 }
 

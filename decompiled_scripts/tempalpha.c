@@ -121,7 +121,7 @@ void __EntryFunction__()
 	iLocal_86 = 65;
 	iLocal_87 = 49;
 	iLocal_88 = 64;
-	uLocal_92 = unk_0x8FB19B229BCF8953();
-	uLocal_93 = unk_0x355073A98A8FF72A();
+	uLocal_92 = unk_0x5354F72E0D8D7E53();
+	uLocal_93 = unk_0x526A9A6B1B39C5F0();
 }
 
