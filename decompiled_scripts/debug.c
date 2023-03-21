@@ -96,25 +96,7 @@
 	float fLocal_94 = 0f;
 	var uLocal_95 = 0;
 	var uLocal_96 = 0;
-	float fLocal_97 = 0f;
-	float fLocal_98 = 0f;
-	float fLocal_99 = 0f;
-	float fLocal_100 = 0f;
-	float fLocal_101 = 0f;
-	var uLocal_102 = 0;
-	struct<3> Local_103 = { 0, 0, 0 } ;
-	float fLocal_106 = 0f;
-	struct<3> Local_107 = { 0, 0, 0 } ;
-	float fLocal_110 = 0f;
-	struct<3> Local_111 = { 0, 0, 0 } ;
-	float fLocal_114 = 0f;
-	var uLocal_115 = 0;
-	var uLocal_116 = 0;
-	var uLocal_117 = 0;
-	var uLocal_118 = 0;
-	var uLocal_119 = 0;
-	var uLocal_120 = 0;
-	var uLocal_121 = 0;
+	var uLocal_97 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -144,16 +126,5 @@ void __EntryFunction__()
 	iLocal_42 = 49;
 	iLocal_43 = 64;
 	fLocal_94 = ((0.05f + 0.275f) - 0.01f);
-	fLocal_97 = -0.05f;
-	fLocal_98 = 0.92f;
-	fLocal_99 = 1.94f;
-	fLocal_100 = 2.99f;
-	fLocal_101 = 3.7f;
-	Local_103 = { -0.4f, 0.96f, 0.85f };
-	fLocal_106 = 0.95f;
-	Local_107 = { 0f, 2f, 2.5f };
-	fLocal_110 = 1.75f;
-	Local_111 = { 0f, 0f, 120f };
-	fLocal_114 = 35.5f;
 }
 
