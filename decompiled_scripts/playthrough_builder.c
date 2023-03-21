@@ -1,8 +1,8 @@
 void __EntryFunction__()
 {
-	if (unk_0xBCA819F9975BEDFA(2))
+	if (unk_0x78BF2001491914AC(2))
 	{
-		unk_0x921053BAF754303D();
+		unk_0xA232817B0B36F2E5();
 	}
 }
 

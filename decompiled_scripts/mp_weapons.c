@@ -56,10 +56,10 @@
 	var uLocal_54 = 0;
 	var uLocal_55 = 0;
 	var uLocal_56 = 0;
-	var uLocal_57 = 10;
+	var uLocal_57 = 0;
 	var uLocal_58 = 0;
 	var uLocal_59 = 0;
-	var uLocal_60 = 0;
+	var uLocal_60 = 10;
 	var uLocal_61 = 0;
 	var uLocal_62 = 0;
 	var uLocal_63 = 0;
@@ -67,35 +67,38 @@
 	var uLocal_65 = 0;
 	var uLocal_66 = 0;
 	var uLocal_67 = 0;
-	var uLocal_68 = 2;
+	var uLocal_68 = 0;
 	var uLocal_69 = 0;
 	var uLocal_70 = 0;
-	var uLocal_71 = 8;
+	var uLocal_71 = 2;
 	var uLocal_72 = 0;
 	var uLocal_73 = 0;
-	var uLocal_74 = 0;
+	var uLocal_74 = 8;
 	var uLocal_75 = 0;
 	var uLocal_76 = 0;
 	var uLocal_77 = 0;
 	var uLocal_78 = 0;
 	var uLocal_79 = 0;
-	var uLocal_80 = 8;
+	var uLocal_80 = 0;
 	var uLocal_81 = 0;
 	var uLocal_82 = 0;
-	var uLocal_83 = 0;
+	var uLocal_83 = 8;
 	var uLocal_84 = 0;
 	var uLocal_85 = 0;
 	var uLocal_86 = 0;
 	var uLocal_87 = 0;
 	var uLocal_88 = 0;
 	var uLocal_89 = 0;
-	float fLocal_90 = 0f;
+	var uLocal_90 = 0;
 	var uLocal_91 = 0;
-	int iLocal_92 = 0;
-	int iLocal_93 = 0;
-	int iLocal_94[37] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-	var uLocal_132 = 0;
-	var uLocal_133 = 0;
+	var uLocal_92 = 0;
+	float fLocal_93 = 0f;
+	var uLocal_94 = 0;
+	int iLocal_95 = 0;
+	int iLocal_96 = 0;
+	int iLocal_97[43] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+	var uLocal_141 = 0;
+	var uLocal_142 = 0;
 	int iScriptParam_0 = 0;
 	var uScriptParam_1 = 0;
 	var uScriptParam_2 = 0;
@@ -136,34 +139,34 @@ void __EntryFunction__()
 	iLocal_41 = 65;
 	iLocal_42 = 49;
 	iLocal_43 = 64;
-	fLocal_90 = ((0.05f + 0.275f) - 0.01f);
-	iLocal_92 = 3;
-	iLocal_93 = 9;
-	if (func_139() == 2)
+	fLocal_93 = ((0.05f + 0.275f) - 0.01f);
+	iLocal_95 = 3;
+	iLocal_96 = 9;
+	if (func_146() == 2)
 	{
 		while (true)
 		{
 			unk_0x4EDE34FBADD967A6(0);
 		}
 	}
-	unk_0x9B4C6B445CDD4735(1);
-	unk_0x330AFE43E1483B3F();
+	unk_0xF33C8E3F709D2544(1);
+	unk_0x945226432ACF160F();
 	Global_1312434 = 1;
 	iVar0 = 0;
-	Global_1351542.f_281 = 1;
-	Global_1349106.f_1 = 0;
-	Global_1349106.f_3 = 0;
-	Global_1349106.f_5 = 0;
-	func_137(&Global_1351542);
-	func_136(&Global_1351542);
-	func_135(&Global_1351542);
-	func_131();
-	func_130(0, &Global_1351542);
-	unk_0x4ED9ECF3735CB826(7);
-	unk_0x4DDCE83D0BC7A695(337714004);
-	unk_0x4DDCE83D0BC7A695(-1884422346);
-	unk_0xE4791CD7B9058A39(0);
-	func_129();
+	Global_1349980.f_281 = 1;
+	Global_1347544.f_1 = 0;
+	Global_1347544.f_3 = 0;
+	Global_1347544.f_5 = 0;
+	func_144(&Global_1349980);
+	func_143(&Global_1349980);
+	func_142(&Global_1349980);
+	func_138();
+	func_137(0, &Global_1349980);
+	unk_0xFF4C3B41848CE5CD(7);
+	unk_0x23949161B04DFF2C(337714004);
+	unk_0x23949161B04DFF2C(-1884422346);
+	unk_0x707B059BF2BC5E03(0);
+	func_136();
 	iVar5 = 1;
 	switch (iScriptParam_0)
 	{
@@ -175,67 +178,67 @@ void __EntryFunction__()
 				{
 					if (iVar6 == 0)
 					{
-						if (unk_0x1773F603A948CF47())
+						if (unk_0x5ED24284E76B07A7())
 						{
-							unk_0x31838BEF2D32FDC7();
+							unk_0xE8175C53878315E2();
 							iVar6 = 1;
 						}
 					}
 				}
-				if (func_128(201))
+				if (func_135(201))
 				{
 					if (iVar5 == 0)
 					{
-						unk_0x4988C48537D1AE4F(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
-						Global_1349106.f_1 = 0;
-						Global_1349106.f_3 = 0;
+						unk_0x08BE237DBCD9CBD9(-1, "SELECT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
+						Global_1347544.f_1 = 0;
+						Global_1347544.f_3 = 0;
 						iVar5 = 1;
-						func_130(0, &Global_1351542);
-						func_136(&Global_1351542);
-						func_135(&Global_1351542);
-						func_127(&Global_1351542, &Global_1349106);
-						unk_0x2F805CDCE0F4A0A5("MENU_SHIFT_DEPTH");
-						unk_0xDF18CF55301CEB8B(1);
-						unk_0x44983883E630A945();
+						func_137(0, &Global_1349980);
+						func_143(&Global_1349980);
+						func_142(&Global_1349980);
+						func_134(&Global_1349980, &Global_1347544);
+						unk_0x6E49DBF6386AFC3C("MENU_SHIFT_DEPTH");
+						unk_0x4CECF13AF144A8F6(1);
+						unk_0x8123397DC676E794();
 					}
 				}
 				if (iVar5 == 0)
 				{
-					if (func_128(189) || func_128(190))
+					if (func_135(189) || func_135(190))
 					{
 						iVar0 = 1;
 					}
 				}
-				if (func_128(202))
+				if (func_135(202))
 				{
-					func_125();
+					func_132();
 					if (iVar5 == 1)
 					{
-						unk_0x2F805CDCE0F4A0A5("MENU_SHIFT_DEPTH");
-						unk_0xDF18CF55301CEB8B(-1);
-						unk_0x44983883E630A945();
-						unk_0x4988C48537D1AE4F(-1, "BACK", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
-						unk_0x33BA97D6CB5751AA(337714004);
-						unk_0xE4791CD7B9058A39(0);
-						func_136(&Global_1351542);
-						func_135(&Global_1351542);
-						func_130(-1, &Global_1351542);
+						unk_0x6E49DBF6386AFC3C("MENU_SHIFT_DEPTH");
+						unk_0x4CECF13AF144A8F6(-1);
+						unk_0x8123397DC676E794();
+						unk_0x08BE237DBCD9CBD9(-1, "BACK", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
+						unk_0x74B42EAFF204A87F(337714004);
+						unk_0x707B059BF2BC5E03(0);
+						func_143(&Global_1349980);
+						func_142(&Global_1349980);
+						func_137(-1, &Global_1349980);
 						iVar5 = 0;
 					}
 					else
 					{
-						unk_0x4988C48537D1AE4F(-1, "BACK", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
+						unk_0x08BE237DBCD9CBD9(-1, "BACK", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
 						iVar0 = 1;
-						unk_0x050E16506E4EAEA5();
+						unk_0xAE6D25D01717CC8C();
 					}
 				}
-				if (unk_0xFB2EB4DD1E47E375())
+				if (unk_0xDA25574280CAD6A0())
 				{
-					unk_0x5338427A44630605(&iVar2, &uVar3);
+					unk_0xEA4959D1DFCDC0E9(&iVar2, &uVar3);
 				}
-				if (unk_0x135117102851346E())
+				if (unk_0x0869A901858EAB73())
 				{
-					unk_0xA6AE0FB06ABB77D8(&uVar1, &iVar2, &uVar3);
+					unk_0x1E4A69055467EEBF(&uVar1, &iVar2, &uVar3);
 					iVar4 = iVar2 + 1000;
 					if (iVar4 >= 0)
 					{
@@ -243,19 +246,19 @@ void __EntryFunction__()
 						{
 							iVar4 = 8;
 						}
-						Global_1349106.f_1 = (iVar4 % 3);
-						Global_1349106.f_3 = (iVar4 / 3);
-						func_130(iVar4, &Global_1351542);
-						func_135(&Global_1351542);
+						Global_1347544.f_1 = (iVar4 % 3);
+						Global_1347544.f_3 = (iVar4 / 3);
+						func_137(iVar4, &Global_1349980);
+						func_142(&Global_1349980);
 					}
 				}
-				unk_0xA6AD245AF4469018("MPWeaponsCommon", 0);
-				unk_0xA6AD245AF4469018("MPWeaponsGang0", 0);
-				unk_0xA6AD245AF4469018("MPWeaponsGang1", 0);
-				func_9(&Global_1351542, &Global_1349106);
+				unk_0x91A9530585A5AF03("MPWeaponsCommon", 0);
+				unk_0x91A9530585A5AF03("MPWeaponsGang0", 0);
+				unk_0x91A9530585A5AF03("MPWeaponsGang1", 0);
+				func_9(&Global_1349980, &Global_1347544);
 				if (iVar5 == 1)
 				{
-					func_1(&Global_1351542, &Global_1349106, &uLocal_132);
+					func_1(&Global_1349980, &Global_1347544, &uLocal_141);
 				}
 			}
 			break;
@@ -269,10 +272,10 @@ void __EntryFunction__()
 		case 2:
 			break;
 	}
-	unk_0x050E16506E4EAEA5();
-	unk_0x9B4C6B445CDD4735(0);
+	unk_0xAE6D25D01717CC8C();
+	unk_0xF33C8E3F709D2544(0);
 	Global_1312434 = 0;
-	unk_0x4ED9ECF3735CB826(4);
+	unk_0xFF4C3B41848CE5CD(4);
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
@@ -289,67 +292,67 @@ void func_1(var uParam0, var uParam1, var uParam2)
 	{
 		iVar0 = 1;
 	}
-	if ((unk_0x79888727131C6854(2, 187) || func_6(187, &(Global_1353070.f_1027), 1)) && iVar0)
+	if ((unk_0x83F6A1E4E653AD75(2, 187) || func_6(187, &(Global_1351508.f_1060), 1)) && iVar0)
 	{
 		func_5(uParam2);
 		func_4(uParam2, 0, 0);
-		unk_0xEB79FECD9022AAF0(&(uParam0->f_285), 0);
+		unk_0xF6082E2ADA1C795B(&(uParam0->f_285), 0);
 	}
-	if ((unk_0x79888727131C6854(2, 188) || func_6(188, &(Global_1353070.f_1027), 1)) && iVar0)
+	if ((unk_0x83F6A1E4E653AD75(2, 188) || func_6(188, &(Global_1351508.f_1060), 1)) && iVar0)
 	{
 		func_5(uParam2);
 		func_4(uParam2, 0, 0);
-		unk_0xEB79FECD9022AAF0(&(uParam0->f_285), 1);
+		unk_0xF6082E2ADA1C795B(&(uParam0->f_285), 1);
 	}
-	if (((unk_0x79888727131C6854(2, 189) || unk_0x79888727131C6854(2, 241)) || func_6(189, &(Global_1353070.f_1027), 1)) && iVar0)
+	if (((unk_0x83F6A1E4E653AD75(2, 189) || unk_0x83F6A1E4E653AD75(2, 241)) || func_6(189, &(Global_1351508.f_1060), 1)) && iVar0)
 	{
 		func_5(uParam2);
 		func_4(uParam2, 0, 0);
-		unk_0xEB79FECD9022AAF0(&(uParam0->f_285), 2);
+		unk_0xF6082E2ADA1C795B(&(uParam0->f_285), 2);
 	}
-	if (((unk_0x79888727131C6854(2, 190) || unk_0x79888727131C6854(2, 242)) || func_6(190, &(Global_1353070.f_1027), 1)) && iVar0)
+	if (((unk_0x83F6A1E4E653AD75(2, 190) || unk_0x83F6A1E4E653AD75(2, 242)) || func_6(190, &(Global_1351508.f_1060), 1)) && iVar0)
 	{
-		unk_0xEB79FECD9022AAF0(&(uParam0->f_285), 3);
+		unk_0xF6082E2ADA1C795B(&(uParam0->f_285), 3);
 		func_5(uParam2);
 		func_4(uParam2, 0, 0);
 	}
-	if (unk_0x48B8265059381CD0(uParam0->f_285, 1))
+	if (unk_0xAA4F14DA15DB0B51(uParam0->f_285, 1))
 	{
-		unk_0x21E7933CCC7B3724(&(uParam0->f_285), 1);
-		unk_0x4988C48537D1AE4F(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
+		unk_0x507FE690B1271947(&(uParam0->f_285), 1);
+		unk_0x08BE237DBCD9CBD9(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
 		uParam1->f_3 = (uParam1->f_3 - 1);
 		if (uParam1->f_3 < 0)
 		{
 			uParam1->f_3 = 2;
 		}
-		func_130(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 188), uParam0);
-		func_136(uParam0);
-		func_135(uParam0);
-		func_127(uParam0, uParam1);
+		func_137(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 188), uParam0);
+		func_143(uParam0);
+		func_142(uParam0);
+		func_134(uParam0, uParam1);
 	}
-	if (unk_0x48B8265059381CD0(uParam0->f_285, 0))
+	if (unk_0xAA4F14DA15DB0B51(uParam0->f_285, 0))
 	{
-		unk_0x21E7933CCC7B3724(&(uParam0->f_285), 0);
-		unk_0x4988C48537D1AE4F(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
+		unk_0x507FE690B1271947(&(uParam0->f_285), 0);
+		unk_0x08BE237DBCD9CBD9(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
 		uParam1->f_3++;
 		if (uParam1->f_3 > 2)
 		{
 			uParam1->f_3 = 0;
 		}
-		func_130(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 187), uParam0);
-		func_136(uParam0);
-		func_135(uParam0);
-		func_127(uParam0, uParam1);
+		func_137(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 187), uParam0);
+		func_143(uParam0);
+		func_142(uParam0);
+		func_134(uParam0, uParam1);
 	}
-	if (unk_0x48B8265059381CD0(uParam0->f_285, 2))
+	if (unk_0xAA4F14DA15DB0B51(uParam0->f_285, 2))
 	{
-		unk_0x21E7933CCC7B3724(&(uParam0->f_285), 2);
+		unk_0x507FE690B1271947(&(uParam0->f_285), 2);
 		uParam1->f_1 = (uParam1->f_1 - 1);
 		if (uParam1->f_1 < 0)
 		{
-			if (iLocal_92 > 1)
+			if (iLocal_95 > 1)
 			{
-				func_137(uParam0);
+				func_144(uParam0);
 				*uParam0 = 0;
 				func_2(uParam0);
 			}
@@ -360,47 +363,47 @@ void func_1(var uParam0, var uParam1, var uParam2)
 			}
 			else
 			{
-				uParam1->f_5 = iLocal_92;
+				uParam1->f_5 = iLocal_95;
 				uParam1->f_1 = 2;
 				iVar1 = (uParam1->f_1 + uParam1->f_3 * 3);
-				if (iVar1 >= iLocal_93)
+				if (iVar1 >= iLocal_96)
 				{
-					uParam1->f_1 = ((iLocal_93 - 1) % 3);
-					uParam1->f_3 = ((iLocal_93 - 1) / 3);
+					uParam1->f_1 = ((iLocal_96 - 1) % 3);
+					uParam1->f_3 = ((iLocal_96 - 1) / 3);
 				}
 			}
 		}
-		unk_0x4988C48537D1AE4F(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
-		func_130(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 189), uParam0);
-		func_136(uParam0);
-		func_135(uParam0);
-		func_127(uParam0, uParam1);
+		unk_0x08BE237DBCD9CBD9(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
+		func_137(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 189), uParam0);
+		func_143(uParam0);
+		func_142(uParam0);
+		func_134(uParam0, uParam1);
 	}
-	if (unk_0x48B8265059381CD0(uParam0->f_285, 3))
+	if (unk_0xAA4F14DA15DB0B51(uParam0->f_285, 3))
 	{
-		unk_0x21E7933CCC7B3724(&(uParam0->f_285), 3);
+		unk_0x507FE690B1271947(&(uParam0->f_285), 3);
 		uParam1->f_1++;
 		iVar2 = (uParam1->f_1 + uParam1->f_3 * 3);
-		if (uParam1->f_1 > 2 || (uParam1->f_5 == iLocal_92 && iVar2 >= iLocal_93))
+		if (uParam1->f_1 > 2 || (uParam1->f_5 == iLocal_95 && iVar2 >= iLocal_96))
 		{
-			if (iLocal_92 > 1)
+			if (iLocal_95 > 1)
 			{
-				func_137(uParam0);
+				func_144(uParam0);
 				*uParam0 = 0;
 				func_2(uParam0);
 			}
 			uParam1->f_1 = 0;
 			uParam1->f_5++;
-			if (uParam1->f_5 > iLocal_92)
+			if (uParam1->f_5 > iLocal_95)
 			{
 				uParam1->f_5 = 0;
 			}
 		}
-		unk_0x4988C48537D1AE4F(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
-		func_130(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 190), uParam0);
-		func_136(uParam0);
-		func_135(uParam0);
-		func_127(uParam0, uParam1);
+		unk_0x08BE237DBCD9CBD9(-1, "NAV_LEFT_RIGHT", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1);
+		func_137(func_3(&(uParam1->f_1), &(uParam1->f_3), uParam1->f_5, 190), uParam0);
+		func_143(uParam0);
+		func_142(uParam0);
+		func_134(uParam0, uParam1);
 	}
 }
 
@@ -418,9 +421,9 @@ int func_3(var uParam0, var uParam1, int iParam2, int iParam3)
 	switch (iParam3)
 	{
 		case 188:
-			if (iParam2 == iLocal_92)
+			if (iParam2 == iLocal_95)
 			{
-				if (iVar0 > (iLocal_93 - 1))
+				if (iVar0 > (iLocal_96 - 1))
 				{
 					*uParam1 = 0;
 					iVar0 = (*uParam0 + *uParam1 * 3);
@@ -429,9 +432,9 @@ int func_3(var uParam0, var uParam1, int iParam2, int iParam3)
 			break;
 		
 		case 187:
-			if (iParam2 == iLocal_92)
+			if (iParam2 == iLocal_95)
 			{
-				if (iVar0 > (iLocal_93 - 1))
+				if (iVar0 > (iLocal_96 - 1))
 				{
 					if (*uParam1 > 0)
 					{
@@ -450,14 +453,14 @@ int func_3(var uParam0, var uParam1, int iParam2, int iParam3)
 			break;
 		
 		case 190:
-			if (iParam2 == iLocal_92)
+			if (iParam2 == iLocal_95)
 			{
 				if (*uParam0 == 0)
 				{
 					iVar1 = 0;
 					while (iVar1 <= 3)
 					{
-						if (iVar0 > (iLocal_93 - 1))
+						if (iVar0 > (iLocal_96 - 1))
 						{
 							*uParam1 = (*uParam1 - 1);
 							iVar0 = (*uParam0 + *uParam1 * 3);
@@ -469,7 +472,7 @@ int func_3(var uParam0, var uParam1, int iParam2, int iParam3)
 						iVar1++;
 					}
 				}
-				else if (iVar0 > (iLocal_93 - 1))
+				else if (iVar0 > (iLocal_96 - 1))
 				{
 					if (*uParam0 > 0)
 					{
@@ -491,20 +494,20 @@ void func_4(var uParam0, bool bParam1, bool bParam2)
 {
 	if (uParam0->f_1 == 0)
 	{
-		if (unk_0x63C468D583002D23() && !bParam1)
+		if (unk_0x591AF4C50B46E014() && !bParam1)
 		{
 			if (!bParam2)
 			{
-				*uParam0 = unk_0xCB150A8B81012128();
+				*uParam0 = unk_0x11ABC381A58DD5AB();
 			}
 			else
 			{
-				*uParam0 = unk_0x8F8F2E80A7DA4D64();
+				*uParam0 = unk_0xFD0C6B49DA615791();
 			}
 		}
 		else
 		{
-			*uParam0 = unk_0x94E3E074F38DF86C();
+			*uParam0 = unk_0x3732B96D7A1859B4();
 		}
 		uParam0->f_1 = 1;
 	}
@@ -521,17 +524,17 @@ int func_6(int iParam0, var uParam1, int iParam2)
 	int iVar1;
 	int iVar2;
 	
-	iVar0 = (unk_0x6D95420A284C8601(2, 195) - 127);
-	iVar1 = (unk_0x6D95420A284C8601(2, 196) - 127);
-	iVar2 = (unk_0x6D95420A284C8601(2, 197) - 127);
+	iVar0 = (unk_0x86926C56FD96A3D6(2, 195) - 127);
+	iVar1 = (unk_0x86926C56FD96A3D6(2, 196) - 127);
+	iVar2 = (unk_0x86926C56FD96A3D6(2, 197) - 127);
 	switch (iParam0)
 	{
 		case 189:
 			if (iVar0 < -30)
 			{
-				if (*uParam1 < unk_0x94E3E074F38DF86C() || iParam2 == 0)
+				if (*uParam1 < unk_0x3732B96D7A1859B4() || iParam2 == 0)
 				{
-					*uParam1 = unk_0x94E3E074F38DF86C() + 250;
+					*uParam1 = unk_0x3732B96D7A1859B4() + 250;
 					return 1;
 				}
 			}
@@ -540,9 +543,9 @@ int func_6(int iParam0, var uParam1, int iParam2)
 		case 190:
 			if (iVar0 > 30)
 			{
-				if (*uParam1 < unk_0x94E3E074F38DF86C() || iParam2 == 0)
+				if (*uParam1 < unk_0x3732B96D7A1859B4() || iParam2 == 0)
 				{
-					*uParam1 = unk_0x94E3E074F38DF86C() + 250;
+					*uParam1 = unk_0x3732B96D7A1859B4() + 250;
 					return 1;
 				}
 			}
@@ -551,9 +554,9 @@ int func_6(int iParam0, var uParam1, int iParam2)
 		case 188:
 			if (iVar1 < -30)
 			{
-				if (*uParam1 < unk_0x94E3E074F38DF86C() || iParam2 == 0)
+				if (*uParam1 < unk_0x3732B96D7A1859B4() || iParam2 == 0)
 				{
-					*uParam1 = unk_0x94E3E074F38DF86C() + 250;
+					*uParam1 = unk_0x3732B96D7A1859B4() + 250;
 					return 1;
 				}
 			}
@@ -562,9 +565,9 @@ int func_6(int iParam0, var uParam1, int iParam2)
 		case 187:
 			if (iVar1 > 30)
 			{
-				if (*uParam1 < unk_0x94E3E074F38DF86C() || iParam2 == 0)
+				if (*uParam1 < unk_0x3732B96D7A1859B4() || iParam2 == 0)
 				{
-					*uParam1 = unk_0x94E3E074F38DF86C() + 250;
+					*uParam1 = unk_0x3732B96D7A1859B4() + 250;
 					return 1;
 				}
 			}
@@ -573,9 +576,9 @@ int func_6(int iParam0, var uParam1, int iParam2)
 		case 194:
 			if (iVar2 > 30)
 			{
-				if (*uParam1 < unk_0x94E3E074F38DF86C() || iParam2 == 0)
+				if (*uParam1 < unk_0x3732B96D7A1859B4() || iParam2 == 0)
 				{
-					*uParam1 = unk_0x94E3E074F38DF86C() + 250;
+					*uParam1 = unk_0x3732B96D7A1859B4() + 250;
 					return 1;
 				}
 			}
@@ -584,9 +587,9 @@ int func_6(int iParam0, var uParam1, int iParam2)
 		case 193:
 			if (iVar2 < -30)
 			{
-				if (*uParam1 < unk_0x94E3E074F38DF86C() || iParam2 == 0)
+				if (*uParam1 < unk_0x3732B96D7A1859B4() || iParam2 == 0)
 				{
-					*uParam1 = unk_0x94E3E074F38DF86C() + 250;
+					*uParam1 = unk_0x3732B96D7A1859B4() + 250;
 					return 1;
 				}
 			}
@@ -602,14 +605,14 @@ int func_7(var uParam0, int iParam1, bool bParam2)
 		return 1;
 	}
 	func_4(uParam0, bParam2, 0);
-	if (unk_0x63C468D583002D23() && !bParam2)
+	if (unk_0x591AF4C50B46E014() && !bParam2)
 	{
-		if (unk_0x049F77DED8AE0AF4(unk_0xDFD92E57E3A82E9C(unk_0xCB150A8B81012128(), *uParam0)) >= iParam1)
+		if (unk_0xEF76CA199A0C9035(unk_0x2AA4F22517A69BB6(unk_0x11ABC381A58DD5AB(), *uParam0)) >= iParam1)
 		{
 			return 1;
 		}
 	}
-	else if (unk_0x049F77DED8AE0AF4(unk_0xDFD92E57E3A82E9C(unk_0x94E3E074F38DF86C(), *uParam0)) >= iParam1)
+	else if (unk_0xEF76CA199A0C9035(unk_0x2AA4F22517A69BB6(unk_0x3732B96D7A1859B4(), *uParam0)) >= iParam1)
 	{
 		return 1;
 	}
@@ -623,68 +626,68 @@ bool func_8(var uParam0)
 
 void func_9(var uParam0, var uParam1)
 {
-	if ((unk_0xE0B615EF03FE4422("MPWeaponsCommon") && unk_0xE0B615EF03FE4422("MPWeaponsGang0")) && unk_0xE0B615EF03FE4422("MPWeaponsGang1"))
+	if ((unk_0xB5ABADF6417115F2("MPWeaponsCommon") && unk_0xB5ABADF6417115F2("MPWeaponsGang0")) && unk_0xB5ABADF6417115F2("MPWeaponsGang1"))
 	{
-		if (func_124(8, -1) == 0)
+		if (func_131(8, -1) == 0)
 		{
-			*uParam1 = func_123();
+			*uParam1 = func_130();
 		}
-		func_129();
+		func_136();
 		switch (uParam1->f_5)
 		{
 			case 0:
 				if (!uParam0->f_1[0])
 				{
-					func_94(joaat("weapon_pistol"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_combatpistol"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_appistol"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_microsmg"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_smg"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_assaultrifle"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_carbinerifle"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_advancedrifle"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_mg"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_pistol"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_combatpistol"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_appistol"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_microsmg"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_smg"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_assaultrifle"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_carbinerifle"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_advancedrifle"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_mg"), uParam0, *uParam1, 0);
 				}
 				break;
 			
 			case 1:
 				if (!uParam0->f_1[0])
 				{
-					func_94(joaat("weapon_combatmg"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_assaultsmg"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_pumpshotgun"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_assaultshotgun"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_sniperrifle"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_heavysniper"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_grenadelauncher"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_minigun"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_rpg"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_combatmg"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_assaultsmg"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_pumpshotgun"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_assaultshotgun"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_sniperrifle"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_heavysniper"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_grenadelauncher"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_minigun"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_rpg"), uParam0, *uParam1, 0);
 				}
 				break;
 			
 			case 2:
 				if (!uParam0->f_1[0])
 				{
-					func_94(joaat("weapon_knife"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_nightstick"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_bat"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_crowbar"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_golfclub"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_molotov"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_grenade"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_smokegrenade"), uParam0, *uParam1, 0);
-					func_94(joaat("weapon_stickybomb"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_knife"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_nightstick"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_bat"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_crowbar"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_golfclub"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_molotov"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_grenade"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_smokegrenade"), uParam0, *uParam1, 0);
+					func_101(joaat("weapon_stickybomb"), uParam0, *uParam1, 0);
 				}
 				break;
 			
 			default:
 				if (!uParam0->f_1[0])
 				{
-					func_91(uParam0, uParam1);
+					func_98(uParam0, uParam1);
 				}
 				break;
 		}
-		func_10(uParam0, func_90(uParam0));
+		func_10(uParam0, func_97(uParam0));
 	}
 }
 
@@ -697,6 +700,8 @@ void func_10(var uParam0, int iParam1)
 	int iVar4;
 	int iVar5;
 	int iVar6;
+	int iVar7;
+	int iVar8;
 	
 	if (iParam1 == 1)
 	{
@@ -709,98 +714,157 @@ void func_10(var uParam0, int iParam1)
 		while (iVar0 <= 8)
 		{
 			iVar5 = 0;
+			iVar6 = 0;
+			iVar7 = 0;
 			if (uParam0->f_1[iVar0] == 1)
 			{
 				if (uParam0->f_85[iVar0] != 0)
 				{
-					bVar2 = func_86(uParam0->f_85[iVar0], uParam0->f_276, 0);
-				}
-				bVar3 = func_83(uParam0->f_85[iVar0], uParam0->f_276, 0);
-				iVar1 = 0;
-				while (iVar1 <= 8)
-				{
-					iVar4 = func_82(uParam0->f_85[iVar0], iVar1);
-					if (!bVar3)
+					if (func_96(uParam0->f_85[iVar0]))
 					{
-						func_66(iVar4, uParam0->f_85[iVar0], 0, 0, 0);
-						func_64(iVar4, uParam0->f_85[iVar0], 0);
-						func_58(iVar4, uParam0->f_85[iVar0], 0);
-					}
-					if (unk_0x6A7B0D91FD88D9EE(func_57(iVar4, uParam0->f_85[iVar0]), "WCT_CLIP1"))
-					{
-						func_66(iVar4, uParam0->f_85[iVar0], 1, 0, 0);
-						if (!bVar3)
+						if (func_94(joaat("component_gunrun_mk2_upgrade"), func_95(uParam0->f_85[iVar0]), -1))
 						{
-							func_64(iVar4, uParam0->f_85[iVar0], 1);
-							func_58(iVar4, uParam0->f_85[iVar0], 1);
+							bVar2 = true;
+						}
+						else
+						{
+							bVar2 = false;
 						}
 					}
-					if (unk_0x6A7B0D91FD88D9EE(func_57(iVar4, uParam0->f_85[iVar0]), "WCT_SCOPE_LRG"))
+					else if (func_90(uParam0->f_85[iVar0], uParam0->f_276, 0))
 					{
-						func_66(iVar4, uParam0->f_85[iVar0], 1, 0, 0);
+						bVar2 = true;
+					}
+					else
+					{
+						bVar2 = false;
+					}
+				}
+				bVar3 = func_87(uParam0->f_85[iVar0], uParam0->f_276, 0);
+				iVar1 = 0;
+				while (iVar1 <= 35)
+				{
+					iVar4 = func_85(uParam0->f_85[iVar0], iVar1);
+					if (!bVar3)
+					{
+						func_69(iVar4, uParam0->f_85[iVar0], 0, 0, 0);
+						func_65(iVar4, uParam0->f_85[iVar0], 0);
+						func_59(iVar4, uParam0->f_85[iVar0], 0);
+					}
+					if (unk_0x35302CD5A5D37EED(func_58(iVar4, uParam0->f_85[iVar0]), "WCT_CLIP1"))
+					{
+						func_69(iVar4, uParam0->f_85[iVar0], 1, 0, 0);
 						if (!bVar3)
 						{
-							func_64(iVar4, uParam0->f_85[iVar0], 1);
-							func_58(iVar4, uParam0->f_85[iVar0], 1);
+							func_65(iVar4, uParam0->f_85[iVar0], 1);
+							func_59(iVar4, uParam0->f_85[iVar0], 1);
+						}
+					}
+					if (unk_0x35302CD5A5D37EED(func_58(iVar4, uParam0->f_85[iVar0]), "WCT_SCOPE_LRG"))
+					{
+						func_69(iVar4, uParam0->f_85[iVar0], 1, 0, 0);
+						if (!bVar3)
+						{
+							func_65(iVar4, uParam0->f_85[iVar0], 1);
+							func_59(iVar4, uParam0->f_85[iVar0], 1);
 						}
 					}
 					if ((uParam0->f_85[iVar0] == joaat("weapon_bullpupshotgun") || uParam0->f_85[iVar0] == joaat("weapon_pistol50")) || uParam0->f_85[iVar0] == joaat("weapon_snspistol"))
 					{
-						func_66(iVar4, uParam0->f_85[iVar0], 1, 0, 0);
-						func_64(iVar4, uParam0->f_85[iVar0], 1);
-						func_58(iVar4, uParam0->f_85[iVar0], 1);
+						func_69(iVar4, uParam0->f_85[iVar0], 1, 0, 0);
+						func_65(iVar4, uParam0->f_85[iVar0], 1);
+						func_59(iVar4, uParam0->f_85[iVar0], 1);
 					}
-					if (bVar3 && func_54(iVar4, uParam0->f_85[iVar0], uParam0->f_276))
+					if (bVar3 && func_53(iVar4, uParam0->f_85[iVar0], uParam0->f_276))
 					{
-						if (bVar2 && func_49(iVar4, uParam0->f_85[iVar0], uParam0->f_276))
+						if (bVar2 && func_94(iVar4, uParam0->f_85[iVar0], uParam0->f_276))
 						{
-							iVar5 = (iVar5 + func_47(iVar4, uParam0->f_85[iVar0], 8));
+							iVar5 = (iVar5 + func_51(iVar4, uParam0->f_85[iVar0], 8));
+							iVar6 = (iVar6 + func_49(iVar4, uParam0->f_85[iVar0], 8));
+							iVar7 = (iVar7 + func_47(iVar4, uParam0->f_85[iVar0], 8));
 						}
 					}
 					else if (iVar4 != 0)
 					{
-						iVar5 = (iVar5 + func_47(iVar4, uParam0->f_85[iVar0], 4));
+						iVar5 = (iVar5 + func_51(iVar4, uParam0->f_85[iVar0], 4));
+						iVar6 = (iVar6 + func_49(iVar4, uParam0->f_85[iVar0], 4));
+						iVar7 = (iVar7 + func_47(iVar4, uParam0->f_85[iVar0], 4));
 					}
 					iVar1++;
 				}
 			}
-			iVar6 = 0;
+			iVar8 = 0;
 			if (uParam0->f_85[iVar0] != 0)
 			{
 				if (bVar3)
 				{
-					if (((func_86(uParam0->f_85[iVar0], uParam0->f_276, 0) || (uParam0->f_85[iVar0] == joaat("weapon_pistol") && unk_0x509A3191A6C4EB38(unk_0x17B5CC8A8615737D(), joaat("weapon_pistol"), 0))) || func_45(uParam0->f_85[iVar0])) || func_29(uParam0->f_85[iVar0], uParam0->f_276))
+					if (func_96(uParam0->f_85[iVar0]))
 					{
-						iVar6++;
+						if (func_94(joaat("component_gunrun_mk2_upgrade"), func_95(uParam0->f_85[iVar0]), -1))
+						{
+							bVar2 = true;
+						}
+						else
+						{
+							bVar2 = false;
+						}
+					}
+					else if (func_90(uParam0->f_85[iVar0], uParam0->f_276, 0))
+					{
+						bVar2 = true;
 					}
 					else
 					{
-						iVar6 += 2;
+						bVar2 = false;
+					}
+					if (((bVar2 || (uParam0->f_85[iVar0] == joaat("weapon_pistol") && unk_0x871755D0EC5A9997(unk_0x2A5EB8B0FE590B91(), joaat("weapon_pistol"), 0))) || func_45(uParam0->f_85[iVar0])) || func_29(uParam0->f_85[iVar0], uParam0->f_276))
+					{
+						if (func_96(uParam0->f_85[iVar0]))
+						{
+							if (bVar2)
+							{
+								iVar8++;
+							}
+							else
+							{
+								iVar8 += 2;
+							}
+						}
+						else
+						{
+							iVar8++;
+						}
+					}
+					else
+					{
+						iVar8 += 2;
 					}
 				}
 				else
 				{
-					iVar6 += 4;
+					iVar8 += 4;
 				}
 			}
-			if (uParam0->f_1[iVar0] == 0 || unk_0x6A7B0D91FD88D9EE(func_26(uParam0->f_85[iVar0], 0), func_26(0, 0)))
+			if (uParam0->f_1[iVar0] == 0 || unk_0x35302CD5A5D37EED(func_26(uParam0->f_85[iVar0], 0), func_26(0, 0)))
 			{
-				iVar6 = 0;
+				iVar8 = 0;
 			}
-			unk_0x2F805CDCE0F4A0A5("SET_DATA_SLOT");
-			unk_0xDF18CF55301CEB8B(0);
-			unk_0xDF18CF55301CEB8B(iVar0);
-			unk_0xDF18CF55301CEB8B(iVar0);
-			unk_0xDF18CF55301CEB8B(0);
-			unk_0xDF18CF55301CEB8B(uParam0->f_85[iVar0]);
-			unk_0xDF18CF55301CEB8B(iVar5);
-			unk_0xDF18CF55301CEB8B(iVar6);
-			unk_0x44983883E630A945();
+			unk_0x6E49DBF6386AFC3C("SET_DATA_SLOT");
+			unk_0x4CECF13AF144A8F6(0);
+			unk_0x4CECF13AF144A8F6(iVar0);
+			unk_0x4CECF13AF144A8F6(iVar0);
+			unk_0x4CECF13AF144A8F6(0);
+			unk_0x4CECF13AF144A8F6(uParam0->f_85[iVar0]);
+			unk_0x4CECF13AF144A8F6(iVar5);
+			unk_0x4CECF13AF144A8F6(iVar8);
+			unk_0x4CECF13AF144A8F6(iVar6);
+			unk_0x4CECF13AF144A8F6(iVar7);
+			unk_0x8123397DC676E794();
 			iVar0++;
 		}
-		unk_0x2F805CDCE0F4A0A5("DISPLAY_DATA_SLOT");
-		unk_0xDF18CF55301CEB8B(0);
-		unk_0x44983883E630A945();
+		unk_0x6E49DBF6386AFC3C("DISPLAY_DATA_SLOT");
+		unk_0x4CECF13AF144A8F6(0);
+		unk_0x8123397DC676E794();
 		*uParam0 = 1;
 	}
 	func_23(uParam0, func_25(uParam0));
@@ -817,13 +881,13 @@ void func_11(var uParam0, int iParam1)
 	}
 	if (uParam0->f_279 == 0)
 	{
-		unk_0x2F805CDCE0F4A0A5("SET_COLUMN_HIGHLIGHT");
-		unk_0xDF18CF55301CEB8B(0);
-		unk_0xDF18CF55301CEB8B(uParam0->f_277);
-		unk_0x14ED5B5B8289F2FC(0);
-		unk_0x14ED5B5B8289F2FC(1);
-		unk_0x14ED5B5B8289F2FC(1);
-		unk_0x44983883E630A945();
+		unk_0x6E49DBF6386AFC3C("SET_COLUMN_HIGHLIGHT");
+		unk_0x4CECF13AF144A8F6(0);
+		unk_0x4CECF13AF144A8F6(uParam0->f_277);
+		unk_0xD426F7366505EADF(0);
+		unk_0xD426F7366505EADF(1);
+		unk_0xD426F7366505EADF(1);
+		unk_0x8123397DC676E794();
 		uParam0->f_279 = 1;
 	}
 }
@@ -853,92 +917,92 @@ void func_14(var uParam0, int iParam1)
 	{
 		if (uParam0->f_277 > -1)
 		{
-			unk_0x2F805CDCE0F4A0A5("SET_DESCRIPTION");
+			unk_0x6E49DBF6386AFC3C("SET_DESCRIPTION");
 			iVar4 = (uParam0->f_215[uParam0->f_277] - uParam0->f_165[uParam0->f_277]);
 			if (iVar4 < 0)
 			{
 				iVar4 = 0;
 			}
-			unk_0xDF18CF55301CEB8B(0);
+			unk_0x4CECF13AF144A8F6(0);
 			func_20(&(uParam0->f_11[uParam0->f_277 /*4*/]));
 			func_20(&(uParam0->f_48[uParam0->f_277 /*4*/]));
-			unk_0xDF18CF55301CEB8B(uParam0->f_95[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_105[uParam0->f_277]);
-			unk_0x584CF9CAE83942E5(uParam0->f_135[uParam0->f_277]);
-			unk_0x584CF9CAE83942E5(uParam0->f_115[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_145[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_155[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_165[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_185[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_195[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_205[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_225[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(iVar4);
-			unk_0xDF18CF55301CEB8B(uParam0->f_125[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_175[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(uParam0->f_235[uParam0->f_277]);
-			unk_0xDF18CF55301CEB8B(func_16(uParam0->f_85[uParam0->f_277]));
-			unk_0x44983883E630A945();
+			unk_0x4CECF13AF144A8F6(uParam0->f_95[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_105[uParam0->f_277]);
+			unk_0xD3A4A11E4FDC9D63(uParam0->f_135[uParam0->f_277]);
+			unk_0xD3A4A11E4FDC9D63(uParam0->f_115[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_145[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_155[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_165[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_185[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_195[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_205[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_225[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(iVar4);
+			unk_0x4CECF13AF144A8F6(uParam0->f_125[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_175[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(uParam0->f_235[uParam0->f_277]);
+			unk_0x4CECF13AF144A8F6(func_16(uParam0->f_85[uParam0->f_277]));
+			unk_0x8123397DC676E794();
 			if (func_15(uParam0->f_85[uParam0->f_277]))
 			{
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20(&Var0);
-				unk_0xDF18CF55301CEB8B(2);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(2);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20(&Var0);
-				unk_0xDF18CF55301CEB8B(3);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(3);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20(&Var0);
-				unk_0xDF18CF55301CEB8B(4);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(4);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20(&Var0);
-				unk_0xDF18CF55301CEB8B(8);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(8);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20(&Var0);
-				unk_0xDF18CF55301CEB8B(9);
-				unk_0x44983883E630A945();
+				unk_0x4CECF13AF144A8F6(9);
+				unk_0x8123397DC676E794();
 			}
 			else
 			{
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20("PM_ACCURACY");
-				unk_0xDF18CF55301CEB8B(2);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(2);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20("PM_RANGE");
-				unk_0xDF18CF55301CEB8B(3);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(3);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20("PM_CLIPSIZE");
-				unk_0xDF18CF55301CEB8B(4);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(4);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20("PM_KD_RATIO");
-				unk_0xDF18CF55301CEB8B(7);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(7);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20("PM_HEADSHOTS");
-				unk_0xDF18CF55301CEB8B(8);
-				unk_0x44983883E630A945();
-				unk_0x2F805CDCE0F4A0A5("SET_COLUMN_TITLE");
-				unk_0xDF18CF55301CEB8B(0);
+				unk_0x4CECF13AF144A8F6(8);
+				unk_0x8123397DC676E794();
+				unk_0x6E49DBF6386AFC3C("SET_COLUMN_TITLE");
+				unk_0x4CECF13AF144A8F6(0);
 				func_20("PM_MY_ACCURACY");
-				unk_0xDF18CF55301CEB8B(9);
-				unk_0x44983883E630A945();
+				unk_0x4CECF13AF144A8F6(9);
+				unk_0x8123397DC676E794();
 			}
 		}
 		uParam0->f_280 = 1;
@@ -1122,13 +1186,13 @@ int func_17(int iParam0, int iParam1, int iParam2)
 	iVar0 = 0;
 	if (iParam1 == -1)
 	{
-		iParam1 = func_123();
+		iParam1 = func_130();
 	}
 	iVar1 = func_19(iParam0, iParam1);
 	uVar2 = func_18(iParam0);
 	if (0 != iVar1)
 	{
-		iVar0 = unk_0x083FFE917EBA1560(iVar1, uVar2, iParam2);
+		iVar0 = unk_0x03C9AA3ADC1DEAF0(iVar1, uVar2, iParam2);
 	}
 	return iVar0;
 }
@@ -1140,51 +1204,59 @@ int func_18(int iParam0)
 	iVar0 = 0;
 	if (iParam0 >= 0 && iParam0 < 192)
 	{
-		iVar0 = ((iParam0 - 0) - unk_0xEC40FF50D6867780((iParam0 - 0)) * 64);
+		iVar0 = ((iParam0 - 0) - unk_0x16FA54149C24857C((iParam0 - 0)) * 64);
 	}
 	else if (iParam0 >= 192 && iParam0 < 384)
 	{
-		iVar0 = ((iParam0 - 192) - unk_0xEC40FF50D6867780((iParam0 - 192)) * 64);
+		iVar0 = ((iParam0 - 192) - unk_0x16FA54149C24857C((iParam0 - 192)) * 64);
 	}
 	else if (iParam0 >= 513 && iParam0 < 705)
 	{
-		iVar0 = ((iParam0 - 513) - unk_0xEC40FF50D6867780((iParam0 - 513)) * 64);
+		iVar0 = ((iParam0 - 513) - unk_0x16FA54149C24857C((iParam0 - 513)) * 64);
 	}
 	else if (iParam0 >= 705 && iParam0 < 1281)
 	{
-		iVar0 = ((iParam0 - 705) - unk_0xEC40FF50D6867780((iParam0 - 705)) * 64);
+		iVar0 = ((iParam0 - 705) - unk_0x16FA54149C24857C((iParam0 - 705)) * 64);
 	}
 	else if (iParam0 >= 2919 && iParam0 < 3111)
 	{
-		iVar0 = ((iParam0 - 2919) - unk_0xEC40FF50D6867780((iParam0 - 2919)) * 64);
+		iVar0 = ((iParam0 - 2919) - unk_0x16FA54149C24857C((iParam0 - 2919)) * 64);
 	}
 	else if (iParam0 >= 3111 && iParam0 < 3879)
 	{
-		iVar0 = ((iParam0 - 3111) - unk_0xEC40FF50D6867780((iParam0 - 3111)) * 64);
+		iVar0 = ((iParam0 - 3111) - unk_0x16FA54149C24857C((iParam0 - 3111)) * 64);
 	}
 	else if (iParam0 >= 4335 && iParam0 < 4399)
 	{
-		iVar0 = ((iParam0 - 4335) - unk_0xEC40FF50D6867780((iParam0 - 4335)) * 64);
+		iVar0 = ((iParam0 - 4335) - unk_0x16FA54149C24857C((iParam0 - 4335)) * 64);
 	}
 	else if (iParam0 >= 4207 && iParam0 < 4335)
 	{
-		iVar0 = ((iParam0 - 4207) - unk_0xEC40FF50D6867780((iParam0 - 4207)) * 64);
+		iVar0 = ((iParam0 - 4207) - unk_0x16FA54149C24857C((iParam0 - 4207)) * 64);
 	}
 	else if (iParam0 >= 6029 && iParam0 < 6413)
 	{
-		iVar0 = ((iParam0 - 6029) - unk_0xEC40FF50D6867780((iParam0 - 6029)) * 64);
+		iVar0 = ((iParam0 - 6029) - unk_0x16FA54149C24857C((iParam0 - 6029)) * 64);
 	}
 	else if (iParam0 >= 7385 && iParam0 < 7641)
 	{
-		iVar0 = ((iParam0 - 7385) - unk_0xEC40FF50D6867780((iParam0 - 7385)) * 64);
+		iVar0 = ((iParam0 - 7385) - unk_0x16FA54149C24857C((iParam0 - 7385)) * 64);
 	}
 	else if (iParam0 >= 7321 && iParam0 < 7385)
 	{
-		iVar0 = ((iParam0 - 7321) - unk_0xEC40FF50D6867780((iParam0 - 7321)) * 64);
+		iVar0 = ((iParam0 - 7321) - unk_0x16FA54149C24857C((iParam0 - 7321)) * 64);
 	}
 	else if (iParam0 >= 9361 && iParam0 < 9553)
 	{
-		iVar0 = ((iParam0 - 9361) - unk_0xEC40FF50D6867780((iParam0 - 9361)) * 64);
+		iVar0 = ((iParam0 - 9361) - unk_0x16FA54149C24857C((iParam0 - 9361)) * 64);
+	}
+	else if (iParam0 >= 15369 && iParam0 < 15561)
+	{
+		iVar0 = ((iParam0 - 15369) - unk_0x16FA54149C24857C((iParam0 - 15369)) * 64);
+	}
+	else if (iParam0 >= 15562 && iParam0 < 15946)
+	{
+		iVar0 = ((iParam0 - 15562) - unk_0x16FA54149C24857C((iParam0 - 15562)) * 64);
 	}
 	return iVar0;
 }
@@ -1195,64 +1267,72 @@ int func_19(int iParam0, int iParam1)
 	
 	if (iParam1 == -1)
 	{
-		iParam1 = func_123();
+		iParam1 = func_130();
 	}
 	iVar0 = 0;
 	if (iParam0 >= 0 && iParam0 < 192)
 	{
-		iVar0 = unk_0xB14C33EF6CDC31A6((iParam0 - 0), 0, 1, iParam1);
+		iVar0 = unk_0xB99811D18C405A4D((iParam0 - 0), 0, 1, iParam1);
 	}
 	else if (iParam0 >= 192 && iParam0 < 384)
 	{
-		iVar0 = unk_0xB14C33EF6CDC31A6((iParam0 - 192), 1, 1, iParam1);
+		iVar0 = unk_0xB99811D18C405A4D((iParam0 - 192), 1, 1, iParam1);
 	}
 	else if (iParam0 >= 513 && iParam0 < 705)
 	{
-		iVar0 = unk_0xB14C33EF6CDC31A6((iParam0 - 513), 0, 0, 0);
+		iVar0 = unk_0xB99811D18C405A4D((iParam0 - 513), 0, 0, 0);
 	}
 	else if (iParam0 >= 705 && iParam0 < 1281)
 	{
-		iVar0 = unk_0xB14C33EF6CDC31A6((iParam0 - 705), 1, 0, 0);
+		iVar0 = unk_0xB99811D18C405A4D((iParam0 - 705), 1, 0, 0);
 	}
 	else if (iParam0 >= 2919 && iParam0 < 3111)
 	{
-		iVar0 = unk_0x7425761F86762FAD((iParam0 - 2919), 0, 0, 0);
+		iVar0 = unk_0xD245E95F7E576239((iParam0 - 2919), 0, 0, 0);
 	}
 	else if (iParam0 >= 3111 && iParam0 < 3879)
 	{
-		iVar0 = unk_0x7425761F86762FAD((iParam0 - 3111), 0, 1, iParam1);
+		iVar0 = unk_0xD245E95F7E576239((iParam0 - 3111), 0, 1, iParam1);
 	}
 	else if (iParam0 >= 4335 && iParam0 < 4399)
 	{
-		iVar0 = unk_0x8C3FF8187D011700((iParam0 - 4335), 0, 0, 0, "_NGPSTAT_BOOL");
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 4335), 0, 0, 0, "_NGPSTAT_BOOL");
 	}
 	else if (iParam0 >= 4207 && iParam0 < 4335)
 	{
-		iVar0 = unk_0x8C3FF8187D011700((iParam0 - 4207), 0, 1, iParam1, "_NGPSTAT_BOOL");
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 4207), 0, 1, iParam1, "_NGPSTAT_BOOL");
 	}
 	else if (iParam0 >= 6029 && iParam0 < 6413)
 	{
-		iVar0 = unk_0x8C3FF8187D011700((iParam0 - 6029), 0, 1, iParam1, "_NGTATPSTAT_BOOL");
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 6029), 0, 1, iParam1, "_NGTATPSTAT_BOOL");
 	}
 	else if (iParam0 >= 7321 && iParam0 < 7385)
 	{
-		iVar0 = unk_0x8C3FF8187D011700((iParam0 - 7321), 0, 0, 0, "_NGDLCPSTAT_BOOL");
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 7321), 0, 0, 0, "_NGDLCPSTAT_BOOL");
 	}
 	else if (iParam0 >= 7385 && iParam0 < 7641)
 	{
-		iVar0 = unk_0x8C3FF8187D011700((iParam0 - 7385), 0, 1, iParam1, "_NGDLCPSTAT_BOOL");
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 7385), 0, 1, iParam1, "_NGDLCPSTAT_BOOL");
 	}
 	else if (iParam0 >= 9361 && iParam0 < 9553)
 	{
-		iVar0 = unk_0x8C3FF8187D011700((iParam0 - 9361), 0, 1, iParam1, "_DLCBIKEPSTAT_BOOL");
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 9361), 0, 1, iParam1, "_DLCBIKEPSTAT_BOOL");
+	}
+	else if (iParam0 >= 15369 && iParam0 < 15561)
+	{
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 15369), 0, 1, iParam1, "_DLCGUNPSTAT_BOOL");
+	}
+	else if (iParam0 >= 15562 && iParam0 < 15946)
+	{
+		iVar0 = unk_0xE34F679C8DB3AF93((iParam0 - 15562), 0, 1, iParam1, "_GUNTATPSTAT_BOOL");
 	}
 	return iVar0;
 }
 
 void func_20(char* sParam0)
 {
-	unk_0xDCEB60B79ECB219E(sParam0);
-	unk_0x1798EBF9408190D3();
+	unk_0xADBDBA2DF8443753(sParam0);
+	unk_0xF7D95CCE1364B5CE();
 }
 
 void func_21(var uParam0)
@@ -1276,9 +1356,9 @@ void func_23(var uParam0, int iParam1)
 	{
 		if (uParam0->f_275 != 9999)
 		{
-			unk_0x2F805CDCE0F4A0A5("SET_INPUT_EVENT");
-			unk_0xDF18CF55301CEB8B(uParam0->f_275);
-			unk_0x44983883E630A945();
+			unk_0x6E49DBF6386AFC3C("SET_INPUT_EVENT");
+			unk_0x4CECF13AF144A8F6(uParam0->f_275);
+			unk_0x8123397DC676E794();
 			uParam0->f_275 = 9999;
 			uParam0->f_278 = 1;
 		}
@@ -2222,6 +2302,72 @@ char* func_26(int iParam0, bool bParam1)
 			return "WT_VEH_WEP";
 			break;
 		
+		case joaat("weapon_pistol_mk2"):
+			if (bParam1)
+			{
+				return "WTU_PIST2";
+			}
+			else
+			{
+				return "WT_PIST2";
+			}
+			break;
+		
+		case joaat("weapon_smg_mk2"):
+			if (bParam1)
+			{
+				return "WTU_SMG2";
+			}
+			else
+			{
+				return "WT_SMG2";
+			}
+			break;
+		
+		case joaat("weapon_heavysniper_mk2"):
+			if (bParam1)
+			{
+				return "WTU_SNIP_HVY2";
+			}
+			else
+			{
+				return "WT_SNIP_HVY2";
+			}
+			break;
+		
+		case joaat("weapon_combatmg_mk2"):
+			if (bParam1)
+			{
+				return "WTU_MG_CBT2";
+			}
+			else
+			{
+				return "WT_MG_CBT2";
+			}
+			break;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			if (bParam1)
+			{
+				return "WTU_RIFLE_ASL2";
+			}
+			else
+			{
+				return "WT_RIFLE_ASL2";
+			}
+			break;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			if (bParam1)
+			{
+				return "WTU_RIFLE_CBN2";
+			}
+			else
+			{
+				return "WT_RIFLE_CBN2";
+			}
+			break;
+		
 		default:
 			if (func_28(iParam0, &Var0) != -1)
 			{
@@ -2249,11 +2395,11 @@ int func_28(int iParam0, var uParam1)
 	int iVar0;
 	int iVar1;
 	
-	iVar1 = unk_0xDD29471727F67A12();
+	iVar1 = unk_0x963D77592D01E990();
 	iVar0 = 0;
 	while (iVar0 < iVar1)
 	{
-		if (unk_0x7DF39E88C502C09C(iVar0, uParam1))
+		if (unk_0xAEF11B8C6B59FE54(iVar0, uParam1))
 		{
 			if (uParam1->f_1 == iParam0)
 			{
@@ -2280,7 +2426,7 @@ bool func_29(int iParam0, int iParam1)
 		return 0;
 	}
 	iVar0 = func_40(iParam0);
-	if (iVar0 != 302 && func_39(iVar0, -1))
+	if (iVar0 != 305 && func_39(iVar0, -1))
 	{
 		return 1;
 	}
@@ -2290,7 +2436,7 @@ bool func_29(int iParam0, int iParam1)
 	}
 	uVar1 = func_33(iParam0, iParam1);
 	iVar2 = func_31(iParam0);
-	return unk_0x48B8265059381CD0(uVar1, func_30(iVar2));
+	return unk_0xAA4F14DA15DB0B51(uVar1, func_30(iVar2));
 }
 
 int func_30(int iParam0)
@@ -2622,6 +2768,30 @@ int func_32(int iParam0)
 		case joaat("weapon_wrench"):
 			return 78;
 			break;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return 8;
+			break;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return 9;
+			break;
+		
+		case joaat("weapon_combatmg_mk2"):
+			return 13;
+			break;
+		
+		case joaat("weapon_heavysniper_mk2"):
+			return 21;
+			break;
+		
+		case joaat("weapon_pistol_mk2"):
+			return 1;
+			break;
+		
+		case joaat("weapon_smg_mk2"):
+			return 5;
+			break;
 	}
 	return 0;
 }
@@ -2642,8 +2812,8 @@ int func_34(int iParam0, int iParam1, int iParam2)
 	if (iParam2 == 0)
 	{
 	}
-	iVar0 = Global_2503826[iParam0 /*3*/][func_35(iParam1)];
-	if (unk_0x7FE4F330D3D74809(iVar0, &uVar1, -1))
+	iVar0 = Global_2507378[iParam0 /*3*/][func_35(iParam1)];
+	if (unk_0xC225A90A8DE0D96B(iVar0, &uVar1, -1))
 	{
 		return uVar1;
 	}
@@ -2658,16 +2828,16 @@ int func_35(var uParam0)
 	iVar0 = uParam0;
 	if (iVar0 == -1)
 	{
-		iVar1 = func_123();
+		iVar1 = func_130();
 		if (iVar1 > -1)
 		{
-			Global_2503539 = 0;
+			Global_2507091 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2503539 = 1;
+			Global_2507091 = 1;
 		}
 	}
 	return iVar0;
@@ -2680,29 +2850,29 @@ int func_36(int iParam0)
 	
 	iVar0 = func_31(iParam0);
 	iVar1 = func_38(iVar0);
-	if ((func_139() == 0 || func_37() == 0) || (func_139() == 999 && func_37() == 999))
+	if ((func_146() == 0 || func_37() == 0) || (func_146() == 999 && func_37() == 999))
 	{
 		switch (iVar1)
 		{
 			case 0:
-				return 680;
-				break;
-			
-			case 1:
 				return 681;
 				break;
 			
+			case 1:
+				return 682;
+				break;
+			
 			case 2:
-				return 2401;
+				return 2404;
 				break;
 			}
 	}
-	return 6022;
+	return 6309;
 }
 
 int func_37()
 {
-	return Global_25191;
+	return Global_25223;
 }
 
 int func_38(int iParam0)
@@ -2715,8 +2885,8 @@ int func_39(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2522581[iParam0 /*3*/][func_35(iParam1)];
-	if (unk_0x70BD7CFD9F825957(uVar0, &uVar1, -1))
+	uVar0 = Global_2526994[iParam0 /*3*/][func_35(iParam1)];
+	if (unk_0x17DA8BAE529C4AC7(uVar0, &uVar1, -1))
 	{
 		return uVar1;
 	}
@@ -2872,7 +3042,7 @@ int func_40(int iParam0)
 			break;
 		
 		case joaat("weapon_specialcarbine"):
-			return 210;
+			return 213;
 			break;
 		
 		case joaat("weapon_snspistol"):
@@ -2880,131 +3050,155 @@ int func_40(int iParam0)
 			break;
 		
 		case joaat("weapon_heavypistol"):
-			return 208;
+			return 211;
 			break;
 		
 		case joaat("weapon_bullpuprifle"):
-			return 212;
+			return 215;
 			break;
 		
 		case joaat("weapon_gusenberg"):
-			return 214;
+			return 217;
 			break;
 		
 		case joaat("weapon_vintagepistol"):
-			return 237;
+			return 240;
 			break;
 		
 		case joaat("weapon_dagger"):
-			return 235;
+			return 238;
 			break;
 		
 		case joaat("weapon_musket"):
-			return 241;
+			return 244;
 			break;
 		
 		case joaat("weapon_firework"):
-			return 239;
+			return 242;
 			break;
 		
 		case joaat("weapon_flaregun"):
-			return 229;
+			return 232;
 			break;
 		
 		case joaat("weapon_heavyshotgun"):
-			return 253;
+			return 256;
 			break;
 		
 		case joaat("weapon_marksmanrifle"):
-			return 255;
+			return 258;
 			break;
 		
 		case joaat("weapon_proxmine"):
-			return 259;
+			return 262;
 			break;
 		
 		case joaat("weapon_hominglauncher"):
-			return 261;
+			return 264;
 			break;
 		
 		case joaat("weapon_hatchet"):
-			return 257;
+			return 260;
 			break;
 		
 		case joaat("weapon_combatpdw"):
-			return 263;
+			return 266;
 			break;
 		
 		case joaat("weapon_knuckle"):
-			return 265;
+			return 268;
 			break;
 		
 		case joaat("weapon_marksmanpistol"):
-			return 267;
+			return 270;
 			break;
 		
 		case joaat("weapon_machete"):
-			return 269;
+			return 272;
 			break;
 		
 		case joaat("weapon_machinepistol"):
-			return 271;
-			break;
-		
-		case joaat("weapon_dbshotgun"):
-			return 276;
-			break;
-		
-		case joaat("weapon_compactrifle"):
 			return 274;
 			break;
 		
-		case joaat("weapon_flashlight"):
-			return 278;
+		case joaat("weapon_dbshotgun"):
+			return 279;
 			break;
 		
-		case joaat("weapon_revolver"):
+		case joaat("weapon_compactrifle"):
+			return 277;
+			break;
+		
+		case joaat("weapon_flashlight"):
 			return 281;
 			break;
 		
+		case joaat("weapon_revolver"):
+			return 284;
+			break;
+		
 		case joaat("weapon_switchblade"):
-			return 283;
+			return 286;
 			break;
 		
 		case joaat("weapon_autoshotgun"):
-			return 288;
+			return 291;
 			break;
 		
 		case joaat("weapon_minismg"):
-			return 294;
+			return 297;
 			break;
 		
 		case joaat("weapon_compactlauncher"):
-			return 292;
+			return 295;
 			break;
 		
 		case joaat("weapon_battleaxe"):
-			return 290;
+			return 293;
 			break;
 		
 		case joaat("weapon_pipebomb"):
-			return 296;
+			return 299;
 			break;
 		
 		case joaat("weapon_poolcue"):
-			return 298;
+			return 301;
 			break;
 		
 		case joaat("weapon_wrench"):
 			return 9;
 			break;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return 31;
+			break;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return 33;
+			break;
+		
+		case joaat("weapon_combatmg_mk2"):
+			return 39;
+			break;
+		
+		case joaat("weapon_heavysniper_mk2"):
+			return 55;
+			break;
+		
+		case joaat("weapon_pistol_mk2"):
+			return 17;
+			break;
+		
+		case joaat("weapon_smg_mk2"):
+			return 27;
+			break;
 	}
-	return 302;
+	return 305;
 }
 
 bool func_41()
 {
-	return Global_1315212;
+	return Global_1312831;
 }
 
 int func_42()
@@ -3023,7 +3217,7 @@ var func_43(int iParam0)
 
 var func_44()
 {
-	return func_43(func_123() + 1);
+	return func_43(func_130() + 1);
 }
 
 int func_45(int iParam0)
@@ -3037,27 +3231,27 @@ int func_45(int iParam0)
 	{
 		case joaat("weapon_molotov"):
 			bVar0 = true;
-			iVar3 = 488;
+			iVar3 = 489;
 			break;
 		
 		case joaat("weapon_golfclub"):
 			bVar0 = true;
-			iVar3 = 242;
+			iVar3 = 243;
 			break;
 		
 		case joaat("weapon_bat"):
 			bVar0 = true;
-			iVar3 = 235;
+			iVar3 = 236;
 			break;
 		
 		case joaat("weapon_crowbar"):
 			bVar0 = true;
-			iVar3 = 207;
+			iVar3 = 208;
 			break;
 	}
 	if (bVar0)
 	{
-		iVar1 = func_46(unk_0xBE369BE1BC57A796());
+		iVar1 = func_46(unk_0x0FFED3E94261A832());
 		iVar2 = func_16(iParam0);
 		if (iVar1 >= iVar2)
 		{
@@ -3072,7 +3266,7 @@ int func_45(int iParam0)
 
 var func_46(int iParam0)
 {
-	return Global_1591201[iParam0 /*602*/].f_203.f_6;
+	return Global_1592456[iParam0 /*635*/].f_204.f_6;
 }
 
 int func_47(int iParam0, int iParam1, int iParam2)
@@ -3080,6 +3274,373 @@ int func_47(int iParam0, int iParam1, int iParam2)
 	int iVar0;
 	
 	iVar0 = func_48(iParam0, iParam1);
+	switch (iVar0)
+	{
+		case 1:
+			switch (iParam2)
+			{
+				case 4:
+					return 2;
+					break;
+				
+				case 1:
+					return 1;
+					break;
+				
+				case 8:
+					return 4;
+					break;
+			}
+			break;
+		
+		case 2:
+			switch (iParam2)
+			{
+				case 4:
+					return 2;
+					break;
+				
+				case 1:
+					return 1;
+					break;
+				
+				case 8:
+					return 4;
+					break;
+			}
+			break;
+		
+		case 4:
+			switch (iParam2)
+			{
+				case 4:
+					return 16;
+					break;
+				
+				case 1:
+					return 8;
+					break;
+				
+				case 8:
+					return 32;
+					break;
+			}
+			break;
+		
+		case 8:
+			switch (iParam2)
+			{
+				case 4:
+					return 128;
+					break;
+				
+				case 1:
+					return 64;
+					break;
+				
+				case 8:
+					return 256;
+					break;
+			}
+			break;
+	}
+	return 0;
+}
+
+int func_48(int iParam0, int iParam1)
+{
+	switch (iParam1)
+	{
+		case joaat("weapon_smg_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_at_scope_macro_02_smg_mk2"):
+					return 1;
+					break;
+				
+				case joaat("component_at_scope_small_smg_mk2"):
+					return 2;
+					break;
+				
+				case joaat("component_at_sb_barrel_01"):
+					return 4;
+					break;
+				
+				case joaat("component_at_sb_barrel_02"):
+					return 8;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_heavysniper_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_at_scope_large"):
+					return 2;
+					break;
+				
+				case joaat("component_at_sr_barrel_01"):
+					return 4;
+					break;
+				
+				case joaat("component_at_sr_barrel_02"):
+					return 8;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_combatmg_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_at_scope_small_mk2"):
+					return 1;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 2;
+					break;
+				
+				case joaat("component_at_mg_barrel_01"):
+					return 4;
+					break;
+				
+				case joaat("component_at_mg_barrel_02"):
+					return 8;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_at_scope_macro_mk2"):
+					return 1;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 2;
+					break;
+				
+				case joaat("component_at_ar_barrel_01"):
+					return 4;
+					break;
+				
+				case joaat("component_at_ar_barrel_02"):
+					return 8;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_at_scope_macro_mk2"):
+					return 1;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 2;
+					break;
+				
+				case joaat("component_at_cr_barrel_01"):
+					return 4;
+					break;
+				
+				case joaat("component_at_cr_barrel_02"):
+					return 8;
+					break;
+			}
+			break;
+	}
+	return 0;
+}
+
+int func_49(int iParam0, int iParam1, int iParam2)
+{
+	int iVar0;
+	
+	iVar0 = func_50(iParam0, iParam1);
+	switch (iVar0)
+	{
+		case 1:
+			switch (iParam2)
+			{
+				case 4:
+					return 2;
+					break;
+				
+				case 1:
+					return 1;
+					break;
+				
+				case 8:
+					return 4;
+					break;
+			}
+			break;
+		
+		case 2:
+			switch (iParam2)
+			{
+				case 4:
+					return 16;
+					break;
+				
+				case 1:
+					return 8;
+					break;
+				
+				case 8:
+					return 32;
+					break;
+			}
+			break;
+		
+		case 4:
+			switch (iParam2)
+			{
+				case 4:
+					return 128;
+					break;
+				
+				case 1:
+					return 64;
+					break;
+				
+				case 8:
+					return 256;
+					break;
+			}
+			break;
+		
+		case 7:
+			switch (iParam2)
+			{
+				case 4:
+					return 1024;
+					break;
+				
+				case 1:
+					return 512;
+					break;
+				
+				case 8:
+					return 2048;
+					break;
+			}
+			break;
+		
+		case 16:
+			switch (iParam2)
+			{
+				case 4:
+					return 8192;
+					break;
+				
+				case 1:
+					return 4096;
+					break;
+				
+				case 8:
+					return 16384;
+					break;
+			}
+			break;
+		
+		case 32:
+			switch (iParam2)
+			{
+				case 4:
+					return 65536;
+					break;
+				
+				case 1:
+					return 1;
+					break;
+				
+				case 8:
+					return 131072;
+					break;
+			}
+			break;
+		
+		case 64:
+			switch (iParam2)
+			{
+				case 4:
+					return 2;
+					break;
+				
+				case 1:
+					return 1;
+					break;
+				
+				case 8:
+					return 1048576;
+					break;
+			}
+			break;
+	}
+	return 0;
+}
+
+int func_50(int iParam0, int iParam1)
+{
+	switch (iParam1)
+	{
+		case joaat("weapon_smg_mk2"):
+		case joaat("weapon_heavysniper_mk2"):
+		case joaat("weapon_carbinerifle_mk2"):
+		case joaat("weapon_assaultrifle_mk2"):
+		case joaat("weapon_combatmg_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_at_muzzle_01"):
+					return 1;
+					break;
+				
+				case joaat("component_at_muzzle_02"):
+					return 2;
+					break;
+				
+				case joaat("component_at_muzzle_03"):
+					return 4;
+					break;
+				
+				case joaat("component_at_muzzle_04"):
+					return 7;
+					break;
+				
+				case joaat("component_at_muzzle_05"):
+					return 16;
+					break;
+				
+				case joaat("component_at_muzzle_06"):
+					return 32;
+					break;
+				
+				case joaat("component_at_muzzle_07"):
+					return 64;
+					break;
+				
+				case joaat("component_at_muzzle_08"):
+					return 1;
+					break;
+				
+				case joaat("component_at_muzzle_09"):
+					return 2;
+					break;
+			}
+			break;
+	}
+	return 0;
+}
+
+int func_51(int iParam0, int iParam1, int iParam2)
+{
+	int iVar0;
+	
+	iVar0 = func_52(iParam0, iParam1);
 	switch (iVar0)
 	{
 		case 1:
@@ -3238,7 +3799,7 @@ int func_47(int iParam0, int iParam1, int iParam2)
 	return 0;
 }
 
-int func_48(int iParam0, int iParam1)
+int func_52(int iParam0, int iParam1)
 {
 	switch (iParam1)
 	{
@@ -3815,11 +4376,293 @@ int func_48(int iParam0, int iParam1)
 					break;
 			}
 			break;
+		
+		case joaat("weapon_pistol_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_pistol_mk2_clip_01"):
+					return 16;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_02"):
+					return 32;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_fmj"):
+					return 256;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_hollowpoint"):
+					return 256;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_incendiary"):
+					return 256;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_tracer"):
+					return 256;
+					break;
+				
+				case joaat("component_at_pi_flsh_02"):
+					return 2;
+					break;
+				
+				case joaat("component_at_pi_rail"):
+					return 128;
+					break;
+				
+				case joaat("component_at_pi_supp_02"):
+					return 1;
+					break;
+				
+				case joaat("component_at_pi_comp"):
+					return 128;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_smg_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_smg_mk2_clip_01"):
+					return 16;
+					break;
+				
+				case joaat("component_smg_mk2_clip_02"):
+					return 32;
+					break;
+				
+				case joaat("component_smg_mk2_clip_fmj"):
+					return 256;
+					break;
+				
+				case joaat("component_smg_mk2_clip_hollowpoint"):
+					return 256;
+					break;
+				
+				case joaat("component_smg_mk2_clip_incendiary"):
+					return 256;
+					break;
+				
+				case joaat("component_smg_mk2_clip_tracer"):
+					return 256;
+					break;
+				
+				case joaat("component_at_ar_flsh"):
+					return 2;
+					break;
+				
+				case joaat("component_at_sights_smg"):
+					return 64;
+					break;
+				
+				case joaat("component_at_scope_macro_02_smg_mk2"):
+					return 4;
+					break;
+				
+				case joaat("component_at_scope_small_smg_mk2"):
+					return 64;
+					break;
+				
+				case joaat("component_at_pi_supp"):
+					return 8;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_heavysniper_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_heavysniper_mk2_clip_01"):
+					return 16;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_02"):
+					return 32;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_armorpiercing"):
+					return 256;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_explosive"):
+					return 256;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_fmj"):
+					return 256;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_incendiary"):
+					return 256;
+					break;
+				
+				case joaat("component_at_scope_large"):
+					return 4;
+					break;
+				
+				case joaat("component_at_scope_max"):
+					return 64;
+					break;
+				
+				case joaat("component_at_scope_nv"):
+					return 8;
+					break;
+				
+				case joaat("component_at_scope_thermal"):
+					return 8;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_combatmg_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_combatmg_mk2_clip_01"):
+					return 16;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_02"):
+					return 32;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_armorpiercing"):
+					return 256;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_fmj"):
+					return 256;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_incendiary"):
+					return 256;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_tracer"):
+					return 256;
+					break;
+				
+				case joaat("component_at_ar_afgrip_02"):
+					return 128;
+					break;
+				
+				case joaat("component_at_sights"):
+					return 64;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_assaultrifle_mk2_clip_01"):
+					return 16;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_02"):
+					return 32;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_armorpiercing"):
+					return 256;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_fmj"):
+					return 256;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_incendiary"):
+					return 256;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_tracer"):
+					return 256;
+					break;
+				
+				case joaat("component_at_ar_afgrip_02"):
+					return 128;
+					break;
+				
+				case joaat("component_at_ar_flsh"):
+					return 2;
+					break;
+				
+				case joaat("component_at_sights"):
+					return 64;
+					break;
+				
+				case joaat("component_at_scope_macro_mk2"):
+					return 4;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 8;
+					break;
+				
+				case joaat("component_at_ar_supp_02"):
+					return 1;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_carbinerifle_mk2_clip_01"):
+					return 16;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_02"):
+					return 32;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_armorpiercing"):
+					return 256;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_fmj"):
+					return 256;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_incendiary"):
+					return 256;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_tracer"):
+					return 256;
+					break;
+				
+				case joaat("component_at_ar_afgrip_02"):
+					return 128;
+					break;
+				
+				case joaat("component_at_ar_flsh"):
+					return 2;
+					break;
+				
+				case joaat("component_at_sights"):
+					return 64;
+					break;
+				
+				case joaat("component_at_scope_macro_mk2"):
+					return 4;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 8;
+					break;
+				
+				case joaat("component_at_ar_supp"):
+					return 1;
+					break;
+			}
+			break;
 	}
 	return 0;
 }
 
-bool func_49(int iParam0, int iParam1, int iParam2)
+bool func_53(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	int iVar1;
@@ -3828,17 +4671,17 @@ bool func_49(int iParam0, int iParam1, int iParam2)
 	{
 		return 0;
 	}
-	uVar0 = func_52(iParam0, iParam1, iParam2);
-	iVar1 = func_50(iParam0, iParam1);
-	return unk_0x48B8265059381CD0(uVar0, func_30(iVar1));
+	uVar0 = func_56(iParam0, iParam1, iParam2);
+	iVar1 = func_54(iParam0, iParam1);
+	return unk_0xAA4F14DA15DB0B51(uVar0, func_30(iVar1));
 }
 
-int func_50(int iParam0, int iParam1)
+int func_54(int iParam0, int iParam1)
 {
-	return func_51(iParam0, iParam1);
+	return func_55(iParam0, iParam1);
 }
 
-int func_51(int iParam0, int iParam1)
+int func_55(int iParam0, int iParam1)
 {
 	switch (iParam1)
 	{
@@ -3863,6 +4706,10 @@ int func_51(int iParam0, int iParam1)
 				
 				case joaat("component_pistol_varmod_luxe"):
 					return 175;
+					break;
+				
+				case joaat("component_gunrun_mk2_upgrade"):
+					return 211;
 					break;
 			}
 			break;
@@ -3976,6 +4823,10 @@ int func_51(int iParam0, int iParam1)
 				case joaat("component_smg_varmod_luxe"):
 					return 179;
 					break;
+				
+				case joaat("component_gunrun_mk2_upgrade"):
+					return 212;
+					break;
 			}
 			break;
 		
@@ -4012,6 +4863,10 @@ int func_51(int iParam0, int iParam1)
 				
 				case joaat("component_assaultrifle_varmod_luxe"):
 					return 165;
+					break;
+				
+				case joaat("component_gunrun_mk2_upgrade"):
+					return 213;
 					break;
 			}
 			break;
@@ -4053,6 +4908,10 @@ int func_51(int iParam0, int iParam1)
 				
 				case joaat("component_carbinerifle_varmod_luxe"):
 					return 168;
+					break;
+				
+				case joaat("component_gunrun_mk2_upgrade"):
+					return 214;
 					break;
 			}
 			break;
@@ -4128,6 +4987,10 @@ int func_51(int iParam0, int iParam1)
 				
 				case joaat("component_combatmg_varmod_lowrider"):
 					return 188;
+					break;
+				
+				case joaat("component_gunrun_mk2_upgrade"):
+					return 215;
 					break;
 			}
 			break;
@@ -4212,6 +5075,10 @@ int func_51(int iParam0, int iParam1)
 				
 				case joaat("component_at_scope_large"):
 					return 82;
+					break;
+				
+				case joaat("component_gunrun_mk2_upgrade"):
+					return 216;
 					break;
 			}
 			break;
@@ -4777,43 +5644,761 @@ int func_51(int iParam0, int iParam1)
 					break;
 			}
 			break;
+		
+		case joaat("weapon_pistol_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_pistol_mk2_clip_01"):
+					return 217;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_02"):
+					return 218;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_fmj"):
+					return 219;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_hollowpoint"):
+					return 220;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_incendiary"):
+					return 221;
+					break;
+				
+				case joaat("component_pistol_mk2_clip_tracer"):
+					return 222;
+					break;
+				
+				case joaat("component_at_pi_flsh_02"):
+					return 223;
+					break;
+				
+				case joaat("component_at_pi_rail"):
+					return 224;
+					break;
+				
+				case joaat("component_at_pi_supp_02"):
+					return 225;
+					break;
+				
+				case joaat("component_at_pi_comp"):
+					return 226;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO"):
+					return 367;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_02"):
+					return 368;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_03"):
+					return 369;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_04"):
+					return 370;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_05"):
+					return 371;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_06"):
+					return 372;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_07"):
+					return 373;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_08"):
+					return 374;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_09"):
+					return 375;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_10"):
+					return 376;
+					break;
+				
+				case joaat("COMPONENT_PISTOL_MK2_CAMO_IND_01"):
+					return 377;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_smg_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_smg_mk2_clip_01"):
+					return 227;
+					break;
+				
+				case joaat("component_smg_mk2_clip_02"):
+					return 228;
+					break;
+				
+				case joaat("component_smg_mk2_clip_fmj"):
+					return 229;
+					break;
+				
+				case joaat("component_smg_mk2_clip_hollowpoint"):
+					return 230;
+					break;
+				
+				case joaat("component_smg_mk2_clip_incendiary"):
+					return 231;
+					break;
+				
+				case joaat("component_smg_mk2_clip_tracer"):
+					return 232;
+					break;
+				
+				case joaat("component_at_ar_flsh"):
+					return 233;
+					break;
+				
+				case joaat("component_at_sights_smg"):
+					return 234;
+					break;
+				
+				case joaat("component_at_scope_macro_02_smg_mk2"):
+					return 235;
+					break;
+				
+				case joaat("component_at_scope_small_smg_mk2"):
+					return 236;
+					break;
+				
+				case joaat("component_at_pi_supp"):
+					return 237;
+					break;
+				
+				case joaat("component_at_muzzle_01"):
+					return 238;
+					break;
+				
+				case joaat("component_at_muzzle_02"):
+					return 239;
+					break;
+				
+				case joaat("component_at_muzzle_03"):
+					return 240;
+					break;
+				
+				case joaat("component_at_muzzle_04"):
+					return 241;
+					break;
+				
+				case joaat("component_at_muzzle_05"):
+					return 242;
+					break;
+				
+				case joaat("component_at_muzzle_06"):
+					return 243;
+					break;
+				
+				case joaat("component_at_muzzle_07"):
+					return 244;
+					break;
+				
+				case joaat("component_at_sb_barrel_01"):
+					return 245;
+					break;
+				
+				case joaat("component_at_sb_barrel_02"):
+					return 246;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO"):
+					return 378;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_02"):
+					return 379;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_03"):
+					return 380;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_04"):
+					return 381;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_05"):
+					return 382;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_06"):
+					return 383;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_07"):
+					return 384;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_08"):
+					return 385;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_09"):
+					return 386;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_10"):
+					return 387;
+					break;
+				
+				case joaat("COMPONENT_SMG_MK2_CAMO_IND_01"):
+					return 388;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_heavysniper_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_heavysniper_mk2_clip_01"):
+					return 247;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_02"):
+					return 248;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_armorpiercing"):
+					return 249;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_explosive"):
+					return 250;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_fmj"):
+					return 251;
+					break;
+				
+				case joaat("component_heavysniper_mk2_clip_incendiary"):
+					return 252;
+					break;
+				
+				case joaat("component_at_scope_large"):
+					return 253;
+					break;
+				
+				case joaat("component_at_scope_max"):
+					return 254;
+					break;
+				
+				case joaat("component_at_scope_nv"):
+					return 255;
+					break;
+				
+				case joaat("component_at_scope_thermal"):
+					return 256;
+					break;
+				
+				case joaat("component_at_sr_supp_03"):
+					return 257;
+					break;
+				
+				case joaat("component_at_muzzle_08"):
+					return 258;
+					break;
+				
+				case joaat("component_at_muzzle_09"):
+					return 259;
+					break;
+				
+				case joaat("component_at_sr_barrel_01"):
+					return 260;
+					break;
+				
+				case joaat("component_at_sr_barrel_02"):
+					return 261;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO"):
+					return 356;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_02"):
+					return 357;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_03"):
+					return 358;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_04"):
+					return 359;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_05"):
+					return 360;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_06"):
+					return 361;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_07"):
+					return 362;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_08"):
+					return 363;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_09"):
+					return 364;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_10"):
+					return 365;
+					break;
+				
+				case joaat("COMPONENT_HEAVYSNIPER_MK2_CAMO_IND_01"):
+					return 366;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_combatmg_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_combatmg_mk2_clip_01"):
+					return 262;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_02"):
+					return 263;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_armorpiercing"):
+					return 264;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_fmj"):
+					return 265;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_incendiary"):
+					return 266;
+					break;
+				
+				case joaat("component_combatmg_mk2_clip_tracer"):
+					return 267;
+					break;
+				
+				case joaat("component_at_ar_afgrip_02"):
+					return 268;
+					break;
+				
+				case joaat("component_at_sights"):
+					return 269;
+					break;
+				
+				case joaat("component_at_scope_small_mk2"):
+					return 270;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 271;
+					break;
+				
+				case joaat("component_at_muzzle_01"):
+					return 272;
+					break;
+				
+				case joaat("component_at_muzzle_02"):
+					return 273;
+					break;
+				
+				case joaat("component_at_muzzle_03"):
+					return 274;
+					break;
+				
+				case joaat("component_at_muzzle_04"):
+					return 275;
+					break;
+				
+				case joaat("component_at_muzzle_05"):
+					return 276;
+					break;
+				
+				case joaat("component_at_muzzle_06"):
+					return 277;
+					break;
+				
+				case joaat("component_at_muzzle_07"):
+					return 278;
+					break;
+				
+				case joaat("component_at_mg_barrel_01"):
+					return 279;
+					break;
+				
+				case joaat("component_at_mg_barrel_02"):
+					return 280;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO"):
+					return 345;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_02"):
+					return 346;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_03"):
+					return 347;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_04"):
+					return 348;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_05"):
+					return 349;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_06"):
+					return 350;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_07"):
+					return 351;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_08"):
+					return 352;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_09"):
+					return 353;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_10"):
+					return 354;
+					break;
+				
+				case joaat("COMPONENT_COMBATMG_MK2_CAMO_IND_01"):
+					return 355;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_assaultrifle_mk2_clip_01"):
+					return 281;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_02"):
+					return 282;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_armorpiercing"):
+					return 283;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_fmj"):
+					return 284;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_incendiary"):
+					return 285;
+					break;
+				
+				case joaat("component_assaultrifle_mk2_clip_tracer"):
+					return 286;
+					break;
+				
+				case joaat("component_at_ar_afgrip_02"):
+					return 287;
+					break;
+				
+				case joaat("component_at_ar_flsh"):
+					return 288;
+					break;
+				
+				case joaat("component_at_sights"):
+					return 289;
+					break;
+				
+				case joaat("component_at_scope_macro_mk2"):
+					return 290;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 291;
+					break;
+				
+				case joaat("component_at_ar_supp_02"):
+					return 292;
+					break;
+				
+				case joaat("component_at_muzzle_01"):
+					return 293;
+					break;
+				
+				case joaat("component_at_muzzle_02"):
+					return 294;
+					break;
+				
+				case joaat("component_at_muzzle_03"):
+					return 295;
+					break;
+				
+				case joaat("component_at_muzzle_04"):
+					return 296;
+					break;
+				
+				case joaat("component_at_muzzle_05"):
+					return 297;
+					break;
+				
+				case joaat("component_at_muzzle_06"):
+					return 298;
+					break;
+				
+				case joaat("component_at_muzzle_07"):
+					return 299;
+					break;
+				
+				case joaat("component_at_ar_barrel_01"):
+					return 300;
+					break;
+				
+				case joaat("component_at_ar_barrel_02"):
+					return 301;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO"):
+					return 323;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_02"):
+					return 324;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_03"):
+					return 325;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_04"):
+					return 326;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_05"):
+					return 327;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_06"):
+					return 328;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_07"):
+					return 329;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_08"):
+					return 330;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_09"):
+					return 331;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_10"):
+					return 332;
+					break;
+				
+				case joaat("COMPONENT_ASSAULTRIFLE_MK2_CAMO_IND_01"):
+					return 333;
+					break;
+			}
+			break;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			switch (iParam0)
+			{
+				case joaat("component_carbinerifle_mk2_clip_01"):
+					return 302;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_02"):
+					return 303;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_armorpiercing"):
+					return 304;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_fmj"):
+					return 305;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_incendiary"):
+					return 306;
+					break;
+				
+				case joaat("component_carbinerifle_mk2_clip_tracer"):
+					return 307;
+					break;
+				
+				case joaat("component_at_ar_afgrip_02"):
+					return 308;
+					break;
+				
+				case joaat("component_at_ar_flsh"):
+					return 309;
+					break;
+				
+				case joaat("component_at_sights"):
+					return 310;
+					break;
+				
+				case joaat("component_at_scope_macro_mk2"):
+					return 311;
+					break;
+				
+				case joaat("component_at_scope_medium_mk2"):
+					return 312;
+					break;
+				
+				case joaat("component_at_ar_supp"):
+					return 313;
+					break;
+				
+				case joaat("component_at_muzzle_01"):
+					return 314;
+					break;
+				
+				case joaat("component_at_muzzle_02"):
+					return 315;
+					break;
+				
+				case joaat("component_at_muzzle_03"):
+					return 316;
+					break;
+				
+				case joaat("component_at_muzzle_04"):
+					return 317;
+					break;
+				
+				case joaat("component_at_muzzle_05"):
+					return 318;
+					break;
+				
+				case joaat("component_at_muzzle_06"):
+					return 319;
+					break;
+				
+				case joaat("component_at_muzzle_07"):
+					return 320;
+					break;
+				
+				case joaat("component_at_cr_barrel_01"):
+					return 321;
+					break;
+				
+				case joaat("component_at_cr_barrel_02"):
+					return 322;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO"):
+					return 334;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_02"):
+					return 335;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_03"):
+					return 336;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_04"):
+					return 337;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_05"):
+					return 338;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_06"):
+					return 339;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_07"):
+					return 340;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_08"):
+					return 341;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_09"):
+					return 342;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_10"):
+					return 343;
+					break;
+				
+				case joaat("COMPONENT_CARBINERIFLE_MK2_CAMO_IND_01"):
+					return 344;
+					break;
+			}
+			break;
 	}
 	return 0;
 }
 
-var func_52(int iParam0, int iParam1, int iParam2)
+var func_56(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	
-	uVar0 = func_34(func_53(iParam0, iParam1), iParam2, 0);
+	uVar0 = func_34(func_57(iParam0, iParam1), iParam2, 0);
 	return uVar0;
 }
 
-int func_53(int iParam0, int iParam1)
+int func_57(int iParam0, int iParam1)
 {
 	int iVar0;
 	int iVar1;
 	
-	iVar0 = func_50(iParam0, iParam1);
+	iVar0 = func_54(iParam0, iParam1);
 	iVar1 = func_38(iVar0);
-	if ((func_139() == 0 || func_37() == 0) || (func_139() == 999 && func_37() == 999))
+	if ((func_146() == 0 || func_37() == 0) || (func_146() == 999 && func_37() == 999))
 	{
 		switch (iVar1)
 		{
 			case 0:
-				return 805;
+				return 677;
 				break;
 			
 			case 1:
-				return 806;
+				return 678;
 				break;
 			
 			case 2:
-				return 807;
+				return 679;
 				break;
 			
 			case 3:
-				return 808;
+				return 680;
 				break;
 			
 			case 4:
@@ -4821,83 +6406,44 @@ int func_53(int iParam0, int iParam1)
 				break;
 			
 			case 5:
-				return 2415;
+				return 2417;
 				break;
 			
 			case 6:
-				return 2807;
+				return 2809;
+				break;
+			
+			case 7:
+				return 5473;
+				break;
+			
+			case 8:
+				return 5477;
+				break;
+			
+			case 9:
+				return 5481;
+			
+			case 10:
+				return 5594;
+			
+			case 11:
+				return 5598;
+				break;
+			
+			case 12:
+				return 5602;
+				break;
+			
+			case 13:
+				return 5606;
 				break;
 			}
 	}
-	return 6022;
+	return 1745;
 }
 
-bool func_54(int iParam0, int iParam1, int iParam2)
-{
-	var uVar0;
-	int iVar1;
-	
-	if (func_41())
-	{
-		return 0;
-	}
-	uVar0 = func_55(iParam0, iParam1, iParam2);
-	iVar1 = func_50(iParam0, iParam1);
-	return unk_0x48B8265059381CD0(uVar0, func_30(iVar1));
-}
-
-var func_55(int iParam0, int iParam1, int iParam2)
-{
-	var uVar0;
-	
-	uVar0 = func_34(func_56(iParam0, iParam1), iParam2, 0);
-	return uVar0;
-}
-
-int func_56(int iParam0, int iParam1)
-{
-	int iVar0;
-	int iVar1;
-	
-	iVar0 = func_50(iParam0, iParam1);
-	iVar1 = func_38(iVar0);
-	if ((func_139() == 0 || func_37() == 0) || (func_139() == 999 && func_37() == 999))
-	{
-		switch (iVar1)
-		{
-			case 0:
-				return 676;
-				break;
-			
-			case 1:
-				return 677;
-				break;
-			
-			case 2:
-				return 678;
-				break;
-			
-			case 3:
-				return 679;
-				break;
-			
-			case 4:
-				return 1744;
-				break;
-			
-			case 5:
-				return 2414;
-				break;
-			
-			case 6:
-				return 2806;
-				break;
-			}
-	}
-	return 1744;
-}
-
-char* func_57(int iParam0, int iParam1)
+char* func_58(int iParam0, int iParam1)
 {
 	int iVar0;
 	int iVar1;
@@ -4952,7 +6498,7 @@ char* func_57(int iParam0, int iParam1)
 	switch (iParam0)
 	{
 		case 0:
-			return "WCT_INVALID";
+			return "WCT_NONE";
 			break;
 		
 		case joaat("component_at_railcover_01"):
@@ -5339,6 +6885,10 @@ char* func_57(int iParam0, int iParam1)
 			return "WCT_CLIP_DRM";
 			break;
 		
+		case joaat("component_gunrun_mk2_upgrade"):
+			return "WCD_VAR_GUN";
+			break;
+		
 		default:
 			if (iParam1 != 0)
 			{
@@ -5346,9 +6896,9 @@ char* func_57(int iParam0, int iParam1)
 				if (iVar0 != -1)
 				{
 					iVar1 = 0;
-					while (iVar1 < unk_0x7DCA7EA2B13F77EF(iVar0))
+					while (iVar1 < unk_0xE4DF013DB87812E6(iVar0))
 					{
-						if (unk_0x94C9039E2251B8A8(iVar0, iVar1, &Var41))
+						if (unk_0x5D038A5F54FB9F50(iVar0, iVar1, &Var41))
 						{
 							if (Var41.f_3 == iParam0)
 							{
@@ -5364,108 +6914,136 @@ char* func_57(int iParam0, int iParam1)
 	return "WCT_INVALID";
 }
 
-void func_58(int iParam0, int iParam1, bool bParam2)
+void func_59(int iParam0, int iParam1, bool bParam2)
 {
 	if (bParam2)
 	{
-		if (!func_63(iParam0, iParam1, -1))
+		if (!func_64(iParam0, iParam1, -1))
 		{
-			func_59(iParam0, iParam1, 1);
+			func_60(iParam0, iParam1, 1);
 		}
 	}
-	else if (func_63(iParam0, iParam1, -1))
+	else if (func_64(iParam0, iParam1, -1))
 	{
-		func_59(iParam0, iParam1, 0);
+		func_60(iParam0, iParam1, 0);
 	}
 }
 
-void func_59(int iParam0, int iParam1, bool bParam2)
+void func_60(int iParam0, int iParam1, bool bParam2)
 {
 	var uVar0;
 	int iVar1;
 	
-	uVar0 = func_62(iParam0, iParam1, -1);
-	iVar1 = func_50(iParam0, iParam1);
+	uVar0 = func_63(iParam0, iParam1, -1);
+	iVar1 = func_54(iParam0, iParam1);
 	if (iVar1 > -1)
 	{
 		if (bParam2)
 		{
-			unk_0xEB79FECD9022AAF0(&uVar0, func_30(iVar1));
+			unk_0xF6082E2ADA1C795B(&uVar0, func_30(iVar1));
 		}
 		else
 		{
-			unk_0x21E7933CCC7B3724(&uVar0, func_30(iVar1));
+			unk_0x507FE690B1271947(&uVar0, func_30(iVar1));
 		}
-		func_60(func_61(iParam0, iParam1), uVar0, -1, 1, 0);
+		func_61(func_62(iParam0, iParam1), uVar0, -1, 1, 0);
 	}
 }
 
-void func_60(int iParam0, var uParam1, int iParam2, int iParam3, bool bParam4)
+void func_61(int iParam0, var uParam1, int iParam2, int iParam3, bool bParam4)
 {
 	int iVar0;
 	
 	if (bParam4)
 	{
 	}
-	iVar0 = Global_2503826[iParam0 /*3*/][func_35(iParam2)];
+	iVar0 = Global_2507378[iParam0 /*3*/][func_35(iParam2)];
 	if (iVar0 != 0)
 	{
-		unk_0x731753D8494ABECD(iVar0, uParam1, iParam3);
+		unk_0xC94674712BED1A82(iVar0, uParam1, iParam3);
 	}
 }
 
-int func_61(int iParam0, int iParam1)
+int func_62(int iParam0, int iParam1)
 {
 	int iVar0;
 	int iVar1;
 	
-	iVar0 = func_50(iParam0, iParam1);
+	iVar0 = func_54(iParam0, iParam1);
 	iVar1 = func_38(iVar0);
-	if ((func_139() == 0 || func_37() == 0) || (func_139() == 999 && func_37() == 999))
+	if ((func_146() == 0 || func_37() == 0) || (func_146() == 999 && func_37() == 999))
 	{
 		switch (iVar1)
 		{
 			case 0:
-				return 682;
-				break;
-			
-			case 1:
 				return 683;
 				break;
 			
-			case 2:
+			case 1:
 				return 684;
 				break;
 			
-			case 3:
+			case 2:
 				return 685;
 				break;
 			
+			case 3:
+				return 686;
+				break;
+			
 			case 4:
-				return 1747;
+				return 1748;
 				break;
 			
 			case 5:
-				return 2417;
+				return 2420;
 				break;
 			
 			case 6:
-				return 2809;
+				return 2812;
+				break;
+			
+			case 7:
+				return 5476;
+				break;
+			
+			case 8:
+				return 5480;
+				break;
+			
+			case 9:
+				return 5484;
+				break;
+			
+			case 10:
+				return 5597;
+				break;
+			
+			case 11:
+				return 5601;
+				break;
+			
+			case 12:
+				return 5605;
+				break;
+			
+			case 13:
+				return 5609;
 				break;
 			}
 	}
-	return 1747;
+	return 1748;
 }
 
-var func_62(int iParam0, int iParam1, int iParam2)
+var func_63(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	
-	uVar0 = func_34(func_61(iParam0, iParam1), iParam2, 0);
+	uVar0 = func_34(func_62(iParam0, iParam1), iParam2, 0);
 	return uVar0;
 }
 
-bool func_63(int iParam0, int iParam1, int iParam2)
+bool func_64(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	int iVar1;
@@ -5474,135 +7052,72 @@ bool func_63(int iParam0, int iParam1, int iParam2)
 	{
 		return 0;
 	}
-	uVar0 = func_62(iParam0, iParam1, iParam2);
-	iVar1 = func_50(iParam0, iParam1);
-	return unk_0x48B8265059381CD0(uVar0, func_30(iVar1));
-}
-
-void func_64(int iParam0, int iParam1, bool bParam2)
-{
-	if (bParam2)
-	{
-		if (!func_49(iParam0, iParam1, -1))
-		{
-			func_65(iParam0, iParam1, 1);
-		}
-	}
-	else if (func_49(iParam0, iParam1, -1))
-	{
-		func_65(iParam0, iParam1, 0);
-	}
+	uVar0 = func_63(iParam0, iParam1, iParam2);
+	iVar1 = func_54(iParam0, iParam1);
+	return unk_0xAA4F14DA15DB0B51(uVar0, func_30(iVar1));
 }
 
 void func_65(int iParam0, int iParam1, bool bParam2)
 {
-	var uVar0;
-	int iVar1;
-	
-	uVar0 = func_52(iParam0, iParam1, -1);
-	iVar1 = func_50(iParam0, iParam1);
-	if (iVar1 > -1)
-	{
-		if (bParam2)
-		{
-			unk_0xEB79FECD9022AAF0(&uVar0, func_30(iVar1));
-		}
-		else
-		{
-			unk_0x21E7933CCC7B3724(&uVar0, func_30(iVar1));
-		}
-		func_60(func_53(iParam0, iParam1), uVar0, -1, 1, 0);
-	}
-}
-
-void func_66(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam4)
-{
 	if (bParam2)
 	{
-		if (!func_54(iParam0, iParam1, -1))
+		if (!func_94(iParam0, iParam1, -1))
 		{
-			func_81(iParam0, iParam1, 1);
-		}
-		if (bParam3)
-		{
-			if (func_79(iParam0, iParam1) == 0)
-			{
-				func_74(16, func_57(iParam0, 0), func_78(iParam0, 0), func_77(iParam1), func_76(iParam1), -1, 0, 0, 0, -1);
-				func_72(iParam0, iParam1, 1);
-			}
-		}
-		if (bParam4)
-		{
-			func_67(iParam0, iParam1, 1);
+			func_66(iParam0, iParam1, 1);
 		}
 	}
-	else if (func_54(iParam0, iParam1, -1))
+	else if (func_94(iParam0, iParam1, -1))
 	{
-		func_81(iParam0, iParam1, 0);
+		func_66(iParam0, iParam1, 0);
 	}
 }
 
-void func_67(int iParam0, int iParam1, bool bParam2)
-{
-	if (bParam2)
-	{
-		if (!func_71(iParam0, iParam1, -1))
-		{
-			func_68(iParam0, iParam1, 1);
-		}
-	}
-	else if (func_71(iParam0, iParam1, -1))
-	{
-		func_68(iParam0, iParam1, 0);
-	}
-}
-
-void func_68(int iParam0, int iParam1, bool bParam2)
+void func_66(int iParam0, int iParam1, bool bParam2)
 {
 	var uVar0;
 	int iVar1;
 	
-	uVar0 = func_70(iParam0, iParam1, -1);
-	iVar1 = func_50(iParam0, iParam1);
+	uVar0 = func_68(iParam0, iParam1, -1);
+	iVar1 = func_54(iParam0, iParam1);
 	if (iVar1 > -1)
 	{
 		if (bParam2)
 		{
-			unk_0xEB79FECD9022AAF0(&uVar0, func_30(iVar1));
+			unk_0xF6082E2ADA1C795B(&uVar0, func_30(iVar1));
 		}
 		else
 		{
-			unk_0x21E7933CCC7B3724(&uVar0, func_30(iVar1));
+			unk_0x507FE690B1271947(&uVar0, func_30(iVar1));
 		}
-		func_60(func_69(iParam0, iParam1), uVar0, -1, 1, 0);
+		func_61(func_67(iParam0, iParam1), uVar0, -1, 1, 0);
 	}
 }
 
-int func_69(int iParam0, int iParam1)
+int func_67(int iParam0, int iParam1)
 {
 	int iVar0;
 	int iVar1;
 	
-	iVar0 = func_50(iParam0, iParam1);
+	iVar0 = func_54(iParam0, iParam1);
 	iVar1 = func_38(iVar0);
-	if ((func_139() == 0 || func_37() == 0) || (func_139() == 999 && func_37() == 999))
+	if ((func_146() == 0 || func_37() == 0) || (func_146() == 999 && func_37() == 999))
 	{
 		switch (iVar1)
 		{
 			case 0:
-				return 649;
+				return 806;
 				break;
 			
 			case 1:
-				return 650;
+				return 807;
 				break;
 			
 			case 2:
-				return 651;
+				return 808;
 				break;
 			
 			case 3:
-				return 652;
+				return 809;
 				break;
 			
 			case 4:
@@ -5610,26 +7125,196 @@ int func_69(int iParam0, int iParam1)
 				break;
 			
 			case 5:
-				return 2416;
+				return 2418;
 				break;
 			
 			case 6:
-				return 2808;
+				return 2810;
+				break;
+			
+			case 7:
+				return 5474;
+				break;
+			
+			case 8:
+				return 5478;
+				break;
+			
+			case 9:
+				return 5482;
+				break;
+			
+			case 10:
+				return 5595;
+				break;
+			
+			case 11:
+				return 5599;
+				break;
+			
+			case 12:
+				return 5603;
+				break;
+			
+			case 13:
+				return 5607;
 				break;
 			}
 	}
-	return 6022;
+	return 6309;
 }
 
-var func_70(int iParam0, int iParam1, int iParam2)
+var func_68(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	
-	uVar0 = func_34(func_69(iParam0, iParam1), iParam2, 0);
+	uVar0 = func_34(func_67(iParam0, iParam1), iParam2, 0);
 	return uVar0;
 }
 
-bool func_71(int iParam0, int iParam1, int iParam2)
+void func_69(int iParam0, int iParam1, bool bParam2, bool bParam3, bool bParam4)
+{
+	if (bParam2)
+	{
+		if (!func_53(iParam0, iParam1, -1))
+		{
+			func_84(iParam0, iParam1, 1);
+		}
+		if (bParam3)
+		{
+			if (func_82(iParam0, iParam1) == 0)
+			{
+				func_77(16, func_58(iParam0, 0), func_81(iParam0, 0), func_80(iParam1), func_79(iParam1), -1, 0, 0, 0, -1, 0);
+				func_75(iParam0, iParam1, 1);
+			}
+		}
+		if (bParam4)
+		{
+			func_70(iParam0, iParam1, 1);
+		}
+	}
+	else if (func_53(iParam0, iParam1, -1))
+	{
+		func_84(iParam0, iParam1, 0);
+	}
+}
+
+void func_70(int iParam0, int iParam1, bool bParam2)
+{
+	if (bParam2)
+	{
+		if (!func_74(iParam0, iParam1, -1))
+		{
+			func_71(iParam0, iParam1, 1);
+		}
+	}
+	else if (func_74(iParam0, iParam1, -1))
+	{
+		func_71(iParam0, iParam1, 0);
+	}
+}
+
+void func_71(int iParam0, int iParam1, bool bParam2)
+{
+	var uVar0;
+	int iVar1;
+	
+	uVar0 = func_73(iParam0, iParam1, -1);
+	iVar1 = func_54(iParam0, iParam1);
+	if (iVar1 > -1)
+	{
+		if (bParam2)
+		{
+			unk_0xF6082E2ADA1C795B(&uVar0, func_30(iVar1));
+		}
+		else
+		{
+			unk_0x507FE690B1271947(&uVar0, func_30(iVar1));
+		}
+		func_61(func_72(iParam0, iParam1), uVar0, -1, 1, 0);
+	}
+}
+
+int func_72(int iParam0, int iParam1)
+{
+	int iVar0;
+	int iVar1;
+	
+	iVar0 = func_54(iParam0, iParam1);
+	iVar1 = func_38(iVar0);
+	if ((func_146() == 0 || func_37() == 0) || (func_146() == 999 && func_37() == 999))
+	{
+		switch (iVar1)
+		{
+			case 0:
+				return 650;
+				break;
+			
+			case 1:
+				return 651;
+				break;
+			
+			case 2:
+				return 652;
+				break;
+			
+			case 3:
+				return 653;
+				break;
+			
+			case 4:
+				return 1747;
+				break;
+			
+			case 5:
+				return 2419;
+				break;
+			
+			case 6:
+				return 2811;
+				break;
+			
+			case 7:
+				return 5475;
+				break;
+			
+			case 8:
+				return 5479;
+				break;
+			
+			case 9:
+				return 5483;
+				break;
+			
+			case 10:
+				return 5596;
+				break;
+			
+			case 11:
+				return 5600;
+				break;
+			
+			case 12:
+				return 5604;
+				break;
+			
+			case 13:
+				return 5608;
+				break;
+			}
+	}
+	return 6309;
+}
+
+var func_73(int iParam0, int iParam1, int iParam2)
+{
+	var uVar0;
+	
+	uVar0 = func_34(func_72(iParam0, iParam1), iParam2, 0);
+	return uVar0;
+}
+
+bool func_74(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	int iVar1;
@@ -5638,34 +7323,34 @@ bool func_71(int iParam0, int iParam1, int iParam2)
 	{
 		return 0;
 	}
-	uVar0 = func_70(iParam0, iParam1, iParam2);
-	iVar1 = func_50(iParam0, iParam1);
-	return unk_0x48B8265059381CD0(uVar0, func_30(iVar1));
+	uVar0 = func_73(iParam0, iParam1, iParam2);
+	iVar1 = func_54(iParam0, iParam1);
+	return unk_0xAA4F14DA15DB0B51(uVar0, func_30(iVar1));
 }
 
-void func_72(int iParam0, int iParam1, bool bParam2)
+void func_75(int iParam0, int iParam1, bool bParam2)
 {
 	int iVar0;
 	
-	iVar0 = func_50(iParam0, iParam1);
+	iVar0 = func_54(iParam0, iParam1);
 	if (iVar0 > -1)
 	{
 		if (bParam2)
 		{
-			unk_0xEB79FECD9022AAF0(&(Global_2502458.f_991[func_73(iParam0, iParam1)]), func_30(iVar0));
+			unk_0xF6082E2ADA1C795B(&(Global_2506010.f_991[func_76(iParam0, iParam1)]), func_30(iVar0));
 		}
 		else
 		{
-			unk_0x21E7933CCC7B3724(&(Global_2502458.f_991[func_73(iParam0, iParam1)]), func_30(iVar0));
+			unk_0x507FE690B1271947(&(Global_2506010.f_991[func_76(iParam0, iParam1)]), func_30(iVar0));
 		}
 	}
 }
 
-int func_73(int iParam0, int iParam1)
+int func_76(int iParam0, int iParam1)
 {
 	int iVar0;
 	
-	iVar0 = func_50(iParam0, iParam1);
+	iVar0 = func_54(iParam0, iParam1);
 	switch (func_38(iVar0))
 	{
 		case 0:
@@ -5691,35 +7376,62 @@ int func_73(int iParam0, int iParam1)
 		
 		case 6:
 			return 6;
+		
+		case 7:
+			return 7;
+			break;
+		
+		case 8:
+			return 8;
+			break;
+		
+		case 9:
+			return 9;
+		
+		case 10:
+			return 10;
+		
+		case 11:
+			return 11;
+			break;
+		
+		case 12:
+			return 12;
+			break;
+		
+		case 13:
+			return 13;
+			break;
 	}
 	return 0;
 }
 
-void func_74(int iParam0, char* sParam1, char* sParam2, char* sParam3, char* sParam4, int iParam5, int iParam6, int iParam7, char* sParam8, int iParam9)
+void func_77(int iParam0, char* sParam1, char* sParam2, char* sParam3, char* sParam4, int iParam5, int iParam6, int iParam7, char* sParam8, int iParam9, int iParam10)
 {
 	int iVar0;
 	
-	iVar0 = func_75(&Global_1360303);
-	Global_1360303[iVar0 /*105*/] = iParam0;
-	StringCopy(&(Global_1360303[iVar0 /*105*/].f_17), sParam3, 64);
-	StringCopy(&(Global_1360303[iVar0 /*105*/].f_1), sParam4, 64);
-	StringCopy(&(Global_1360303[iVar0 /*105*/].f_33), sParam1, 64);
-	StringCopy(&(Global_1360303[iVar0 /*105*/].f_49), sParam2, 64);
-	Global_1360303[iVar0 /*105*/].f_97 = iParam5;
-	Global_1360303[iVar0 /*105*/].f_104 = iParam9;
+	iVar0 = func_78(&Global_1359012);
+	Global_1359012[iVar0 /*106*/] = iParam0;
+	StringCopy(&(Global_1359012[iVar0 /*106*/].f_17), sParam3, 64);
+	StringCopy(&(Global_1359012[iVar0 /*106*/].f_1), sParam4, 64);
+	StringCopy(&(Global_1359012[iVar0 /*106*/].f_33), sParam1, 64);
+	StringCopy(&(Global_1359012[iVar0 /*106*/].f_49), sParam2, 64);
+	Global_1359012[iVar0 /*106*/].f_97 = iParam5;
+	Global_1359012[iVar0 /*106*/].f_104 = iParam9;
+	Global_1359012[iVar0 /*106*/].f_105 = iParam10;
 	if (iParam6 != 0)
 	{
 	}
 	if (iParam7 != 0)
 	{
 	}
-	if (!unk_0x9C88EB7B70229335(sParam8))
+	if (!unk_0x58478145CAF8429C(sParam8))
 	{
-		StringCopy(&(Global_1360303[iVar0 /*105*/].f_98), sParam8, 24);
+		StringCopy(&(Global_1359012[iVar0 /*106*/].f_98), sParam8, 24);
 	}
 }
 
-int func_75(var uParam0)
+int func_78(var uParam0)
 {
 	int iVar0;
 	int iVar1;
@@ -5727,7 +7439,7 @@ int func_75(var uParam0)
 	iVar1 = 0;
 	while (iVar1 <= 9)
 	{
-		if ((*uParam0)[iVar1 /*105*/] == 0)
+		if ((*uParam0)[iVar1 /*106*/] == 0)
 		{
 			iVar0 = iVar1;
 			iVar1 = 10;
@@ -5737,7 +7449,7 @@ int func_75(var uParam0)
 	return iVar0;
 }
 
-char* func_76(int iParam0)
+char* func_79(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -5864,7 +7576,7 @@ char* func_76(int iParam0)
 	return "";
 }
 
-char* func_77(int iParam0)
+char* func_80(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -5991,7 +7703,7 @@ char* func_77(int iParam0)
 	return "";
 }
 
-char* func_78(int iParam0, int iParam1)
+char* func_81(int iParam0, int iParam1)
 {
 	int iVar0;
 	int iVar1;
@@ -6001,7 +7713,7 @@ char* func_78(int iParam0, int iParam1)
 	switch (iParam0)
 	{
 		case 0:
-			return "WCD_INVALID";
+			return "WCD_NONE";
 			break;
 		
 		case joaat("component_at_railcover_01"):
@@ -6332,6 +8044,10 @@ char* func_78(int iParam0, int iParam1)
 			return "WCD_CLIP3";
 			break;
 		
+		case joaat("component_gunrun_mk2_upgrade"):
+			return "WCD_VAR_GUN";
+			break;
+		
 		default:
 			if (iParam1 != 0)
 			{
@@ -6339,9 +8055,9 @@ char* func_78(int iParam0, int iParam1)
 				if (iVar0 != -1)
 				{
 					iVar1 = 0;
-					while (iVar1 < unk_0x7DCA7EA2B13F77EF(iVar0))
+					while (iVar1 < unk_0xE4DF013DB87812E6(iVar0))
 					{
-						if (unk_0x94C9039E2251B8A8(iVar0, iVar1, &Var41))
+						if (unk_0x5D038A5F54FB9F50(iVar0, iVar1, &Var41))
 						{
 							if (Var41.f_3 == iParam0)
 							{
@@ -6357,51 +8073,53 @@ char* func_78(int iParam0, int iParam1)
 	return "WCD_INVALID";
 }
 
-bool func_79(int iParam0, int iParam1)
+bool func_82(int iParam0, int iParam1)
 {
 	var uVar0;
 	int iVar1;
 	
-	uVar0 = func_80(iParam0, iParam1);
-	iVar1 = func_50(iParam0, iParam1);
-	return unk_0x48B8265059381CD0(uVar0, func_30(iVar1));
+	uVar0 = func_83(iParam0, iParam1);
+	iVar1 = func_54(iParam0, iParam1);
+	return unk_0xAA4F14DA15DB0B51(uVar0, func_30(iVar1));
 }
 
-var func_80(int iParam0, int iParam1)
+var func_83(int iParam0, int iParam1)
 {
 	var uVar0;
 	
-	uVar0 = Global_2502458.f_991[func_73(iParam0, iParam1)];
+	uVar0 = Global_2506010.f_991[func_76(iParam0, iParam1)];
 	return uVar0;
 }
 
-void func_81(int iParam0, int iParam1, bool bParam2)
+void func_84(int iParam0, int iParam1, bool bParam2)
 {
 	var uVar0;
 	int iVar1;
 	
-	uVar0 = func_55(iParam0, iParam1, -1);
-	iVar1 = func_50(iParam0, iParam1);
+	uVar0 = func_56(iParam0, iParam1, -1);
+	iVar1 = func_54(iParam0, iParam1);
 	if (iVar1 > -1)
 	{
 		if (bParam2)
 		{
-			unk_0xEB79FECD9022AAF0(&uVar0, func_30(iVar1));
+			unk_0xF6082E2ADA1C795B(&uVar0, func_30(iVar1));
 		}
 		else
 		{
-			unk_0x21E7933CCC7B3724(&uVar0, func_30(iVar1));
+			unk_0x507FE690B1271947(&uVar0, func_30(iVar1));
 		}
-		func_60(func_56(iParam0, iParam1), uVar0, -1, 1, 0);
+		func_61(func_57(iParam0, iParam1), uVar0, -1, 1, 0);
 	}
 }
 
-int func_82(int iParam0, int iParam1)
+int func_85(int iParam0, int iParam1)
 {
 	int iVar0;
 	int iVar1;
-	var uVar2;
-	struct<4> Var41;
+	int iVar2;
+	int iVar3;
+	var uVar4;
+	struct<4> Var43;
 	
 	iVar0 = 0;
 	switch (iParam0)
@@ -6410,22 +8128,26 @@ int func_82(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = joaat("component_pistol_clip_01");
+					iVar0 = joaat("component_gunrun_mk2_upgrade");
 					break;
 				
 				case 1:
-					iVar0 = joaat("component_pistol_clip_02");
+					iVar0 = joaat("component_pistol_clip_01");
 					break;
 				
 				case 2:
-					iVar0 = joaat("component_at_pi_flsh");
+					iVar0 = joaat("component_pistol_clip_02");
 					break;
 				
 				case 3:
-					iVar0 = joaat("component_at_pi_supp_02");
+					iVar0 = joaat("component_at_pi_flsh");
 					break;
 				
 				case 4:
+					iVar0 = joaat("component_at_pi_supp_02");
+					break;
+				
+				case 5:
 					iVar0 = joaat("component_pistol_varmod_luxe");
 					break;
 			}
@@ -6514,34 +8236,38 @@ int func_82(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = joaat("component_smg_clip_01");
+					iVar0 = joaat("component_gunrun_mk2_upgrade");
 					break;
 				
 				case 1:
-					iVar0 = joaat("component_smg_clip_02");
+					iVar0 = joaat("component_smg_clip_01");
 					break;
 				
 				case 2:
-					iVar0 = joaat("component_smg_clip_03");
+					iVar0 = joaat("component_smg_clip_02");
 					break;
 				
 				case 3:
-					iVar0 = joaat("component_at_ar_flsh");
+					iVar0 = joaat("component_smg_clip_03");
 					break;
 				
 				case 4:
-					iVar0 = joaat("component_at_pi_supp");
+					iVar0 = joaat("component_at_ar_flsh");
 					break;
 				
 				case 5:
-					iVar0 = joaat("component_at_scope_macro_02");
+					iVar0 = joaat("component_at_pi_supp");
 					break;
 				
 				case 6:
-					iVar0 = joaat("component_at_ar_afgrip");
+					iVar0 = joaat("component_at_scope_macro_02");
 					break;
 				
 				case 7:
+					iVar0 = joaat("component_at_ar_afgrip");
+					break;
+				
+				case 8:
 					iVar0 = joaat("component_smg_varmod_luxe");
 					break;
 			}
@@ -6551,34 +8277,38 @@ int func_82(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = joaat("component_assaultrifle_clip_01");
+					iVar0 = joaat("component_gunrun_mk2_upgrade");
 					break;
 				
 				case 1:
-					iVar0 = joaat("component_assaultrifle_clip_02");
+					iVar0 = joaat("component_assaultrifle_clip_01");
 					break;
 				
 				case 2:
-					iVar0 = joaat("component_assaultrifle_clip_03");
+					iVar0 = joaat("component_assaultrifle_clip_02");
 					break;
 				
 				case 3:
-					iVar0 = joaat("component_at_ar_afgrip");
+					iVar0 = joaat("component_assaultrifle_clip_03");
 					break;
 				
 				case 4:
-					iVar0 = joaat("component_at_ar_flsh");
+					iVar0 = joaat("component_at_ar_afgrip");
 					break;
 				
 				case 5:
-					iVar0 = joaat("component_at_scope_macro");
+					iVar0 = joaat("component_at_ar_flsh");
 					break;
 				
 				case 6:
-					iVar0 = joaat("component_at_ar_supp_02");
+					iVar0 = joaat("component_at_scope_macro");
 					break;
 				
 				case 7:
+					iVar0 = joaat("component_at_ar_supp_02");
+					break;
+				
+				case 8:
 					iVar0 = joaat("component_assaultrifle_varmod_luxe");
 					break;
 			}
@@ -6588,38 +8318,42 @@ int func_82(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = joaat("component_carbinerifle_clip_01");
+					iVar0 = joaat("component_gunrun_mk2_upgrade");
 					break;
 				
 				case 1:
-					iVar0 = joaat("component_carbinerifle_clip_02");
+					iVar0 = joaat("component_carbinerifle_clip_01");
 					break;
 				
 				case 2:
-					iVar0 = joaat("component_carbinerifle_clip_03");
+					iVar0 = joaat("component_carbinerifle_clip_02");
 					break;
 				
 				case 3:
-					iVar0 = joaat("component_at_railcover_01");
+					iVar0 = joaat("component_carbinerifle_clip_03");
 					break;
 				
 				case 4:
-					iVar0 = joaat("component_at_ar_afgrip");
+					iVar0 = joaat("component_at_railcover_01");
 					break;
 				
 				case 5:
-					iVar0 = joaat("component_at_ar_flsh");
+					iVar0 = joaat("component_at_ar_afgrip");
 					break;
 				
 				case 6:
-					iVar0 = joaat("component_at_scope_medium");
+					iVar0 = joaat("component_at_ar_flsh");
 					break;
 				
 				case 7:
-					iVar0 = joaat("component_at_ar_supp");
+					iVar0 = joaat("component_at_scope_medium");
 					break;
 				
 				case 8:
+					iVar0 = joaat("component_at_ar_supp");
+					break;
+				
+				case 9:
 					iVar0 = joaat("component_carbinerifle_varmod_luxe");
 					break;
 			}
@@ -6683,22 +8417,26 @@ int func_82(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = joaat("component_combatmg_clip_01");
+					iVar0 = joaat("component_gunrun_mk2_upgrade");
 					break;
 				
 				case 1:
-					iVar0 = joaat("component_combatmg_clip_02");
+					iVar0 = joaat("component_combatmg_clip_01");
 					break;
 				
 				case 2:
-					iVar0 = joaat("component_at_ar_afgrip");
+					iVar0 = joaat("component_combatmg_clip_02");
 					break;
 				
 				case 3:
-					iVar0 = joaat("component_at_scope_medium");
+					iVar0 = joaat("component_at_ar_afgrip");
 					break;
 				
 				case 4:
+					iVar0 = joaat("component_at_scope_medium");
+					break;
+				
+				case 5:
 					iVar0 = joaat("component_combatmg_varmod_lowrider");
 					break;
 			}
@@ -6775,14 +8513,18 @@ int func_82(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					iVar0 = joaat("component_heavysniper_clip_01");
+					iVar0 = joaat("component_gunrun_mk2_upgrade");
 					break;
 				
 				case 1:
-					iVar0 = joaat("component_at_scope_large");
+					iVar0 = joaat("component_heavysniper_clip_01");
 					break;
 				
 				case 2:
+					iVar0 = joaat("component_at_scope_large");
+					break;
+				
+				case 3:
 					iVar0 = joaat("component_at_scope_max");
 					break;
 			}
@@ -7118,15 +8860,24 @@ int func_82(int iParam0, int iParam1)
 		default:
 			if (iParam0 != 0)
 			{
-				iVar1 = func_28(iParam0, &uVar2);
+				iVar1 = func_28(iParam0, &uVar4);
 				if (iVar1 != -1)
 				{
-					if (iParam1 < unk_0x7DCA7EA2B13F77EF(iVar1))
+					iVar2 = 0;
+					while (iVar2 < unk_0xE4DF013DB87812E6(iVar1))
 					{
-						if (unk_0x94C9039E2251B8A8(iVar1, iParam1, &Var41))
+						if (unk_0x5D038A5F54FB9F50(iVar1, iVar2, &Var43))
 						{
-							return Var41.f_3;
+							if (!func_86(Var43.f_3))
+							{
+								if (iVar3 == iParam1)
+								{
+									return Var43.f_3;
+								}
+								iVar3++;
+							}
 						}
+						iVar2++;
 					}
 				}
 			}
@@ -7135,7 +8886,28 @@ int func_82(int iParam0, int iParam1)
 	return iVar0;
 }
 
-bool func_83(int iParam0, int iParam1, int iParam2)
+int func_86(int iParam0)
+{
+	switch (iParam0)
+	{
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_02_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_03_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_04_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_05_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_06_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_07_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_08_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_09_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_10_SLIDE"):
+		case joaat("COMPONENT_PISTOL_MK2_CAMO_IND_01_SLIDE"):
+			return 1;
+			break;
+	}
+	return 0;
+}
+
+bool func_87(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	int iVar1;
@@ -7147,47 +8919,47 @@ bool func_83(int iParam0, int iParam1, int iParam2)
 	{
 		return 0;
 	}
-	uVar0 = func_84(iParam0, iParam1);
+	uVar0 = func_88(iParam0, iParam1);
 	iVar1 = func_31(iParam0);
-	return unk_0x48B8265059381CD0(uVar0, func_30(iVar1));
+	return unk_0xAA4F14DA15DB0B51(uVar0, func_30(iVar1));
 }
 
-var func_84(int iParam0, int iParam1)
+var func_88(int iParam0, int iParam1)
 {
 	var uVar0;
 	
-	uVar0 = func_34(func_85(iParam0), iParam1, 0);
+	uVar0 = func_34(func_89(iParam0), iParam1, 0);
 	return uVar0;
 }
 
-int func_85(int iParam0)
+int func_89(int iParam0)
 {
 	int iVar0;
 	int iVar1;
 	
 	iVar0 = func_31(iParam0);
 	iVar1 = func_38(iVar0);
-	if ((func_139() == 0 || func_37() == 0) || (func_139() == 999 && func_37() == 999))
+	if ((func_146() == 0 || func_37() == 0) || (func_146() == 999 && func_37() == 999))
 	{
 		switch (iVar1)
 		{
 			case 0:
-				return 674;
-				break;
-			
-			case 1:
 				return 675;
 				break;
 			
+			case 1:
+				return 676;
+				break;
+			
 			case 2:
-				return 2409;
+				return 2412;
 				break;
 			}
 	}
-	return 6022;
+	return 6309;
 }
 
-bool func_86(int iParam0, int iParam1, int iParam2)
+bool func_90(int iParam0, int iParam1, int iParam2)
 {
 	var uVar0;
 	int iVar1;
@@ -7203,54 +8975,54 @@ bool func_86(int iParam0, int iParam1, int iParam2)
 	{
 		return 0;
 	}
-	if (iParam0 != joaat("gadget_parachute"))
+	if (iParam0 != joaat("gadget_parachute") && iParam0 != joaat("weapon_railgun"))
 	{
-		if (func_39(func_89(iParam0), -1))
+		if (func_39(func_93(iParam0), -1))
 		{
 			return 0;
 		}
 	}
-	uVar0 = func_87(iParam0, iParam1);
+	uVar0 = func_91(iParam0, iParam1);
 	iVar1 = func_31(iParam0);
-	return unk_0x48B8265059381CD0(uVar0, func_30(iVar1));
+	return unk_0xAA4F14DA15DB0B51(uVar0, func_30(iVar1));
 }
 
-var func_87(int iParam0, int iParam1)
+var func_91(int iParam0, int iParam1)
 {
 	var uVar0;
 	
-	uVar0 = func_34(func_88(iParam0), iParam1, 0);
+	uVar0 = func_34(func_92(iParam0), iParam1, 0);
 	return uVar0;
 }
 
-int func_88(int iParam0)
+int func_92(int iParam0)
 {
 	int iVar0;
 	int iVar1;
 	
 	iVar0 = func_31(iParam0);
 	iVar1 = func_38(iVar0);
-	if ((func_139() == 0 || func_37() == 0) || (func_139() == 999 && func_37() == 999))
+	if ((func_146() == 0 || func_37() == 0) || (func_146() == 999 && func_37() == 999))
 	{
 		switch (iVar1)
 		{
 			case 0:
-				return 794;
-				break;
-			
-			case 1:
 				return 795;
 				break;
 			
+			case 1:
+				return 796;
+				break;
+			
 			case 2:
-				return 2400;
+				return 2403;
 				break;
 			}
 	}
-	return 6022;
+	return 6309;
 }
 
-int func_89(int iParam0)
+int func_93(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -7403,7 +9175,7 @@ int func_89(int iParam0)
 			break;
 		
 		case joaat("weapon_specialcarbine"):
-			return 211;
+			return 214;
 			break;
 		
 		case joaat("weapon_snspistol"):
@@ -7411,326 +9183,431 @@ int func_89(int iParam0)
 			break;
 		
 		case joaat("weapon_heavypistol"):
-			return 209;
+			return 212;
 			break;
 		
 		case joaat("weapon_bullpuprifle"):
-			return 213;
+			return 216;
 			break;
 		
 		case joaat("weapon_gusenberg"):
-			return 215;
+			return 218;
 			break;
 		
 		case joaat("weapon_dagger"):
-			return 236;
+			return 239;
 			break;
 		
 		case joaat("weapon_vintagepistol"):
-			return 238;
+			return 241;
 			break;
 		
 		case joaat("weapon_firework"):
-			return 240;
+			return 243;
 			break;
 		
 		case joaat("weapon_musket"):
-			return 242;
+			return 245;
 			break;
 		
 		case joaat("weapon_heavyshotgun"):
-			return 254;
+			return 257;
 			break;
 		
 		case joaat("weapon_marksmanrifle"):
-			return 256;
+			return 259;
 			break;
 		
 		case joaat("weapon_proxmine"):
-			return 260;
+			return 263;
 			break;
 		
 		case joaat("weapon_hominglauncher"):
-			return 262;
+			return 265;
 			break;
 		
 		case joaat("weapon_combatpdw"):
-			return 264;
+			return 267;
 			break;
 		
 		case joaat("weapon_knuckle"):
-			return 266;
+			return 269;
 			break;
 		
 		case joaat("weapon_marksmanpistol"):
-			return 268;
+			return 271;
 			break;
 		
 		case joaat("weapon_hatchet"):
-			return 258;
+			return 261;
 			break;
 		
 		case joaat("weapon_machete"):
-			return 270;
+			return 273;
 			break;
 		
 		case joaat("weapon_machinepistol"):
-			return 272;
-			break;
-		
-		case joaat("weapon_compactrifle"):
 			return 275;
 			break;
 		
+		case joaat("weapon_compactrifle"):
+			return 278;
+			break;
+		
 		case joaat("weapon_dbshotgun"):
-			return 277;
+			return 280;
 			break;
 		
 		case joaat("weapon_flashlight"):
-			return 279;
-			break;
-		
-		case joaat("weapon_revolver"):
 			return 282;
 			break;
 		
+		case joaat("weapon_revolver"):
+			return 285;
+			break;
+		
 		case joaat("weapon_switchblade"):
-			return 284;
+			return 287;
 			break;
 		
 		case joaat("weapon_autoshotgun"):
-			return 289;
+			return 292;
 			break;
 		
 		case joaat("weapon_minismg"):
-			return 295;
+			return 298;
 			break;
 		
 		case joaat("weapon_compactlauncher"):
-			return 293;
+			return 296;
 			break;
 		
 		case joaat("weapon_battleaxe"):
-			return 291;
+			return 294;
 			break;
 		
 		case joaat("weapon_pipebomb"):
-			return 297;
+			return 300;
 			break;
 		
 		case joaat("weapon_poolcue"):
-			return 299;
+			return 302;
 			break;
 		
 		case joaat("weapon_wrench"):
 			return 10;
 			break;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return 32;
+			break;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return 34;
+			break;
+		
+		case joaat("weapon_combatmg_mk2"):
+			return 40;
+			break;
+		
+		case joaat("weapon_heavysniper_mk2"):
+			return 56;
+			break;
+		
+		case joaat("weapon_pistol_mk2"):
+			return 18;
+			break;
+		
+		case joaat("weapon_smg_mk2"):
+			return 28;
+			break;
 	}
 	return 2;
 }
 
-int func_90(var uParam0)
+bool func_94(int iParam0, int iParam1, int iParam2)
+{
+	var uVar0;
+	int iVar1;
+	
+	if (func_41())
+	{
+		return 0;
+	}
+	uVar0 = func_68(iParam0, iParam1, iParam2);
+	iVar1 = func_54(iParam0, iParam1);
+	return unk_0xAA4F14DA15DB0B51(uVar0, func_30(iVar1));
+}
+
+int func_95(int iParam0)
+{
+	switch (iParam0)
+	{
+		case joaat("weapon_pistol_mk2"):
+			return joaat("weapon_pistol");
+		
+		case joaat("weapon_smg_mk2"):
+			return joaat("weapon_smg");
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return joaat("weapon_assaultrifle");
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return joaat("weapon_carbinerifle");
+		
+		case joaat("weapon_combatmg_mk2"):
+			return joaat("weapon_combatmg");
+		
+		case joaat("weapon_heavysniper_mk2"):
+			return joaat("weapon_heavysniper");
+		
+		default:
+	}
+	return 0;
+}
+
+int func_96(int iParam0)
+{
+	switch (iParam0)
+	{
+		case joaat("weapon_pistol_mk2"):
+		case joaat("weapon_smg_mk2"):
+		case joaat("weapon_heavysniper_mk2"):
+		case joaat("weapon_combatmg_mk2"):
+		case joaat("weapon_assaultrifle_mk2"):
+		case joaat("weapon_carbinerifle_mk2"):
+			return 1;
+			break;
+	}
+	return 0;
+}
+
+int func_97(var uParam0)
 {
 	return uParam0->f_281;
 }
 
-void func_91(var uParam0, var uParam1)
+void func_98(var uParam0, var uParam1)
 {
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_hammer")) && iLocal_94[10] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_hammer")) && iLocal_97[10] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_hammer"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_hammer"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_pistol50")) && iLocal_94[0] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_pistol50")) && iLocal_97[0] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_pistol50"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_pistol50"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_bullpupshotgun")) && iLocal_94[1] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_bullpupshotgun")) && iLocal_97[1] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_bullpupshotgun"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_bullpupshotgun"), uParam0, *uParam1, 0);
 	}
-	if (func_93(1, 0))
+	if (func_100(1, 0))
 	{
-		if (unk_0x3DF31EDD1F139A64(joaat("weapon_sawnoffshotgun")) && iLocal_94[2] == uParam1->f_5)
+		if (unk_0xE69689A877D533A5(joaat("weapon_sawnoffshotgun")) && iLocal_97[2] == uParam1->f_5)
 		{
-			func_94(joaat("weapon_sawnoffshotgun"), uParam0, *uParam1, 0);
+			func_101(joaat("weapon_sawnoffshotgun"), uParam0, *uParam1, 0);
 		}
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_bottle")) && iLocal_94[3] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_bottle")) && iLocal_97[3] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_bottle"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_bottle"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_snspistol")) && iLocal_94[4] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_snspistol")) && iLocal_97[4] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_snspistol"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_snspistol"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_gusenberg")) && iLocal_94[11] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_gusenberg")) && iLocal_97[11] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_gusenberg"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_gusenberg"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_heavypistol")) && iLocal_94[7] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_heavypistol")) && iLocal_97[7] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_heavypistol"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_heavypistol"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_specialcarbine")) && iLocal_94[5] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_specialcarbine")) && iLocal_97[5] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_specialcarbine"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_specialcarbine"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_bullpuprifle")) && iLocal_94[6] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_bullpuprifle")) && iLocal_97[6] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_bullpuprifle"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_bullpuprifle"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_dagger")) && iLocal_94[8] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_dagger")) && iLocal_97[8] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_dagger"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_dagger"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_vintagepistol")) && iLocal_94[9] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_vintagepistol")) && iLocal_97[9] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_vintagepistol"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_vintagepistol"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_firework")) && iLocal_94[14] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_firework")) && iLocal_97[14] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_firework"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_firework"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_musket")) && iLocal_94[13] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_musket")) && iLocal_97[13] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_musket"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_musket"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_flaregun")) && iLocal_94[12] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_flaregun")) && iLocal_97[12] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_flaregun"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_flaregun"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_heavyshotgun")) && iLocal_94[15] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_heavyshotgun")) && iLocal_97[15] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_heavyshotgun"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_heavyshotgun"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_marksmanrifle")) && iLocal_94[16] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_marksmanrifle")) && iLocal_97[16] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_marksmanrifle"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_marksmanrifle"), uParam0, *uParam1, 0);
 	}
-	if (func_92() || Global_262145.f_17809)
+	if (func_99() || Global_262145.f_18245)
 	{
-		if (unk_0x3DF31EDD1F139A64(joaat("weapon_hatchet")) && iLocal_94[22] == uParam1->f_5)
+		if (unk_0xE69689A877D533A5(joaat("weapon_hatchet")) && iLocal_97[22] == uParam1->f_5)
 		{
-			func_94(joaat("weapon_hatchet"), uParam0, *uParam1, 0);
+			func_101(joaat("weapon_hatchet"), uParam0, *uParam1, 0);
 		}
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_proxmine")) && iLocal_94[17] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_proxmine")) && iLocal_97[17] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_proxmine"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_proxmine"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_hominglauncher")) && iLocal_94[18] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_hominglauncher")) && iLocal_97[18] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_hominglauncher"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_hominglauncher"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_combatpdw")) && iLocal_94[19] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_combatpdw")) && iLocal_97[19] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_combatpdw"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_combatpdw"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_marksmanpistol")) && iLocal_94[20] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_marksmanpistol")) && iLocal_97[20] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_marksmanpistol"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_marksmanpistol"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_knuckle")) && iLocal_94[21] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_knuckle")) && iLocal_97[21] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_knuckle"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_knuckle"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_machete")) && iLocal_94[23] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_machete")) && iLocal_97[23] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_machete"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_machete"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_machinepistol")) && iLocal_94[24] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_machinepistol")) && iLocal_97[24] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_machinepistol"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_machinepistol"), uParam0, *uParam1, 0);
 	}
-	if ((Global_262145.f_10203 && unk_0x3DF31EDD1F139A64(joaat("weapon_flashlight"))) && iLocal_94[25] == uParam1->f_5)
+	if ((Global_262145.f_10235 && unk_0xE69689A877D533A5(joaat("weapon_flashlight"))) && iLocal_97[25] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_flashlight"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_flashlight"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_revolver")) && iLocal_94[26] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_revolver")) && iLocal_97[26] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_revolver"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_revolver"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_switchblade")) && iLocal_94[27] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_switchblade")) && iLocal_97[27] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_switchblade"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_switchblade"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_dbshotgun")) && iLocal_94[28] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_dbshotgun")) && iLocal_97[28] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_dbshotgun"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_dbshotgun"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_compactrifle")) && iLocal_94[29] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_compactrifle")) && iLocal_97[29] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_compactrifle"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_compactrifle"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_autoshotgun")) && iLocal_94[30] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_autoshotgun")) && iLocal_97[30] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_autoshotgun"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_autoshotgun"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_battleaxe")) && iLocal_94[31] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_battleaxe")) && iLocal_97[31] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_battleaxe"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_battleaxe"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_compactlauncher")) && iLocal_94[32] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_compactlauncher")) && iLocal_97[32] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_compactlauncher"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_compactlauncher"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_minismg")) && iLocal_94[33] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_minismg")) && iLocal_97[33] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_minismg"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_minismg"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_pipebomb")) && iLocal_94[34] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_pipebomb")) && iLocal_97[34] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_pipebomb"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_pipebomb"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_poolcue")) && iLocal_94[35] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_poolcue")) && iLocal_97[35] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_poolcue"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_poolcue"), uParam0, *uParam1, 0);
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_wrench")) && iLocal_94[36] == uParam1->f_5)
+	if (unk_0xE69689A877D533A5(joaat("weapon_wrench")) && iLocal_97[36] == uParam1->f_5)
 	{
-		func_94(joaat("weapon_wrench"), uParam0, *uParam1, 0);
+		func_101(joaat("weapon_wrench"), uParam0, *uParam1, 0);
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_assaultrifle_mk2")) && iLocal_97[37] == uParam1->f_5)
+	{
+		func_101(joaat("weapon_assaultrifle_mk2"), uParam0, *uParam1, 0);
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_carbinerifle_mk2")) && iLocal_97[38] == uParam1->f_5)
+	{
+		func_101(joaat("weapon_carbinerifle_mk2"), uParam0, *uParam1, 0);
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_combatmg_mk2")) && iLocal_97[39] == uParam1->f_5)
+	{
+		func_101(joaat("weapon_combatmg_mk2"), uParam0, *uParam1, 0);
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_heavysniper_mk2")) && iLocal_97[40] == uParam1->f_5)
+	{
+		func_101(joaat("weapon_heavysniper_mk2"), uParam0, *uParam1, 0);
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_pistol_mk2")) && iLocal_97[41] == uParam1->f_5)
+	{
+		func_101(joaat("weapon_pistol_mk2"), uParam0, *uParam1, 0);
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_smg_mk2")) && iLocal_97[42] == uParam1->f_5)
+	{
+		func_101(joaat("weapon_smg_mk2"), uParam0, *uParam1, 0);
 	}
 }
 
-int func_92()
+int func_99()
 {
 	var uVar0;
 	
-	if (unk_0x98ECB3AD32B89920())
+	if (unk_0x473DD4DAC8F55B34())
 	{
-		if (unk_0xA50BC4F5AE68D0BA())
+		if (unk_0x5D806CF6D2796CC3())
 		{
-			if (unk_0x017971300978783B())
+			if (unk_0x103C975BDE64E3C6())
 			{
-				unk_0x7FE4F330D3D74809(joaat("sp_unlock_exclus_content"), &uVar0, -1);
-				unk_0xEB79FECD9022AAF0(&uVar0, 2);
-				unk_0xEB79FECD9022AAF0(&uVar0, 4);
-				unk_0xEB79FECD9022AAF0(&uVar0, 6);
-				unk_0xEB79FECD9022AAF0(&Global_25, 2);
-				unk_0xEB79FECD9022AAF0(&Global_25, 4);
-				unk_0xEB79FECD9022AAF0(&Global_25, 6);
-				unk_0x731753D8494ABECD(joaat("sp_unlock_exclus_content"), uVar0, 1);
-				if (unk_0x8B57B9443E19F940())
+				unk_0xC225A90A8DE0D96B(joaat("sp_unlock_exclus_content"), &uVar0, -1);
+				unk_0xF6082E2ADA1C795B(&uVar0, 2);
+				unk_0xF6082E2ADA1C795B(&uVar0, 4);
+				unk_0xF6082E2ADA1C795B(&uVar0, 6);
+				unk_0xF6082E2ADA1C795B(&Global_25, 2);
+				unk_0xF6082E2ADA1C795B(&Global_25, 4);
+				unk_0xF6082E2ADA1C795B(&Global_25, 6);
+				unk_0xC94674712BED1A82(joaat("sp_unlock_exclus_content"), uVar0, 1);
+				if (unk_0x4ED4E0D471EA6680())
 				{
-					uVar0 = unk_0xBE675F7A607B46B0(866);
-					unk_0xEB79FECD9022AAF0(&uVar0, 0);
-					unk_0x0D1285E5ED89254D(uVar0);
+					uVar0 = unk_0x29B06605BA5CF280(866);
+					unk_0xF6082E2ADA1C795B(&uVar0, 0);
+					unk_0x01D51AAE02B320BA(uVar0);
 				}
 				return 1;
 			}
 		}
 	}
-	if (Global_139179 == 2)
+	if (Global_141537 == 2)
 	{
 		return 1;
 	}
-	else if (Global_139179 == 3)
+	else if (Global_141537 == 3)
 	{
 		return 0;
 	}
-	if (unk_0x8B57B9443E19F940())
+	if (unk_0x4ED4E0D471EA6680())
 	{
-		if (unk_0x48B8265059381CD0(unk_0xBE675F7A607B46B0(866), 0))
+		if (unk_0xAA4F14DA15DB0B51(unk_0x29B06605BA5CF280(866), 0))
 		{
 			return 1;
 		}
@@ -7738,20 +9615,20 @@ int func_92()
 	return 0;
 }
 
-int func_93(bool bParam0, bool bParam1)
+int func_100(bool bParam0, bool bParam1)
 {
 	if (bParam0)
 	{
-		if (unk_0x48B8265059381CD0(Global_101700.f_668.f_1049, 2))
+		if (unk_0xAA4F14DA15DB0B51(Global_103236.f_668.f_1118, 2))
 		{
 			return 1;
 		}
 	}
-	if (unk_0x0A607CC604F09A55())
+	if (unk_0x26BB1D4FDEDC41EC())
 	{
-		if (!bParam1 || unk_0x6C119F3638AC7ABE())
+		if (!bParam1 || unk_0x822F3797A8B64786())
 		{
-			if (!unk_0xF20D8448F6AFC86C() && !unk_0x7C2F31E78C33DE0F())
+			if (!unk_0xCF690C88B391CFA3() && !unk_0x429A1F8C699BEE23())
 			{
 				return 1;
 			}
@@ -7759,19 +9636,19 @@ int func_93(bool bParam0, bool bParam1)
 	}
 	if (bParam1)
 	{
-		if (unk_0x26CBBEAE27F89922())
+		if (unk_0x292CEA5DDB79B80A())
 		{
 			return 0;
 		}
 	}
-	if (unk_0x0A607CC604F09A55())
+	if (unk_0x26BB1D4FDEDC41EC())
 	{
 		return 1;
 	}
 	return 0;
 }
 
-void func_94(int iParam0, var uParam1, int iParam2, int iParam3)
+void func_101(int iParam0, var uParam1, int iParam2, int iParam3)
 {
 	struct<2> Var0;
 	char cVar4[16];
@@ -7790,36 +9667,51 @@ void func_94(int iParam0, var uParam1, int iParam2, int iParam3)
 	
 	iParam3 = iParam3;
 	StringCopy(&Var0, func_26(iParam0, 0), 16);
-	StringCopy(&cVar4, func_122(iParam0), 16);
-	fVar8 = func_121(iParam0);
-	uVar9 = func_120(iParam0, iParam2);
-	uVar10 = func_119(iParam0, iParam2);
-	iVar11 = func_118(iParam0, iParam2);
-	uVar12 = func_117(iParam0, iParam2);
-	unk_0x9DA41BA21FEE026A(iParam0, &Var13);
-	Var13.f_2 = unk_0xD7C4F4F887ACB7D7(iParam0);
+	StringCopy(&cVar4, func_129(iParam0), 16);
+	fVar8 = func_128(iParam0);
+	uVar9 = func_127(iParam0, iParam2);
+	uVar10 = func_126(iParam0, iParam2);
+	iVar11 = func_125(iParam0, iParam2);
+	uVar12 = func_124(iParam0, iParam2);
+	unk_0xC2CCA8F5255F1A99(iParam0, &Var13);
+	Var13.f_2 = unk_0x93B369A68AAEBADD(iParam0);
 	bVar31 = false;
 	iVar30 = 0;
 	while (iVar30 <= 8)
 	{
-		if (uParam1->f_1[iVar30] == 0 && unk_0x3DF31EDD1F139A64(iParam0))
+		if (uParam1->f_1[iVar30] == 0 && unk_0xE69689A877D533A5(iParam0))
 		{
-			if (func_86(iParam0, iParam2, 0))
+			if (func_96(iParam0))
+			{
+				if (func_94(joaat("component_gunrun_mk2_upgrade"), func_95(iParam0), -1))
+				{
+					bVar31 = true;
+				}
+				else
+				{
+					bVar31 = false;
+				}
+			}
+			else if (func_90(iParam0, iParam2, 0))
 			{
 				bVar31 = true;
 				if (bVar31)
 				{
 				}
 			}
-			iVar29 = 0;
-			while (iVar29 <= 8)
+			else
 			{
-				iVar28 = func_82(iParam0, iVar29);
+				bVar31 = false;
+			}
+			iVar29 = 0;
+			while (iVar29 <= 35)
+			{
+				iVar28 = func_85(iParam0, iVar29);
 				if (iVar28 != 0)
 				{
-					if (func_54(iVar28, iParam0, iParam2) && bVar31)
+					if (func_53(iVar28, iParam0, iParam2) && bVar31)
 					{
-						if (unk_0x5A554CFF0BFFB7E1(iVar28, &Var18))
+						if (unk_0x561FEF6A2EC705B5(iVar28, &Var18))
 						{
 							Var23.f_0 = (Var23.f_0 + Var18.f_0);
 							Var23.f_1 = (Var23.f_1 + Var18.f_1);
@@ -7827,18 +9719,18 @@ void func_94(int iParam0, var uParam1, int iParam2, int iParam3)
 							Var23.f_4 = (Var23.f_4 + Var18.f_4);
 						}
 					}
-					if (func_63(iVar28, iParam0, iParam2))
+					if (func_64(iVar28, iParam0, iParam2))
 					{
-						if (func_116(iVar28))
+						if (func_123(iVar28))
 						{
-							Var23.f_2 = func_115(iParam0);
+							Var23.f_2 = func_122(iParam0);
 						}
-						else if (func_114(iVar28))
+						else if (func_121(iVar28))
 						{
-							Var23.f_2 = func_113(iParam0);
+							Var23.f_2 = func_120(iParam0);
 						}
 					}
-					if (func_49(iVar28, iParam0, iParam2))
+					if (func_94(iVar28, iParam0, iParam2))
 					{
 					}
 				}
@@ -7848,44 +9740,44 @@ void func_94(int iParam0, var uParam1, int iParam2, int iParam3)
 			{
 				Var23.f_2 = Var13.f_2;
 			}
-			func_112(iVar30, &Var0, &cVar4, uParam1);
-			func_111(iVar30, Var13.f_0, uParam1);
-			func_110(iVar30, Var23.f_0, uParam1);
+			func_119(iVar30, &Var0, &cVar4, uParam1);
+			func_118(iVar30, Var13.f_0, uParam1);
+			func_117(iVar30, Var23.f_0, uParam1);
 			if (func_15(iParam0))
 			{
-				func_109(iVar30, -1, uParam1);
-				func_108(iVar30, Var23.f_3, uParam1);
+				func_116(iVar30, -1, uParam1);
+				func_115(iVar30, Var23.f_3, uParam1);
+				func_114(iVar30, -1, uParam1);
+				func_113(iVar30, Var23.f_4, uParam1);
+				func_112(iVar30, -1, uParam1);
+				func_111(iVar30, Var23.f_2, uParam1);
+			}
+			else
+			{
+				func_116(iVar30, Var13.f_3, uParam1);
+				func_115(iVar30, Var23.f_3, uParam1);
+				func_114(iVar30, Var13.f_4, uParam1);
+				func_113(iVar30, Var23.f_4, uParam1);
+				func_112(iVar30, Var13.f_2, uParam1);
+				func_111(iVar30, Var23.f_2, uParam1);
+			}
+			func_110(iVar30, uVar10, uParam1);
+			func_109(iVar30, uVar9, uParam1);
+			if (func_15(iParam0))
+			{
+				func_108(iVar30, -1f, uParam1);
 				func_107(iVar30, -1, uParam1);
-				func_106(iVar30, Var23.f_4, uParam1);
-				func_105(iVar30, -1, uParam1);
-				func_104(iVar30, Var23.f_2, uParam1);
 			}
 			else
 			{
-				func_109(iVar30, Var13.f_3, uParam1);
-				func_108(iVar30, Var23.f_3, uParam1);
-				func_107(iVar30, Var13.f_4, uParam1);
-				func_106(iVar30, Var23.f_4, uParam1);
-				func_105(iVar30, Var13.f_2, uParam1);
-				func_104(iVar30, Var23.f_2, uParam1);
+				func_108(iVar30, fVar8, uParam1);
+				func_107(iVar30, iVar11, uParam1);
 			}
-			func_103(iVar30, uVar10, uParam1);
-			func_102(iVar30, uVar9, uParam1);
-			if (func_15(iParam0))
-			{
-				func_101(iVar30, -1f, uParam1);
-				func_100(iVar30, -1, uParam1);
-			}
-			else
-			{
-				func_101(iVar30, fVar8, uParam1);
-				func_100(iVar30, iVar11, uParam1);
-			}
-			func_99(iVar30, uVar12, uParam1);
-			func_98(iVar30, Var13.f_1, uParam1);
-			func_97(iVar30, Var23.f_1, uParam1);
-			func_96(iVar30, iParam0, uParam1);
-			func_95(iParam2, uParam1);
+			func_106(iVar30, uVar12, uParam1);
+			func_105(iVar30, Var13.f_1, uParam1);
+			func_104(iVar30, Var23.f_1, uParam1);
+			func_103(iVar30, iParam0, uParam1);
+			func_102(iParam2, uParam1);
 			uParam1->f_1[iVar30] = 1;
 			iVar30 = 9;
 		}
@@ -7893,98 +9785,98 @@ void func_94(int iParam0, var uParam1, int iParam2, int iParam3)
 	}
 }
 
-void func_95(int iParam0, var uParam1)
+void func_102(int iParam0, var uParam1)
 {
 	uParam1->f_276 = iParam0;
 }
 
-void func_96(int iParam0, int iParam1, var uParam2)
+void func_103(int iParam0, int iParam1, var uParam2)
 {
 	uParam2->f_85[iParam0] = iParam1;
 }
 
-void func_97(int iParam0, var uParam1, var uParam2)
+void func_104(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_205[iParam0] = uParam1;
 }
 
-void func_98(int iParam0, var uParam1, var uParam2)
+void func_105(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_155[iParam0] = uParam1;
 }
 
-void func_99(int iParam0, var uParam1, var uParam2)
+void func_106(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_135[iParam0] = uParam1;
 }
 
-void func_100(int iParam0, int iParam1, var uParam2)
+void func_107(int iParam0, int iParam1, var uParam2)
 {
 	uParam2->f_125[iParam0] = iParam1;
 }
 
-void func_101(int iParam0, float fParam1, var uParam2)
+void func_108(int iParam0, float fParam1, var uParam2)
 {
 	uParam2->f_115[iParam0] = fParam1;
 }
 
-void func_102(int iParam0, var uParam1, var uParam2)
+void func_109(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_95[iParam0] = uParam1;
 }
 
-void func_103(int iParam0, var uParam1, var uParam2)
+void func_110(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_105[iParam0] = uParam1;
 }
 
-void func_104(int iParam0, var uParam1, var uParam2)
+void func_111(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_215[iParam0] = uParam1;
 }
 
-void func_105(int iParam0, int iParam1, var uParam2)
+void func_112(int iParam0, int iParam1, var uParam2)
 {
 	uParam2->f_165[iParam0] = iParam1;
 }
 
-void func_106(int iParam0, var uParam1, var uParam2)
+void func_113(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_235[iParam0] = uParam1;
 }
 
-void func_107(int iParam0, int iParam1, var uParam2)
+void func_114(int iParam0, int iParam1, var uParam2)
 {
 	uParam2->f_175[iParam0] = iParam1;
 }
 
-void func_108(int iParam0, var uParam1, var uParam2)
+void func_115(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_225[iParam0] = uParam1;
 }
 
-void func_109(int iParam0, int iParam1, var uParam2)
+void func_116(int iParam0, int iParam1, var uParam2)
 {
 	uParam2->f_185[iParam0] = iParam1;
 }
 
-void func_110(int iParam0, var uParam1, var uParam2)
+void func_117(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_195[iParam0] = uParam1;
 }
 
-void func_111(int iParam0, var uParam1, var uParam2)
+void func_118(int iParam0, var uParam1, var uParam2)
 {
 	uParam2->f_145[iParam0] = uParam1;
 }
 
-void func_112(int iParam0, char* sParam1, char* sParam2, var uParam3)
+void func_119(int iParam0, char* sParam1, char* sParam2, var uParam3)
 {
 	StringCopy(&(uParam3->f_11[iParam0 /*4*/]), sParam1, 16);
 	StringCopy(&(uParam3->f_48[iParam0 /*4*/]), sParam2, 16);
 }
 
-int func_113(int iParam0)
+int func_120(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -7997,10 +9889,16 @@ int func_113(int iParam0)
 		case joaat("weapon_appistol"):
 			return 36;
 		
+		case joaat("weapon_pistol_mk2"):
+			return 16;
+		
 		case joaat("weapon_microsmg"):
 			return 30;
 		
 		case joaat("weapon_smg"):
+			return 60;
+		
+		case joaat("weapon_smg_mk2"):
 			return 60;
 		
 		case joaat("weapon_assaultrifle"):
@@ -8012,10 +9910,19 @@ int func_113(int iParam0)
 		case joaat("weapon_advancedrifle"):
 			return 60;
 		
+		case joaat("weapon_assaultrifle_mk2"):
+			return 60;
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return 60;
+		
 		case joaat("weapon_mg"):
 			return 100;
 		
 		case joaat("weapon_combatmg"):
+			return 200;
+		
+		case joaat("weapon_combatmg_mk2"):
 			return 200;
 		
 		case joaat("weapon_assaultshotgun"):
@@ -8069,7 +9976,7 @@ int func_113(int iParam0)
 	return 0;
 }
 
-int func_114(int iParam0)
+int func_121(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -8188,7 +10095,7 @@ int func_114(int iParam0)
 	return 0;
 }
 
-int func_115(int iParam0)
+int func_122(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -8199,6 +10106,15 @@ int func_115(int iParam0)
 			return 100;
 		
 		case joaat("weapon_carbinerifle"):
+			return 100;
+		
+		case joaat("weapon_smg_mk2"):
+			return 100;
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return 100;
+		
+		case joaat("weapon_carbinerifle_mk2"):
 			return 100;
 		
 		case joaat("weapon_specialcarbine"):
@@ -8222,7 +10138,7 @@ int func_115(int iParam0)
 	return 0;
 }
 
-int func_116(int iParam0)
+int func_123(int iParam0)
 {
 	switch (iParam0)
 	{
@@ -8261,355 +10177,613 @@ int func_116(int iParam0)
 	return 0;
 }
 
-float func_117(int iParam0, int iParam1)
+float func_124(int iParam0, int iParam1)
 {
 	switch (iParam0)
 	{
 		case joaat("weapon_pistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(245, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(246, iParam1, 0)));
+		case joaat("weapon_pistol_mk2"):
+			return (unk_0xBBDA792448DB5A89(func_34(246, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(247, iParam1, 0)));
 		
 		case joaat("weapon_combatpistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(255, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(256, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(256, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(257, iParam1, 0)));
 		
 		case joaat("weapon_appistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(275, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(276, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(276, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(277, iParam1, 0)));
 		
 		case joaat("weapon_microsmg"):
-			return (unk_0xBBDA792448DB5A89(func_34(285, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(286, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(286, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(287, iParam1, 0)));
 		
 		case joaat("weapon_smg"):
-			return (unk_0xBBDA792448DB5A89(func_34(295, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(296, iParam1, 0)));
+		case joaat("weapon_smg_mk2"):
+			return (unk_0xBBDA792448DB5A89(func_34(296, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(297, iParam1, 0)));
 		
 		case joaat("weapon_assaultrifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(315, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(316, iParam1, 0)));
+		case joaat("weapon_assaultrifle_mk2"):
+			return (unk_0xBBDA792448DB5A89(func_34(316, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(317, iParam1, 0)));
 		
 		case joaat("weapon_carbinerifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(324, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(325, iParam1, 0)));
+		case joaat("weapon_carbinerifle_mk2"):
+			return (unk_0xBBDA792448DB5A89(func_34(325, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(326, iParam1, 0)));
 		
 		case joaat("weapon_advancedrifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(333, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(334, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(334, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(335, iParam1, 0)));
 		
 		case joaat("weapon_mg"):
-			return (unk_0xBBDA792448DB5A89(func_34(342, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(343, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(343, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(344, iParam1, 0)));
 		
 		case joaat("weapon_combatmg"):
-			return (unk_0xBBDA792448DB5A89(func_34(351, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(352, iParam1, 0)));
+		case joaat("weapon_combatmg_mk2"):
+			return (unk_0xBBDA792448DB5A89(func_34(352, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(353, iParam1, 0)));
 		
 		case joaat("weapon_pumpshotgun"):
-			return (unk_0xBBDA792448DB5A89(func_34(369, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(370, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(370, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(371, iParam1, 0)));
 		
 		case joaat("weapon_sawnoffshotgun"):
-			return (unk_0xBBDA792448DB5A89(func_34(378, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(379, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(379, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(380, iParam1, 0)));
 		
 		case joaat("weapon_assaultshotgun"):
-			return (unk_0xBBDA792448DB5A89(func_34(397, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(398, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(398, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(399, iParam1, 0)));
 		
 		case joaat("weapon_sniperrifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(416, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(417, iParam1, 0)));
+		case joaat("weapon_heavysniper_mk2"):
+			return (unk_0xBBDA792448DB5A89(func_34(417, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(418, iParam1, 0)));
 		
 		case joaat("weapon_heavysniper"):
-			return (unk_0xBBDA792448DB5A89(func_34(425, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(426, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(426, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(427, iParam1, 0)));
 		
 		case joaat("weapon_grenadelauncher"):
-			return (unk_0xBBDA792448DB5A89(func_34(436, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(437, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(437, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(438, iParam1, 0)));
 		
 		case joaat("weapon_rpg"):
-			return (unk_0xBBDA792448DB5A89(func_34(443, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(444, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(444, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(445, iParam1, 0)));
 		
 		case joaat("weapon_minigun"):
-			return (unk_0xBBDA792448DB5A89(func_34(450, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(451, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(451, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(452, iParam1, 0)));
 		
 		case joaat("weapon_grenade"):
-			return (unk_0xBBDA792448DB5A89(func_34(459, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(460, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(460, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(461, iParam1, 0)));
 		
 		case joaat("weapon_smokegrenade"):
-			return (unk_0xBBDA792448DB5A89(func_34(467, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(468, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(468, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(469, iParam1, 0)));
 		
 		case joaat("weapon_stickybomb"):
-			return (unk_0xBBDA792448DB5A89(func_34(476, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(477, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(477, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(478, iParam1, 0)));
 		
 		case joaat("weapon_molotov"):
-			return (unk_0xBBDA792448DB5A89(func_34(484, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(485, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(485, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(486, iParam1, 0)));
 		
 		case joaat("weapon_stungun"):
-			return (unk_0xBBDA792448DB5A89(func_34(406, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(407, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(407, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(408, iParam1, 0)));
 		
 		case joaat("weapon_knife"):
-			return (unk_0xBBDA792448DB5A89(func_34(188, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(190, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(189, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(191, iParam1, 0)));
 		
 		case joaat("weapon_nightstick"):
-			return (unk_0xBBDA792448DB5A89(func_34(196, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(198, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(197, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(199, iParam1, 0)));
 		
 		case joaat("weapon_hammer"):
-			return (unk_0xBBDA792448DB5A89(func_34(224, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(226, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(225, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(227, iParam1, 0)));
 		
 		case joaat("weapon_bat"):
-			return (unk_0xBBDA792448DB5A89(func_34(231, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(233, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(232, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(234, iParam1, 0)));
 		
 		case joaat("weapon_crowbar"):
-			return (unk_0xBBDA792448DB5A89(func_34(203, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(205, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(204, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(206, iParam1, 0)));
 		
 		case joaat("weapon_golfclub"):
-			return (unk_0xBBDA792448DB5A89(func_34(238, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(240, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(239, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(241, iParam1, 0)));
 		
 		case joaat("weapon_pistol50"):
-			return (unk_0xBBDA792448DB5A89(func_34(265, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(266, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(266, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(267, iParam1, 0)));
 		
 		case joaat("weapon_assaultsmg"):
-			return (unk_0xBBDA792448DB5A89(func_34(305, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(306, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(306, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(307, iParam1, 0)));
 		
 		case joaat("weapon_bullpupshotgun"):
-			return (unk_0xBBDA792448DB5A89(func_34(388, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(389, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(389, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(390, iParam1, 0)));
 		
 		case -572349828:
-			return (unk_0xBBDA792448DB5A89(func_34(360, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(361, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(361, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(362, iParam1, 0)));
 		
 		case 392730790:
-			return (unk_0xBBDA792448DB5A89(func_34(315, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(316, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(316, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(317, iParam1, 0)));
 		
 		case joaat("weapon_heavyrifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(425, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(426, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(426, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(427, iParam1, 0)));
 		
 		case -1887867191:
-			return (unk_0xBBDA792448DB5A89(func_34(315, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(316, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(316, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(317, iParam1, 0)));
 		
 		case joaat("weapon_bottle"):
-			return (unk_0xBBDA792448DB5A89(func_34(1723, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(1724, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(1724, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(1725, iParam1, 0)));
 		
 		case joaat("weapon_snspistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(1733, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(1734, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(1734, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(1735, iParam1, 0)));
 		
 		case joaat("weapon_specialcarbine"):
-			return (unk_0xBBDA792448DB5A89(func_34(5357, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5358, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5644, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5645, iParam1, 0)));
 		
 		case joaat("weapon_bullpuprifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(5367, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5368, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5654, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5655, iParam1, 0)));
 		
 		case joaat("weapon_heavypistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(5347, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5348, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5634, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5635, iParam1, 0)));
 		
 		case joaat("weapon_dagger"):
-			return (unk_0xBBDA792448DB5A89(func_34(5650, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5651, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5937, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5938, iParam1, 0)));
 		
 		case joaat("weapon_vintagepistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(5660, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5661, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5947, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5948, iParam1, 0)));
 		
 		case joaat("weapon_gusenberg"):
-			return (unk_0xBBDA792448DB5A89(func_34(5377, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5378, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5664, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5665, iParam1, 0)));
 		
 		case joaat("weapon_musket"):
-			return (unk_0xBBDA792448DB5A89(func_34(5680, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5681, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5967, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5968, iParam1, 0)));
 		
 		case joaat("weapon_firework"):
-			return (unk_0xBBDA792448DB5A89(func_34(5670, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5671, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(5957, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5958, iParam1, 0)));
 		
 		case joaat("weapon_heavyshotgun"):
-			return (unk_0xBBDA792448DB5A89(func_34(5758, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5759, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6045, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6046, iParam1, 0)));
 		
 		case joaat("weapon_marksmanrifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(5768, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5769, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6055, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6056, iParam1, 0)));
 		
 		case joaat("weapon_hominglauncher"):
-			return (unk_0xBBDA792448DB5A89(func_34(5794, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5795, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6081, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6082, iParam1, 0)));
 		
 		case joaat("weapon_proxmine"):
-			return (unk_0xBBDA792448DB5A89(func_34(5786, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5787, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6073, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6074, iParam1, 0)));
 		
 		case joaat("weapon_combatpdw"):
-			return (unk_0xBBDA792448DB5A89(func_34(5802, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5803, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6089, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6090, iParam1, 0)));
 		
 		case joaat("weapon_marksmanpistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(5819, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5820, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6106, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6107, iParam1, 0)));
 		
 		case joaat("weapon_knuckle"):
-			return (unk_0xBBDA792448DB5A89(func_34(5812, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5813, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6099, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6100, iParam1, 0)));
 		
 		case joaat("weapon_machete"):
-			return (unk_0xBBDA792448DB5A89(func_34(5829, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5830, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6116, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6117, iParam1, 0)));
 		
 		case joaat("weapon_machinepistol"):
-			return (unk_0xBBDA792448DB5A89(func_34(5837, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5838, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6124, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6125, iParam1, 0)));
 		
 		case joaat("weapon_flashlight"):
-			return (unk_0xBBDA792448DB5A89(func_34(5875, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5876, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6162, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6163, iParam1, 0)));
 		
 		case joaat("weapon_switchblade"):
-			return (unk_0xBBDA792448DB5A89(func_34(5903, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5904, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6190, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6191, iParam1, 0)));
 		
 		case joaat("weapon_revolver"):
-			return (unk_0xBBDA792448DB5A89(func_34(5893, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5894, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6180, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6181, iParam1, 0)));
 		
 		case joaat("weapon_dbshotgun"):
-			return (unk_0xBBDA792448DB5A89(func_34(5865, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5866, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6152, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6153, iParam1, 0)));
 		
 		case joaat("weapon_compactrifle"):
-			return (unk_0xBBDA792448DB5A89(func_34(5855, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5856, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6142, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6143, iParam1, 0)));
 		
 		case joaat("weapon_hatchet"):
-			return (unk_0xBBDA792448DB5A89(func_34(5778, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5779, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6065, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6066, iParam1, 0)));
 		
 		case joaat("weapon_autoshotgun"):
-			return (unk_0xBBDA792448DB5A89(func_34(5944, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5945, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6231, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6232, iParam1, 0)));
 		
 		case joaat("weapon_battleaxe"):
-			return (unk_0xBBDA792448DB5A89(func_34(5954, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5955, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6241, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6242, iParam1, 0)));
 		
 		case joaat("weapon_compactlauncher"):
-			return (unk_0xBBDA792448DB5A89(func_34(5960, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5961, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6247, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6248, iParam1, 0)));
 		
 		case joaat("weapon_minismg"):
-			return (unk_0xBBDA792448DB5A89(func_34(5970, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5971, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6257, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6258, iParam1, 0)));
 		
 		case joaat("weapon_pipebomb"):
-			return (unk_0xBBDA792448DB5A89(func_34(5980, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5981, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6267, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6268, iParam1, 0)));
 		
 		case joaat("weapon_poolcue"):
-			return (unk_0xBBDA792448DB5A89(func_34(5988, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(5989, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(6275, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(6276, iParam1, 0)));
 		
 		case joaat("weapon_wrench"):
-			return (unk_0xBBDA792448DB5A89(func_34(217, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(219, iParam1, 0)));
+			return (unk_0xBBDA792448DB5A89(func_34(218, iParam1, 0)) / unk_0xBBDA792448DB5A89(func_34(220, iParam1, 0)));
 		
 		default:
 	}
 	return 0f;
 }
 
-int func_118(int iParam0, int iParam1)
+int func_125(int iParam0, int iParam1)
 {
 	switch (iParam0)
 	{
 		case joaat("weapon_pistol"):
-			return func_34(249, iParam1, 0);
+			return func_34(250, iParam1, 0);
 		
 		case joaat("weapon_combatpistol"):
-			return func_34(259, iParam1, 0);
+			return func_34(260, iParam1, 0);
 		
 		case joaat("weapon_appistol"):
-			return func_34(279, iParam1, 0);
+			return func_34(280, iParam1, 0);
 		
 		case joaat("weapon_microsmg"):
-			return func_34(289, iParam1, 0);
+			return func_34(290, iParam1, 0);
 		
 		case joaat("weapon_smg"):
-			return func_34(299, iParam1, 0);
+			return func_34(300, iParam1, 0);
 		
 		case joaat("weapon_assaultrifle"):
-			return func_34(319, iParam1, 0);
+			return func_34(320, iParam1, 0);
 		
 		case joaat("weapon_carbinerifle"):
-			return func_34(328, iParam1, 0);
+			return func_34(329, iParam1, 0);
 		
 		case joaat("weapon_advancedrifle"):
-			return func_34(337, iParam1, 0);
+			return func_34(338, iParam1, 0);
 		
 		case joaat("weapon_mg"):
-			return func_34(346, iParam1, 0);
+			return func_34(347, iParam1, 0);
 		
 		case joaat("weapon_combatmg"):
-			return func_34(355, iParam1, 0);
+			return func_34(356, iParam1, 0);
 		
 		case joaat("weapon_pumpshotgun"):
-			return func_34(373, iParam1, 0);
+			return func_34(374, iParam1, 0);
 		
 		case joaat("weapon_sawnoffshotgun"):
-			return func_34(382, iParam1, 0);
+			return func_34(383, iParam1, 0);
 		
 		case joaat("weapon_assaultshotgun"):
-			return func_34(401, iParam1, 0);
+			return func_34(402, iParam1, 0);
 		
 		case joaat("weapon_sniperrifle"):
-			return func_34(420, iParam1, 0);
+			return func_34(421, iParam1, 0);
 		
 		case joaat("weapon_heavysniper"):
-			return func_34(429, iParam1, 0);
+			return func_34(430, iParam1, 0);
 		
 		case joaat("weapon_minigun"):
-			return func_34(454, iParam1, 0);
+			return func_34(455, iParam1, 0);
 		
 		case joaat("weapon_pistol50"):
-			return func_34(269, iParam1, 0);
+			return func_34(270, iParam1, 0);
 		
 		case joaat("weapon_assaultsmg"):
-			return func_34(309, iParam1, 0);
+			return func_34(310, iParam1, 0);
 		
 		case joaat("weapon_heavyrifle"):
-			return func_34(429, iParam1, 0);
+			return func_34(430, iParam1, 0);
 		
 		case joaat("weapon_bullpupshotgun"):
-			return func_34(392, iParam1, 0);
+			return func_34(393, iParam1, 0);
 		
 		case -572349828:
-			return func_34(364, iParam1, 0);
+			return func_34(365, iParam1, 0);
 		
 		case 392730790:
-			return func_34(319, iParam1, 0);
+			return func_34(320, iParam1, 0);
 		
 		case -1887867191:
-			return func_34(319, iParam1, 0);
+			return func_34(320, iParam1, 0);
 		
 		case -837150131:
-			return func_34(319, iParam1, 0);
+			return func_34(320, iParam1, 0);
 		
 		case joaat("weapon_snspistol"):
-			return func_34(1737, iParam1, 0);
+			return func_34(1738, iParam1, 0);
 		
 		case joaat("weapon_specialcarbine"):
-			return func_34(5361, iParam1, 0);
+			return func_34(5648, iParam1, 0);
 		
 		case joaat("weapon_bullpuprifle"):
-			return func_34(5371, iParam1, 0);
+			return func_34(5658, iParam1, 0);
 		
 		case joaat("weapon_heavypistol"):
-			return func_34(5351, iParam1, 0);
+			return func_34(5638, iParam1, 0);
 		
 		case joaat("weapon_vintagepistol"):
-			return func_34(5664, iParam1, 0);
+			return func_34(5951, iParam1, 0);
 		
 		case joaat("weapon_gusenberg"):
-			return func_34(5381, iParam1, 0);
+			return func_34(5668, iParam1, 0);
 		
 		case joaat("weapon_musket"):
-			return func_34(5684, iParam1, 0);
+			return func_34(5971, iParam1, 0);
 		
 		case joaat("weapon_firework"):
-			return func_34(5674, iParam1, 0);
+			return func_34(5961, iParam1, 0);
 		
 		case joaat("weapon_heavyshotgun"):
-			return func_34(5762, iParam1, 0);
+			return func_34(6049, iParam1, 0);
 		
 		case joaat("weapon_marksmanrifle"):
-			return func_34(5772, iParam1, 0);
+			return func_34(6059, iParam1, 0);
 		
 		case joaat("weapon_combatpdw"):
-			return func_34(5806, iParam1, 0);
+			return func_34(6093, iParam1, 0);
 		
 		case joaat("weapon_marksmanpistol"):
-			return func_34(5823, iParam1, 0);
+			return func_34(6110, iParam1, 0);
 		
 		case joaat("weapon_machinepistol"):
-			return func_34(5841, iParam1, 0);
+			return func_34(6128, iParam1, 0);
 		
 		case joaat("weapon_revolver"):
-			return func_34(5897, iParam1, 0);
+			return func_34(6184, iParam1, 0);
 		
 		case joaat("weapon_dbshotgun"):
-			return func_34(5869, iParam1, 0);
+			return func_34(6156, iParam1, 0);
 		
 		case joaat("weapon_compactrifle"):
-			return func_34(5859, iParam1, 0);
+			return func_34(6146, iParam1, 0);
 		
 		case joaat("weapon_autoshotgun"):
-			return func_34(5948, iParam1, 0);
+			return func_34(6235, iParam1, 0);
 		
 		case joaat("weapon_minismg"):
-			return func_34(5974, iParam1, 0);
+			return func_34(6261, iParam1, 0);
+		
+		case joaat("weapon_pistol_mk2"):
+			return func_34(250, iParam1, 0);
+		
+		case joaat("weapon_smg_mk2"):
+			return func_34(300, iParam1, 0);
+		
+		case joaat("weapon_heavysniper_mk2"):
+			return func_34(430, iParam1, 0);
+		
+		case joaat("weapon_combatmg_mk2"):
+			return func_34(356, iParam1, 0);
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return func_34(320, iParam1, 0);
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return func_34(329, iParam1, 0);
 		
 		default:
 	}
 	return 0;
 }
 
-int func_119(int iParam0, int iParam1)
+int func_126(int iParam0, int iParam1)
+{
+	switch (iParam0)
+	{
+		case joaat("weapon_pistol"):
+			return func_34(247, iParam1, 0);
+		
+		case joaat("weapon_combatpistol"):
+			return func_34(257, iParam1, 0);
+		
+		case joaat("weapon_appistol"):
+			return func_34(277, iParam1, 0);
+		
+		case joaat("weapon_microsmg"):
+			return func_34(287, iParam1, 0);
+		
+		case joaat("weapon_smg"):
+			return func_34(297, iParam1, 0);
+		
+		case joaat("weapon_assaultrifle"):
+			return func_34(317, iParam1, 0);
+		
+		case joaat("weapon_carbinerifle"):
+			return func_34(326, iParam1, 0);
+		
+		case joaat("weapon_advancedrifle"):
+			return func_34(335, iParam1, 0);
+		
+		case joaat("weapon_mg"):
+			return func_34(344, iParam1, 0);
+		
+		case joaat("weapon_combatmg"):
+			return func_34(353, iParam1, 0);
+		
+		case joaat("weapon_pumpshotgun"):
+			return func_34(371, iParam1, 0);
+		
+		case joaat("weapon_sawnoffshotgun"):
+			return func_34(380, iParam1, 0);
+		
+		case joaat("weapon_assaultshotgun"):
+			return func_34(399, iParam1, 0);
+		
+		case joaat("weapon_sniperrifle"):
+			return func_34(418, iParam1, 0);
+		
+		case joaat("weapon_heavysniper"):
+			return func_34(427, iParam1, 0);
+		
+		case joaat("weapon_grenadelauncher"):
+			return func_34(438, iParam1, 0);
+		
+		case joaat("weapon_rpg"):
+			return func_34(445, iParam1, 0);
+		
+		case joaat("weapon_minigun"):
+			return func_34(452, iParam1, 0);
+		
+		case joaat("weapon_grenade"):
+			return func_34(461, iParam1, 0);
+		
+		case joaat("weapon_smokegrenade"):
+			return func_34(469, iParam1, 0);
+		
+		case joaat("weapon_stickybomb"):
+			return func_34(478, iParam1, 0);
+		
+		case joaat("weapon_molotov"):
+			return func_34(486, iParam1, 0);
+		
+		case joaat("weapon_stungun"):
+			return func_34(408, iParam1, 0);
+		
+		case joaat("weapon_knife"):
+			return func_34(191, iParam1, 0);
+		
+		case joaat("weapon_nightstick"):
+			return func_34(199, iParam1, 0);
+		
+		case joaat("weapon_hammer"):
+			return func_34(227, iParam1, 0);
+		
+		case joaat("weapon_bat"):
+			return func_34(234, iParam1, 0);
+		
+		case joaat("weapon_crowbar"):
+			return func_34(206, iParam1, 0);
+		
+		case joaat("weapon_golfclub"):
+			return func_34(241, iParam1, 0);
+		
+		case joaat("weapon_pistol50"):
+			return func_34(267, iParam1, 0);
+		
+		case joaat("weapon_assaultsmg"):
+			return func_34(307, iParam1, 0);
+		
+		case joaat("weapon_heavyrifle"):
+			return func_34(427, iParam1, 0);
+		
+		case joaat("weapon_bullpupshotgun"):
+			return func_34(390, iParam1, 0);
+		
+		case -572349828:
+			return func_34(362, iParam1, 0);
+		
+		case 392730790:
+			return func_34(317, iParam1, 0);
+		
+		case -1887867191:
+			return func_34(317, iParam1, 0);
+		
+		case -837150131:
+			return func_34(317, iParam1, 0);
+		
+		case joaat("weapon_bottle"):
+			return func_34(1725, iParam1, 0);
+		
+		case joaat("weapon_snspistol"):
+			return func_34(1735, iParam1, 0);
+		
+		case joaat("weapon_specialcarbine"):
+			return func_34(5645, iParam1, 0);
+		
+		case joaat("weapon_bullpuprifle"):
+			return func_34(5655, iParam1, 0);
+		
+		case joaat("weapon_heavypistol"):
+			return func_34(5635, iParam1, 0);
+		
+		case joaat("weapon_dagger"):
+			return func_34(5938, iParam1, 0);
+		
+		case joaat("weapon_vintagepistol"):
+			return func_34(5948, iParam1, 0);
+		
+		case joaat("weapon_gusenberg"):
+			return func_34(5665, iParam1, 0);
+		
+		case joaat("weapon_musket"):
+			return func_34(5968, iParam1, 0);
+		
+		case joaat("weapon_firework"):
+			return func_34(5958, iParam1, 0);
+		
+		case joaat("weapon_heavyshotgun"):
+			return func_34(6046, iParam1, 0);
+		
+		case joaat("weapon_marksmanrifle"):
+			return func_34(6056, iParam1, 0);
+		
+		case joaat("weapon_proxmine"):
+			return func_34(6074, iParam1, 0);
+		
+		case joaat("weapon_hominglauncher"):
+			return func_34(6082, iParam1, 0);
+		
+		case joaat("weapon_combatpdw"):
+			return func_34(6090, iParam1, 0);
+		
+		case joaat("weapon_marksmanpistol"):
+			return func_34(6107, iParam1, 0);
+		
+		case joaat("weapon_knuckle"):
+			return func_34(6100, iParam1, 0);
+		
+		case joaat("weapon_machete"):
+			return func_34(6117, iParam1, 0);
+		
+		case joaat("weapon_machinepistol"):
+			return func_34(6125, iParam1, 0);
+		
+		case joaat("weapon_flashlight"):
+			return func_34(6163, iParam1, 0);
+		
+		case joaat("weapon_switchblade"):
+			return func_34(6191, iParam1, 0);
+		
+		case joaat("weapon_revolver"):
+			return func_34(6181, iParam1, 0);
+		
+		case joaat("weapon_dbshotgun"):
+			return func_34(6153, iParam1, 0);
+		
+		case joaat("weapon_compactrifle"):
+			return func_34(6143, iParam1, 0);
+		
+		case joaat("weapon_hatchet"):
+			return func_34(6066, iParam1, 0);
+		
+		case joaat("weapon_autoshotgun"):
+			return func_34(6232, iParam1, 0);
+		
+		case joaat("weapon_battleaxe"):
+			return func_34(6242, iParam1, 0);
+		
+		case joaat("weapon_compactlauncher"):
+			return func_34(6248, iParam1, 0);
+		
+		case joaat("weapon_minismg"):
+			return func_34(6258, iParam1, 0);
+		
+		case joaat("weapon_pipebomb"):
+			return func_34(6268, iParam1, 0);
+		
+		case joaat("weapon_poolcue"):
+			return func_34(6276, iParam1, 0);
+		
+		case joaat("weapon_wrench"):
+			return func_34(220, iParam1, 0);
+		
+		case joaat("weapon_pistol_mk2"):
+			return func_34(247, iParam1, 0);
+		
+		case joaat("weapon_smg_mk2"):
+			return func_34(297, iParam1, 0);
+		
+		case joaat("weapon_heavysniper_mk2"):
+			return func_34(427, iParam1, 0);
+		
+		case joaat("weapon_combatmg_mk2"):
+			return func_34(353, iParam1, 0);
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return func_34(317, iParam1, 0);
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return func_34(326, iParam1, 0);
+		
+		default:
+	}
+	return 0;
+}
+
+int func_127(int iParam0, int iParam1)
 {
 	switch (iParam0)
 	{
@@ -8683,22 +10857,22 @@ int func_119(int iParam0, int iParam1)
 			return func_34(407, iParam1, 0);
 		
 		case joaat("weapon_knife"):
-			return func_34(190, iParam1, 0);
+			return func_34(189, iParam1, 0);
 		
 		case joaat("weapon_nightstick"):
-			return func_34(198, iParam1, 0);
+			return func_34(197, iParam1, 0);
 		
 		case joaat("weapon_hammer"):
-			return func_34(226, iParam1, 0);
+			return func_34(225, iParam1, 0);
 		
 		case joaat("weapon_bat"):
-			return func_34(233, iParam1, 0);
+			return func_34(232, iParam1, 0);
 		
 		case joaat("weapon_crowbar"):
-			return func_34(205, iParam1, 0);
+			return func_34(204, iParam1, 0);
 		
 		case joaat("weapon_golfclub"):
-			return func_34(240, iParam1, 0);
+			return func_34(239, iParam1, 0);
 		
 		case joaat("weapon_pistol50"):
 			return func_34(266, iParam1, 0);
@@ -8731,317 +10905,119 @@ int func_119(int iParam0, int iParam1)
 			return func_34(1734, iParam1, 0);
 		
 		case joaat("weapon_specialcarbine"):
-			return func_34(5358, iParam1, 0);
+			return func_34(5644, iParam1, 0);
 		
 		case joaat("weapon_bullpuprifle"):
-			return func_34(5368, iParam1, 0);
+			return func_34(5654, iParam1, 0);
 		
 		case joaat("weapon_heavypistol"):
-			return func_34(5348, iParam1, 0);
+			return func_34(5634, iParam1, 0);
 		
 		case joaat("weapon_dagger"):
-			return func_34(5651, iParam1, 0);
+			return func_34(5937, iParam1, 0);
 		
 		case joaat("weapon_vintagepistol"):
-			return func_34(5661, iParam1, 0);
+			return func_34(5947, iParam1, 0);
 		
 		case joaat("weapon_gusenberg"):
-			return func_34(5378, iParam1, 0);
+			return func_34(5664, iParam1, 0);
 		
 		case joaat("weapon_musket"):
-			return func_34(5681, iParam1, 0);
+			return func_34(5967, iParam1, 0);
 		
 		case joaat("weapon_firework"):
-			return func_34(5671, iParam1, 0);
+			return func_34(5957, iParam1, 0);
 		
 		case joaat("weapon_heavyshotgun"):
-			return func_34(5759, iParam1, 0);
+			return func_34(6045, iParam1, 0);
 		
 		case joaat("weapon_marksmanrifle"):
-			return func_34(5769, iParam1, 0);
+			return func_34(6055, iParam1, 0);
 		
 		case joaat("weapon_proxmine"):
-			return func_34(5787, iParam1, 0);
+			return func_34(6073, iParam1, 0);
 		
 		case joaat("weapon_hominglauncher"):
-			return func_34(5795, iParam1, 0);
+			return func_34(6081, iParam1, 0);
 		
 		case joaat("weapon_combatpdw"):
-			return func_34(5803, iParam1, 0);
+			return func_34(6089, iParam1, 0);
 		
 		case joaat("weapon_marksmanpistol"):
-			return func_34(5820, iParam1, 0);
+			return func_34(6106, iParam1, 0);
 		
 		case joaat("weapon_knuckle"):
-			return func_34(5813, iParam1, 0);
+			return func_34(6099, iParam1, 0);
 		
 		case joaat("weapon_machete"):
-			return func_34(5830, iParam1, 0);
+			return func_34(6116, iParam1, 0);
 		
 		case joaat("weapon_machinepistol"):
-			return func_34(5838, iParam1, 0);
+			return func_34(6124, iParam1, 0);
 		
 		case joaat("weapon_flashlight"):
-			return func_34(5876, iParam1, 0);
+			return func_34(6162, iParam1, 0);
 		
 		case joaat("weapon_switchblade"):
-			return func_34(5904, iParam1, 0);
+			return func_34(6190, iParam1, 0);
 		
 		case joaat("weapon_revolver"):
-			return func_34(5894, iParam1, 0);
+			return func_34(6180, iParam1, 0);
 		
 		case joaat("weapon_dbshotgun"):
-			return func_34(5866, iParam1, 0);
+			return func_34(6152, iParam1, 0);
 		
 		case joaat("weapon_compactrifle"):
-			return func_34(5856, iParam1, 0);
+			return func_34(6142, iParam1, 0);
 		
 		case joaat("weapon_hatchet"):
-			return func_34(5779, iParam1, 0);
+			return func_34(6065, iParam1, 0);
 		
 		case joaat("weapon_autoshotgun"):
-			return func_34(5945, iParam1, 0);
+			return func_34(6231, iParam1, 0);
 		
 		case joaat("weapon_battleaxe"):
-			return func_34(5955, iParam1, 0);
+			return func_34(6241, iParam1, 0);
 		
 		case joaat("weapon_compactlauncher"):
-			return func_34(5961, iParam1, 0);
+			return func_34(6247, iParam1, 0);
 		
 		case joaat("weapon_minismg"):
-			return func_34(5971, iParam1, 0);
+			return func_34(6257, iParam1, 0);
 		
 		case joaat("weapon_pipebomb"):
-			return func_34(5981, iParam1, 0);
+			return func_34(6267, iParam1, 0);
 		
 		case joaat("weapon_poolcue"):
-			return func_34(5989, iParam1, 0);
+			return func_34(6275, iParam1, 0);
 		
 		case joaat("weapon_wrench"):
-			return func_34(219, iParam1, 0);
+			return func_34(218, iParam1, 0);
+		
+		case joaat("weapon_pistol_mk2"):
+			return func_34(246, iParam1, 0);
+		
+		case joaat("weapon_smg_mk2"):
+			return func_34(296, iParam1, 0);
+		
+		case joaat("weapon_heavysniper_mk2"):
+			return func_34(426, iParam1, 0);
+		
+		case joaat("weapon_combatmg_mk2"):
+			return func_34(352, iParam1, 0);
+		
+		case joaat("weapon_assaultrifle_mk2"):
+			return func_34(316, iParam1, 0);
+		
+		case joaat("weapon_carbinerifle_mk2"):
+			return func_34(325, iParam1, 0);
 		
 		default:
 	}
 	return 0;
 }
 
-int func_120(int iParam0, int iParam1)
-{
-	switch (iParam0)
-	{
-		case joaat("weapon_pistol"):
-			return func_34(245, iParam1, 0);
-		
-		case joaat("weapon_combatpistol"):
-			return func_34(255, iParam1, 0);
-		
-		case joaat("weapon_appistol"):
-			return func_34(275, iParam1, 0);
-		
-		case joaat("weapon_microsmg"):
-			return func_34(285, iParam1, 0);
-		
-		case joaat("weapon_smg"):
-			return func_34(295, iParam1, 0);
-		
-		case joaat("weapon_assaultrifle"):
-			return func_34(315, iParam1, 0);
-		
-		case joaat("weapon_carbinerifle"):
-			return func_34(324, iParam1, 0);
-		
-		case joaat("weapon_advancedrifle"):
-			return func_34(333, iParam1, 0);
-		
-		case joaat("weapon_mg"):
-			return func_34(342, iParam1, 0);
-		
-		case joaat("weapon_combatmg"):
-			return func_34(351, iParam1, 0);
-		
-		case joaat("weapon_pumpshotgun"):
-			return func_34(369, iParam1, 0);
-		
-		case joaat("weapon_sawnoffshotgun"):
-			return func_34(378, iParam1, 0);
-		
-		case joaat("weapon_assaultshotgun"):
-			return func_34(397, iParam1, 0);
-		
-		case joaat("weapon_sniperrifle"):
-			return func_34(416, iParam1, 0);
-		
-		case joaat("weapon_heavysniper"):
-			return func_34(425, iParam1, 0);
-		
-		case joaat("weapon_grenadelauncher"):
-			return func_34(436, iParam1, 0);
-		
-		case joaat("weapon_rpg"):
-			return func_34(443, iParam1, 0);
-		
-		case joaat("weapon_minigun"):
-			return func_34(450, iParam1, 0);
-		
-		case joaat("weapon_grenade"):
-			return func_34(459, iParam1, 0);
-		
-		case joaat("weapon_smokegrenade"):
-			return func_34(467, iParam1, 0);
-		
-		case joaat("weapon_stickybomb"):
-			return func_34(476, iParam1, 0);
-		
-		case joaat("weapon_molotov"):
-			return func_34(484, iParam1, 0);
-		
-		case joaat("weapon_stungun"):
-			return func_34(406, iParam1, 0);
-		
-		case joaat("weapon_knife"):
-			return func_34(188, iParam1, 0);
-		
-		case joaat("weapon_nightstick"):
-			return func_34(196, iParam1, 0);
-		
-		case joaat("weapon_hammer"):
-			return func_34(224, iParam1, 0);
-		
-		case joaat("weapon_bat"):
-			return func_34(231, iParam1, 0);
-		
-		case joaat("weapon_crowbar"):
-			return func_34(203, iParam1, 0);
-		
-		case joaat("weapon_golfclub"):
-			return func_34(238, iParam1, 0);
-		
-		case joaat("weapon_pistol50"):
-			return func_34(265, iParam1, 0);
-		
-		case joaat("weapon_assaultsmg"):
-			return func_34(305, iParam1, 0);
-		
-		case joaat("weapon_heavyrifle"):
-			return func_34(425, iParam1, 0);
-		
-		case joaat("weapon_bullpupshotgun"):
-			return func_34(388, iParam1, 0);
-		
-		case -572349828:
-			return func_34(360, iParam1, 0);
-		
-		case 392730790:
-			return func_34(315, iParam1, 0);
-		
-		case -1887867191:
-			return func_34(315, iParam1, 0);
-		
-		case -837150131:
-			return func_34(315, iParam1, 0);
-		
-		case joaat("weapon_bottle"):
-			return func_34(1723, iParam1, 0);
-		
-		case joaat("weapon_snspistol"):
-			return func_34(1733, iParam1, 0);
-		
-		case joaat("weapon_specialcarbine"):
-			return func_34(5357, iParam1, 0);
-		
-		case joaat("weapon_bullpuprifle"):
-			return func_34(5367, iParam1, 0);
-		
-		case joaat("weapon_heavypistol"):
-			return func_34(5347, iParam1, 0);
-		
-		case joaat("weapon_dagger"):
-			return func_34(5650, iParam1, 0);
-		
-		case joaat("weapon_vintagepistol"):
-			return func_34(5660, iParam1, 0);
-		
-		case joaat("weapon_gusenberg"):
-			return func_34(5377, iParam1, 0);
-		
-		case joaat("weapon_musket"):
-			return func_34(5680, iParam1, 0);
-		
-		case joaat("weapon_firework"):
-			return func_34(5670, iParam1, 0);
-		
-		case joaat("weapon_heavyshotgun"):
-			return func_34(5758, iParam1, 0);
-		
-		case joaat("weapon_marksmanrifle"):
-			return func_34(5768, iParam1, 0);
-		
-		case joaat("weapon_proxmine"):
-			return func_34(5786, iParam1, 0);
-		
-		case joaat("weapon_hominglauncher"):
-			return func_34(5794, iParam1, 0);
-		
-		case joaat("weapon_combatpdw"):
-			return func_34(5802, iParam1, 0);
-		
-		case joaat("weapon_marksmanpistol"):
-			return func_34(5819, iParam1, 0);
-		
-		case joaat("weapon_knuckle"):
-			return func_34(5812, iParam1, 0);
-		
-		case joaat("weapon_machete"):
-			return func_34(5829, iParam1, 0);
-		
-		case joaat("weapon_machinepistol"):
-			return func_34(5837, iParam1, 0);
-		
-		case joaat("weapon_flashlight"):
-			return func_34(5875, iParam1, 0);
-		
-		case joaat("weapon_switchblade"):
-			return func_34(5903, iParam1, 0);
-		
-		case joaat("weapon_revolver"):
-			return func_34(5893, iParam1, 0);
-		
-		case joaat("weapon_dbshotgun"):
-			return func_34(5865, iParam1, 0);
-		
-		case joaat("weapon_compactrifle"):
-			return func_34(5855, iParam1, 0);
-		
-		case joaat("weapon_hatchet"):
-			return func_34(5778, iParam1, 0);
-		
-		case joaat("weapon_autoshotgun"):
-			return func_34(5944, iParam1, 0);
-		
-		case joaat("weapon_battleaxe"):
-			return func_34(5954, iParam1, 0);
-		
-		case joaat("weapon_compactlauncher"):
-			return func_34(5960, iParam1, 0);
-		
-		case joaat("weapon_minismg"):
-			return func_34(5970, iParam1, 0);
-		
-		case joaat("weapon_pipebomb"):
-			return func_34(5980, iParam1, 0);
-		
-		case joaat("weapon_poolcue"):
-			return func_34(5988, iParam1, 0);
-		
-		case joaat("weapon_wrench"):
-			return func_34(217, iParam1, 0);
-		
-		default:
-	}
-	return 0;
-}
-
-float func_121(int iParam0)
+float func_128(int iParam0)
 {
 	int iVar0;
 	int iVar1;
@@ -9050,215 +11026,215 @@ float func_121(int iParam0)
 	float fVar4;
 	int iVar5;
 	
-	if (iParam0 == joaat("weapon_pistol"))
+	if (iParam0 == joaat("weapon_pistol") || iParam0 == joaat("weapon_pistol_mk2"))
 	{
-		iVar0 = 247;
-		iVar1 = 248;
+		iVar0 = 248;
+		iVar1 = 249;
 	}
 	else if (iParam0 == joaat("weapon_combatpistol"))
 	{
-		iVar0 = 257;
-		iVar1 = 258;
+		iVar0 = 258;
+		iVar1 = 259;
 	}
 	else if (iParam0 == joaat("weapon_appistol"))
 	{
-		iVar0 = 277;
-		iVar1 = 278;
+		iVar0 = 278;
+		iVar1 = 279;
 	}
 	else if (iParam0 == joaat("weapon_microsmg"))
 	{
-		iVar0 = 287;
-		iVar1 = 288;
+		iVar0 = 288;
+		iVar1 = 289;
 	}
-	else if (iParam0 == joaat("weapon_smg"))
+	else if (iParam0 == joaat("weapon_smg") || iParam0 == joaat("weapon_smg_mk2"))
 	{
-		iVar0 = 297;
-		iVar1 = 298;
+		iVar0 = 298;
+		iVar1 = 299;
 	}
-	else if (iParam0 == joaat("weapon_assaultrifle"))
+	else if (iParam0 == joaat("weapon_assaultrifle") || iParam0 == joaat("weapon_assaultrifle_mk2"))
 	{
-		iVar0 = 317;
-		iVar1 = 318;
+		iVar0 = 318;
+		iVar1 = 319;
 	}
-	else if (iParam0 == joaat("weapon_carbinerifle"))
+	else if (iParam0 == joaat("weapon_carbinerifle") || iParam0 == joaat("weapon_carbinerifle_mk2"))
 	{
-		iVar0 = 326;
-		iVar1 = 327;
+		iVar0 = 327;
+		iVar1 = 328;
 	}
 	else if (iParam0 == joaat("weapon_specialcarbine"))
 	{
-		iVar0 = 5359;
-		iVar1 = 5360;
+		iVar0 = 5646;
+		iVar1 = 5647;
 	}
 	else if (iParam0 == joaat("weapon_snspistol"))
 	{
-		iVar0 = 1735;
-		iVar1 = 1736;
+		iVar0 = 1736;
+		iVar1 = 1737;
 	}
 	else if (iParam0 == joaat("weapon_advancedrifle"))
 	{
-		iVar0 = 335;
-		iVar1 = 336;
+		iVar0 = 336;
+		iVar1 = 337;
 	}
 	else if (iParam0 == joaat("weapon_mg"))
 	{
-		iVar0 = 344;
-		iVar1 = 345;
+		iVar0 = 345;
+		iVar1 = 346;
 	}
-	else if (iParam0 == joaat("weapon_combatmg"))
+	else if (iParam0 == joaat("weapon_combatmg") || iParam0 == joaat("weapon_combatmg_mk2"))
 	{
-		iVar0 = 353;
-		iVar1 = 354;
+		iVar0 = 354;
+		iVar1 = 355;
 	}
 	else if (iParam0 == joaat("weapon_sawnoffshotgun"))
 	{
-		iVar0 = 380;
-		iVar1 = 381;
+		iVar0 = 381;
+		iVar1 = 382;
 	}
 	else if (iParam0 == joaat("weapon_pumpshotgun"))
 	{
-		iVar0 = 371;
-		iVar1 = 372;
+		iVar0 = 372;
+		iVar1 = 373;
 	}
 	else if (iParam0 == joaat("weapon_assaultshotgun"))
 	{
-		iVar0 = 399;
-		iVar1 = 400;
+		iVar0 = 400;
+		iVar1 = 401;
 	}
 	else if (iParam0 == joaat("weapon_sniperrifle"))
 	{
-		iVar0 = 418;
-		iVar1 = 419;
+		iVar0 = 419;
+		iVar1 = 420;
 	}
-	else if (iParam0 == joaat("weapon_heavysniper"))
+	else if (iParam0 == joaat("weapon_heavysniper") || iParam0 == joaat("weapon_heavysniper_mk2"))
 	{
-		iVar0 = 427;
-		iVar1 = 428;
+		iVar0 = 428;
+		iVar1 = 429;
 	}
 	else if (iParam0 == joaat("weapon_grenadelauncher"))
 	{
-		iVar0 = 438;
-		iVar1 = 436;
+		iVar0 = 439;
+		iVar1 = 437;
 	}
 	else if (iParam0 == joaat("weapon_minigun"))
 	{
-		iVar0 = 452;
-		iVar1 = 453;
+		iVar0 = 453;
+		iVar1 = 454;
 	}
 	else if (iParam0 == joaat("weapon_rpg"))
 	{
-		iVar0 = 445;
-		iVar1 = 443;
+		iVar0 = 446;
+		iVar1 = 444;
 	}
 	else if (iParam0 == joaat("weapon_bullpupshotgun"))
 	{
-		iVar0 = 390;
-		iVar1 = 391;
+		iVar0 = 391;
+		iVar1 = 392;
 	}
 	else if (iParam0 == joaat("weapon_assaultsmg"))
 	{
-		iVar0 = 307;
-		iVar1 = 308;
+		iVar0 = 308;
+		iVar1 = 309;
 	}
 	else if (iParam0 == joaat("weapon_pistol50"))
 	{
-		iVar0 = 267;
-		iVar1 = 268;
+		iVar0 = 268;
+		iVar1 = 269;
 	}
 	else if (iParam0 == joaat("weapon_heavypistol"))
 	{
-		iVar0 = 5349;
-		iVar1 = 5350;
+		iVar0 = 5636;
+		iVar1 = 5637;
 	}
 	else if (iParam0 == joaat("weapon_bullpuprifle"))
 	{
-		iVar0 = 5369;
-		iVar1 = 5370;
+		iVar0 = 5656;
+		iVar1 = 5657;
 	}
 	else if (iParam0 == joaat("weapon_gusenberg"))
 	{
-		iVar0 = 5379;
-		iVar1 = 5380;
+		iVar0 = 5666;
+		iVar1 = 5667;
 	}
 	else if (iParam0 == joaat("weapon_vintagepistol"))
 	{
-		iVar0 = 5662;
-		iVar1 = 5663;
+		iVar0 = 5949;
+		iVar1 = 5950;
 	}
 	else if (iParam0 == joaat("weapon_musket"))
 	{
-		iVar0 = 5682;
-		iVar1 = 5683;
+		iVar0 = 5969;
+		iVar1 = 5970;
 	}
 	else if (iParam0 == joaat("weapon_firework"))
 	{
-		iVar0 = 5672;
-		iVar1 = 5673;
+		iVar0 = 5959;
+		iVar1 = 5960;
 	}
 	else if (iParam0 == joaat("weapon_heavyshotgun"))
 	{
-		iVar0 = 5760;
-		iVar1 = 5761;
+		iVar0 = 6047;
+		iVar1 = 6048;
 	}
 	else if (iParam0 == joaat("weapon_marksmanrifle"))
 	{
-		iVar0 = 5770;
-		iVar1 = 5771;
+		iVar0 = 6057;
+		iVar1 = 6058;
 	}
 	else if (iParam0 == joaat("weapon_hominglauncher"))
 	{
-		iVar0 = 5796;
-		iVar1 = 5794;
+		iVar0 = 6083;
+		iVar1 = 6081;
 	}
 	else if (iParam0 == joaat("weapon_proxmine"))
 	{
-		iVar0 = 5788;
-		iVar1 = 5786;
+		iVar0 = 6075;
+		iVar1 = 6073;
 	}
 	else if (iParam0 == joaat("weapon_combatpdw"))
 	{
-		iVar0 = 5804;
-		iVar1 = 5805;
+		iVar0 = 6091;
+		iVar1 = 6092;
 	}
 	else if (iParam0 == joaat("weapon_marksmanpistol"))
 	{
-		iVar0 = 5821;
-		iVar1 = 5822;
+		iVar0 = 6108;
+		iVar1 = 6109;
 	}
 	else if (iParam0 == joaat("weapon_machinepistol"))
 	{
-		iVar0 = 5839;
-		iVar1 = 5840;
+		iVar0 = 6126;
+		iVar1 = 6127;
 	}
 	else if (iParam0 == joaat("weapon_compactrifle"))
 	{
-		iVar0 = 5857;
-		iVar1 = 5858;
+		iVar0 = 6144;
+		iVar1 = 6145;
 	}
 	else if (iParam0 == joaat("weapon_dbshotgun"))
 	{
-		iVar0 = 5867;
-		iVar1 = 5868;
+		iVar0 = 6154;
+		iVar1 = 6155;
 	}
 	else if (iParam0 == joaat("weapon_revolver"))
 	{
-		iVar0 = 5895;
-		iVar1 = 5896;
+		iVar0 = 6182;
+		iVar1 = 6183;
 	}
 	else if (iParam0 == joaat("weapon_autoshotgun"))
 	{
-		iVar0 = 5946;
-		iVar1 = 5947;
+		iVar0 = 6233;
+		iVar1 = 6234;
 	}
 	else if (iParam0 == joaat("weapon_minismg"))
 	{
-		iVar0 = 5972;
-		iVar1 = 5973;
+		iVar0 = 6259;
+		iVar1 = 6260;
 	}
 	else if (iParam0 == joaat("weapon_compactlauncher"))
 	{
-		iVar0 = 5962;
-		iVar1 = 5960;
+		iVar0 = 6249;
+		iVar1 = 6247;
 	}
 	else
 	{
@@ -9281,7 +11257,7 @@ float func_121(int iParam0)
 	return 0f;
 }
 
-char* func_122(int iParam0)
+char* func_129(int iParam0)
 {
 	struct<16> Var0;
 	
@@ -9545,63 +11521,63 @@ char* func_122(int iParam0)
 	return "WT_INVALID";
 }
 
-int func_123()
+int func_130()
 {
 	return Global_1312735;
 }
 
-bool func_124(int iParam0, int iParam1)
+bool func_131(int iParam0, int iParam1)
 {
 	switch (iParam0)
 	{
 		case 5:
 			if (iParam1 > -1)
 			{
-				return Global_1353070.f_203[iParam1];
+				return Global_1351508.f_203[iParam1];
 			}
 			break;
 	}
-	return unk_0x48B8265059381CD0(Global_1353070.f_1015, iParam0);
+	return unk_0xAA4F14DA15DB0B51(Global_1351508.f_1048, iParam0);
 }
 
-void func_125()
+void func_132()
 {
-	func_126(0, -1, -1, 0, 0);
+	func_133(0, -1, -1, 0, 0);
 }
 
-void func_126(int iParam0, int iParam1, int iParam2, char* sParam3, int iParam4)
+void func_133(int iParam0, int iParam1, int iParam2, char* sParam3, int iParam4)
 {
-	unk_0x2F805CDCE0F4A0A5("SET_COLUMN_SCROLL");
-	unk_0xDF18CF55301CEB8B(iParam0);
-	unk_0xDF18CF55301CEB8B(iParam1);
-	unk_0xDF18CF55301CEB8B(iParam2);
-	unk_0xDF18CF55301CEB8B(-1);
-	if (!unk_0x9C88EB7B70229335(sParam3))
+	unk_0x6E49DBF6386AFC3C("SET_COLUMN_SCROLL");
+	unk_0x4CECF13AF144A8F6(iParam0);
+	unk_0x4CECF13AF144A8F6(iParam1);
+	unk_0x4CECF13AF144A8F6(iParam2);
+	unk_0x4CECF13AF144A8F6(-1);
+	if (!unk_0x58478145CAF8429C(sParam3))
 	{
-		unk_0xDCEB60B79ECB219E(sParam3);
-		unk_0x69967F83C1E636E2(iParam1);
-		unk_0x69967F83C1E636E2(iParam2);
-		unk_0x1798EBF9408190D3();
+		unk_0xADBDBA2DF8443753(sParam3);
+		unk_0xEA97619D8B89D387(iParam1);
+		unk_0xEA97619D8B89D387(iParam2);
+		unk_0xF7D95CCE1364B5CE();
 	}
 	else
 	{
 		func_20("");
 	}
-	unk_0x14ED5B5B8289F2FC(iParam4);
-	unk_0x44983883E630A945();
+	unk_0xD426F7366505EADF(iParam4);
+	unk_0x8123397DC676E794();
 }
 
-void func_127(var uParam0, var uParam1)
+void func_134(var uParam0, var uParam1)
 {
 	int iVar0;
 	int iVar1;
 	int iVar2;
 	var uVar3;
 	
-	func_129();
+	func_136();
 	iVar0 = 9;
 	iVar1 = uParam0->f_277;
-	if (uParam1->f_5 < iLocal_92)
+	if (uParam1->f_5 < iLocal_95)
 	{
 		iVar1 = (iVar1 + (iVar0 * uParam1->f_5));
 	}
@@ -9610,11 +11586,11 @@ void func_127(var uParam0, var uParam1)
 		iVar1 = (iVar1 + (iVar0 * uParam1->f_5));
 	}
 	iVar2 = uParam1->f_5 + 1;
-	uVar3 = iLocal_92 + 1;
-	func_126(0, iVar2, uVar3, "HUD_PAGE", 0);
+	uVar3 = iLocal_95 + 1;
+	func_133(0, iVar2, uVar3, "HUD_PAGE", 0);
 }
 
-int func_128(int iParam0)
+int func_135(int iParam0)
 {
 	int iVar0;
 	int iVar1;
@@ -9623,447 +11599,501 @@ int func_128(int iParam0)
 	iVar0 = iParam0;
 	iVar1 = func_38(iVar0);
 	iVar2 = func_30(iVar0);
-	if ((unk_0x164D7B6E326ECB2A(2, iParam0) || unk_0x7C48E6953368E08B(2, iParam0)) || func_6(iParam0, &(Global_1353070.f_1027), 1))
+	if ((unk_0x69EEC6F255864D43(2, iParam0) || unk_0xDCBB59BAB1A90B0C(2, iParam0)) || func_6(iParam0, &(Global_1351508.f_1060), 1))
 	{
-		if (!unk_0x48B8265059381CD0(Global_1353070.f_1016[iVar1], iVar2))
+		if (!unk_0xAA4F14DA15DB0B51(Global_1351508.f_1049[iVar1], iVar2))
 		{
-			unk_0xEB79FECD9022AAF0(&(Global_1353070.f_1016[iVar1]), iVar2);
+			unk_0xF6082E2ADA1C795B(&(Global_1351508.f_1049[iVar1]), iVar2);
 			return 1;
 		}
 	}
-	else if (unk_0x48B8265059381CD0(Global_1353070.f_1016[iVar1], iVar2))
+	else if (unk_0xAA4F14DA15DB0B51(Global_1351508.f_1049[iVar1], iVar2))
 	{
-		unk_0x21E7933CCC7B3724(&(Global_1353070.f_1016[iVar1]), iVar2);
+		unk_0x507FE690B1271947(&(Global_1351508.f_1049[iVar1]), iVar2);
 	}
 	return 0;
 }
 
-void func_129()
+void func_136()
 {
-	iLocal_93 = 0;
-	iLocal_92 = 3;
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_hammer")))
+	iLocal_96 = 0;
+	iLocal_95 = 3;
+	if (unk_0xE69689A877D533A5(joaat("weapon_hammer")))
 	{
-		iLocal_94[10] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[10] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[10] = -1;
+		iLocal_97[10] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_pistol50")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_pistol50")))
 	{
-		iLocal_94[0] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[0] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_bullpupshotgun")))
-	{
-		iLocal_94[1] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[0] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[1] = -1;
+		iLocal_97[0] = -1;
 	}
-	if (func_93(1, 0))
+	if (unk_0xE69689A877D533A5(joaat("weapon_bullpupshotgun")))
 	{
-		if (unk_0x3DF31EDD1F139A64(joaat("weapon_sawnoffshotgun")))
+		iLocal_97[1] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[1] = -1;
+	}
+	if (func_100(1, 0))
+	{
+		if (unk_0xE69689A877D533A5(joaat("weapon_sawnoffshotgun")))
 		{
-			iLocal_94[2] = ((iLocal_93 / 9) + iLocal_92);
-			iLocal_93++;
+			iLocal_97[2] = ((iLocal_96 / 9) + iLocal_95);
+			iLocal_96++;
 		}
 		else
 		{
-			iLocal_94[2] = -1;
+			iLocal_97[2] = -1;
 		}
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_bottle")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_bottle")))
 	{
-		iLocal_94[3] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[3] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[3] = -1;
+		iLocal_97[3] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_snspistol")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_snspistol")))
 	{
-		iLocal_94[4] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[4] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_gusenberg")))
-	{
-		iLocal_94[11] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[4] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[11] = -1;
+		iLocal_97[4] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_heavypistol")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_gusenberg")))
 	{
-		iLocal_94[7] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[7] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_specialcarbine")))
-	{
-		iLocal_94[5] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[11] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[5] = -1;
+		iLocal_97[11] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_bullpuprifle")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_heavypistol")))
 	{
-		iLocal_94[6] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[6] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_dagger")))
-	{
-		iLocal_94[8] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[7] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[8] = -1;
+		iLocal_97[7] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_vintagepistol")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_specialcarbine")))
 	{
-		iLocal_94[9] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[9] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_firework")))
-	{
-		iLocal_94[14] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[5] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[14] = -1;
+		iLocal_97[5] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_musket")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_bullpuprifle")))
 	{
-		iLocal_94[13] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[13] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_heavyshotgun")))
-	{
-		iLocal_94[15] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[6] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[15] = -1;
+		iLocal_97[6] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_marksmanrifle")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_dagger")))
 	{
-		iLocal_94[16] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[8] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[16] = -1;
+		iLocal_97[8] = -1;
 	}
-	if (func_92() || Global_262145.f_17809)
+	if (unk_0xE69689A877D533A5(joaat("weapon_vintagepistol")))
 	{
-		if (unk_0x3DF31EDD1F139A64(joaat("weapon_hatchet")))
+		iLocal_97[9] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[9] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_firework")))
+	{
+		iLocal_97[14] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[14] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_musket")))
+	{
+		iLocal_97[13] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[13] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_heavyshotgun")))
+	{
+		iLocal_97[15] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[15] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_marksmanrifle")))
+	{
+		iLocal_97[16] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[16] = -1;
+	}
+	if (func_99() || Global_262145.f_18245)
+	{
+		if (unk_0xE69689A877D533A5(joaat("weapon_hatchet")))
 		{
-			iLocal_94[22] = ((iLocal_93 / 9) + iLocal_92);
-			iLocal_93++;
+			iLocal_97[22] = ((iLocal_96 / 9) + iLocal_95);
+			iLocal_96++;
 		}
 		else
 		{
-			iLocal_94[22] = -1;
+			iLocal_97[22] = -1;
 		}
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_hominglauncher")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_hominglauncher")))
 	{
-		iLocal_94[18] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[18] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[18] = -1;
+		iLocal_97[18] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_proxmine")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_proxmine")))
 	{
-		iLocal_94[17] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[17] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_flaregun")))
-	{
-		iLocal_94[12] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[17] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[12] = -1;
+		iLocal_97[17] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_combatpdw")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_flaregun")))
 	{
-		iLocal_94[19] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[19] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_marksmanpistol")))
-	{
-		iLocal_94[20] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[12] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[20] = -1;
+		iLocal_97[12] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_knuckle")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_combatpdw")))
 	{
-		iLocal_94[21] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[21] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_machete")))
-	{
-		iLocal_94[23] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[19] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[23] = -1;
+		iLocal_97[19] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_machinepistol")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_marksmanpistol")))
 	{
-		iLocal_94[24] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[24] = -1;
-	}
-	if (Global_262145.f_10203 && unk_0x3DF31EDD1F139A64(joaat("weapon_flashlight")))
-	{
-		iLocal_94[25] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[20] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[25] = -1;
+		iLocal_97[20] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_revolver")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_knuckle")))
 	{
-		iLocal_94[26] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[26] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_switchblade")))
-	{
-		iLocal_94[27] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[21] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[27] = -1;
+		iLocal_97[21] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_dbshotgun")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_machete")))
 	{
-		iLocal_94[28] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[28] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_compactrifle")))
-	{
-		iLocal_94[29] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[23] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[29] = -1;
+		iLocal_97[23] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_autoshotgun")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_machinepistol")))
 	{
-		iLocal_94[30] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[30] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_battleaxe")))
-	{
-		iLocal_94[31] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[24] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[31] = -1;
+		iLocal_97[24] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_compactlauncher")))
+	if (Global_262145.f_10235 && unk_0xE69689A877D533A5(joaat("weapon_flashlight")))
 	{
-		iLocal_94[32] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[32] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_minismg")))
-	{
-		iLocal_94[33] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[25] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[33] = -1;
+		iLocal_97[25] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_pipebomb")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_revolver")))
 	{
-		iLocal_94[34] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[34] = -1;
-	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_poolcue")))
-	{
-		iLocal_94[35] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
+		iLocal_97[26] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_94[35] = -1;
+		iLocal_97[26] = -1;
 	}
-	if (unk_0x3DF31EDD1F139A64(joaat("weapon_wrench")))
+	if (unk_0xE69689A877D533A5(joaat("weapon_switchblade")))
 	{
-		iLocal_94[36] = ((iLocal_93 / 9) + iLocal_92);
-		iLocal_93++;
-	}
-	else
-	{
-		iLocal_94[36] = -1;
-	}
-	if (iLocal_93 == 0)
-	{
-		iLocal_92 = 2;
-		iLocal_93 = 9;
+		iLocal_97[27] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
 	}
 	else
 	{
-		iLocal_92 = (iLocal_92 + (iLocal_93 / 9));
-		iLocal_93 = (iLocal_93 - (9 * (iLocal_93 / 9)));
-		if (iLocal_93 == 0)
+		iLocal_97[27] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_dbshotgun")))
+	{
+		iLocal_97[28] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[28] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_compactrifle")))
+	{
+		iLocal_97[29] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[29] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_autoshotgun")))
+	{
+		iLocal_97[30] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[30] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_battleaxe")))
+	{
+		iLocal_97[31] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[31] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_compactlauncher")))
+	{
+		iLocal_97[32] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[32] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_minismg")))
+	{
+		iLocal_97[33] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[33] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_pipebomb")))
+	{
+		iLocal_97[34] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[34] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_poolcue")))
+	{
+		iLocal_97[35] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[35] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_wrench")))
+	{
+		iLocal_97[36] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[36] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_assaultrifle_mk2")))
+	{
+		iLocal_97[37] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[37] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_carbinerifle_mk2")))
+	{
+		iLocal_97[38] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[38] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_combatmg_mk2")))
+	{
+		iLocal_97[39] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[39] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_heavysniper_mk2")))
+	{
+		iLocal_97[40] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[40] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_pistol_mk2")))
+	{
+		iLocal_97[41] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[41] = -1;
+	}
+	if (unk_0xE69689A877D533A5(joaat("weapon_smg_mk2")))
+	{
+		iLocal_97[42] = ((iLocal_96 / 9) + iLocal_95);
+		iLocal_96++;
+	}
+	else
+	{
+		iLocal_97[42] = -1;
+	}
+	if (iLocal_96 == 0)
+	{
+		iLocal_95 = 2;
+		iLocal_96 = 9;
+	}
+	else
+	{
+		iLocal_95 = (iLocal_95 + (iLocal_96 / 9));
+		iLocal_96 = (iLocal_96 - (9 * (iLocal_96 / 9)));
+		if (iLocal_96 == 0)
 		{
-			iLocal_92 = (iLocal_92 - 1);
-			iLocal_93 = 9;
+			iLocal_95 = (iLocal_95 - 1);
+			iLocal_96 = 9;
 		}
 	}
 }
 
-void func_130(int iParam0, var uParam1)
+void func_137(int iParam0, var uParam1)
 {
 	uParam1->f_277 = iParam0;
 }
 
-void func_131()
+void func_138()
 {
-	func_129();
-	func_132();
-	func_126(0, 1, iLocal_92 + 1, "HUD_PAGE", 0);
+	func_136();
+	func_139();
+	func_133(0, 1, iLocal_95 + 1, "HUD_PAGE", 0);
 }
 
-void func_132()
+void func_139()
 {
-	func_133(1);
+	func_140(1);
 }
 
-void func_133(bool bParam0)
+void func_140(bool bParam0)
 {
 	if (bParam0)
 	{
-		func_134(0, 3, 0, 2, 0, 0);
+		func_141(0, 3, 0, 2, 0, 0);
 	}
 	else
 	{
-		func_134(0, 2, 0, 2, 1, 0);
+		func_141(0, 2, 0, 2, 1, 0);
 	}
 }
 
-void func_134(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5)
+void func_141(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int iParam5)
 {
-	unk_0x2F805CDCE0F4A0A5("INIT_COLUMN_SCROLL");
-	unk_0xDF18CF55301CEB8B(iParam0);
-	unk_0x14ED5B5B8289F2FC(0);
-	unk_0xDF18CF55301CEB8B(iParam1);
-	unk_0xDF18CF55301CEB8B(iParam2);
-	unk_0xDF18CF55301CEB8B(iParam3);
-	unk_0x14ED5B5B8289F2FC(1);
-	unk_0xDF18CF55301CEB8B(iParam4);
-	unk_0x14ED5B5B8289F2FC(iParam5);
-	unk_0x44983883E630A945();
+	unk_0x6E49DBF6386AFC3C("INIT_COLUMN_SCROLL");
+	unk_0x4CECF13AF144A8F6(iParam0);
+	unk_0xD426F7366505EADF(0);
+	unk_0x4CECF13AF144A8F6(iParam1);
+	unk_0x4CECF13AF144A8F6(iParam2);
+	unk_0x4CECF13AF144A8F6(iParam3);
+	unk_0xD426F7366505EADF(1);
+	unk_0x4CECF13AF144A8F6(iParam4);
+	unk_0xD426F7366505EADF(iParam5);
+	unk_0x8123397DC676E794();
 }
 
-void func_135(var uParam0)
+void func_142(var uParam0)
 {
 	uParam0->f_284 = 1;
 }
 
-void func_136(var uParam0)
+void func_143(var uParam0)
 {
 	uParam0->f_283 = 1;
 }
 
-void func_137(var uParam0)
+void func_144(var uParam0)
 {
-	func_138(uParam0);
+	func_145(uParam0);
 	uParam0->f_281 = 1;
 }
 
-void func_138(var uParam0)
+void func_145(var uParam0)
 {
-	*uParam0 = { Global_1351256 };
+	*uParam0 = { Global_1349694 };
 }
 
-int func_139()
+int func_146()
 {
-	return Global_25190;
+	return Global_25222;
 }
 
