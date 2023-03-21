@@ -80,7 +80,7 @@ void __EntryFunction__()
 	{
 		if (!unk_0xF68107C40359970C(unk_0xE2D3D51028F0428A()))
 		{
-			Global_112915.f_19963++;
+			Global_112922.f_19963++;
 			func_1();
 			unk_0xAFBDF6A5E54114C1();
 		}
@@ -90,7 +90,7 @@ void __EntryFunction__()
 
 void func_1()
 {
-	func_2(&(Global_112915.f_19963.f_1), 2048);
+	func_2(&(Global_112922.f_19963.f_1), 2048);
 }
 
 void func_2(var uParam0, int iParam1)

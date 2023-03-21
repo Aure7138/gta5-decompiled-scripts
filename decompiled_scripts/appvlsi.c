@@ -270,7 +270,7 @@ void func_10()
 		unk_0x4F47E317C74C543B(100);
 		unk_0x4F47E317C74C543B(2);
 		unk_0xD7D6BA6E36AEC182(0);
-		if (unk_0xE2D0C323A1AE5D85(Global_7826, 1))
+		if (BitTest(Global_7826, 1))
 		{
 			unk_0xCA5D23E5F0F0306F(0f);
 		}
@@ -289,7 +289,7 @@ void func_10()
 		unk_0x4F47E317C74C543B(100);
 		unk_0x4F47E317C74C543B(3);
 		unk_0xD7D6BA6E36AEC182(0);
-		if (unk_0xE2D0C323A1AE5D85(Global_7826, 1))
+		if (BitTest(Global_7826, 1))
 		{
 			unk_0xCA5D23E5F0F0306F(0f);
 		}

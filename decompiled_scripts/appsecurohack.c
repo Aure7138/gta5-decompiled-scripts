@@ -163,7 +163,7 @@ void func_7()
 	unk_0xEA5DEA46C3EE64D3(Global_19935, "DISPLAY_VIEW");
 	unk_0x4F47E317C74C543B(27);
 	unk_0x6F06CF0E9AB02847();
-	if (!unk_0xE2D0C323A1AE5D85(Global_4718592.f_21, 30))
+	if (!BitTest(Global_4718592.f_21, 30))
 	{
 		func_8(Global_19935, "SET_SOFT_KEYS", 3f, 0f, 27f, -1f, -1f, 0, 0, 0, 0, 0);
 	}

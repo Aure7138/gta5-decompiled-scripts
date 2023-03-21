@@ -377,12 +377,12 @@ void func_1(var uParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, i
 {
 	var uVar0;
 	var uVar1;
-	bool bVar2;
+	int iVar2;
 	var uVar3;
 	bool bVar4;
 	int iVar5;
 	int iVar6;
-	int iVar7;
+	bool bVar7;
 	float fVar8;
 	
 	if (((unk_0xCB1EF1E7B77ADF4C() || unk_0xECD40FEF3CF43BDB()) || unk_0xA829C9A2767AC8EF()) || unk_0x6304243969F5A11A())
@@ -442,25 +442,25 @@ void func_1(var uParam0, int iParam1, int iParam2, bool bParam3, bool bParam4, i
 				{
 					unk_0x4F47E317C74C543B(iVar5);
 					iVar5++;
-					iVar7 = 0;
-					while (iVar7 < uParam0->f_2[iVar6 /*15*/].f_14)
+					bVar7 = false;
+					while (bVar7 < uParam0->f_2[iVar6 /*15*/].f_14)
 					{
-						uVar0 = uParam0->f_2[iVar6 /*15*/].f_3[iVar7 /*2*/];
-						uVar1 = uParam0->f_2[iVar6 /*15*/].f_3[iVar7 /*2*/].f_1;
-						bVar2 = unk_0xE2D0C323A1AE5D85(uParam0->f_2[iVar6 /*15*/].f_13, iVar7);
-						if (!unk_0xE2D0C323A1AE5D85(uParam0->f_2[iVar6 /*15*/].f_12, iVar7))
+						uVar0 = uParam0->f_2[iVar6 /*15*/].f_3[bVar7 /*2*/];
+						uVar1 = uParam0->f_2[iVar6 /*15*/].f_3[bVar7 /*2*/].f_1;
+						iVar2 = BitTest(uParam0->f_2[iVar6 /*15*/].f_13, bVar7);
+						if (!BitTest(uParam0->f_2[iVar6 /*15*/].f_12, bVar7))
 						{
-							uVar3 = unk_0x2018949B2C9FD96A(uVar0, uVar1, bVar2);
+							uVar3 = unk_0x2018949B2C9FD96A(uVar0, uVar1, iVar2);
 						}
 						else
 						{
-							uVar3 = unk_0x19214818F925D149(uVar0, uVar1, bVar2);
+							uVar3 = unk_0x19214818F925D149(uVar0, uVar1, iVar2);
 						}
 						if (!unk_0xACC32B78196FBC2A(uVar3))
 						{
 							func_5(uVar3);
 						}
-						iVar7++;
+						bVar7++;
 					}
 					if (!unk_0xACC32B78196FBC2A(uParam0->f_2[iVar6 /*15*/]))
 					{
@@ -773,7 +773,7 @@ int func_18()
 
 bool func_19()
 {
-	return Global_2725728;
+	return Global_2725740;
 }
 
 struct<4> func_20(var uParam0)
@@ -817,7 +817,7 @@ int func_22(int iParam0)
 	{
 		return 0;
 	}
-	return Global_112915.f_9085.f_99.f_58[iParam0];
+	return Global_112922.f_9085.f_99.f_58[iParam0];
 }
 
 struct<4> func_23(var uParam0)
@@ -1067,7 +1067,7 @@ struct<4> func_28(var uParam0)
 
 int func_29(int iParam0, int iParam1)
 {
-	if (Global_112915.f_10194[iParam0 /*12*/].f_5 == 1)
+	if (Global_112922.f_10194[iParam0 /*12*/].f_5 == 1)
 	{
 		if (iParam1 == 1)
 		{
@@ -1223,7 +1223,7 @@ int func_34(int iParam0)
 {
 	if (iParam0 < 9)
 	{
-		return unk_0xE2D0C323A1AE5D85(Global_112915.f_18103.f_175[iParam0 /*19*/].f_18, 0);
+		return BitTest(Global_112922.f_18103.f_175[iParam0 /*19*/].f_18, 0);
 	}
 	return 0;
 }
@@ -1255,15 +1255,15 @@ int func_36(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			return Global_112915.f_10049.f_90[0];
+			return Global_112922.f_10049.f_90[0];
 			break;
 		
 		case 1:
-			return Global_112915.f_10049.f_90[1];
+			return Global_112922.f_10049.f_90[1];
 			break;
 		
 		case 2:
-			return Global_112915.f_10049.f_90[2];
+			return Global_112922.f_10049.f_90[2];
 			break;
 	}
 	return 0;
@@ -1541,7 +1541,7 @@ void func_47(bool bParam0, bool bParam1)
 
 bool func_48()
 {
-	return unk_0xE2D0C323A1AE5D85(Global_1958920, 5);
+	return BitTest(Global_1958928, 5);
 }
 
 int func_49(int iParam0)
@@ -1550,7 +1550,7 @@ int func_49(int iParam0)
 	{
 		if (Global_19954.f_1 > 3)
 		{
-			if (unk_0xE2D0C323A1AE5D85(Global_7824, 14))
+			if (BitTest(Global_7824, 14))
 			{
 				return 1;
 			}
@@ -1577,7 +1577,7 @@ int func_49(int iParam0)
 
 bool func_50()
 {
-	return unk_0xE2D0C323A1AE5D85(Global_1958920, 19);
+	return BitTest(Global_1958928, 19);
 }
 
 void func_51(bool bParam0, bool bParam1, int iParam2, int iParam3, bool bParam4, bool bParam5, bool bParam6)
@@ -1603,15 +1603,15 @@ void func_51(bool bParam0, bool bParam1, int iParam2, int iParam3, bool bParam4,
 			Global_21285 = 5;
 		}
 		func_58(1, iParam3, iParam2, 0);
-		Global_62696 = 1;
-		Global_75024 = 1;
-		Global_77850 = 1;
+		Global_62702 = 1;
+		Global_75030 = 1;
+		Global_77856 = 1;
 	}
 	else
 	{
 		func_59(0);
 		unk_0x45227777D3EBECE5();
-		Global_62696 = 0;
+		Global_62702 = 0;
 		if (bParam1)
 		{
 			unk_0xA91EC7D49DF9F229();
@@ -1630,13 +1630,13 @@ void func_51(bool bParam0, bool bParam1, int iParam2, int iParam3, bool bParam4,
 		{
 			unk_0x9210F85E9CD785F1(unk_0xE2D3D51028F0428A(), 0);
 		}
-		Global_77850 = 0;
+		Global_77856 = 0;
 	}
 }
 
 bool func_52()
 {
-	return unk_0xE2D0C323A1AE5D85(Global_1853128[unk_0x9E2D6C50374FCFA9() /*888*/].f_36.f_18, 14);
+	return BitTest(Global_1853131[unk_0x9E2D6C50374FCFA9() /*888*/].f_36.f_18, 14);
 }
 
 bool func_53(int iParam0, int iParam1)
@@ -1649,7 +1649,7 @@ bool func_53(int iParam0, int iParam1)
 	}
 	else
 	{
-		bVar0 = Global_1853128[iParam0 /*888*/].f_205 == 8;
+		bVar0 = Global_1853131[iParam0 /*888*/].f_205 == 8;
 	}
 	if (iParam1 == 1)
 	{
@@ -1671,7 +1671,7 @@ int func_54(int iParam0, bool bParam1)
 	{
 		iVar1 = func_55();
 	}
-	if (Global_1575026[iVar1] == 1)
+	if (Global_1575034[iVar1] == 1)
 	{
 		if (bParam1)
 		{
@@ -1680,7 +1680,7 @@ int func_54(int iParam0, bool bParam1)
 	}
 	else
 	{
-		iVar0 = Global_1574901[iVar1];
+		iVar0 = Global_1574909[iVar1];
 		if (bParam1)
 		{
 		}
@@ -1690,7 +1690,7 @@ int func_54(int iParam0, bool bParam1)
 
 int func_55()
 {
-	return Global_1574907;
+	return Global_1574915;
 }
 
 int func_56(int iParam0)
@@ -1706,7 +1706,7 @@ int func_56(int iParam0)
 			return 1;
 		}
 	}
-	if (unk_0xE2D0C323A1AE5D85(Global_2689156[iParam0 /*453*/].f_199, 2))
+	if (BitTest(Global_2689224[iParam0 /*451*/].f_197, 2))
 	{
 		return 1;
 	}
@@ -1715,7 +1715,7 @@ int func_56(int iParam0)
 
 bool func_57()
 {
-	return unk_0xE2D0C323A1AE5D85(Global_2621446, 3);
+	return BitTest(Global_2621446, 3);
 }
 
 int func_58(int iParam0, var uParam1, var uParam2, int iParam3)

@@ -121,7 +121,7 @@ void func_3()
 {
 	if (!unk_0xF68107C40359970C(uLocal_1))
 	{
-		if (unk_0x174CED88B97C78D9(uLocal_1, -2017877118) == 7)
+		if (unk_0x174CED88B97C78D9(uLocal_1, joaat("script_task_play_anim")) == 7)
 		{
 			unk_0x49D97B076E3590AC(uLocal_1, sLocal_8, sLocal_6, 1090519040, -1056964608, -1, 0, 0, 0, 0, 0);
 		}

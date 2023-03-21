@@ -162,7 +162,7 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_11(unk_0xE2D3D51028F0428A());
-		if (Global_31510 == 1)
+		if (Global_31516 == 1)
 		{
 			func_12();
 		}

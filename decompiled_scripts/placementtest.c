@@ -155,7 +155,7 @@ float func_3(var uParam0)
 		}
 		else
 		{
-			return (func_4(unk_0xE2D0C323A1AE5D85(*uParam0, 4)) - uParam0->f_1);
+			return (func_4(BitTest(*uParam0, 4)) - uParam0->f_1);
 		}
 	}
 	return uParam0->f_1;
@@ -187,7 +187,7 @@ float func_4(bool bParam0)
 
 bool func_5(var uParam0)
 {
-	return unk_0xE2D0C323A1AE5D85(*uParam0, 2);
+	return BitTest(*uParam0, 2);
 }
 
 void func_6(var uParam0)
@@ -197,7 +197,7 @@ void func_6(var uParam0)
 
 void func_7(var uParam0, float fParam1)
 {
-	uParam0->f_1 = (func_4(unk_0xE2D0C323A1AE5D85(*uParam0, 4)) - fParam1);
+	uParam0->f_1 = (func_4(BitTest(*uParam0, 4)) - fParam1);
 	unk_0xCED9E32812D6C7C7(uParam0, 1);
 	unk_0xB0550BC91B0159D6(uParam0, 2);
 	uParam0->f_2 = 0f;
@@ -205,7 +205,7 @@ void func_7(var uParam0, float fParam1)
 
 bool func_8(var uParam0)
 {
-	return unk_0xE2D0C323A1AE5D85(*uParam0, 1);
+	return BitTest(*uParam0, 1);
 }
 
 void func_9(var uParam0)

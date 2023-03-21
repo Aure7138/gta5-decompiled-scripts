@@ -274,7 +274,7 @@ void func_10()
 				unk_0xEA5DEA46C3EE64D3(Global_19935, "SET_DATA_SLOT");
 				unk_0x4F47E317C74C543B(23);
 				unk_0x4F47E317C74C543B(0);
-				if (unk_0xE2D0C323A1AE5D85(Global_7825, 30))
+				if (BitTest(Global_7825, 30))
 				{
 					unk_0x4F47E317C74C543B(-99);
 					unk_0x4F47E317C74C543B(0);
@@ -285,7 +285,7 @@ void func_10()
 					unk_0x4F47E317C74C543B(unk_0xF34EE736CF047844(fLocal_28));
 				}
 				unk_0x4F47E317C74C543B(100);
-				if (unk_0xE2D0C323A1AE5D85(Global_7825, 22))
+				if (BitTest(Global_7825, 22))
 				{
 					unk_0x4F47E317C74C543B(1);
 				}
@@ -293,7 +293,7 @@ void func_10()
 				{
 					unk_0x4F47E317C74C543B(0);
 				}
-				if (unk_0xE2D0C323A1AE5D85(Global_7825, 29))
+				if (BitTest(Global_7825, 29))
 				{
 					unk_0xD7D6BA6E36AEC182(0);
 				}
@@ -301,7 +301,7 @@ void func_10()
 				{
 					unk_0xD7D6BA6E36AEC182(1);
 				}
-				if (unk_0xE2D0C323A1AE5D85(Global_7826, 1))
+				if (BitTest(Global_7826, 1))
 				{
 					unk_0xCA5D23E5F0F0306F(fLocal_30);
 				}
@@ -341,28 +341,28 @@ void func_10()
 				switch (iVar0)
 				{
 					case 0:
-						if (unk_0xE2D0C323A1AE5D85(Global_4535327, 5))
+						if (BitTest(Global_4535327, 5))
 						{
 							bVar1 = true;
 						}
 						break;
 					
 					case 1:
-						if (unk_0xE2D0C323A1AE5D85(Global_4535327, 6))
+						if (BitTest(Global_4535327, 6))
 						{
 							bVar1 = true;
 						}
 						break;
 					
 					case 2:
-						if (unk_0xE2D0C323A1AE5D85(Global_4535327, 7))
+						if (BitTest(Global_4535327, 7))
 						{
 							bVar1 = true;
 						}
 						break;
 					
 					case 3:
-						if (unk_0xE2D0C323A1AE5D85(Global_4535327, 8))
+						if (BitTest(Global_4535327, 8))
 						{
 							bVar1 = true;
 						}
@@ -379,7 +379,7 @@ void func_10()
 					unk_0x4F47E317C74C543B(unk_0xF34EE736CF047844(fLocal_28));
 				}
 				unk_0x4F47E317C74C543B(100);
-				if (unk_0xE2D0C323A1AE5D85(Global_7825, 22))
+				if (BitTest(Global_7825, 22))
 				{
 					unk_0xD7D6BA6E36AEC182(1);
 				}
@@ -387,7 +387,7 @@ void func_10()
 				{
 					unk_0xD7D6BA6E36AEC182(1);
 				}
-				if (unk_0xE2D0C323A1AE5D85(Global_7825, 29))
+				if (BitTest(Global_7825, 29))
 				{
 					unk_0xD7D6BA6E36AEC182(0);
 				}
@@ -483,7 +483,7 @@ float func_17()
 
 int func_18()
 {
-	if (Global_77852 == 1)
+	if (Global_77858 == 1)
 	{
 		return 1;
 	}

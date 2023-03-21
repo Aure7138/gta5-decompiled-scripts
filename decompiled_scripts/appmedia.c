@@ -55,7 +55,7 @@ void __EntryFunction__()
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
 	unk_0x3F57BEDBC381CBC7();
-	func_27();
+	func_28();
 	func_26();
 	while (true)
 	{
@@ -81,7 +81,7 @@ void __EntryFunction__()
 							Global_19932 = 1;
 							if (Global_19954.f_1 > 3)
 							{
-								if (unk_0xE2D0C323A1AE5D85(Global_7825, 15))
+								if (BitTest(Global_7825, 15))
 								{
 								}
 								func_13();
@@ -365,7 +365,7 @@ void func_9()
 		}
 		unk_0x6447DA2F47A963E9(Local_207, 0);
 	}
-	if (unk_0xE2D0C323A1AE5D85(Global_7825, 15))
+	if (BitTest(Global_7825, 15))
 	{
 		iLocal_210 = 0;
 		iLocal_211 = 0;
@@ -520,7 +520,7 @@ int func_19()
 	int iVar1;
 	int iVar2;
 	
-	if (Global_77852)
+	if (Global_77858)
 	{
 		return 0;
 	}
@@ -644,7 +644,7 @@ void func_25()
 
 void func_26()
 {
-	if ((unk_0xDFC67688F9088B45() || unk_0x3EBD3AF4E5D7A08C()) || unk_0x8FE9914D4872D601())
+	if ((unk_0xDFC67688F9088B45() || func_27()) || unk_0x8FE9914D4872D601())
 	{
 		unk_0xB74730632FB72AE5();
 		if (unk_0x04B354BE7E7B0632(0))
@@ -664,7 +664,12 @@ void func_26()
 	}
 }
 
-void func_27()
+bool func_27()
+{
+	return (unk_0x3EBD3AF4E5D7A08C() || unk_0xC545AB1CF97ABB34());
+}
+
+void func_28()
 {
 	StringCopy(&(Local_52[0 /*6*/]), "CELL_MSSLOT_1", 24);
 	StringCopy(&(Local_52[1 /*6*/]), "CELL_MSSLOT_2", 24);

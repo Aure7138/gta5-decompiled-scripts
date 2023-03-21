@@ -15,9 +15,9 @@ void __EntryFunction__()
 	}
 	uLocal_0 = ScriptParam_0.f_0;
 	uLocal_1 = ScriptParam_0.f_1;
-	while (!unk_0xE2D0C323A1AE5D85(uLocal_2, 1))
+	while (!BitTest(uLocal_2, 1))
 	{
-		if (!unk_0xE2D0C323A1AE5D85(uLocal_2, 0))
+		if (!BitTest(uLocal_2, 0))
 		{
 			if (unk_0xE5965CDF24F93A9F(uLocal_0))
 			{

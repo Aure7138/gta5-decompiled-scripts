@@ -191,15 +191,15 @@ void __EntryFunction__()
 				unk_0x6F06CF0E9AB02847();
 				func_12(1);
 				func_9(&uLocal_47);
-				if (!func_8(Global_112915.f_19097, 4096))
+				if (!func_8(Global_112922.f_19097, 4096))
 				{
-					func_6(&(Global_112915.f_19097), 4096);
+					func_6(&(Global_112922.f_19097), 4096);
 				}
 				iLocal_45 = 3;
 				break;
 			
 			case 3:
-				if (((func_2(&uLocal_47) > ScriptParam_0.f_67 && ScriptParam_0.f_67 != -1f) || unk_0xA829C9A2767AC8EF()) || Global_31650)
+				if (((func_2(&uLocal_47) > ScriptParam_0.f_67 && ScriptParam_0.f_67 != -1f) || unk_0xA829C9A2767AC8EF()) || Global_31656)
 				{
 					func_19();
 				}
@@ -221,8 +221,8 @@ void __EntryFunction__()
 
 void func_1(int iParam0)
 {
-	Global_78112 = iParam0;
-	Global_78113 = iParam0;
+	Global_78118 = iParam0;
+	Global_78119 = iParam0;
 }
 
 float func_2(var uParam0)
@@ -235,7 +235,7 @@ float func_2(var uParam0)
 		}
 		else
 		{
-			return (func_3(unk_0xE2D0C323A1AE5D85(*uParam0, 4)) - uParam0->f_1);
+			return (func_3(BitTest(*uParam0, 4)) - uParam0->f_1);
 		}
 	}
 	return uParam0->f_1;
@@ -267,12 +267,12 @@ float func_3(bool bParam0)
 
 bool func_4(var uParam0)
 {
-	return unk_0xE2D0C323A1AE5D85(*uParam0, 2);
+	return BitTest(*uParam0, 2);
 }
 
 bool func_5(var uParam0)
 {
-	return unk_0xE2D0C323A1AE5D85(*uParam0, 1);
+	return BitTest(*uParam0, 1);
 }
 
 void func_6(var uParam0, int iParam1)
@@ -305,7 +305,7 @@ void func_10(var uParam0)
 
 void func_11(var uParam0, float fParam1)
 {
-	uParam0->f_1 = (func_3(unk_0xE2D0C323A1AE5D85(*uParam0, 4)) - fParam1);
+	uParam0->f_1 = (func_3(BitTest(*uParam0, 4)) - fParam1);
 	unk_0xCED9E32812D6C7C7(uParam0, 1);
 	unk_0xB0550BC91B0159D6(uParam0, 2);
 	uParam0->f_2 = 0f;
@@ -396,7 +396,7 @@ int func_15(int iParam0)
 	{
 		if (Global_19954.f_1 > 3)
 		{
-			if (unk_0xE2D0C323A1AE5D85(Global_7824, 14))
+			if (BitTest(Global_7824, 14))
 			{
 				return 1;
 			}
@@ -423,12 +423,12 @@ int func_15(int iParam0)
 
 bool func_16()
 {
-	return unk_0xE2D0C323A1AE5D85(Global_1958920, 5);
+	return BitTest(Global_1958928, 5);
 }
 
 bool func_17()
 {
-	return unk_0xE2D0C323A1AE5D85(Global_1958920, 19);
+	return BitTest(Global_1958928, 19);
 }
 
 void func_18(char* sParam0)
@@ -440,7 +440,7 @@ void func_18(char* sParam0)
 void func_19()
 {
 	unk_0x705B098546DEB18A(&uLocal_46);
-	Global_31650 = 0;
+	Global_31656 = 0;
 	func_1(0);
 	unk_0xAFBDF6A5E54114C1();
 }
