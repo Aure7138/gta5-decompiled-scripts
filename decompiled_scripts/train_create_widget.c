@@ -14,53 +14,53 @@ void __EntryFunction__()
 	Local_1 = { 613f, 6438f, 31f };
 	fLocal_5 = 5f;
 	iLocal_6 = 1;
-	unk_0x1A41D12A38E6D79F(1);
-	if (unk_0xD4BE58A7E3E102AC(3))
+	unk_0x7798376279BB5369(1);
+	if (unk_0x2EBF608FFE6CA406(3))
 	{
 		func_1();
 	}
-	unk_0x4D39BA8F87B38DDD(0);
-	unk_0xCC3033DD77AC1086();
-	if (!unk_0x2BF5E63466422C38(unk_0x0FA8183DAD2B3203()))
+	unk_0xF48790410026514E(0);
+	unk_0x52D3C9744D7CF20D();
+	if (!unk_0xEB6A8945D1AC98A1(unk_0x16F2683693E537C9()))
 	{
-		unk_0xCB3446C6A91D1A78(unk_0x0FA8183DAD2B3203(), 626.68f, 6442.31f, 30.88f, 1, 0, 0, 1);
-		unk_0x5A2B7C446C0CF087(unk_0x0FA8183DAD2B3203(), -177f);
-		unk_0xB489E71A45CDC02F(0);
+		unk_0xA47B46945FF6DE74(unk_0x16F2683693E537C9(), 626.68f, 6442.31f, 30.88f, 1, 0, 0, 1);
+		unk_0xD8F6A53F4799FAFE(unk_0x16F2683693E537C9(), -177f);
+		unk_0x2FB9A57162E54BAB(0);
 	}
-	unk_0x6BB2B1818CAE531E(joaat("freight"));
-	unk_0x6BB2B1818CAE531E(joaat("freightcar"));
-	unk_0x6BB2B1818CAE531E(joaat("freightgrain"));
-	unk_0x6BB2B1818CAE531E(joaat("freightcont1"));
-	unk_0x6BB2B1818CAE531E(joaat("freightcont2"));
-	unk_0x6BB2B1818CAE531E(joaat("tankercar"));
-	unk_0x6BB2B1818CAE531E(joaat("metrotrain"));
-	while ((((((!unk_0x6DF9C43E3CC645BC(joaat("freight")) || !unk_0x6DF9C43E3CC645BC(joaat("freightcar"))) || !unk_0x6DF9C43E3CC645BC(joaat("freightgrain"))) || !unk_0x6DF9C43E3CC645BC(joaat("freightcont1"))) || !unk_0x6DF9C43E3CC645BC(joaat("freightcont2"))) || !unk_0x6DF9C43E3CC645BC(joaat("tankercar"))) || !unk_0x6DF9C43E3CC645BC(joaat("metrotrain")))
+	unk_0x523BCC9DC80CD82F(joaat("freight"));
+	unk_0x523BCC9DC80CD82F(joaat("freightcar"));
+	unk_0x523BCC9DC80CD82F(joaat("freightgrain"));
+	unk_0x523BCC9DC80CD82F(joaat("freightcont1"));
+	unk_0x523BCC9DC80CD82F(joaat("freightcont2"));
+	unk_0x523BCC9DC80CD82F(joaat("tankercar"));
+	unk_0x523BCC9DC80CD82F(joaat("metrotrain"));
+	while ((((((!unk_0xB87F6CF6E5628C67(joaat("freight")) || !unk_0xB87F6CF6E5628C67(joaat("freightcar"))) || !unk_0xB87F6CF6E5628C67(joaat("freightgrain"))) || !unk_0xB87F6CF6E5628C67(joaat("freightcont1"))) || !unk_0xB87F6CF6E5628C67(joaat("freightcont2"))) || !unk_0xB87F6CF6E5628C67(joaat("tankercar"))) || !unk_0xB87F6CF6E5628C67(joaat("metrotrain")))
 	{
 		unk_0x4EDE34FBADD967A6(0);
 	}
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
-		if (!unk_0x2BF5E63466422C38(unk_0x0FA8183DAD2B3203()))
+		if (!unk_0xEB6A8945D1AC98A1(unk_0x16F2683693E537C9()))
 		{
 			if (iLocal_7)
 			{
-				if (unk_0xD4B321D9096B01FC(uLocal_0))
+				if (unk_0xC844350D5D58C99A(uLocal_0))
 				{
-					unk_0x7CC3EF9FB8953302(&uLocal_0);
+					unk_0x86AA47F87DFBA4D0(&uLocal_0);
 				}
-				uLocal_0 = unk_0xAC0DC8C4017DCDB1(uLocal_4, Local_1, iLocal_6);
+				uLocal_0 = unk_0x9F136BAA293FE131(uLocal_4, Local_1, iLocal_6);
 				iLocal_7 = 0;
 			}
 			if (iLocal_9)
 			{
-				Local_1 = { unk_0x72DDC427E84EEBD1() };
+				Local_1 = { unk_0xF1EE614CA05DDE75() };
 				iLocal_9 = 0;
 			}
-			if (unk_0xD960230552BC4165(uLocal_0, 0) && !unk_0xF4B969E0807E76C7(uLocal_0, 0))
+			if (unk_0xDF1306B443CD3D15(uLocal_0, 0) && !unk_0x437347B10A200C4B(uLocal_0, 0))
 			{
-				unk_0x7B99DFAED518FAEA(uLocal_0, fLocal_5);
-				unk_0xEED94CF58535C4D0(uLocal_0, fLocal_5);
+				unk_0x88FD99BDEAF715B4(uLocal_0, fLocal_5);
+				unk_0x5D6C12CA95187FB3(uLocal_0, fLocal_5);
 			}
 			if (bLocal_8)
 			{
@@ -72,7 +72,7 @@ void __EntryFunction__()
 
 void func_1()
 {
-	unk_0x4D39BA8F87B38DDD(1);
-	unk_0x9C9E32388A7886A2();
+	unk_0xF48790410026514E(1);
+	unk_0x10FAF14A60A0DBE1();
 }
 

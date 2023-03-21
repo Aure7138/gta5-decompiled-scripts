@@ -7,30 +7,30 @@
 
 void __EntryFunction__()
 {
-	if (unk_0xD4BE58A7E3E102AC(2))
+	if (unk_0x2EBF608FFE6CA406(2))
 	{
 		func_1();
 	}
-	if (unk_0xD4B321D9096B01FC(uScriptParam_0))
+	if (unk_0xC844350D5D58C99A(uScriptParam_0))
 	{
-		unk_0x860A5CC30A0EF207(uScriptParam_0, 1);
+		unk_0x1E9649458B15960F(uScriptParam_0, 1);
 	}
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
-		if (unk_0xD4B321D9096B01FC(uScriptParam_0))
+		if (unk_0xC844350D5D58C99A(uScriptParam_0))
 		{
-			if (unk_0xA887AF38A5D654D0(uScriptParam_0) && unk_0x222F76006659B0EB(joaat("michael2")) > 0)
+			if (unk_0x63D2C15453688621(uScriptParam_0) && unk_0x8A22C4C08282BF26(joaat("michael2")) > 0)
 			{
 				switch (iLocal_2)
 				{
 					case 0:
-						if (unk_0x3786322187995952(uScriptParam_0))
+						if (unk_0x1A5AE8A9B1D42A10(uScriptParam_0))
 						{
-							unk_0x36B659209EBDD366("MISSMIC2");
-							if (unk_0xB25A0D192C6A0A5B("MISSMIC2"))
+							unk_0x3F423BF5B8125A50("MISSMIC2");
+							if (unk_0xB4AE0788C1587752("MISSMIC2"))
 							{
-								unk_0xAF87685A609CD981(uScriptParam_0, "beefsplitter_loop", "MISSMIC2", 1f, 1, 0, 0, 0, 0);
+								unk_0xD65E6E13E145467B(uScriptParam_0, "beefsplitter_loop", "MISSMIC2", 1f, 1, 0, 0, 0, 0);
 								iLocal_2 = 1;
 							}
 						}
@@ -58,8 +58,8 @@ void __EntryFunction__()
 void func_1()
 {
 	func_2("ob_abattoir Terminated >>>>>>>>>>>>>>>>>\n");
-	unk_0x7D74D6A091150B86("MISSMIC2");
-	unk_0x9C9E32388A7886A2();
+	unk_0x8D17794CE3273D70("MISSMIC2");
+	unk_0x10FAF14A60A0DBE1();
 }
 
 void func_2(char* sParam0)
@@ -69,7 +69,7 @@ void func_2(char* sParam0)
 
 void func_3(var uParam0)
 {
-	if (unk_0x2553916E420E8EF0(uParam0, uParam0))
+	if (unk_0x7F8A39872A07D2CE(uParam0, uParam0))
 	{
 	}
 }

@@ -60,41 +60,9 @@
 	var uLocal_58 = 0;
 	var uLocal_59 = 0;
 	var uLocal_60 = 0;
-	var uLocal_61 = 10;
-	var uLocal_62 = 0;
+	var uLocal_61 = 0;
+	float fLocal_62 = 0f;
 	var uLocal_63 = 0;
-	var uLocal_64 = 0;
-	var uLocal_65 = 0;
-	var uLocal_66 = 0;
-	var uLocal_67 = 0;
-	var uLocal_68 = 0;
-	var uLocal_69 = 0;
-	var uLocal_70 = 0;
-	var uLocal_71 = 0;
-	var uLocal_72 = 2;
-	var uLocal_73 = 0;
-	var uLocal_74 = 0;
-	var uLocal_75 = 8;
-	var uLocal_76 = 0;
-	var uLocal_77 = 0;
-	var uLocal_78 = 0;
-	var uLocal_79 = 0;
-	var uLocal_80 = 0;
-	var uLocal_81 = 0;
-	var uLocal_82 = 0;
-	var uLocal_83 = 0;
-	var uLocal_84 = 8;
-	var uLocal_85 = 0;
-	var uLocal_86 = 0;
-	var uLocal_87 = 0;
-	var uLocal_88 = 0;
-	var uLocal_89 = 0;
-	var uLocal_90 = 0;
-	var uLocal_91 = 0;
-	var uLocal_92 = 0;
-	var uLocal_93 = 0;
-	float fLocal_94 = 0f;
-	var uLocal_95 = 0;
 #endregion
 
 void __EntryFunction__()
@@ -123,7 +91,7 @@ void __EntryFunction__()
 	iLocal_41 = 65;
 	iLocal_42 = 49;
 	iLocal_43 = 64;
-	fLocal_94 = ((0.05f + 0.275f) - 0.01f);
+	fLocal_62 = ((0.05f + 0.275f) - 0.01f);
 	func_12();
 	while (true)
 	{
@@ -149,14 +117,14 @@ void func_2()
 	var uVar5;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0xEC6B468B6F580489(2))
+	while (iVar0 < unk_0xDFB2BAED99ED0A2E(2))
 	{
-		iVar1 = unk_0x87C4D2EB1080B8EA(2, iVar0);
+		iVar1 = unk_0xB98DB26FBF676FA1(2, iVar0);
 		if (func_10(iVar1))
 		{
 			func_9(&Var2);
 			func_8(2, iVar0, iVar1, &Var2);
-			Var2.f_1 = (unk_0xB3EE417AD9F0CAA2() - 1);
+			Var2.f_1 = (unk_0xF4CCC8CB6DE7F1AE() - 1);
 			Var2.f_0 = iVar1;
 			if (!func_7(&Var2, &uVar5))
 			{
@@ -173,28 +141,28 @@ void func_3(int iParam0)
 	int iVar0;
 	
 	iVar0 = *iParam0;
-	if (((func_5() && func_4(iVar0)) && iVar0 != 240) && unk_0x59E27912657592E4())
+	if (((func_5() && func_4(iVar0)) && iVar0 != 244) && unk_0x37A36997770AEFC3())
 	{
-		unk_0x7C4613A698EBA88E(0, 1, 0);
+		unk_0xDA303319A57C6FF5(0, 1, 0);
 	}
 }
 
 bool func_4(int iParam0)
 {
-	return (((iParam0 == 241 || iParam0 == 242) || iParam0 == 243) || iParam0 == 240);
+	return (((iParam0 == 245 || iParam0 == 246) || iParam0 == 247) || iParam0 == 244);
 }
 
 bool func_5()
 {
-	return Global_1590446[unk_0x7C7787D2D7139A85() /*871*/].f_196 != 0;
+	return Global_1590535[unk_0xD803B885F5E47A62() /*876*/].f_196 != 0;
 }
 
 int func_6(int iParam0)
 {
-	if (Global_31010.f_61 < 20)
+	if (Global_31045.f_61 < 20)
 	{
-		Global_31010[Global_31010.f_61 /*3*/] = { *iParam0 };
-		Global_31010.f_61++;
+		Global_31045[Global_31045.f_61 /*3*/] = { *iParam0 };
+		Global_31045.f_61++;
 		return 1;
 	}
 	return 0;
@@ -204,9 +172,9 @@ int func_7(int iParam0, var uParam1)
 {
 	*uParam1 = 0;
 	*uParam1 = 0;
-	while (*uParam1 < Global_31010.f_61)
+	while (*uParam1 < Global_31045.f_61)
 	{
-		if (Global_31010[*uParam1 /*3*/] == *iParam0 && Global_31010[*uParam1 /*3*/].f_2 == iParam0->f_2)
+		if (Global_31045[*uParam1 /*3*/] == *iParam0 && Global_31045[*uParam1 /*3*/].f_2 == iParam0->f_2)
 		{
 			return 1;
 		}
@@ -219,9 +187,9 @@ void func_8(int iParam0, int iParam1, int iParam2, var uParam3)
 {
 	var uVar0;
 	
-	if (((iParam2 == 240 || iParam2 == 241) || iParam2 == 242) || iParam2 == 243)
+	if (((iParam2 == 244 || iParam2 == 245) || iParam2 == 246) || iParam2 == 247)
 	{
-		if (unk_0x3C1EC42A2CC175C5(iParam0, iParam1, &uVar0, 1))
+		if (unk_0x218F818E64020C17(iParam0, iParam1, &uVar0, 1))
 		{
 			uParam3->f_2 = uVar0;
 		}
@@ -247,6 +215,6 @@ int func_11()
 
 void func_12()
 {
-	unk_0x0A2FDF6E490B25B3();
+	unk_0xB57F88F0123F4C38();
 }
 
