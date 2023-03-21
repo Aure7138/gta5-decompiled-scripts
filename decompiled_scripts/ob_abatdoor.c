@@ -69,7 +69,7 @@ void __EntryFunction__()
 						{
 							if (unk_0xB4C854DD86E40FDA(joaat("michael2")) > 0)
 							{
-								if (Global_96411)
+								if (Global_96872)
 								{
 									if (unk_0x6F940C2636C076AD("map_objects"))
 									{
@@ -94,7 +94,7 @@ void __EntryFunction__()
 							}
 							else
 							{
-								Global_96412 = 1;
+								Global_96873 = 1;
 								iLocal_2 = 4;
 							}
 						}

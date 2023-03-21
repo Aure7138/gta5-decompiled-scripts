@@ -162,24 +162,24 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_11(unk_0xE2D3D51028F0428A());
-		if (Global_31516 == 1)
+		if (Global_31964 == 1)
 		{
 			func_12();
 		}
 		if (bLocal_85)
 		{
-			if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[0 /*3*/], (290f + 50f)))
+			if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[0 /*3*/], (290f + 50f), 1))
 			{
-				if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[1 /*3*/], (290f + 50f)))
+				if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[1 /*3*/], (290f + 50f), 1))
 				{
 					func_12();
 				}
 			}
 			if (iLocal_77 != 0)
 			{
-				if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[0 /*3*/], (fLocal_90 + 50f)))
+				if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[0 /*3*/], (fLocal_90 + 50f), 1))
 				{
-					if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[1 /*3*/], (fLocal_90 + 50f)))
+					if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[1 /*3*/], (fLocal_90 + 50f), 1))
 					{
 						unk_0x1F71B978FC3CF279("AZ_SPECIAL_UFO_01", 0, 1);
 						unk_0x1F71B978FC3CF279("AZ_SPECIAL_UFO_02", 0, 1);
@@ -197,7 +197,7 @@ void __EntryFunction__()
 				iVar0 = 0;
 				while (iVar0 < Local_78.f_0)
 				{
-					if (func_10(unk_0xE2D3D51028F0428A(), Local_78[iVar0 /*3*/], fLocal_90))
+					if (func_10(unk_0xE2D3D51028F0428A(), Local_78[iVar0 /*3*/], fLocal_90, 1))
 					{
 						iLocal_76 = iVar0;
 						iLocal_77 = 1;
@@ -213,7 +213,7 @@ void __EntryFunction__()
 				iVar0 = 0;
 				while (iVar0 < Local_78.f_0)
 				{
-					if (func_10(unk_0xE2D3D51028F0428A(), Local_78[iVar0 /*3*/], fLocal_87))
+					if (func_10(unk_0xE2D3D51028F0428A(), Local_78[iVar0 /*3*/], fLocal_87, 1))
 					{
 						iLocal_76 = iVar0;
 						iLocal_77 = 2;
@@ -236,7 +236,7 @@ void __EntryFunction__()
 				break;
 			
 			case 3:
-				if (func_10(unk_0xE2D3D51028F0428A(), Local_78[iLocal_76 /*3*/], fLocal_87))
+				if (func_10(unk_0xE2D3D51028F0428A(), Local_78[iLocal_76 /*3*/], fLocal_87, 1))
 				{
 					iLocal_75 = (unk_0x320D1840B6DAA1CC() - iLocal_74);
 					if (iLocal_75 >= iLocal_91)
@@ -270,7 +270,7 @@ void __EntryFunction__()
 				{
 					func_4(&iLocal_92);
 				}
-				if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[iLocal_76 /*3*/], fLocal_90))
+				if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[iLocal_76 /*3*/], fLocal_90, 1))
 				{
 					func_1();
 					iLocal_76 = -1;
@@ -409,7 +409,7 @@ void func_8()
 	{
 		return;
 	}
-	if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[iLocal_76 /*3*/], fLocal_88))
+	if (!func_10(unk_0xE2D3D51028F0428A(), Local_78[iLocal_76 /*3*/], fLocal_88, 1))
 	{
 		return;
 	}
@@ -437,9 +437,9 @@ Vector3 func_9(struct<3> Param0)
 	return Param0;
 }
 
-bool func_10(var uParam0, struct<3> Param1, float fParam4)
+bool func_10(var uParam0, struct<3> Param1, float fParam4, int iParam5)
 {
-	return unk_0xB7A628320EFF8E47(unk_0x6B62510F212526DC(uParam0, 1), Param1) <= (fParam4 * fParam4);
+	return unk_0xB7A628320EFF8E47(unk_0x6B62510F212526DC(uParam0, iParam5), Param1) <= (fParam4 * fParam4);
 }
 
 bool func_11(var uParam0)
