@@ -48,7 +48,7 @@ void __EntryFunction__()
 	iLocal_24 = -1;
 	iLocal_25 = 21;
 	iLocal_27 = 1;
-	unk_0x389D5B1C24A046B5();
+	unk_0x51CC1333A10C4E09();
 	while (true)
 	{
 		switch (iLocal_26)
@@ -60,7 +60,7 @@ void __EntryFunction__()
 			
 			case 1:
 				func_1();
-				unk_0x675D9C12C73D3DE7();
+				unk_0xBBC29EBE6E1A48FA();
 				break;
 		}
 		unk_0x4EDE34FBADD967A6(0);
@@ -8300,7 +8300,7 @@ void func_3(int iParam0, var uParam1, var uParam2, bool bParam3)
 	
 	uVar0 = func_4(iParam0);
 	uVar1 = *uParam2;
-	if (!unk_0xE04F0101BC206A86(uVar0, uParam1, uParam2))
+	if (!unk_0x3924757A6ED5FEDB(uVar0, uParam1, uParam2))
 	{
 		if (bParam3)
 		{
@@ -8310,7 +8310,7 @@ void func_3(int iParam0, var uParam1, var uParam2, bool bParam3)
 	}
 	else
 	{
-		unk_0x38B4945AEE462C38(uVar0, uParam1, uParam2);
+		unk_0xDF6F5F7DECDD6CA3(uVar0, uParam1, uParam2);
 	}
 	if (bParam3)
 	{
@@ -8325,7 +8325,7 @@ int func_4(int iParam0)
 	{
 		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
 		StringIntConCat(&cVar0, (iParam0 - 28), 64);
-		return unk_0x14580F20CBCE4FA9(&cVar0);
+		return unk_0x70E57E9927B6BA58(&cVar0);
 	}
 	switch (iParam0)
 	{

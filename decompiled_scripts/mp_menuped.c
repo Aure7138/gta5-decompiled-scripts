@@ -226,18 +226,18 @@ void __EntryFunction__()
 	fLocal_163 = 100f;
 	fLocal_173 = 0.5f;
 	iVar0 = 0;
-	if (unk_0x55EEDBBFDC6E810F(4))
+	if (unk_0x96CFB880BAC634CE(4))
 	{
 		func_431(iVar0);
-		if (!unk_0x66599E73DBA5A850(Global_1574825[0 /*6*/].f_3))
+		if (!unk_0x4FAFF4BCB7633475(Global_1574825[0 /*6*/].f_3))
 		{
-			unk_0xE9C250FA35A936C8(&(Global_1574825[0 /*6*/].f_3));
+			unk_0x734A9F4537A31459(&(Global_1574825[0 /*6*/].f_3));
 		}
 		func_430();
 		Global_1574598 = 0;
-		unk_0x675D9C12C73D3DE7();
+		unk_0xBBC29EBE6E1A48FA();
 	}
-	unk_0x389D5B1C24A046B5();
+	unk_0x51CC1333A10C4E09();
 	switch (ScriptParam_0.f_0)
 	{
 		case 100:
@@ -248,21 +248,21 @@ void __EntryFunction__()
 			func_429(&(Global_1574825[0 /*6*/].f_3));
 			func_430();
 			func_427(ScriptParam_0.f_1, 1);
-			if (func_426(unk_0x93E99A2DBCBA9CFA()))
+			if (func_426(unk_0x259BE71D8A81D4FA()))
 			{
-				unk_0xBBC113AAD280E345(1344549371);
+				unk_0x9BC444D671469DCD(1344549371);
 			}
 			else
 			{
-				unk_0x5E345778D3A21CA8(1344549371);
+				unk_0xB4CD52D6B8305BD4(1344549371);
 			}
 			unk_0x4EDE34FBADD967A6(0);
 			unk_0x4EDE34FBADD967A6(0);
-			while (unk_0xA4F2B6D09A322B9F(&uVar15) == 0)
+			while (unk_0xAF52AA4A49D4A9B4(&uVar15) == 0)
 			{
 				unk_0x4EDE34FBADD967A6(0);
 			}
-			while (unk_0x9D5E4877FF54F5C8(&iVar28, &iVar29, &iVar30) == 0)
+			while (unk_0x5412721BB04590F1(&iVar28, &iVar29, &iVar30) == 0)
 			{
 				unk_0x4EDE34FBADD967A6(0);
 			}
@@ -274,18 +274,18 @@ void __EntryFunction__()
 			unk_0x4EDE34FBADD967A6(0);
 			unk_0x4EDE34FBADD967A6(0);
 			func_427(ScriptParam_0.f_1, 0);
-			unk_0xC7A494C74ED33C50(Global_1574825[0 /*6*/].f_3);
-			unk_0x383E8F74217BA1DF(Global_1574825[0 /*6*/].f_3, 1);
+			unk_0xAF8337BF5A296283(Global_1574825[0 /*6*/].f_3);
+			unk_0x1D16BFDD94C0AE8F(Global_1574825[0 /*6*/].f_3, 1);
 			func_430();
 			break;
 		
 		case 5:
 			if (ScriptParam_0.f_2 == 203)
 			{
-				if (unk_0xA4F2B6D09A322B9F(&Var1))
+				if (unk_0xAF52AA4A49D4A9B4(&Var1))
 				{
-					iVar14 = unk_0x0735EA601365269C(&Var1);
-					if (iVar14 != unk_0x93E99A2DBCBA9CFA())
+					iVar14 = unk_0xA34132DD5D4FE383(&Var1);
+					if (iVar14 != unk_0x259BE71D8A81D4FA())
 					{
 						if (func_47(Var1))
 						{
@@ -293,8 +293,8 @@ void __EntryFunction__()
 							{
 								if (!func_45(105) && func_45(0))
 								{
-									unk_0xA78AAD752C1D3486(&Var1, "", 0, 0, 0);
-									unk_0x26EB625BDECA8674("BACK", "HUD_FREEMODE_SOUNDSET");
+									unk_0xD13EB0279D039C8B(&Var1, "", 0, 0, 0);
+									unk_0xD35776C4668F2E8D("BACK", "HUD_FREEMODE_SOUNDSET");
 									func_44(&Var1, "");
 								}
 							}
@@ -305,14 +305,14 @@ void __EntryFunction__()
 			if (ScriptParam_0.f_2 == 201)
 			{
 				func_43(1);
-				if (unk_0xA4F2B6D09A322B9F(&Var1))
+				if (unk_0xAF52AA4A49D4A9B4(&Var1))
 				{
-					iVar14 = unk_0x0735EA601365269C(&Var1);
-					if (iVar14 != unk_0x93E99A2DBCBA9CFA())
+					iVar14 = unk_0xA34132DD5D4FE383(&Var1);
+					if (iVar14 != unk_0x259BE71D8A81D4FA())
 					{
 						if (func_47(Var1))
 						{
-							if (!unk_0xB4D0EFD6A033F949(&Var1))
+							if (!unk_0xBE0146369C46314B(&Var1))
 							{
 								if (!func_46(Var1))
 								{
@@ -322,19 +322,19 @@ void __EntryFunction__()
 							}
 							else
 							{
-								iVar14 = unk_0x0735EA601365269C(&Var1);
+								iVar14 = unk_0xA34132DD5D4FE383(&Var1);
 								if (iVar14 != func_42())
 								{
 									if (func_41(iVar14, 0, 1))
 									{
-										if (unk_0x50863FB83CC49DE3(&Var1))
+										if (unk_0x75AC04DC09B758E5(&Var1))
 										{
 											func_39(func_40(iVar14), Global_2101638, Global_2101638.f_1, 0, Global_2101638.f_2, Global_2101638.f_5);
-											func_23(0, &Var1, unk_0x1D25117F71EE3811(iVar14), 0, 3, 1, 0);
+											func_23(0, &Var1, unk_0xBD6CA019F46AB947(iVar14), 0, 3, 1, 0);
 										}
 										else
 										{
-											unk_0xECDAB41968FF21A8(&uVar31, 7);
+											unk_0x0B0C9A0F9AAEB7F0(&uVar31, 7);
 											Var32 = { Var1 };
 											Var32.f_13 = uVar31;
 											Var32.f_19 = 0;
@@ -358,7 +358,7 @@ void __EntryFunction__()
 			break;
 	}
 	func_427(ScriptParam_0.f_1, 0);
-	unk_0x675D9C12C73D3DE7();
+	unk_0xBBC29EBE6E1A48FA();
 }
 
 void func_1(int iParam0)
@@ -384,14 +384,14 @@ void func_1(int iParam0)
 				{
 					if (func_12())
 					{
-						if (func_47(Global_1583840.f_1[iVar0 /*13*/]) && !unk_0x2AC37494BBF1DB16(func_11(&(Global_1583840.f_418[iVar0 /*16*/]))))
+						if (func_47(Global_1583840.f_1[iVar0 /*13*/]) && !unk_0xD6F9DEE4765092A9(func_11(&(Global_1583840.f_418[iVar0 /*16*/]))))
 						{
 							Var2[iVar1 /*13*/] = { Global_1583840.f_1[iVar0 /*13*/] };
 							Var419[iVar1 /*16*/] = { Global_1583840.f_418[iVar0 /*16*/] };
 							iVar1++;
 						}
 					}
-					else if (func_47(Global_1582906.f_1[iVar0 /*13*/]) && !unk_0x2AC37494BBF1DB16(func_11(&(Global_1582906.f_418[iVar0 /*16*/]))))
+					else if (func_47(Global_1582906.f_1[iVar0 /*13*/]) && !unk_0xD6F9DEE4765092A9(func_11(&(Global_1582906.f_418[iVar0 /*16*/]))))
 					{
 						Var2[iVar1 /*13*/] = { Global_1582906.f_1[iVar0 /*13*/] };
 						Var419[iVar1 /*16*/] = { Global_1582906.f_418[iVar0 /*16*/] };
@@ -416,15 +416,15 @@ void func_1(int iParam0)
 				}
 				break;
 		}
-		unk_0x999B81A4AE9CE465(100);
-		unk_0xB147FFB90944E6C0(&Var2, &Var419, iVar1, 100);
+		unk_0xAD5E28295E97B3FB(100);
+		unk_0xD57BC2EBAE7CB358(&Var2, &Var419, iVar1, 100);
 	}
 	else if (iParam0 == 107)
 	{
 		iVar0 = 0;
 		while (iVar0 < 32)
 		{
-			iVar932 = unk_0xADCF72047FEB806E(iVar0);
+			iVar932 = unk_0xB23E0F9B63D009A8(iVar0);
 			if (func_41(iVar932, 0, 1))
 			{
 				if (func_10(iVar932))
@@ -442,26 +442,26 @@ void func_1(int iParam0)
 			}
 			iVar0++;
 		}
-		unk_0x999B81A4AE9CE465(103);
-		unk_0xBF79555C320A2F4B(&Var2, iVar1, 103);
+		unk_0xAD5E28295E97B3FB(103);
+		unk_0x403A85E50E14F1BD(&Var2, iVar1, 103);
 	}
 	else if (iParam0 == 118)
 	{
-		if (Global_2792111.f_932)
+		if (Global_2792113.f_932)
 		{
 			iVar0 = 0;
 			while (iVar0 < 32)
 			{
-				if (func_47(Global_2792111[iVar0 /*13*/]))
+				if (func_47(Global_2792113[iVar0 /*13*/]))
 				{
-					Var2[iVar1 /*13*/] = { Global_2792111[iVar0 /*13*/] };
-					Var946[iVar1 /*16*/] = { Global_2792111.f_417[iVar0 /*16*/] };
+					Var2[iVar1 /*13*/] = { Global_2792113[iVar0 /*13*/] };
+					Var946[iVar1 /*16*/] = { Global_2792113.f_417[iVar0 /*16*/] };
 					iVar1++;
 				}
 				iVar0++;
 			}
-			unk_0x999B81A4AE9CE465(104);
-			unk_0xB147FFB90944E6C0(&Var2, &Var946, iVar1, 104);
+			unk_0xAD5E28295E97B3FB(104);
+			unk_0xD57BC2EBAE7CB358(&Var2, &Var946, iVar1, 104);
 		}
 	}
 	else
@@ -483,9 +483,9 @@ void func_1(int iParam0)
 		}
 		if (iVar1459 == 101)
 		{
-			unk_0x999B81A4AE9CE465(iVar1459);
+			unk_0xAD5E28295E97B3FB(iVar1459);
 		}
-		unk_0xBF79555C320A2F4B(&Var2, iVar1, iVar1459);
+		unk_0x403A85E50E14F1BD(&Var2, iVar1, iVar1459);
 		iVar0 = 0;
 		while (iVar0 < func_8())
 		{
@@ -494,7 +494,7 @@ void func_1(int iParam0)
 				Var1460 = { func_7(iVar0) };
 				if (func_47(Var1460))
 				{
-					unk_0xF98834EF2CD936FB(&Var1460);
+					unk_0x36BA6B20E222965C(&Var1460);
 				}
 			}
 			iVar0++;
@@ -509,39 +509,39 @@ var func_2()
 
 var func_3()
 {
-	return Global_2683862.f_747;
+	return Global_2683864.f_747;
 }
 
 bool func_4(int iParam0)
 {
-	return BitTest(Global_2684799.f_1.f_845[iParam0 /*57*/].f_51, 8);
+	return BitTest(Global_2684801.f_1.f_845[iParam0 /*57*/].f_51, 8);
 }
 
 bool func_5(int iParam0)
 {
-	return BitTest(Global_2684799.f_1.f_845[iParam0 /*57*/].f_51, 4);
+	return BitTest(Global_2684801.f_1.f_845[iParam0 /*57*/].f_51, 4);
 }
 
 var func_6(int iParam0)
 {
-	return BitTest(Global_2684799.f_1.f_845[iParam0 /*57*/].f_50, 2);
+	return BitTest(Global_2684801.f_1.f_845[iParam0 /*57*/].f_50, 2);
 }
 
 struct<13> func_7(int iParam0)
 {
-	return Global_2684799.f_1.f_845[iParam0 /*57*/];
+	return Global_2684801.f_1.f_845[iParam0 /*57*/];
 }
 
 int func_8()
 {
-	return Global_2684799.f_1.f_2805;
+	return Global_2684801.f_1.f_2805;
 }
 
 struct<13> func_9(int iParam0)
 {
 	struct<13> Var0;
 	
-	unk_0x23BD70608BA4F8D9(iParam0, &Var0, 13);
+	unk_0x464E131FD68B953F(iParam0, &Var0, 13);
 	return Var0;
 }
 
@@ -557,7 +557,7 @@ var func_11(var uParam0)
 
 bool func_12()
 {
-	if (unk_0x1758F8A8511510AB())
+	if (unk_0x834C960822A4683F())
 	{
 		return func_14();
 	}
@@ -586,12 +586,12 @@ int func_13(int iParam0)
 
 var func_14()
 {
-	return Global_2683862.f_19;
+	return Global_2683864.f_19;
 }
 
 int func_15()
 {
-	return Global_1853910[unk_0x93E99A2DBCBA9CFA() /*862*/].f_192;
+	return Global_1853910[unk_0x259BE71D8A81D4FA() /*862*/].f_192;
 }
 
 void func_16(var uParam0)
@@ -613,7 +613,7 @@ void func_16(var uParam0)
 			{
 				if (func_15() >= 13 && func_15() <= 19)
 				{
-					unk_0x8834A808CD7647F1(uParam0, &sVar2);
+					unk_0x8EBBDA7981838F74(uParam0, &sVar2);
 				}
 			}
 		}
@@ -623,7 +623,7 @@ void func_16(var uParam0)
 
 void func_17()
 {
-	Global_2684799.f_1.f_2798 = 1;
+	Global_2684801.f_1.f_2798 = 1;
 }
 
 void func_18(int iParam0, char* sParam1, var uParam2)
@@ -753,7 +753,7 @@ bool func_21(var uParam0, int iParam1)
 
 bool func_22()
 {
-	return Global_1853910[unk_0x93E99A2DBCBA9CFA() /*862*/].f_192 != 0;
+	return Global_1853910[unk_0x259BE71D8A81D4FA() /*862*/].f_192 != 0;
 }
 
 int func_23(int iParam0, var uParam1, char* sParam2, int iParam3, int iParam4, bool bParam5, char* sParam6)
@@ -764,15 +764,15 @@ int func_23(int iParam0, var uParam1, char* sParam2, int iParam3, int iParam4, b
 	
 	if (iParam4 == 3)
 	{
-		unk_0xD7D6665D76D75263(uParam1);
+		unk_0xB502672BBF33603F(uParam1);
 	}
 	else
 	{
-		unk_0x4C245303E1609A9D(uParam1);
+		unk_0x78595F3231E58B25(uParam1);
 	}
 	if (iParam0 < 32)
 	{
-		if (iParam3 == 1 && unk_0x68A3AB30B63089FD(joaat("mp_global"), 2064649238, 1))
+		if (iParam3 == 1 && unk_0x0752721B56D5DBA3(joaat("mp_global"), 2064649238, 1))
 		{
 			return iParam0;
 		}
@@ -780,9 +780,9 @@ int func_23(int iParam0, var uParam1, char* sParam2, int iParam3, int iParam4, b
 		{
 			bVar0 = true;
 		}
-		if (unk_0xB4D0EFD6A033F949(uParam1))
+		if (unk_0xBE0146369C46314B(uParam1))
 		{
-			iVar1 = unk_0x0735EA601365269C(uParam1);
+			iVar1 = unk_0xA34132DD5D4FE383(uParam1);
 			if (iVar1 != func_42())
 			{
 				if (func_35(iVar1, 0))
@@ -808,7 +808,7 @@ int func_23(int iParam0, var uParam1, char* sParam2, int iParam3, int iParam4, b
 		iVar2 = 0;
 		while (iVar2 <= 31)
 		{
-			if (!func_47(Global_2681615[iVar2 /*37*/]))
+			if (!func_47(Global_2681617[iVar2 /*37*/]))
 			{
 				if (func_25(iVar2, uParam1, sParam2, iParam4, sParam6))
 				{
@@ -818,22 +818,22 @@ int func_23(int iParam0, var uParam1, char* sParam2, int iParam3, int iParam4, b
 					}
 					if (bParam5)
 					{
-						func_24(uParam1, &(Global_2681615[iVar2 /*37*/].f_13), Global_2681615[iVar2 /*37*/].f_35);
+						func_24(uParam1, &(Global_2681617[iVar2 /*37*/].f_13), Global_2681617[iVar2 /*37*/].f_35);
 					}
 					func_30(23);
 				}
 				return iVar2;
 			}
-			else if (unk_0x7A033258C83D54CA(uParam1, &(Global_2681615[iVar2 /*37*/])))
+			else if (unk_0xD43ED7463CB7671C(uParam1, &(Global_2681617[iVar2 /*37*/])))
 			{
-				if (Global_2681615[iVar2 /*37*/].f_35 != 9 && !(Global_2681615[iVar2 /*37*/].f_35 == 3 && iParam4 == 3))
+				if (Global_2681617[iVar2 /*37*/].f_35 != 9 && !(Global_2681617[iVar2 /*37*/].f_35 == 3 && iParam4 == 3))
 				{
-					Global_2681615[iVar2 /*37*/].f_35 = iParam4;
-					Global_2681615[iVar2 /*37*/].f_36 = unk_0xD48CE560FB238316();
+					Global_2681617[iVar2 /*37*/].f_35 = iParam4;
+					Global_2681617[iVar2 /*37*/].f_36 = unk_0x39D1D336459711BE();
 				}
 				if (bParam5)
 				{
-					func_24(uParam1, &(Global_2681615[iVar2 /*37*/].f_13), Global_2681615[iVar2 /*37*/].f_35);
+					func_24(uParam1, &(Global_2681617[iVar2 /*37*/].f_13), Global_2681617[iVar2 /*37*/].f_35);
 				}
 				func_30(23);
 				return iVar2;
@@ -875,40 +875,40 @@ void func_24(var uParam0, char* sParam1, int iParam2)
 			iVar0 = 9;
 			break;
 	}
-	unk_0xA78AAD752C1D3486(uParam0, sParam1, 1, iVar0, 1);
+	unk_0xD13EB0279D039C8B(uParam0, sParam1, 1, iVar0, 1);
 }
 
 int func_25(int iParam0, var uParam1, char* sParam2, int iParam3, char* sParam4)
 {
-	Global_2681615[iParam0 /*37*/] = { *uParam1 };
-	Global_2681615[iParam0 /*37*/].f_35 = iParam3;
-	Global_2681615[iParam0 /*37*/].f_36 = unk_0xD48CE560FB238316();
-	StringCopy(&(Global_2681615[iParam0 /*37*/].f_13), sParam2, 64);
-	if (unk_0xB4D0EFD6A033F949(uParam1))
+	Global_2681617[iParam0 /*37*/] = { *uParam1 };
+	Global_2681617[iParam0 /*37*/].f_35 = iParam3;
+	Global_2681617[iParam0 /*37*/].f_36 = unk_0x39D1D336459711BE();
+	StringCopy(&(Global_2681617[iParam0 /*37*/].f_13), sParam2, 64);
+	if (unk_0xBE0146369C46314B(uParam1))
 	{
-		Global_2681615[iParam0 /*37*/].f_33 = 2;
-		func_28(*uParam1, &(Global_2681615[iParam0 /*37*/].f_29));
+		Global_2681617[iParam0 /*37*/].f_33 = 2;
+		func_28(*uParam1, &(Global_2681617[iParam0 /*37*/].f_29));
 	}
-	else if (!unk_0x2AC37494BBF1DB16(sParam4))
+	else if (!unk_0xD6F9DEE4765092A9(sParam4))
 	{
-		Global_2681615[iParam0 /*37*/].f_33 = 2;
-		StringCopy(&(Global_2681615[iParam0 /*37*/].f_29), sParam4, 16);
+		Global_2681617[iParam0 /*37*/].f_33 = 2;
+		StringCopy(&(Global_2681617[iParam0 /*37*/].f_29), sParam4, 16);
 	}
 	else
 	{
-		Global_2681615[iParam0 /*37*/].f_33 = 1;
-		StringCopy(&(Global_2681615[iParam0 /*37*/].f_29), "", 16);
+		Global_2681617[iParam0 /*37*/].f_33 = 1;
+		StringCopy(&(Global_2681617[iParam0 /*37*/].f_29), "", 16);
 	}
-	if (!unk_0x2AC37494BBF1DB16(sParam2))
+	if (!unk_0xD6F9DEE4765092A9(sParam2))
 	{
-		Global_2681615[iParam0 /*37*/].f_34 = 0;
+		Global_2681617[iParam0 /*37*/].f_34 = 0;
 		return 1;
 	}
-	else if (unk_0x674D69D3896862C7())
+	else if (unk_0x0BA1A956D36B210F())
 	{
-		StringCopy(&(Global_2681615[iParam0 /*37*/].f_13), unk_0x035CE87BB6CCBF5E(&(Global_2681615[iParam0 /*37*/])), 64);
-		Global_2681615[iParam0 /*37*/].f_34 = 0;
-		if (unk_0x674D69D3896862C7())
+		StringCopy(&(Global_2681617[iParam0 /*37*/].f_13), unk_0x6E4BB594E2A075CC(&(Global_2681617[iParam0 /*37*/])), 64);
+		Global_2681617[iParam0 /*37*/].f_34 = 0;
+		if (unk_0x0BA1A956D36B210F())
 		{
 		}
 		else if (func_27())
@@ -918,31 +918,31 @@ int func_25(int iParam0, var uParam1, char* sParam2, int iParam3, char* sParam4)
 	}
 	else
 	{
-		if (unk_0xCCE9BCDAB8B7FAED())
+		if (unk_0x1226C55CA7D2269A())
 		{
 		}
 		else if (func_26())
 		{
 		}
-		else if (unk_0xCC17806DB0C41C19())
+		else if (unk_0x761778199FE1211C())
 		{
 		}
 		else if (func_27())
 		{
 		}
-		Global_2681615[iParam0 /*37*/].f_34 = 1;
+		Global_2681617[iParam0 /*37*/].f_34 = 1;
 	}
 	return 0;
 }
 
 bool func_26()
 {
-	return (unk_0x8CCF8DC8E92BDA94() || unk_0x14F62099DEBAEA33());
+	return (unk_0xFD5A25A8B9488D42() || unk_0x6823557BDD18031C());
 }
 
 bool func_27()
 {
-	return (unk_0x01689609224A6C92() || unk_0xEE17703CF2C2875A());
+	return (unk_0x3B880DE16766E9C3() || unk_0x716271729B9FB8E6());
 }
 
 void func_28(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12, char[4] cParam13)
@@ -950,13 +950,13 @@ void func_28(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, va
 	var uVar0;
 	
 	StringCopy(cParam13, "", 16);
-	unk_0xEB463FCE742A28B2(&uVar0, 35, &uParam0);
+	unk_0xC07B1AA6155EC337(&uVar0, 35, &uParam0);
 	func_29(&uVar0, cParam13);
 }
 
 void func_29(var uParam0, char* sParam1)
 {
-	unk_0x239A3F916BD51FAF(uParam0, 35, sParam1);
+	unk_0x29B9959EF2236634(uParam0, 35, sParam1);
 }
 
 void func_30(int iParam0)
@@ -970,10 +970,10 @@ void func_30(int iParam0)
 	{
 		return;
 	}
-	if (!BitTest(Global_2684799.f_1.f_2813[iVar0], bVar1))
+	if (!BitTest(Global_2684801.f_1.f_2813[iVar0], bVar1))
 	{
 	}
-	unk_0xECDAB41968FF21A8(&(Global_2684799.f_1.f_2813[iVar0]), bVar1);
+	unk_0x0B0C9A0F9AAEB7F0(&(Global_2684801.f_1.f_2813[iVar0]), bVar1);
 }
 
 bool func_31(var uParam0)
@@ -986,16 +986,16 @@ bool func_31(var uParam0)
 	{
 		if (bVar1)
 		{
-			Global_2682804[(iVar0 - 1) /*33*/] = { Global_2682804[iVar0 /*33*/] };
-			if (!func_47(Global_2682804[iVar0 /*33*/]))
+			Global_2682806[(iVar0 - 1) /*33*/] = { Global_2682806[iVar0 /*33*/] };
+			if (!func_47(Global_2682806[iVar0 /*33*/]))
 			{
-				Global_2682804.f_1057 = (Global_2682804.f_1057 - 1);
+				Global_2682806.f_1057 = (Global_2682806.f_1057 - 1);
 				return 1;
 			}
 		}
-		else if (func_47(Global_2682804[iVar0 /*33*/]))
+		else if (func_47(Global_2682806[iVar0 /*33*/]))
 		{
-			if (unk_0x7A033258C83D54CA(uParam0, &(Global_2682804[iVar0 /*33*/])))
+			if (unk_0xD43ED7463CB7671C(uParam0, &(Global_2682806[iVar0 /*33*/])))
 			{
 				bVar1 = true;
 			}
@@ -1004,14 +1004,14 @@ bool func_31(var uParam0)
 	}
 	if (bVar1)
 	{
-		Global_2682804.f_1057 = (Global_2682804.f_1057 - 1);
+		Global_2682806.f_1057 = (Global_2682806.f_1057 - 1);
 	}
 	return bVar1;
 }
 
 bool func_32()
 {
-	return Global_2683862.f_841;
+	return Global_2683864.f_841;
 }
 
 void func_33(var uParam0, char* sParam1, int iParam2, char* sParam3)
@@ -1025,24 +1025,24 @@ void func_33(var uParam0, char* sParam1, int iParam2, char* sParam3)
 	StringCopy(&(Var39.f_13), sParam1, 64);
 	StringCopy(&(Var39.f_29), "", 16);
 	Var39.f_33 = 0;
-	if (!unk_0x2AC37494BBF1DB16(sParam3))
+	if (!unk_0xD6F9DEE4765092A9(sParam3))
 	{
 		StringCopy(&(Var39.f_29), sParam3, 16);
 		Var39.f_33 = 2;
 	}
 	Var39.f_34 = 0;
 	Var39.f_35 = iParam2;
-	Var39.f_36 = unk_0xD48CE560FB238316();
-	if (unk_0x2AC37494BBF1DB16(sParam1))
+	Var39.f_36 = unk_0x39D1D336459711BE();
+	if (unk_0xD6F9DEE4765092A9(sParam1))
 	{
-		if (unk_0x674D69D3896862C7())
+		if (unk_0x0BA1A956D36B210F())
 		{
-			StringCopy(&(Var39.f_13), unk_0x035CE87BB6CCBF5E(uParam0), 64);
+			StringCopy(&(Var39.f_13), unk_0x6E4BB594E2A075CC(uParam0), 64);
 		}
 		else
 		{
 			Var39.f_13 = { func_34(uParam0) };
-			if (unk_0x2AC37494BBF1DB16(&(Var39.f_13)))
+			if (unk_0xD6F9DEE4765092A9(&(Var39.f_13)))
 			{
 				Var39.f_34 = 1;
 			}
@@ -1057,19 +1057,19 @@ void func_33(var uParam0, char* sParam1, int iParam2, char* sParam3)
 		}
 		else if (iParam2 == 9)
 		{
-			if (Global_2681615[iVar0 /*37*/].f_35 != 11)
+			if (Global_2681617[iVar0 /*37*/].f_35 != 11)
 			{
 				bVar1 = true;
 			}
 		}
 		if (bVar1)
 		{
-			Var2 = { Global_2681615[iVar0 /*37*/] };
-			Global_2681615[iVar0 /*37*/] = { Var39 };
+			Var2 = { Global_2681617[iVar0 /*37*/] };
+			Global_2681617[iVar0 /*37*/] = { Var39 };
 			Var39 = { Var2 };
 			if (func_47(Var2))
 			{
-				if (unk_0x7A033258C83D54CA(&Var2, uParam0) || unk_0x4310A0DB886F9FED(&(Var2.f_13), sParam1))
+				if (unk_0xD43ED7463CB7671C(&Var2, uParam0) || unk_0x1B79E937E91F40C3(&(Var2.f_13), sParam1))
 				{
 					return;
 				}
@@ -1088,11 +1088,11 @@ struct<16> func_34(var uParam0)
 	iVar0 = 0;
 	while (iVar0 < 32)
 	{
-		if (func_47(Global_2681615[iVar0 /*37*/]))
+		if (func_47(Global_2681617[iVar0 /*37*/]))
 		{
-			if (unk_0x7A033258C83D54CA(&(Global_2681615[iVar0 /*37*/]), uParam0))
+			if (unk_0xD43ED7463CB7671C(&(Global_2681617[iVar0 /*37*/]), uParam0))
 			{
-				Var1 = { Global_2681615[iVar0 /*37*/].f_13 };
+				Var1 = { Global_2681617[iVar0 /*37*/].f_13 };
 				iVar0 = 32;
 			}
 		}
@@ -1105,7 +1105,7 @@ bool func_35(int iParam0, int iParam1)
 {
 	bool bVar0;
 	
-	if (iParam0 == unk_0x93E99A2DBCBA9CFA())
+	if (iParam0 == unk_0x259BE71D8A81D4FA())
 	{
 		bVar0 = func_36(-1, 0) == 8;
 	}
@@ -1115,9 +1115,9 @@ bool func_35(int iParam0, int iParam1)
 	}
 	if (iParam1 == 1)
 	{
-		if (unk_0xE6DEE82DB0922DF0(iParam0))
+		if (unk_0x762604C40829DB72(iParam0))
 		{
-			bVar0 = unk_0x4292F1DE8BA2D22E(iParam0) == 8;
+			bVar0 = unk_0x1864096A95E36EBA(iParam0) == 8;
 		}
 	}
 	return bVar0;
@@ -1162,9 +1162,9 @@ int func_38(var uParam0)
 	iVar0 = 0;
 	while (iVar0 < 32)
 	{
-		if (func_47(Global_2684799.f_1.f_845[iVar0 /*57*/]) && func_47(*uParam0))
+		if (func_47(Global_2684801.f_1.f_845[iVar0 /*57*/]) && func_47(*uParam0))
 		{
-			if (unk_0x7A033258C83D54CA(&(Global_2684799.f_1.f_845[iVar0 /*57*/]), uParam0))
+			if (unk_0xD43ED7463CB7671C(&(Global_2684801.f_1.f_845[iVar0 /*57*/]), uParam0))
 			{
 				return 1;
 			}
@@ -1182,17 +1182,17 @@ void func_39(int iParam0, var uParam1, var uParam2, int iParam3, struct<3> Param
 {
 	struct<15> Var0;
 	
-	Var0.f_0 = 1200439149;
-	Var0.f_1 = unk_0x93E99A2DBCBA9CFA();
+	Var0.f_0 = -508082170;
+	Var0.f_1 = unk_0x259BE71D8A81D4FA();
 	Var0.f_2 = uParam1;
 	Var0.f_3 = uParam2;
 	Var0.f_4 = iParam3;
 	Var0.f_5 = { Param4 };
 	Var0.f_8 = { Param7 };
-	Var0.f_14 = Global_2684799.f_1.f_2828.f_13;
+	Var0.f_14 = Global_2684801.f_1.f_2828.f_13;
 	if (!iParam0 == 0)
 	{
-		unk_0x46F55A5B9F053761(1, &Var0, 15, iParam0);
+		unk_0x01F0B819E78A18A1(1, &Var0, 15, iParam0);
 	}
 }
 
@@ -1202,7 +1202,7 @@ int func_40(bool bParam0)
 	
 	if (iParam0 != -1)
 	{
-		unk_0xECDAB41968FF21A8(&uVar0, iParam0);
+		unk_0x0B0C9A0F9AAEB7F0(&uVar0, iParam0);
 	}
 	return uVar0;
 }
@@ -1214,11 +1214,11 @@ int func_41(int iParam0, bool bParam1, bool bParam2)
 	iVar0 = iParam0;
 	if (iVar0 != -1)
 	{
-		if (unk_0xE6DEE82DB0922DF0(iParam0))
+		if (unk_0x762604C40829DB72(iParam0))
 		{
 			if (bParam1)
 			{
-				if (!unk_0x48DC6A21D1CAD89C(iParam0))
+				if (!unk_0x75EAB09F5E974116(iParam0))
 				{
 					return 0;
 				}
@@ -1260,26 +1260,26 @@ bool func_44(var uParam0, char* sParam1)
 	{
 		if (bVar1)
 		{
-			Global_2681615[(iVar0 - 1) /*37*/] = { Global_2681615[iVar0 /*37*/] };
-			if (Global_2681615.f_1185 == iVar0)
+			Global_2681617[(iVar0 - 1) /*37*/] = { Global_2681617[iVar0 /*37*/] };
+			if (Global_2681617.f_1185 == iVar0)
 			{
-				Global_2681615.f_1185 = (iVar0 - 1);
+				Global_2681617.f_1185 = (iVar0 - 1);
 			}
-			if (!func_47(Global_2681615[iVar0 /*37*/]) && Global_2681615[iVar0 /*37*/].f_34 != 3)
+			if (!func_47(Global_2681617[iVar0 /*37*/]) && Global_2681617[iVar0 /*37*/].f_34 != 3)
 			{
 				return 1;
 			}
 		}
-		else if (func_47(Global_2681615[iVar0 /*37*/]))
+		else if (func_47(Global_2681617[iVar0 /*37*/]))
 		{
-			if (unk_0x7A033258C83D54CA(uParam0, &(Global_2681615[iVar0 /*37*/])))
+			if (unk_0xD43ED7463CB7671C(uParam0, &(Global_2681617[iVar0 /*37*/])))
 			{
 				bVar1 = true;
 			}
 		}
-		else if (Global_2681615[iVar0 /*37*/].f_34 == 3)
+		else if (Global_2681617[iVar0 /*37*/].f_34 == 3)
 		{
-			if (unk_0x4310A0DB886F9FED(&(Global_2681615[iVar0 /*37*/].f_13), sParam1))
+			if (unk_0x1B79E937E91F40C3(&(Global_2681617[iVar0 /*37*/].f_13), sParam1))
 			{
 				bVar1 = true;
 			}
@@ -1300,7 +1300,7 @@ int func_45(int iParam0)
 	{
 		return 0;
 	}
-	return BitTest(Global_2684799.f_1.f_2813[iVar0], iVar1);
+	return BitTest(Global_2684801.f_1.f_2813[iVar0], iVar1);
 }
 
 int func_46(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12)
@@ -1308,9 +1308,9 @@ int func_46(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var
 	int iVar0;
 	
 	iVar0 = 0;
-	while (iVar0 <= (Global_2684799.f_1.f_2805 - 1))
+	while (iVar0 <= (Global_2684801.f_1.f_2805 - 1))
 	{
-		if (unk_0x7A033258C83D54CA(&(Global_2684799.f_1.f_845[iVar0 /*57*/]), &uParam0))
+		if (unk_0xD43ED7463CB7671C(&(Global_2684801.f_1.f_845[iVar0 /*57*/]), &uParam0))
 		{
 			return 1;
 		}
@@ -1321,7 +1321,7 @@ int func_46(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var
 
 bool func_47(var uParam0, var uParam1, var uParam2, var uParam3, var uParam4, var uParam5, var uParam6, var uParam7, var uParam8, var uParam9, var uParam10, var uParam11, var uParam12)
 {
-	return unk_0x73EC603A60C832F3(&uParam0, 13);
+	return unk_0xA8F635A578C0CE07(&uParam0, 13);
 }
 
 int func_48(var uParam0, var uParam1, int iParam2, int iParam3, int iParam4, int iParam5)
@@ -1336,41 +1336,41 @@ int func_48(var uParam0, var uParam1, int iParam2, int iParam3, int iParam4, int
 	int iVar73;
 	var uVar74;
 	
-	if (unk_0xA26A9A07F761D8F8())
+	if (unk_0x76CD105BCAC6EB9F())
 	{
 		if (func_47(*uParam0))
 		{
-			if (unk_0xB4D0EFD6A033F949(uParam0))
+			if (unk_0xBE0146369C46314B(uParam0))
 			{
-				iVar0 = unk_0x0735EA601365269C(uParam0);
-				uVar1 = unk_0xF2CFBB1105511E1A(iVar0);
+				iVar0 = unk_0xA34132DD5D4FE383(uParam0);
+				uVar1 = unk_0x56E414973C2A8C0E(iVar0);
 				if (iVar0 != func_42())
 				{
 					if (func_41(iVar0, 0, 1))
 					{
 						if (!func_425(uVar1))
 						{
-							if ((unk_0x7DE17ACDD8BA2642(uVar1) && !unk_0x055111B11E6624FD(uVar1, 0)) && unk_0x1951CE8AED052DA4(uVar1))
+							if ((unk_0xFC8BFE4B41177C22(uVar1) && !unk_0x1C2F771CDC87A3A5(uVar1, 0)) && unk_0x4CEC77F224BCD884(uVar1))
 							{
-								iVar2 = unk_0xF2CFBB1105511E1A(iVar0);
-								if (unk_0x7DE17ACDD8BA2642(iVar2))
+								iVar2 = unk_0x56E414973C2A8C0E(iVar0);
+								if (unk_0xFC8BFE4B41177C22(iVar2))
 								{
-									if (!unk_0x7DE17ACDD8BA2642(*uParam1))
+									if (!unk_0xFC8BFE4B41177C22(*uParam1))
 									{
-										uVar3 = unk_0x504B9BB48D41C264(iVar2);
-										Var4 = { unk_0x30BE8A934C020461(iVar2, 0) };
+										uVar3 = unk_0x4B423FAA24E8ABF0(iVar2);
+										Var4 = { unk_0xD1A6A821F5AC81DB(iVar2, 0) };
 										Var4.f_2 = (Var4.f_2 + 2f);
-										*uParam1 = unk_0x69FDD9508259E5B5(25, uVar3, Var4, 0f, 0, 0);
-										unk_0x724FFAED1C56CE2B(*uParam1, 0, 0);
-										unk_0xDDE449983CE7572E(*uParam1, 0, 0);
-										unk_0x52D31974082B54B1(iVar2, *uParam1);
-										unk_0x724FFAED1C56CE2B(*uParam1, 0, 0);
-										unk_0xDDE449983CE7572E(*uParam1, 0, 0);
+										*uParam1 = unk_0xB1DBFEB95C0EFB88(25, uVar3, Var4, 0f, 0, 0);
+										unk_0x4285E11B28063EE0(*uParam1, 0, 0);
+										unk_0x44C48AC14D3C09ED(*uParam1, 0, 0);
+										unk_0x4E719C7F4406EC93(iVar2, *uParam1);
+										unk_0x4285E11B28063EE0(*uParam1, 0, 0);
+										unk_0x44C48AC14D3C09ED(*uParam1, 0, 0);
 										iVar2 = 0;
-										unk_0x4D59607617EE1F59(*uParam1, 4.9f);
-										unk_0xC7A494C74ED33C50(*uParam1);
-										unk_0xCFFDA1550DF82B52(*uParam1, 0);
-										unk_0x2718E9CC165A99F6(*uParam1, 1);
+										unk_0x93956DF263A4A0DC(*uParam1, 4.9f);
+										unk_0xAF8337BF5A296283(*uParam1);
+										unk_0x886FA295C1257AAA(*uParam1, 0);
+										unk_0x5D7CD709B34C90F0(*uParam1, 1);
 									}
 									return 1;
 								}
@@ -1413,22 +1413,22 @@ int func_48(var uParam0, var uParam1, int iParam2, int iParam3, int iParam4, int
 	iVar72 = func_424(384, iParam2);
 	iVar73 = func_424(386, iParam2);
 	uVar74 = func_423(iVar72, iVar73);
-	if (unk_0x36A2218D87DEF488(uVar74) == 0)
+	if (unk_0x441B9C85D0FFA9ED(uVar74) == 0)
 	{
 		return 0;
 	}
-	if ((func_357(uParam1, iVar72, iParam2) && unk_0x7DE17ACDD8BA2642(*uParam1)) && unk_0x1951CE8AED052DA4(*uParam1))
+	if ((func_357(uParam1, iVar72, iParam2) && unk_0xFC8BFE4B41177C22(*uParam1)) && unk_0x4CEC77F224BCD884(*uParam1))
 	{
 		func_352(&Var7, iParam2);
 		func_270(*uParam1, &Var7, 1, 0, 1, 0);
 		func_269(uParam1, iParam2, 1);
 		func_265(uParam1, iParam2, 0);
 		func_49(uParam1, iParam2, iVar73, iParam3, iParam4, iParam5);
-		unk_0x724FFAED1C56CE2B(*uParam1, 0, 0);
-		unk_0x226C3A30511D5DC4(*uParam1, 1);
-		unk_0xDDE449983CE7572E(*uParam1, 0, 0);
-		unk_0xCFFDA1550DF82B52(*uParam1, 0);
-		unk_0xC7A494C74ED33C50(*uParam1);
+		unk_0x4285E11B28063EE0(*uParam1, 0, 0);
+		unk_0x935364B4448CD584(*uParam1, 1);
+		unk_0x44C48AC14D3C09ED(*uParam1, 0, 0);
+		unk_0x886FA295C1257AAA(*uParam1, 0);
+		unk_0xAF8337BF5A296283(*uParam1);
 		return 1;
 	}
 	return 0;
@@ -1451,10 +1451,10 @@ void func_49(var uParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		if ((iParam3 > -1 && iParam4 > -1) && iParam5 > -1)
 		{
 			func_50(*uParam0, 11, iVar0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
-			unk_0xC6249EBDE530AFAE(*uParam0, iParam3, iParam4, iParam5, 0);
-			unk_0xC6249EBDE530AFAE(*uParam0, iParam3, iParam4, iParam5, 1);
-			unk_0xC6249EBDE530AFAE(*uParam0, iParam3, iParam4, iParam5, 2);
-			unk_0xC6249EBDE530AFAE(*uParam0, iParam3, iParam4, iParam5, 3);
+			unk_0xA3C0950202881572(*uParam0, iParam3, iParam4, iParam5, 0);
+			unk_0xA3C0950202881572(*uParam0, iParam3, iParam4, iParam5, 1);
+			unk_0xA3C0950202881572(*uParam0, iParam3, iParam4, iParam5, 2);
+			unk_0xA3C0950202881572(*uParam0, iParam3, iParam4, iParam5, 3);
 		}
 	}
 }
@@ -1547,18 +1547,18 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 	int iVar133;
 	int iVar134;
 	
-	if (!unk_0xA26A9A07F761D8F8())
+	if (!unk_0x76CD105BCAC6EB9F())
 	{
 		if ((Global_1574992 != 4 && Global_1574992 != 5) && Global_1574992 != 7)
 		{
 			return 0;
 		}
 	}
-	if (unk_0x66599E73DBA5A850(iParam0) || iParam2 == -99)
+	if (unk_0x4FAFF4BCB7633475(iParam0) || iParam2 == -99)
 	{
 		return 0;
 	}
-	if (iParam0 == unk_0xC1A5EC5C986B98AD() && Global_2657589[unk_0x93E99A2DBCBA9CFA() /*466*/].f_232 == 2)
+	if (iParam0 == unk_0x4A8C381C258A124D() && Global_2657589[unk_0x259BE71D8A81D4FA() /*466*/].f_232 == 2)
 	{
 		if (!bParam12)
 		{
@@ -1570,7 +1570,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 		iParam10 = Global_78338;
 	}
 	Global_78339++;
-	iVar5 = unk_0x504B9BB48D41C264(iParam0);
+	iVar5 = unk_0x4B423FAA24E8ABF0(iParam0);
 	iVar6 = -99;
 	iVar7 = -99;
 	iVar8 = -99;
@@ -1597,7 +1597,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 	{
 		uVar12 = Global_2883588;
 		uVar13 = Global_2883589;
-		unk_0x729DD9A19A6484F7(iParam0, 1);
+		unk_0x445E7F949766A0C7(iParam0, 1);
 		uVar14 = 15;
 		if (iParam5 == 1)
 		{
@@ -1617,11 +1617,11 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 					Global_78341[1 /*14*/] = { func_220(iVar5, 10, 0, -1) };
 					if (iParam4 == -1)
 					{
-						unk_0xFECAE061D8C80757(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0x41CBA4CCBAA79DEF(iParam0, func_209(iVar0)));
+						unk_0xD1C578C204015E1F(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0xDAF263B0E792EAEC(iParam0, func_209(iVar0)));
 					}
 					else
 					{
-						unk_0xFECAE061D8C80757(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
+						unk_0xD1C578C204015E1F(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
 					}
 					if (BitTest(Global_78341[1 /*14*/].f_6, 1))
 					{
@@ -1662,11 +1662,11 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 							{
 								if (iParam4 == -1)
 								{
-									unk_0xFECAE061D8C80757(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0x41CBA4CCBAA79DEF(iParam0, func_209(iVar0)));
+									unk_0xD1C578C204015E1F(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0xDAF263B0E792EAEC(iParam0, func_209(iVar0)));
 								}
 								else
 								{
-									unk_0xFECAE061D8C80757(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
+									unk_0xD1C578C204015E1F(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
 								}
 							}
 							else
@@ -1692,7 +1692,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			}
 			iVar0++;
 		}
-		unk_0xFECAE061D8C80757(iParam0, 1, unk_0xAC464F61BE9FD50D(iParam0, 1), unk_0xEDEBC30DEBDF84C8(iParam0, 1), 0);
+		unk_0xD1C578C204015E1F(iParam0, 1, unk_0xC0120BBCC298EA2F(iParam0, 1), unk_0xD6AED6BFCC58AF7F(iParam0, 1), 0);
 		Global_2883588 = uVar12;
 		Global_2883589 = uVar13;
 		if (iParam5 == 0)
@@ -1745,10 +1745,10 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 		}
 		if (Global_78341[1 /*14*/].f_12 == 0)
 		{
-			if (BitTest(Global_78341[1 /*14*/].f_6, 6) && unk_0x7FEA86016BC12607(Global_2883588, joaat("shrink_hair"), 1))
+			if (BitTest(Global_78341[1 /*14*/].f_6, 6) && unk_0x304A39EB177D246B(Global_2883588, joaat("shrink_hair"), 1))
 			{
 			}
-			else if (unk_0xDCF7AA7BFA028DE1(iParam0, 1, joaat("hair_shrink")))
+			else if (unk_0xCA362C769B0F4F0E(iParam0, 1, joaat("hair_shrink")))
 			{
 				func_50(iParam0, 1, 0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 				Global_78341[1 /*14*/] = { func_220(iVar5, iParam1, iParam2, -1) };
@@ -1785,23 +1785,23 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 		if ((iParam1 == 4 || iParam1 == 11) || iParam1 == 8)
 		{
 			iVar69 = func_209(iParam1);
-			if (unk_0xAC464F61BE9FD50D(iParam0, iVar69) != Global_78341[1 /*14*/].f_3 || unk_0xEDEBC30DEBDF84C8(iParam0, iVar69) != Global_78341[1 /*14*/].f_4)
+			if (unk_0xC0120BBCC298EA2F(iParam0, iVar69) != Global_78341[1 /*14*/].f_3 || unk_0xD6AED6BFCC58AF7F(iParam0, iVar69) != Global_78341[1 /*14*/].f_4)
 			{
-				iVar70 = unk_0xFC680D6CC972AEFB(iParam0, 8, unk_0xAC464F61BE9FD50D(iParam0, 8), unk_0xEDEBC30DEBDF84C8(iParam0, 8));
-				iVar71 = unk_0xFC680D6CC972AEFB(iParam0, 7, unk_0xAC464F61BE9FD50D(iParam0, 7), unk_0xEDEBC30DEBDF84C8(iParam0, 7));
-				if (((iParam1 == 11 && unk_0x7FEA86016BC12607(iVar71, 307252627, 0)) || (iParam1 == 8 && unk_0x7FEA86016BC12607(iVar71, joaat("REMOVE_WITH_SPECIAL"), 0))) || (iParam1 == 4 && unk_0x7FEA86016BC12607(iVar71, -2095729091, 0)))
+				iVar70 = unk_0x94B8A32AA940A6B5(iParam0, 8, unk_0xC0120BBCC298EA2F(iParam0, 8), unk_0xD6AED6BFCC58AF7F(iParam0, 8));
+				iVar71 = unk_0x94B8A32AA940A6B5(iParam0, 7, unk_0xC0120BBCC298EA2F(iParam0, 7), unk_0xD6AED6BFCC58AF7F(iParam0, 7));
+				if (((iParam1 == 11 && unk_0x304A39EB177D246B(iVar71, 307252627, 0)) || (iParam1 == 8 && unk_0x304A39EB177D246B(iVar71, joaat("REMOVE_WITH_SPECIAL"), 0))) || (iParam1 == 4 && unk_0x304A39EB177D246B(iVar71, -2095729091, 0)))
 				{
-					unk_0xFECAE061D8C80757(iParam0, 7, 0, 0, unk_0x41CBA4CCBAA79DEF(iParam0, 7));
+					unk_0xD1C578C204015E1F(iParam0, 7, 0, 0, unk_0xDAF263B0E792EAEC(iParam0, 7));
 				}
-				if ((iParam1 == 11 && unk_0x7FEA86016BC12607(iVar70, 307252627, 0)) || (iParam1 == 4 && unk_0x7FEA86016BC12607(iVar70, -2095729091, 0)))
+				if ((iParam1 == 11 && unk_0x304A39EB177D246B(iVar70, 307252627, 0)) || (iParam1 == 4 && unk_0x304A39EB177D246B(iVar70, -2095729091, 0)))
 				{
 					if (iVar5 == joaat("mp_m_freemode_01"))
 					{
-						unk_0xFECAE061D8C80757(iParam0, 8, 15, 0, unk_0x41CBA4CCBAA79DEF(iParam0, 8));
+						unk_0xD1C578C204015E1F(iParam0, 8, 15, 0, unk_0xDAF263B0E792EAEC(iParam0, 8));
 					}
 					else if (iVar5 == joaat("mp_f_freemode_01"))
 					{
-						unk_0xFECAE061D8C80757(iParam0, 8, 2, 0, unk_0x41CBA4CCBAA79DEF(iParam0, 8));
+						unk_0xD1C578C204015E1F(iParam0, 8, 2, 0, unk_0xDAF263B0E792EAEC(iParam0, 8));
 					}
 				}
 			}
@@ -1811,17 +1811,17 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			if (iParam5 == 0)
 			{
 				iVar72 = -1;
-				if (BitTest(Global_78341[1 /*14*/].f_6, 6) && unk_0x7FEA86016BC12607(Global_2883588, joaat("CREW_COL"), 11))
+				if (BitTest(Global_78341[1 /*14*/].f_6, 6) && unk_0x304A39EB177D246B(Global_2883588, joaat("CREW_COL"), 11))
 				{
-					unk_0xC6249EBDE530AFAE(iParam0, Global_1576217, Global_1576218, Global_1576219, 0);
-					unk_0xC6249EBDE530AFAE(iParam0, Global_1576217, Global_1576218, Global_1576219, 1);
-					unk_0xC6249EBDE530AFAE(iParam0, Global_1576217, Global_1576218, Global_1576219, 2);
-					unk_0xC6249EBDE530AFAE(iParam0, Global_1576217, Global_1576218, Global_1576219, 3);
+					unk_0xA3C0950202881572(iParam0, Global_1576217, Global_1576218, Global_1576219, 0);
+					unk_0xA3C0950202881572(iParam0, Global_1576217, Global_1576218, Global_1576219, 1);
+					unk_0xA3C0950202881572(iParam0, Global_1576217, Global_1576218, Global_1576219, 2);
+					unk_0xA3C0950202881572(iParam0, Global_1576217, Global_1576218, Global_1576219, 3);
 				}
 				iVar73 = func_181(iParam0, 11);
 				iVar74 = func_181(iParam0, 8);
 				iVar75 = func_181(iParam0, 4);
-				if (unk_0xDCF7AA7BFA028DE1(iParam0, 8, joaat("over_jacket")))
+				if (unk_0xCA362C769B0F4F0E(iParam0, 8, joaat("over_jacket")))
 				{
 					if (iVar5 == joaat("mp_m_freemode_01"))
 					{
@@ -1831,7 +1831,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 					{
 						iVar72 = func_180(iVar5, iParam2, 11, 4);
 					}
-					if ((((((unk_0x7FEA86016BC12607(iVar72, joaat("silk_robe"), 0) || unk_0x7FEA86016BC12607(iVar72, joaat("silk_pyjamas"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar72, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("morph_suit"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("gorka_suit"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("cat_suit"), 0))
+					if ((((((unk_0x304A39EB177D246B(iVar72, joaat("silk_robe"), 0) || unk_0x304A39EB177D246B(iVar72, joaat("silk_pyjamas"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar72, -826135203, 0)) || unk_0x304A39EB177D246B(iVar72, joaat("morph_suit"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("gorka_suit"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("cat_suit"), 0))
 					{
 					}
 					else
@@ -1839,8 +1839,8 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 						iVar8 = func_181(iParam0, 8);
 					}
 				}
-				iVar76 = unk_0xFC680D6CC972AEFB(iParam0, 3, unk_0xAC464F61BE9FD50D(iParam0, 3), 0);
-				if (unk_0x7FEA86016BC12607(iVar76, joaat("gloves"), 0))
+				iVar76 = unk_0x94B8A32AA940A6B5(iParam0, 3, unk_0xC0120BBCC298EA2F(iParam0, 3), 0);
+				if (unk_0x304A39EB177D246B(iVar76, joaat("gloves"), 0))
 				{
 					iVar77 = func_179(iVar5, iVar74, iVar73, iVar75);
 					if (iVar77 == -99)
@@ -1857,7 +1857,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 						case joaat("dlc_mp_val_f_uppr0_5"):
 							iVar77 = 11;
 							iVar72 = func_180(iVar5, iParam2, 11, 4);
-							if (!unk_0x7FEA86016BC12607(iVar72, joaat("dress"), 0))
+							if (!unk_0x304A39EB177D246B(iVar72, joaat("dress"), 0))
 							{
 								iVar77 = -99;
 							}
@@ -1871,23 +1871,23 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 							if (func_178(iVar5, iVar77, iVar78) == iVar76)
 							{
 								iVar10 = iVar78;
-								iVar11 = unk_0xEDEBC30DEBDF84C8(iParam0, 3);
+								iVar11 = unk_0xD6AED6BFCC58AF7F(iParam0, 3);
 							}
 							iVar78++;
 						}
 					}
 				}
 				iVar72 = -1;
-				if ((iVar5 == joaat("mp_f_freemode_01") && iParam2 >= 256) && unk_0x7FEA86016BC12607(func_180(iVar5, iParam2, 11, 4), joaat("vest"), 0))
+				if ((iVar5 == joaat("mp_f_freemode_01") && iParam2 >= 256) && unk_0x304A39EB177D246B(func_180(iVar5, iParam2, 11, 4), joaat("vest"), 0))
 				{
 					iVar73 = func_181(iParam0, 11);
 					if (iVar73 >= 256)
 					{
 						iVar72 = func_180(iVar5, iVar73, 11, 4);
 					}
-					if (iVar73 >= 256 && unk_0x7FEA86016BC12607(iVar72, joaat("vest_shirt"), 0))
+					if (iVar73 >= 256 && unk_0x304A39EB177D246B(iVar72, joaat("vest_shirt"), 0))
 					{
-						iVar79 = func_176(iVar5, iVar73, iParam2, unk_0xEDEBC30DEBDF84C8(iParam0, 11));
+						iVar79 = func_176(iVar5, iVar73, iParam2, unk_0xD6AED6BFCC58AF7F(iParam0, 11));
 						if (iVar79 != -99)
 						{
 							func_50(iParam0, 8, iVar79, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
@@ -1914,23 +1914,23 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 					iVar8 = -99;
 					if (!func_175(iVar5, iVar73, -1))
 					{
-						if ((iVar5 == joaat("mp_f_freemode_01") && iVar73 >= 256) && (unk_0x7FEA86016BC12607(iVar72, joaat("vest"), 0) || unk_0x7FEA86016BC12607(iVar72, joaat("vest_shirt"), 0)))
+						if ((iVar5 == joaat("mp_f_freemode_01") && iVar73 >= 256) && (unk_0x304A39EB177D246B(iVar72, joaat("vest"), 0) || unk_0x304A39EB177D246B(iVar72, joaat("vest_shirt"), 0)))
 						{
 						}
-						else if ((iVar5 == joaat("mp_f_freemode_01") && iVar73 >= 256) && ((((((((unk_0x7FEA86016BC12607(iVar72, joaat("heist_draw_5"), 0) || unk_0x7FEA86016BC12607(iVar72, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("heist_draw_11"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("heist_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar72, -872449705, 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("apart_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar72, joaat("stunt_draw_9"), 0)))
+						else if ((iVar5 == joaat("mp_f_freemode_01") && iVar73 >= 256) && ((((((((unk_0x304A39EB177D246B(iVar72, joaat("heist_draw_5"), 0) || unk_0x304A39EB177D246B(iVar72, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("heist_draw_11"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("heist_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar72, -872449705, 0)) || unk_0x304A39EB177D246B(iVar72, joaat("apart_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar72, joaat("stunt_draw_9"), 0)))
 						{
 						}
 						else
 						{
 							iVar80 = func_174(iParam0, iParam2);
-							iVar81 = func_176(iVar5, iVar73, iParam2, unk_0xEDEBC30DEBDF84C8(iParam0, 11));
+							iVar81 = func_176(iVar5, iVar73, iParam2, unk_0xD6AED6BFCC58AF7F(iParam0, 11));
 							if (iVar81 != -99)
 							{
 								func_50(iParam0, 8, iVar81, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 								Global_78341[1 /*14*/] = { func_220(iVar5, iParam1, iParam2, -1) };
 								iVar8 = -99;
 							}
-							else if (iVar80 != -99 && (iParam0 == unk_0xC1A5EC5C986B98AD() || iParam0 == Global_4539790))
+							else if (iVar80 != -99 && (iParam0 == unk_0x4A8C381C258A124D() || iParam0 == Global_4539790))
 							{
 								func_50(iParam0, 8, iVar80, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 								Global_78341[1 /*14*/] = { func_220(iVar5, iParam1, iParam2, -1) };
@@ -1943,18 +1943,18 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 									Global_78341[1 /*14*/] = { func_220(iVar5, 11, iVar82, -1) };
 									iVar81 = func_176(iVar5, iVar82, iParam2, Global_78341[1 /*14*/].f_4);
 									iVar83 = func_180(iVar5, iParam2, 11, 3);
-									if ((iVar81 == -99 || unk_0x7FEA86016BC12607(iVar83, joaat("biker_vest"), 0)) || unk_0x7FEA86016BC12607(iVar83, joaat("open_short"), 0))
+									if ((iVar81 == -99 || unk_0x304A39EB177D246B(iVar83, joaat("biker_vest"), 0)) || unk_0x304A39EB177D246B(iVar83, joaat("open_short"), 0))
 									{
 										iVar81 = 240;
 									}
-									else if (unk_0x7FEA86016BC12607(iVar83, -1099375697, 0))
+									else if (unk_0x304A39EB177D246B(iVar83, -1099375697, 0))
 									{
 										iVar81 = 80;
 									}
 								}
 								else if (iVar5 == joaat("mp_f_freemode_01"))
 								{
-									if (unk_0x7FEA86016BC12607(func_180(iVar5, iParam2, 11, 4), joaat("biker_vest"), 0))
+									if (unk_0x304A39EB177D246B(func_180(iVar5, iParam2, 11, 4), joaat("biker_vest"), 0))
 									{
 										iVar81 = 120;
 									}
@@ -1980,7 +1980,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 							Global_78341[1 /*14*/] = { func_220(iVar5, 8, iVar74, -1) };
 							iVar86 = Global_78341[1 /*14*/].f_4;
 							iVar88 = func_171(iVar5, iVar74, iVar86);
-							if (iVar87 != -99 && (iParam0 == unk_0xC1A5EC5C986B98AD() || iParam0 == Global_4539790))
+							if (iVar87 != -99 && (iParam0 == unk_0x4A8C381C258A124D() || iParam0 == Global_4539790))
 							{
 								iVar89 = iVar87;
 							}
@@ -1990,7 +1990,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 								if (iVar5 == joaat("mp_m_freemode_01"))
 								{
 									iVar90 = func_180(iVar5, iParam2, 11, 3);
-									if (((iParam2 >= 96 && iParam2 <= 107) || func_170(iVar90) == 6) || unk_0x7FEA86016BC12607(iVar90, joaat("biker_vest"), 0))
+									if (((iParam2 >= 96 && iParam2 <= 107) || func_170(iVar90) == 6) || unk_0x304A39EB177D246B(iVar90, joaat("biker_vest"), 0))
 									{
 										iVar88 = func_172(iVar5, 11, -1);
 										Global_78341[1 /*14*/] = { func_220(iVar5, 11, iVar88, -1) };
@@ -1999,7 +1999,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 								}
 								if (iVar5 == joaat("mp_f_freemode_01") && ((iVar74 == 32 || iVar74 == 33) || iVar74 == 119))
 								{
-									if (!unk_0x7FEA86016BC12607(func_180(iVar5, iParam2, 11, 4), joaat("jacket_only"), 0))
+									if (!unk_0x304A39EB177D246B(func_180(iVar5, iParam2, 11, 4), joaat("jacket_only"), 0))
 									{
 										iVar88 = func_172(iVar5, 11, -1);
 										Global_78341[1 /*14*/] = { func_220(iVar5, 11, iVar88, -1) };
@@ -2015,7 +2015,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 								{
 									iVar91 = func_180(iVar5, iVar74, 8, 4);
 								}
-								if (unk_0x7FEA86016BC12607(iVar91, joaat("overcoat_accs"), 0))
+								if (unk_0x304A39EB177D246B(iVar91, joaat("overcoat_accs"), 0))
 								{
 									iVar88 = func_172(iVar5, 11, -1);
 									Global_78341[1 /*14*/] = { func_220(iVar5, 11, iVar88, -1) };
@@ -2027,7 +2027,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 								iVar89 = func_176(iVar5, iVar88, iParam2, iVar86);
 								if (iVar5 == joaat("mp_m_freemode_01"))
 								{
-									if (unk_0x7FEA86016BC12607(func_180(iVar5, iParam2, 11, 3), joaat("low2_open_check"), 0))
+									if (unk_0x304A39EB177D246B(func_180(iVar5, iParam2, 11, 3), joaat("low2_open_check"), 0))
 									{
 										if (!func_169(iVar5, func_181(iParam0, 4), iVar88))
 										{
@@ -2037,7 +2037,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 								}
 								else if (iVar5 == joaat("mp_f_freemode_01"))
 								{
-									if (unk_0x7FEA86016BC12607(func_180(iVar5, iParam2, 11, 4), joaat("low2_open_check"), 0))
+									if (unk_0x304A39EB177D246B(func_180(iVar5, iParam2, 11, 4), joaat("low2_open_check"), 0))
 									{
 										if (!func_169(iVar5, func_181(iParam0, 4), iVar88))
 										{
@@ -2072,7 +2072,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 				func_166(iVar5, iParam2);
 				if (!bParam13)
 				{
-					unk_0xFECAE061D8C80757(iParam0, 10, 0, 0, unk_0x41CBA4CCBAA79DEF(iParam0, 10));
+					unk_0xD1C578C204015E1F(iParam0, 10, 0, 0, unk_0xDAF263B0E792EAEC(iParam0, 10));
 				}
 			}
 			func_192(iParam0, iParam1, iParam2, iParam6, 0);
@@ -2093,7 +2093,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 				{
 					iParam9 = func_165(2160, iParam10, 0);
 				}
-				unk_0x586F9DF907703D3F(iParam0, iParam8, iParam9);
+				unk_0x894EE2587C8D8D1E(iParam0, iParam8, iParam9);
 			}
 			if (iParam7 == 0)
 			{
@@ -2118,8 +2118,8 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 		}
 		else if (iParam1 == 8)
 		{
-			iVar93 = unk_0xFC680D6CC972AEFB(iParam0, 3, unk_0xAC464F61BE9FD50D(iParam0, 3), 0);
-			if (unk_0x7FEA86016BC12607(iVar93, joaat("gloves"), 0))
+			iVar93 = unk_0x94B8A32AA940A6B5(iParam0, 3, unk_0xC0120BBCC298EA2F(iParam0, 3), 0);
+			if (unk_0x304A39EB177D246B(iVar93, joaat("gloves"), 0))
 			{
 				iVar94 = func_181(iParam0, 11);
 				iVar95 = func_181(iParam0, 4);
@@ -2138,7 +2138,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 					case joaat("dlc_mp_val_f_uppr0_5"):
 						iVar96 = 11;
 						iVar97 = func_180(iVar5, iParam2, 11, 4);
-						if (!unk_0x7FEA86016BC12607(iVar97, joaat("dress"), 0))
+						if (!unk_0x304A39EB177D246B(iVar97, joaat("dress"), 0))
 						{
 							iVar96 = -99;
 						}
@@ -2152,7 +2152,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 						if (func_178(iVar5, iVar96, iVar98) == iVar93)
 						{
 							iVar10 = iVar98;
-							iVar11 = unk_0xEDEBC30DEBDF84C8(iParam0, 3);
+							iVar11 = unk_0xD6AED6BFCC58AF7F(iParam0, 3);
 						}
 						iVar98++;
 					}
@@ -2177,13 +2177,13 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 				iVar101 = func_181(iParam0, 7);
 				if (!func_104(iVar5, iVar101, 9, -99, -99, -99, iParam0, 0, iParam2, -99, -99, -99))
 				{
-					unk_0xFECAE061D8C80757(iParam0, func_209(7), 0, 0, 0);
+					unk_0xD1C578C204015E1F(iParam0, func_209(7), 0, 0, 0);
 				}
 			}
 		}
 		else if (iParam1 == 1)
 		{
-			if (((iVar5 == joaat("mp_m_freemode_01") && iParam2 >= 26) && unk_0x7FEA86016BC12607(Global_2883588, joaat("shrink_head"), 0)) || ((iVar5 == joaat("mp_f_freemode_01") && iParam2 >= 26) && unk_0x7FEA86016BC12607(Global_2883588, joaat("shrink_head"), 0)))
+			if (((iVar5 == joaat("mp_m_freemode_01") && iParam2 >= 26) && unk_0x304A39EB177D246B(Global_2883588, joaat("shrink_head"), 0)) || ((iVar5 == joaat("mp_f_freemode_01") && iParam2 >= 26) && unk_0x304A39EB177D246B(Global_2883588, joaat("shrink_head"), 0)))
 			{
 				iVar102 = func_165(2100, iParam10, 0);
 				iVar103 = func_165(2101, iParam10, 0);
@@ -2191,16 +2191,16 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 				fVar105 = func_103(135, iParam10);
 				if (iVar5 == joaat("mp_m_freemode_01"))
 				{
-					unk_0x334EE0B36EFA252D(iParam0, 0, 0, 0, iVar102, iVar103, iVar104, 0f, fVar105, 0f, false);
+					unk_0x0A5987DCA39E8BE5(iParam0, 0, 0, 0, iVar102, iVar103, iVar104, 0f, fVar105, 0f, false);
 				}
 				else if (iVar5 == joaat("mp_f_freemode_01"))
 				{
-					unk_0x334EE0B36EFA252D(iParam0, 21, 0, 0, iVar102, iVar103, iVar104, 0f, fVar105, 0f, false);
+					unk_0x0A5987DCA39E8BE5(iParam0, 21, 0, 0, iVar102, iVar103, iVar104, 0f, fVar105, 0f, false);
 				}
 				iVar106 = 0;
 				while (iVar106 < 20)
 				{
-					unk_0x6C954F67BA093580(iParam0, iVar106, 0f);
+					unk_0xAAF9B08B469F707F(iParam0, iVar106, 0f);
 					iVar106++;
 				}
 			}
@@ -2215,7 +2215,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			iVar108 = func_181(iParam0, 8);
 			if (iVar5 == joaat("mp_m_freemode_01"))
 			{
-				if (unk_0x7FEA86016BC12607(func_180(iVar5, iVar107, 11, 3), joaat("low2_open_check"), 0))
+				if (unk_0x304A39EB177D246B(func_180(iVar5, iVar107, 11, 3), joaat("low2_open_check"), 0))
 				{
 					if (!func_169(iVar5, iParam2, func_171(iVar5, iVar108, 0)))
 					{
@@ -2226,7 +2226,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			}
 			else if (iVar5 == joaat("mp_f_freemode_01"))
 			{
-				if (unk_0x7FEA86016BC12607(func_180(iVar5, iVar107, 11, 4), joaat("low2_open_check"), 0))
+				if (unk_0x304A39EB177D246B(func_180(iVar5, iVar107, 11, 4), joaat("low2_open_check"), 0))
 				{
 					if (!func_169(iVar5, iParam2, func_171(iVar5, iVar108, 0)))
 					{
@@ -2239,8 +2239,8 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			{
 				iVar6 = func_179(iVar5, func_181(iParam0, 8), func_181(iParam0, 11), iParam2);
 			}
-			iVar109 = unk_0xFC680D6CC972AEFB(iParam0, 3, unk_0xAC464F61BE9FD50D(iParam0, 3), 0);
-			if (unk_0x7FEA86016BC12607(iVar109, joaat("gloves"), 0))
+			iVar109 = unk_0x94B8A32AA940A6B5(iParam0, 3, unk_0xC0120BBCC298EA2F(iParam0, 3), 0);
+			if (unk_0x304A39EB177D246B(iVar109, joaat("gloves"), 0))
 			{
 				iVar110 = func_179(iVar5, iVar108, iVar107, iParam2);
 				if (iVar110 == -99)
@@ -2257,7 +2257,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 					case joaat("dlc_mp_val_f_uppr0_5"):
 						iVar110 = 11;
 						iVar111 = func_180(iVar5, iParam2, 11, 4);
-						if (!unk_0x7FEA86016BC12607(iVar111, joaat("dress"), 0))
+						if (!unk_0x304A39EB177D246B(iVar111, joaat("dress"), 0))
 						{
 							iVar110 = -99;
 						}
@@ -2271,7 +2271,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 						if (func_178(iVar5, iVar110, iVar112) == iVar109)
 						{
 							iVar10 = iVar112;
-							iVar11 = unk_0xEDEBC30DEBDF84C8(iParam0, 3);
+							iVar11 = unk_0xD6AED6BFCC58AF7F(iParam0, 3);
 						}
 						iVar112++;
 					}
@@ -2280,11 +2280,11 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 		}
 		if (iParam4 == -1)
 		{
-			unk_0xFECAE061D8C80757(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0x41CBA4CCBAA79DEF(iParam0, func_209(iParam1)));
+			unk_0xD1C578C204015E1F(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0xDAF263B0E792EAEC(iParam0, func_209(iParam1)));
 		}
 		else
 		{
-			unk_0xFECAE061D8C80757(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
+			unk_0xD1C578C204015E1F(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
 		}
 		if (iParam5 == 0)
 		{
@@ -2334,7 +2334,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 					iVar113 = func_86(iParam0, iVar5, iParam1, iParam2);
 					if (iVar113 > 0)
 					{
-						iVar113 = (iVar113 + unk_0xEDEBC30DEBDF84C8(iParam0, 9));
+						iVar113 = (iVar113 + unk_0xD6AED6BFCC58AF7F(iParam0, 9));
 						if (!func_80(iParam0, 9, iVar113))
 						{
 							func_50(iParam0, 9, iVar113, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
@@ -2344,7 +2344,7 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 					{
 						func_50(iParam0, 9, 0, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 					}
-					if (unk_0xDCF7AA7BFA028DE1(iParam0, 8, joaat("over_jacket")))
+					if (unk_0xCA362C769B0F4F0E(iParam0, 8, joaat("over_jacket")))
 					{
 						func_50(iParam0, 9, 0, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 					}
@@ -2353,22 +2353,22 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			if (iParam1 == 11 || iParam1 == 8)
 			{
 				iVar114 = func_165(2042, -1, 0);
-				if (unk_0xAC464F61BE9FD50D(iParam0, 5) != 0)
+				if (unk_0xC0120BBCC298EA2F(iParam0, 5) != 0)
 				{
-					unk_0xFECAE061D8C80757(iParam0, 5, func_74(iParam0, iVar114), func_73(iParam0, iVar114), func_72(iParam0, iVar114));
+					unk_0xD1C578C204015E1F(iParam0, 5, func_74(iParam0, iVar114), func_73(iParam0, iVar114), func_72(iParam0, iVar114));
 				}
-				if (iParam0 == unk_0xC1A5EC5C986B98AD())
+				if (iParam0 == unk_0x4A8C381C258A124D())
 				{
-					unk_0x0685F1EBBDA0A4F4(unk_0x93E99A2DBCBA9CFA(), 5, func_74(unk_0xC1A5EC5C986B98AD(), iVar114), func_73(unk_0xC1A5EC5C986B98AD(), iVar114), 0);
-					unk_0x77D2A2A3D1168FF6(unk_0x93E99A2DBCBA9CFA(), func_72(unk_0xC1A5EC5C986B98AD(), iVar114));
-					func_70(unk_0x93E99A2DBCBA9CFA(), iVar114);
+					unk_0x740F6E63EE1C1D43(unk_0x259BE71D8A81D4FA(), 5, func_74(unk_0x4A8C381C258A124D(), iVar114), func_73(unk_0x4A8C381C258A124D(), iVar114), 0);
+					unk_0xC02C4AB8A5C744D7(unk_0x259BE71D8A81D4FA(), func_72(unk_0x4A8C381C258A124D(), iVar114));
+					func_70(unk_0x259BE71D8A81D4FA(), iVar114);
 				}
 			}
 			if (iParam1 == 7)
 			{
 				if ((iVar5 == joaat("mp_m_freemode_01") && iParam2 >= 92) || (iVar5 == joaat("mp_f_freemode_01") && iParam2 >= 55))
 				{
-					if (unk_0x7FEA86016BC12607(Global_2883588, joaat("big_chain"), 0))
+					if (unk_0x304A39EB177D246B(Global_2883588, joaat("big_chain"), 0))
 					{
 						func_50(iParam0, 9, 0, 0, iParam4, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 					}
@@ -2406,23 +2406,23 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			}
 			if (iParam1 == 4 || iParam1 == 6)
 			{
-				iVar118 = unk_0xAC464F61BE9FD50D(iParam0, 6);
-				iVar119 = unk_0xEDEBC30DEBDF84C8(iParam0, 6);
-				iVar120 = unk_0xFC680D6CC972AEFB(iParam0, 6, iVar118, iVar119);
-				iVar121 = unk_0xAC464F61BE9FD50D(iParam0, 4);
-				iVar122 = unk_0xEDEBC30DEBDF84C8(iParam0, 4);
-				iVar123 = unk_0xFC680D6CC972AEFB(iParam0, 4, iVar121, iVar122);
+				iVar118 = unk_0xC0120BBCC298EA2F(iParam0, 6);
+				iVar119 = unk_0xD6AED6BFCC58AF7F(iParam0, 6);
+				iVar120 = unk_0x94B8A32AA940A6B5(iParam0, 6, iVar118, iVar119);
+				iVar121 = unk_0xC0120BBCC298EA2F(iParam0, 4);
+				iVar122 = unk_0xD6AED6BFCC58AF7F(iParam0, 4);
+				iVar123 = unk_0x94B8A32AA940A6B5(iParam0, 4, iVar121, iVar122);
 				iVar124 = func_181(iParam0, 4);
 				iVar125 = func_181(iParam0, 6);
 				if (func_65(iVar5, iVar120))
 				{
-					if (unk_0x7FEA86016BC12607(iVar120, joaat("alt_feet"), 0) != func_64(iVar5, iVar124, iVar120))
+					if (unk_0x304A39EB177D246B(iVar120, joaat("alt_feet"), 0) != func_64(iVar5, iVar124, iVar120))
 					{
-						iVar126 = unk_0xF15296EACCC386AE(iVar120);
+						iVar126 = unk_0x5A3F0A3B7ECCBD32(iVar120);
 						iVar127 = 0;
 						while (iVar127 < iVar126)
 						{
-							unk_0xEAB69C23DB3E475B(iVar120, iVar127, &iVar128, &uVar129, &iVar130);
+							unk_0x0249B53AB91BF9D0(iVar120, iVar127, &iVar128, &uVar129, &iVar130);
 							if (iVar130 == 6)
 							{
 								if (iVar128 != 0 && iVar128 != joaat("0"))
@@ -2445,13 +2445,13 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 							iVar127++;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar123, joaat("alt_legs"), 0) != func_59(iVar5, iVar125, iVar123))
+					else if (unk_0x304A39EB177D246B(iVar123, joaat("alt_legs"), 0) != func_59(iVar5, iVar125, iVar123))
 					{
-						iVar126 = unk_0xF15296EACCC386AE(iVar123);
+						iVar126 = unk_0x5A3F0A3B7ECCBD32(iVar123);
 						iVar127 = 0;
 						while (iVar127 < iVar126)
 						{
-							unk_0xEAB69C23DB3E475B(iVar123, iVar127, &iVar128, &uVar129, &iVar130);
+							unk_0x0249B53AB91BF9D0(iVar123, iVar127, &iVar128, &uVar129, &iVar130);
 							if (iVar130 == 4)
 							{
 								if (iVar128 != 0 && iVar128 != joaat("0"))
@@ -2477,13 +2477,13 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 				}
 				if (func_65(iVar5, iVar123))
 				{
-					if (unk_0x7FEA86016BC12607(iVar123, joaat("alt_legs"), 0) != func_59(iVar5, iVar125, iVar123))
+					if (unk_0x304A39EB177D246B(iVar123, joaat("alt_legs"), 0) != func_59(iVar5, iVar125, iVar123))
 					{
-						iVar126 = unk_0xF15296EACCC386AE(iVar123);
+						iVar126 = unk_0x5A3F0A3B7ECCBD32(iVar123);
 						iVar127 = 0;
 						while (iVar127 < iVar126)
 						{
-							unk_0xEAB69C23DB3E475B(iVar123, iVar127, &iVar128, &uVar129, &iVar130);
+							unk_0x0249B53AB91BF9D0(iVar123, iVar127, &iVar128, &uVar129, &iVar130);
 							if (iVar130 == 4)
 							{
 								if (iVar128 != 0 && iVar128 != joaat("0"))
@@ -2506,13 +2506,13 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 							iVar127++;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar120, joaat("alt_feet"), 0) != func_64(iVar5, iVar124, iVar120))
+					else if (unk_0x304A39EB177D246B(iVar120, joaat("alt_feet"), 0) != func_64(iVar5, iVar124, iVar120))
 					{
-						iVar126 = unk_0xF15296EACCC386AE(iVar120);
+						iVar126 = unk_0x5A3F0A3B7ECCBD32(iVar120);
 						iVar127 = 0;
 						while (iVar127 < iVar126)
 						{
-							unk_0xEAB69C23DB3E475B(iVar120, iVar127, &iVar128, &uVar129, &iVar130);
+							unk_0x0249B53AB91BF9D0(iVar120, iVar127, &iVar128, &uVar129, &iVar130);
 							if (iVar130 == 6)
 							{
 								if (iVar128 != 0 && iVar128 != joaat("0"))
@@ -2540,10 +2540,10 @@ int func_50(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, int
 			if (iParam1 == 11 || iParam1 == 1)
 			{
 				func_183(iParam0);
-				iVar131 = unk_0xAC464F61BE9FD50D(iParam0, 1);
-				iVar132 = unk_0xEDEBC30DEBDF84C8(iParam0, 1);
-				iVar133 = unk_0xFC680D6CC972AEFB(iParam0, 1, iVar131, iVar132);
-				if (unk_0x7FEA86016BC12607(iVar133, joaat("force_prop"), 0))
+				iVar131 = unk_0xC0120BBCC298EA2F(iParam0, 1);
+				iVar132 = unk_0xD6AED6BFCC58AF7F(iParam0, 1);
+				iVar133 = unk_0x94B8A32AA940A6B5(iParam0, 1, iVar131, iVar132);
+				if (unk_0x304A39EB177D246B(iVar133, joaat("force_prop"), 0))
 				{
 					iVar3 = func_190(iParam0, iVar5, iParam1, iParam2, 14, 0);
 					if (iVar3 != -99)
@@ -2607,7 +2607,7 @@ int func_51(int iParam0, var uParam1)
 	int iVar0;
 	int iVar1;
 	
-	*uParam1 = func_201(unk_0xC1A5EC5C986B98AD(), 2, -1);
+	*uParam1 = func_201(unk_0x4A8C381C258A124D(), 2, -1);
 	if (func_165(754, Global_78338, 0) != -99 && func_56())
 	{
 		if (func_55() == 4)
@@ -2655,10 +2655,10 @@ void func_52(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4)
 	if (bParam4)
 	{
 	}
-	iVar0 = Global_2805027[iParam0 /*3*/][func_53(iParam2)];
+	iVar0 = Global_2805029[iParam0 /*3*/][func_53(iParam2)];
 	if (iVar0 != 0)
 	{
-		unk_0x3CC35ACFFC9C730E(iVar0, iParam1, iParam3);
+		unk_0x1164A75E490C27B6(iVar0, iParam1, iParam3);
 	}
 }
 
@@ -2673,13 +2673,13 @@ int func_53(int iParam0)
 		iVar1 = func_37();
 		if (iVar1 > -1)
 		{
-			Global_2804739 = 0;
+			Global_2804741 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2804739 = 1;
+			Global_2804741 = 1;
 		}
 	}
 	return iVar0;
@@ -2690,8 +2690,8 @@ int func_54(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2848280[iParam0 /*3*/][func_53(iParam1)];
-	if (unk_0x494B367FE0CBD765(uVar0, &uVar1, -1))
+	uVar0 = Global_2848282[iParam0 /*3*/][func_53(iParam1)];
+	if (unk_0xF249567F2E83E093(uVar0, &uVar1, -1))
 	{
 		return uVar1;
 	}
@@ -2734,24 +2734,24 @@ int func_59(int iParam0, int iParam1, int iParam2)
 			{
 				iVar0 = func_180(iParam0, iParam1, 6, 3);
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, 1137160120, 0))
+			if (unk_0x304A39EB177D246B(iParam2, 1137160120, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar0, -2005216901, 0))
+				if (unk_0x304A39EB177D246B(iVar0, -2005216901, 0))
 				{
 					return 1;
 				}
 				return 0;
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("cowboy_boots"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("cowboy_boots"), 0))
 			{
-				if ((unk_0x7FEA86016BC12607(iParam2, joaat("gun_draw_0"), 0) || unk_0x7FEA86016BC12607(iParam2, joaat("gun_draw_1"), 0)) || unk_0x7FEA86016BC12607(iParam2, joaat("gorka_suit"), 0))
+				if ((unk_0x304A39EB177D246B(iParam2, joaat("gun_draw_0"), 0) || unk_0x304A39EB177D246B(iParam2, joaat("gun_draw_1"), 0)) || unk_0x304A39EB177D246B(iParam2, joaat("gorka_suit"), 0))
 				{
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, joaat("has_alt_version"), 0))
+			if (unk_0x304A39EB177D246B(iParam2, joaat("has_alt_version"), 0))
 			{
-				if ((((((((((unk_0x7FEA86016BC12607(iVar0, joaat("pilot_suit"), 0) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("cowboy_boots"), 0))
+				if ((((((((((unk_0x304A39EB177D246B(iVar0, joaat("pilot_suit"), 0) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("cowboy_boots"), 0))
 				{
 					return 1;
 				}
@@ -2763,17 +2763,17 @@ int func_59(int iParam0, int iParam1, int iParam2)
 			{
 				iVar0 = func_180(iParam0, iParam1, 6, 4);
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, 1137160120, 0))
+			if (unk_0x304A39EB177D246B(iParam2, 1137160120, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar0, -2005216901, 0))
+				if (unk_0x304A39EB177D246B(iVar0, -2005216901, 0))
 				{
 					return 1;
 				}
 				return 0;
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, joaat("has_alt_version"), 0))
+			if (unk_0x304A39EB177D246B(iParam2, joaat("has_alt_version"), 0))
 			{
-				if (((((((((unk_0x7FEA86016BC12607(iVar0, joaat("pilot_suit"), 0) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_8"), 0))
+				if (((((((((unk_0x304A39EB177D246B(iVar0, joaat("pilot_suit"), 0) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_8"), 0))
 				{
 					return 1;
 				}
@@ -2794,11 +2794,11 @@ int func_60(int iParam0, int iParam1, int iParam2, int iParam3)
 	
 	if (iParam2 == 12)
 	{
-		iVar16 = unk_0x3E0156DFC7F98195(iParam3, 0);
+		iVar16 = unk_0xF2DDA7CE028AB9CB(iParam3, 0);
 		iVar15 = 0;
 		while (iVar15 < iVar16)
 		{
-			unk_0xDA7F09AF3E39DFB7(iVar15, &Var0);
+			unk_0x808A8ABE207631DF(iVar15, &Var0);
 			if (Var0.f_1 == iParam1)
 			{
 				return (func_63(iParam0) + iVar15);
@@ -2811,8 +2811,8 @@ int func_60(int iParam0, int iParam1, int iParam2, int iParam3)
 	}
 	else if (iParam2 == 14)
 	{
-		unk_0xDAEB80C06A5C96B9(iParam3, 10, -1, 1, -1, -1);
-		iVar17 = unk_0xE03C71FCC5BB2A83(iParam1);
+		unk_0x7B6C0A0D604E68FA(iParam3, 10, -1, 1, -1, -1);
+		iVar17 = unk_0x289EDE99827978AD(iParam1);
 		if (iVar17 != -1)
 		{
 			return (func_62(iParam0) + iVar17);
@@ -2820,8 +2820,8 @@ int func_60(int iParam0, int iParam1, int iParam2, int iParam3)
 	}
 	else
 	{
-		unk_0xDAEB80C06A5C96B9(iParam3, 10, -1, 0, -1, func_209(iParam2));
-		iVar18 = unk_0xFECCBD3631733B22(iParam1);
+		unk_0x7B6C0A0D604E68FA(iParam3, 10, -1, 0, -1, func_209(iParam2));
+		iVar18 = unk_0x55FF07D3A2FE8317(iParam1);
 		if (iVar18 != -1)
 		{
 			return (func_61(iParam0, func_209(iParam2)) + iVar18);
@@ -3178,23 +3178,23 @@ int func_64(int iParam0, int iParam1, int iParam2)
 				iVar0 = func_180(iParam0, iParam1, 4, 3);
 				iVar1 = func_170(iVar0);
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, joaat("cowboy_boots"), 0) || unk_0x7FEA86016BC12607(iParam2, joaat("has_alt_version"), 0))
+			if (unk_0x304A39EB177D246B(iParam2, joaat("cowboy_boots"), 0) || unk_0x304A39EB177D246B(iParam2, joaat("has_alt_version"), 0))
 			{
 				iVar2 = 1;
-				if ((((((((((((((((((((((((iParam1 >= 32 && iParam1 <= 47) || (iParam1 >= 64 && iParam1 <= 79)) || (iParam1 >= 96 && iParam1 <= 111)) || (iParam1 >= 176 && iParam1 <= 191)) || (iParam1 >= 192 && iParam1 <= 207)) || (iParam1 >= 224 && iParam1 <= 239)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar1 == 2) || iVar1 == 4) || iVar1 == 6) || iVar1 == 11) || iVar1 == 12) || iVar1 == 14) || iVar1 == 15) || unk_0x7FEA86016BC12607(iVar0, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("skinny"), 0)) || (unk_0x7FEA86016BC12607(iVar0, joaat("gun_draw_0"), 0) && !unk_0x7FEA86016BC12607(iParam2, joaat("cowboy_boots"), 0))) || (unk_0x7FEA86016BC12607(iVar0, joaat("gun_draw_1"), 0) && !unk_0x7FEA86016BC12607(iParam2, joaat("cowboy_boots"), 0))) || (unk_0x7FEA86016BC12607(iVar0, joaat("gorka_suit"), 0) && !unk_0x7FEA86016BC12607(iParam2, joaat("cowboy_boots"), 0))) || unk_0x7FEA86016BC12607(iVar0, -1854729816, 0))
+				if ((((((((((((((((((((((((iParam1 >= 32 && iParam1 <= 47) || (iParam1 >= 64 && iParam1 <= 79)) || (iParam1 >= 96 && iParam1 <= 111)) || (iParam1 >= 176 && iParam1 <= 191)) || (iParam1 >= 192 && iParam1 <= 207)) || (iParam1 >= 224 && iParam1 <= 239)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar1 == 2) || iVar1 == 4) || iVar1 == 6) || iVar1 == 11) || iVar1 == 12) || iVar1 == 14) || iVar1 == 15) || unk_0x304A39EB177D246B(iVar0, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("skinny"), 0)) || (unk_0x304A39EB177D246B(iVar0, joaat("gun_draw_0"), 0) && !unk_0x304A39EB177D246B(iParam2, joaat("cowboy_boots"), 0))) || (unk_0x304A39EB177D246B(iVar0, joaat("gun_draw_1"), 0) && !unk_0x304A39EB177D246B(iParam2, joaat("cowboy_boots"), 0))) || (unk_0x304A39EB177D246B(iVar0, joaat("gorka_suit"), 0) && !unk_0x304A39EB177D246B(iParam2, joaat("cowboy_boots"), 0))) || unk_0x304A39EB177D246B(iVar0, -1854729816, 0))
 				{
 					iVar2 = 0;
 				}
-				if (((unk_0x7FEA86016BC12607(iParam2, joaat("smug_draw_0"), 0) || unk_0x7FEA86016BC12607(iParam2, joaat("smug_draw_1"), 0)) || unk_0x7FEA86016BC12607(iParam2, joaat("battle_draw_1"), 0)) || unk_0x7FEA86016BC12607(iParam2, joaat("battle_draw_2"), 0))
+				if (((unk_0x304A39EB177D246B(iParam2, joaat("smug_draw_0"), 0) || unk_0x304A39EB177D246B(iParam2, joaat("smug_draw_1"), 0)) || unk_0x304A39EB177D246B(iParam2, joaat("battle_draw_1"), 0)) || unk_0x304A39EB177D246B(iParam2, joaat("battle_draw_2"), 0))
 				{
-					if ((((((unk_0x7FEA86016BC12607(iVar0, joaat("gun_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar0, joaat("gun_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("gorka_suit"), 0))
+					if ((((((unk_0x304A39EB177D246B(iVar0, joaat("gun_draw_0"), 0) || unk_0x304A39EB177D246B(iVar0, joaat("gun_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("gorka_suit"), 0))
 					{
 						iVar2 = 1;
 					}
 				}
-				if (unk_0x7FEA86016BC12607(iVar0, 1137160120, 0))
+				if (unk_0x304A39EB177D246B(iVar0, 1137160120, 0))
 				{
-					if (unk_0x7FEA86016BC12607(iParam2, -2005216901, 0))
+					if (unk_0x304A39EB177D246B(iParam2, -2005216901, 0))
 					{
 						iVar2 = 0;
 					}
@@ -3213,24 +3213,24 @@ int func_64(int iParam0, int iParam1, int iParam2)
 				iVar0 = func_180(iParam0, iParam1, 4, 4);
 				iVar1 = func_170(iVar0);
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, joaat("cowboy_boots"), 0) || unk_0x7FEA86016BC12607(iParam2, joaat("has_alt_version"), 0))
+			if (unk_0x304A39EB177D246B(iParam2, joaat("cowboy_boots"), 0) || unk_0x304A39EB177D246B(iParam2, joaat("has_alt_version"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar0, 1137160120, 0))
+				if (unk_0x304A39EB177D246B(iVar0, 1137160120, 0))
 				{
-					if (unk_0x7FEA86016BC12607(iParam2, -2005216901, 0))
+					if (unk_0x304A39EB177D246B(iParam2, -2005216901, 0))
 					{
 						return 0;
 					}
 				}
-				if ((unk_0x7FEA86016BC12607(iVar0, joaat("gun_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar0, joaat("gun_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("gorka_suit"), 0))
+				if ((unk_0x304A39EB177D246B(iVar0, joaat("gun_draw_0"), 0) || unk_0x304A39EB177D246B(iVar0, joaat("gun_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("gorka_suit"), 0))
 				{
-					if ((((unk_0x7FEA86016BC12607(iParam2, joaat("cowboy_boots"), 0) || unk_0x7FEA86016BC12607(iParam2, joaat("biker_draw_5"), 0)) || unk_0x7FEA86016BC12607(iParam2, joaat("biker_draw_6"), 0)) || unk_0x7FEA86016BC12607(iParam2, joaat("smug_draw_0"), 0)) || unk_0x7FEA86016BC12607(iParam2, joaat("smug_draw_1"), 0))
+					if ((((unk_0x304A39EB177D246B(iParam2, joaat("cowboy_boots"), 0) || unk_0x304A39EB177D246B(iParam2, joaat("biker_draw_5"), 0)) || unk_0x304A39EB177D246B(iParam2, joaat("biker_draw_6"), 0)) || unk_0x304A39EB177D246B(iParam2, joaat("smug_draw_0"), 0)) || unk_0x304A39EB177D246B(iParam2, joaat("smug_draw_1"), 0))
 					{
 						return 1;
 					}
 					return 0;
 				}
-				if (((((((((((((((((((((((((((iParam1 >= 16 && iParam1 <= 31) || (iParam1 >= 48 && iParam1 <= 63)) || (iParam1 >= 96 && iParam1 <= 111)) || iVar1 == 1) || iVar1 == 3) || iVar1 == 6) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar0, -430330349, 0)) || unk_0x7FEA86016BC12607(iVar0, -1103045158, 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("dungarees"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("h3_draw_5"), 0))
+				if (((((((((((((((((((((((((((iParam1 >= 16 && iParam1 <= 31) || (iParam1 >= 48 && iParam1 <= 63)) || (iParam1 >= 96 && iParam1 <= 111)) || iVar1 == 1) || iVar1 == 3) || iVar1 == 6) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar0, -430330349, 0)) || unk_0x304A39EB177D246B(iVar0, -1103045158, 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("dungarees"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("h3_draw_5"), 0))
 				{
 					return 1;
 				}
@@ -3245,14 +3245,14 @@ int func_65(int iParam0, int iParam1)
 	switch (iParam0)
 	{
 		case joaat("mp_m_freemode_01"):
-			if (unk_0x7FEA86016BC12607(iParam1, joaat("cowboy_boots"), 0) || unk_0x7FEA86016BC12607(iParam1, joaat("has_alt_version"), 0))
+			if (unk_0x304A39EB177D246B(iParam1, joaat("cowboy_boots"), 0) || unk_0x304A39EB177D246B(iParam1, joaat("has_alt_version"), 0))
 			{
 				return 1;
 			}
 			break;
 		
 		case joaat("mp_f_freemode_01"):
-			if (unk_0x7FEA86016BC12607(iParam1, joaat("cowboy_boots"), 0) || unk_0x7FEA86016BC12607(iParam1, joaat("has_alt_version"), 0))
+			if (unk_0x304A39EB177D246B(iParam1, joaat("cowboy_boots"), 0) || unk_0x304A39EB177D246B(iParam1, joaat("has_alt_version"), 0))
 			{
 				return 1;
 			}
@@ -3281,16 +3281,16 @@ int func_66(int iParam0, int iParam1, int iParam2, var uParam3)
 						iVar0 = func_180(iParam0, iParam2, iParam1, 4);
 						if (iVar0 != -1)
 						{
-							iVar1 = unk_0xF15296EACCC386AE(iVar0);
+							iVar1 = unk_0x5A3F0A3B7ECCBD32(iVar0);
 							iVar2 = 0;
 							while (iVar2 < iVar1)
 							{
-								unk_0xEAB69C23DB3E475B(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
+								unk_0x0249B53AB91BF9D0(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
 								if (iVar5 == 4)
 								{
 									if (iVar3 != 0 && iVar3 != joaat("0"))
 									{
-										if (!unk_0x7FEA86016BC12607(iVar3, joaat("dress_legs"), 0))
+										if (!unk_0x304A39EB177D246B(iVar3, joaat("dress_legs"), 0))
 										{
 											*uParam3 = func_60(iParam0, iVar3, iParam1, 4);
 											return 1;
@@ -3328,16 +3328,16 @@ int func_67(int iParam0, int iParam1, int iParam2, var uParam3)
 						iVar0 = func_180(iParam0, iParam2, iParam1, 4);
 						if (iVar0 != -1)
 						{
-							iVar1 = unk_0xF15296EACCC386AE(iVar0);
+							iVar1 = unk_0x5A3F0A3B7ECCBD32(iVar0);
 							iVar2 = 0;
 							while (iVar2 < iVar1)
 							{
-								unk_0xEAB69C23DB3E475B(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
+								unk_0x0249B53AB91BF9D0(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
 								if (iVar5 == 4)
 								{
 									if (iVar3 != 0 && iVar3 != joaat("0"))
 									{
-										if (unk_0x7FEA86016BC12607(iVar3, joaat("dress_legs"), 0))
+										if (unk_0x304A39EB177D246B(iVar3, joaat("dress_legs"), 0))
 										{
 											*uParam3 = func_60(iParam0, iVar3, iParam1, 4);
 											return 1;
@@ -3369,7 +3369,7 @@ int func_68(int iParam0, int iParam1, int iParam2, int iParam3)
 						{
 							iParam3 = func_180(iParam0, iParam2, 4, 4);
 						}
-						if (unk_0x7FEA86016BC12607(iParam3, joaat("dress_legs"), 0))
+						if (unk_0x304A39EB177D246B(iParam3, joaat("dress_legs"), 0))
 						{
 							return 1;
 						}
@@ -3395,7 +3395,7 @@ int func_69(int iParam0, int iParam1, int iParam2, int iParam3)
 						{
 							iParam3 = func_180(iParam0, iParam2, 11, 4);
 						}
-						return unk_0x7FEA86016BC12607(iParam3, joaat("dress"), 0);
+						return unk_0x304A39EB177D246B(iParam3, joaat("dress"), 0);
 					}
 					break;
 			}
@@ -3411,11 +3411,11 @@ void func_70(int iParam0, int iParam1)
 	iVar0 = func_71(iParam1);
 	if (iVar0 != joaat("p_parachute_s"))
 	{
-		unk_0xEE2272E5F7FE5D8C(iParam0, iVar0);
+		unk_0xD8FE716A11BE669A(iParam0, iVar0);
 	}
 	else
 	{
-		unk_0x0778F405F58CA0B6(iParam0);
+		unk_0xBDAA517C3D10DB80(iParam0);
 	}
 }
 
@@ -3746,13 +3746,13 @@ var func_74(int iParam0, int iParam1)
 	int iVar5;
 	int iVar6;
 	
-	iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 8);
-	iVar1 = unk_0xAC464F61BE9FD50D(iParam0, 11);
-	iVar2 = unk_0xAC464F61BE9FD50D(iParam0, 4);
-	bVar3 = unk_0xAC464F61BE9FD50D(iParam0, 9) != false;
-	iVar4 = unk_0xFC680D6CC972AEFB(iParam0, 8, iVar0, unk_0xEDEBC30DEBDF84C8(iParam0, 8));
-	iVar5 = unk_0xFC680D6CC972AEFB(iParam0, 11, iVar1, unk_0xEDEBC30DEBDF84C8(iParam0, 11));
-	iVar6 = unk_0xFC680D6CC972AEFB(iParam0, 4, iVar2, unk_0xEDEBC30DEBDF84C8(iParam0, 4));
+	iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 8);
+	iVar1 = unk_0xC0120BBCC298EA2F(iParam0, 11);
+	iVar2 = unk_0xC0120BBCC298EA2F(iParam0, 4);
+	bVar3 = unk_0xC0120BBCC298EA2F(iParam0, 9) != false;
+	iVar4 = unk_0x94B8A32AA940A6B5(iParam0, 8, iVar0, unk_0xD6AED6BFCC58AF7F(iParam0, 8));
+	iVar5 = unk_0x94B8A32AA940A6B5(iParam0, 11, iVar1, unk_0xD6AED6BFCC58AF7F(iParam0, 11));
+	iVar6 = unk_0x94B8A32AA940A6B5(iParam0, 4, iVar2, unk_0xD6AED6BFCC58AF7F(iParam0, 4));
 	if (((((((bVar3 != Global_78530 || iParam1 != Global_78531) || iVar4 != Global_78532) || iVar5 != Global_78533) || iVar6 != Global_78534) || iVar0 != Global_78535) || iVar1 != Global_78536) || iVar2 != Global_78537)
 	{
 		Global_78530 = bVar3;
@@ -3779,57 +3779,57 @@ int func_75(int iParam0, int iParam1)
 	int iVar6;
 	int iVar7;
 	
-	iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 11);
-	if (unk_0xAC464F61BE9FD50D(iParam0, 9) != 0)
+	iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 11);
+	if (unk_0xC0120BBCC298EA2F(iParam0, 9) != 0)
 	{
 		bVar1 = true;
 	}
-	iVar2 = unk_0x504B9BB48D41C264(iParam0);
-	iVar3 = unk_0xFC680D6CC972AEFB(iParam0, 8, unk_0xAC464F61BE9FD50D(iParam0, 8), unk_0xEDEBC30DEBDF84C8(iParam0, 8));
-	if (unk_0x7FEA86016BC12607(iVar3, joaat("over_jacket"), 8))
+	iVar2 = unk_0x4B423FAA24E8ABF0(iParam0);
+	iVar3 = unk_0x94B8A32AA940A6B5(iParam0, 8, unk_0xC0120BBCC298EA2F(iParam0, 8), unk_0xD6AED6BFCC58AF7F(iParam0, 8));
+	if (unk_0x304A39EB177D246B(iVar3, joaat("over_jacket"), 8))
 	{
 		if (iVar2 == joaat("mp_m_freemode_01"))
 		{
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_2"), 8) || unk_0x7FEA86016BC12607(iVar3, joaat("h4_draw_1"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_2"), 8) || unk_0x304A39EB177D246B(iVar3, joaat("h4_draw_1"), 8))
 			{
 				return func_79(iParam0, iParam1, 1);
 			}
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_3"), 8) || unk_0x7FEA86016BC12607(iVar3, joaat("h4_draw_0"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_3"), 8) || unk_0x304A39EB177D246B(iVar3, joaat("h4_draw_0"), 8))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_4"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_4"), 8))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_5"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_5"), 8))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_6"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_6"), 8))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
 		else
 		{
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_2"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_2"), 8))
 			{
 				return func_79(iParam0, iParam1, 6);
 			}
-			if ((unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_3"), 8) || unk_0x7FEA86016BC12607(iVar3, joaat("h4_draw_0"), 8)) || unk_0x7FEA86016BC12607(iVar3, joaat("h4_draw_1"), 8))
+			if ((unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_3"), 8) || unk_0x304A39EB177D246B(iVar3, joaat("h4_draw_0"), 8)) || unk_0x304A39EB177D246B(iVar3, joaat("h4_draw_1"), 8))
 			{
 				return func_79(iParam0, iParam1, 7);
 			}
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_4"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_4"), 8))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_5"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_5"), 8))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			if (unk_0x7FEA86016BC12607(iVar3, joaat("x17_draw_6"), 8))
+			if (unk_0x304A39EB177D246B(iVar3, joaat("x17_draw_6"), 8))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
@@ -3849,52 +3849,52 @@ int func_75(int iParam0, int iParam1)
 	}
 	if (iVar0 > 15)
 	{
-		iVar4 = unk_0xFC680D6CC972AEFB(iParam0, 11, iVar0, unk_0xEDEBC30DEBDF84C8(iParam0, 11));
-		if (unk_0x7FEA86016BC12607(iVar4, 98087521, 0))
+		iVar4 = unk_0x94B8A32AA940A6B5(iParam0, 11, iVar0, unk_0xD6AED6BFCC58AF7F(iParam0, 11));
+		if (unk_0x304A39EB177D246B(iVar4, 98087521, 0))
 		{
 			return func_79(iParam0, iParam1, 0);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -135391604, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -135391604, 0))
 		{
 			return func_79(iParam0, iParam1, 1);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 1398721900, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 1398721900, 0))
 		{
 			return func_79(iParam0, iParam1, 2);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 1030529416, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 1030529416, 0))
 		{
 			return func_79(iParam0, iParam1, 3);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 873008833, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 873008833, 0))
 		{
 			return func_79(iParam0, iParam1, 4);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -1646534043, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -1646534043, 0))
 		{
 			return func_79(iParam0, iParam1, 5);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -1868675094, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -1868675094, 0))
 		{
 			return func_79(iParam0, iParam1, 6);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -1500122155, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -1500122155, 0))
 		{
 			return func_79(iParam0, iParam1, 7);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -1741007074, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -1741007074, 0))
 		{
 			return func_79(iParam0, iParam1, 8);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -226291902, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -226291902, 0))
 		{
 			return func_79(iParam0, iParam1, 9);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 607416996, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 607416996, 0))
 		{
 			return func_79(iParam0, iParam1, 10);
 		}
-		if (unk_0x7FEA86016BC12607(iVar4, joaat("hipster_dress"), 0))
+		if (unk_0x304A39EB177D246B(iVar4, joaat("hipster_dress"), 0))
 		{
 			if (bVar1)
 			{
@@ -3905,11 +3905,11 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -405912369, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -405912369, 0))
 		{
 			return func_79(iParam0, iParam1, 1);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("dress"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("dress"), 0))
 		{
 			if (bVar1)
 			{
@@ -3920,11 +3920,11 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 5);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("pilot_suit"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("pilot_suit"), 0))
 		{
 			return func_79(iParam0, iParam1, 8);
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("combat_gear"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("combat_gear"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -3946,7 +3946,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("hooded_jacket"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("hooded_jacket"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -3959,19 +3959,19 @@ int func_75(int iParam0, int iParam1)
 					return func_79(iParam0, iParam1, 1);
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_5"), 0))
+			else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_5"), 0))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_32"), 0))
+			else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_32"), 0))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_33"), 0))
+			else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_33"), 0))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
-			else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_30"), 0))
+			else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_30"), 0))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
@@ -3984,7 +3984,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("LUXE_COAT"), 0) && !unk_0x7FEA86016BC12607(iVar4, joaat("x17_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("LUXE_COAT"), 0) && !unk_0x304A39EB177D246B(iVar4, joaat("x17_draw_3"), 0))
 		{
 			iVar5 = func_77(iVar4, 0);
 			if (iVar2 == joaat("mp_m_freemode_01"))
@@ -4018,9 +4018,9 @@ int func_75(int iParam0, int iParam1)
 					}
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("luxe_bomb"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("luxe_bomb"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("luxe_draw_4"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("luxe_draw_4"), 0))
 			{
 				return func_79(iParam0, iParam1, 2);
 			}
@@ -4029,7 +4029,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 6);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("heist_gear"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("heist_gear"), 0))
 		{
 			iVar6 = func_76(iVar4, 0);
 			switch (iVar6)
@@ -4115,7 +4115,7 @@ int func_75(int iParam0, int iParam1)
 					break;
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("xmas2_draw_0"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("xmas2_draw_0"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4137,7 +4137,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_0"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_0"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4152,7 +4152,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 0);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_1"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_1"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4163,7 +4163,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4178,7 +4178,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 0);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4189,7 +4189,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_4"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_4"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4200,7 +4200,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_5"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_5"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4211,7 +4211,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_6"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_6"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4222,7 +4222,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("LOW_DRAW_7"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("jan_draw_1"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("LOW_DRAW_7"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("jan_draw_1"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4233,11 +4233,11 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("LOW_DRAW_8"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("jan_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("LOW_DRAW_8"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("jan_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
-				if (unk_0x7FEA86016BC12607(iVar4, joaat("air_draw_3"), 0))
+				if (unk_0x304A39EB177D246B(iVar4, joaat("air_draw_3"), 0))
 				{
 					return func_79(iParam0, iParam1, 10);
 				}
@@ -4251,14 +4251,14 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_9"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low_draw_9"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if ((unk_0x7FEA86016BC12607(iVar4, -1086258388, 0) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe_sweat"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_sweat"), 0))
+		else if ((unk_0x304A39EB177D246B(iVar4, -1086258388, 0) || unk_0x304A39EB177D246B(iVar4, joaat("luxe_sweat"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_sweat"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4280,7 +4280,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 6);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_0"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_0"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4291,7 +4291,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_1"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_1"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4306,7 +4306,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4328,7 +4328,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4339,7 +4339,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_4"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_4"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4357,7 +4357,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_5"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_5"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4368,7 +4368,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_6"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_6"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4379,7 +4379,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_7"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_7"), 0))
 		{
 			if (iVar2 == joaat("mp_f_freemode_01"))
 			{
@@ -4393,7 +4393,7 @@ int func_75(int iParam0, int iParam1)
 				}
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_9"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_9"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4403,7 +4403,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4417,7 +4417,7 @@ int func_75(int iParam0, int iParam1)
 				}
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_5"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_5"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4435,7 +4435,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -872449705, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -872449705, 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4453,7 +4453,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_9"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_9"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4464,7 +4464,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_10"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_10"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4482,7 +4482,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_11"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_11"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4493,7 +4493,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_12"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_12"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4504,7 +4504,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 144417099, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 144417099, 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4515,7 +4515,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_14"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_14"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4526,7 +4526,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_15"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4544,7 +4544,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, -102825006, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, -102825006, 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4562,7 +4562,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 6);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_18"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_18"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4580,7 +4580,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_19"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_19"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4594,7 +4594,7 @@ int func_75(int iParam0, int iParam1)
 				}
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_20"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_20"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4604,7 +4604,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 5);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_21"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_21"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4626,7 +4626,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_22"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_22"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4644,7 +4644,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_24"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_24"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4655,7 +4655,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 6);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_25"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_25"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4665,18 +4665,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("air_draw_0"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_1"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_0"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("air_draw_0"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4687,7 +4676,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_1"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4698,22 +4687,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_3"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-			else if (bVar1)
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_4"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4724,22 +4698,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_5"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else if (bVar1)
-			{
-				return func_79(iParam0, iParam1, 10);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_6"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4754,7 +4713,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_7"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_4"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4765,7 +4724,37 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_8"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_5"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else if (bVar1)
+			{
+				return func_79(iParam0, iParam1, 10);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_6"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+			else if (bVar1)
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_7"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4776,7 +4765,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_9"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_8"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4787,7 +4776,18 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_0"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_9"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_0"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4798,7 +4798,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_1"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_1"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4809,7 +4809,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4820,7 +4820,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4831,7 +4831,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_4"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_4"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4842,7 +4842,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_5"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_5"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4853,7 +4853,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_6"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_6"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4864,7 +4864,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_7"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_7"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4875,7 +4875,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_8"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_8"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4886,7 +4886,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_9"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_9"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4897,95 +4897,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_10"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_11"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_12"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_13"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_14"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_15"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_16"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_17"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 9);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 7);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_18"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_10"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -4996,7 +4908,95 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 9);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_19"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_11"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_12"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_13"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_14"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_15"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_16"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_17"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 7);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_18"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_19"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5007,7 +5007,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_20"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_20"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5018,7 +5018,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_21"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_21"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5029,7 +5029,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 970679185, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 970679185, 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5040,7 +5040,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 83294665, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 83294665, 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5051,7 +5051,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, 382246252, 0))
+		else if (unk_0x304A39EB177D246B(iVar4, 382246252, 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5062,7 +5062,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 3);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_25"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_25"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5073,21 +5073,21 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_27"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_27"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_28"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_28"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_30"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_30"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5097,7 +5097,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 9);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_32"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_32"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5107,7 +5107,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_33"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_33"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5117,18 +5117,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_1"), 0))
-		{
-			if (iVar2 == joaat("mp_m_freemode_01"))
-			{
-				return func_79(iParam0, iParam1, 10);
-			}
-			else
-			{
-				return func_79(iParam0, iParam1, 10);
-			}
-		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_1"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5139,7 +5128,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5150,18 +5139,18 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_4"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
-				return func_79(iParam0, iParam1, 9);
+				return func_79(iParam0, iParam1, 10);
 			}
 			else
 			{
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_5"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_4"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5169,10 +5158,21 @@ int func_75(int iParam0, int iParam1)
 			}
 			else
 			{
+				return func_79(iParam0, iParam1, 10);
+			}
+		}
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_5"), 0))
+		{
+			if (iVar2 == joaat("mp_m_freemode_01"))
+			{
+				return func_79(iParam0, iParam1, 9);
+			}
+			else
+			{
 				return func_79(iParam0, iParam1, 9);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("gun_draw_19"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("gun_draw_19"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5182,7 +5182,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("gun_draw_20"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("gun_draw_20"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5192,7 +5192,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("gun_draw_23"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("gun_draw_23"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5202,7 +5202,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("gun_draw_24"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("gun_draw_24"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5212,7 +5212,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("smug_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("smug_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5222,7 +5222,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("air_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("air_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5232,7 +5232,7 @@ int func_75(int iParam0, int iParam1)
 				iVar0 = 7;
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("x17_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("x17_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5243,7 +5243,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("x17_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("x17_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5254,7 +5254,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("x17_draw_6"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("x17_draw_6"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5264,7 +5264,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("x17_draw_7"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("x17_draw_7"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5275,7 +5275,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("assault_draw_0"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("assault_draw_0"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5286,7 +5286,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("luxe_draw_4"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("luxe_draw_4"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5297,9 +5297,9 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 0);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_15"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("arena_draw_14"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("arena_draw_14"), 0))
 			{
 				if (iVar2 == joaat("mp_m_freemode_01"))
 				{
@@ -5319,7 +5319,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("arena_draw_3"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("arena_draw_3"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5330,7 +5330,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("arena_draw_4"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("arena_draw_4"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5341,7 +5341,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_15"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5352,7 +5352,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 9);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_15"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5363,7 +5363,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_5"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_5"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5374,7 +5374,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5385,7 +5385,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_9"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_9"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5396,7 +5396,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 9);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_15"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5407,7 +5407,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("arena_draw_12"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("arena_draw_12"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5418,7 +5418,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_15"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5429,7 +5429,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_15"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5440,7 +5440,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("ie_draw_15"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("ie_draw_15"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5451,7 +5451,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 9);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_2"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_2"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5462,7 +5462,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 10);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("arena_draw_17"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("arena_draw_17"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5473,7 +5473,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 9);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("vest_shirt"), 0) && iVar2 == joaat("mp_f_freemode_01"))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("vest_shirt"), 0) && iVar2 == joaat("mp_f_freemode_01"))
 		{
 			if (bVar1)
 			{
@@ -5484,7 +5484,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 0);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("tails_jacket"), 0) && iVar2 == joaat("mp_f_freemode_01"))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("tails_jacket"), 0) && iVar2 == joaat("mp_f_freemode_01"))
 		{
 			if (bVar1)
 			{
@@ -5495,7 +5495,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 1);
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar4, joaat("smoking_jacket"), 0))
+		else if (unk_0x304A39EB177D246B(iVar4, joaat("smoking_jacket"), 0))
 		{
 			if (iVar2 == joaat("mp_m_freemode_01"))
 			{
@@ -5506,7 +5506,7 @@ int func_75(int iParam0, int iParam1)
 				return func_79(iParam0, iParam1, 7);
 			}
 		}
-		else if ((unk_0x7FEA86016BC12607(iVar4, joaat("silk_pyjamas"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar4, -826135203, 0))
+		else if ((unk_0x304A39EB177D246B(iVar4, joaat("silk_pyjamas"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar4, -826135203, 0))
 		{
 			return func_79(iParam0, iParam1, 6);
 		}
@@ -5880,75 +5880,75 @@ int func_76(int iParam0, int iParam1)
 	int iVar0;
 	
 	iVar0 = -1;
-	if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_0"), iParam1))
+	if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_0"), iParam1))
 	{
 		iVar0 = 0;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_1"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_1"), iParam1))
 	{
 		iVar0 = 1;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_2"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_2"), iParam1))
 	{
 		iVar0 = 2;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_3"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_3"), iParam1))
 	{
 		iVar0 = 3;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_4"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_4"), iParam1))
 	{
 		iVar0 = 4;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_5"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_5"), iParam1))
 	{
 		iVar0 = 5;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_6"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_6"), iParam1))
 	{
 		iVar0 = 6;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_7"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_7"), iParam1))
 	{
 		iVar0 = 7;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_8"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_8"), iParam1))
 	{
 		iVar0 = 8;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_9"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_9"), iParam1))
 	{
 		iVar0 = 9;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_10"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_10"), iParam1))
 	{
 		iVar0 = 10;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_11"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_11"), iParam1))
 	{
 		iVar0 = 11;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_12"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_12"), iParam1))
 	{
 		iVar0 = 12;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_13"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_13"), iParam1))
 	{
 		iVar0 = 13;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_14"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_14"), iParam1))
 	{
 		iVar0 = 14;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_15"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_15"), iParam1))
 	{
 		iVar0 = 15;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_16"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_16"), iParam1))
 	{
 		iVar0 = 16;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("heist_draw_17"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("heist_draw_17"), iParam1))
 	{
 		iVar0 = 17;
 	}
@@ -5960,59 +5960,59 @@ int func_77(int iParam0, int iParam1)
 	int iVar0;
 	
 	iVar0 = -1;
-	if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_0"), iParam1))
+	if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_0"), iParam1))
 	{
 		iVar0 = 0;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_1"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_1"), iParam1))
 	{
 		iVar0 = 1;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_2"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_2"), iParam1))
 	{
 		iVar0 = 2;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_3"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_3"), iParam1))
 	{
 		iVar0 = 3;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_4"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_4"), iParam1))
 	{
 		iVar0 = 4;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_5"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_5"), iParam1))
 	{
 		iVar0 = 5;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_6"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_6"), iParam1))
 	{
 		iVar0 = 6;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_7"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_7"), iParam1))
 	{
 		iVar0 = 7;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_8"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_8"), iParam1))
 	{
 		iVar0 = 8;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_9"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_9"), iParam1))
 	{
 		iVar0 = 9;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_10"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_10"), iParam1))
 	{
 		iVar0 = 10;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe_draw_11"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe_draw_11"), iParam1))
 	{
 		iVar0 = 11;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, 393400788, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, 393400788, iParam1))
 	{
 		iVar0 = 12;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, 216120498, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, 216120498, iParam1))
 	{
 		iVar0 = 13;
 	}
@@ -6021,7 +6021,7 @@ int func_77(int iParam0, int iParam1)
 
 int func_78(int iParam0)
 {
-	if (unk_0xDCF7AA7BFA028DE1(iParam0, 4, joaat("dungarees")))
+	if (unk_0xCA362C769B0F4F0E(iParam0, 4, joaat("dungarees")))
 	{
 		return 1;
 	}
@@ -6509,11 +6509,11 @@ int func_80(int iParam0, int iParam1, int iParam2)
 	struct<5> Var51;
 	var uVar68;
 	
-	if (unk_0x66599E73DBA5A850(iParam0))
+	if (unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		return 0;
 	}
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
 	Global_78341[1 /*14*/] = { func_220(iVar0, iParam1, iParam2, -1) };
 	uVar2 = Global_2883588;
 	uVar3 = Global_2883589;
@@ -6638,22 +6638,22 @@ int func_80(int iParam0, int iParam1, int iParam2)
 	}
 	else if (iParam1 == 14)
 	{
-		if (unk_0x6BC6C26115124DFE(iParam0, Global_78341[1 /*14*/].f_12, 1) == Global_78341[1 /*14*/].f_3 && (unk_0xC5753F88DDA773E0(iParam0, Global_78341[1 /*14*/].f_12) == Global_78341[1 /*14*/].f_4 || Global_78341[1 /*14*/].f_3 == -1))
+		if (unk_0xB204F40D393426B6(iParam0, Global_78341[1 /*14*/].f_12, 1) == Global_78341[1 /*14*/].f_3 && (unk_0x0DC23FA727759F9F(iParam0, Global_78341[1 /*14*/].f_12) == Global_78341[1 /*14*/].f_4 || Global_78341[1 /*14*/].f_3 == -1))
 		{
 			return 1;
 		}
-		if (((Global_78341[1 /*14*/].f_12 == 0 && BitTest(Global_78341[1 /*14*/].f_6, 6)) && unk_0x7FEA86016BC12607(Global_2883588, joaat("helmet"), 1)) && unk_0x64D1ACE22F20EA68(Global_2883588) > 0)
+		if (((Global_78341[1 /*14*/].f_12 == 0 && BitTest(Global_78341[1 /*14*/].f_6, 6)) && unk_0x304A39EB177D246B(Global_2883588, joaat("helmet"), 1)) && unk_0xCD6EB4A3CCA20602(Global_2883588) > 0)
 		{
-			iVar50 = unk_0x64D1ACE22F20EA68(Global_2883588);
+			iVar50 = unk_0xCD6EB4A3CCA20602(Global_2883588);
 			iVar46 = 0;
 			while (iVar46 < iVar50)
 			{
-				unk_0xB84D9859A3FF72BB(Global_2883588, iVar46, &iVar47, &uVar48, &uVar49);
+				unk_0x5C6B8DD2E15C6B3C(Global_2883588, iVar46, &iVar47, &uVar48, &uVar49);
 				if (iVar47 != 0 && iVar47 != joaat("0"))
 				{
-					unk_0x469012E2C56B87C8(&Var51);
-					unk_0x9C6515C089F7E6F6(iVar47, &Var51);
-					if (Var51.f_3 == unk_0x6BC6C26115124DFE(iParam0, Global_78341[1 /*14*/].f_12, 1) && Var51.f_4 == unk_0xC5753F88DDA773E0(iParam0, Global_78341[1 /*14*/].f_12))
+					unk_0x7A491C9A90975007(&Var51);
+					unk_0x09A485A642AEADEF(iVar47, &Var51);
+					if (Var51.f_3 == unk_0xB204F40D393426B6(iParam0, Global_78341[1 /*14*/].f_12, 1) && Var51.f_4 == unk_0x0DC23FA727759F9F(iParam0, Global_78341[1 /*14*/].f_12))
 					{
 						return 1;
 					}
@@ -6664,7 +6664,7 @@ int func_80(int iParam0, int iParam1, int iParam2)
 	}
 	else
 	{
-		if (Global_78341[1 /*14*/].f_3 == unk_0xAC464F61BE9FD50D(iParam0, func_209(iParam1)) && Global_78341[1 /*14*/].f_4 == unk_0xEDEBC30DEBDF84C8(iParam0, func_209(iParam1)))
+		if (Global_78341[1 /*14*/].f_3 == unk_0xC0120BBCC298EA2F(iParam0, func_209(iParam1)) && Global_78341[1 /*14*/].f_4 == unk_0xD6AED6BFCC58AF7F(iParam0, func_209(iParam1)))
 		{
 			return 1;
 		}
@@ -6964,7 +6964,7 @@ int func_82(int iParam0, int iParam1, int iParam2, int iParam3)
 						{
 							iParam3 = func_180(iParam0, iParam2, 14, 3);
 						}
-						return (unk_0x7FEA86016BC12607(iParam3, joaat("hat"), 1) || unk_0x7FEA86016BC12607(func_180(iParam0, iParam2, 14, 3), -1842686353, 1));
+						return (unk_0x304A39EB177D246B(iParam3, joaat("hat"), 1) || unk_0x304A39EB177D246B(func_180(iParam0, iParam2, 14, 3), -1842686353, 1));
 					}
 					break;
 				
@@ -6975,7 +6975,7 @@ int func_82(int iParam0, int iParam1, int iParam2, int iParam3)
 						{
 							iParam3 = func_180(iParam0, iParam2, 1, 3);
 						}
-						return (unk_0x7FEA86016BC12607(iParam3, joaat("hat"), 0) || unk_0x7FEA86016BC12607(func_180(iParam0, iParam2, 1, 3), -1842686353, 0));
+						return (unk_0x304A39EB177D246B(iParam3, joaat("hat"), 0) || unk_0x304A39EB177D246B(func_180(iParam0, iParam2, 1, 3), -1842686353, 0));
 					}
 					break;
 			}
@@ -6999,7 +6999,7 @@ int func_82(int iParam0, int iParam1, int iParam2, int iParam3)
 						{
 							iParam3 = func_180(iParam0, iParam2, 14, 4);
 						}
-						return (unk_0x7FEA86016BC12607(iParam3, joaat("hat"), 1) || unk_0x7FEA86016BC12607(func_180(iParam0, iParam2, 14, 4), -1842686353, 1));
+						return (unk_0x304A39EB177D246B(iParam3, joaat("hat"), 1) || unk_0x304A39EB177D246B(func_180(iParam0, iParam2, 14, 4), -1842686353, 1));
 					}
 					break;
 				
@@ -7010,7 +7010,7 @@ int func_82(int iParam0, int iParam1, int iParam2, int iParam3)
 						{
 							iParam3 = func_180(iParam0, iParam2, 1, 4);
 						}
-						return (unk_0x7FEA86016BC12607(iParam3, joaat("hat"), 0) || unk_0x7FEA86016BC12607(func_180(iParam0, iParam2, 1, 4), -1842686353, 0));
+						return (unk_0x304A39EB177D246B(iParam3, joaat("hat"), 0) || unk_0x304A39EB177D246B(func_180(iParam0, iParam2, 1, 4), -1842686353, 0));
 					}
 					break;
 			}
@@ -7119,7 +7119,7 @@ int func_83(int iParam0, int iParam1, int iParam2, int iParam3)
 					{
 						iParam3 = func_180(iParam0, iParam2, 1, 3);
 					}
-					if (unk_0x7FEA86016BC12607(iParam3, joaat("hat"), 0) || unk_0x7FEA86016BC12607(iParam3, joaat("hair_shrink"), 0))
+					if (unk_0x304A39EB177D246B(iParam3, joaat("hat"), 0) || unk_0x304A39EB177D246B(iParam3, joaat("hair_shrink"), 0))
 					{
 						return 0;
 					}
@@ -7140,7 +7140,7 @@ int func_83(int iParam0, int iParam1, int iParam2, int iParam3)
 					{
 						iParam3 = func_180(iParam0, iParam2, 1, 4);
 					}
-					if (unk_0x7FEA86016BC12607(iParam3, joaat("hat"), 0) || unk_0x7FEA86016BC12607(iParam3, joaat("hair_shrink"), 0))
+					if (unk_0x304A39EB177D246B(iParam3, joaat("hat"), 0) || unk_0x304A39EB177D246B(iParam3, joaat("hair_shrink"), 0))
 					{
 						return 0;
 					}
@@ -7199,7 +7199,7 @@ int func_84(int iParam0, int iParam1, int iParam2, int iParam3)
 					{
 						iParam3 = func_180(iParam0, iParam2, 14, 3);
 					}
-					return unk_0x7FEA86016BC12607(iParam3, joaat("glasses"), 1);
+					return unk_0x304A39EB177D246B(iParam3, joaat("glasses"), 1);
 				}
 			}
 			break;
@@ -7217,7 +7217,7 @@ int func_84(int iParam0, int iParam1, int iParam2, int iParam3)
 					{
 						iParam3 = func_180(iParam0, iParam2, 14, 4);
 					}
-					return unk_0x7FEA86016BC12607(iParam3, joaat("glasses"), 1);
+					return unk_0x304A39EB177D246B(iParam3, joaat("glasses"), 1);
 				}
 			}
 			break;
@@ -7343,11 +7343,11 @@ int func_86(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar0 = func_180(iParam1, iParam3, 11, 3);
 				if (iVar0 != -1)
 				{
-					iVar1 = unk_0xF15296EACCC386AE(iVar0);
+					iVar1 = unk_0x5A3F0A3B7ECCBD32(iVar0);
 					iVar2 = 0;
 					while (iVar2 < iVar1)
 					{
-						unk_0xEAB69C23DB3E475B(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
+						unk_0x0249B53AB91BF9D0(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
 						if (iVar5 == 9)
 						{
 							if (iVar3 != 0 && iVar3 != joaat("0"))
@@ -7404,11 +7404,11 @@ int func_86(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar6 = func_180(iParam1, iParam3, 11, 4);
 				if (iVar6 != -1)
 				{
-					iVar7 = unk_0xF15296EACCC386AE(iVar6);
+					iVar7 = unk_0x5A3F0A3B7ECCBD32(iVar6);
 					iVar8 = 0;
 					while (iVar8 < iVar7)
 					{
-						unk_0xEAB69C23DB3E475B(iVar6, iVar8, &iVar9, &uVar10, &iVar11);
+						unk_0x0249B53AB91BF9D0(iVar6, iVar8, &iVar9, &uVar10, &iVar11);
 						if (iVar11 == 9)
 						{
 							if (iVar9 != 0 && iVar9 != joaat("0"))
@@ -7432,7 +7432,7 @@ int func_86(int iParam0, int iParam1, int iParam2, int iParam3)
 
 int func_87(int iParam0)
 {
-	if (unk_0xDCF7AA7BFA028DE1(iParam0, 8, joaat("x17_draw_6")))
+	if (unk_0xCA362C769B0F4F0E(iParam0, 8, joaat("x17_draw_6")))
 	{
 		return 1;
 	}
@@ -7441,9 +7441,9 @@ int func_87(int iParam0)
 
 int func_88(int iParam0)
 {
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
-		if (unk_0xAC464F61BE9FD50D(iParam0, 9) != 0 && !unk_0xDCF7AA7BFA028DE1(iParam0, 9, -138631194))
+		if (unk_0xC0120BBCC298EA2F(iParam0, 9) != 0 && !unk_0xCA362C769B0F4F0E(iParam0, 9, -138631194))
 		{
 			return 1;
 		}
@@ -7466,14 +7466,14 @@ void func_89(int iParam0, int iParam1)
 	bool bVar19;
 	int iVar20;
 	
-	if (!unk_0x1951CE8AED052DA4(iParam0))
+	if (!unk_0x4CEC77F224BCD884(iParam0))
 	{
 	}
 	if (func_102())
 	{
 		return;
 	}
-	unk_0x44A8353CAB6959B3(iParam0, &Var0);
+	unk_0x5CB7287FD7611BC7(iParam0, &Var0);
 	iVar10 = func_165(2097, iParam1, 0);
 	iVar11 = func_165(2098, iParam1, 0);
 	iVar12 = func_165(2099, iParam1, 0);
@@ -7486,7 +7486,7 @@ void func_89(int iParam0, int iParam1)
 	bVar19 = func_54(160, iParam1);
 	if (((((((((Var0.f_0 != iVar10 || Var0.f_1 != iVar11) || Var0.f_2 != iVar12) || Var0.f_3 != iVar13) || Var0.f_4 != iVar14) || Var0.f_5 != iVar15) || Var0.f_6 != fVar16) || Var0.f_7 != fVar17) || Var0.f_8 != fVar18) || Var0.f_9 != bVar19)
 	{
-		unk_0x334EE0B36EFA252D(iParam0, iVar10, iVar11, iVar12, iVar13, iVar14, iVar15, fVar16, fVar17, fVar18, bVar19);
+		unk_0x0A5987DCA39E8BE5(iParam0, iVar10, iVar11, iVar12, iVar13, iVar14, iVar15, fVar16, fVar17, fVar18, bVar19);
 		iVar20 = func_165(2103, iParam1, 0);
 		if (iVar20 > 0)
 		{
@@ -7527,7 +7527,7 @@ void func_90(int iParam0, int iParam1, bool bParam2)
 		{
 			uVar3 = func_100(iVar2, iParam1);
 		}
-		unk_0x6C954F67BA093580(iParam0, iVar1, uVar3);
+		unk_0xAAF9B08B469F707F(iParam0, iVar1, uVar3);
 		iVar0++;
 	}
 	iVar4 = 0;
@@ -7548,7 +7548,7 @@ void func_90(int iParam0, int iParam1, bool bParam2)
 				iVar10 = func_424(iVar6, iParam1);
 				fVar11 = func_100(iVar7, iParam1);
 			}
-			unk_0xC70211B0B9E81CB0(iParam0, iVar5, iVar10, fVar11);
+			unk_0xE5B6C9B29510B84E(iParam0, iVar5, iVar10, fVar11);
 			iVar8 = func_95(iVar5);
 			iVar9 = func_94(iVar5);
 			if (iVar8 != -1)
@@ -7564,7 +7564,7 @@ void func_90(int iParam0, int iParam1, bool bParam2)
 					iVar14 = func_93(iVar9, iParam1);
 				}
 				func_92(iVar13, &iVar12, &iVar15);
-				unk_0x0BBBE17E7A0C35AD(iParam0, iVar5, iVar15, iVar12, iVar14);
+				unk_0x94965BB62753D4D6(iParam0, iVar5, iVar15, iVar12, iVar14);
 			}
 		}
 		iVar4++;
@@ -7584,10 +7584,10 @@ void func_91(int iParam0, int iParam1, bool bParam2)
 	{
 		fVar0 = func_100(157, iParam1);
 	}
-	if (*iParam0 == unk_0xC1A5EC5C986B98AD())
+	if (*iParam0 == unk_0x4A8C381C258A124D())
 	{
 	}
-	unk_0x443C68E9F854D102(*iParam0, unk_0xF2DB717A73826179(fVar0));
+	unk_0x348FF3E632DCB635(*iParam0, unk_0xF2DB717A73826179(fVar0));
 }
 
 void func_92(int iParam0, var uParam1, var uParam2)
@@ -7604,8 +7604,8 @@ int func_93(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2805027[iParam0 /*3*/][func_53(iParam1)];
-	if (unk_0x47ACFB46336D91E2(uVar0, &uVar1))
+	uVar0 = Global_2805029[iParam0 /*3*/][func_53(iParam1)];
+	if (unk_0x074484B0C0972EF8(uVar0, &uVar1))
 	{
 		return uVar1;
 	}
@@ -7666,7 +7666,7 @@ int func_96(int iParam0, int iParam1)
 	{
 		iParam1 = func_37();
 	}
-	return unk_0x088E49A1CEC4C23F(iParam0, iParam1);
+	return unk_0x03CFFD51CE515454(iParam0, iParam1);
 }
 
 int func_97(int iParam0)
@@ -7818,8 +7818,8 @@ float func_100(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2847604[iParam0 /*3*/][func_53(iParam1)];
-	if (unk_0x5E4B6BFF9DDE74C1(uVar0, &uVar1))
+	uVar0 = Global_2847606[iParam0 /*3*/][func_53(iParam1)];
+	if (unk_0xE1A5C172B921BBD6(uVar0, &uVar1))
 	{
 		return uVar1;
 	}
@@ -7897,7 +7897,7 @@ int func_101(int iParam0)
 
 int func_102()
 {
-	if (unk_0xB8CEC43FB7EF2D92(Global_2639783.f_60) && !Global_2639783.f_59 == 0)
+	if (unk_0xF40767E41852FB72(Global_2639783.f_60) && !Global_2639783.f_59 == 0)
 	{
 		return 1;
 	}
@@ -7909,8 +7909,8 @@ float func_103(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2847604[iParam0 /*3*/][func_53(iParam1)];
-	if (unk_0x18CBFAE0D9968DCD(uVar0, &uVar1, -1))
+	uVar0 = Global_2847606[iParam0 /*3*/][func_53(iParam1)];
+	if (unk_0x2F0966A034F5ADC6(uVar0, &uVar1, -1))
 	{
 		return uVar1;
 	}
@@ -8007,7 +8007,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if ((unk_0x7FEA86016BC12607(iVar4, joaat("morph_suit"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("scuba_gear"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("gorka_suit"), 0))
+			if ((unk_0x304A39EB177D246B(iVar4, joaat("morph_suit"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("scuba_gear"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("gorka_suit"), 0))
 			{
 				if (iParam1 != 0)
 				{
@@ -8017,7 +8017,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam10 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar8, joaat("headscarf"), 0) && !unk_0x7FEA86016BC12607(iVar8, joaat("smug_draw_6"), 0))
+			if (unk_0x304A39EB177D246B(iVar8, joaat("headscarf"), 0) && !unk_0x304A39EB177D246B(iVar8, joaat("smug_draw_6"), 0))
 			{
 				if (iParam1 != 0)
 				{
@@ -8025,7 +8025,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar2, joaat("hoop_necklace"), 0))
+		if (unk_0x304A39EB177D246B(iVar2, joaat("hoop_necklace"), 0))
 		{
 			if (func_175(iParam0, iParam3, -1))
 			{
@@ -8034,9 +8034,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("pilot_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("pilot_suit"), 0))
 			{
-				if (iParam1 != 0 && !(iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("pilot_suit"), 0)))
+				if (iParam1 != 0 && !(iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("pilot_suit"), 0)))
 				{
 					return 0;
 				}
@@ -8044,9 +8044,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("epsilon_chain_alt"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("epsilon_chain_alt"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar4, joaat("arena_draw_0"), 0))
+				if (unk_0x304A39EB177D246B(iVar4, joaat("arena_draw_0"), 0))
 				{
 					return 1;
 				}
@@ -8055,9 +8055,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					return 0;
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar2, joaat("epsilon_chain"), 0))
+			else if (unk_0x304A39EB177D246B(iVar2, joaat("epsilon_chain"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar4, joaat("arena_draw_0"), 0))
+				if (unk_0x304A39EB177D246B(iVar4, joaat("arena_draw_0"), 0))
 				{
 					return 0;
 				}
@@ -8065,7 +8065,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		else if (iParam4 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("epsilon_chain_alt"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("epsilon_chain_alt"), 0))
 			{
 				if (iParam4 == 240)
 				{
@@ -8079,9 +8079,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar2, 91564168, 0))
+			if (unk_0x304A39EB177D246B(iVar2, 91564168, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar4, 91564168, 0))
+				if (unk_0x304A39EB177D246B(iVar4, 91564168, 0))
 				{
 					return 1;
 				}
@@ -8093,9 +8093,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		else if (iParam4 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar2, 91564168, 0))
+			if (unk_0x304A39EB177D246B(iVar2, 91564168, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar6, 91564168, 0))
+				if (unk_0x304A39EB177D246B(iVar6, 91564168, 0))
 				{
 					return 1;
 				}
@@ -8107,9 +8107,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar2, 1536943816, 0))
+			if (unk_0x304A39EB177D246B(iVar2, 1536943816, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar4, -589305886, 0))
+				if (unk_0x304A39EB177D246B(iVar4, -589305886, 0))
 				{
 					return 1;
 				}
@@ -8119,7 +8119,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar2, -120244486, 0))
+		if (unk_0x304A39EB177D246B(iVar2, -120244486, 0))
 		{
 			if (iParam9 != -99)
 			{
@@ -8191,7 +8191,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			if (iParam10 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar8, joaat("headscarf"), 0))
+				if (unk_0x304A39EB177D246B(iVar8, joaat("headscarf"), 0))
 				{
 					return 0;
 				}
@@ -8199,11 +8199,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("scarf"), 0))
+			if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("scarf"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar2, joaat("jacket_scarf"), 0))
+				if (unk_0x304A39EB177D246B(iVar2, joaat("jacket_scarf"), 0))
 				{
-					if (((((((((((((((((((((((((((((((((((((((((unk_0x7FEA86016BC12607(iVar4, joaat("block_scarfs"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("LOW_DRAW_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("LOW_DRAW_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar4, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("jan_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("jan_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar4, -102825006, 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_19"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("air_draw_0"), 0))
+					if (((((((((((((((((((((((((((((((((((((((((unk_0x304A39EB177D246B(iVar4, joaat("block_scarfs"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("luxe_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("LOW_DRAW_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("LOW_DRAW_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar4, -826135203, 0)) || unk_0x304A39EB177D246B(iVar4, joaat("jan_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("jan_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar4, -102825006, 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_19"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("air_draw_0"), 0))
 					{
 						return 0;
 					}
@@ -8215,7 +8215,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 						return 0;
 					}
 				}
-				else if (unk_0x7FEA86016BC12607(iVar4, joaat("block_scarfs"), 0))
+				else if (unk_0x304A39EB177D246B(iVar4, joaat("block_scarfs"), 0))
 				{
 					return 0;
 				}
@@ -8223,24 +8223,24 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					return 0;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar2, -120244486, 0))
+				else if (unk_0x304A39EB177D246B(iVar2, -120244486, 0))
 				{
-					if (((((((((((((iParam3 >= 188 && iParam3 <= 203) || (iParam3 >= 220 && iParam3 <= 235)) || iVar3 == 12) || iVar3 == 14) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("air_draw_0"), 0))
+					if (((((((((((((iParam3 >= 188 && iParam3 <= 203) || (iParam3 >= 220 && iParam3 <= 235)) || iVar3 == 12) || iVar3 == 14) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("air_draw_0"), 0))
 					{
 						return 0;
 					}
 				}
 				if (iParam10 != -99)
 				{
-					if (unk_0x7FEA86016BC12607(iVar8, joaat("headscarf"), 0))
+					if (unk_0x304A39EB177D246B(iVar8, joaat("headscarf"), 0))
 					{
 						return 0;
 					}
 				}
 			}
-			if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("luxe_scarf"), 0))
+			if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("luxe_scarf"), 0))
 			{
-				if (((unk_0x7FEA86016BC12607(iVar4, joaat("luxe_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_1"), 0))
+				if (((unk_0x304A39EB177D246B(iVar4, joaat("luxe_draw_0"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_1"), 0))
 				{
 				}
 				else
@@ -8249,7 +8249,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		if ((iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("scarf"), 0)) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("big_chain"), 0)))
+		if ((iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("scarf"), 0)) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("big_chain"), 0)))
 		{
 			if (iParam11 != -99)
 			{
@@ -8258,7 +8258,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					iVar10 = func_180(iParam0, iParam11, 4, 3);
 				}
-				if (unk_0x7FEA86016BC12607(iVar10, joaat("dungarees"), 0))
+				if (unk_0x304A39EB177D246B(iVar10, joaat("dungarees"), 0))
 				{
 					return 0;
 				}
@@ -8266,9 +8266,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("bead_necklace"), 0))
+			if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("bead_necklace"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar4, joaat("sweat_vest"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_20"), 0))
+				if (unk_0x304A39EB177D246B(iVar4, joaat("sweat_vest"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_20"), 0))
 				{
 					return 1;
 				}
@@ -8278,11 +8278,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("chain"), 0))
+		if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("chain"), 0))
 		{
 			if (iParam3 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar2, joaat("big_chain"), 0))
+				if (unk_0x304A39EB177D246B(iVar2, joaat("big_chain"), 0))
 				{
 					if ((iParam3 >= 96 && iParam3 <= 107) || iVar3 == 6)
 					{
@@ -8291,38 +8291,38 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 				if (iParam3 == 236)
 				{
-					if (unk_0x7FEA86016BC12607(iVar2, joaat("alt_chain"), 0))
+					if (unk_0x304A39EB177D246B(iVar2, joaat("alt_chain"), 0))
 					{
 						return 0;
 					}
 				}
-				else if (((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 172 && iParam3 <= 187) || (iParam3 >= 188 && iParam3 <= 203)) || (iParam3 >= 204 && iParam3 <= 219)) || (iParam3 >= 220 && iParam3 <= 235)) || iVar3 == 11) || iVar3 == 12) || iVar3 == 13) || iVar3 == 14) || unk_0x7FEA86016BC12607(iVar4, joaat("block_chains"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("tux_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("pilot_suit"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("combat_top"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("xmas2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, -1086258388, 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("scruffy_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_13"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_16"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("LOW_DRAW_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("silk_pyjamas"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar4, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("jan_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("jan_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar4, -102825006, 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_19"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_21"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("jacket_only"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("air_draw_0"), 0))
+				else if (((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 172 && iParam3 <= 187) || (iParam3 >= 188 && iParam3 <= 203)) || (iParam3 >= 204 && iParam3 <= 219)) || (iParam3 >= 220 && iParam3 <= 235)) || iVar3 == 11) || iVar3 == 12) || iVar3 == 13) || iVar3 == 14) || unk_0x304A39EB177D246B(iVar4, joaat("block_chains"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("tux_jacket"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("pilot_suit"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("combat_top"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("xmas2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, -1086258388, 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("scruffy_jacket"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_13"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_16"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("luxe_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("LOW_DRAW_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("silk_pyjamas"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar4, -826135203, 0)) || unk_0x304A39EB177D246B(iVar4, joaat("jan_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("jan_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar4, -102825006, 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_19"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_21"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("jacket_only"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("air_draw_0"), 0))
 				{
 					return 0;
 				}
-				else if (!unk_0x7FEA86016BC12607(iVar2, joaat("alt_chain"), 0))
+				else if (!unk_0x304A39EB177D246B(iVar2, joaat("alt_chain"), 0))
 				{
 					return 0;
 				}
 			}
 			else if (iParam4 != -99)
 			{
-				if ((((((((((((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 64 && iParam4 <= 79)) || (iParam4 >= 96 && iParam4 <= 111)) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 192 && iParam4 <= 207)) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 3) || iVar5 == 4) || iVar5 == 6) || iVar5 == 7) || iVar5 == 12) || iVar5 == 13) || unk_0x7FEA86016BC12607(iVar6, joaat("tux_vest"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("block_chains"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("stunt_draw_2"), 0))
+				if ((((((((((((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 64 && iParam4 <= 79)) || (iParam4 >= 96 && iParam4 <= 111)) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 192 && iParam4 <= 207)) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 3) || iVar5 == 4) || iVar5 == 6) || iVar5 == 7) || iVar5 == 12) || iVar5 == 13) || unk_0x304A39EB177D246B(iVar6, joaat("tux_vest"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("block_chains"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("stunt_draw_2"), 0))
 				{
 					return 0;
 				}
 			}
 		}
-		if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("big_chain"), 0))
+		if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("big_chain"), 0))
 		{
 			if (iParam8 != -99)
 			{
 				return 0;
 			}
 		}
-		if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("pilot_suit"), 0))
+		if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("pilot_suit"), 0))
 		{
-			if (iParam9 >= 327 && unk_0x7FEA86016BC12607(func_180(iParam0, iParam9, 14, 3), joaat("pilot_suit"), 1))
+			if (iParam9 >= 327 && unk_0x304A39EB177D246B(func_180(iParam0, iParam9, 14, 3), joaat("pilot_suit"), 1))
 			{
 			}
 			else if (iParam2 == 14 || (iParam2 == 1 && iParam10 != 0))
@@ -8330,22 +8330,22 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				return 0;
 			}
 		}
-		else if ((iParam9 >= 327 && unk_0x7FEA86016BC12607(func_180(iParam0, iParam9, 14, 3), joaat("pilot_suit"), 1)) && iParam1 != 0)
+		else if ((iParam9 >= 327 && unk_0x304A39EB177D246B(func_180(iParam0, iParam9, 14, 3), joaat("pilot_suit"), 1)) && iParam1 != 0)
 		{
 			return 0;
 		}
-		if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, -1119006951, 0))
+		if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, -1119006951, 0))
 		{
 			if (iParam3 != -99)
 			{
-				if (((((((((((((((((((((((((((((((((((((((((((iParam3 >= 140 && iParam3 <= 155) || (iParam3 >= 188 && iParam3 <= 203)) || (iParam3 >= 204 && iParam3 <= 219)) || (iParam3 >= 220 && iParam3 <= 235)) || iVar3 == 9) || iVar3 == 12) || iVar3 == 13) || iVar3 == 14) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe_bomb"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("LOW_BOMB"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("JAN_BOMB"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("pilot_suit"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("combat_top"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("LOW2_BOMB"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_25"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("gun_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("air_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("smug_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("assault_draw_0"), 0))
+				if (((((((((((((((((((((((((((((((((((((((((((iParam3 >= 140 && iParam3 <= 155) || (iParam3 >= 188 && iParam3 <= 203)) || (iParam3 >= 204 && iParam3 <= 219)) || (iParam3 >= 220 && iParam3 <= 235)) || iVar3 == 9) || iVar3 == 12) || iVar3 == 13) || iVar3 == 14) || unk_0x304A39EB177D246B(iVar4, joaat("luxe_bomb"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("LOW_BOMB"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("JAN_BOMB"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("pilot_suit"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("combat_top"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("LOW2_BOMB"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_25"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("gun_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("air_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("smug_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("assault_draw_0"), 0))
 				{
 					return 0;
 				}
 			}
 			else if (iParam4 != -99)
 			{
-				if ((((((((((((((((((((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 64 && iParam4 <= 79)) || (iParam4 >= 96 && iParam4 <= 111)) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 144 && iParam4 <= 159)) || (iParam4 >= 160 && iParam4 <= 175)) || (iParam4 >= 176 && iParam4 <= 191)) || (iParam4 >= 192 && iParam4 <= 207)) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 3) || iVar5 == 4) || iVar5 == 6) || iVar5 == 7) || iVar5 == 9) || iVar5 == 10) || iVar5 == 11) || iVar5 == 12) || iVar5 == 13) || unk_0x7FEA86016BC12607(iVar6, joaat("ALLOW_TIES"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("vest_shirt"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("tux_vest"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("closed_collar"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("open_collar"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("tux_shirt"), 0))
+				if ((((((((((((((((((((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 64 && iParam4 <= 79)) || (iParam4 >= 96 && iParam4 <= 111)) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 144 && iParam4 <= 159)) || (iParam4 >= 160 && iParam4 <= 175)) || (iParam4 >= 176 && iParam4 <= 191)) || (iParam4 >= 192 && iParam4 <= 207)) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 3) || iVar5 == 4) || iVar5 == 6) || iVar5 == 7) || iVar5 == 9) || iVar5 == 10) || iVar5 == 11) || iVar5 == 12) || iVar5 == 13) || unk_0x304A39EB177D246B(iVar6, joaat("ALLOW_TIES"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("vest_shirt"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("tux_vest"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("closed_collar"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("open_collar"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("tux_shirt"), 0))
 				{
 					return 0;
 				}
@@ -8367,7 +8367,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					return 0;
 				}
 			}
-			if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("outfit_checks"), 0))
+			if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("outfit_checks"), 0))
 			{
 				return 0;
 			}
@@ -8431,11 +8431,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 92 && unk_0x7FEA86016BC12607(iVar2, joaat("high_roller_tie"), 0))
+		else if (iParam1 >= 92 && unk_0x304A39EB177D246B(iVar2, joaat("high_roller_tie"), 0))
 		{
 			if (iParam4 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar6, joaat("high_roller_shirt"), 0))
+				if (unk_0x304A39EB177D246B(iVar6, joaat("high_roller_shirt"), 0))
 				{
 				}
 				else
@@ -8444,13 +8444,13 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (((((iParam1 >= 41 && iParam1 <= 56) || (iParam1 >= 73 && iParam1 <= 88)) || iVar1 == 10) || iVar1 == 12) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("tie"), 0)))
+		else if (((((iParam1 >= 41 && iParam1 <= 56) || (iParam1 >= 73 && iParam1 <= 88)) || iVar1 == 10) || iVar1 == 12) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("tie"), 0)))
 		{
 			if (iParam3 != -99)
 			{
 				if (((iParam3 >= 204 && iParam3 <= 219) || func_175(iParam0, iParam3, -1)) || iVar3 == 13)
 				{
-					if (((unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_4"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_21"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("sweat_vest"), 0))
+					if (((unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_4"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_21"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("sweat_vest"), 0))
 					{
 						return 0;
 					}
@@ -8462,9 +8462,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if ((((((iParam4 >= 160 && iParam4 <= 175) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 10) || iVar5 == 13) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("ALLOW_TIES"), 0))) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("tux_shirt"), 0)))
+				if ((((((iParam4 >= 160 && iParam4 <= 175) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 10) || iVar5 == 13) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("ALLOW_TIES"), 0))) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("tux_shirt"), 0)))
 				{
-					if (unk_0x7FEA86016BC12607(iVar6, joaat("high_roller_shirt"), 0))
+					if (unk_0x304A39EB177D246B(iVar6, joaat("high_roller_shirt"), 0))
 					{
 						return 0;
 					}
@@ -8493,7 +8493,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			{
 				if (((((iParam3 >= 204 && iParam3 <= 219) || (iParam3 >= 172 && iParam3 <= 187)) || func_175(iParam0, iParam3, -1)) || iVar3 == 13) || iVar3 == 11)
 				{
-					if ((unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_4"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("sweat_vest"), 0))
+					if ((unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_4"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("sweat_vest"), 0))
 					{
 						return 0;
 					}
@@ -8505,9 +8505,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if ((((((((((((((((((iParam4 >= 64 && iParam4 <= 79) || (iParam4 >= 96 && iParam4 <= 111)) || (iParam4 >= 160 && iParam4 <= 175)) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 4) || iVar5 == 6) || iVar5 == 10) || iVar5 == 13) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("ALLOW_TIES"), 0))) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("vest_shirt"), 0))) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("tux_vest"), 0))) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("tux_shirt"), 0))) || unk_0x7FEA86016BC12607(iVar6, joaat("CUFFED_SHIRT"), 0)) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4"))
+				if ((((((((((((((((((iParam4 >= 64 && iParam4 <= 79) || (iParam4 >= 96 && iParam4 <= 111)) || (iParam4 >= 160 && iParam4 <= 175)) || (iParam4 >= 208 && iParam4 <= 223)) || iVar5 == 4) || iVar5 == 6) || iVar5 == 10) || iVar5 == 13) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("ALLOW_TIES"), 0))) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("vest_shirt"), 0))) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("tux_vest"), 0))) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("tux_shirt"), 0))) || unk_0x304A39EB177D246B(iVar6, joaat("CUFFED_SHIRT"), 0)) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4"))
 				{
-					if (unk_0x7FEA86016BC12607(iVar6, joaat("high_roller_shirt"), 0))
+					if (unk_0x304A39EB177D246B(iVar6, joaat("high_roller_shirt"), 0))
 					{
 						return 0;
 					}
@@ -8523,7 +8523,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					{
 						if ((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 176 && iParam4 <= 191)) || iVar5 == 3) || iVar5 == 7) || iVar5 == 11)
 						{
-							if (!unk_0x7FEA86016BC12607(iVar6, joaat("sweat_vest"), 0))
+							if (!unk_0x304A39EB177D246B(iVar6, joaat("sweat_vest"), 0))
 							{
 								return 1;
 							}
@@ -8533,13 +8533,13 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 92 && unk_0x7FEA86016BC12607(iVar2, joaat("vest_tie"), 0))
+		else if (iParam1 >= 92 && unk_0x304A39EB177D246B(iVar2, joaat("vest_tie"), 0))
 		{
 			if (iParam3 != -99)
 			{
-				if ((((((((((((((((((((((iParam3 >= 172 && iParam3 <= 187) || iVar3 == 11) || iVar4 == -27166014) || iVar4 == -273228435) || iVar4 == -2118057713) || iVar4 == -1809078812) || iVar4 == -1522415600) || iVar4 == -1212584705) || iVar4 == -886664231) || iVar4 == -646500230) || iVar4 == -290891042) || iVar4 == 15400801) || iVar4 == -485413449) || iVar4 == -254359230) || unk_0x7FEA86016BC12607(iVar4, joaat("luxe2_draw_0"), 0)) || iVar4 == joaat("dlc_mp_busi_m_jbib4_0")) || iVar4 == joaat("dlc_mp_busi_m_jbib4_1")) || iVar4 == joaat("dlc_mp_busi_m_jbib4_2")) || iVar4 == joaat("dlc_mp_val_m_jbib0_0")) || iVar4 == joaat("dlc_mp_val_m_jbib0_1")) || iVar4 == joaat("dlc_mp_val_m_jbib0_2")) || iVar4 == joaat("dlc_mp_val_m_jbib0_3"))
+				if ((((((((((((((((((((((iParam3 >= 172 && iParam3 <= 187) || iVar3 == 11) || iVar4 == -27166014) || iVar4 == -273228435) || iVar4 == -2118057713) || iVar4 == -1809078812) || iVar4 == -1522415600) || iVar4 == -1212584705) || iVar4 == -886664231) || iVar4 == -646500230) || iVar4 == -290891042) || iVar4 == 15400801) || iVar4 == -485413449) || iVar4 == -254359230) || unk_0x304A39EB177D246B(iVar4, joaat("luxe2_draw_0"), 0)) || iVar4 == joaat("dlc_mp_busi_m_jbib4_0")) || iVar4 == joaat("dlc_mp_busi_m_jbib4_1")) || iVar4 == joaat("dlc_mp_busi_m_jbib4_2")) || iVar4 == joaat("dlc_mp_val_m_jbib0_0")) || iVar4 == joaat("dlc_mp_val_m_jbib0_1")) || iVar4 == joaat("dlc_mp_val_m_jbib0_2")) || iVar4 == joaat("dlc_mp_val_m_jbib0_3"))
 				{
-					if (!unk_0x7FEA86016BC12607(iVar4, joaat("sweat_vest"), 0))
+					if (!unk_0x304A39EB177D246B(iVar4, joaat("sweat_vest"), 0))
 					{
 					}
 					else
@@ -8554,9 +8554,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if (((((((((((iParam4 >= 64 && iParam4 <= 79) || (iParam4 >= 96 && iParam4 <= 111)) || iVar5 == 4) || iVar5 == 6) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("vest_shirt"), 0))) || unk_0x7FEA86016BC12607(iVar6, joaat("CUFFED_SHIRT"), 0)) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4"))
+				if (((((((((((iParam4 >= 64 && iParam4 <= 79) || (iParam4 >= 96 && iParam4 <= 111)) || iVar5 == 4) || iVar5 == 6) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("vest_shirt"), 0))) || unk_0x304A39EB177D246B(iVar6, joaat("CUFFED_SHIRT"), 0)) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4"))
 				{
-					if (unk_0x7FEA86016BC12607(iVar6, joaat("high_roller_shirt"), 0))
+					if (unk_0x304A39EB177D246B(iVar6, joaat("high_roller_shirt"), 0))
 					{
 						return 0;
 					}
@@ -8567,7 +8567,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					{
 						if ((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 176 && iParam4 <= 191)) || iVar5 == 3) || iVar5 == 7) || iVar5 == 11)
 						{
-							if (!unk_0x7FEA86016BC12607(iVar6, joaat("sweat_vest"), 0))
+							if (!unk_0x304A39EB177D246B(iVar6, joaat("sweat_vest"), 0))
 							{
 								return 1;
 							}
@@ -8577,11 +8577,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 92 && unk_0x7FEA86016BC12607(iVar2, joaat("tux_tie"), 0))
+		else if (iParam1 >= 92 && unk_0x304A39EB177D246B(iVar2, joaat("tux_tie"), 0))
 		{
 			if (iParam3 != -99)
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("tux_jacket"), 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("tux_jacket"), 0))
 				{
 				}
 				else
@@ -8591,7 +8591,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if (((iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("tux_vest"), 0)) && unk_0x7FEA86016BC12607(iVar2, joaat("tux_tie_alt"), 0)) || (((iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("tux_shirt"), 0)) && !unk_0x7FEA86016BC12607(iVar2, joaat("tux_tie_alt"), 0)) && !unk_0x7FEA86016BC12607(iVar6, joaat("high_roller_shirt"), 0)))
+				if (((iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("tux_vest"), 0)) && unk_0x304A39EB177D246B(iVar2, joaat("tux_tie_alt"), 0)) || (((iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("tux_shirt"), 0)) && !unk_0x304A39EB177D246B(iVar2, joaat("tux_tie_alt"), 0)) && !unk_0x304A39EB177D246B(iVar6, joaat("high_roller_shirt"), 0)))
 				{
 				}
 				else
@@ -8600,13 +8600,13 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 92 && unk_0x7FEA86016BC12607(iVar2, joaat("loose_bowtie"), 0))
+		else if (iParam1 >= 92 && unk_0x304A39EB177D246B(iVar2, joaat("loose_bowtie"), 0))
 		{
 			if (iParam4 != -99)
 			{
-				if (((((((((((((((((((((((((((((((((((((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 176 && iParam4 <= 191)) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_0")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_1")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_2")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_3")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_5")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_6")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_7")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_8")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_9")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_10")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_11")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_12")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_13")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_14")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_15")) || iVar6 == joaat("dlc_mp_ind_m_special_0_0")) || iVar6 == joaat("dlc_mp_ind_m_special_0_1")) || iVar6 == joaat("dlc_mp_ind_m_special_2_0")) || iVar6 == joaat("dlc_mp_ind_m_special_2_1")) || iVar6 == joaat("dlc_mp_ind_m_special_2_2")) || iVar6 == joaat("dlc_mp_ind_m_special_2_3")) || iVar6 == joaat("dlc_mp_ind_m_special_2_4")) || iVar6 == joaat("dlc_mp_ind_m_special_2_5")) || iVar6 == joaat("dlc_mp_ind_m_special_2_6")) || iVar6 == joaat("dlc_mp_ind_m_special_2_7")) || iVar6 == joaat("dlc_mp_ind_m_special_2_8")) || iVar6 == joaat("dlc_mp_biker_m_special_9_0")) || iVar6 == joaat("dlc_mp_biker_m_special_9_1")) || unk_0x7FEA86016BC12607(iVar6, joaat("heist_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("draw_11"), 0))
+				if (((((((((((((((((((((((((((((((((((((((((iParam4 >= 48 && iParam4 <= 63) || (iParam4 >= 112 && iParam4 <= 127)) || (iParam4 >= 176 && iParam4 <= 191)) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_0")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_1")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_2")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_3")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_5")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_6")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_7")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_8")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_9")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_10")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_11")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_12")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_13")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_14")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_15")) || iVar6 == joaat("dlc_mp_ind_m_special_0_0")) || iVar6 == joaat("dlc_mp_ind_m_special_0_1")) || iVar6 == joaat("dlc_mp_ind_m_special_2_0")) || iVar6 == joaat("dlc_mp_ind_m_special_2_1")) || iVar6 == joaat("dlc_mp_ind_m_special_2_2")) || iVar6 == joaat("dlc_mp_ind_m_special_2_3")) || iVar6 == joaat("dlc_mp_ind_m_special_2_4")) || iVar6 == joaat("dlc_mp_ind_m_special_2_5")) || iVar6 == joaat("dlc_mp_ind_m_special_2_6")) || iVar6 == joaat("dlc_mp_ind_m_special_2_7")) || iVar6 == joaat("dlc_mp_ind_m_special_2_8")) || iVar6 == joaat("dlc_mp_biker_m_special_9_0")) || iVar6 == joaat("dlc_mp_biker_m_special_9_1")) || unk_0x304A39EB177D246B(iVar6, joaat("heist_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("draw_3"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("draw_7"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("draw_11"), 0))
 				{
-					if (!unk_0x7FEA86016BC12607(iVar6, joaat("sweat_vest"), 0))
+					if (!unk_0x304A39EB177D246B(iVar6, joaat("sweat_vest"), 0))
 					{
 					}
 					else
@@ -8620,7 +8620,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					{
 						if ((((((iParam4 >= 64 && iParam4 <= 79) || (iParam4 >= 96 && iParam4 <= 111)) || (iParam4 >= 160 && iParam4 <= 175)) || iVar5 == 4) || iVar5 == 6) || iVar5 == 10)
 						{
-							if (!unk_0x7FEA86016BC12607(iVar6, joaat("sweat_vest"), 0))
+							if (!unk_0x304A39EB177D246B(iVar6, joaat("sweat_vest"), 0))
 							{
 								return 1;
 							}
@@ -8630,11 +8630,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 92 && unk_0x7FEA86016BC12607(iVar2, joaat("loose_tie"), 0))
+		else if (iParam1 >= 92 && unk_0x304A39EB177D246B(iVar2, joaat("loose_tie"), 0))
 		{
 			if (iParam3 != -99)
 			{
-				if (((((iParam3 >= 64 && iParam3 <= 79) || (iParam3 >= 156 && iParam3 <= 171)) || iVar3 == 4) || iVar3 == 10) || unk_0x7FEA86016BC12607(iVar4, joaat("open_jacket"), 0))
+				if (((((iParam3 >= 64 && iParam3 <= 79) || (iParam3 >= 156 && iParam3 <= 171)) || iVar3 == 4) || iVar3 == 10) || unk_0x304A39EB177D246B(iVar4, joaat("open_jacket"), 0))
 				{
 				}
 				else
@@ -8644,9 +8644,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if (((((((((((((((((((((((((((iParam4 >= 176 && iParam4 <= 191) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_0")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_1")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_2")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_3")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_5")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_6")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_7")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_8")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_9")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_10")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_11")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_12")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_13")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_14")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_15")) || iVar6 == joaat("dlc_mp_ind_m_special_0_0")) || iVar6 == joaat("dlc_mp_ind_m_special_0_1")) || iVar6 == joaat("dlc_mp_biker_m_special_9_0")) || iVar6 == joaat("dlc_mp_biker_m_special_9_1")) || unk_0x7FEA86016BC12607(iVar6, joaat("heist_draw_5"), 0))
+				if (((((((((((((((((((((((((((iParam4 >= 176 && iParam4 <= 191) || iVar6 == joaat("dlc_mp_val_m_accs0_0")) || iVar6 == joaat("dlc_mp_val_m_accs0_1")) || iVar6 == joaat("dlc_mp_val_m_accs0_2")) || iVar6 == joaat("dlc_mp_val_m_accs0_3")) || iVar6 == joaat("dlc_mp_val_m_accs0_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_0")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_1")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_2")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_3")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_4")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_5")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_6")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_7")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_8")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_9")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_10")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_11")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_12")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_13")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_14")) || iVar6 == joaat("dlc_mp_busi2_m_accs1_15")) || iVar6 == joaat("dlc_mp_ind_m_special_0_0")) || iVar6 == joaat("dlc_mp_ind_m_special_0_1")) || iVar6 == joaat("dlc_mp_biker_m_special_9_0")) || iVar6 == joaat("dlc_mp_biker_m_special_9_1")) || unk_0x304A39EB177D246B(iVar6, joaat("heist_draw_5"), 0))
 				{
-					if (!unk_0x7FEA86016BC12607(iVar6, joaat("sweat_vest"), 0))
+					if (!unk_0x304A39EB177D246B(iVar6, joaat("sweat_vest"), 0))
 					{
 					}
 					else
@@ -8660,7 +8660,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					{
 						if ((iParam4 >= 160 && iParam4 <= 175) || iVar5 == 10)
 						{
-							if (!unk_0x7FEA86016BC12607(iVar6, joaat("sweat_vest"), 0))
+							if (!unk_0x304A39EB177D246B(iVar6, joaat("sweat_vest"), 0))
 							{
 								return 1;
 							}
@@ -8670,11 +8670,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 92 && unk_0x7FEA86016BC12607(iVar2, joaat("slack_tie"), 0))
+		else if (iParam1 >= 92 && unk_0x304A39EB177D246B(iVar2, joaat("slack_tie"), 0))
 		{
 			if (iParam3 != -99)
 			{
-				if (((((iParam3 >= 64 && iParam3 <= 79) || (iParam3 >= 188 && iParam3 <= 203)) || iVar3 == 12) || iVar3 == 4) || unk_0x7FEA86016BC12607(iVar4, joaat("open_jacket"), 0))
+				if (((((iParam3 >= 64 && iParam3 <= 79) || (iParam3 >= 188 && iParam3 <= 203)) || iVar3 == 12) || iVar3 == 4) || unk_0x304A39EB177D246B(iVar4, joaat("open_jacket"), 0))
 				{
 				}
 				else
@@ -8684,7 +8684,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if (((iParam4 >= 192 && iParam4 <= 207) || func_105(iVar6)) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("draw_12"), 0)))
+				if (((iParam4 >= 192 && iParam4 <= 207) || func_105(iVar6)) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("draw_12"), 0)))
 				{
 				}
 				else
@@ -8693,7 +8693,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 92 && unk_0x7FEA86016BC12607(iVar2, joaat("scarf"), 0))
+		else if (iParam1 >= 92 && unk_0x304A39EB177D246B(iVar2, joaat("scarf"), 0))
 		{
 			if (iParam3 != -99)
 			{
@@ -8701,11 +8701,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					return 0;
 				}
-				else if ((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_4"), 0)) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_16"), 0)))
+				else if ((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_4"), 0)) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_16"), 0)))
 				{
 					return 0;
 				}
-				else if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("pilot_suit"), 0))
+				else if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("pilot_suit"), 0))
 				{
 					return 0;
 				}
@@ -8722,7 +8722,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			if (iParam10 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar8, joaat("headscarf"), 0))
+				if (unk_0x304A39EB177D246B(iVar8, joaat("headscarf"), 0))
 				{
 					return 0;
 				}
@@ -8798,7 +8798,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (((unk_0x7FEA86016BC12607(iVar14, joaat("morph_suit"), 0) || unk_0x7FEA86016BC12607(iVar14, joaat("scuba_gear"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("cat_suit"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("gorka_suit"), 0))
+			if (((unk_0x304A39EB177D246B(iVar14, joaat("morph_suit"), 0) || unk_0x304A39EB177D246B(iVar14, joaat("scuba_gear"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("cat_suit"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("gorka_suit"), 0))
 			{
 				if (iParam1 != 0)
 				{
@@ -8808,9 +8808,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam10 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar18, joaat("headscarf"), 0) && !unk_0x7FEA86016BC12607(iVar18, joaat("smug_draw_6"), 0))
+			if (unk_0x304A39EB177D246B(iVar18, joaat("headscarf"), 0) && !unk_0x304A39EB177D246B(iVar18, joaat("smug_draw_6"), 0))
 			{
-				if (((((((iParam1 == 0 || (iParam1 >= 13 && iParam1 <= 18)) || iVar11 == 3) || (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("cuff"), 0))) || (iParam1 >= 19 && iParam1 <= 24)) || iVar11 == 4) || (iParam1 >= 25 && iParam1 <= 30)) || iVar11 == 5)
+				if (((((((iParam1 == 0 || (iParam1 >= 13 && iParam1 <= 18)) || iVar11 == 3) || (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("cuff"), 0))) || (iParam1 >= 19 && iParam1 <= 24)) || iVar11 == 4) || (iParam1 >= 25 && iParam1 <= 30)) || iVar11 == 5)
 				{
 				}
 				else
@@ -8818,15 +8818,15 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar18, joaat("headscarf"), 0))
+			if (unk_0x304A39EB177D246B(iVar18, joaat("headscarf"), 0))
 			{
-				if ((((iParam1 >= 1 && iParam1 <= 12) || iVar11 == 1) || iVar11 == 2) || (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("earring"), 0)))
+				if ((((iParam1 >= 1 && iParam1 <= 12) || iVar11 == 1) || iVar11 == 2) || (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("earring"), 0)))
 				{
 					return 0;
 				}
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar12, joaat("hoop_necklace"), 0))
+		if (unk_0x304A39EB177D246B(iVar12, joaat("hoop_necklace"), 0))
 		{
 			if (func_175(iParam0, iParam3, -1))
 			{
@@ -8835,9 +8835,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar14, joaat("pilot_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar14, joaat("pilot_suit"), 0))
 			{
-				if (iParam1 != 0 && !(iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("pilot_suit"), 0)))
+				if (iParam1 != 0 && !(iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("pilot_suit"), 0)))
 				{
 					return 0;
 				}
@@ -8845,9 +8845,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar12, joaat("epsilon_chain_alt"), 0))
+			if (unk_0x304A39EB177D246B(iVar12, joaat("epsilon_chain_alt"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar14, joaat("arena_draw_0"), 0))
+				if (unk_0x304A39EB177D246B(iVar14, joaat("arena_draw_0"), 0))
 				{
 					return 1;
 				}
@@ -8856,9 +8856,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					return 0;
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar12, joaat("epsilon_chain"), 0))
+			else if (unk_0x304A39EB177D246B(iVar12, joaat("epsilon_chain"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar14, joaat("arena_draw_0"), 0))
+				if (unk_0x304A39EB177D246B(iVar14, joaat("arena_draw_0"), 0))
 				{
 					return 0;
 				}
@@ -8866,7 +8866,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		else if (iParam4 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar12, joaat("epsilon_chain_alt"), 0))
+			if (unk_0x304A39EB177D246B(iVar12, joaat("epsilon_chain_alt"), 0))
 			{
 				if (iParam4 == 66)
 				{
@@ -8880,9 +8880,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar12, 91564168, 0))
+			if (unk_0x304A39EB177D246B(iVar12, 91564168, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar14, 91564168, 0))
+				if (unk_0x304A39EB177D246B(iVar14, 91564168, 0))
 				{
 					return 1;
 				}
@@ -8894,9 +8894,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		else if (iParam4 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar12, 91564168, 0))
+			if (unk_0x304A39EB177D246B(iVar12, 91564168, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar16, 91564168, 0))
+				if (unk_0x304A39EB177D246B(iVar16, 91564168, 0))
 				{
 					return 1;
 				}
@@ -8908,9 +8908,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (unk_0x7FEA86016BC12607(iVar12, 1536943816, 0))
+			if (unk_0x304A39EB177D246B(iVar12, 1536943816, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar14, -148268191, 0))
+				if (unk_0x304A39EB177D246B(iVar14, -148268191, 0))
 				{
 					return 1;
 				}
@@ -8977,23 +8977,23 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			if (iParam10 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar18, joaat("headscarf"), 0))
+				if (unk_0x304A39EB177D246B(iVar18, joaat("headscarf"), 0))
 				{
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar16, joaat("over_jacket"), 0))
+			if (unk_0x304A39EB177D246B(iVar16, joaat("over_jacket"), 0))
 			{
 				return 0;
 			}
 		}
 		if (iParam3 != -99)
 		{
-			if (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("scarf"), 0))
+			if (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("scarf"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar12, joaat("jacket_scarf"), 0))
+				if (unk_0x304A39EB177D246B(iVar12, joaat("jacket_scarf"), 0))
 				{
-					if ((((((((((((((((unk_0x7FEA86016BC12607(iVar14, joaat("block_scarfs"), 0) || unk_0x7FEA86016BC12607(iVar14, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar14, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_18"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("air_draw_0"), 0))
+					if ((((((((((((((((unk_0x304A39EB177D246B(iVar14, joaat("block_scarfs"), 0) || unk_0x304A39EB177D246B(iVar14, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar14, -826135203, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_18"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("air_draw_0"), 0))
 					{
 						return 0;
 					}
@@ -9005,21 +9005,21 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 						return 0;
 					}
 				}
-				else if (func_106(iParam0, iParam3) || unk_0x7FEA86016BC12607(iVar14, joaat("block_scarfs"), 0))
+				else if (func_106(iParam0, iParam3) || unk_0x304A39EB177D246B(iVar14, joaat("block_scarfs"), 0))
 				{
 					return 0;
 				}
 				if (iParam10 != -99)
 				{
-					if (unk_0x7FEA86016BC12607(iVar18, joaat("headscarf"), 0))
+					if (unk_0x304A39EB177D246B(iVar18, joaat("headscarf"), 0))
 					{
 						return 0;
 					}
 				}
 			}
-			if (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("luxe_scarf"), 0))
+			if (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("luxe_scarf"), 0))
 			{
-				if ((((unk_0x7FEA86016BC12607(iVar14, joaat("luxe_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar14, joaat("luxe_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("luxe2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("luxe2_draw_1"), 0))
+				if ((((unk_0x304A39EB177D246B(iVar14, joaat("luxe_draw_0"), 0) || unk_0x304A39EB177D246B(iVar14, joaat("luxe_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("luxe2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("luxe2_draw_1"), 0))
 				{
 				}
 				else
@@ -9028,23 +9028,23 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("scarf"), 0))
+		else if (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("scarf"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar16, joaat("block_scarfs"), 0))
+			if (unk_0x304A39EB177D246B(iVar16, joaat("block_scarfs"), 0))
 			{
 				return 0;
 			}
 		}
-		else if (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("chain"), 0))
+		else if (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("chain"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar16, joaat("block_chains"), 0))
+			if (unk_0x304A39EB177D246B(iVar16, joaat("block_chains"), 0))
 			{
 				return 0;
 			}
 		}
-		if (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("pilot_suit"), 0))
+		if (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("pilot_suit"), 0))
 		{
-			if (iParam9 >= 327 && unk_0x7FEA86016BC12607(func_180(iParam0, iParam9, 14, 4), joaat("pilot_suit"), 1))
+			if (iParam9 >= 327 && unk_0x304A39EB177D246B(func_180(iParam0, iParam9, 14, 4), joaat("pilot_suit"), 1))
 			{
 			}
 			else if (iParam2 == 14 || (iParam2 == 1 && iParam10 != 0))
@@ -9052,11 +9052,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				return 0;
 			}
 		}
-		else if ((iParam9 >= 327 && unk_0x7FEA86016BC12607(func_180(iParam0, iParam9, 14, 4), joaat("pilot_suit"), 1)) && iParam1 != 0)
+		else if ((iParam9 >= 327 && unk_0x304A39EB177D246B(func_180(iParam0, iParam9, 14, 4), joaat("pilot_suit"), 1)) && iParam1 != 0)
 		{
 			return 0;
 		}
-		if ((((iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("scarf"), 0)) || (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("big_chain"), 0))) || (iParam1 >= 43 && iParam1 <= 48)) || iVar11 == 8)
+		if ((((iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("scarf"), 0)) || (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("big_chain"), 0))) || (iParam1 >= 43 && iParam1 <= 48)) || iVar11 == 8)
 		{
 			if (iParam11 != -99)
 			{
@@ -9065,22 +9065,22 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					iVar20 = func_180(iParam0, iParam11, 4, 4);
 				}
-				if (unk_0x7FEA86016BC12607(iVar20, joaat("dungarees"), 0))
+				if (unk_0x304A39EB177D246B(iVar20, joaat("dungarees"), 0))
 				{
 					return 0;
 				}
 			}
 		}
-		if (iVar12 != -1 && (unk_0x7FEA86016BC12607(iVar12, joaat("tie"), 0) || unk_0x7FEA86016BC12607(iVar12, joaat("bowtie"), 0)))
+		if (iVar12 != -1 && (unk_0x304A39EB177D246B(iVar12, joaat("tie"), 0) || unk_0x304A39EB177D246B(iVar12, joaat("bowtie"), 0)))
 		{
 			if (iParam2 == 11)
 			{
-				if ((((((((((((unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_5"), 0) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_11"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar14, -872449705, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_25"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_9"), 0)) || (iParam3 >= 112 && iParam3 <= 127)) || iVar13 == 7)
+				if ((((((((((((unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_5"), 0) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_11"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar14, -872449705, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_25"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_9"), 0)) || (iParam3 >= 112 && iParam3 <= 127)) || iVar13 == 7)
 				{
 				}
-				else if ((unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_9"), 0) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_11"), 0)) || unk_0x7FEA86016BC12607(iVar14, 144417099, 0))
+				else if ((unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_9"), 0) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_11"), 0)) || unk_0x304A39EB177D246B(iVar14, 144417099, 0))
 				{
-					if (unk_0x7FEA86016BC12607(iVar12, joaat("bowtie"), 0))
+					if (unk_0x304A39EB177D246B(iVar12, joaat("bowtie"), 0))
 					{
 					}
 					else
@@ -9095,13 +9095,13 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam2 == 8)
 			{
-				if (unk_0x7FEA86016BC12607(iVar16, joaat("open_collar"), 0) || unk_0x7FEA86016BC12607(iVar16, joaat("closed_collar"), 0))
+				if (unk_0x304A39EB177D246B(iVar16, joaat("open_collar"), 0) || unk_0x304A39EB177D246B(iVar16, joaat("closed_collar"), 0))
 				{
-					if (unk_0x7FEA86016BC12607(iVar12, joaat("tie"), 0))
+					if (unk_0x304A39EB177D246B(iVar12, joaat("tie"), 0))
 					{
-						if (unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_8"), 0) || unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_9"), 0))
+						if (unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_8"), 0) || unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_9"), 0))
 						{
-							if (unk_0x7FEA86016BC12607(iVar12, joaat("alt_tie"), 0))
+							if (unk_0x304A39EB177D246B(iVar12, joaat("alt_tie"), 0))
 							{
 							}
 							else
@@ -9109,7 +9109,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 								return 0;
 							}
 						}
-						else if (unk_0x7FEA86016BC12607(iVar12, joaat("alt_tie"), 0))
+						else if (unk_0x304A39EB177D246B(iVar12, joaat("alt_tie"), 0))
 						{
 							return 0;
 						}
@@ -9123,64 +9123,64 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam9 != -99)
 		{
-			if ((iVar19 != -1 && unk_0x7FEA86016BC12607(iVar19, joaat("earring"), 1)) || (iVar19 != -1 && unk_0x7FEA86016BC12607(iVar19, joaat("block_earrings"), 1)))
+			if ((iVar19 != -1 && unk_0x304A39EB177D246B(iVar19, joaat("earring"), 1)) || (iVar19 != -1 && unk_0x304A39EB177D246B(iVar19, joaat("block_earrings"), 1)))
 			{
-				if ((((iParam1 >= 1 && iParam1 <= 12) || iVar11 == 1) || iVar11 == 2) || (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("earring"), 0)))
+				if ((((iParam1 >= 1 && iParam1 <= 12) || iVar11 == 1) || iVar11 == 2) || (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("earring"), 0)))
 				{
 					return 0;
 				}
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar12, joaat("hoop_necklace"), 0))
+		if (unk_0x304A39EB177D246B(iVar12, joaat("hoop_necklace"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar14, joaat("dress"), 0))
+			if (unk_0x304A39EB177D246B(iVar14, joaat("dress"), 0))
 			{
 				return 1;
 			}
 		}
-		if (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("chain"), 0))
+		if (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("chain"), 0))
 		{
 			if (iParam3 != -99)
 			{
-				if (((((((unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_5"), 0) || unk_0x7FEA86016BC12607(iVar14, -102825006, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_18"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("block_chains"), 0))
+				if (((((((unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_5"), 0) || unk_0x304A39EB177D246B(iVar14, -102825006, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_18"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("block_chains"), 0))
 				{
 					return 0;
 				}
 				else if (func_175(iParam0, iParam3, -1))
 				{
 				}
-				else if ((((((((((((((((((((iParam3 >= 32 && iParam3 <= 47) || (iParam3 >= 176 && iParam3 <= 191)) || iVar13 == 2) || iVar13 == 11) || unk_0x7FEA86016BC12607(iVar14, joaat("tails_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("luxe_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("luxe2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, -430330349, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_21"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("exec_draw_14"), 0)) || iVar14 == joaat("dlc_mp_ind_f_jbib_1_0")) || iVar14 == joaat("dlc_mp_ind_f_jbib_1_1")) || unk_0x7FEA86016BC12607(iVar14, joaat("smug_draw_5"), 0))
+				else if ((((((((((((((((((((iParam3 >= 32 && iParam3 <= 47) || (iParam3 >= 176 && iParam3 <= 191)) || iVar13 == 2) || iVar13 == 11) || unk_0x304A39EB177D246B(iVar14, joaat("tails_jacket"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("luxe_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("luxe2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, -430330349, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_21"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("exec_draw_14"), 0)) || iVar14 == joaat("dlc_mp_ind_f_jbib_1_0")) || iVar14 == joaat("dlc_mp_ind_f_jbib_1_1")) || unk_0x304A39EB177D246B(iVar14, joaat("smug_draw_5"), 0))
 				{
-					if (!unk_0x7FEA86016BC12607(iVar12, joaat("alt_chain"), 0))
+					if (!unk_0x304A39EB177D246B(iVar12, joaat("alt_chain"), 0))
 					{
 						return 0;
 					}
 				}
-				else if (((((((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 224 && iParam3 <= 239)) || iVar13 == 3) || iVar13 == 9) || iVar13 == 14) || unk_0x7FEA86016BC12607(iVar14, joaat("dress"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("vest_shirt"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("vest"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("pilot_suit"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("combat_top"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("COMBAT_SWEAT"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("xmas2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, -1086258388, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_13"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("silk_pyjamas"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar14, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("LOW2_DRAW_8"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, -1103045158, 0)) || unk_0x7FEA86016BC12607(iVar14, -102825006, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("air_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, 891044832, 0))
+				else if (((((((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 224 && iParam3 <= 239)) || iVar13 == 3) || iVar13 == 9) || iVar13 == 14) || unk_0x304A39EB177D246B(iVar14, joaat("dress"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("vest_shirt"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("vest"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("pilot_suit"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("combat_top"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("COMBAT_SWEAT"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("xmas2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, -1086258388, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_13"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("silk_pyjamas"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar14, -826135203, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("LOW2_DRAW_8"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, -1103045158, 0)) || unk_0x304A39EB177D246B(iVar14, -102825006, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("air_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, 891044832, 0))
 				{
 					return 0;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar12, joaat("alt_chain"), 0))
+				else if (unk_0x304A39EB177D246B(iVar12, joaat("alt_chain"), 0))
 				{
 					return 0;
 				}
 			}
 			else if (iParam4 != -99)
 			{
-				if ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam4 >= 71 && iParam4 <= 86) || iVar15 == 11) || unk_0x7FEA86016BC12607(iVar16, joaat("OFF_SHOULDER_ACCS"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("luxe_draw_11"), 0)) || iVar16 == joaat("dlc_mp_heist_f_special_12_0")) || iVar16 == joaat("dlc_mp_heist_f_special_12_1")) || iVar16 == joaat("dlc_mp_hips_f_accs3_0")) || iVar16 == joaat("dlc_mp_hips_f_accs3_1")) || iVar16 == joaat("dlc_mp_hips_f_accs3_2")) || iVar16 == joaat("dlc_mp_hips_f_accs3_3")) || iVar16 == joaat("dlc_mp_val_f_accs0_0")) || iVar16 == joaat("dlc_mp_val_f_accs0_1")) || iVar16 == joaat("dlc_mp_val_f_accs0_2")) || iVar16 == joaat("dlc_mp_val_f_accs1_0")) || iVar16 == joaat("dlc_mp_val_f_accs1_1")) || iVar16 == joaat("dlc_mp_val_f_accs1_2")) || unk_0x7FEA86016BC12607(iVar16, joaat("low_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low2_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("apart_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("apart_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("EXEC_DRAW_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("EXEC_DRAW_4"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("EXEC_DRAW_5"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("EXEC_DRAW_17"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("biker_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("biker_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("biker_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("biker_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("biker_draw_33"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("smug_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("block_chains"), 0))
+				if ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((iParam4 >= 71 && iParam4 <= 86) || iVar15 == 11) || unk_0x304A39EB177D246B(iVar16, joaat("OFF_SHOULDER_ACCS"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("luxe_draw_11"), 0)) || iVar16 == joaat("dlc_mp_heist_f_special_12_0")) || iVar16 == joaat("dlc_mp_heist_f_special_12_1")) || iVar16 == joaat("dlc_mp_hips_f_accs3_0")) || iVar16 == joaat("dlc_mp_hips_f_accs3_1")) || iVar16 == joaat("dlc_mp_hips_f_accs3_2")) || iVar16 == joaat("dlc_mp_hips_f_accs3_3")) || iVar16 == joaat("dlc_mp_val_f_accs0_0")) || iVar16 == joaat("dlc_mp_val_f_accs0_1")) || iVar16 == joaat("dlc_mp_val_f_accs0_2")) || iVar16 == joaat("dlc_mp_val_f_accs1_0")) || iVar16 == joaat("dlc_mp_val_f_accs1_1")) || iVar16 == joaat("dlc_mp_val_f_accs1_2")) || unk_0x304A39EB177D246B(iVar16, joaat("low_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low2_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("apart_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("apart_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("EXEC_DRAW_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("EXEC_DRAW_4"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("EXEC_DRAW_5"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("EXEC_DRAW_17"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("biker_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("biker_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("biker_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("biker_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("biker_draw_33"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("smug_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("block_chains"), 0))
 				{
-					if (!unk_0x7FEA86016BC12607(iVar12, joaat("alt_chain"), 0))
+					if (!unk_0x304A39EB177D246B(iVar12, joaat("alt_chain"), 0))
 					{
 						return 0;
 					}
 				}
-				else if (((((((unk_0x7FEA86016BC12607(iVar16, joaat("vest_shirt"), 0) || unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("heist_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar16, 1353777856, 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("apart_draw_1"), 0))
+				else if (((((((unk_0x304A39EB177D246B(iVar16, joaat("vest_shirt"), 0) || unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("heist_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar16, 1353777856, 0)) || unk_0x304A39EB177D246B(iVar16, joaat("apart_draw_1"), 0))
 				{
 					return 0;
 				}
 				else if (func_171(iParam0, iParam4, 0) != -99)
 				{
-					if (unk_0x7FEA86016BC12607(iVar12, joaat("alt_chain"), 0))
+					if (unk_0x304A39EB177D246B(iVar12, joaat("alt_chain"), 0))
 					{
 						return 0;
 					}
@@ -9199,9 +9199,9 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		}
 		if (iParam3 != -99)
 		{
-			if (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("bead_necklace"), 0))
+			if (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("bead_necklace"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_21"), 0))
+				if (unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_21"), 0))
 				{
 					return 1;
 				}
@@ -9211,25 +9211,25 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		if (((iParam1 >= 13 && iParam1 <= 18) || iVar11 == 3) || (iVar12 != -1 && unk_0x7FEA86016BC12607(iVar12, joaat("cuff"), 0)))
+		if (((iParam1 >= 13 && iParam1 <= 18) || iVar11 == 3) || (iVar12 != -1 && unk_0x304A39EB177D246B(iVar12, joaat("cuff"), 0)))
 		{
 			if (iParam3 != -99)
 			{
-				if (((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 112 && iParam3 <= 127)) || (iParam3 >= 160 && iParam3 <= 175)) || iVar13 == 3) || iVar13 == 7) || iVar13 == 10) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("long_sleeve"), 0)))
+				if (((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 112 && iParam3 <= 127)) || (iParam3 >= 160 && iParam3 <= 175)) || iVar13 == 3) || iVar13 == 7) || iVar13 == 10) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("long_sleeve"), 0)))
 				{
 					return 0;
 				}
 			}
 			else if (iParam4 != -99)
 			{
-				if (iParam4 >= 136 && unk_0x7FEA86016BC12607(func_180(iParam0, iParam4, 8, 4), joaat("long_sleeve"), 0))
+				if (iParam4 >= 136 && unk_0x304A39EB177D246B(func_180(iParam0, iParam4, 8, 4), joaat("long_sleeve"), 0))
 				{
 					return 0;
 				}
 			}
 			else if (iParam9 != -99)
 			{
-				if (iVar19 != -1 && unk_0x7FEA86016BC12607(iVar19, joaat("cuff"), 1))
+				if (iVar19 != -1 && unk_0x304A39EB177D246B(iVar19, joaat("cuff"), 1))
 				{
 					return 0;
 				}
@@ -9239,23 +9239,23 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		{
 			if (iParam3 != -99)
 			{
-				if (((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 112 && iParam3 <= 127)) || (iParam3 >= 160 && iParam3 <= 175)) || iVar13 == 3) || iVar13 == 7) || iVar13 == 10) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("long_sleeve"), 0)))
+				if (((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 112 && iParam3 <= 127)) || (iParam3 >= 160 && iParam3 <= 175)) || iVar13 == 3) || iVar13 == 7) || iVar13 == 10) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("long_sleeve"), 0)))
 				{
 					return 0;
 				}
 			}
 			else if (iParam4 != -99)
 			{
-				if (iParam4 >= 136 && unk_0x7FEA86016BC12607(func_180(iParam0, iParam4, 8, 4), joaat("long_sleeve"), 0))
+				if (iParam4 >= 136 && unk_0x304A39EB177D246B(func_180(iParam0, iParam4, 8, 4), joaat("long_sleeve"), 0))
 				{
 					return 0;
 				}
 			}
 			else if (iParam9 != -99)
 			{
-				if (iVar19 != -1 && unk_0x7FEA86016BC12607(iVar19, joaat("cuff"), 1))
+				if (iVar19 != -1 && unk_0x304A39EB177D246B(iVar19, joaat("cuff"), 1))
 				{
-					unk_0x9C6515C089F7E6F6(iVar19, &Var21);
+					unk_0x09A485A642AEADEF(iVar19, &Var21);
 					if (Var21.f_6 == 7)
 					{
 						return 0;
@@ -9267,21 +9267,21 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		{
 			if (iParam3 != -99)
 			{
-				if (((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 112 && iParam3 <= 127)) || (iParam3 >= 160 && iParam3 <= 175)) || iVar13 == 3) || iVar13 == 7) || iVar13 == 10) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("long_sleeve"), 0)))
+				if (((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 112 && iParam3 <= 127)) || (iParam3 >= 160 && iParam3 <= 175)) || iVar13 == 3) || iVar13 == 7) || iVar13 == 10) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("long_sleeve"), 0)))
 				{
 					return 0;
 				}
 			}
 			else if (iParam4 != -99)
 			{
-				if (iParam4 >= 136 && unk_0x7FEA86016BC12607(func_180(iParam0, iParam4, 8, 4), joaat("long_sleeve"), 0))
+				if (iParam4 >= 136 && unk_0x304A39EB177D246B(func_180(iParam0, iParam4, 8, 4), joaat("long_sleeve"), 0))
 				{
 					return 0;
 				}
 			}
 			else if (iParam9 != -99)
 			{
-				if (iVar19 != -1 && unk_0x7FEA86016BC12607(iVar19, joaat("cuff"), 1))
+				if (iVar19 != -1 && unk_0x304A39EB177D246B(iVar19, joaat("cuff"), 1))
 				{
 					return 0;
 				}
@@ -9291,23 +9291,23 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		{
 			if (iParam3 != -99)
 			{
-				if ((((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 224 && iParam3 <= 239)) || iVar13 == 3) || iVar13 == 9) || iVar13 == 14) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("vest_shirt"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("heist_gear"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_3"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("luxe_sweat"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("luxe_draw_4"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("low_sweat"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_0"), 0))) || unk_0x7FEA86016BC12607(iVar14, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("silk_pyjamas"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar14, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar14, -430330349, 0)) || unk_0x7FEA86016BC12607(iVar14, -102825006, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_18"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_21"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("exec_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("biker_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("biker_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("biker_draw_16"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("morph_suit"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("air_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("assault_draw_0"), 0))
+				if ((((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 48 && iParam3 <= 63) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 224 && iParam3 <= 239)) || iVar13 == 3) || iVar13 == 9) || iVar13 == 14) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("vest_shirt"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("heist_gear"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_3"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("luxe_sweat"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("luxe_draw_4"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("low_sweat"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("low_draw_0"), 0))) || unk_0x304A39EB177D246B(iVar14, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("silk_pyjamas"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar14, -826135203, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar14, -430330349, 0)) || unk_0x304A39EB177D246B(iVar14, -102825006, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_18"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_21"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("exec_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("biker_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("biker_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("biker_draw_16"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("morph_suit"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("air_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("assault_draw_0"), 0))
 				{
 					return 0;
 				}
 			}
 		}
-		else if (((iParam1 >= 37 && iParam1 <= 42) || iVar11 == 7) || (iParam1 >= 55 && unk_0x7FEA86016BC12607(iVar12, joaat("long_necklace"), 0)))
+		else if (((iParam1 >= 37 && iParam1 <= 42) || iVar11 == 7) || (iParam1 >= 55 && unk_0x304A39EB177D246B(iVar12, joaat("long_necklace"), 0)))
 		{
 			if (iParam3 != -99)
 			{
-				if (((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 32 && iParam3 <= 47) || (iParam3 >= 48 && iParam3 <= 63)) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 224 && iParam3 <= 239)) || iVar13 == 2) || iVar13 == 3) || iVar13 == 9) || iVar13 == 14) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("heist_gear"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("heist_draw_3"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("draw_0"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("luxe_sweat"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("luxe_draw_4"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("low_sweat"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_0"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("low_draw_3"), 0))) || unk_0x7FEA86016BC12607(iVar14, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("silk_pyjamas"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar14, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("vest_shirt"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar14, -430330349, 0)) || unk_0x7FEA86016BC12607(iVar14, -102825006, 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_18"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_21"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("exec_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("biker_draw_19"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("air_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar14, joaat("block_chains"), 0))
+				if (((((((((((((((((((((((((((((((((((((((((((((iParam3 >= 32 && iParam3 <= 47) || (iParam3 >= 48 && iParam3 <= 63)) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 224 && iParam3 <= 239)) || iVar13 == 2) || iVar13 == 3) || iVar13 == 9) || iVar13 == 14) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("combat_gear"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("heist_gear"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("heist_draw_3"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("draw_0"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("luxe_sweat"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("luxe_draw_4"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("low_sweat"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("low_draw_0"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("low_draw_3"), 0))) || unk_0x304A39EB177D246B(iVar14, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("silk_pyjamas"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar14, -826135203, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("vest_shirt"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar14, -430330349, 0)) || unk_0x304A39EB177D246B(iVar14, -102825006, 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_18"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_21"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("exec_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("biker_draw_19"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("air_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar14, joaat("block_chains"), 0))
 				{
 					return 0;
 				}
-				else if (((((((((((iParam3 >= 112 && iParam3 <= 127) || (iParam3 >= 160 && iParam3 <= 175)) || (iParam3 >= 192 && iParam3 <= 207)) || iVar13 == 7) || iVar13 == 10) || iVar13 == 12) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("long_sleeve"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("vest"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("combat_gear"), 0))) || unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_7"), 0))
+				else if (((((((((((iParam3 >= 112 && iParam3 <= 127) || (iParam3 >= 160 && iParam3 <= 175)) || (iParam3 >= 192 && iParam3 <= 207)) || iVar13 == 7) || iVar13 == 10) || iVar13 == 12) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("long_sleeve"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("vest"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("tails_jacket"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("combat_gear"), 0))) || unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_7"), 0))
 				{
-					if (iParam1 >= 55 && unk_0x7FEA86016BC12607(iVar12, joaat("long_necklace"), 0))
+					if (iParam1 >= 55 && unk_0x304A39EB177D246B(iVar12, joaat("long_necklace"), 0))
 					{
 						return 0;
 					}
@@ -9315,25 +9315,25 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar16, joaat("vest_shirt"), 0))
+				if (unk_0x304A39EB177D246B(iVar16, joaat("vest_shirt"), 0))
 				{
-					if (unk_0x7FEA86016BC12607(iVar12, joaat("long_necklace"), 0))
+					if (unk_0x304A39EB177D246B(iVar12, joaat("long_necklace"), 0))
 					{
 						return 0;
 					}
 				}
-				else if (((unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_1"), 0) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_4"), 0))
+				else if (((unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_1"), 0) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_4"), 0))
 				{
 					return 0;
 				}
-				else if ((unk_0x7FEA86016BC12607(iVar16, joaat("ALT_SPECIAL_4"), 0) || unk_0x7FEA86016BC12607(iVar16, joaat("alt_special_5"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("alt_special_6"), 0))
+				else if ((unk_0x304A39EB177D246B(iVar16, joaat("ALT_SPECIAL_4"), 0) || unk_0x304A39EB177D246B(iVar16, joaat("alt_special_5"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("alt_special_6"), 0))
 				{
 					return 0;
 				}
 			}
 			else if (iParam9 != -99)
 			{
-				if (iVar19 != -1 && unk_0x7FEA86016BC12607(iVar19, joaat("cuff"), 1))
+				if (iVar19 != -1 && unk_0x304A39EB177D246B(iVar19, joaat("cuff"), 1))
 				{
 					return 0;
 				}
@@ -9343,7 +9343,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		{
 			if (iParam3 != -99)
 			{
-				if ((((((((((((((((((((((iParam3 >= 0 && iParam3 <= 15) || (iParam3 >= 32 && iParam3 <= 47)) || (iParam3 >= 64 && iParam3 <= 79)) || (iParam3 >= 80 && iParam3 <= 95)) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 176 && iParam3 <= 191)) || (iParam3 >= 192 && iParam3 <= 207)) || (iParam3 >= 208 && iParam3 <= 223)) || (iParam3 >= 240 && iParam3 <= 255)) || iVar13 == 0) || iVar13 == 2) || iVar13 == 4) || iVar13 == 5) || iVar13 == 9) || iVar13 == 11) || iVar13 == 12) || iVar13 == 13) || iVar13 == 15) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("vest"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("dress"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("luxe_sweat"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("low_sweat"), 0)))
+				if ((((((((((((((((((((((iParam3 >= 0 && iParam3 <= 15) || (iParam3 >= 32 && iParam3 <= 47)) || (iParam3 >= 64 && iParam3 <= 79)) || (iParam3 >= 80 && iParam3 <= 95)) || (iParam3 >= 144 && iParam3 <= 159)) || (iParam3 >= 176 && iParam3 <= 191)) || (iParam3 >= 192 && iParam3 <= 207)) || (iParam3 >= 208 && iParam3 <= 223)) || (iParam3 >= 240 && iParam3 <= 255)) || iVar13 == 0) || iVar13 == 2) || iVar13 == 4) || iVar13 == 5) || iVar13 == 9) || iVar13 == 11) || iVar13 == 12) || iVar13 == 13) || iVar13 == 15) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("vest"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("dress"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("luxe_sweat"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("low_sweat"), 0)))
 				{
 				}
 				else
@@ -9356,7 +9356,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 		{
 			if (iParam3 != -99)
 			{
-				if ((((((((((((((((iParam3 >= 0 && iParam3 <= 15) || (iParam3 >= 64 && iParam3 <= 79)) || (iParam3 >= 80 && iParam3 <= 95)) || (iParam3 >= 176 && iParam3 <= 191)) || (iParam3 >= 192 && iParam3 <= 207)) || (iParam3 >= 208 && iParam3 <= 223)) || (iParam3 >= 240 && iParam3 <= 255)) || iVar13 == 0) || iVar13 == 4) || iVar13 == 5) || iVar13 == 11) || iVar13 == 12) || iVar13 == 13) || iVar13 == 15) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("vest"), 0))) || (iParam3 >= 256 && unk_0x7FEA86016BC12607(iVar14, joaat("dress"), 0)))
+				if ((((((((((((((((iParam3 >= 0 && iParam3 <= 15) || (iParam3 >= 64 && iParam3 <= 79)) || (iParam3 >= 80 && iParam3 <= 95)) || (iParam3 >= 176 && iParam3 <= 191)) || (iParam3 >= 192 && iParam3 <= 207)) || (iParam3 >= 208 && iParam3 <= 223)) || (iParam3 >= 240 && iParam3 <= 255)) || iVar13 == 0) || iVar13 == 4) || iVar13 == 5) || iVar13 == 11) || iVar13 == 12) || iVar13 == 13) || iVar13 == 15) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("vest"), 0))) || (iParam3 >= 256 && unk_0x304A39EB177D246B(iVar14, joaat("dress"), 0)))
 				{
 				}
 				else
@@ -9366,11 +9366,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			else if (iParam4 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar16, joaat("sweat_vest"), 0) || unk_0x7FEA86016BC12607(iVar16, joaat("basic_vest"), 0))
+				if (unk_0x304A39EB177D246B(iVar16, joaat("sweat_vest"), 0) || unk_0x304A39EB177D246B(iVar16, joaat("basic_vest"), 0))
 				{
 					return 0;
 				}
-				else if (((unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_1"), 0) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar16, joaat("stunt_draw_4"), 0))
+				else if (((unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_1"), 0) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar16, joaat("stunt_draw_4"), 0))
 				{
 					return 0;
 				}
@@ -9387,17 +9387,17 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 			}
 			if (iParam10 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar18, joaat("headscarf"), 0))
+				if (unk_0x304A39EB177D246B(iVar18, joaat("headscarf"), 0))
 				{
 					return 0;
 				}
 			}
 		}
-		else if (iParam1 >= 55 && unk_0x7FEA86016BC12607(iVar12, joaat("high_roller_tie"), 0))
+		else if (iParam1 >= 55 && unk_0x304A39EB177D246B(iVar12, joaat("high_roller_tie"), 0))
 		{
 			if (iParam4 != -99)
 			{
-				if (unk_0x7FEA86016BC12607(iVar16, joaat("high_roller_shirt"), 0))
+				if (unk_0x304A39EB177D246B(iVar16, joaat("high_roller_shirt"), 0))
 				{
 				}
 				else
@@ -9406,11 +9406,11 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				}
 			}
 		}
-		else if (iParam1 >= 55 && unk_0x7FEA86016BC12607(iVar12, joaat("braces"), 0))
+		else if (iParam1 >= 55 && unk_0x304A39EB177D246B(iVar12, joaat("braces"), 0))
 		{
 			if (iParam3 != -99)
 			{
-				if (iVar14 != -1 && unk_0x7FEA86016BC12607(iVar14, joaat("low2_draw_7"), 0))
+				if (iVar14 != -1 && unk_0x304A39EB177D246B(iVar14, joaat("low2_draw_7"), 0))
 				{
 					return 1;
 				}
@@ -9426,7 +9426,7 @@ int func_104(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					iVar38 = func_180(iParam0, iParam11, 4, 4);
 				}
-				if (unk_0x7FEA86016BC12607(iVar38, joaat("high_waist"), 0))
+				if (unk_0x304A39EB177D246B(iVar38, joaat("high_waist"), 0))
 				{
 					return 1;
 				}
@@ -9497,14 +9497,14 @@ int func_106(int iParam0, int iParam1)
 		iVar0 = func_180(iParam0, iParam1, 11, 3);
 		if (iVar0 != -1)
 		{
-			if (((((((((((((((((((((((((((((((unk_0x7FEA86016BC12607(iVar0, joaat("low_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar0, joaat("low_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("LOW_DRAW_7"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("LOW_DRAW_8"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar0, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("jan_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("jan_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("apart_draw_14"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("air_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar0, joaat("use_jacket_scarf"), 0))
+			if (((((((((((((((((((((((((((((((unk_0x304A39EB177D246B(iVar0, joaat("low_draw_0"), 0) || unk_0x304A39EB177D246B(iVar0, joaat("low_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("LOW_DRAW_7"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("LOW_DRAW_8"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar0, -826135203, 0)) || unk_0x304A39EB177D246B(iVar0, joaat("jan_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("jan_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("apart_draw_14"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("air_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar0, joaat("use_jacket_scarf"), 0))
 			{
 				return 1;
 			}
 		}
 		if (iVar0 != -1)
 		{
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("silk_pyjamas"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("silk_pyjamas"), 0))
 			{
 				return 1;
 			}
@@ -9519,7 +9519,7 @@ int func_106(int iParam0, int iParam1)
 		{
 			iVar2 = func_170(iVar1);
 		}
-		if (((((((((((((((((((((((((((((((((((((iParam1 >= 16 && iParam1 < 32) || (iParam1 >= 48 && iParam1 < 64)) || (iParam1 >= 96 && iParam1 < 112)) || (iParam1 >= 112 && iParam1 < 128)) || (iParam1 >= 128 && iParam1 < 144)) || (iParam1 >= 144 && iParam1 < 160)) || (iParam1 >= 160 && iParam1 < 176)) || (iParam1 >= 224 && iParam1 < 240)) || iVar2 == 1) || iVar2 == 3) || iVar2 == 6) || iVar2 == 7) || iVar2 == 8) || iVar2 == 9) || iVar2 == 10) || iVar2 == 14) || unk_0x7FEA86016BC12607(iVar1, joaat("jacket"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("combat_top"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("heist_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("heist_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("silk_robe"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("silk_pyjamas"), 0)) || unk_0x7FEA86016BC12607(iVar1, -826135203, 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("low2_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar1, -102825006, 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("apart_draw_18"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("apart_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("stunt_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("stunt_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("stunt_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("stunt_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("stunt_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("stunt_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("stunt_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar1, joaat("air_draw_0"), 0))
+		if (((((((((((((((((((((((((((((((((((((iParam1 >= 16 && iParam1 < 32) || (iParam1 >= 48 && iParam1 < 64)) || (iParam1 >= 96 && iParam1 < 112)) || (iParam1 >= 112 && iParam1 < 128)) || (iParam1 >= 128 && iParam1 < 144)) || (iParam1 >= 144 && iParam1 < 160)) || (iParam1 >= 160 && iParam1 < 176)) || (iParam1 >= 224 && iParam1 < 240)) || iVar2 == 1) || iVar2 == 3) || iVar2 == 6) || iVar2 == 7) || iVar2 == 8) || iVar2 == 9) || iVar2 == 10) || iVar2 == 14) || unk_0x304A39EB177D246B(iVar1, joaat("jacket"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("combat_top"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("heist_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("heist_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("silk_robe"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("silk_pyjamas"), 0)) || unk_0x304A39EB177D246B(iVar1, -826135203, 0)) || unk_0x304A39EB177D246B(iVar1, joaat("low2_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar1, -102825006, 0)) || unk_0x304A39EB177D246B(iVar1, joaat("apart_draw_18"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("apart_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("stunt_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("stunt_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("stunt_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("stunt_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("stunt_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("stunt_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("stunt_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar1, joaat("air_draw_0"), 0))
 		{
 			return 1;
 		}
@@ -9532,8 +9532,8 @@ void func_107(int iParam0, int iParam1, int iParam2, bool bParam3)
 	int iVar0;
 	int iVar1;
 	
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
-	func_160(unk_0x14580F20CBCE4FA9("hairOverlay"), iParam0);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
+	func_160(unk_0x70E57E9927B6BA58("hairOverlay"), iParam0);
 	iVar1 = func_159(iVar0, iParam1);
 	if (iVar1 != -1)
 	{
@@ -9560,10 +9560,10 @@ void func_108(int iParam0, bool bParam1, bool bParam2, int iParam3)
 	struct<8> Var21;
 	int iVar36;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		iVar0 = Global_78338;
-		unk_0xDAB8331141930045(iParam0);
+		unk_0x98E00E3ED7D61628(iParam0);
 		iVar14 = func_158(iParam0);
 		bVar15 = func_153(iParam0, 0);
 		bVar16 = func_145(iParam0);
@@ -9585,7 +9585,7 @@ void func_108(int iParam0, bool bParam1, bool bParam2, int iParam3)
 				{
 					if (func_131(iParam0, &Var1, iVar18, Var1.f_4, Var1.f_8, bVar15, bVar16, bParam1, bVar17))
 					{
-						unk_0x462E1939BD8B6F55(iParam0, Var1.f_4, Var1.f_5);
+						unk_0x49A5A17556C31561(iParam0, Var1.f_4, Var1.f_5);
 					}
 				}
 			}
@@ -9593,18 +9593,18 @@ void func_108(int iParam0, bool bParam1, bool bParam2, int iParam3)
 		}
 		if (func_141(123, iVar0))
 		{
-			if (unk_0xB7FB7CB62C64CD47(joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz")) != 7)
+			if (unk_0x50CA4ACB66148FF0(joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz")) != 7)
 			{
-				unk_0x462E1939BD8B6F55(iParam0, joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz"));
+				unk_0x49A5A17556C31561(iParam0, joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz"));
 			}
 		}
-		iVar20 = unk_0x762ED57E0EC8DCF9(iVar14);
+		iVar20 = unk_0x82D6E3FDBD0A80B6(iVar14);
 		iVar19 = 0;
 		while (iVar19 < iVar20)
 		{
-			if (unk_0xB1A5EC75CDEBE9BA(iVar14, iVar19, &Var21))
+			if (unk_0xC8FF7E3E267EBEF5(iVar14, iVar19, &Var21))
 			{
-				if (!unk_0xEF068EDE5319404F(Var21.f_0))
+				if (!unk_0x4BFA043D318BF9AE(Var21.f_0))
 				{
 					iVar36 = (129 + iVar19);
 					if (func_141(iVar36, iVar0))
@@ -9613,7 +9613,7 @@ void func_108(int iParam0, bool bParam1, bool bParam2, int iParam3)
 						{
 							if (!func_110(Var21.f_2, Var21.f_3, iVar36))
 							{
-								unk_0x462E1939BD8B6F55(iParam0, Var21.f_2, Var21.f_3);
+								unk_0x49A5A17556C31561(iParam0, Var21.f_2, Var21.f_3);
 								func_109(iParam0, Var21.f_2, Var21.f_3);
 							}
 						}
@@ -9633,11 +9633,11 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case -507124931:
-					unk_0x462E1939BD8B6F55(iParam0, 1841427399, -435695677);
+					unk_0x49A5A17556C31561(iParam0, 1841427399, -435695677);
 					break;
 				
 				case -2045170715:
-					unk_0x462E1939BD8B6F55(iParam0, 1841427399, 1684098164);
+					unk_0x49A5A17556C31561(iParam0, 1841427399, 1684098164);
 					break;
 			}
 			break;
@@ -9646,11 +9646,11 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case -1698823936:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpsecurity_overlays"), -1282588017);
+					unk_0x49A5A17556C31561(iParam0, joaat("mpsecurity_overlays"), -1282588017);
 					break;
 				
 				case 543067199:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpsecurity_overlays"), 884393080);
+					unk_0x49A5A17556C31561(iParam0, joaat("mpsecurity_overlays"), 884393080);
 					break;
 			}
 			break;
@@ -9659,63 +9659,63 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case -129339642:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 1959383570);
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -543063956);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 1959383570);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -543063956);
 					break;
 				
 				case 887263619:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -543063956);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -543063956);
 					break;
 				
 				case -598443208:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -1160700813);
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -543063956);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -1160700813);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -543063956);
 					break;
 				
 				case -619123295:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -543063956);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -543063956);
 					break;
 				
 				case -2139930425:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -543063956);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -543063956);
 					break;
 				
 				case 991513037:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 847416951);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 847416951);
 					break;
 				
 				case -675149090:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 847416951);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 847416951);
 					break;
 				
 				case 2021781367:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -1625184579);
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 1294359428);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -1625184579);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 1294359428);
 					break;
 				
 				case -436866133:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 1294359428);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 1294359428);
 					break;
 				
 				case 457275657:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 429414924);
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 1294359428);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 429414924);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 1294359428);
 					break;
 				
 				case -250832592:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 1294359428);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 1294359428);
 					break;
 				
 				case -798760789:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), 1294359428);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), 1294359428);
 					break;
 				
 				case -1634791241:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -2021672848);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -2021672848);
 					break;
 				
 				case -1227437948:
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mptuner_overlays"), -2021672848);
+					unk_0x49A5A17556C31561(iParam0, joaat("mptuner_overlays"), -2021672848);
 					break;
 			}
 			break;
@@ -9724,91 +9724,91 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("MP_Heist4_Tee_039_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_040_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_040_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_041_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_042_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_042_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_043_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_044_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_044_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_049_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_050_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_050_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_051_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_052_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_052_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_055_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_056_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_056_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_057_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_058_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_058_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_059_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_060_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_060_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_061_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_062_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_062_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_063_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_064_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_064_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_065_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_066_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_066_M"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_039_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_040_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_040_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_041_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_042_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_042_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_043_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_044_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_044_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_049_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_050_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_050_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_051_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_052_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_052_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_055_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_056_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_056_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_057_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_058_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_058_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_059_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_060_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_060_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_061_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_062_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_062_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_063_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_064_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_064_F"));
 					break;
 				
 				case joaat("MP_Heist4_Tee_065_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_066_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpheist4_overlays"), joaat("MP_Heist4_Tee_066_F"));
 					break;
 			}
 			break;
@@ -9817,365 +9817,365 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("CasinoTop_M_0"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_000_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_000_M"));
 					break;
 				
 				case joaat("CasinoTop_M_1"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_M"));
 					break;
 				
 				case joaat("CasinoTop_M_2"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_M"));
 					break;
 				
 				case joaat("CasinoTop_M_3"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_M"));
 					break;
 				
 				case joaat("CasinoTop_M_4"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_M"));
 					break;
 				
 				case joaat("CasinoTop_M_5"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_M"));
 					break;
 				
 				case joaat("CasinoTop_M_6"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_M"));
 					break;
 				
 				case joaat("CasinoTop_M_7"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_004_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_004_M"));
 					break;
 				
 				case joaat("CasinoTop_M_8"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_005_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_005_M"));
 					break;
 				
 				case joaat("CasinoTop_M_9"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_M"));
 					break;
 				
 				case joaat("CasinoTop_M_10"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_M"));
 					break;
 				
 				case joaat("CasinoTop_M_11"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_007_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_007_M"));
 					break;
 				
 				case joaat("CasinoTop_M_12"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_008_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_008_M"));
 					break;
 				
 				case joaat("CasinoTop_M_13"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_009_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_009_M"));
 					break;
 				
 				case joaat("CasinoTop_M_14"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_010_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_010_M"));
 					break;
 				
 				case joaat("CasinoTop_M_15"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_011_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_011_M"));
 					break;
 				
 				case joaat("CasinoTop_M_16"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_012_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_012_M"));
 					break;
 				
 				case joaat("CasinoTop_M_17"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_013_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_013_M"));
 					break;
 				
 				case joaat("CasinoTop_M_18"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_014_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_014_M"));
 					break;
 				
 				case joaat("CasinoTop_M_19"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_015_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_015_M"));
 					break;
 				
 				case joaat("CasinoTop_M_20"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_016_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_016_M"));
 					break;
 				
 				case joaat("CasinoTop_M_21"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_M"));
 					break;
 				
 				case joaat("CasinoTop_M_22"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_M"));
 					break;
 				
 				case joaat("CasinoTop_M_23"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_018_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_018_M"));
 					break;
 				
 				case joaat("CasinoTop_M_24"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_M"));
 					break;
 				
 				case joaat("CasinoTop_M_25"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_M"));
 					break;
 				
 				case joaat("CasinoTop_M_26"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_020_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_020_M"));
 					break;
 				
 				case joaat("CasinoTop_M_27"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_M"));
 					break;
 				
 				case joaat("CasinoTop_M_28"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_M"));
 					break;
 				
 				case joaat("CasinoTop_M_29"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_M"));
 					break;
 				
 				case joaat("CasinoTop_M_30"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_M"));
 					break;
 				
 				case joaat("CasinoTop_M_31"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_M"));
 					break;
 				
 				case joaat("CasinoTop_M_32"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_M"));
 					break;
 				
 				case joaat("CasinoTop_M_33"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_M"));
 					break;
 				
 				case joaat("CasinoTop_M_34"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_M"));
 					break;
 				
 				case joaat("CasinoTop_M_35"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_M"));
 					break;
 				
 				case joaat("CasinoTop_M_36"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_M"));
 					break;
 				
 				case joaat("CasinoTop_M_37"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_M"));
 					break;
 				
 				case joaat("CasinoTop_M_38"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_M"));
 					break;
 				
 				case joaat("CasinoTop_M_39"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_M"));
 					break;
 				
 				case joaat("CasinoTop_M_40"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_M"));
 					break;
 				
 				case joaat("CasinoTop_M_41"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_M"));
 					break;
 				
 				case joaat("CasinoTop_M_42"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_M"));
 					break;
 				
 				case joaat("CasinoTop_M_43"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_M"));
 					break;
 				
 				case joaat("CasinoTop_M_44"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_M"));
 					break;
 			}
 			switch (iParam2)
 			{
 				case joaat("CasinoTop_F_0"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_000_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_000_F"));
 					break;
 				
 				case joaat("CasinoTop_F_1"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_F"));
 					break;
 				
 				case joaat("CasinoTop_F_2"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_001_F"));
 					break;
 				
 				case joaat("CasinoTop_F_3"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_F"));
 					break;
 				
 				case joaat("CasinoTop_F_4"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_002_F"));
 					break;
 				
 				case joaat("CasinoTop_F_5"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_F"));
 					break;
 				
 				case joaat("CasinoTop_F_6"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_003_F"));
 					break;
 				
 				case joaat("CasinoTop_F_7"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_004_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_004_F"));
 					break;
 				
 				case joaat("CasinoTop_F_8"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_005_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_005_F"));
 					break;
 				
 				case joaat("CasinoTop_F_9"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_F"));
 					break;
 				
 				case joaat("CasinoTop_F_10"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_006_F"));
 					break;
 				
 				case joaat("CasinoTop_F_11"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_007_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_007_F"));
 					break;
 				
 				case joaat("CasinoTop_F_12"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_008_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_008_F"));
 					break;
 				
 				case joaat("CasinoTop_F_13"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_009_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_009_F"));
 					break;
 				
 				case joaat("CasinoTop_F_14"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_010_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_010_F"));
 					break;
 				
 				case joaat("CasinoTop_F_15"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_011_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_011_F"));
 					break;
 				
 				case joaat("CasinoTop_F_16"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_012_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_012_F"));
 					break;
 				
 				case joaat("CasinoTop_F_17"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_013_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_013_F"));
 					break;
 				
 				case joaat("CasinoTop_F_18"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_014_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_014_F"));
 					break;
 				
 				case joaat("CasinoTop_F_19"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_015_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_015_F"));
 					break;
 				
 				case joaat("CasinoTop_F_20"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_016_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_016_F"));
 					break;
 				
 				case joaat("CasinoTop_F_21"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_F"));
 					break;
 				
 				case joaat("CasinoTop_F_22"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_017_F"));
 					break;
 				
 				case joaat("CasinoTop_F_23"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_018_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_018_F"));
 					break;
 				
 				case joaat("CasinoTop_F_24"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_F"));
 					break;
 				
 				case joaat("CasinoTop_F_25"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_019_F"));
 					break;
 				
 				case joaat("CasinoTop_F_26"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_020_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_020_F"));
 					break;
 				
 				case joaat("CasinoTop_F_27"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_F"));
 					break;
 				
 				case joaat("CasinoTop_F_28"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_021_F"));
 					break;
 				
 				case joaat("CasinoTop_F_29"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_F"));
 					break;
 				
 				case joaat("CasinoTop_F_30"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_022_F"));
 					break;
 				
 				case joaat("CasinoTop_F_31"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_F"));
 					break;
 				
 				case joaat("CasinoTop_F_32"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_023_F"));
 					break;
 				
 				case joaat("CasinoTop_F_33"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_F"));
 					break;
 				
 				case joaat("CasinoTop_F_34"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_024_F"));
 					break;
 				
 				case joaat("CasinoTop_F_35"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_F"));
 					break;
 				
 				case joaat("CasinoTop_F_36"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_025_F"));
 					break;
 				
 				case joaat("CasinoTop_F_37"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_F"));
 					break;
 				
 				case joaat("CasinoTop_F_38"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_026_F"));
 					break;
 				
 				case joaat("CasinoTop_F_39"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_F"));
 					break;
 				
 				case joaat("CasinoTop_F_40"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_027_F"));
 					break;
 				
 				case joaat("CasinoTop_F_41"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_F"));
 					break;
 				
 				case joaat("CasinoTop_F_42"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_028_F"));
 					break;
 				
 				case joaat("CasinoTop_F_43"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_F"));
 					break;
 				
 				case joaat("CasinoTop_F_44"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpVinewood_overlays"), joaat("MP_Vinewood_Tee_029_F"));
 					break;
 			}
 			break;
@@ -10184,13 +10184,13 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("MP_Battle_Clothing_000_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpBattle_overlays"), joaat("MP_Battle_Clothing_001_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpBattle_overlays"), joaat("MP_Battle_Clothing_001_M"));
 					break;
 			}
 			switch (iParam2)
 			{
 				case joaat("MP_Battle_Clothing_000_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpBattle_overlays"), joaat("MP_Battle_Clothing_001_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpBattle_overlays"), joaat("MP_Battle_Clothing_001_F"));
 					break;
 			}
 			break;
@@ -10199,157 +10199,157 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("M_TankTop_Smug_5_3_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_000_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_000_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_17_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_001_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_001_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_10_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_002_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_002_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_11_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_003_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_003_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_12_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_004_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_004_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_13_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_005_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_005_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_20_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_006_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_006_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_21_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_007_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_007_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_23_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_008_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_008_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_22_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_009_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_009_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_5_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_010_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_010_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_18_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_011_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_011_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_0_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_012_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_012_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_3_b"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_013_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_013_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_25_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_014_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_014_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_7_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_015_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_015_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_4_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_016_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_016_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_1_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_017_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_017_M"));
 					break;
 				
 				case joaat("M_TankTop_Smug_5_9_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_018_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_018_M"));
 					break;
 			}
 			switch (iParam2)
 			{
 				case joaat("F_TankTop_Smug_5_3_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_000_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_000_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_17_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_001_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_001_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_10_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_002_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_002_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_11_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_003_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_003_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_12_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_004_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_004_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_13_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_005_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_005_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_20_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_006_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_006_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_21_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_007_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_007_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_23_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_008_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_008_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_22_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_009_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_009_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_5_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_010_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_010_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_18_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_011_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_011_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_0_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_012_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_012_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_3_b"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_013_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_013_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_25_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_014_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_014_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_7_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_015_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_015_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_4_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_016_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_016_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_1_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_017_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_017_F"));
 					break;
 				
 				case joaat("F_TankTop_Smug_5_9_a"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_018_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpSmuggler_overlays"), joaat("MP_Smuggler_Graphic_018_F"));
 					break;
 			}
 			break;
@@ -10358,11 +10358,11 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("MP_Gunrunning_Award_020_M_ALT"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpGunrunning_overlays"), joaat("MP_Gunrunning_Award_020_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpGunrunning_overlays"), joaat("MP_Gunrunning_Award_020_M"));
 					break;
 				
 				case joaat("MP_Gunrunning_Award_020_F_ALT"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpGunrunning_overlays"), joaat("MP_Gunrunning_Award_020_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpGunrunning_overlays"), joaat("MP_Gunrunning_Award_020_F"));
 					break;
 			}
 			break;
@@ -10371,11 +10371,11 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("MP_Securoserv_000_Mb"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpExecutive_overlays"), joaat("MP_Securoserv_000_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpExecutive_overlays"), joaat("MP_Securoserv_000_M"));
 					break;
 				
 				case joaat("MP_Securoserv_000_Fb"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpExecutive_overlays"), joaat("MP_Securoserv_000_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpExecutive_overlays"), joaat("MP_Securoserv_000_F"));
 					break;
 			}
 			break;
@@ -10384,11 +10384,11 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("MP_Elite_M_Tshirt_1"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpHeist_overlays"), joaat("MP_Elite_M_Tshirt_2"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpHeist_overlays"), joaat("MP_Elite_M_Tshirt_2"));
 					break;
 				
 				case joaat("MP_Elite_F_Tshirt_1"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpHeist_overlays"), joaat("MP_Elite_F_Tshirt_2"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpHeist_overlays"), joaat("MP_Elite_F_Tshirt_2"));
 					break;
 			}
 			break;
@@ -10397,13 +10397,13 @@ void func_109(int iParam0, int iParam1, int iParam2)
 			switch (iParam2)
 			{
 				case joaat("MP_LUXE_TAT_029_M"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_030_M"));
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_031_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_030_M"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_031_M"));
 					break;
 				
 				case joaat("MP_LUXE_TAT_029_F"):
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_030_F"));
-					unk_0x462E1939BD8B6F55(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_031_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_030_F"));
+					unk_0x49A5A17556C31561(iParam0, joaat("mpLuxe2_overlays"), joaat("MP_LUXE_TAT_031_F"));
 					break;
 			}
 			break;
@@ -14436,33 +14436,33 @@ int func_111()
 	{
 		return 0;
 	}
-	if (unk_0x7FFBE14C34D75E19())
+	if (unk_0x5F9F81C08516558E())
 	{
-		if (unk_0x8BD41D5945F5762B())
+		if (unk_0x1595D1B690089487())
 		{
-			if (unk_0x001B3EAD68D731CE())
+			if (unk_0x5BC93955B6EEBC0B())
 			{
-				unk_0xDD7756E2742E0F6D(joaat("sp_unlock_exclus_content"), &uVar0, -1);
-				unk_0xECDAB41968FF21A8(&uVar0, 2);
-				unk_0xECDAB41968FF21A8(&uVar0, 4);
-				unk_0xECDAB41968FF21A8(&uVar0, 6);
-				unk_0xECDAB41968FF21A8(&Global_25, 2);
-				unk_0xECDAB41968FF21A8(&Global_25, 4);
-				unk_0xECDAB41968FF21A8(&Global_25, 6);
-				unk_0x3CC35ACFFC9C730E(joaat("sp_unlock_exclus_content"), uVar0, 1);
-				if (unk_0x7D33DF1E1089E1D1())
+				unk_0xDF7F16323520B858(joaat("sp_unlock_exclus_content"), &uVar0, -1);
+				unk_0x0B0C9A0F9AAEB7F0(&uVar0, 2);
+				unk_0x0B0C9A0F9AAEB7F0(&uVar0, 4);
+				unk_0x0B0C9A0F9AAEB7F0(&uVar0, 6);
+				unk_0x0B0C9A0F9AAEB7F0(&Global_25, 2);
+				unk_0x0B0C9A0F9AAEB7F0(&Global_25, 4);
+				unk_0x0B0C9A0F9AAEB7F0(&Global_25, 6);
+				unk_0x1164A75E490C27B6(joaat("sp_unlock_exclus_content"), uVar0, 1);
+				if (unk_0x76CA59C648318506())
 				{
-					iVar0 = unk_0x516080EA609481E1(866);
-					unk_0xECDAB41968FF21A8(&iVar0, false);
-					unk_0x705949B096008718(iVar0);
+					iVar0 = unk_0x38640D2193CB547F(866);
+					unk_0x0B0C9A0F9AAEB7F0(&iVar0, false);
+					unk_0xED11291F7127888E(iVar0);
 				}
 				return 1;
 			}
 		}
 	}
-	if (unk_0x7D33DF1E1089E1D1())
+	if (unk_0x76CA59C648318506())
 	{
-		if (BitTest(unk_0x516080EA609481E1(866), 0))
+		if (BitTest(unk_0x38640D2193CB547F(866), 0))
 		{
 			return 1;
 		}
@@ -14472,7 +14472,7 @@ int func_111()
 
 bool func_112()
 {
-	return unk_0x7681F180D7938DA8(-1762644250);
+	return unk_0x087611B922B50F13(-1762644250);
 }
 
 int func_113(int iParam0, int iParam1)
@@ -14757,7 +14757,7 @@ int func_120(int iParam0, bool bParam1)
 		iVar2 = iVar1;
 		if (!func_122(iVar2) || iParam0)
 		{
-			if (!func_121(unk_0x93E99A2DBCBA9CFA(), iVar2, 0))
+			if (!func_121(unk_0x259BE71D8A81D4FA(), iVar2, 0))
 			{
 				return 0;
 			}
@@ -14802,8 +14802,8 @@ int func_123(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2850649[iParam0 /*3*/][func_53(iParam1)];
-	if (unk_0x494B367FE0CBD765(uVar0, &uVar1, -1))
+	uVar0 = Global_2850651[iParam0 /*3*/][func_53(iParam1)];
+	if (unk_0xF249567F2E83E093(uVar0, &uVar1, -1))
 	{
 		return uVar1;
 	}
@@ -18400,8 +18400,8 @@ int func_125(int iParam0, int iParam1)
 	int iVar0;
 	var uVar1;
 	
-	iVar0 = Global_2850192[iParam0 /*3*/][func_53(iParam1)];
-	if (unk_0xDD7756E2742E0F6D(iVar0, &uVar1, -1))
+	iVar0 = Global_2850194[iParam0 /*3*/][func_53(iParam1)];
+	if (unk_0xDF7F16323520B858(iVar0, &uVar1, -1))
 	{
 		return uVar1;
 	}
@@ -18481,7 +18481,7 @@ int func_129(int iParam0, int iParam1)
 {
 	int iVar0;
 	
-	iVar0 = unk_0x67C25A2692FB4CA4(iParam1, -1, iParam0);
+	iVar0 = unk_0xE80EBC1CABE1C8A7(iParam1, -1, iParam0);
 	if (iVar0 != -1)
 	{
 		return (129 + iVar0);
@@ -18495,7 +18495,7 @@ bool func_130(int iParam0, int iParam1)
 	{
 		iParam1 = func_37();
 	}
-	return unk_0xD03506C6E58E4E95(iParam0, iParam1);
+	return unk_0xA6D3C21763E25496(iParam0, iParam1);
 }
 
 int func_131(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, bool bParam5, bool bParam6, bool bParam7, bool bParam8)
@@ -18503,11 +18503,11 @@ int func_131(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 	int iVar0;
 	int iVar1;
 	
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
 	if (iParam4 == 0)
 	{
 		iVar1 = func_133(iVar0, sParam1, iParam4);
-		iParam4 = unk_0x14580F20CBCE4FA9(func_132(iVar1));
+		iParam4 = unk_0x70E57E9927B6BA58(func_132(iVar1));
 	}
 	if (iParam3 == 449512698)
 	{
@@ -18860,7 +18860,7 @@ int func_131(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 						}
 						else if (func_141(15, -1))
 						{
-							if (!unk_0x4310A0DB886F9FED(sParam1, "TAT_FMM_CLB"))
+							if (!unk_0x1B79E937E91F40C3(sParam1, "TAT_FMM_CLB"))
 							{
 								return 0;
 							}
@@ -18886,7 +18886,7 @@ int func_131(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 				}
 				else if (Global_4540628 == 15)
 				{
-					if (!unk_0x4310A0DB886F9FED(sParam1, "TAT_FMM_CLB"))
+					if (!unk_0x1B79E937E91F40C3(sParam1, "TAT_FMM_CLB"))
 					{
 						return 0;
 					}
@@ -18908,9 +18908,9 @@ int func_131(int iParam0, char* sParam1, int iParam2, int iParam3, int iParam4, 
 		case joaat("rank"):
 			if (bParam5)
 			{
-				if (!unk_0x2AC37494BBF1DB16(sParam1))
+				if (!unk_0xD6F9DEE4765092A9(sParam1))
 				{
-					switch (unk_0x14580F20CBCE4FA9(sParam1))
+					switch (unk_0x70E57E9927B6BA58(sParam1))
 					{
 						case joaat("TAT_FM_011"):
 						case joaat("TAT_FM_012"):
@@ -19808,7 +19808,7 @@ int func_133(int iParam0, char* sParam1, int iParam2)
 			return 98;
 			break;
 	}
-	switch (unk_0x14580F20CBCE4FA9(sParam1))
+	switch (unk_0x70E57E9927B6BA58(sParam1))
 	{
 		case 1948764112:
 			return -1;
@@ -20593,7 +20593,7 @@ int func_133(int iParam0, char* sParam1, int iParam2)
 			return 24;
 			break;
 	}
-	if (iParam2 == 0 && unk_0x2AC37494BBF1DB16(sParam1))
+	if (iParam2 == 0 && unk_0xD6F9DEE4765092A9(sParam1))
 	{
 		return -1;
 	}
@@ -20612,9 +20612,9 @@ bool func_134(char* sParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	int iVar1;
 	
 	func_140(sParam0, -1, 0, "", "", "", "", iParam2, -1, 0);
-	if (unk_0x7DE17ACDD8BA2642(iParam3) && !unk_0x66599E73DBA5A850(iParam3))
+	if (unk_0xFC8BFE4B41177C22(iParam3) && !unk_0x4FAFF4BCB7633475(iParam3))
 	{
-		iVar0 = unk_0x504B9BB48D41C264(iParam3);
+		iVar0 = unk_0x4B423FAA24E8ABF0(iParam3);
 	}
 	switch (iParam2)
 	{
@@ -21770,12 +21770,12 @@ void func_135(char* sParam0, int iParam1, int iParam2, int iParam3)
 	struct<8> Var2;
 	
 	iVar0 = (iParam2 - iParam3);
-	iVar1 = unk_0x762ED57E0EC8DCF9(iParam1);
+	iVar1 = unk_0x82D6E3FDBD0A80B6(iParam1);
 	if (iVar1 > 0 && iVar0 < iVar1)
 	{
-		if (unk_0xB1A5EC75CDEBE9BA(iParam1, iVar0, &Var2))
+		if (unk_0xC8FF7E3E267EBEF5(iParam1, iVar0, &Var2))
 		{
-			if (!unk_0xEF068EDE5319404F(Var2.f_0))
+			if (!unk_0x4BFA043D318BF9AE(Var2.f_0))
 			{
 				sParam0->f_11 = iParam2;
 				MemCopy(sParam0, {Var2.f_7}, 4);
@@ -21811,7 +21811,7 @@ int func_136()
 			return 0;
 		}
 	}
-	if (unk_0xDD7756E2742E0F6D(joaat("sp_unlock_exclus_content"), &uVar0, -1))
+	if (unk_0xDF7F16323520B858(joaat("sp_unlock_exclus_content"), &uVar0, -1))
 	{
 		if (BitTest(uVar0, 5))
 		{
@@ -21825,12 +21825,12 @@ int func_136()
 			}
 		}
 	}
-	if (unk_0x2E0A64C3A8C33FD3(0))
+	if (unk_0x7A207DD1AEF9D26E(0))
 	{
 		if (Global_152525.f_3)
 		{
 			iVar2 = joaat("mpply_plat_up_lb_check");
-			if (unk_0xDD7756E2742E0F6D(iVar2, &uVar1, -1))
+			if (unk_0xDF7F16323520B858(iVar2, &uVar1, -1))
 			{
 				if (BitTest(uVar1, 5))
 				{
@@ -21839,34 +21839,34 @@ int func_136()
 			}
 		}
 	}
-	if (unk_0x7D33DF1E1089E1D1())
+	if (unk_0x76CA59C648318506())
 	{
-		uVar3 = unk_0x516080EA609481E1(866);
+		uVar3 = unk_0x38640D2193CB547F(866);
 		if (BitTest(uVar3, 1) || BitTest(uVar3, 3))
 		{
 			return 1;
 		}
 	}
-	if (unk_0x7FFBE14C34D75E19())
+	if (unk_0x5F9F81C08516558E())
 	{
-		if (unk_0x8BD41D5945F5762B())
+		if (unk_0x1595D1B690089487())
 		{
-			if (unk_0xD916E44D1A0A301C())
+			if (unk_0x753B42F8D561B8E2())
 			{
-				unk_0xDD7756E2742E0F6D(joaat("sp_unlock_exclus_content"), &uVar4, -1);
-				unk_0xECDAB41968FF21A8(&uVar4, true);
-				unk_0xECDAB41968FF21A8(&uVar4, 3);
-				unk_0xECDAB41968FF21A8(&uVar4, 5);
-				unk_0xECDAB41968FF21A8(&Global_25, true);
-				unk_0xECDAB41968FF21A8(&Global_25, 3);
-				unk_0xECDAB41968FF21A8(&Global_25, 5);
-				unk_0x3CC35ACFFC9C730E(joaat("sp_unlock_exclus_content"), uVar4, 1);
-				if (unk_0x7D33DF1E1089E1D1())
+				unk_0xDF7F16323520B858(joaat("sp_unlock_exclus_content"), &uVar4, -1);
+				unk_0x0B0C9A0F9AAEB7F0(&uVar4, true);
+				unk_0x0B0C9A0F9AAEB7F0(&uVar4, 3);
+				unk_0x0B0C9A0F9AAEB7F0(&uVar4, 5);
+				unk_0x0B0C9A0F9AAEB7F0(&Global_25, true);
+				unk_0x0B0C9A0F9AAEB7F0(&Global_25, 3);
+				unk_0x0B0C9A0F9AAEB7F0(&Global_25, 5);
+				unk_0x1164A75E490C27B6(joaat("sp_unlock_exclus_content"), uVar4, 1);
+				if (unk_0x76CA59C648318506())
 				{
-					iVar4 = unk_0x516080EA609481E1(866);
-					unk_0xECDAB41968FF21A8(&iVar4, true);
-					unk_0xECDAB41968FF21A8(&iVar4, 3);
-					unk_0x705949B096008718(iVar4);
+					iVar4 = unk_0x38640D2193CB547F(866);
+					unk_0x0B0C9A0F9AAEB7F0(&iVar4, true);
+					unk_0x0B0C9A0F9AAEB7F0(&iVar4, 3);
+					unk_0xED11291F7127888E(iVar4);
 				}
 				return 1;
 			}
@@ -21893,7 +21893,7 @@ int func_137()
 			return 0;
 		}
 	}
-	if (unk_0xDD7756E2742E0F6D(joaat("sp_unlock_exclus_content"), &uVar0, -1))
+	if (unk_0xDF7F16323520B858(joaat("sp_unlock_exclus_content"), &uVar0, -1))
 	{
 		if (BitTest(uVar0, 6))
 		{
@@ -21907,12 +21907,12 @@ int func_137()
 			}
 		}
 	}
-	if (unk_0x2E0A64C3A8C33FD3(0))
+	if (unk_0x7A207DD1AEF9D26E(0))
 	{
 		if (Global_152525.f_3)
 		{
 			iVar2 = joaat("mpply_plat_up_lb_check");
-			if (unk_0xDD7756E2742E0F6D(iVar2, &uVar1, -1))
+			if (unk_0xDF7F16323520B858(iVar2, &uVar1, -1))
 			{
 				if (BitTest(uVar1, 8))
 				{
@@ -21921,9 +21921,9 @@ int func_137()
 			}
 		}
 	}
-	if (unk_0x7D33DF1E1089E1D1())
+	if (unk_0x76CA59C648318506())
 	{
-		uVar3 = unk_0x516080EA609481E1(866);
+		uVar3 = unk_0x38640D2193CB547F(866);
 		if (BitTest(uVar3, 2) || BitTest(uVar3, 4))
 		{
 			return 1;
@@ -21948,15 +21948,15 @@ void func_140(char* sParam0, int iParam1, int iParam2, char* sParam3, char* sPar
 	
 	sParam0->f_11 = iParam1;
 	StringCopy(sParam0, sParam3, 16);
-	sParam0->f_4 = unk_0x14580F20CBCE4FA9(sParam4);
-	sParam0->f_5 = unk_0x14580F20CBCE4FA9(sParam5);
-	sParam0->f_8 = unk_0x14580F20CBCE4FA9(sParam6);
+	sParam0->f_4 = unk_0x70E57E9927B6BA58(sParam4);
+	sParam0->f_5 = unk_0x70E57E9927B6BA58(sParam5);
+	sParam0->f_8 = unk_0x70E57E9927B6BA58(sParam6);
 	sParam0->f_6 = iParam7;
 	sParam0->f_7 = iParam8;
 	sParam0->f_9 = (iParam1 / 32);
 	sParam0->f_10 = (iParam1 % 32);
 	sParam0->f_12 = iParam9;
-	if (unk_0x7DE17ACDD8BA2642(iParam2) && !unk_0x66599E73DBA5A850(iParam2))
+	if (unk_0xFC8BFE4B41177C22(iParam2) && !unk_0x4FAFF4BCB7633475(iParam2))
 	{
 		if ((sParam0->f_6 == 0 || sParam0->f_6 == 1) || sParam0->f_6 == 2)
 		{
@@ -21968,7 +21968,7 @@ void func_140(char* sParam0, int iParam1, int iParam2, char* sParam3, char* sPar
 			{
 				StringConCat(&cVar0, "FM_", 32);
 				StringConCat(&cVar0, "CREW_", 32);
-				if (unk_0x504B9BB48D41C264(iParam2) == joaat("mp_m_freemode_01"))
+				if (unk_0x4B423FAA24E8ABF0(iParam2) == joaat("mp_m_freemode_01"))
 				{
 					StringConCat(&cVar0, "M_", 32);
 				}
@@ -21978,7 +21978,7 @@ void func_140(char* sParam0, int iParam1, int iParam2, char* sParam3, char* sPar
 				}
 				StringConCat(&cVar0, sParam5, 32);
 			}
-			else if (unk_0x4310A0DB886F9FED(sParam6, "torsoDecal") || unk_0x4310A0DB886F9FED(sParam6, "hairOverlay"))
+			else if (unk_0x1B79E937E91F40C3(sParam6, "torsoDecal") || unk_0x1B79E937E91F40C3(sParam6, "hairOverlay"))
 			{
 				StringCopy(&cVar0, sParam5, 32);
 			}
@@ -21992,7 +21992,7 @@ void func_140(char* sParam0, int iParam1, int iParam2, char* sParam3, char* sPar
 				{
 					StringConCat(&cVar0, "FM_Tat_", 32);
 				}
-				if (unk_0x504B9BB48D41C264(iParam2) == joaat("mp_m_freemode_01") || sParam0->f_11 == 20)
+				if (unk_0x4B423FAA24E8ABF0(iParam2) == joaat("mp_m_freemode_01") || sParam0->f_11 == 20)
 				{
 					StringConCat(&cVar0, "M_", 32);
 				}
@@ -22002,8 +22002,8 @@ void func_140(char* sParam0, int iParam1, int iParam2, char* sParam3, char* sPar
 				}
 				StringConCat(&cVar0, sParam5, 32);
 			}
-			sParam0->f_5 = unk_0x14580F20CBCE4FA9(&cVar0);
-			if (unk_0xB7FB7CB62C64CD47(sParam0->f_4, sParam0->f_5) == 7)
+			sParam0->f_5 = unk_0x70E57E9927B6BA58(&cVar0);
+			if (unk_0x50CA4ACB66148FF0(sParam0->f_4, sParam0->f_5) == 7)
 			{
 				sParam0->f_11 = -1;
 			}
@@ -22290,11 +22290,11 @@ int func_144(int iParam0, int iParam1)
 	int iVar5;
 	int iVar6;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
-		if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+		if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 		{
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 11);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 11);
 			iVar2 = func_165(1759, -1, 0);
 			if (iParam1 != -1)
 			{
@@ -22306,7 +22306,7 @@ int func_144(int iParam0, int iParam1)
 				if (iVar3 >= 237)
 				{
 					iVar4 = func_180(joaat("mp_m_freemode_01"), iVar3, 11, 3);
-					if ((unk_0x7FEA86016BC12607(iVar4, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("multi_decal"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("tat_decl_no_save"), 0))
+					if ((unk_0x304A39EB177D246B(iVar4, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("multi_decal"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("tat_decl_no_save"), 0))
 					{
 						switch (iVar2)
 						{
@@ -22335,7 +22335,7 @@ int func_144(int iParam0, int iParam1)
 								break;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar4, joaat("jacket"), 0) && !unk_0x7FEA86016BC12607(iVar4, joaat("biker_vest"), 0))
+					else if (unk_0x304A39EB177D246B(iVar4, joaat("jacket"), 0) && !unk_0x304A39EB177D246B(iVar4, joaat("biker_vest"), 0))
 					{
 						return 1;
 					}
@@ -22344,10 +22344,10 @@ int func_144(int iParam0, int iParam1)
 			}
 			return 0;
 		}
-		else if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_f_freemode_01"))
+		else if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_f_freemode_01"))
 		{
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 11);
-			iVar1 = unk_0xEDEBC30DEBDF84C8(iParam0, 11);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 11);
+			iVar1 = unk_0xD6AED6BFCC58AF7F(iParam0, 11);
 			iVar2 = func_165(1759, -1, 0);
 			if (iParam1 != -1)
 			{
@@ -22366,7 +22366,7 @@ int func_144(int iParam0, int iParam1)
 				if (iVar5 >= 256)
 				{
 					iVar6 = func_180(joaat("mp_f_freemode_01"), iVar5, 11, 4);
-					if ((unk_0x7FEA86016BC12607(iVar6, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar6, joaat("multi_decal"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("tat_decl_no_save"), 0))
+					if ((unk_0x304A39EB177D246B(iVar6, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar6, joaat("multi_decal"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("tat_decl_no_save"), 0))
 					{
 						switch (iVar2)
 						{
@@ -22395,7 +22395,7 @@ int func_144(int iParam0, int iParam1)
 								break;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar6, joaat("jacket"), 0) && !unk_0x7FEA86016BC12607(iVar6, joaat("biker_vest"), 0))
+					else if (unk_0x304A39EB177D246B(iVar6, joaat("jacket"), 0) && !unk_0x304A39EB177D246B(iVar6, joaat("biker_vest"), 0))
 					{
 						return 1;
 					}
@@ -22412,9 +22412,9 @@ int func_145(int iParam0)
 {
 	int iVar0;
 	
-	if (unk_0x1758F8A8511510AB())
+	if (unk_0x834C960822A4683F())
 	{
-		iVar0 = Global_1853910[unk_0x93E99A2DBCBA9CFA() /*862*/].f_96.f_28;
+		iVar0 = Global_1853910[unk_0x259BE71D8A81D4FA() /*862*/].f_96.f_28;
 		if (iVar0 != -1 && iVar0 < 4)
 		{
 			if (func_146(iVar0) != -1 && func_146(iVar0) != 0)
@@ -22423,11 +22423,11 @@ int func_145(int iParam0)
 			}
 		}
 	}
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
-		if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+		if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 		{
-			if (unk_0xAC464F61BE9FD50D(iParam0, 11) == 15)
+			if (unk_0xC0120BBCC298EA2F(iParam0, 11) == 15)
 			{
 				return 1;
 			}
@@ -22446,7 +22446,7 @@ int func_146(int iParam0)
 	{
 		return -1;
 	}
-	return Global_2684799.f_6316[iParam0];
+	return Global_2684801.f_6316[iParam0];
 }
 
 int func_147(bool bParam0)
@@ -22523,12 +22523,12 @@ int func_153(int iParam0, bool bParam1)
 	int iVar12;
 	int iVar13;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
-		if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+		if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 		{
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 11);
-			iVar1 = unk_0xEDEBC30DEBDF84C8(iParam0, 11);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 11);
+			iVar1 = unk_0xD6AED6BFCC58AF7F(iParam0, 11);
 			switch (iVar0)
 			{
 				case 0:
@@ -22605,7 +22605,7 @@ int func_153(int iParam0, bool bParam1)
 						else if (func_141(72, -1))
 						{
 						}
-						else if (func_154(unk_0x93E99A2DBCBA9CFA(), 1) && Global_1894573[unk_0x93E99A2DBCBA9CFA() /*608*/].f_10.f_76.f_21 != 0)
+						else if (func_154(unk_0x259BE71D8A81D4FA(), 1) && Global_1894573[unk_0x259BE71D8A81D4FA() /*608*/].f_10.f_76.f_21 != 0)
 						{
 							return 1;
 						}
@@ -22619,7 +22619,7 @@ int func_153(int iParam0, bool bParam1)
 						if (iVar3 >= 237)
 						{
 							iVar4 = func_180(joaat("mp_m_freemode_01"), iVar3, 11, 3);
-							if ((((unk_0x7FEA86016BC12607(iVar4, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("multi_decal"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("tat_decl_no_save"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("combat_top"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_12"), 0))
+							if ((((unk_0x304A39EB177D246B(iVar4, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("multi_decal"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("tat_decl_no_save"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("combat_top"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_12"), 0))
 							{
 								return 1;
 							}
@@ -22627,8 +22627,8 @@ int func_153(int iParam0, bool bParam1)
 					}
 					break;
 			}
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 8);
-			iVar1 = unk_0xEDEBC30DEBDF84C8(iParam0, 8);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 8);
+			iVar1 = unk_0xD6AED6BFCC58AF7F(iParam0, 8);
 			switch (iVar0)
 			{
 				case 0:
@@ -22702,7 +22702,7 @@ int func_153(int iParam0, bool bParam1)
 						if (iVar5 >= 241)
 						{
 							iVar6 = func_180(joaat("mp_m_freemode_01"), iVar5, 8, 3);
-							if (((unk_0x7FEA86016BC12607(iVar6, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar6, joaat("multi_decal"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("tat_decl_no_save"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("combat_top"), 0))
+							if (((unk_0x304A39EB177D246B(iVar6, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar6, joaat("multi_decal"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("tat_decl_no_save"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("combat_top"), 0))
 							{
 								return 1;
 							}
@@ -22711,10 +22711,10 @@ int func_153(int iParam0, bool bParam1)
 					break;
 			}
 		}
-		else if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_f_freemode_01"))
+		else if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_f_freemode_01"))
 		{
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 11);
-			iVar1 = unk_0xEDEBC30DEBDF84C8(iParam0, 11);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 11);
+			iVar1 = unk_0xD6AED6BFCC58AF7F(iParam0, 11);
 			switch (iVar0)
 			{
 				case 0:
@@ -22777,7 +22777,7 @@ int func_153(int iParam0, bool bParam1)
 						if (iVar8 >= 256)
 						{
 							iVar9 = func_180(joaat("mp_f_freemode_01"), iVar8, 11, 4);
-							if ((((unk_0x7FEA86016BC12607(iVar9, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar9, joaat("multi_decal"), 0)) || unk_0x7FEA86016BC12607(iVar9, joaat("tat_decl_no_save"), 0)) || unk_0x7FEA86016BC12607(iVar9, joaat("combat_top"), 0)) || unk_0x7FEA86016BC12607(iVar9, joaat("heist_draw_13"), 0))
+							if ((((unk_0x304A39EB177D246B(iVar9, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar9, joaat("multi_decal"), 0)) || unk_0x304A39EB177D246B(iVar9, joaat("tat_decl_no_save"), 0)) || unk_0x304A39EB177D246B(iVar9, joaat("combat_top"), 0)) || unk_0x304A39EB177D246B(iVar9, joaat("heist_draw_13"), 0))
 							{
 								return 1;
 							}
@@ -22785,8 +22785,8 @@ int func_153(int iParam0, bool bParam1)
 					}
 					break;
 			}
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 8);
-			iVar1 = unk_0xEDEBC30DEBDF84C8(iParam0, 8);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 8);
+			iVar1 = unk_0xD6AED6BFCC58AF7F(iParam0, 8);
 			switch (iVar0)
 			{
 				case 0:
@@ -22879,7 +22879,7 @@ int func_153(int iParam0, bool bParam1)
 						if (iVar12 >= 136)
 						{
 							iVar13 = func_180(joaat("mp_f_freemode_01"), iVar12, 8, 4);
-							if (((unk_0x7FEA86016BC12607(iVar13, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar13, joaat("multi_decal"), 0)) || unk_0x7FEA86016BC12607(iVar13, joaat("tat_decl_no_save"), 0)) || unk_0x7FEA86016BC12607(iVar13, joaat("combat_top"), 0))
+							if (((unk_0x304A39EB177D246B(iVar13, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar13, joaat("multi_decal"), 0)) || unk_0x304A39EB177D246B(iVar13, joaat("tat_decl_no_save"), 0)) || unk_0x304A39EB177D246B(iVar13, joaat("combat_top"), 0))
 							{
 								return 1;
 							}
@@ -23045,13 +23045,13 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar0 = func_180(iParam0, iParam2, 11, 3);
 				if (iVar0 != -1)
 				{
-					if (unk_0x7FEA86016BC12607(iVar0, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar0, joaat("tat_decl_no_save"), 0))
+					if (unk_0x304A39EB177D246B(iVar0, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar0, joaat("tat_decl_no_save"), 0))
 					{
-						iVar1 = unk_0x9161FFD18E646230(iVar0);
+						iVar1 = unk_0x9FB2D71D9CEC8B5A(iVar0);
 						iVar2 = 0;
 						while (iVar2 < iVar1)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
+							unk_0xCF4D7500E7DA5D8E(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
 							if (iVar5 == 10)
 							{
 								if (iVar3 != 0 && iVar3 != joaat("0"))
@@ -23066,7 +23066,7 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 							iVar2++;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar0, joaat("multi_decal"), 0))
+					else if (unk_0x304A39EB177D246B(iVar0, joaat("multi_decal"), 0))
 					{
 						if (iParam3 == 0)
 						{
@@ -23224,13 +23224,13 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar6 = func_180(iParam0, iParam2, 8, 3);
 				if (iVar6 != -1)
 				{
-					if (unk_0x7FEA86016BC12607(iVar6, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar6, joaat("tat_decl_no_save"), 0))
+					if (unk_0x304A39EB177D246B(iVar6, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar6, joaat("tat_decl_no_save"), 0))
 					{
-						iVar7 = unk_0x9161FFD18E646230(iVar6);
+						iVar7 = unk_0x9FB2D71D9CEC8B5A(iVar6);
 						iVar8 = 0;
 						while (iVar8 < iVar7)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar6, iVar8, &iVar9, &uVar10, &iVar11);
+							unk_0xCF4D7500E7DA5D8E(iVar6, iVar8, &iVar9, &uVar10, &iVar11);
 							if (iVar11 == 10)
 							{
 								if (iVar9 != 0 && iVar9 != joaat("0"))
@@ -23245,7 +23245,7 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 							iVar8++;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar6, joaat("multi_decal"), 0))
+					else if (unk_0x304A39EB177D246B(iVar6, joaat("multi_decal"), 0))
 					{
 						if (iParam3 == 0)
 						{
@@ -23332,13 +23332,13 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar12 = func_180(iParam0, iParam2, 11, 4);
 				if (iVar12 != -1)
 				{
-					if (unk_0x7FEA86016BC12607(iVar12, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar12, joaat("tat_decl_no_save"), 0))
+					if (unk_0x304A39EB177D246B(iVar12, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar12, joaat("tat_decl_no_save"), 0))
 					{
-						iVar13 = unk_0x9161FFD18E646230(iVar12);
+						iVar13 = unk_0x9FB2D71D9CEC8B5A(iVar12);
 						iVar14 = 0;
 						while (iVar14 < iVar13)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar12, iVar14, &iVar15, &uVar16, &iVar17);
+							unk_0xCF4D7500E7DA5D8E(iVar12, iVar14, &iVar15, &uVar16, &iVar17);
 							if (iVar17 == 10)
 							{
 								if (iVar15 != 0 && iVar15 != joaat("0"))
@@ -23353,7 +23353,7 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 							iVar14++;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar12, joaat("multi_decal"), 0))
+					else if (unk_0x304A39EB177D246B(iVar12, joaat("multi_decal"), 0))
 					{
 						if (iParam3 == 0)
 						{
@@ -23435,13 +23435,13 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar18 = func_180(iParam0, iParam2, 8, 4);
 				if (iVar18 != -1)
 				{
-					if (unk_0x7FEA86016BC12607(iVar18, joaat("tat_decl"), 0) || unk_0x7FEA86016BC12607(iVar18, joaat("tat_decl_no_save"), 0))
+					if (unk_0x304A39EB177D246B(iVar18, joaat("tat_decl"), 0) || unk_0x304A39EB177D246B(iVar18, joaat("tat_decl_no_save"), 0))
 					{
-						iVar19 = unk_0x9161FFD18E646230(iVar18);
+						iVar19 = unk_0x9FB2D71D9CEC8B5A(iVar18);
 						iVar20 = 0;
 						while (iVar20 < iVar19)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar18, iVar20, &iVar21, &uVar22, &iVar23);
+							unk_0xCF4D7500E7DA5D8E(iVar18, iVar20, &iVar21, &uVar22, &iVar23);
 							if (iVar23 == 10)
 							{
 								if (iVar21 != 0 && iVar21 != joaat("0"))
@@ -23456,7 +23456,7 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 							iVar20++;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar18, joaat("multi_decal"), 0))
+					else if (unk_0x304A39EB177D246B(iVar18, joaat("multi_decal"), 0))
 					{
 						if (iParam3 == 0)
 						{
@@ -23473,11 +23473,11 @@ int func_157(int iParam0, int iParam1, int iParam2, int iParam3)
 
 int func_158(int iParam0)
 {
-	if (unk_0xE678B2045145CE41(iParam0, 1))
+	if (unk_0x89568FA9A6BC0B4A(iParam0, 1))
 	{
 		return 0;
 	}
-	switch (unk_0x504B9BB48D41C264(iParam0))
+	switch (unk_0x4B423FAA24E8ABF0(iParam0))
 	{
 		case joaat("player_zero"):
 			return 0;
@@ -23949,11 +23949,11 @@ int func_159(int iParam0, int iParam1)
 						return 114;
 						break;
 				}
-				iVar1 = unk_0x9161FFD18E646230(iVar0);
+				iVar1 = unk_0x9FB2D71D9CEC8B5A(iVar0);
 				iVar2 = 0;
 				while (iVar2 < iVar1)
 				{
-					unk_0xCB7D1266D9B2BE25(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
+					unk_0xCF4D7500E7DA5D8E(iVar0, iVar2, &iVar3, &uVar4, &iVar5);
 					if (iVar5 == 10)
 					{
 						if (iVar3 != 0 && iVar3 != joaat("0"))
@@ -24406,11 +24406,11 @@ int func_159(int iParam0, int iParam1)
 						return 114;
 						break;
 				}
-				iVar7 = unk_0x9161FFD18E646230(iVar6);
+				iVar7 = unk_0x9FB2D71D9CEC8B5A(iVar6);
 				iVar8 = 0;
 				while (iVar8 < iVar7)
 				{
-					unk_0xCB7D1266D9B2BE25(iVar6, iVar8, &iVar9, &uVar10, &iVar11);
+					unk_0xCF4D7500E7DA5D8E(iVar6, iVar8, &iVar9, &uVar10, &iVar11);
 					if (iVar11 == 10)
 					{
 						if (iVar9 != 0 && iVar9 != joaat("0"))
@@ -24448,7 +24448,7 @@ void func_160(int iParam0, int iParam1)
 	struct<7> Var67;
 	int iVar82;
 	
-	if (!unk_0x66599E73DBA5A850(iParam1))
+	if (!unk_0x4FAFF4BCB7633475(iParam1))
 	{
 		iVar13 = func_158(iParam1);
 		if (iParam0 != 0)
@@ -24490,11 +24490,11 @@ void func_160(int iParam0, int iParam1)
 						func_197(87, 0, Global_78338);
 						func_197(88, 0, Global_78338);
 						func_197(89, 0, Global_78338);
-						iVar15 = unk_0x762ED57E0EC8DCF9(3);
+						iVar15 = unk_0x82D6E3FDBD0A80B6(3);
 						iVar14 = 0;
 						while (iVar14 < iVar15)
 						{
-							if (unk_0xB1A5EC75CDEBE9BA(3, iVar14, &Var16))
+							if (unk_0xC8FF7E3E267EBEF5(3, iVar14, &Var16))
 							{
 								if (Var16.f_6 == joaat("torsoDecal"))
 								{
@@ -24523,11 +24523,11 @@ void func_160(int iParam0, int iParam1)
 						func_197(87, 0, Global_78338);
 						func_197(88, 0, Global_78338);
 						func_197(89, 0, Global_78338);
-						iVar32 = unk_0x762ED57E0EC8DCF9(4);
+						iVar32 = unk_0x82D6E3FDBD0A80B6(4);
 						iVar31 = 0;
 						while (iVar31 < iVar32)
 						{
-							if (unk_0xB1A5EC75CDEBE9BA(4, iVar31, &Var33))
+							if (unk_0xC8FF7E3E267EBEF5(4, iVar31, &Var33))
 							{
 								if (Var33.f_6 == joaat("torsoDecal"))
 								{
@@ -24568,11 +24568,11 @@ void func_160(int iParam0, int iParam1)
 						func_197(116, 0, Global_78338);
 						func_197(117, 0, Global_78338);
 						func_197(123, 0, Global_78338);
-						iVar49 = unk_0x762ED57E0EC8DCF9(3);
+						iVar49 = unk_0x82D6E3FDBD0A80B6(3);
 						iVar48 = 0;
 						while (iVar48 < iVar49)
 						{
-							if (unk_0xB1A5EC75CDEBE9BA(3, iVar48, &Var50))
+							if (unk_0xC8FF7E3E267EBEF5(3, iVar48, &Var50))
 							{
 								if (Var50.f_6 == 2140335355)
 								{
@@ -24615,11 +24615,11 @@ void func_160(int iParam0, int iParam1)
 						func_197(121, 0, Global_78338);
 						func_197(122, 0, Global_78338);
 						func_197(123, 0, Global_78338);
-						iVar66 = unk_0x762ED57E0EC8DCF9(4);
+						iVar66 = unk_0x82D6E3FDBD0A80B6(4);
 						iVar65 = 0;
 						while (iVar65 < iVar66)
 						{
-							if (unk_0xB1A5EC75CDEBE9BA(4, iVar65, &Var67))
+							if (unk_0xC8FF7E3E267EBEF5(4, iVar65, &Var67))
 							{
 								if (Var67.f_6 == 2140335355)
 								{
@@ -25286,8 +25286,8 @@ int func_165(int iParam0, int iParam1, int iParam2)
 		if (iParam2 == 0)
 		{
 		}
-		uVar0 = Global_2805027[iParam0 /*3*/][func_53(iParam1)];
-		if (unk_0xDD7756E2742E0F6D(uVar0, &uVar1, -1))
+		uVar0 = Global_2805029[iParam0 /*3*/][func_53(iParam1)];
+		if (unk_0xDF7F16323520B858(uVar0, &uVar1, -1))
 		{
 			return uVar1;
 		}
@@ -25337,7 +25337,7 @@ int func_167(int iParam0, int iParam1, int iParam2)
 			{
 				return 0;
 			}
-			if (iVar1 != -1 && unk_0x7FEA86016BC12607(iVar1, joaat("no_crew_emblem"), 0))
+			if (iVar1 != -1 && unk_0x304A39EB177D246B(iVar1, joaat("no_crew_emblem"), 0))
 			{
 				return 0;
 			}
@@ -25391,7 +25391,7 @@ int func_167(int iParam0, int iParam1, int iParam2)
 			{
 				return 0;
 			}
-			if (iVar3 != -1 && unk_0x7FEA86016BC12607(iVar3, joaat("no_crew_emblem"), 0))
+			if (iVar3 != -1 && unk_0x304A39EB177D246B(iVar3, joaat("no_crew_emblem"), 0))
 			{
 				return 0;
 			}
@@ -25423,7 +25423,7 @@ int func_167(int iParam0, int iParam1, int iParam2)
 				}
 				if (iParam2 == 15)
 				{
-					if (iVar2 != 4 || !unk_0x7FEA86016BC12607(iVar3, joaat("tat_decl"), 0))
+					if (iVar2 != 4 || !unk_0x304A39EB177D246B(iVar3, joaat("tat_decl"), 0))
 					{
 						return 1;
 					}
@@ -25453,59 +25453,59 @@ int func_168(int iParam0, int iParam1)
 	int iVar0;
 	
 	iVar0 = -1;
-	if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe2_draw_0"), iParam1))
+	if (unk_0x304A39EB177D246B(iParam0, joaat("luxe2_draw_0"), iParam1))
 	{
 		iVar0 = 0;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe2_draw_1"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe2_draw_1"), iParam1))
 	{
 		iVar0 = 1;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe2_draw_2"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe2_draw_2"), iParam1))
 	{
 		iVar0 = 2;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, 38465448, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, 38465448, iParam1))
 	{
 		iVar0 = 3;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, -1469891622, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, -1469891622, iParam1))
 	{
 		iVar0 = 4;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, -502321359, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, -502321359, iParam1))
 	{
 		iVar0 = 5;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, -792359778, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, -792359778, iParam1))
 	{
 		iVar0 = 6;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, 997614074, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, 997614074, iParam1))
 	{
 		iVar0 = 7;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, 748799057, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, 748799057, iParam1))
 	{
 		iVar0 = 8;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, 653048039, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, 653048039, iParam1))
 	{
 		iVar0 = 9;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("luxe2_draw_10"), iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("luxe2_draw_10"), iParam1))
 	{
 		iVar0 = 10;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, -1685128312, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, -1685128312, iParam1))
 	{
 		iVar0 = 11;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, 1892460036, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, 1892460036, iParam1))
 	{
 		iVar0 = 12;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, -296738547, iParam1))
+	else if (unk_0x304A39EB177D246B(iParam0, -296738547, iParam1))
 	{
 		iVar0 = 13;
 	}
@@ -25540,9 +25540,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 		}
 		if (iVar2 != -1)
 		{
-			if (unk_0x7FEA86016BC12607(iVar2, -826135203, 0))
+			if (unk_0x304A39EB177D246B(iVar2, -826135203, 0))
 			{
-				if (iVar0 != -1 && unk_0x7FEA86016BC12607(iVar0, -826135203, 0))
+				if (iVar0 != -1 && unk_0x304A39EB177D246B(iVar0, -826135203, 0))
 				{
 					return 1;
 				}
@@ -25551,9 +25551,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, -826135203, 0))
+			if (unk_0x304A39EB177D246B(iVar0, -826135203, 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, -826135203, 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, -826135203, 0))
 				{
 					return 1;
 				}
@@ -25562,9 +25562,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("morph_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("morph_suit"), 0))
 			{
-				if (iVar0 != -1 && unk_0x7FEA86016BC12607(iVar0, joaat("morph_suit"), 0))
+				if (iVar0 != -1 && unk_0x304A39EB177D246B(iVar0, joaat("morph_suit"), 0))
 				{
 					return 1;
 				}
@@ -25573,9 +25573,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("morph_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("morph_suit"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("morph_suit"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("morph_suit"), 0))
 				{
 					return 1;
 				}
@@ -25584,9 +25584,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("gorka_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("gorka_suit"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("gorka_suit"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("gorka_suit"), 0))
 				{
 					return 1;
 				}
@@ -25595,9 +25595,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("silk_robe"), 0))
 			{
-				if (iVar0 != -1 && unk_0x7FEA86016BC12607(iVar0, joaat("silk_robe"), 0))
+				if (iVar0 != -1 && unk_0x304A39EB177D246B(iVar0, joaat("silk_robe"), 0))
 				{
 					return 1;
 				}
@@ -25606,9 +25606,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("silk_robe"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("silk_robe"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("silk_robe"), 0))
 				{
 					return 1;
 				}
@@ -25617,9 +25617,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("silk_pyjamas"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("silk_pyjamas"), 0))
 			{
-				if (iVar0 != -1 && unk_0x7FEA86016BC12607(iVar0, joaat("silk_pyjamas"), 0))
+				if (iVar0 != -1 && unk_0x304A39EB177D246B(iVar0, joaat("silk_pyjamas"), 0))
 				{
 					return 1;
 				}
@@ -25628,9 +25628,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("silk_pyjamas"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("silk_pyjamas"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("silk_pyjamas"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("silk_pyjamas"), 0))
 				{
 					return 1;
 				}
@@ -25639,24 +25639,24 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("tux_jacket"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("tux_jacket"), 0))
 			{
 				return 1;
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("tux_pants"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("tux_pants"), 0))
 			{
 				return 1;
 			}
 		}
 		else if (iVar0 != -1)
 		{
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("tux_pants"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("tux_pants"), 0))
 			{
 				return 1;
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, -826135203, 0))
+			if (unk_0x304A39EB177D246B(iVar0, -826135203, 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, -826135203, 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, -826135203, 0))
 				{
 					return 1;
 				}
@@ -25665,9 +25665,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("morph_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("morph_suit"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("morph_suit"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("morph_suit"), 0))
 				{
 					return 1;
 				}
@@ -25676,9 +25676,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("gorka_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("gorka_suit"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("gorka_suit"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("gorka_suit"), 0))
 				{
 					return 1;
 				}
@@ -25687,9 +25687,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("silk_robe"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("silk_robe"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("silk_robe"), 0))
 				{
 					return 1;
 				}
@@ -25698,9 +25698,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("silk_pyjamas"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("silk_pyjamas"), 0))
 			{
-				if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("silk_pyjamas"), 0))
+				if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("silk_pyjamas"), 0))
 				{
 					return 1;
 				}
@@ -25710,9 +25710,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 				}
 			}
 		}
-		if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("tails_jacket"), 0))
+		if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("tails_jacket"), 0))
 		{
-			if (((((((((((((((iParam1 >= 0 && iParam1 <= 15) || (iParam1 >= 48 && iParam1 <= 63)) || (iParam1 >= 64 && iParam1 <= 79)) || (iParam1 >= 112 && iParam1 <= 127)) || (iParam1 >= 128 && iParam1 <= 143)) || (iParam1 >= 176 && iParam1 <= 191)) || (iParam1 >= 224 && iParam1 <= 239)) || iVar1 == 0) || iVar1 == 3) || iVar1 == 4) || iVar1 == 7) || iVar1 == 8) || iVar1 == 11) || iVar1 == 14) || unk_0x7FEA86016BC12607(iVar0, joaat("heist_draw_4"), 0))
+			if (((((((((((((((iParam1 >= 0 && iParam1 <= 15) || (iParam1 >= 48 && iParam1 <= 63)) || (iParam1 >= 64 && iParam1 <= 79)) || (iParam1 >= 112 && iParam1 <= 127)) || (iParam1 >= 128 && iParam1 <= 143)) || (iParam1 >= 176 && iParam1 <= 191)) || (iParam1 >= 224 && iParam1 <= 239)) || iVar1 == 0) || iVar1 == 3) || iVar1 == 4) || iVar1 == 7) || iVar1 == 8) || iVar1 == 11) || iVar1 == 14) || unk_0x304A39EB177D246B(iVar0, joaat("heist_draw_4"), 0))
 			{
 				return 1;
 			}
@@ -25738,15 +25738,15 @@ int func_169(int iParam0, int iParam1, int iParam2)
 			case -2129094253:
 			case -421370587:
 			case -675363106:
-				if ((((((((((((((((iParam2 >= 204 && iParam2 <= 219) || iVar3 == 13) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_0")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_1")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_2")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_3")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_4")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_5")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_6")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_7")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_8")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_9")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_10")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_11")) || unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, 1057057059, 0))
+				if ((((((((((((((((iParam2 >= 204 && iParam2 <= 219) || iVar3 == 13) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_0")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_1")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_2")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_3")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_4")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_5")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_6")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_7")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_8")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_9")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_10")) || iVar2 == joaat("dlc_mp_smug_m_jbib_4_11")) || unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, 1057057059, 0))
 				{
 					return 0;
 				}
 				break;
 		}
-		if (unk_0x7FEA86016BC12607(iVar2, joaat("scruffy_jacket"), 0))
+		if (unk_0x304A39EB177D246B(iVar2, joaat("scruffy_jacket"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar0, joaat("low2_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar0, joaat("stunt_draw_3"), 0))
+			if (unk_0x304A39EB177D246B(iVar0, joaat("low2_draw_0"), 0) || unk_0x304A39EB177D246B(iVar0, joaat("stunt_draw_3"), 0))
 			{
 				return 0;
 			}
@@ -25768,9 +25768,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 		}
 		if (iVar6 != -1)
 		{
-			if (unk_0x7FEA86016BC12607(iVar6, -826135203, 0))
+			if (unk_0x304A39EB177D246B(iVar6, -826135203, 0))
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, -826135203, 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, -826135203, 0))
 				{
 					return 1;
 				}
@@ -25779,9 +25779,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, -826135203, 0))
+			if (unk_0x304A39EB177D246B(iVar4, -826135203, 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, -826135203, 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, -826135203, 0))
 				{
 					return 1;
 				}
@@ -25790,9 +25790,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("morph_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("morph_suit"), 0))
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("morph_suit"), 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("morph_suit"), 0))
 				{
 					return 1;
 				}
@@ -25801,9 +25801,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("morph_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("morph_suit"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("morph_suit"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("morph_suit"), 0))
 				{
 					return 1;
 				}
@@ -25812,9 +25812,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("cat_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("cat_suit"), 0))
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("cat_suit"), 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("cat_suit"), 0))
 				{
 					return 1;
 				}
@@ -25823,9 +25823,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("cat_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("cat_suit"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("cat_suit"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("cat_suit"), 0))
 				{
 					return 1;
 				}
@@ -25834,9 +25834,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("gorka_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("gorka_suit"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("gorka_suit"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("gorka_suit"), 0))
 				{
 					return 1;
 				}
@@ -25845,9 +25845,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("silk_robe"), 0))
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("silk_robe"), 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("silk_robe"), 0))
 				{
 					return 1;
 				}
@@ -25856,9 +25856,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("silk_robe"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("silk_robe"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("silk_robe"), 0))
 				{
 					return 1;
 				}
@@ -25867,9 +25867,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("silk_pyjamas"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("silk_pyjamas"), 0))
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("silk_pyjamas"), 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("silk_pyjamas"), 0))
 				{
 					return 1;
 				}
@@ -25878,9 +25878,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("silk_pyjamas"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("silk_pyjamas"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("silk_pyjamas"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("silk_pyjamas"), 0))
 				{
 					return 1;
 				}
@@ -25889,11 +25889,11 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("dress"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("dress"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar6, -405912369, 0) || unk_0x7FEA86016BC12607(iVar6, joaat("hipster_dress"), 0))
+				if (unk_0x304A39EB177D246B(iVar6, -405912369, 0) || unk_0x304A39EB177D246B(iVar6, joaat("hipster_dress"), 0))
 				{
-					if (((iParam1 >= 240 && iParam1 <= 255) || iVar5 == 15) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("stockings"), 0)))
+					if (((iParam1 >= 240 && iParam1 <= 255) || iVar5 == 15) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("stockings"), 0)))
 					{
 						return 1;
 					}
@@ -25902,7 +25902,7 @@ int func_169(int iParam0, int iParam1, int iParam2)
 						return 0;
 					}
 				}
-				else if ((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("dress"), 0)) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("stockings"), 0)))
+				else if ((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("dress"), 0)) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("stockings"), 0)))
 				{
 					return 1;
 				}
@@ -25911,9 +25911,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("dress"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("dress"), 0))
 			{
-				if ((((iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("dress"), 0)) && !unk_0x7FEA86016BC12607(iVar6, -405912369, 0)) && !unk_0x7FEA86016BC12607(iVar6, joaat("hipster_dress"), 0)) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("stockings"), 0)))
+				if ((((iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("dress"), 0)) && !unk_0x304A39EB177D246B(iVar6, -405912369, 0)) && !unk_0x304A39EB177D246B(iVar6, joaat("hipster_dress"), 0)) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("stockings"), 0)))
 				{
 					return 1;
 				}
@@ -25922,16 +25922,16 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if ((((((((((((unk_0x7FEA86016BC12607(iVar6, joaat("vest"), 0) || unk_0x7FEA86016BC12607(iVar6, joaat("vest_shirt"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("xmas2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar6, -1086258388, 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("low_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("low_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("apart_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("apart_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar6, joaat("apart_draw_21"), 0)) || unk_0x7FEA86016BC12607(iVar6, 1057057059, 0))
+			if ((((((((((((unk_0x304A39EB177D246B(iVar6, joaat("vest"), 0) || unk_0x304A39EB177D246B(iVar6, joaat("vest_shirt"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("xmas2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar6, -1086258388, 0)) || unk_0x304A39EB177D246B(iVar6, joaat("low_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("low_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("apart_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("apart_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar6, joaat("apart_draw_21"), 0)) || unk_0x304A39EB177D246B(iVar6, 1057057059, 0))
 			{
-				if (((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("stockings"), 0)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar5 == 15)
+				if (((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("stockings"), 0)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar5 == 15)
 				{
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("draw_0"), 0) && !unk_0x7FEA86016BC12607(iVar6, joaat("smug_draw_5"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("draw_0"), 0) && !unk_0x304A39EB177D246B(iVar6, joaat("smug_draw_5"), 0))
 			{
-				if (((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("stockings"), 0)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar5 == 15)
+				if (((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("stockings"), 0)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar5 == 15)
 				{
 					return 0;
 				}
@@ -25939,9 +25939,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 		}
 		if (iVar4 != -1)
 		{
-			if (unk_0x7FEA86016BC12607(iVar4, -826135203, 0))
+			if (unk_0x304A39EB177D246B(iVar4, -826135203, 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, -826135203, 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, -826135203, 0))
 				{
 					return 1;
 				}
@@ -25950,9 +25950,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("morph_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("morph_suit"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("morph_suit"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("morph_suit"), 0))
 				{
 					return 1;
 				}
@@ -25961,9 +25961,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("cat_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("cat_suit"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("cat_suit"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("cat_suit"), 0))
 				{
 					return 1;
 				}
@@ -25972,9 +25972,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("gorka_suit"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("gorka_suit"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("gorka_suit"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("gorka_suit"), 0))
 				{
 					return 1;
 				}
@@ -25983,9 +25983,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("silk_robe"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("silk_robe"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("silk_robe"), 0))
 				{
 					return 1;
 				}
@@ -25994,9 +25994,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("silk_pyjamas"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("silk_pyjamas"), 0))
 			{
-				if (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("silk_pyjamas"), 0))
+				if (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("silk_pyjamas"), 0))
 				{
 					return 1;
 				}
@@ -26005,9 +26005,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("dress"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("dress"), 0))
 			{
-				if ((((iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("dress"), 0)) && !unk_0x7FEA86016BC12607(iVar6, -405912369, 0)) && !unk_0x7FEA86016BC12607(iVar6, joaat("hipster_dress"), 0)) || (iVar6 != -1 && unk_0x7FEA86016BC12607(iVar6, joaat("stockings"), 0)))
+				if ((((iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("dress"), 0)) && !unk_0x304A39EB177D246B(iVar6, -405912369, 0)) && !unk_0x304A39EB177D246B(iVar6, joaat("hipster_dress"), 0)) || (iVar6 != -1 && unk_0x304A39EB177D246B(iVar6, joaat("stockings"), 0)))
 				{
 					return 1;
 				}
@@ -26017,9 +26017,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 				}
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar4, joaat("high_waist"), 0))
+		if (unk_0x304A39EB177D246B(iVar4, joaat("high_waist"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("low_draw_1"), 0) || unk_0x7FEA86016BC12607(iVar6, joaat("low2_draw_7"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("low_draw_1"), 0) || unk_0x304A39EB177D246B(iVar6, joaat("low2_draw_7"), 0))
 			{
 				return 1;
 			}
@@ -26028,9 +26028,9 @@ int func_169(int iParam0, int iParam1, int iParam2)
 				return 0;
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar6, joaat("low2_draw_7"), 0))
+		if (unk_0x304A39EB177D246B(iVar6, joaat("low2_draw_7"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar4, joaat("high_waist"), 0))
+			if (unk_0x304A39EB177D246B(iVar4, joaat("high_waist"), 0))
 			{
 				return 1;
 			}
@@ -26039,23 +26039,23 @@ int func_169(int iParam0, int iParam1, int iParam2)
 				return 0;
 			}
 		}
-		if (((iParam1 >= 32 && iParam1 <= 47) || iVar5 == 2) || unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_3"), 0))
+		if (((iParam1 >= 32 && iParam1 <= 47) || iVar5 == 2) || unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_3"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar6, joaat("tails_jacket"), 0))
+			if (unk_0x304A39EB177D246B(iVar6, joaat("tails_jacket"), 0))
 			{
 				return 0;
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar6, joaat("apart_draw_22"), 0))
+		if (unk_0x304A39EB177D246B(iVar6, joaat("apart_draw_22"), 0))
 		{
-			if (((((((((((iParam1 >= 32 && iParam1 <= 47) || iVar5 == 2) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("combat_gear"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("gun_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("gun_draw_1"), 0))
+			if (((((((((((iParam1 >= 32 && iParam1 <= 47) || iVar5 == 2) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("combat_gear"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("gun_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("gun_draw_1"), 0))
 			{
 				return 0;
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar6, joaat("apart_draw_25"), 0) || unk_0x7FEA86016BC12607(iVar6, joaat("biker_draw_33"), 0))
+		if (unk_0x304A39EB177D246B(iVar6, joaat("apart_draw_25"), 0) || unk_0x304A39EB177D246B(iVar6, joaat("biker_draw_33"), 0))
 		{
-			if (((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("stockings"), 0)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar5 == 15)
+			if (((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("stockings"), 0)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar5 == 15)
 			{
 				return 0;
 			}
@@ -26073,67 +26073,67 @@ int func_170(int iParam0)
 	{
 		return iVar0;
 	}
-	if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_0"), 0))
+	if (unk_0x304A39EB177D246B(iParam0, joaat("draw_0"), 0))
 	{
 		iVar0 = 0;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_1"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_1"), 0))
 	{
 		iVar0 = 1;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_2"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_2"), 0))
 	{
 		iVar0 = 2;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_3"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_3"), 0))
 	{
 		iVar0 = 3;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_4"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_4"), 0))
 	{
 		iVar0 = 4;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_5"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_5"), 0))
 	{
 		iVar0 = 5;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_6"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_6"), 0))
 	{
 		iVar0 = 6;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_7"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_7"), 0))
 	{
 		iVar0 = 7;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_8"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_8"), 0))
 	{
 		iVar0 = 8;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_9"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_9"), 0))
 	{
 		iVar0 = 9;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_10"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_10"), 0))
 	{
 		iVar0 = 10;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_11"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_11"), 0))
 	{
 		iVar0 = 11;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_12"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_12"), 0))
 	{
 		iVar0 = 12;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_13"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_13"), 0))
 	{
 		iVar0 = 13;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_14"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_14"), 0))
 	{
 		iVar0 = 14;
 	}
-	else if (unk_0x7FEA86016BC12607(iParam0, joaat("draw_15"), 0))
+	else if (unk_0x304A39EB177D246B(iParam0, joaat("draw_15"), 0))
 	{
 		iVar0 = 15;
 	}
@@ -26228,11 +26228,11 @@ int func_171(int iParam0, int iParam1, int iParam2)
 			iVar1 = func_180(iParam0, iParam1, 8, 3);
 			if (iVar1 != -1)
 			{
-				iVar2 = unk_0xF15296EACCC386AE(iVar1);
+				iVar2 = unk_0x5A3F0A3B7ECCBD32(iVar1);
 				iVar3 = 0;
 				while (iVar3 < iVar2)
 				{
-					unk_0xEAB69C23DB3E475B(iVar1, iVar3, &iVar4, &iVar5, &iVar6);
+					unk_0x0249B53AB91BF9D0(iVar1, iVar3, &iVar4, &iVar5, &iVar6);
 					if (iVar6 == 11)
 					{
 						if (iVar4 != 0 && iVar4 != joaat("0"))
@@ -26322,11 +26322,11 @@ int func_171(int iParam0, int iParam1, int iParam2)
 			iVar7 = func_180(iParam0, iParam1, 8, 4);
 			if (iVar7 != -1)
 			{
-				iVar8 = unk_0xF15296EACCC386AE(iVar7);
+				iVar8 = unk_0x5A3F0A3B7ECCBD32(iVar7);
 				iVar9 = 0;
 				while (iVar9 < iVar8)
 				{
-					unk_0xEAB69C23DB3E475B(iVar7, iVar9, &iVar10, &iVar11, &iVar12);
+					unk_0x0249B53AB91BF9D0(iVar7, iVar9, &iVar10, &iVar11, &iVar12);
 					if (iVar12 == 11)
 					{
 						if (iVar10 != 0 && iVar10 != joaat("0"))
@@ -26716,8 +26716,8 @@ int func_174(int iParam0, int iParam1)
 	{
 		if (Global_103494 == 11)
 		{
-			Global_78341[1 /*14*/] = { func_220(unk_0x504B9BB48D41C264(iParam0), 11, Global_103493, -1) };
-			iVar0 = func_176(unk_0x504B9BB48D41C264(iParam0), Global_103493, iParam1, Global_78341[1 /*14*/].f_4);
+			Global_78341[1 /*14*/] = { func_220(unk_0x4B423FAA24E8ABF0(iParam0), 11, Global_103493, -1) };
+			iVar0 = func_176(unk_0x4B423FAA24E8ABF0(iParam0), Global_103493, iParam1, Global_78341[1 /*14*/].f_4);
 			if (iVar0 != -99)
 			{
 				return iVar0;
@@ -26725,11 +26725,11 @@ int func_174(int iParam0, int iParam1)
 		}
 		else if (Global_103494 == 8)
 		{
-			iVar1 = func_171(unk_0x504B9BB48D41C264(iParam0), Global_103493, Global_103495);
+			iVar1 = func_171(unk_0x4B423FAA24E8ABF0(iParam0), Global_103493, Global_103495);
 			if (iVar1 != -99)
 			{
-				Global_78341[1 /*14*/] = { func_220(unk_0x504B9BB48D41C264(iParam0), 11, iVar1, -1) };
-				iVar2 = func_176(unk_0x504B9BB48D41C264(iParam0), iVar1, iParam1, Global_78341[1 /*14*/].f_4);
+				Global_78341[1 /*14*/] = { func_220(unk_0x4B423FAA24E8ABF0(iParam0), 11, iVar1, -1) };
+				iVar2 = func_176(unk_0x4B423FAA24E8ABF0(iParam0), iVar1, iParam1, Global_78341[1 /*14*/].f_4);
 				if (iVar2 != -99)
 				{
 					return iVar2;
@@ -26757,7 +26757,7 @@ int func_175(int iParam0, int iParam1, int iParam2)
 			{
 				iParam2 = func_180(iParam0, iParam1, 11, 3);
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, joaat("jacket"), 0))
+			if (unk_0x304A39EB177D246B(iParam2, joaat("jacket"), 0))
 			{
 				return 1;
 			}
@@ -26772,7 +26772,7 @@ int func_175(int iParam0, int iParam1, int iParam2)
 			{
 				iParam2 = func_180(iParam0, iParam1, 11, 4);
 			}
-			if (unk_0x7FEA86016BC12607(iParam2, joaat("jacket"), 0))
+			if (unk_0x304A39EB177D246B(iParam2, joaat("jacket"), 0))
 			{
 				return 1;
 			}
@@ -26858,43 +26858,43 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 		}
 		if (iVar2 != -1)
 		{
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("jacket_only"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("jacket_only"), 0))
 			{
 				return -99;
 			}
 		}
 		if (iVar2 != -1)
 		{
-			if (((((((((((unk_0x7FEA86016BC12607(iVar2, joaat("luxe_draw_4"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("LOW_DRAW_8"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("jan_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("LOW2_BOMB"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("air_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("smug_draw_1"), 0))
+			if (((((((((((unk_0x304A39EB177D246B(iVar2, joaat("luxe_draw_4"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("LOW_DRAW_8"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("jan_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("LOW2_BOMB"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("air_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("smug_draw_1"), 0))
 			{
 				if ((((((iParam1 >= 124 && iParam1 <= 139) || (iParam1 >= 188 && iParam1 <= 235)) || iVar5 == 8) || iVar5 == 12) || iVar5 == 13) || iVar5 == 14)
 				{
 					return -99;
 				}
-				if (((((((!unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_4"), 0) && !unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_9"), 0)) && !unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_6"), 0)) && !unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_9"), 0)) && !unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_10"), 0)) && !unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_12"), 0)) && !unk_0x7FEA86016BC12607(iVar2, joaat("air_draw_3"), 0)) && !unk_0x7FEA86016BC12607(iVar2, joaat("smug_draw_1"), 0))
+				if (((((((!unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_4"), 0) && !unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_9"), 0)) && !unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_6"), 0)) && !unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_9"), 0)) && !unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_10"), 0)) && !unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_12"), 0)) && !unk_0x304A39EB177D246B(iVar2, joaat("air_draw_3"), 0)) && !unk_0x304A39EB177D246B(iVar2, joaat("smug_draw_1"), 0))
 				{
-					if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_5"), 0))
+					if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_5"), 0))
 					{
 						return -99;
 					}
 				}
 			}
-			if ((unk_0x7FEA86016BC12607(iVar2, joaat("luxe_draw_5"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("LOW_DRAW_7"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("jan_draw_1"), 0))
+			if ((unk_0x304A39EB177D246B(iVar2, joaat("luxe_draw_5"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("LOW_DRAW_7"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("jan_draw_1"), 0))
 			{
 				return -99;
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_6"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_3"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_6"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_3"), 0))
 			{
 				return -99;
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("luxe2_draw_0"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("luxe2_draw_0"), 0))
 			{
 				if ((((((((((iParam1 >= 80 && iParam1 <= 95) || (iParam1 >= 124 && iParam1 <= 139)) || (iParam1 >= 140 && iParam1 <= 155)) || (iParam1 >= 188 && iParam1 <= 235)) || iVar5 == 5) || iVar5 == 8) || iVar5 == 9) || iVar5 == 12) || iVar5 == 13) || iVar5 == 14)
 				{
 					return -99;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("heist_draw_9"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("heist_draw_9"), 0))
 			{
 				if ((((((((iParam1 >= 0 && iParam1 <= 15) || (iParam1 >= 16 && iParam1 <= 31)) || (iParam1 >= 80 && iParam1 <= 95)) || (iParam1 >= 236 && iParam1 <= 236)) || iVar5 == 0) || iVar5 == 1) || iVar5 == 5) || iVar5 == 15)
 				{
@@ -26904,11 +26904,11 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 					return -99;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("tux_jacket"), 0) && !unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_20"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("tux_jacket"), 0) && !unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_20"), 0))
 			{
 				return -99;
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("low2_open_check"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("low2_open_check"), 0))
 			{
 				if ((((((((((iParam1 >= 0 && iParam1 <= 15) || (iParam1 >= 16 && iParam1 <= 31)) || (iParam1 >= 80 && iParam1 <= 95)) || (iParam1 >= 124 && iParam1 <= 139)) || (iParam1 >= 236 && iParam1 <= 236)) || iVar5 == 0) || iVar5 == 1) || iVar5 == 5) || iVar5 == 8) || iVar5 == 15)
 				{
@@ -26918,7 +26918,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 					return -99;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("open_short"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("open_short"), 0))
 			{
 				if (((((iParam1 >= 0 && iParam1 <= 15) || (iParam1 >= 236 && iParam1 <= 236)) || (iParam1 >= 80 && iParam1 <= 95)) || iVar5 == 0) || iVar5 == 5)
 				{
@@ -26928,7 +26928,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 					return -99;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, -1099375697, 0))
+			if (unk_0x304A39EB177D246B(iVar2, -1099375697, 0))
 			{
 				if ((((iParam1 >= 0 && iParam1 <= 15) || (iParam1 >= 80 && iParam1 <= 95)) || iVar5 == 0) || iVar5 == 5)
 				{
@@ -26941,11 +26941,11 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 		}
 		iVar6 = 0;
 		bVar7 = false;
-		if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_vest"), 0) && !unk_0x7FEA86016BC12607(iVar2, joaat("jacket_only"), 0))
+		if (unk_0x304A39EB177D246B(iVar2, joaat("biker_vest"), 0) && !unk_0x304A39EB177D246B(iVar2, joaat("jacket_only"), 0))
 		{
 			if (iParam1 >= 0 && iParam1 <= 15)
 			{
-				if ((unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_13"), 0))
+				if ((unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_0"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_13"), 0))
 				{
 					switch (iParam1)
 					{
@@ -26986,7 +26986,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 							break;
 					}
 				}
-				else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_1"), 0))
+				else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_1"), 0))
 				{
 					switch (iParam1)
 					{
@@ -27027,7 +27027,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 							break;
 					}
 				}
-				else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_2"), 0))
+				else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_2"), 0))
 				{
 					switch (iParam1)
 					{
@@ -27078,15 +27078,15 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			else if (iParam1 >= 237)
 			{
 				bVar7 = true;
-				if ((unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_13"), 0))
+				if ((unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_0"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_13"), 0))
 				{
 					iVar6 = 4;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_1"), 0))
+				else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_1"), 0))
 				{
 					iVar6 = 5;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_2"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_5"), 0))
+				else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_2"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_5"), 0))
 				{
 					iVar6 = 6;
 				}
@@ -27100,19 +27100,19 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 				return iVar0;
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_4"), 0))
+		if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_4"), 0))
 		{
 			bVar7 = true;
 			iVar6 = 1;
 		}
-		if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_20"), 0))
+		if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_20"), 0))
 		{
 			bVar7 = true;
-			if (((((((((unk_0x7FEA86016BC12607(iVar2, joaat("open_jacket"), 0) && unk_0x7FEA86016BC12607(iVar2, joaat("tux_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_24"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("air_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("smug_draw_1"), 0))
+			if (((((((((unk_0x304A39EB177D246B(iVar2, joaat("open_jacket"), 0) && unk_0x304A39EB177D246B(iVar2, joaat("tux_jacket"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_24"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("air_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("smug_draw_1"), 0))
 			{
 				iVar6 = 1;
 			}
-			else if ((unk_0x7FEA86016BC12607(iVar2, joaat("tux_jacket"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_21"), 0))
+			else if ((unk_0x304A39EB177D246B(iVar2, joaat("tux_jacket"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_21"), 0))
 			{
 				iVar6 = 0;
 			}
@@ -27125,14 +27125,14 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 		{
 			if (iVar6 != -1)
 			{
-				iVar8 = unk_0xF15296EACCC386AE(iVar4);
+				iVar8 = unk_0x5A3F0A3B7ECCBD32(iVar4);
 				iVar9 = 0;
 				while (iVar9 < iVar8)
 				{
-					unk_0xEAB69C23DB3E475B(iVar4, iVar9, &iVar10, &iVar11, &iVar12);
+					unk_0x0249B53AB91BF9D0(iVar4, iVar9, &iVar10, &iVar11, &iVar12);
 					if (iVar12 == 8)
 					{
-						if (((((((iVar6 == 6 && unk_0x7FEA86016BC12607(iVar10, joaat("alt_special_6"), 0)) || (iVar6 == 5 && unk_0x7FEA86016BC12607(iVar10, joaat("alt_special_5"), 0))) || (iVar6 == 4 && unk_0x7FEA86016BC12607(iVar10, joaat("ALT_SPECIAL_4"), 0))) || (iVar6 == 3 && unk_0x7FEA86016BC12607(iVar10, joaat("ALT_SPECIAL_3"), 0))) || (iVar6 == 2 && unk_0x7FEA86016BC12607(iVar10, joaat("alt_special_2"), 0))) || (iVar6 == 1 && unk_0x7FEA86016BC12607(iVar10, joaat("alt_special"), 0))) || ((((((iVar6 == 0 && !unk_0x7FEA86016BC12607(iVar10, joaat("alt_special"), 0)) && !unk_0x7FEA86016BC12607(iVar10, joaat("alt_special_2"), 0)) && !unk_0x7FEA86016BC12607(iVar10, joaat("ALT_SPECIAL_3"), 0)) && !unk_0x7FEA86016BC12607(iVar10, joaat("ALT_SPECIAL_4"), 0)) && !unk_0x7FEA86016BC12607(iVar10, joaat("alt_special_5"), 0)) && !unk_0x7FEA86016BC12607(iVar10, joaat("alt_special_6"), 0)))
+						if (((((((iVar6 == 6 && unk_0x304A39EB177D246B(iVar10, joaat("alt_special_6"), 0)) || (iVar6 == 5 && unk_0x304A39EB177D246B(iVar10, joaat("alt_special_5"), 0))) || (iVar6 == 4 && unk_0x304A39EB177D246B(iVar10, joaat("ALT_SPECIAL_4"), 0))) || (iVar6 == 3 && unk_0x304A39EB177D246B(iVar10, joaat("ALT_SPECIAL_3"), 0))) || (iVar6 == 2 && unk_0x304A39EB177D246B(iVar10, joaat("alt_special_2"), 0))) || (iVar6 == 1 && unk_0x304A39EB177D246B(iVar10, joaat("alt_special"), 0))) || ((((((iVar6 == 0 && !unk_0x304A39EB177D246B(iVar10, joaat("alt_special"), 0)) && !unk_0x304A39EB177D246B(iVar10, joaat("alt_special_2"), 0)) && !unk_0x304A39EB177D246B(iVar10, joaat("ALT_SPECIAL_3"), 0)) && !unk_0x304A39EB177D246B(iVar10, joaat("ALT_SPECIAL_4"), 0)) && !unk_0x304A39EB177D246B(iVar10, joaat("alt_special_5"), 0)) && !unk_0x304A39EB177D246B(iVar10, joaat("alt_special_6"), 0)))
 						{
 							if (iVar10 != 0 && iVar10 != joaat("0"))
 							{
@@ -27152,14 +27152,14 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			}
 			return -99;
 		}
-		if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_11"), 0))
+		if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_11"), 0))
 		{
 			if ((iParam1 >= 80 && iParam1 <= 95) || iVar5 == 5)
 			{
 				return -99;
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar2, joaat("x17_draw_3"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_11"), 0))
+		if (unk_0x304A39EB177D246B(iVar2, joaat("x17_draw_3"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_11"), 0))
 		{
 			if ((((iParam1 >= 80 && iParam1 <= 95) || (iParam1 >= 140 && iParam1 <= 155)) || iVar5 == 5) || iVar5 == 9)
 			{
@@ -27180,10 +27180,10 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			{
 				iVar0 = 240;
 			}
-			else if (((iParam1 >= 220 && iParam1 <= 235) && func_177()) && !unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_4"), 0))
+			else if (((iParam1 >= 220 && iParam1 <= 235) && func_177()) && !unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_4"), 0))
 			{
-				unk_0xDAEB80C06A5C96B9(3, 10, -1, 0, -1, 8);
-				iVar13 = unk_0xFECCBD3631733B22(joaat("dlc_mp_busi_m_accs5_0"));
+				unk_0x7B6C0A0D604E68FA(3, 10, -1, 0, -1, 8);
+				iVar13 = unk_0x55FF07D3A2FE8317(joaat("dlc_mp_busi_m_accs5_0"));
 				iVar0 = (func_61(iParam0, func_209(8)) + iVar13);
 				iVar1 = 1;
 			}
@@ -27194,18 +27194,18 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 				if (iParam1 >= 237)
 				{
 					iVar14 = func_180(iParam0, iParam1, 11, 3);
-					if ((iVar14 != -1 && !unk_0x7FEA86016BC12607(iVar14, joaat("draw_12"), 0)) && !unk_0x7FEA86016BC12607(iVar14, joaat("draw_8"), 0))
+					if ((iVar14 != -1 && !unk_0x304A39EB177D246B(iVar14, joaat("draw_12"), 0)) && !unk_0x304A39EB177D246B(iVar14, joaat("draw_8"), 0))
 					{
-						iVar15 = unk_0xF15296EACCC386AE(iVar14);
+						iVar15 = unk_0x5A3F0A3B7ECCBD32(iVar14);
 						iVar16 = 0;
 						while (iVar16 < iVar15)
 						{
-							unk_0xEAB69C23DB3E475B(iVar14, iVar16, &iVar17, &iVar18, &iVar19);
+							unk_0x0249B53AB91BF9D0(iVar14, iVar16, &iVar17, &iVar18, &iVar19);
 							if (iVar19 == 8)
 							{
 								if (iVar17 != 0 && iVar17 != joaat("0"))
 								{
-									if ((!unk_0x7FEA86016BC12607(iVar17, joaat("ALT_SPECIAL_4"), 0) && !unk_0x7FEA86016BC12607(iVar17, joaat("alt_special_5"), 0)) && !unk_0x7FEA86016BC12607(iVar17, joaat("alt_special_6"), 0))
+									if ((!unk_0x304A39EB177D246B(iVar17, joaat("ALT_SPECIAL_4"), 0) && !unk_0x304A39EB177D246B(iVar17, joaat("alt_special_5"), 0)) && !unk_0x304A39EB177D246B(iVar17, joaat("alt_special_6"), 0))
 									{
 										iVar0 = func_60(iParam0, iVar17, 8, 3);
 									}
@@ -27273,7 +27273,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 		}
 		else if (iParam1 <= 203 || iVar5 == 12)
 		{
-			if (((((iParam2 >= 48 && iParam2 <= 63) || (iParam2 >= 108 && iParam2 <= 123)) || iVar3 == 3) || iVar3 == 7) || unk_0x7FEA86016BC12607(iVar2, joaat("luxe2_draw_0"), 0))
+			if (((((iParam2 >= 48 && iParam2 <= 63) || (iParam2 >= 108 && iParam2 <= 123)) || iVar3 == 3) || iVar3 == 7) || unk_0x304A39EB177D246B(iVar2, joaat("luxe2_draw_0"), 0))
 			{
 				iVar0 = 2;
 				iVar1 = 0;
@@ -27281,19 +27281,19 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			else
 			{
 				iVar20 = 0;
-				if (iParam2 >= 236 && unk_0x7FEA86016BC12607(iVar2, joaat("tails_jacket"), 0))
+				if (iParam2 >= 236 && unk_0x304A39EB177D246B(iVar2, joaat("tails_jacket"), 0))
 				{
 					iVar20 = 1;
 				}
 				iVar21 = func_180(iParam0, iParam1, 11, 3);
 				if (iVar21 != -1)
 				{
-					iVar22 = unk_0xF15296EACCC386AE(iVar21);
+					iVar22 = unk_0x5A3F0A3B7ECCBD32(iVar21);
 					iVar23 = 0;
 					while (iVar23 < iVar22)
 					{
-						unk_0xEAB69C23DB3E475B(iVar21, iVar23, &iVar24, &iVar25, &iVar26);
-						if (iVar26 == 8 && iVar20 == unk_0x7FEA86016BC12607(iVar24, joaat("tails_version"), 0))
+						unk_0x0249B53AB91BF9D0(iVar21, iVar23, &iVar24, &iVar25, &iVar26);
+						if (iVar26 == 8 && iVar20 == unk_0x304A39EB177D246B(iVar24, joaat("tails_version"), 0))
 						{
 							if (iVar24 != 0 && iVar24 != joaat("0"))
 							{
@@ -27327,16 +27327,16 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			if (func_177())
 			{
 				iVar27 = joaat("dlc_mp_busi_m_accs4_0");
-				if ((iParam2 >= 96 && iParam2 <= 107) || (iParam2 >= 236 && unk_0x7FEA86016BC12607(iVar2, joaat("tails_jacket"), 0)))
+				if ((iParam2 >= 96 && iParam2 <= 107) || (iParam2 >= 236 && unk_0x304A39EB177D246B(iVar2, joaat("tails_jacket"), 0)))
 				{
 					iVar27 = joaat("dlc_mp_busi_m_accs5_0");
 				}
-				unk_0xDAEB80C06A5C96B9(3, 10, -1, 0, -1, 8);
-				iVar28 = unk_0xFECCBD3631733B22(iVar27);
+				unk_0x7B6C0A0D604E68FA(3, 10, -1, 0, -1, 8);
+				iVar28 = unk_0x55FF07D3A2FE8317(iVar27);
 				iVar0 = (func_61(iParam0, func_209(8)) + iVar28);
 				iVar1 = 1;
 			}
-			if ((((iParam2 >= 237 && unk_0x7FEA86016BC12607(iVar2, joaat("tails_jacket"), 0)) || (iParam2 >= 108 && iParam2 <= 123)) || iVar3 == 7) || unk_0x7FEA86016BC12607(iVar2, joaat("luxe2_draw_0"), 0))
+			if ((((iParam2 >= 237 && unk_0x304A39EB177D246B(iVar2, joaat("tails_jacket"), 0)) || (iParam2 >= 108 && iParam2 <= 123)) || iVar3 == 7) || unk_0x304A39EB177D246B(iVar2, joaat("luxe2_draw_0"), 0))
 			{
 				iVar0 = -99;
 			}
@@ -27352,24 +27352,24 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			iVar1 = 0;
 			bVar29 = false;
 			iVar30 = func_180(iParam0, iParam1, 11, 3);
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_21"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_21"), 0))
 			{
 				bVar29 = true;
 			}
 			if (iVar30 != -1)
 			{
-				iVar31 = unk_0xF15296EACCC386AE(iVar30);
+				iVar31 = unk_0x5A3F0A3B7ECCBD32(iVar30);
 				iVar32 = 0;
 				while (iVar32 < iVar31)
 				{
-					unk_0xEAB69C23DB3E475B(iVar30, iVar32, &iVar33, &iVar34, &iVar35);
+					unk_0x0249B53AB91BF9D0(iVar30, iVar32, &iVar33, &iVar34, &iVar35);
 					if (iVar35 == 8)
 					{
 						if (iVar33 != 0 && iVar33 != joaat("0"))
 						{
 							iVar0 = func_60(iParam0, iVar33, 8, 3);
 							iVar1 = 0;
-							if (!bVar29 || unk_0x7FEA86016BC12607(iVar33, joaat("alt_special"), 0))
+							if (!bVar29 || unk_0x304A39EB177D246B(iVar33, joaat("alt_special"), 0))
 							{
 								iVar32 = iVar31 + 1;
 							}
@@ -27404,19 +27404,19 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 		}
 		if (iVar36 != -1)
 		{
-			if (unk_0x7FEA86016BC12607(iVar36, joaat("jacket_only"), 0))
+			if (unk_0x304A39EB177D246B(iVar36, joaat("jacket_only"), 0))
 			{
 				return -99;
 			}
 		}
-		if ((((unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_6"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("air_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smug_draw_1"), 0))
+		if ((((unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_6"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("air_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smug_draw_1"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar38, joaat("stunt_draw_5"), 0))
+			if (unk_0x304A39EB177D246B(iVar38, joaat("stunt_draw_5"), 0))
 			{
 				return -99;
 			}
 		}
-		if ((unk_0x7FEA86016BC12607(iVar36, joaat("low2_open_check"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("open_short"), 0)) || unk_0x7FEA86016BC12607(iVar36, -1099375697, 0))
+		if ((unk_0x304A39EB177D246B(iVar36, joaat("low2_open_check"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("open_short"), 0)) || unk_0x304A39EB177D246B(iVar36, -1099375697, 0))
 		{
 			if (((((((((((((((((((((((((iParam1 >= 0 && iParam1 <= 15) || (iParam1 >= 32 && iParam1 <= 47)) || (iParam1 >= 64 && iParam1 <= 79)) || (iParam1 >= 80 && iParam1 <= 95)) || (iParam1 >= 176 && iParam1 <= 191)) || (iParam1 >= 192 && iParam1 <= 207)) || (iParam1 >= 208 && iParam1 <= 223)) || (iParam1 >= 240 && iParam1 <= 255)) || iVar39 == 0) || iVar39 == 2) || iVar39 == 4) || iVar39 == 5) || iVar39 == 11) || iVar39 == 12) || iVar39 == 13) || iVar39 == 15) || iVar38 == joaat("dlc_mp_bus2_f_jbib0_0")) || iVar38 == joaat("dlc_mp_bus2_f_jbib0_1")) || iVar38 == joaat("dlc_mp_bus2_f_jbib0_2")) || iVar38 == joaat("dlc_mp_hips_f_jbib7_0")) || iVar38 == joaat("dlc_mp_hips_f_jbib7_1")) || iVar38 == joaat("dlc_mp_hips_f_jbib7_2")) || iVar38 == joaat("dlc_mp_hips_f_jbib7_3")) || iVar38 == joaat("dlc_mp_ind_f_jbib_1_0")) || iVar38 == joaat("dlc_mp_luxe_f_jbib_3_0"))
 			{
@@ -27426,30 +27426,30 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 				return -99;
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar38, joaat("apart_draw_2"), 0) || unk_0x7FEA86016BC12607(iVar38, joaat("apart_draw_3"), 0))
+		if (unk_0x304A39EB177D246B(iVar38, joaat("apart_draw_2"), 0) || unk_0x304A39EB177D246B(iVar38, joaat("apart_draw_3"), 0))
 		{
 			return -99;
 		}
 		iVar40 = 0;
 		bVar41 = false;
-		if ((((((unk_0x7FEA86016BC12607(iVar38, joaat("heist_draw_3"), 0) || unk_0x7FEA86016BC12607(iVar38, joaat("luxe_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar38, joaat("low_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar38, joaat("low_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar38, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar38, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar38, joaat("exec_draw_14"), 0))
+		if ((((((unk_0x304A39EB177D246B(iVar38, joaat("heist_draw_3"), 0) || unk_0x304A39EB177D246B(iVar38, joaat("luxe_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar38, joaat("low_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar38, joaat("low_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar38, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar38, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar38, joaat("exec_draw_14"), 0))
 		{
 			bVar41 = true;
-			if ((((((iParam2 >= 16 && iParam2 <= 31) || (iParam2 >= 128 && iParam2 <= 143)) || iVar37 == 1) || iVar37 == 8) || unk_0x7FEA86016BC12607(iVar36, joaat("open_short"), 0)) || unk_0x7FEA86016BC12607(iVar36, -1099375697, 0))
+			if ((((((iParam2 >= 16 && iParam2 <= 31) || (iParam2 >= 128 && iParam2 <= 143)) || iVar37 == 1) || iVar37 == 8) || unk_0x304A39EB177D246B(iVar36, joaat("open_short"), 0)) || unk_0x304A39EB177D246B(iVar36, -1099375697, 0))
 			{
 				iVar40 = 2;
 			}
-			else if ((((unk_0x7FEA86016BC12607(iVar36, joaat("luxe2_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("luxe2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smug_draw_0"), 0))
+			else if ((((unk_0x304A39EB177D246B(iVar36, joaat("luxe2_draw_0"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("luxe2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smug_draw_0"), 0))
 			{
 				iVar40 = 0;
 			}
-			else if (((((((((((((iParam2 >= 160 && iParam2 <= 175) || iVar37 == 10) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_11"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar36, -872449705, 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_11"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar36, 144417099, 0))
+			else if (((((((((((((iParam2 >= 160 && iParam2 <= 175) || iVar37 == 10) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_11"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar36, -872449705, 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_11"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar36, 144417099, 0))
 			{
-				if (unk_0x7FEA86016BC12607(iVar38, joaat("low_draw_2"), 0))
+				if (unk_0x304A39EB177D246B(iVar38, joaat("low_draw_2"), 0))
 				{
 					iVar40 = 1;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar38, joaat("low_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar38, joaat("low2_draw_0"), 0))
+				else if (unk_0x304A39EB177D246B(iVar38, joaat("low_draw_0"), 0) || unk_0x304A39EB177D246B(iVar38, joaat("low2_draw_0"), 0))
 				{
 					iVar40 = 1;
 				}
@@ -27463,12 +27463,12 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar40 = 1;
 			}
 		}
-		if (unk_0x7FEA86016BC12607(iVar38, joaat("apart_draw_21"), 0))
+		if (unk_0x304A39EB177D246B(iVar38, joaat("apart_draw_21"), 0))
 		{
 			bVar41 = true;
-			if ((((((((((iParam2 >= 112 && iParam2 <= 127) || iVar37 == 7) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_11"), 0)) || unk_0x7FEA86016BC12607(iVar36, -872449705, 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_25"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("stunt_draw_9"), 0))
+			if ((((((((((iParam2 >= 112 && iParam2 <= 127) || iVar37 == 7) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_11"), 0)) || unk_0x304A39EB177D246B(iVar36, -872449705, 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_25"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("stunt_draw_9"), 0))
 			{
-				if (((unk_0x7FEA86016BC12607(iVar36, joaat("luxe2_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("luxe2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smug_draw_0"), 0))
+				if (((unk_0x304A39EB177D246B(iVar36, joaat("luxe2_draw_0"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("luxe2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smug_draw_0"), 0))
 				{
 					iVar40 = 0;
 				}
@@ -27477,7 +27477,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar40 = 1;
 				}
 			}
-			else if ((((((unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_12"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_16"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("heist_draw_17"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar36, -1014753511, 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smoking_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_22"), 0))
+			else if ((((((unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_12"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_16"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("heist_draw_17"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar36, -1014753511, 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smoking_jacket"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_22"), 0))
 			{
 				iVar40 = 0;
 			}
@@ -27514,15 +27514,15 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			case joaat("dlc_mp_stunt_f_jbib_5_14"):
 			case joaat("dlc_mp_stunt_f_jbib_5_15"):
 				bVar41 = true;
-				if (((unk_0x7FEA86016BC12607(iVar36, joaat("luxe2_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smug_draw_0"), 0))
+				if (((unk_0x304A39EB177D246B(iVar36, joaat("luxe2_draw_0"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smug_draw_0"), 0))
 				{
 					iVar40 = 1;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar36, joaat("luxe2_draw_1"), 0))
+				else if (unk_0x304A39EB177D246B(iVar36, joaat("luxe2_draw_1"), 0))
 				{
 					iVar40 = 2;
 				}
-				else if ((((((((((((unk_0x7FEA86016BC12607(iVar36, joaat("luxe_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("low2_open_check"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_25"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("stunt_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_33"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("air_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smug_draw_1"), 0))
+				else if ((((((((((((unk_0x304A39EB177D246B(iVar36, joaat("luxe_draw_0"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("low2_open_check"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_25"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("stunt_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_33"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("air_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smug_draw_1"), 0))
 				{
 					iVar40 = 3;
 				}
@@ -27548,13 +27548,13 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 				}
 				break;
 		}
-		if (unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_4"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_5"), 0))
+		if (unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_4"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_5"), 0))
 		{
 			if ((iParam1 >= 240 && iParam1 <= 255) || iVar39 == 15)
 			{
 				iVar0 = 120;
 			}
-			else if (unk_0x7FEA86016BC12607(iVar38, joaat("low2_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar38, joaat("low2_draw_1"), 0))
+			else if (unk_0x304A39EB177D246B(iVar38, joaat("low2_draw_0"), 0) || unk_0x304A39EB177D246B(iVar38, joaat("low2_draw_1"), 0))
 			{
 				bVar41 = true;
 				iVar40 = 0;
@@ -27564,9 +27564,9 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 				return iVar0;
 			}
 		}
-		else if (unk_0x7FEA86016BC12607(iVar36, joaat("biker_vest"), 0) && !unk_0x7FEA86016BC12607(iVar36, joaat("jacket_only"), 0))
+		else if (unk_0x304A39EB177D246B(iVar36, joaat("biker_vest"), 0) && !unk_0x304A39EB177D246B(iVar36, joaat("jacket_only"), 0))
 		{
-			if (unk_0x7FEA86016BC12607(iVar36, joaat("x17_draw_6"), 0))
+			if (unk_0x304A39EB177D246B(iVar36, joaat("x17_draw_6"), 0))
 			{
 				if ((iParam1 >= 192 && iParam1 <= 207) || iVar39 == 12)
 				{
@@ -27580,15 +27580,15 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			else if (iParam1 >= 256)
 			{
 				bVar41 = true;
-				if ((unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_13"), 0))
+				if ((unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_0"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_13"), 0))
 				{
 					iVar40 = 4;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_1"), 0))
+				else if (unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_1"), 0))
 				{
 					iVar40 = 5;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_2"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("x17_draw_6"), 0))
+				else if (unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_2"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("x17_draw_6"), 0))
 				{
 					iVar40 = 6;
 				}
@@ -27606,14 +27606,14 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 		{
 			if (iVar40 != -1)
 			{
-				iVar42 = unk_0xF15296EACCC386AE(iVar38);
+				iVar42 = unk_0x5A3F0A3B7ECCBD32(iVar38);
 				iVar43 = 0;
 				while (iVar43 < iVar42)
 				{
-					unk_0xEAB69C23DB3E475B(iVar38, iVar43, &iVar44, &iVar45, &iVar46);
+					unk_0x0249B53AB91BF9D0(iVar38, iVar43, &iVar44, &iVar45, &iVar46);
 					if (iVar46 == 8)
 					{
-						if (((((((iVar40 == 6 && unk_0x7FEA86016BC12607(iVar44, joaat("alt_special_6"), 0)) || (iVar40 == 5 && unk_0x7FEA86016BC12607(iVar44, joaat("alt_special_5"), 0))) || (iVar40 == 4 && unk_0x7FEA86016BC12607(iVar44, joaat("ALT_SPECIAL_4"), 0))) || (iVar40 == 3 && unk_0x7FEA86016BC12607(iVar44, joaat("ALT_SPECIAL_3"), 0))) || (iVar40 == 2 && unk_0x7FEA86016BC12607(iVar44, joaat("alt_special_2"), 0))) || (iVar40 == 1 && unk_0x7FEA86016BC12607(iVar44, joaat("alt_special"), 0))) || ((((((iVar40 == 0 && !unk_0x7FEA86016BC12607(iVar44, joaat("alt_special"), 0)) && !unk_0x7FEA86016BC12607(iVar44, joaat("alt_special_2"), 0)) && !unk_0x7FEA86016BC12607(iVar44, joaat("ALT_SPECIAL_3"), 0)) && !unk_0x7FEA86016BC12607(iVar44, joaat("ALT_SPECIAL_4"), 0)) && !unk_0x7FEA86016BC12607(iVar44, joaat("alt_special_5"), 0)) && !unk_0x7FEA86016BC12607(iVar44, joaat("alt_special_6"), 0)))
+						if (((((((iVar40 == 6 && unk_0x304A39EB177D246B(iVar44, joaat("alt_special_6"), 0)) || (iVar40 == 5 && unk_0x304A39EB177D246B(iVar44, joaat("alt_special_5"), 0))) || (iVar40 == 4 && unk_0x304A39EB177D246B(iVar44, joaat("ALT_SPECIAL_4"), 0))) || (iVar40 == 3 && unk_0x304A39EB177D246B(iVar44, joaat("ALT_SPECIAL_3"), 0))) || (iVar40 == 2 && unk_0x304A39EB177D246B(iVar44, joaat("alt_special_2"), 0))) || (iVar40 == 1 && unk_0x304A39EB177D246B(iVar44, joaat("alt_special"), 0))) || ((((((iVar40 == 0 && !unk_0x304A39EB177D246B(iVar44, joaat("alt_special"), 0)) && !unk_0x304A39EB177D246B(iVar44, joaat("alt_special_2"), 0)) && !unk_0x304A39EB177D246B(iVar44, joaat("ALT_SPECIAL_3"), 0)) && !unk_0x304A39EB177D246B(iVar44, joaat("ALT_SPECIAL_4"), 0)) && !unk_0x304A39EB177D246B(iVar44, joaat("alt_special_5"), 0)) && !unk_0x304A39EB177D246B(iVar44, joaat("alt_special_6"), 0)))
 						{
 							if (iVar44 != 0 && iVar44 != joaat("0"))
 							{
@@ -27633,9 +27633,9 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			}
 			return -99;
 		}
-		if ((((((((iParam1 >= 192 && iParam1 <= 207) || iVar39 == 12) && ((((iParam2 >= 96 && iParam2 <= 111) || (iParam2 >= 112 && iParam2 <= 127)) || iVar37 == 6) || iVar37 == 7)) && func_177()) && !unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_15"), 0)) && !unk_0x7FEA86016BC12607(iVar36, joaat("apart_draw_25"), 0)) && !unk_0x7FEA86016BC12607(iVar36, joaat("stunt_draw_4"), 0)) && !unk_0x7FEA86016BC12607(iVar36, joaat("stunt_draw_9"), 0))
+		if ((((((((iParam1 >= 192 && iParam1 <= 207) || iVar39 == 12) && ((((iParam2 >= 96 && iParam2 <= 111) || (iParam2 >= 112 && iParam2 <= 127)) || iVar37 == 6) || iVar37 == 7)) && func_177()) && !unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_15"), 0)) && !unk_0x304A39EB177D246B(iVar36, joaat("apart_draw_25"), 0)) && !unk_0x304A39EB177D246B(iVar36, joaat("stunt_draw_4"), 0)) && !unk_0x304A39EB177D246B(iVar36, joaat("stunt_draw_9"), 0))
 		{
-			if ((((((unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_6"), 0) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_33"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("air_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smug_draw_1"), 0))
+			if ((((((unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_6"), 0) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_33"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("air_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smug_draw_1"), 0))
 			{
 				return -99;
 			}
@@ -27708,7 +27708,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 		}
 		else if (iParam1 <= 15)
 		{
-			if (((((iParam2 >= 160 && iParam2 <= 175) || unk_0x7FEA86016BC12607(iVar36, joaat("luxe2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar36, joaat("smug_draw_0"), 0))
+			if (((((iParam2 >= 160 && iParam2 <= 175) || unk_0x304A39EB177D246B(iVar36, joaat("luxe2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar36, joaat("smug_draw_0"), 0))
 			{
 				iVar0 = 16;
 			}
@@ -27806,10 +27806,10 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 			if (iVar38 != -1)
 			{
 				bVar48 = true;
-				if (unk_0x7FEA86016BC12607(iVar38, joaat("vest_shirt"), 0))
+				if (unk_0x304A39EB177D246B(iVar38, joaat("vest_shirt"), 0))
 				{
 					bVar48 = false;
-					if (iParam2 >= 256 && unk_0x7FEA86016BC12607(iVar36, joaat("vest"), 0))
+					if (iParam2 >= 256 && unk_0x304A39EB177D246B(iVar36, joaat("vest"), 0))
 					{
 						bVar48 = true;
 					}
@@ -27824,12 +27824,12 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 							iVar40 = 1;
 						}
 					}
-					iVar49 = unk_0xF15296EACCC386AE(iVar38);
+					iVar49 = unk_0x5A3F0A3B7ECCBD32(iVar38);
 					iVar50 = 0;
 					while (iVar50 < iVar49)
 					{
-						unk_0xEAB69C23DB3E475B(iVar38, iVar50, &iVar51, &iVar52, &iVar53);
-						if (iVar53 == 8 && ((((((((iVar51 == 0 || iVar51 == joaat("0")) || (iVar40 == 6 && unk_0x7FEA86016BC12607(iVar51, joaat("alt_special_6"), 0))) || (iVar40 == 5 && unk_0x7FEA86016BC12607(iVar51, joaat("alt_special_5"), 0))) || (iVar40 == 4 && unk_0x7FEA86016BC12607(iVar51, joaat("ALT_SPECIAL_4"), 0))) || (iVar40 == 3 && unk_0x7FEA86016BC12607(iVar51, joaat("ALT_SPECIAL_3"), 0))) || (iVar40 == 2 && unk_0x7FEA86016BC12607(iVar51, joaat("alt_special_2"), 0))) || (iVar40 == 1 && unk_0x7FEA86016BC12607(iVar51, joaat("alt_special"), 0))) || ((((((iVar40 == 0 && !unk_0x7FEA86016BC12607(iVar51, joaat("alt_special"), 0)) && !unk_0x7FEA86016BC12607(iVar51, joaat("alt_special_2"), 0)) && !unk_0x7FEA86016BC12607(iVar51, joaat("ALT_SPECIAL_3"), 0)) && !unk_0x7FEA86016BC12607(iVar51, joaat("ALT_SPECIAL_4"), 0)) && !unk_0x7FEA86016BC12607(iVar51, joaat("alt_special_5"), 0)) && !unk_0x7FEA86016BC12607(iVar51, joaat("alt_special_6"), 0))))
+						unk_0x0249B53AB91BF9D0(iVar38, iVar50, &iVar51, &iVar52, &iVar53);
+						if (iVar53 == 8 && ((((((((iVar51 == 0 || iVar51 == joaat("0")) || (iVar40 == 6 && unk_0x304A39EB177D246B(iVar51, joaat("alt_special_6"), 0))) || (iVar40 == 5 && unk_0x304A39EB177D246B(iVar51, joaat("alt_special_5"), 0))) || (iVar40 == 4 && unk_0x304A39EB177D246B(iVar51, joaat("ALT_SPECIAL_4"), 0))) || (iVar40 == 3 && unk_0x304A39EB177D246B(iVar51, joaat("ALT_SPECIAL_3"), 0))) || (iVar40 == 2 && unk_0x304A39EB177D246B(iVar51, joaat("alt_special_2"), 0))) || (iVar40 == 1 && unk_0x304A39EB177D246B(iVar51, joaat("alt_special"), 0))) || ((((((iVar40 == 0 && !unk_0x304A39EB177D246B(iVar51, joaat("alt_special"), 0)) && !unk_0x304A39EB177D246B(iVar51, joaat("alt_special_2"), 0)) && !unk_0x304A39EB177D246B(iVar51, joaat("ALT_SPECIAL_3"), 0)) && !unk_0x304A39EB177D246B(iVar51, joaat("ALT_SPECIAL_4"), 0)) && !unk_0x304A39EB177D246B(iVar51, joaat("alt_special_5"), 0)) && !unk_0x304A39EB177D246B(iVar51, joaat("alt_special_6"), 0))))
 						{
 							if (iVar51 != 0 && iVar51 != joaat("0"))
 							{
@@ -27857,7 +27857,7 @@ int func_176(int iParam0, int iParam1, int iParam2, int iParam3)
 
 bool func_177()
 {
-	return unk_0x7681F180D7938DA8(42019760);
+	return unk_0x087611B922B50F13(42019760);
 }
 
 int func_178(int iParam0, int iParam1, int iParam2)
@@ -30075,39 +30075,39 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 				iVar4 = func_180(iParam0, iParam1, 8, 3);
 				iVar3 = func_170(iVar4);
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("silk_robe"), 0))
 			{
 				iVar0 = 14;
 			}
-			else if (unk_0x7FEA86016BC12607(iVar2, joaat("silk_pyjamas"), 0))
+			else if (unk_0x304A39EB177D246B(iVar2, joaat("silk_pyjamas"), 0))
 			{
 				iVar0 = 6;
 			}
-			else if ((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_1"), 0)) && unk_0x7FEA86016BC12607(iVar2, joaat("jacket"), 0))
+			else if ((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_1"), 0)) && unk_0x304A39EB177D246B(iVar2, joaat("jacket"), 0))
 			{
 				iVar0 = 1;
 			}
-			else if ((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_2"), 0)) && unk_0x7FEA86016BC12607(iVar2, joaat("jacket"), 0))
+			else if ((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_2"), 0)) && unk_0x304A39EB177D246B(iVar2, joaat("jacket"), 0))
 			{
 				iVar0 = 4;
 			}
-			else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_vest"), 0) && !unk_0x7FEA86016BC12607(iVar2, joaat("jacket_only"), 0))
+			else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_vest"), 0) && !unk_0x304A39EB177D246B(iVar2, joaat("jacket_only"), 0))
 			{
 				if (iParam1 == 240)
 				{
-					if ((unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_13"), 0))
+					if ((unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_0"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_13"), 0))
 					{
 						iVar0 = func_60(iParam0, joaat("dlc_mp_biker_m_torso_0_0"), 3, 3);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_1"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_1"), 0))
 					{
 						iVar0 = func_60(iParam0, joaat("dlc_mp_biker_m_torso_1_0"), 3, 3);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_2"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_2"), 0))
 					{
 						iVar0 = func_60(iParam0, joaat("dlc_mp_biker_m_torso_2_0"), 3, 3);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_5"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_5"), 0))
 					{
 						iVar0 = 5;
 					}
@@ -30121,11 +30121,11 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					}
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar4, joaat("overcoat_accs"), 0))
+			else if (unk_0x304A39EB177D246B(iVar4, joaat("overcoat_accs"), 0))
 			{
 				iVar0 = 12;
 			}
-			else if (((iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_15"), 0)) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_24"), 0))) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_6"), 0))
+			else if (((iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_15"), 0)) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_24"), 0))) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_6"), 0))
 			{
 				if (iParam1 == 240)
 				{
@@ -30144,7 +30144,7 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = 4;
 				}
 			}
-			else if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("low2_open_check"), 0))
+			else if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("low2_open_check"), 0))
 			{
 				if (iParam1 == 240)
 				{
@@ -30159,7 +30159,7 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = 1;
 				}
 			}
-			else if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("heist_draw_7"), 0))
+			else if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("heist_draw_7"), 0))
 			{
 				if ((iParam1 >= 192 && iParam1 <= 207) || iVar3 == 12)
 				{
@@ -30170,7 +30170,7 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = 11;
 				}
 			}
-			else if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("heist_draw_9"), 0))
+			else if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("heist_draw_9"), 0))
 			{
 				if ((iParam1 >= 80 && iParam1 <= 95) || iVar3 == 5)
 				{
@@ -30185,11 +30185,11 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = 1;
 				}
 			}
-			else if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("tux_jacket"), 0))
+			else if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("tux_jacket"), 0))
 			{
 				iVar0 = 12;
 			}
-			else if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("smug_draw_6"), 0))
+			else if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("smug_draw_6"), 0))
 			{
 				iVar0 = 2;
 			}
@@ -30227,9 +30227,9 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 				{
 					iVar0 = 4;
 				}
-				else if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("shirt_braces"), 0))
+				else if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("shirt_braces"), 0))
 				{
-					if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("closed_collar"), 0))
+					if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("closed_collar"), 0))
 					{
 						iVar0 = 4;
 					}
@@ -30242,7 +30242,7 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 				{
 					iVar0 = 1;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_2"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_3"), 0))
+				else if (unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_2"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_3"), 0))
 				{
 					iVar0 = 4;
 				}
@@ -30250,11 +30250,11 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 				{
 					if (iVar4 != -1)
 					{
-						iVar5 = unk_0x9161FFD18E646230(iVar4);
+						iVar5 = unk_0x9FB2D71D9CEC8B5A(iVar4);
 						iVar6 = 0;
 						while (iVar6 < iVar5)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar4, iVar6, &iVar7, &iVar8, &iVar9);
+							unk_0xCF4D7500E7DA5D8E(iVar4, iVar6, &iVar7, &iVar8, &iVar9);
 							if (iVar9 == 3)
 							{
 								if (iVar7 != 0 && iVar7 != joaat("0"))
@@ -30274,7 +30274,7 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 			}
 			else if ((iParam2 >= 172 && iParam2 <= 187) || iVar1 == 11)
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("sweat_vest"), 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("sweat_vest"), 0))
 				{
 					iVar0 = 6;
 				}
@@ -30286,7 +30286,7 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 				{
 					iVar0 = 11;
 				}
-				else if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("long_sleeve"), 0))
+				else if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("long_sleeve"), 0))
 				{
 					iVar0 = 12;
 				}
@@ -30356,28 +30356,28 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 						break;
 					}
 			}
-			if (unk_0x7FEA86016BC12607(iVar2, joaat("silk_robe"), 0))
+			if (unk_0x304A39EB177D246B(iVar2, joaat("silk_robe"), 0))
 			{
 				iVar0 = 0;
 			}
-			else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_vest"), 0) && !unk_0x7FEA86016BC12607(iVar2, joaat("jacket_only"), 0))
+			else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_vest"), 0) && !unk_0x304A39EB177D246B(iVar2, joaat("jacket_only"), 0))
 			{
-				if ((((((((((((((((((((((((((((iParam1 >= 34 && iParam1 <= 49) || (iParam1 >= 50 && iParam1 <= 65)) || (iParam1 >= 71 && iParam1 <= 86)) || (iParam1 >= 87 && iParam1 <= 102)) || (iParam1 >= 103 && iParam1 <= 118)) || (iParam1 >= 120 && iParam1 <= 135)) || iVar3 == 4) || iVar3 == 5) || iVar3 == 11) || iVar3 == 12) || iVar3 == 13) || iVar3 == 15) || iVar4 == joaat("dlc_mp_beach_f_accs0_0")) || iVar4 == joaat("dlc_mp_beach_f_accs0_1")) || iVar4 == joaat("dlc_mp_beach_f_accs0_2")) || iVar4 == joaat("dlc_mp_beach_f_accs0_3")) || iVar4 == joaat("dlc_mp_beach_f_accs0_4")) || iVar4 == joaat("dlc_mp_beach_f_accs0_5")) || iVar4 == joaat("dlc_mp_beach_f_accs0_6")) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_13"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_14"), 0))
+				if ((((((((((((((((((((((((((((iParam1 >= 34 && iParam1 <= 49) || (iParam1 >= 50 && iParam1 <= 65)) || (iParam1 >= 71 && iParam1 <= 86)) || (iParam1 >= 87 && iParam1 <= 102)) || (iParam1 >= 103 && iParam1 <= 118)) || (iParam1 >= 120 && iParam1 <= 135)) || iVar3 == 4) || iVar3 == 5) || iVar3 == 11) || iVar3 == 12) || iVar3 == 13) || iVar3 == 15) || iVar4 == joaat("dlc_mp_beach_f_accs0_0")) || iVar4 == joaat("dlc_mp_beach_f_accs0_1")) || iVar4 == joaat("dlc_mp_beach_f_accs0_2")) || iVar4 == joaat("dlc_mp_beach_f_accs0_3")) || iVar4 == joaat("dlc_mp_beach_f_accs0_4")) || iVar4 == joaat("dlc_mp_beach_f_accs0_5")) || iVar4 == joaat("dlc_mp_beach_f_accs0_6")) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_13"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_14"), 0))
 				{
-					if ((unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_0"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_13"), 0))
+					if ((unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_0"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_13"), 0))
 					{
 						iVar0 = func_60(iParam0, joaat("dlc_mp_biker_f_torso_0_0"), 3, 4);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_1"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_1"), 0))
 					{
 						iVar0 = func_60(iParam0, joaat("dlc_mp_biker_f_torso_1_0"), 3, 4);
 					}
-					else if ((unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_2"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("x17_draw_6"), 0))
+					else if ((unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_2"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("x17_draw_6"), 0))
 					{
 						iVar0 = func_60(iParam0, joaat("dlc_mp_biker_f_torso_2_0"), 3, 4);
 					}
 				}
-				else if ((unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_9"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_11"), 0))
+				else if ((unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_9"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_11"), 0))
 				{
 					iVar0 = 11;
 				}
@@ -30390,9 +30390,9 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					}
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar2, joaat("open_short"), 0))
+			else if (unk_0x304A39EB177D246B(iVar2, joaat("open_short"), 0))
 			{
-				if (((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_4"), 0)) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_5"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_6"), 0)))
+				if (((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_4"), 0)) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_5"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_6"), 0)))
 				{
 					iVar0 = 9;
 				}
@@ -30401,9 +30401,9 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = func_60(iParam0, joaat("dlc_mp_h4_f_torso_0_0"), 3, 4);
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar2, -1099375697, 0))
+			else if (unk_0x304A39EB177D246B(iVar2, -1099375697, 0))
 			{
-				if (((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_4"), 0)) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_5"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_6"), 0)))
+				if (((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_4"), 0)) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_5"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_6"), 0)))
 				{
 					iVar0 = 9;
 				}
@@ -30412,13 +30412,13 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = func_60(iParam0, joaat("dlc_mp_biker_f_torso_0_0"), 3, 4);
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar4, joaat("overcoat_accs"), 0))
+			else if (unk_0x304A39EB177D246B(iVar4, joaat("overcoat_accs"), 0))
 			{
 				iVar0 = 3;
 			}
-			else if (((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("vest_shirt"), 0)) && !func_175(iParam0, iParam2, -1)) && !unk_0x7FEA86016BC12607(iVar2, joaat("silk_robe"), 0))
+			else if (((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("vest_shirt"), 0)) && !func_175(iParam0, iParam2, -1)) && !unk_0x304A39EB177D246B(iVar2, joaat("silk_robe"), 0))
 			{
-				if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("long_sleeve"), 0))
+				if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("long_sleeve"), 0))
 				{
 					iVar0 = 3;
 				}
@@ -30427,17 +30427,17 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = 0;
 				}
 			}
-			else if (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, 1353777856, 0))
+			else if (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, 1353777856, 0))
 			{
 				iVar0 = 7;
 			}
-			else if ((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_2"), 0)) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("apart_draw_3"), 0)))
+			else if ((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_2"), 0)) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("apart_draw_3"), 0)))
 			{
 				iVar0 = 3;
 			}
-			else if (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("low_draw_1"), 0))
+			else if (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("low_draw_1"), 0))
 			{
-				if (unk_0x7FEA86016BC12607(func_180(iParam0, iParam3, 4, 4), joaat("high_waist"), 0))
+				if (unk_0x304A39EB177D246B(func_180(iParam0, iParam3, 4, 4), joaat("high_waist"), 0))
 				{
 					iVar0 = 11;
 				}
@@ -30446,24 +30446,24 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					iVar0 = 15;
 				}
 			}
-			else if ((((((((((((((iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_0"), 0)) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_4"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low_draw_6"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_0"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("low2_draw_3"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_6"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_7"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_8"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_9"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_10"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_11"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_12"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_13"), 0))) || (iVar4 != -1 && unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_14"), 0)))
+			else if ((((((((((((((iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_0"), 0)) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_4"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low_draw_6"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_0"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("low2_draw_3"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_6"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_7"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_8"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_9"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_10"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_11"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_12"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_13"), 0))) || (iVar4 != -1 && unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_14"), 0)))
 			{
 				if ((((((iParam2 >= 16 && iParam2 <= 31) || (iParam2 >= 96 && iParam2 <= 111)) || (iParam2 >= 128 && iParam2 <= 143)) || iVar1 == 1) || iVar1 == 6) || iVar1 == 8)
 				{
 					iVar0 = 1;
 				}
-				else if (((((((((((((((((((((((((((iParam2 >= 112 && iParam2 <= 127) || (iParam2 >= 160 && iParam2 <= 175)) || iVar1 == 7) || iVar1 == 10) || unk_0x7FEA86016BC12607(iVar2, joaat("tails_jacket"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("heist_draw_16"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("heist_draw_17"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("luxe_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("luxe_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("luxe_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("luxe2_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("luxe2_draw_1"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("low2_open_check"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_15"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("apart_draw_25"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_9"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_10"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_12"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_33"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("air_draw_3"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("smug_draw_0"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("smug_draw_1"), 0))
+				else if (((((((((((((((((((((((((((iParam2 >= 112 && iParam2 <= 127) || (iParam2 >= 160 && iParam2 <= 175)) || iVar1 == 7) || iVar1 == 10) || unk_0x304A39EB177D246B(iVar2, joaat("tails_jacket"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("heist_draw_16"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("heist_draw_17"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("luxe_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("luxe_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("luxe_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("luxe2_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("luxe2_draw_1"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("low2_open_check"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_15"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("apart_draw_25"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_9"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_10"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_12"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_33"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("air_draw_3"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("smug_draw_0"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("smug_draw_1"), 0))
 				{
 					iVar0 = 3;
 				}
-				else if (unk_0x7FEA86016BC12607(iVar2, joaat("heist_draw_7"), 0))
+				else if (unk_0x304A39EB177D246B(iVar2, joaat("heist_draw_7"), 0))
 				{
 					iVar0 = 9;
 				}
 			}
-			else if ((((((((iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("luxe_draw_0"), 0)) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_6"), 0))) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_9"), 0))) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_10"), 0))) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_12"), 0))) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_33"), 0))) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("air_draw_3"), 0))) || (iVar2 != -1 && unk_0x7FEA86016BC12607(iVar2, joaat("smug_draw_1"), 0)))
+			else if ((((((((iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("luxe_draw_0"), 0)) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_6"), 0))) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_9"), 0))) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_10"), 0))) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_12"), 0))) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_33"), 0))) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("air_draw_3"), 0))) || (iVar2 != -1 && unk_0x304A39EB177D246B(iVar2, joaat("smug_draw_1"), 0)))
 			{
-				if ((((unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_5"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_9"), 0))
+				if ((((unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_5"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_9"), 0))
 				{
 					iVar0 = 1;
 				}
@@ -30482,11 +30482,11 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 				{
 					if (iVar4 != -1)
 					{
-						iVar10 = unk_0x9161FFD18E646230(iVar4);
+						iVar10 = unk_0x9FB2D71D9CEC8B5A(iVar4);
 						iVar11 = 0;
 						while (iVar11 < iVar10)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar4, iVar11, &iVar12, &iVar13, &iVar14);
+							unk_0xCF4D7500E7DA5D8E(iVar4, iVar11, &iVar12, &iVar13, &iVar14);
 							if (iVar14 == 3)
 							{
 								if (iVar12 != 0 && iVar12 != joaat("0"))
@@ -30504,9 +30504,9 @@ int func_179(int iParam0, int iParam1, int iParam2, int iParam3)
 					}
 				}
 			}
-			else if (((iParam2 >= 112 && iParam2 <= 127) || iVar1 == 7) || unk_0x7FEA86016BC12607(iVar2, joaat("low2_open_check"), 0))
+			else if (((iParam2 >= 112 && iParam2 <= 127) || iVar1 == 7) || unk_0x304A39EB177D246B(iVar2, joaat("low2_open_check"), 0))
 			{
-				if ((((unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_5"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_6"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_7"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_8"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("heist_draw_9"), 0))
+				if ((((unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_5"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_6"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_7"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_8"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("heist_draw_9"), 0))
 				{
 					iVar0 = 3;
 				}
@@ -30537,23 +30537,23 @@ int func_180(int iParam0, int iParam1, int iParam2, int iParam3)
 	}
 	else if (iParam2 == 14)
 	{
-		unk_0x469012E2C56B87C8(&Var0);
+		unk_0x7A491C9A90975007(&Var0);
 		iVar17 = (iParam1 - func_62(iParam0));
 		if (iVar17 < 0)
 		{
 			return -1;
 		}
-		iVar18 = unk_0xDAEB80C06A5C96B9(iParam3, 10, -1, 1, -1, -1);
+		iVar18 = unk_0x7B6C0A0D604E68FA(iParam3, 10, -1, 1, -1, -1);
 		if (iVar18 <= iVar17)
 		{
 			return -1;
 		}
-		unk_0x58801753BDEA41F4(iVar17, &Var0);
+		unk_0x2DBB2D25D50A5392(iVar17, &Var0);
 		return Var0.f_1;
 	}
 	else
 	{
-		unk_0xF9105E199166E912(&Var19);
+		unk_0x15D20F88F06530A5(&Var19);
 		iVar36 = (iParam1 - func_61(iParam0, func_209(iParam2)));
 		if (iVar36 < 0)
 		{
@@ -30563,12 +30563,12 @@ int func_180(int iParam0, int iParam1, int iParam2, int iParam3)
 		{
 			return Global_78491.f_13[iParam2];
 		}
-		iVar37 = unk_0xDAEB80C06A5C96B9(iParam3, 10, -1, 0, -1, func_209(iParam2));
+		iVar37 = unk_0x7B6C0A0D604E68FA(iParam3, 10, -1, 0, -1, func_209(iParam2));
 		if (iVar37 <= iVar36)
 		{
 			return -1;
 		}
-		unk_0x6F70EC5F2F78997E(iVar36, &Var19);
+		unk_0xD36906FE7BBBDB62(iVar36, &Var19);
 		Global_78491.f_13[iParam2] = Var19.f_1;
 		Global_78491[iParam2] = iParam1;
 		Global_78491.f_26[iParam2] = iParam0;
@@ -30583,13 +30583,13 @@ int func_181(int iParam0, int iParam1)
 	int iVar1;
 	int iVar2;
 	
-	if (((iParam1 == 12 || iParam1 == 13) || iParam1 == 14) || unk_0x66599E73DBA5A850(iParam0))
+	if (((iParam1 == 12 || iParam1 == 13) || iParam1 == 14) || unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		return -99;
 	}
 	iVar0 = func_209(iParam1);
-	iVar1 = unk_0xAC464F61BE9FD50D(iParam0, iVar0);
-	iVar2 = unk_0xEDEBC30DEBDF84C8(iParam0, iVar0);
+	iVar1 = unk_0xC0120BBCC298EA2F(iParam0, iVar0);
+	iVar2 = unk_0xD6AED6BFCC58AF7F(iParam0, iVar0);
 	return func_182(iParam0, iVar1, iVar2, iParam1);
 }
 
@@ -30601,13 +30601,13 @@ int func_182(int iParam0, int iParam1, int iParam2, int iParam3)
 	int iVar3;
 	
 	iVar0 = func_209(iParam3);
-	iVar1 = unk_0x39CBCB88BA546BDF(iParam0, iVar0);
+	iVar1 = unk_0x1A4EFE92822E3123(iParam0, iVar0);
 	iVar3 = 0;
 	while (iVar3 <= (iVar1 - 1))
 	{
 		if (iVar3 != iParam1)
 		{
-			iVar2 = (iVar2 + unk_0x2F05A8F9724E2992(iParam0, iVar0, iVar3));
+			iVar2 = (iVar2 + unk_0x8401C77F508D70FD(iParam0, iVar0, iVar3));
 		}
 		else
 		{
@@ -30644,206 +30644,206 @@ void func_183(int iParam0)
 	int iVar52;
 	struct<5> Var53;
 	
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
-	iVar1 = unk_0xAC464F61BE9FD50D(iParam0, 11);
-	iVar2 = unk_0xEDEBC30DEBDF84C8(iParam0, 11);
-	iVar3 = unk_0xAC464F61BE9FD50D(iParam0, 1);
-	iVar4 = unk_0xEDEBC30DEBDF84C8(iParam0, 1);
-	iVar5 = unk_0xAC464F61BE9FD50D(iParam0, 8);
-	iVar6 = unk_0xEDEBC30DEBDF84C8(iParam0, 8);
-	iVar7 = unk_0xAC464F61BE9FD50D(iParam0, 10);
-	iVar8 = unk_0xEDEBC30DEBDF84C8(iParam0, 10);
-	iVar9 = unk_0xFC680D6CC972AEFB(iParam0, 11, iVar1, iVar2);
-	iVar10 = unk_0xFC680D6CC972AEFB(iParam0, 1, iVar3, iVar4);
-	iVar11 = unk_0xFC680D6CC972AEFB(iParam0, 8, iVar5, iVar6);
-	iVar12 = unk_0xBC87DFB594B23350(iParam0, 0, unk_0x6BC6C26115124DFE(iParam0, 0, 1), unk_0xC5753F88DDA773E0(iParam0, 0));
-	iVar13 = unk_0xFC680D6CC972AEFB(iParam0, 10, iVar7, iVar8);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
+	iVar1 = unk_0xC0120BBCC298EA2F(iParam0, 11);
+	iVar2 = unk_0xD6AED6BFCC58AF7F(iParam0, 11);
+	iVar3 = unk_0xC0120BBCC298EA2F(iParam0, 1);
+	iVar4 = unk_0xD6AED6BFCC58AF7F(iParam0, 1);
+	iVar5 = unk_0xC0120BBCC298EA2F(iParam0, 8);
+	iVar6 = unk_0xD6AED6BFCC58AF7F(iParam0, 8);
+	iVar7 = unk_0xC0120BBCC298EA2F(iParam0, 10);
+	iVar8 = unk_0xD6AED6BFCC58AF7F(iParam0, 10);
+	iVar9 = unk_0x94B8A32AA940A6B5(iParam0, 11, iVar1, iVar2);
+	iVar10 = unk_0x94B8A32AA940A6B5(iParam0, 1, iVar3, iVar4);
+	iVar11 = unk_0x94B8A32AA940A6B5(iParam0, 8, iVar5, iVar6);
+	iVar12 = unk_0x6B7AEB5F3D578298(iParam0, 0, unk_0xB204F40D393426B6(iParam0, 0, 1), unk_0x0DC23FA727759F9F(iParam0, 0));
+	iVar13 = unk_0x94B8A32AA940A6B5(iParam0, 10, iVar7, iVar8);
 	bVar14 = false;
-	if (unk_0x7FEA86016BC12607(iVar9, joaat("hooded_jacket"), 0) && unk_0x7FEA86016BC12607(iVar9, joaat("hood_up"), 0))
+	if (unk_0x304A39EB177D246B(iVar9, joaat("hooded_jacket"), 0) && unk_0x304A39EB177D246B(iVar9, joaat("hood_up"), 0))
 	{
-		if (!func_188(iParam0, &bVar14, iVar9, iVar10, iVar12) || unk_0x3C3D6D026CF7F51B(iParam0, 0))
+		if (!func_188(iParam0, &bVar14, iVar9, iVar10, iVar12) || unk_0x7F420695E3F776FB(iParam0, 0))
 		{
 			if (func_187(iVar9, 0, 0, &iVar32))
 			{
-				unk_0x3CD23E98A4BA2D16(iVar32, &Var15);
-				unk_0xFECAE061D8C80757(iParam0, 11, Var15.f_3, Var15.f_4, unk_0x41CBA4CCBAA79DEF(iParam0, 11));
-				if (unk_0xAC464F61BE9FD50D(iParam0, 10) == 0 && func_186(iVar13, 11, -1))
+				unk_0xA5690D702773BED4(iVar32, &Var15);
+				unk_0xD1C578C204015E1F(iParam0, 11, Var15.f_3, Var15.f_4, unk_0xDAF263B0E792EAEC(iParam0, 11));
+				if (unk_0xC0120BBCC298EA2F(iParam0, 10) == 0 && func_186(iVar13, 11, -1))
 				{
 					if (func_186(iVar13, 11, Var15.f_1))
 					{
-						unk_0xFECAE061D8C80757(iParam0, 10, iVar7, iVar8, 0);
+						unk_0xD1C578C204015E1F(iParam0, 10, iVar7, iVar8, 0);
 					}
 					else if (func_185(iVar13, 10, &iVar33, -1))
 					{
 						if (func_186(iVar33, 11, Var15.f_1))
 						{
-							unk_0x3CD23E98A4BA2D16(iVar33, &Var34);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var34.f_3, Var34.f_4, 0);
+							unk_0xA5690D702773BED4(iVar33, &Var34);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var34.f_3, Var34.f_4, 0);
 						}
 					}
 				}
-				if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+				if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 				{
-					if (unk_0x7FEA86016BC12607(iVar13, joaat("crew_logo"), 0))
+					if (unk_0x304A39EB177D246B(iVar13, joaat("crew_logo"), 0))
 					{
-						if (unk_0x7FEA86016BC12607(iVar32, joaat("ie_draw_16"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_1_0"))
+						if (unk_0x304A39EB177D246B(iVar32, joaat("ie_draw_16"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_1_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_decl_1_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_decl_1_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar32, joaat("ie_draw_19"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_2_0"))
+						else if (unk_0x304A39EB177D246B(iVar32, joaat("ie_draw_19"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_2_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_decl_2_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_decl_2_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar32, joaat("gorka_suit"), 0))
+						else if (unk_0x304A39EB177D246B(iVar32, joaat("gorka_suit"), 0))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_decl_10_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_decl_10_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar32, 721933872, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_0_0"))
+						else if (unk_0x304A39EB177D246B(iVar32, 721933872, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_0_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_m_decl_0_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_m_decl_0_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar32, 383888868, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_1_0"))
+						else if (unk_0x304A39EB177D246B(iVar32, 383888868, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_1_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_m_decl_1_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_m_decl_1_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
 					}
 				}
-				else if (unk_0x7FEA86016BC12607(iVar13, joaat("crew_logo"), 0))
+				else if (unk_0x304A39EB177D246B(iVar13, joaat("crew_logo"), 0))
 				{
-					if (unk_0x7FEA86016BC12607(iVar32, joaat("ie_draw_16"), 0))
+					if (unk_0x304A39EB177D246B(iVar32, joaat("ie_draw_16"), 0))
 					{
 						if (iVar13 != joaat("dlc_mp_ie_f_decl_1_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_decl_1_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_decl_1_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar32, joaat("ie_draw_19"), 0))
+					else if (unk_0x304A39EB177D246B(iVar32, joaat("ie_draw_19"), 0))
 					{
 						if (iVar13 != joaat("dlc_mp_ie_f_decl_2_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_decl_2_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_decl_2_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar32, joaat("gorka_suit"), 0))
+					else if (unk_0x304A39EB177D246B(iVar32, joaat("gorka_suit"), 0))
 					{
-						unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_decl_10_0"), &Var15);
-						unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+						unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_decl_10_0"), &Var15);
+						unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar32, 507034778, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_1_0"))
+					else if (unk_0x304A39EB177D246B(iVar32, 507034778, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_1_0"))
 					{
-						unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_f_decl_1_0"), &Var15);
-						unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+						unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_f_decl_1_0"), &Var15);
+						unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar32, 201267239, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_2_0"))
+					else if (unk_0x304A39EB177D246B(iVar32, 201267239, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_2_0"))
 					{
-						unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_f_decl_2_0"), &Var15);
-						unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+						unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_f_decl_2_0"), &Var15);
+						unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 					}
 				}
-				unk_0xFECAE061D8C80757(iParam0, 1, iVar3, iVar4, 0);
+				unk_0xD1C578C204015E1F(iParam0, 1, iVar3, iVar4, 0);
 			}
 		}
 	}
-	else if (unk_0x7FEA86016BC12607(iVar9, joaat("hooded_jacket"), 0) && unk_0x7FEA86016BC12607(iVar9, joaat("hood_down"), 0))
+	else if (unk_0x304A39EB177D246B(iVar9, joaat("hooded_jacket"), 0) && unk_0x304A39EB177D246B(iVar9, joaat("hood_down"), 0))
 	{
-		if (unk_0x7FEA86016BC12607(iVar12, joaat("fake_hat"), 1))
+		if (unk_0x304A39EB177D246B(iVar12, joaat("fake_hat"), 1))
 		{
 			if (func_187(iVar9, 1, 0, &iVar51))
 			{
-				unk_0x3CD23E98A4BA2D16(iVar51, &Var15);
-				unk_0xFECAE061D8C80757(iParam0, 11, Var15.f_3, Var15.f_4, unk_0x41CBA4CCBAA79DEF(iParam0, 11));
-				if (unk_0xAC464F61BE9FD50D(iParam0, 10) == 0 && func_186(iVar13, 11, -1))
+				unk_0xA5690D702773BED4(iVar51, &Var15);
+				unk_0xD1C578C204015E1F(iParam0, 11, Var15.f_3, Var15.f_4, unk_0xDAF263B0E792EAEC(iParam0, 11));
+				if (unk_0xC0120BBCC298EA2F(iParam0, 10) == 0 && func_186(iVar13, 11, -1))
 				{
 					if (func_186(iVar13, 11, Var15.f_1))
 					{
-						unk_0xFECAE061D8C80757(iParam0, 10, iVar7, iVar8, 0);
+						unk_0xD1C578C204015E1F(iParam0, 10, iVar7, iVar8, 0);
 					}
 					else if (func_185(iVar13, 10, &iVar52, -1))
 					{
 						if (func_186(iVar52, 11, Var15.f_1))
 						{
-							unk_0x3CD23E98A4BA2D16(iVar52, &Var53);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var53.f_3, Var53.f_4, 0);
+							unk_0xA5690D702773BED4(iVar52, &Var53);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var53.f_3, Var53.f_4, 0);
 						}
 					}
 				}
-				if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+				if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 				{
-					if (unk_0x7FEA86016BC12607(iVar13, joaat("crew_logo"), 0))
+					if (unk_0x304A39EB177D246B(iVar13, joaat("crew_logo"), 0))
 					{
-						if (unk_0x7FEA86016BC12607(iVar51, joaat("ie_draw_16"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_1_0"))
+						if (unk_0x304A39EB177D246B(iVar51, joaat("ie_draw_16"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_1_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_decl_1_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_decl_1_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar51, joaat("ie_draw_19"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_2_0"))
+						else if (unk_0x304A39EB177D246B(iVar51, joaat("ie_draw_19"), 0) && iVar13 != joaat("dlc_mp_ie_m_decl_2_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_decl_2_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_decl_2_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar51, joaat("gorka_suit"), 0))
+						else if (unk_0x304A39EB177D246B(iVar51, joaat("gorka_suit"), 0))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_decl_10_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_decl_10_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar51, 721933872, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_0_0"))
+						else if (unk_0x304A39EB177D246B(iVar51, 721933872, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_0_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_m_decl_0_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_m_decl_0_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
-						else if (unk_0x7FEA86016BC12607(iVar51, 383888868, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_1_0"))
+						else if (unk_0x304A39EB177D246B(iVar51, 383888868, 0) && iVar13 != joaat("dlc_mp_fixer_m_decl_1_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_m_decl_1_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_m_decl_1_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
 					}
 				}
-				else if (unk_0x7FEA86016BC12607(iVar13, joaat("crew_logo"), 0))
+				else if (unk_0x304A39EB177D246B(iVar13, joaat("crew_logo"), 0))
 				{
-					if (unk_0x7FEA86016BC12607(iVar51, joaat("ie_draw_16"), 0))
+					if (unk_0x304A39EB177D246B(iVar51, joaat("ie_draw_16"), 0))
 					{
 						if (iVar13 != joaat("dlc_mp_ie_f_decl_1_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_decl_1_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_decl_1_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar51, joaat("ie_draw_19"), 0))
+					else if (unk_0x304A39EB177D246B(iVar51, joaat("ie_draw_19"), 0))
 					{
 						if (iVar13 != joaat("dlc_mp_ie_f_decl_2_0"))
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_decl_2_0"), &Var15);
-							unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_decl_2_0"), &Var15);
+							unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar51, joaat("gorka_suit"), 0))
+					else if (unk_0x304A39EB177D246B(iVar51, joaat("gorka_suit"), 0))
 					{
-						unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_decl_10_0"), &Var15);
-						unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+						unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_decl_10_0"), &Var15);
+						unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar51, 507034778, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_1_0"))
+					else if (unk_0x304A39EB177D246B(iVar51, 507034778, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_1_0"))
 					{
-						unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_f_decl_1_0"), &Var15);
-						unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+						unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_f_decl_1_0"), &Var15);
+						unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 					}
-					else if (unk_0x7FEA86016BC12607(iVar51, 201267239, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_2_0"))
+					else if (unk_0x304A39EB177D246B(iVar51, 201267239, 0) && iVar13 != joaat("dlc_mp_fixer_f_decl_2_0"))
 					{
-						unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_fixer_f_decl_2_0"), &Var15);
-						unk_0xFECAE061D8C80757(iParam0, 10, Var15.f_3, Var15.f_4, 0);
+						unk_0xA5690D702773BED4(joaat("dlc_mp_fixer_f_decl_2_0"), &Var15);
+						unk_0xD1C578C204015E1F(iParam0, 10, Var15.f_3, Var15.f_4, 0);
 					}
 				}
-				unk_0xFECAE061D8C80757(iParam0, 1, iVar3, iVar4, 0);
+				unk_0xD1C578C204015E1F(iParam0, 1, iVar3, iVar4, 0);
 			}
 		}
 	}
-	else if (unk_0x7FEA86016BC12607(iVar11, joaat("haz_hood"), 0) || func_184(iParam0, iVar9))
+	else if (unk_0x304A39EB177D246B(iVar11, joaat("haz_hood"), 0) || func_184(iParam0, iVar9))
 	{
 		iVar6 = iVar2;
 		if (!func_188(iParam0, &bVar14, iVar9, iVar10, iVar12))
@@ -30861,30 +30861,30 @@ void func_183(int iParam0)
 					iVar6 = 0;
 				}
 			}
-			else if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+			else if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_special_6_0"), &Var15);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_special_6_0"), &Var15);
 				iVar5 = Var15.f_3;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_special_10_0"), &Var15);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_special_10_0"), &Var15);
 				iVar5 = Var15.f_3;
 			}
 		}
-		else if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+		else if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 		{
-			unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_special_7_0"), &Var15);
+			unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_special_7_0"), &Var15);
 			iVar5 = Var15.f_3;
 		}
 		else
 		{
-			unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_special_11_0"), &Var15);
+			unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_special_11_0"), &Var15);
 			iVar5 = Var15.f_3;
 		}
-		if (iVar5 != unk_0xAC464F61BE9FD50D(iParam0, 8) || iVar6 != unk_0xEDEBC30DEBDF84C8(iParam0, 8))
+		if (iVar5 != unk_0xC0120BBCC298EA2F(iParam0, 8) || iVar6 != unk_0xD6AED6BFCC58AF7F(iParam0, 8))
 		{
-			unk_0xFECAE061D8C80757(iParam0, 8, iVar5, iVar6, unk_0x41CBA4CCBAA79DEF(iParam0, 8));
+			unk_0xD1C578C204015E1F(iParam0, 8, iVar5, iVar6, unk_0xDAF263B0E792EAEC(iParam0, 8));
 		}
 	}
 }
@@ -30893,18 +30893,18 @@ int func_184(int iParam0, int iParam1)
 {
 	if (iParam1 == -1)
 	{
-		iParam1 = unk_0xFC680D6CC972AEFB(iParam0, 11, unk_0xAC464F61BE9FD50D(iParam0, 11), unk_0xEDEBC30DEBDF84C8(iParam0, 11));
+		iParam1 = unk_0x94B8A32AA940A6B5(iParam0, 11, unk_0xC0120BBCC298EA2F(iParam0, 11), unk_0xD6AED6BFCC58AF7F(iParam0, 11));
 	}
-	if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+	if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 	{
-		if (unk_0x7FEA86016BC12607(iParam1, joaat("heist_draw_14"), 0))
+		if (unk_0x304A39EB177D246B(iParam1, joaat("heist_draw_14"), 0))
 		{
 			return 1;
 		}
 	}
-	else if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_f_freemode_01"))
+	else if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_f_freemode_01"))
 	{
-		if (unk_0x7FEA86016BC12607(iParam1, joaat("heist_draw_15"), 0))
+		if (unk_0x304A39EB177D246B(iParam1, joaat("heist_draw_15"), 0))
 		{
 			return 1;
 		}
@@ -30919,16 +30919,16 @@ int func_185(int iParam0, int iParam1, var uParam2, int iParam3)
 	var uVar2;
 	int iVar3;
 	
-	iVar0 = unk_0xF15296EACCC386AE(iParam0);
+	iVar0 = unk_0x5A3F0A3B7ECCBD32(iParam0);
 	iVar1 = 0;
 	while (iVar1 < iVar0)
 	{
-		unk_0xEAB69C23DB3E475B(iParam0, iVar1, uParam2, &uVar2, &iVar3);
+		unk_0x0249B53AB91BF9D0(iParam0, iVar1, uParam2, &uVar2, &iVar3);
 		if (iVar3 == iParam1)
 		{
 			if (*uParam2 != 0 && *uParam2 != joaat("0"))
 			{
-				if (iParam3 == -1 || unk_0x7FEA86016BC12607(*uParam2, iParam3, iVar3))
+				if (iParam3 == -1 || unk_0x304A39EB177D246B(*uParam2, iParam3, iVar3))
 				{
 					return 1;
 				}
@@ -30949,11 +30949,11 @@ int func_186(int iParam0, int iParam1, int iParam2)
 	
 	if (iParam0 != -1)
 	{
-		iVar0 = unk_0x9161FFD18E646230(iParam0);
+		iVar0 = unk_0x9FB2D71D9CEC8B5A(iParam0);
 		iVar1 = 0;
 		while (iVar1 < iVar0)
 		{
-			unk_0xCB7D1266D9B2BE25(iParam0, iVar1, &iVar2, &uVar3, &iVar4);
+			unk_0xCF4D7500E7DA5D8E(iParam0, iVar1, &iVar2, &uVar3, &iVar4);
 			if (iVar4 == iParam1 && (iParam2 == -1 || iParam2 == iVar2))
 			{
 				return 1;
@@ -30972,12 +30972,12 @@ int func_187(int iParam0, int iParam1, int iParam2, var uParam3)
 	int iVar3;
 	
 	*uParam3 = -1;
-	iVar0 = unk_0xF15296EACCC386AE(iParam0);
+	iVar0 = unk_0x5A3F0A3B7ECCBD32(iParam0);
 	iVar1 = 0;
 	while (iVar1 < iVar0)
 	{
-		unk_0xEAB69C23DB3E475B(iParam0, iVar1, uParam3, &uVar2, &iVar3);
-		if ((((iVar3 == 11 && *uParam3 != 0) && *uParam3 != joaat("0")) && iParam1 == unk_0x7FEA86016BC12607(*uParam3, joaat("hood_up"), 0)) && iParam2 == unk_0x7FEA86016BC12607(*uParam3, joaat("hood_tucked"), 0))
+		unk_0x0249B53AB91BF9D0(iParam0, iVar1, uParam3, &uVar2, &iVar3);
+		if ((((iVar3 == 11 && *uParam3 != 0) && *uParam3 != joaat("0")) && iParam1 == unk_0x304A39EB177D246B(*uParam3, joaat("hood_up"), 0)) && iParam2 == unk_0x304A39EB177D246B(*uParam3, joaat("hood_tucked"), 0))
 		{
 			return 1;
 		}
@@ -30993,30 +30993,30 @@ int func_188(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	*iParam1 = 0;
 	if (iParam2 == -1)
 	{
-		iParam2 = unk_0xFC680D6CC972AEFB(iParam0, 11, unk_0xAC464F61BE9FD50D(iParam0, 11), unk_0xEDEBC30DEBDF84C8(iParam0, 11));
+		iParam2 = unk_0x94B8A32AA940A6B5(iParam0, 11, unk_0xC0120BBCC298EA2F(iParam0, 11), unk_0xD6AED6BFCC58AF7F(iParam0, 11));
 	}
 	if (iParam3 == -1)
 	{
-		iParam3 = unk_0xFC680D6CC972AEFB(iParam0, 1, unk_0xAC464F61BE9FD50D(iParam0, 1), unk_0xEDEBC30DEBDF84C8(iParam0, 1));
+		iParam3 = unk_0x94B8A32AA940A6B5(iParam0, 1, unk_0xC0120BBCC298EA2F(iParam0, 1), unk_0xD6AED6BFCC58AF7F(iParam0, 1));
 	}
 	if (iParam4 == -1)
 	{
-		iParam4 = unk_0xBC87DFB594B23350(iParam0, 0, unk_0x6BC6C26115124DFE(iParam0, 0, 1), unk_0xC5753F88DDA773E0(iParam0, 0));
+		iParam4 = unk_0x6B7AEB5F3D578298(iParam0, 0, unk_0xB204F40D393426B6(iParam0, 0, 1), unk_0x0DC23FA727759F9F(iParam0, 0));
 	}
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
-	if (unk_0x7FEA86016BC12607(iParam2, joaat("hooded_jacket"), 0))
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
+	if (unk_0x304A39EB177D246B(iParam2, joaat("hooded_jacket"), 0))
 	{
-		if (unk_0x7FEA86016BC12607(iParam2, joaat("fitted_hood"), 0))
+		if (unk_0x304A39EB177D246B(iParam2, joaat("fitted_hood"), 0))
 		{
-			if (!unk_0x7FEA86016BC12607(iParam4, joaat("hood_hat"), 1) && unk_0x6BC6C26115124DFE(iParam0, 0, 1) != -1)
+			if (!unk_0x304A39EB177D246B(iParam4, joaat("hood_hat"), 1) && unk_0xB204F40D393426B6(iParam0, 0, 1) != -1)
 			{
 				return 0;
 			}
-			if ((!unk_0x7FEA86016BC12607(iParam3, joaat("HOOD_COMPAT"), 0) && !unk_0x7FEA86016BC12607(iParam3, joaat("haz_mask"), 0)) && unk_0xAC464F61BE9FD50D(iParam0, 1) != 0)
+			if ((!unk_0x304A39EB177D246B(iParam3, joaat("HOOD_COMPAT"), 0) && !unk_0x304A39EB177D246B(iParam3, joaat("haz_mask"), 0)) && unk_0xC0120BBCC298EA2F(iParam0, 1) != 0)
 			{
-				if (unk_0x7FEA86016BC12607(iParam4, joaat("hood_hat"), 1))
+				if (unk_0x304A39EB177D246B(iParam4, joaat("hood_hat"), 1))
 				{
-					if (unk_0x7FEA86016BC12607(iParam3, joaat("ski_mask"), 0) || unk_0x7FEA86016BC12607(iParam3, joaat("biker_mask"), 0))
+					if (unk_0x304A39EB177D246B(iParam3, joaat("ski_mask"), 0) || unk_0x304A39EB177D246B(iParam3, joaat("biker_mask"), 0))
 					{
 					}
 					else
@@ -31024,7 +31024,7 @@ int func_188(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 						return 0;
 					}
 				}
-				else if (unk_0x7FEA86016BC12607(iParam3, joaat("biker_mask"), 0))
+				else if (unk_0x304A39EB177D246B(iParam3, joaat("biker_mask"), 0))
 				{
 				}
 				else
@@ -31032,18 +31032,18 @@ int func_188(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 					return 0;
 				}
 			}
-			if (unk_0x7FEA86016BC12607(iParam3, joaat("night_vision"), 0))
+			if (unk_0x304A39EB177D246B(iParam3, joaat("night_vision"), 0))
 			{
 				return 0;
 			}
 		}
 		else
 		{
-			if (unk_0x6BC6C26115124DFE(iParam0, 0, 1) != -1)
+			if (unk_0xB204F40D393426B6(iParam0, 0, 1) != -1)
 			{
 				return 0;
 			}
-			if ((!unk_0x7FEA86016BC12607(iParam3, joaat("HOOD_COMPAT"), 0) && !unk_0x7FEA86016BC12607(iParam3, joaat("haz_mask"), 0)) && unk_0xAC464F61BE9FD50D(iParam0, 1) != 0)
+			if ((!unk_0x304A39EB177D246B(iParam3, joaat("HOOD_COMPAT"), 0) && !unk_0x304A39EB177D246B(iParam3, joaat("haz_mask"), 0)) && unk_0xC0120BBCC298EA2F(iParam0, 1) != 0)
 			{
 				return 0;
 			}
@@ -31052,7 +31052,7 @@ int func_188(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	}
 	if (iVar0 == joaat("mp_m_freemode_01"))
 	{
-		if (!unk_0x7FEA86016BC12607(iParam2, joaat("heist_draw_14"), 0))
+		if (!unk_0x304A39EB177D246B(iParam2, joaat("heist_draw_14"), 0))
 		{
 			*iParam1 = 1;
 			return 0;
@@ -31105,12 +31105,12 @@ int func_188(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	}
 	else
 	{
-		if (!unk_0x7FEA86016BC12607(iParam2, joaat("heist_draw_15"), 0))
+		if (!unk_0x304A39EB177D246B(iParam2, joaat("heist_draw_15"), 0))
 		{
 			*iParam1 = 1;
 			return 0;
 		}
-		if (unk_0x7FEA86016BC12607(iParam3, joaat("scruffy_balaclava"), 0))
+		if (unk_0x304A39EB177D246B(iParam3, joaat("scruffy_balaclava"), 0))
 		{
 			*iParam1 = 1;
 			return 0;
@@ -31273,7 +31273,7 @@ int func_188(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 				break;
 			}
 	}
-	if (unk_0x7FEA86016BC12607(iParam3, joaat("haz_mask"), 0) && !func_189(iVar0, 14, func_201(iParam0, 14, 0), -1))
+	if (unk_0x304A39EB177D246B(iParam3, joaat("haz_mask"), 0) && !func_189(iVar0, 14, func_201(iParam0, 14, 0), -1))
 	{
 		return 1;
 	}
@@ -31296,7 +31296,7 @@ int func_189(int iParam0, int iParam1, int iParam2, int iParam3)
 					{
 						iParam3 = func_180(iParam0, iParam2, 14, 3);
 					}
-					if ((iParam2 >= 131 && iParam2 <= 154) || (iParam2 >= 327 && unk_0x7FEA86016BC12607(iParam3, joaat("helmet"), 1)))
+					if ((iParam2 >= 131 && iParam2 <= 154) || (iParam2 >= 327 && unk_0x304A39EB177D246B(iParam3, joaat("helmet"), 1)))
 					{
 						return 1;
 					}
@@ -31312,7 +31312,7 @@ int func_189(int iParam0, int iParam1, int iParam2, int iParam3)
 					{
 						iParam3 = func_180(iParam0, iParam2, 14, 4);
 					}
-					if ((iParam2 >= 131 && iParam2 <= 154) || (iParam2 >= 327 && unk_0x7FEA86016BC12607(iParam3, joaat("helmet"), 1)))
+					if ((iParam2 >= 131 && iParam2 <= 154) || (iParam2 >= 327 && unk_0x304A39EB177D246B(iParam3, joaat("helmet"), 1)))
 					{
 						return 1;
 					}
@@ -31427,7 +31427,7 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar2 = func_181(iParam0, 8);
 					iVar15 = func_180(iParam1, iVar2, 8, 3);
 					iVar16 = func_170(iVar15);
-					if (((((iVar2 >= 96 && iVar2 <= 111) || (iVar2 >= 112 && iVar2 <= 127)) || (iVar2 >= 241 && iVar16 == 6)) || (iVar2 >= 241 && iVar16 == 7)) || (iVar2 >= 241 && unk_0x7FEA86016BC12607(iVar15, joaat("vest_shirt"), 0)))
+					if (((((iVar2 >= 96 && iVar2 <= 111) || (iVar2 >= 112 && iVar2 <= 127)) || (iVar2 >= 241 && iVar16 == 6)) || (iVar2 >= 241 && iVar16 == 7)) || (iVar2 >= 241 && unk_0x304A39EB177D246B(iVar15, joaat("vest_shirt"), 0)))
 					{
 						iVar0 = -99;
 					}
@@ -31458,23 +31458,23 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					if (iVar14 != -1)
 					{
 						bVar17 = true;
-						if (unk_0x7FEA86016BC12607(iVar14, joaat("draw_11"), 0))
+						if (unk_0x304A39EB177D246B(iVar14, joaat("draw_11"), 0))
 						{
 							iVar2 = func_181(iParam0, 8);
 							iVar18 = func_180(iParam1, iVar2, 8, 3);
 							iVar19 = func_170(iVar18);
-							if (((((iVar2 >= 96 && iVar2 <= 111) || (iVar2 >= 112 && iVar2 <= 127)) || (iVar2 >= 241 && iVar19 == 6)) || (iVar2 >= 241 && iVar19 == 7)) || (iVar2 >= 241 && unk_0x7FEA86016BC12607(iVar18, joaat("vest_shirt"), 0)))
+							if (((((iVar2 >= 96 && iVar2 <= 111) || (iVar2 >= 112 && iVar2 <= 127)) || (iVar2 >= 241 && iVar19 == 6)) || (iVar2 >= 241 && iVar19 == 7)) || (iVar2 >= 241 && unk_0x304A39EB177D246B(iVar18, joaat("vest_shirt"), 0)))
 							{
 								bVar17 = false;
 							}
 						}
 						if (bVar17)
 						{
-							iVar3 = unk_0x9161FFD18E646230(iVar14);
+							iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 							iVar4 = 0;
 							while (iVar4 < iVar3)
 							{
-								unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+								unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 								if (iVar7 == 3)
 								{
 									if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31519,7 +31519,7 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					iVar20 = func_181(iParam0, 11);
 					iVar21 = func_180(iParam1, iVar20, 11, 3);
-					if ((iVar20 >= 237 && unk_0x7FEA86016BC12607(iVar21, joaat("open_short"), 0)) || (iVar20 >= 237 && unk_0x7FEA86016BC12607(iVar21, -1099375697, 0)))
+					if ((iVar20 >= 237 && unk_0x304A39EB177D246B(iVar21, joaat("open_short"), 0)) || (iVar20 >= 237 && unk_0x304A39EB177D246B(iVar21, -1099375697, 0)))
 					{
 						iVar0 = func_60(iParam1, 799429565, 3, 3);
 					}
@@ -31568,11 +31568,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					iVar22 = func_181(iParam0, 11);
 					iVar23 = func_180(iParam1, iVar22, 11, 3);
-					if (iVar22 >= 237 && unk_0x7FEA86016BC12607(iVar23, joaat("open_short"), 0))
+					if (iVar22 >= 237 && unk_0x304A39EB177D246B(iVar23, joaat("open_short"), 0))
 					{
 						iVar0 = func_60(iParam1, joaat("dlc_mp_h4_m_torso_0_0"), 3, 3);
 					}
-					else if (iVar22 >= 237 && unk_0x7FEA86016BC12607(iVar23, -1099375697, 0))
+					else if (iVar22 >= 237 && unk_0x304A39EB177D246B(iVar23, -1099375697, 0))
 					{
 						iVar0 = 0;
 					}
@@ -31586,11 +31586,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 8, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 3)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31615,11 +31615,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 10, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 3)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31696,7 +31696,7 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar2 = func_181(iParam0, 8);
 					iVar25 = func_180(iParam1, iVar2, 8, 3);
 					iVar26 = func_170(iVar25);
-					if (((((iVar2 >= 96 && iVar2 <= 111) || (iVar2 >= 112 && iVar2 <= 127)) || (iVar2 >= 241 && iVar26 == 6)) || (iVar2 >= 241 && iVar26 == 7)) || (iVar2 >= 241 && unk_0x7FEA86016BC12607(iVar25, joaat("vest_shirt"), 0)))
+					if (((((iVar2 >= 96 && iVar2 <= 111) || (iVar2 >= 112 && iVar2 <= 127)) || (iVar2 >= 241 && iVar26 == 6)) || (iVar2 >= 241 && iVar26 == 7)) || (iVar2 >= 241 && unk_0x304A39EB177D246B(iVar25, joaat("vest_shirt"), 0)))
 					{
 					}
 					else
@@ -31725,11 +31725,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 8)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31753,11 +31753,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 						iVar14 = func_180(iParam1, iParam3, 6, 3);
 						if (iVar14 != -1)
 						{
-							iVar3 = unk_0x9161FFD18E646230(iVar14);
+							iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 							iVar4 = 0;
 							while (iVar4 < iVar3)
 							{
-								unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+								unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 								if (iVar7 == 8)
 								{
 									if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31785,7 +31785,7 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar28 = func_180(iParam1, iParam3, 7, 3);
 					iVar27 = func_170(iVar28);
 				}
-				if (((((((((iParam3 >= 41 && iParam3 <= 56) || (iParam3 >= 57 && iParam3 <= 72)) || (iParam3 >= 73 && iParam3 <= 88)) || iVar27 == 10) || iVar27 == 11) || iVar27 == 12) || (iParam3 >= 92 && unk_0x7FEA86016BC12607(iVar28, joaat("vest_tie"), 0))) || (iParam3 >= 92 && unk_0x7FEA86016BC12607(iVar28, joaat("tux_tie"), 0))) || (iParam3 >= 92 && unk_0x7FEA86016BC12607(iVar28, joaat("tie"), 0)))
+				if (((((((((iParam3 >= 41 && iParam3 <= 56) || (iParam3 >= 57 && iParam3 <= 72)) || (iParam3 >= 73 && iParam3 <= 88)) || iVar27 == 10) || iVar27 == 11) || iVar27 == 12) || (iParam3 >= 92 && unk_0x304A39EB177D246B(iVar28, joaat("vest_tie"), 0))) || (iParam3 >= 92 && unk_0x304A39EB177D246B(iVar28, joaat("tux_tie"), 0))) || (iParam3 >= 92 && unk_0x304A39EB177D246B(iVar28, joaat("tie"), 0)))
 				{
 					iVar2 = func_181(iParam0, 8);
 					if (iVar2 >= 48 && iVar2 <= 63)
@@ -31807,16 +31807,16 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					{
 						iVar14 = func_180(iParam1, iVar2, 8, 3);
 						iVar29 = func_170(iVar14);
-						bVar30 = unk_0x7FEA86016BC12607(iVar14, joaat("tux_vest"), 0);
-						if (((iVar29 == 3 || iVar29 == 7) || iVar29 == 11) || unk_0x7FEA86016BC12607(iVar14, joaat("open_collar"), 0))
+						bVar30 = unk_0x304A39EB177D246B(iVar14, joaat("tux_vest"), 0);
+						if (((iVar29 == 3 || iVar29 == 7) || iVar29 == 11) || unk_0x304A39EB177D246B(iVar14, joaat("open_collar"), 0))
 						{
 							if (iVar14 != -1)
 							{
-								iVar12 = unk_0xF15296EACCC386AE(iVar14);
+								iVar12 = unk_0x5A3F0A3B7ECCBD32(iVar14);
 								iVar13 = 0;
 								while (iVar13 < iVar12)
 								{
-									unk_0xEAB69C23DB3E475B(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
+									unk_0x0249B53AB91BF9D0(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
 									if ((iVar7 == 8 && !bVar30) || (iVar7 == 10 && bVar30))
 									{
 										if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31835,20 +31835,20 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 						}
 					}
 				}
-				else if (((iParam3 >= 92 && unk_0x7FEA86016BC12607(iVar28, joaat("loose_tie"), 0)) || (iParam3 >= 92 && unk_0x7FEA86016BC12607(iVar28, joaat("slack_tie"), 0))) || (iParam3 >= 92 && unk_0x7FEA86016BC12607(iVar28, joaat("loose_bowtie"), 0)))
+				else if (((iParam3 >= 92 && unk_0x304A39EB177D246B(iVar28, joaat("loose_tie"), 0)) || (iParam3 >= 92 && unk_0x304A39EB177D246B(iVar28, joaat("slack_tie"), 0))) || (iParam3 >= 92 && unk_0x304A39EB177D246B(iVar28, joaat("loose_bowtie"), 0)))
 				{
 					iVar14 = func_180(iParam1, iVar2, 8, 3);
 					iVar31 = func_170(iVar14);
-					bVar32 = unk_0x7FEA86016BC12607(iVar14, joaat("tux_vest"), 0);
-					if (((iVar31 == 3 || iVar31 == 7) || iVar31 == 11) || unk_0x7FEA86016BC12607(iVar14, joaat("open_collar"), 0))
+					bVar32 = unk_0x304A39EB177D246B(iVar14, joaat("tux_vest"), 0);
+					if (((iVar31 == 3 || iVar31 == 7) || iVar31 == 11) || unk_0x304A39EB177D246B(iVar14, joaat("open_collar"), 0))
 					{
 						if (iVar14 != -1)
 						{
-							iVar12 = unk_0xF15296EACCC386AE(iVar14);
+							iVar12 = unk_0x5A3F0A3B7ECCBD32(iVar14);
 							iVar13 = 0;
 							while (iVar13 < iVar12)
 							{
-								unk_0xEAB69C23DB3E475B(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
+								unk_0x0249B53AB91BF9D0(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
 								if ((iVar7 == 8 && !bVar32) || (iVar7 == 10 && bVar32))
 								{
 									if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31871,11 +31871,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 7, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 8)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31900,11 +31900,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 10, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 8)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31929,11 +31929,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 6, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 8)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -31963,21 +31963,21 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar34 = func_180(iParam1, iParam3, 7, 3);
 					iVar33 = func_170(iVar34);
 				}
-				if (((((((iParam3 >= 41 && iParam3 <= 56) || (iParam3 >= 57 && iParam3 <= 72)) || (iParam3 >= 73 && iParam3 <= 88)) || iVar33 == 10) || iVar33 == 11) || iVar33 == 12) || unk_0x7FEA86016BC12607(iVar34, joaat("tie"), 0))
+				if (((((((iParam3 >= 41 && iParam3 <= 56) || (iParam3 >= 57 && iParam3 <= 72)) || (iParam3 >= 73 && iParam3 <= 88)) || iVar33 == 10) || iVar33 == 11) || iVar33 == 12) || unk_0x304A39EB177D246B(iVar34, joaat("tie"), 0))
 				{
 					iVar35 = func_181(iParam0, 11);
 					if (iVar35 >= 237)
 					{
 						iVar14 = func_180(iParam1, iVar35, 11, 3);
-						if ((unk_0x7FEA86016BC12607(iVar14, joaat("shirt_braces"), 0) || unk_0x7FEA86016BC12607(iVar14, joaat("h3_draw_7"), 0)) && unk_0x7FEA86016BC12607(iVar14, joaat("open_collar"), 0))
+						if ((unk_0x304A39EB177D246B(iVar14, joaat("shirt_braces"), 0) || unk_0x304A39EB177D246B(iVar14, joaat("h3_draw_7"), 0)) && unk_0x304A39EB177D246B(iVar14, joaat("open_collar"), 0))
 						{
 							if (iVar14 != -1)
 							{
-								iVar12 = unk_0xF15296EACCC386AE(iVar14);
+								iVar12 = unk_0x5A3F0A3B7ECCBD32(iVar14);
 								iVar13 = 0;
 								while (iVar13 < iVar12)
 								{
-									unk_0xEAB69C23DB3E475B(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
+									unk_0x0249B53AB91BF9D0(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
 									if (iVar7 == 11)
 									{
 										if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32004,11 +32004,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 10, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 11)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32035,16 +32035,16 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				if (iVar36 >= 237)
 				{
 					iVar14 = func_180(iParam1, iVar36, 11, 3);
-					if ((unk_0x7FEA86016BC12607(iVar14, joaat("shirt_braces"), 0) || unk_0x7FEA86016BC12607(iVar14, joaat("h3_draw_7"), 0)) && unk_0x7FEA86016BC12607(iVar14, joaat("open_collar"), 0))
+					if ((unk_0x304A39EB177D246B(iVar14, joaat("shirt_braces"), 0) || unk_0x304A39EB177D246B(iVar14, joaat("h3_draw_7"), 0)) && unk_0x304A39EB177D246B(iVar14, joaat("open_collar"), 0))
 					{
 						iVar14 = func_180(iParam1, iParam3, 11, 3);
 						if (iVar14 != -1)
 						{
-							iVar3 = unk_0x9161FFD18E646230(iVar14);
+							iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 							iVar4 = 0;
 							while (iVar4 < iVar3)
 							{
-								unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+								unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 								if (iVar7 == 7)
 								{
 									if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32070,11 +32070,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 14, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 7)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32102,11 +32102,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 4)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32134,11 +32134,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 10)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32161,11 +32161,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 4, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 6)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32190,11 +32190,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 6)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32222,11 +32222,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 14, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 1)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32251,11 +32251,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 6, 3);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 1)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32283,11 +32283,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 1, 3);
 					if (iVar14 != -1)
 					{
-						iVar8 = unk_0xA7B1A65C60E58479(iVar14);
+						iVar8 = unk_0xCBBA20766F48DC67(iVar14);
 						iVar9 = 0;
 						while (iVar9 < iVar8)
 						{
-							unk_0x5CD28B693AE1A2DF(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
+							unk_0x24F0ED4836CD2E4D(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
 							if (iVar11 == iParam5)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32313,11 +32313,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 3);
 					if (iVar14 != -1)
 					{
-						iVar8 = unk_0xA7B1A65C60E58479(iVar14);
+						iVar8 = unk_0xCBBA20766F48DC67(iVar14);
 						iVar9 = 0;
 						while (iVar9 < iVar8)
 						{
-							unk_0x5CD28B693AE1A2DF(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
+							unk_0x24F0ED4836CD2E4D(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
 							if (iVar11 == iParam5)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32343,11 +32343,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 6, 3);
 					if (iVar14 != -1)
 					{
-						iVar8 = unk_0xA7B1A65C60E58479(iVar14);
+						iVar8 = unk_0xCBBA20766F48DC67(iVar14);
 						iVar9 = 0;
 						while (iVar9 < iVar8)
 						{
-							unk_0x5CD28B693AE1A2DF(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
+							unk_0x24F0ED4836CD2E4D(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
 							if (iVar11 == iParam5)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32443,11 +32443,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 3)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32472,11 +32472,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 10, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 3)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32570,11 +32570,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					if (iVar14 != -1)
 					{
 						bVar37 = false;
-						if (unk_0x7FEA86016BC12607(iVar14, joaat("basic_vest"), 0))
+						if (unk_0x304A39EB177D246B(iVar14, joaat("basic_vest"), 0))
 						{
 							iVar2 = func_181(iParam0, 8);
 							iVar38 = func_180(iParam1, iVar2, 8, 4);
-							if (iVar2 >= 136 && unk_0x7FEA86016BC12607(iVar38, joaat("vest_shirt"), 0))
+							if (iVar2 >= 136 && unk_0x304A39EB177D246B(iVar38, joaat("vest_shirt"), 0))
 							{
 							}
 							else
@@ -32585,11 +32585,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 						}
 						if (!bVar37)
 						{
-							iVar3 = unk_0x9161FFD18E646230(iVar14);
+							iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 							iVar4 = 0;
 							while (iVar4 < iVar3)
 							{
-								unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+								unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 								if (iVar7 == 8)
 								{
 									if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32615,28 +32615,28 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				{
 					iVar39 = func_180(iParam1, iParam3, 7, 4);
 				}
-				if ((iVar39 != -1 && unk_0x7FEA86016BC12607(iVar39, joaat("tie"), 0)) || (iVar39 != -1 && unk_0x7FEA86016BC12607(iVar39, joaat("bowtie"), 0)))
+				if ((iVar39 != -1 && unk_0x304A39EB177D246B(iVar39, joaat("tie"), 0)) || (iVar39 != -1 && unk_0x304A39EB177D246B(iVar39, joaat("bowtie"), 0)))
 				{
-					iVar14 = unk_0xFC680D6CC972AEFB(iParam0, 8, unk_0xAC464F61BE9FD50D(iParam0, 8), unk_0xEDEBC30DEBDF84C8(iParam0, 8));
+					iVar14 = unk_0x94B8A32AA940A6B5(iParam0, 8, unk_0xC0120BBCC298EA2F(iParam0, 8), unk_0xD6AED6BFCC58AF7F(iParam0, 8));
 					bVar40 = false;
-					if (unk_0x7FEA86016BC12607(iVar39, joaat("loose_tie"), 0) || unk_0x7FEA86016BC12607(iVar39, joaat("loose_bowtie"), 0))
+					if (unk_0x304A39EB177D246B(iVar39, joaat("loose_tie"), 0) || unk_0x304A39EB177D246B(iVar39, joaat("loose_bowtie"), 0))
 					{
-						if (unk_0x7FEA86016BC12607(iVar14, joaat("closed_collar"), 0))
+						if (unk_0x304A39EB177D246B(iVar14, joaat("closed_collar"), 0))
 						{
 							bVar40 = true;
 						}
 					}
-					else if (unk_0x7FEA86016BC12607(iVar14, joaat("open_collar"), 0))
+					else if (unk_0x304A39EB177D246B(iVar14, joaat("open_collar"), 0))
 					{
 						bVar40 = true;
 					}
 					if (bVar40)
 					{
-						iVar12 = unk_0xF15296EACCC386AE(iVar14);
+						iVar12 = unk_0x5A3F0A3B7ECCBD32(iVar14);
 						iVar13 = 0;
 						while (iVar13 < iVar12)
 						{
-							unk_0xEAB69C23DB3E475B(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
+							unk_0x0249B53AB91BF9D0(iVar14, iVar13, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 8)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32661,11 +32661,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 10, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 8)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32690,11 +32690,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 6, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 8)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32722,11 +32722,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 4, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 6)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32751,11 +32751,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 6)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32783,11 +32783,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 4)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32815,11 +32815,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 10)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32842,11 +32842,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 10, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 11)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32874,11 +32874,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 14, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 7)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32906,11 +32906,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 14, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 1)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32935,11 +32935,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 6, 4);
 					if (iVar14 != -1)
 					{
-						iVar3 = unk_0x9161FFD18E646230(iVar14);
+						iVar3 = unk_0x9FB2D71D9CEC8B5A(iVar14);
 						iVar4 = 0;
 						while (iVar4 < iVar3)
 						{
-							unk_0xCB7D1266D9B2BE25(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
+							unk_0xCF4D7500E7DA5D8E(iVar14, iVar4, &iVar5, &iVar6, &iVar7);
 							if (iVar7 == 1)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32967,11 +32967,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 1, 4);
 					if (iVar14 != -1)
 					{
-						iVar8 = unk_0xA7B1A65C60E58479(iVar14);
+						iVar8 = unk_0xCBBA20766F48DC67(iVar14);
 						iVar9 = 0;
 						while (iVar9 < iVar8)
 						{
-							unk_0x5CD28B693AE1A2DF(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
+							unk_0x24F0ED4836CD2E4D(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
 							if (iVar11 == iParam5)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -32997,11 +32997,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 11, 4);
 					if (iVar14 != -1)
 					{
-						iVar8 = unk_0xA7B1A65C60E58479(iVar14);
+						iVar8 = unk_0xCBBA20766F48DC67(iVar14);
 						iVar9 = 0;
 						while (iVar9 < iVar8)
 						{
-							unk_0x5CD28B693AE1A2DF(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
+							unk_0x24F0ED4836CD2E4D(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
 							if (iVar11 == iParam5)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -33027,11 +33027,11 @@ int func_190(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 					iVar14 = func_180(iParam1, iParam3, 6, 4);
 					if (iVar14 != -1)
 					{
-						iVar8 = unk_0xA7B1A65C60E58479(iVar14);
+						iVar8 = unk_0xCBBA20766F48DC67(iVar14);
 						iVar9 = 0;
 						while (iVar9 < iVar8)
 						{
-							unk_0x5CD28B693AE1A2DF(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
+							unk_0x24F0ED4836CD2E4D(iVar14, iVar9, &iVar5, &iVar10, &iVar11);
 							if (iVar11 == iParam5)
 							{
 								if (iVar5 != 0 && iVar5 != joaat("0"))
@@ -33095,16 +33095,16 @@ int func_191(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 					if (iVar0 >= 26)
 					{
 						iVar1 = func_180(iParam1, iVar0, 1, 3);
-						if (unk_0x7FEA86016BC12607(iVar1, joaat("night_vision"), 0))
+						if (unk_0x304A39EB177D246B(iVar1, joaat("night_vision"), 0))
 						{
 							iVar1 = func_180(iParam1, iParam3, 1, 3);
 							if (iVar1 != -1)
 							{
-								iVar2 = unk_0x9161FFD18E646230(iVar1);
+								iVar2 = unk_0x9FB2D71D9CEC8B5A(iVar1);
 								iVar3 = 0;
 								while (iVar3 < iVar2)
 								{
-									unk_0xCB7D1266D9B2BE25(iVar1, iVar3, &iVar4, &uVar5, &iVar6);
+									unk_0xCF4D7500E7DA5D8E(iVar1, iVar3, &iVar4, &uVar5, &iVar6);
 									if (iVar6 == 2)
 									{
 										if (iVar4 != 0 && iVar4 != joaat("0"))
@@ -33146,16 +33146,16 @@ int func_191(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 					if (iVar7 >= 26)
 					{
 						iVar8 = func_180(iParam1, iVar7, 1, 4);
-						if (unk_0x7FEA86016BC12607(iVar8, joaat("night_vision"), 0))
+						if (unk_0x304A39EB177D246B(iVar8, joaat("night_vision"), 0))
 						{
 							iVar8 = func_180(iParam1, iParam3, 1, 4);
 							if (iVar8 != -1)
 							{
-								iVar9 = unk_0x9161FFD18E646230(iVar8);
+								iVar9 = unk_0x9FB2D71D9CEC8B5A(iVar8);
 								iVar10 = 0;
 								while (iVar10 < iVar9)
 								{
-									unk_0xCB7D1266D9B2BE25(iVar8, iVar10, &iVar11, &uVar12, &iVar13);
+									unk_0xCF4D7500E7DA5D8E(iVar8, iVar10, &iVar11, &uVar12, &iVar13);
 									if (iVar13 == 2)
 									{
 										if (iVar11 != 0 && iVar11 != joaat("0"))
@@ -33192,7 +33192,7 @@ void func_192(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 	int iVar1;
 	int iVar2;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		if (func_194(iParam0))
 		{
@@ -33200,7 +33200,7 @@ void func_192(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 		}
 		if (iParam1 == 11 || iParam1 == 8)
 		{
-			iVar0 = unk_0x504B9BB48D41C264(iParam0);
+			iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
 			if (iParam1 == 11)
 			{
 				if (func_175(iVar0, iParam2, -1))
@@ -33217,12 +33217,12 @@ void func_192(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4)
 					return;
 				}
 			}
-			func_160(unk_0x14580F20CBCE4FA9("torsoDecal"), iParam0);
+			func_160(unk_0x70E57E9927B6BA58("torsoDecal"), iParam0);
 			if (iParam1 == 11)
 			{
 				if (((((!func_167(iVar0, iParam2, 13) && !func_167(iVar0, iParam2, 14)) && !func_167(iVar0, iParam2, 15)) && !func_167(iVar0, iParam2, 16)) && !func_167(iVar0, iParam2, 71)) && !func_167(iVar0, iParam2, 72))
 				{
-					func_160(unk_0x14580F20CBCE4FA9("crewLogo"), iParam0);
+					func_160(unk_0x70E57E9927B6BA58("crewLogo"), iParam0);
 				}
 			}
 			iVar2 = func_157(iVar0, iParam1, iParam2, iParam4);
@@ -33246,7 +33246,7 @@ void func_193(int iParam0, int iParam1, int iParam2)
 	int iVar0;
 	struct<6> Var1;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		if (iParam1 != -1)
 		{
@@ -33255,7 +33255,7 @@ void func_193(int iParam0, int iParam1, int iParam2)
 			{
 				if (func_134(&Var1, iParam1, iVar0, iParam0, -1))
 				{
-					unk_0x462E1939BD8B6F55(iParam0, Var1.f_4, Var1.f_5);
+					unk_0x49A5A17556C31561(iParam0, Var1.f_4, Var1.f_5);
 					func_109(iParam0, Var1.f_4, Var1.f_5);
 				}
 			}
@@ -33271,82 +33271,82 @@ int func_194(int iParam0)
 	int iVar3;
 	int iVar4;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
-		if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01"))
+		if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01"))
 		{
-			if (unk_0xB850F932D03EF34D(iParam0) != func_42() && func_195(unk_0xB850F932D03EF34D(iParam0)))
+			if (unk_0x1C1C92A1CBAE364B(iParam0) != func_42() && func_195(unk_0x1C1C92A1CBAE364B(iParam0)))
 			{
 				return 1;
 			}
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 11);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 11);
 			if (iVar0 > 15)
 			{
 				iVar1 = func_201(iParam0, 11, -1);
 				if (iVar1 >= 237)
 				{
 					iVar2 = func_180(joaat("mp_m_freemode_01"), iVar1, 11, 3);
-					if (unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_11"), 0))
+					if (unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_11"), 0))
 					{
 						return 1;
 					}
-					else if ((((((((((unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_1"), 0) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_17"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_18"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_19"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_20"), 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_21"), 0)) || unk_0x7FEA86016BC12607(iVar2, 83294665, 0)) || unk_0x7FEA86016BC12607(iVar2, joaat("biker_draw_27"), 0))
+					else if ((((((((((unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_1"), 0) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_17"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_18"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_19"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_20"), 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_21"), 0)) || unk_0x304A39EB177D246B(iVar2, 83294665, 0)) || unk_0x304A39EB177D246B(iVar2, joaat("biker_draw_27"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("jugg_suit"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("jugg_suit"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("stunt_draw_1"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("stunt_draw_1"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("jugg_suit"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("jugg_suit"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar2, joaat("x17_draw_6"), 0))
+					else if (unk_0x304A39EB177D246B(iVar2, joaat("x17_draw_6"), 0))
 					{
 						return 1;
 					}
 				}
 			}
 		}
-		else if (unk_0x504B9BB48D41C264(iParam0) == joaat("mp_f_freemode_01"))
+		else if (unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_f_freemode_01"))
 		{
-			if (unk_0xB850F932D03EF34D(iParam0) != func_42() && func_195(unk_0xB850F932D03EF34D(iParam0)))
+			if (unk_0x1C1C92A1CBAE364B(iParam0) != func_42() && func_195(unk_0x1C1C92A1CBAE364B(iParam0)))
 			{
 				return 1;
 			}
-			iVar0 = unk_0xAC464F61BE9FD50D(iParam0, 11);
+			iVar0 = unk_0xC0120BBCC298EA2F(iParam0, 11);
 			if (iVar0 > 15)
 			{
 				iVar3 = func_201(iParam0, 11, -1);
 				if (iVar3 >= 237)
 				{
 					iVar4 = func_180(joaat("mp_f_freemode_01"), iVar3, 11, 4);
-					if (unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_11"), 0))
+					if (unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_11"), 0))
 					{
 						return 1;
 					}
-					else if ((((((((((unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_1"), 0) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_2"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_4"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_5"), 0)) || unk_0x7FEA86016BC12607(iVar4, 970679185, 0)) || unk_0x7FEA86016BC12607(iVar4, 83294665, 0)) || unk_0x7FEA86016BC12607(iVar4, 382246252, 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_25"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_26"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_28"), 0)) || unk_0x7FEA86016BC12607(iVar4, joaat("biker_draw_32"), 0))
+					else if ((((((((((unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_1"), 0) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_2"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_4"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_5"), 0)) || unk_0x304A39EB177D246B(iVar4, 970679185, 0)) || unk_0x304A39EB177D246B(iVar4, 83294665, 0)) || unk_0x304A39EB177D246B(iVar4, 382246252, 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_25"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_26"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_28"), 0)) || unk_0x304A39EB177D246B(iVar4, joaat("biker_draw_32"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar4, joaat("jugg_suit"), 0))
+					else if (unk_0x304A39EB177D246B(iVar4, joaat("jugg_suit"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar4, joaat("stunt_draw_1"), 0))
+					else if (unk_0x304A39EB177D246B(iVar4, joaat("stunt_draw_1"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar4, joaat("jugg_suit"), 0))
+					else if (unk_0x304A39EB177D246B(iVar4, joaat("jugg_suit"), 0))
 					{
 						return 1;
 					}
-					else if (unk_0x7FEA86016BC12607(iVar4, joaat("x17_draw_6"), 0))
+					else if (unk_0x304A39EB177D246B(iVar4, joaat("x17_draw_6"), 0))
 					{
 						return 1;
 					}
@@ -33394,11 +33394,11 @@ void func_198(int iParam0, bool bParam1, int iParam2)
 	{
 		if (bParam1)
 		{
-			unk_0xECDAB41968FF21A8(&iVar0, func_114(iVar1));
+			unk_0x0B0C9A0F9AAEB7F0(&iVar0, func_114(iVar1));
 		}
 		else
 		{
-			unk_0x061B1200C95204CB(&iVar0, func_114(iVar1));
+			unk_0x8744D2E3FC95740E(&iVar0, func_114(iVar1));
 		}
 		if (!func_199(0))
 		{
@@ -33456,7 +33456,7 @@ int func_201(int iParam0, int iParam1, int iParam2)
 	int iVar0;
 	int iVar1;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		if (iParam1 == 12)
 		{
@@ -33506,16 +33506,16 @@ int func_202(int iParam0, int iParam1)
 	int iVar0;
 	int iVar1;
 	
-	if (unk_0x66599E73DBA5A850(iParam0))
+	if (unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		return -99;
 	}
-	iVar0 = unk_0x6BC6C26115124DFE(iParam0, iParam1, 1);
+	iVar0 = unk_0xB204F40D393426B6(iParam0, iParam1, 1);
 	if (iVar0 == -1)
 	{
 		return func_173(iParam1);
 	}
-	iVar1 = unk_0xC5753F88DDA773E0(iParam0, iParam1);
+	iVar1 = unk_0x0DC23FA727759F9F(iParam0, iParam1);
 	return func_203(iParam0, iVar0, iVar1, iParam1);
 }
 
@@ -33533,24 +33533,24 @@ int func_203(int iParam0, int iParam1, int iParam2, int iParam3)
 	{
 		return func_173(iParam3);
 	}
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
-	iVar1 = unk_0xBC87DFB594B23350(iParam0, iParam3, iParam1, iParam2);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
+	iVar1 = unk_0x6B7AEB5F3D578298(iParam0, iParam3, iParam1, iParam2);
 	if (iVar1 != -1 && iVar1 != 0)
 	{
 		if (iVar0 == joaat("mp_m_freemode_01"))
 		{
-			return func_60(unk_0x504B9BB48D41C264(iParam0), iVar1, 14, 3);
+			return func_60(unk_0x4B423FAA24E8ABF0(iParam0), iVar1, 14, 3);
 		}
 		else if (iVar0 == joaat("mp_f_freemode_01"))
 		{
-			return func_60(unk_0x504B9BB48D41C264(iParam0), iVar1, 14, 4);
+			return func_60(unk_0x4B423FAA24E8ABF0(iParam0), iVar1, 14, 4);
 		}
 	}
-	iVar2 = unk_0x264D10830E27C58F(iParam0, iParam3);
+	iVar2 = unk_0x4D0F04723A52D0E9(iParam0, iParam3);
 	iVar4 = 0;
 	while (iVar4 <= (iVar2 - 1))
 	{
-		iVar6 = unk_0x8FCF05C5AF1F1EDA(iParam0, iParam3, iVar4);
+		iVar6 = unk_0x1D77F90D87ACD2BA(iParam0, iParam3, iVar4);
 		if (iVar4 != iParam1)
 		{
 			iVar3 = (iVar3 + iVar6);
@@ -33581,7 +33581,7 @@ int func_204(int iParam0, int iParam1)
 {
 	int iVar0;
 	
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
 	switch (iVar0)
 	{
 		case joaat("player_zero"):
@@ -33678,28 +33678,28 @@ void func_205(int iParam0, int iParam1, int iParam2, int iParam3)
 	
 	if (iParam2 == -1)
 	{
-		unk_0x7E4E6DFA37692889(iParam0, iParam1, 1);
+		unk_0x09397806857F5DFB(iParam0, iParam1, 1);
 		if (iParam1 == 0)
 		{
-			unk_0x598D91BBD045C1F3(iParam0, 34, 0);
-			unk_0x598D91BBD045C1F3(iParam0, 36, 0);
+			unk_0x0428AFDCAA63B06E(iParam0, 34, 0);
+			unk_0x0428AFDCAA63B06E(iParam0, 36, 0);
 		}
 	}
 	else
 	{
-		unk_0x0A3B6B850C2EC4FD(iParam0, iParam1, iParam2, iParam3, unk_0xA26A9A07F761D8F8(), 1);
+		unk_0x7F08C4791E6D6969(iParam0, iParam1, iParam2, iParam3, unk_0x76CD105BCAC6EB9F(), 1);
 		if (iParam1 == 0)
 		{
 			iVar0 = func_203(iParam0, iParam2, iParam3, iParam1);
-			if (func_189(unk_0x504B9BB48D41C264(iParam0), 14, iVar0, unk_0xBC87DFB594B23350(iParam0, 0, iParam2, iParam3)))
+			if (func_189(unk_0x4B423FAA24E8ABF0(iParam0), 14, iVar0, unk_0x6B7AEB5F3D578298(iParam0, 0, iParam2, iParam3)))
 			{
-				unk_0x598D91BBD045C1F3(iParam0, 34, 1);
-				unk_0x598D91BBD045C1F3(iParam0, 36, 1);
+				unk_0x0428AFDCAA63B06E(iParam0, 34, 1);
+				unk_0x0428AFDCAA63B06E(iParam0, 36, 1);
 			}
 			else
 			{
-				unk_0x598D91BBD045C1F3(iParam0, 34, 0);
-				unk_0x598D91BBD045C1F3(iParam0, 36, 0);
+				unk_0x0428AFDCAA63B06E(iParam0, 34, 0);
+				unk_0x0428AFDCAA63B06E(iParam0, 36, 0);
 			}
 		}
 	}
@@ -34134,13 +34134,13 @@ void func_207(int iParam0, int iParam1, int iParam2, int iParam3)
 		{
 			iVar0 = 4;
 		}
-		unk_0x26A75301DC1C273A(iParam2, &Var1);
-		if (!unk_0xEF068EDE5319404F(Var1.f_0))
+		unk_0x565B95D20273E8CD(iParam2, &Var1);
+		if (!unk_0x4BFA043D318BF9AE(Var1.f_0))
 		{
 			iVar19 = 0;
 			while (iVar19 < Var1.f_3)
 			{
-				if (unk_0x16D45A5C95133115(Var1.f_1, iVar19, &Var16) && Var16.f_2 != -1)
+				if (unk_0xCD4F2395AE80D510(Var1.f_1, iVar19, &Var16) && Var16.f_2 != -1)
 				{
 					if ((Var16.f_0 != 0 && Var16.f_0 != -1) && Var16.f_0 != joaat("0"))
 					{
@@ -35150,21 +35150,21 @@ void func_211(var uParam0, int iParam1, int iParam2, int iParam3)
 	{
 		iVar0 = 4;
 	}
-	unk_0x3E0156DFC7F98195(iVar0, 0);
-	unk_0xDA7F09AF3E39DFB7((iParam2 - iParam3), &Var1);
-	if (!unk_0xEF068EDE5319404F(Var1.f_0))
+	unk_0xF2DDA7CE028AB9CB(iVar0, 0);
+	unk_0x808A8ABE207631DF((iParam2 - iParam3), &Var1);
+	if (!unk_0x4BFA043D318BF9AE(Var1.f_0))
 	{
 		iVar36 = 0;
 		while (iVar36 < Var1.f_4)
 		{
-			if (unk_0x2071249D32108490(Var1.f_1, iVar36, &Var16))
+			if (unk_0xABE43EB6EBE5F2F5(Var1.f_1, iVar36, &Var16))
 			{
 				if ((Var16.f_0 != 0 && Var16.f_0 != -1) && Var16.f_0 != joaat("0"))
 				{
 					if (Var16.f_2 == 10)
 					{
-						unk_0xF9105E199166E912(&Var19);
-						unk_0x3CD23E98A4BA2D16(Var16.f_0, &Var19);
+						unk_0x15D20F88F06530A5(&Var19);
+						unk_0xA5690D702773BED4(Var16.f_0, &Var19);
 						if (Var16.f_0 != Var19.f_1)
 						{
 							uParam0->f_16 = 1;
@@ -35284,7 +35284,7 @@ void func_214(int iParam0, int iParam1, int iParam2, bool bParam3)
 	int iVar8;
 	int iVar9;
 	
-	if (unk_0xA26A9A07F761D8F8())
+	if (unk_0x76CD105BCAC6EB9F())
 	{
 		if (Global_78338 != func_37() || iParam2 == -99)
 		{
@@ -35310,7 +35310,7 @@ void func_214(int iParam0, int iParam1, int iParam2, bool bParam3)
 			}
 			if (bParam3)
 			{
-				iVar0 = unk_0xF15296EACCC386AE(Global_2883588);
+				iVar0 = unk_0x5A3F0A3B7ECCBD32(Global_2883588);
 				iVar5 = 0;
 				iVar1 = 0;
 				while (iVar1 < iVar0)
@@ -35320,10 +35320,10 @@ void func_214(int iParam0, int iParam1, int iParam2, bool bParam3)
 						Global_4539513[iVar5] = -1;
 						Global_4539524[iVar5] = -1;
 					}
-					unk_0xEAB69C23DB3E475B(Global_2883588, iVar1, &iVar2, &uVar3, &iVar4);
+					unk_0x0249B53AB91BF9D0(Global_2883588, iVar1, &iVar2, &uVar3, &iVar4);
 					if (iVar4 != 10 && iVar4 != 9)
 					{
-						if (iParam1 == 4 && unk_0x7FEA86016BC12607(Global_2883588, joaat("stockings"), 0))
+						if (iParam1 == 4 && unk_0x304A39EB177D246B(Global_2883588, joaat("stockings"), 0))
 						{
 						}
 						else if (iVar2 != 0 && iVar2 != joaat("0"))
@@ -35375,7 +35375,7 @@ void func_214(int iParam0, int iParam1, int iParam2, bool bParam3)
 			if (func_216(iParam1, Global_78341[1 /*14*/].f_2, &iVar6))
 			{
 				iVar7 = func_165(iVar6, Global_78338, 0);
-				unk_0xECDAB41968FF21A8(&iVar7, Global_78341[2 /*14*/].f_1);
+				unk_0x0B0C9A0F9AAEB7F0(&iVar7, Global_78341[2 /*14*/].f_1);
 				func_52(iVar6, iVar7, Global_78338, 1, 0);
 			}
 			if (bParam3 == 1)
@@ -35848,11 +35848,11 @@ int func_215(int iParam0, int iParam1, int iParam2)
 			iVar1 = func_180(iParam0, iParam1, 11, 3);
 			if (iVar1 != -1)
 			{
-				iVar2 = unk_0xF15296EACCC386AE(iVar1);
+				iVar2 = unk_0x5A3F0A3B7ECCBD32(iVar1);
 				iVar3 = 0;
 				while (iVar3 < iVar2)
 				{
-					unk_0xEAB69C23DB3E475B(iVar1, iVar3, &iVar4, &iVar5, &iVar6);
+					unk_0x0249B53AB91BF9D0(iVar1, iVar3, &iVar4, &iVar5, &iVar6);
 					if (iVar6 == 8)
 					{
 						if (iVar4 != 0 && iVar4 != joaat("0"))
@@ -35941,11 +35941,11 @@ int func_215(int iParam0, int iParam1, int iParam2)
 			iVar7 = func_180(iParam0, iParam1, 11, 4);
 			if (iVar7 != -1)
 			{
-				iVar8 = unk_0xF15296EACCC386AE(iVar7);
+				iVar8 = unk_0x5A3F0A3B7ECCBD32(iVar7);
 				iVar9 = 0;
 				while (iVar9 < iVar8)
 				{
-					unk_0xEAB69C23DB3E475B(iVar7, iVar9, &iVar10, &iVar11, &iVar12);
+					unk_0x0249B53AB91BF9D0(iVar7, iVar9, &iVar10, &iVar11, &iVar12);
 					if (iVar12 == 8)
 					{
 						if (iVar10 != 0 && iVar10 != joaat("0"))
@@ -36268,7 +36268,7 @@ void func_217(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	if (func_218(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
 	{
 		iVar3 = func_165(iVar2, iVar0, 0);
-		unk_0xECDAB41968FF21A8(&iVar3, iVar1);
+		unk_0x0B0C9A0F9AAEB7F0(&iVar3, iVar1);
 		func_52(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -36609,20 +36609,20 @@ bool func_218(int iParam0, int iParam1, var uParam2, var uParam3, bool bParam4, 
 	{
 		if (Global_4539485)
 		{
-			iVar0 = unk_0x24AF50C5650AD665(iParam0);
+			iVar0 = unk_0x82ADFEA98A0C26DC(iParam0);
 		}
 		else
 		{
-			iVar0 = unk_0xCD90B1EEBAC554AE(iParam0);
+			iVar0 = unk_0x6F4B2AB7CFB2F472(iParam0);
 		}
 	}
 	else if (bParam5)
 	{
-		iVar0 = unk_0x24AF50C5650AD665(iParam0);
+		iVar0 = unk_0x82ADFEA98A0C26DC(iParam0);
 	}
 	else
 	{
-		iVar0 = unk_0xCD90B1EEBAC554AE(iParam0);
+		iVar0 = unk_0x6F4B2AB7CFB2F472(iParam0);
 	}
 	if (iVar0 == -1)
 	{
@@ -39198,43 +39198,43 @@ void func_223(var uParam0, int iParam1, int iParam2, char* sParam3, int iParam4,
 		}
 		uParam0->f_2 = 0;
 	}
-	if (unk_0x14580F20CBCE4FA9(sParam3) != unk_0x14580F20CBCE4FA9("NO_LABEL"))
+	if (unk_0x70E57E9927B6BA58(sParam3) != unk_0x70E57E9927B6BA58("NO_LABEL"))
 	{
 	}
 	if (bParam7)
 	{
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), 3);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 3);
 	}
 	if (bParam10)
 	{
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), false);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), false);
 		if (uParam0->f_5 >= 0 && uParam0->f_5 < 3)
 		{
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), 5);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 5);
 		}
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), true);
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), 2);
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), 6);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), true);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 2);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 6);
 		if (func_228(14))
 		{
 			return;
 		}
 		if (iParam1 == 1)
 		{
-			if (unk_0x7FEA86016BC12607(Global_2883588, joaat("rebreather"), 0))
+			if (unk_0x304A39EB177D246B(Global_2883588, joaat("rebreather"), 0))
 			{
-				unk_0xECDAB41968FF21A8(&(uParam0->f_6), 7);
+				unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 7);
 			}
 		}
 		if (iParam1 == 12)
 		{
 			if (!func_227(Global_2883588, 1, 1, 1, -1))
 			{
-				unk_0x061B1200C95204CB(&(uParam0->f_6), 2);
+				unk_0x8744D2E3FC95740E(&(uParam0->f_6), 2);
 			}
 			if (!func_227(Global_2883588, 2, 1, 1, -1))
 			{
-				unk_0xECDAB41968FF21A8(&(uParam0->f_6), 4);
+				unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 4);
 			}
 		}
 		else if (iParam1 == 13)
@@ -39244,50 +39244,50 @@ void func_223(var uParam0, int iParam1, int iParam2, char* sParam3, int iParam4,
 		{
 			if (!func_227(Global_2883588, 1, 1, 1, -1))
 			{
-				unk_0x061B1200C95204CB(&(uParam0->f_6), 2);
+				unk_0x8744D2E3FC95740E(&(uParam0->f_6), 2);
 			}
 			if (!func_227(Global_2883588, 2, 1, 1, -1))
 			{
-				unk_0xECDAB41968FF21A8(&(uParam0->f_6), 4);
+				unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 4);
 			}
 		}
 		else
 		{
 			if (!func_227(Global_2883588, 1, 1, 1, -1))
 			{
-				unk_0x061B1200C95204CB(&(uParam0->f_6), 2);
+				unk_0x8744D2E3FC95740E(&(uParam0->f_6), 2);
 			}
 			if (!func_227(Global_2883588, 2, 1, 1, -1))
 			{
-				unk_0xECDAB41968FF21A8(&(uParam0->f_6), 4);
+				unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 4);
 			}
 		}
-		if (unk_0xEF068EDE5319404F(Global_2883589))
+		if (unk_0x4BFA043D318BF9AE(Global_2883589))
 		{
-			unk_0x061B1200C95204CB(&(uParam0->f_6), 1);
-			unk_0x061B1200C95204CB(&(uParam0->f_6), 0);
+			unk_0x8744D2E3FC95740E(&(uParam0->f_6), 1);
+			unk_0x8744D2E3FC95740E(&(uParam0->f_6), 0);
 		}
 	}
 	else if (uParam0->f_5 >= 0 && uParam0->f_5 < 3)
 	{
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), false);
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), 5);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), false);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 5);
 		if (func_226(iParam1, uParam0->f_5, uParam0->f_2, 0, uParam0->f_1, 0, 0))
 		{
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), true);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), true);
 		}
 		if (func_226(iParam1, uParam0->f_5, uParam0->f_2, 1, uParam0->f_1, 0, 0))
 		{
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), 2);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 2);
 		}
 		if (!func_226(iParam1, uParam0->f_5, uParam0->f_2, 2, uParam0->f_1, 0, 0))
 		{
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), 4);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 4);
 		}
 	}
 	else
 	{
-		unk_0xECDAB41968FF21A8(&(uParam0->f_6), false);
+		unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), false);
 		if ((((((((((iParam1 == 11 || iParam1 == 4) || iParam1 == 6) || iParam1 == 1) || iParam1 == 14) || iParam1 == 2) || iParam1 == 8) || iParam1 == 9) || iParam1 == 10) || iParam1 == 7) || iParam1 == 12)
 		{
 			if (func_228(14))
@@ -39297,34 +39297,34 @@ void func_223(var uParam0, int iParam1, int iParam2, char* sParam3, int iParam4,
 			iVar0 = func_165(func_225(iParam1, uParam0->f_2), Global_78338, 0);
 			if (BitTest(iVar0, uParam0->f_1))
 			{
-				unk_0xECDAB41968FF21A8(&(uParam0->f_6), true);
+				unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), true);
 			}
 			iVar0 = func_165(func_224(iParam1, uParam0->f_2), Global_78338, 0);
 			if (BitTest(iVar0, uParam0->f_1))
 			{
-				unk_0xECDAB41968FF21A8(&(uParam0->f_6), 2);
+				unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 2);
 			}
 			if (func_216(iParam1, uParam0->f_2, &iVar1))
 			{
 				iVar0 = func_165(iVar1, Global_78338, 0);
 				if (!BitTest(iVar0, uParam0->f_1))
 				{
-					unk_0xECDAB41968FF21A8(&(uParam0->f_6), 4);
+					unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 4);
 				}
 			}
 		}
 		else
 		{
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), true);
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), 2);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), true);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 2);
 		}
 	}
 	if (iParam1 == 14)
 	{
 		if (iParam4 == -1)
 		{
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), true);
-			unk_0xECDAB41968FF21A8(&(uParam0->f_6), 2);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), true);
+			unk_0x0B0C9A0F9AAEB7F0(&(uParam0->f_6), 2);
 		}
 	}
 }
@@ -39899,11 +39899,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/][iParam3]), iParam4);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/][iParam3]), iParam4);
 		}
 		if (iParam6 == 1)
 		{
-			unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/][iParam3]), bParam4);
+			unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/][iParam3]), bParam4);
 		}
 		return BitTest(Global_113648.f_2365[iParam1 /*164*/][iParam3], bParam4);
 	}
@@ -39911,11 +39911,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_4[iParam3]), bParam4);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_4[iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
-			unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_4[iParam3]), bParam4);
+			unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_4[iParam3]), bParam4);
 		}
 		return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_4[iParam3], bParam4);
 	}
@@ -39923,11 +39923,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_8[iParam3]), bParam4);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_8[iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
-			unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_8[iParam3]), bParam4);
+			unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_8[iParam3]), bParam4);
 		}
 		return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_8[iParam3], bParam4);
 	}
@@ -39937,11 +39937,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_12[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_12[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_12[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_12[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_12[iParam3], bParam4);
 		}
@@ -39949,11 +39949,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_16[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_16[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_16[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_16[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_16[iParam3], bParam4);
 		}
@@ -39961,11 +39961,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_20[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_20[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_20[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_20[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_20[iParam3], bParam4);
 		}
@@ -39973,11 +39973,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_24[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_24[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_24[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_24[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_24[iParam3], bParam4);
 		}
@@ -39985,11 +39985,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_28[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_28[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_28[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_28[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_28[iParam3], bParam4);
 		}
@@ -39997,11 +39997,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_32[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_32[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_32[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_32[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_32[iParam3], bParam4);
 		}
@@ -40009,11 +40009,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_36[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_36[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_36[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_36[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_36[iParam3], bParam4);
 		}
@@ -40021,11 +40021,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_40[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_40[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_40[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_40[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_40[iParam3], bParam4);
 		}
@@ -40033,11 +40033,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_44[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_44[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_44[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_44[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_44[iParam3], bParam4);
 		}
@@ -40045,11 +40045,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_48[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_48[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_48[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_48[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_48[iParam3], bParam4);
 		}
@@ -40060,11 +40060,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_52[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_52[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_52[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_52[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_52[iParam3], bParam4);
 		}
@@ -40072,11 +40072,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_56[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_56[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_56[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_56[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_56[iParam3], bParam4);
 		}
@@ -40084,11 +40084,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_60[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_60[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_60[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_60[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_60[iParam3], bParam4);
 		}
@@ -40096,11 +40096,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_64[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_64[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_64[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_64[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_64[iParam3], bParam4);
 		}
@@ -40109,11 +40109,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_68[iParam3]), bParam4);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_68[iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
-			unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_68[iParam3]), bParam4);
+			unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_68[iParam3]), bParam4);
 		}
 		return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_68[iParam3], bParam4);
 	}
@@ -40123,11 +40123,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_72[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_72[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_72[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_72[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_72[iParam3], bParam4);
 		}
@@ -40135,11 +40135,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_76[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_76[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_76[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_76[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_76[iParam3], bParam4);
 		}
@@ -40147,11 +40147,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_80[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_80[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_80[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_80[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_80[iParam3], bParam4);
 		}
@@ -40159,11 +40159,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_84[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_84[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_84[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_84[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_84[iParam3], bParam4);
 		}
@@ -40171,11 +40171,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_88[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_88[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_88[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_88[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_88[iParam3], bParam4);
 		}
@@ -40184,11 +40184,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_92[iParam3]), bParam4);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_92[iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
-			unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_92[iParam3]), bParam4);
+			unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_92[iParam3]), bParam4);
 		}
 		return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_92[iParam3], bParam4);
 	}
@@ -40198,11 +40198,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_96[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_96[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_96[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_96[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_96[iParam3], bParam4);
 		}
@@ -40210,11 +40210,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_100[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_100[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_100[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_100[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_100[iParam3], bParam4);
 		}
@@ -40222,11 +40222,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_104[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_104[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_104[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_104[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_104[iParam3], bParam4);
 		}
@@ -40235,11 +40235,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_108[iParam3]), bParam4);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_108[iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
-			unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_108[iParam3]), bParam4);
+			unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_108[iParam3]), bParam4);
 		}
 		return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_108[iParam3], bParam4);
 	}
@@ -40249,11 +40249,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_112[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_112[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_112[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_112[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_112[iParam3], bParam4);
 		}
@@ -40261,11 +40261,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_116[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_116[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_116[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_116[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_116[iParam3], bParam4);
 		}
@@ -40276,11 +40276,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_120[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_120[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_120[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_120[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_120[iParam3], bParam4);
 		}
@@ -40288,11 +40288,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_124[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_124[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_124[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_124[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_124[iParam3], bParam4);
 		}
@@ -40303,11 +40303,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_128[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_128[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_128[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_128[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_128[iParam3], bParam4);
 		}
@@ -40315,11 +40315,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_132[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_132[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_132[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_132[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_132[iParam3], bParam4);
 		}
@@ -40328,11 +40328,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 	{
 		if (iParam5 == 1)
 		{
-			unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_136[iParam3]), bParam4);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_136[iParam3]), bParam4);
 		}
 		if (iParam6 == 1)
 		{
-			unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_136[iParam3]), bParam4);
+			unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_136[iParam3]), bParam4);
 		}
 		return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_136[iParam3], bParam4);
 	}
@@ -40342,11 +40342,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_140[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_140[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_140[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_140[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_140[iParam3], bParam4);
 		}
@@ -40354,11 +40354,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_144[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_144[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_144[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_144[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_144[iParam3], bParam4);
 		}
@@ -40366,11 +40366,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_148[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_148[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_148[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_148[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_148[iParam3], bParam4);
 		}
@@ -40378,11 +40378,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_152[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_152[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_152[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_152[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_152[iParam3], bParam4);
 		}
@@ -40390,11 +40390,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_156[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_156[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_156[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_156[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_156[iParam3], bParam4);
 		}
@@ -40402,11 +40402,11 @@ int func_226(int iParam0, int iParam1, int iParam2, int iParam3, bool bParam4, i
 		{
 			if (iParam5 == 1)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_113648.f_2365[iParam1 /*164*/].f_160[iParam3]), bParam4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_2365[iParam1 /*164*/].f_160[iParam3]), bParam4);
 			}
 			if (iParam6 == 1)
 			{
-				unk_0x061B1200C95204CB(&(Global_113648.f_2365[iParam1 /*164*/].f_160[iParam3]), bParam4);
+				unk_0x8744D2E3FC95740E(&(Global_113648.f_2365[iParam1 /*164*/].f_160[iParam3]), bParam4);
 			}
 			return BitTest(Global_113648.f_2365[iParam1 /*164*/].f_160[iParam3], bParam4);
 		}
@@ -40542,10 +40542,10 @@ void func_231(int iParam0, int iParam1, int iParam2, int iParam3)
 		iVar17 = (iParam1 - iParam2);
 		if (iVar17 >= 0)
 		{
-			iVar18 = unk_0x3E0156DFC7F98195(uVar1, 0);
+			iVar18 = unk_0xF2DDA7CE028AB9CB(uVar1, 0);
 			if (iVar18 > iVar17)
 			{
-				unk_0xDA7F09AF3E39DFB7(iVar17, &Var2);
+				unk_0x808A8ABE207631DF(iVar17, &Var2);
 				Global_2883588 = Var2.f_1;
 				Global_2883589 = Var2.f_0;
 				func_223(&(Global_78341[0 /*14*/]), iParam0, iParam1, &(Var2.f_7), 0, 0, Var2.f_2, 0, -1, 2, 1);
@@ -40559,14 +40559,14 @@ void func_231(int iParam0, int iParam1, int iParam2, int iParam3)
 	}
 	else if (iParam0 == 14)
 	{
-		unk_0x469012E2C56B87C8(&Var19);
+		unk_0x7A491C9A90975007(&Var19);
 		iVar37 = (iParam1 - iParam2);
 		if (iVar37 >= 0)
 		{
-			iVar38 = unk_0xDAEB80C06A5C96B9(iVar1, 10, -1, 1, -1, -1);
+			iVar38 = unk_0x7B6C0A0D604E68FA(iVar1, 10, -1, 1, -1, -1);
 			if (iVar38 > iVar37)
 			{
-				unk_0x58801753BDEA41F4(iVar37, &Var19);
+				unk_0x2DBB2D25D50A5392(iVar37, &Var19);
 				if (Var19.f_6 == 0)
 				{
 					iVar36 = 9;
@@ -40609,32 +40609,32 @@ void func_231(int iParam0, int iParam1, int iParam2, int iParam3)
 				}
 				Global_2883588 = Var19.f_1;
 				Global_2883589 = Var19.f_0;
-				func_223(&(Global_78341[0 /*14*/]), iParam0, iParam1, &(Var19.f_9), Var19.f_3, Var19.f_4, Var19.f_5, unk_0x7FEA86016BC12607(Var19.f_1, joaat("outfit_only"), 0), iVar36, 2, Var19.f_1 != 0);
+				func_223(&(Global_78341[0 /*14*/]), iParam0, iParam1, &(Var19.f_9), Var19.f_3, Var19.f_4, Var19.f_5, unk_0x304A39EB177D246B(Var19.f_1, joaat("outfit_only"), 0), iVar36, 2, Var19.f_1 != 0);
 				return;
 			}
 		}
 	}
 	else
 	{
-		unk_0xF9105E199166E912(&Var39);
+		unk_0x15D20F88F06530A5(&Var39);
 		if (iParam3 != -1 && Global_78539)
 		{
-			unk_0x3CD23E98A4BA2D16(iParam3, &Var39);
+			unk_0xA5690D702773BED4(iParam3, &Var39);
 			Global_2883588 = Var39.f_1;
 			Global_2883589 = Var39.f_0;
-			func_223(&(Global_78341[0 /*14*/]), iParam0, iParam1, &(Var39.f_9), Var39.f_3, Var39.f_4, Var39.f_5, unk_0x7FEA86016BC12607(Var39.f_1, joaat("outfit_only"), 0), -1, 2, Var39.f_1 != 0);
+			func_223(&(Global_78341[0 /*14*/]), iParam0, iParam1, &(Var39.f_9), Var39.f_3, Var39.f_4, Var39.f_5, unk_0x304A39EB177D246B(Var39.f_1, joaat("outfit_only"), 0), -1, 2, Var39.f_1 != 0);
 			return;
 		}
 		iVar56 = (iParam1 - iParam2);
 		if (iVar56 >= 0)
 		{
-			iVar57 = unk_0xDAEB80C06A5C96B9(iVar1, 10, -1, 0, -1, func_209(iParam0));
+			iVar57 = unk_0x7B6C0A0D604E68FA(iVar1, 10, -1, 0, -1, func_209(iParam0));
 			if (iVar57 > iVar56)
 			{
-				unk_0x6F70EC5F2F78997E(iVar56, &Var39);
+				unk_0xD36906FE7BBBDB62(iVar56, &Var39);
 				Global_2883588 = Var39.f_1;
 				Global_2883589 = Var39.f_0;
-				func_223(&(Global_78341[0 /*14*/]), iParam0, iParam1, &(Var39.f_9), Var39.f_3, Var39.f_4, Var39.f_5, unk_0x7FEA86016BC12607(Var39.f_1, joaat("outfit_only"), 0), -1, 2, Var39.f_1 != 0);
+				func_223(&(Global_78341[0 /*14*/]), iParam0, iParam1, &(Var39.f_9), Var39.f_3, Var39.f_4, Var39.f_5, unk_0x304A39EB177D246B(Var39.f_1, joaat("outfit_only"), 0), -1, 2, Var39.f_1 != 0);
 				return;
 			}
 		}
@@ -44004,15 +44004,15 @@ void func_234(int iParam0, int iParam1)
 		func_231(iVar10, iParam0, 327, iParam1);
 		if (Global_78341[0 /*14*/].f_7 > 0)
 		{
-			if (unk_0x7FEA86016BC12607(Global_2883588, joaat("hat"), 1))
+			if (unk_0x304A39EB177D246B(Global_2883588, joaat("hat"), 1))
 			{
 				Global_78341[0 /*14*/].f_7 = unk_0xF2DB717A73826179((unk_0xBBDA792448DB5A89(Global_78341[0 /*14*/].f_7) * Global_296940.f_26));
 			}
-			else if (unk_0x7FEA86016BC12607(Global_2883588, joaat("glasses"), 1))
+			else if (unk_0x304A39EB177D246B(Global_2883588, joaat("glasses"), 1))
 			{
 				Global_78341[0 /*14*/].f_7 = unk_0xF2DB717A73826179((unk_0xBBDA792448DB5A89(Global_78341[0 /*14*/].f_7) * Global_296940.f_56));
 			}
-			else if (unk_0x7FEA86016BC12607(Global_2883588, joaat("watch"), 1))
+			else if (unk_0x304A39EB177D246B(Global_2883588, joaat("watch"), 1))
 			{
 				Global_78341[0 /*14*/].f_7 = unk_0xF2DB717A73826179((unk_0xBBDA792448DB5A89(Global_78341[0 /*14*/].f_7) * Global_296940.f_28));
 			}
@@ -55665,15 +55665,15 @@ void func_250(int iParam0, int iParam1)
 		func_231(iVar10, iParam0, 327, iParam1);
 		if (Global_78341[0 /*14*/].f_7 > 0)
 		{
-			if (unk_0x7FEA86016BC12607(Global_2883588, joaat("hat"), 1))
+			if (unk_0x304A39EB177D246B(Global_2883588, joaat("hat"), 1))
 			{
 				Global_78341[0 /*14*/].f_7 = unk_0xF2DB717A73826179((unk_0xBBDA792448DB5A89(Global_78341[0 /*14*/].f_7) * Global_296940.f_18));
 			}
-			else if (unk_0x7FEA86016BC12607(Global_2883588, joaat("glasses"), 1))
+			else if (unk_0x304A39EB177D246B(Global_2883588, joaat("glasses"), 1))
 			{
 				Global_78341[0 /*14*/].f_7 = unk_0xF2DB717A73826179((unk_0xBBDA792448DB5A89(Global_78341[0 /*14*/].f_7) * Global_296940.f_20));
 			}
-			else if (unk_0x7FEA86016BC12607(Global_2883588, joaat("watch"), 1))
+			else if (unk_0x304A39EB177D246B(Global_2883588, joaat("watch"), 1))
 			{
 				Global_78341[0 /*14*/].f_7 = unk_0xF2DB717A73826179((unk_0xBBDA792448DB5A89(Global_78341[0 /*14*/].f_7) * Global_296940.f_21));
 			}
@@ -65082,7 +65082,7 @@ void func_265(var uParam0, int iParam1, bool bParam2)
 	{
 		iParam1 = func_37();
 	}
-	unk_0xDAB8331141930045(*uParam0);
+	unk_0x98E00E3ED7D61628(*uParam0);
 	iVar13 = func_158(*uParam0);
 	bVar14 = func_153(*uParam0, 0);
 	bVar15 = func_145(*uParam0);
@@ -65096,7 +65096,7 @@ void func_265(var uParam0, int iParam1, bool bParam2)
 			{
 				if (func_131(*uParam0, &Var0, iVar17, Var0.f_4, Var0.f_8, bVar14, bVar15, bParam2, bVar16))
 				{
-					unk_0x462E1939BD8B6F55(*uParam0, Var0.f_4, Var0.f_5);
+					unk_0x49A5A17556C31561(*uParam0, Var0.f_4, Var0.f_5);
 				}
 			}
 		}
@@ -65104,25 +65104,25 @@ void func_265(var uParam0, int iParam1, bool bParam2)
 	}
 	if (func_266(123, iParam1))
 	{
-		if (unk_0xB7FB7CB62C64CD47(joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz")) != 7)
+		if (unk_0x50CA4ACB66148FF0(joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz")) != 7)
 		{
-			unk_0x462E1939BD8B6F55(*uParam0, joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz"));
+			unk_0x49A5A17556C31561(*uParam0, joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz"));
 		}
 	}
-	iVar19 = unk_0x762ED57E0EC8DCF9(iVar13);
+	iVar19 = unk_0x82D6E3FDBD0A80B6(iVar13);
 	iVar18 = 0;
 	while (iVar18 < iVar19)
 	{
-		if (unk_0xB1A5EC75CDEBE9BA(iVar13, iVar18, &Var20))
+		if (unk_0xC8FF7E3E267EBEF5(iVar13, iVar18, &Var20))
 		{
-			if (!unk_0xEF068EDE5319404F(Var20.f_0))
+			if (!unk_0x4BFA043D318BF9AE(Var20.f_0))
 			{
 				iVar35 = (129 + iVar18);
 				if (func_266(iVar35, iParam1))
 				{
 					if (func_131(*uParam0, &(Var20.f_7), iVar35, Var20.f_2, Var20.f_6, bVar14, bVar15, bParam2, bVar16))
 					{
-						unk_0x462E1939BD8B6F55(*uParam0, Var20.f_2, Var20.f_3);
+						unk_0x49A5A17556C31561(*uParam0, Var20.f_2, Var20.f_3);
 						func_109(*uParam0, Var20.f_2, Var20.f_3);
 					}
 				}
@@ -65385,8 +65385,8 @@ void func_269(var uParam0, int iParam1, bool bParam2)
 		iVar1 = func_165(2153, iParam1, 0);
 		iVar2 = func_165(2160, iParam1, 0);
 	}
-	Global_78341[1 /*14*/] = { func_220(unk_0x504B9BB48D41C264(*uParam0), 2, iVar0, -1) };
-	unk_0xFECAE061D8C80757(*uParam0, 2, Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, 0);
+	Global_78341[1 /*14*/] = { func_220(unk_0x4B423FAA24E8ABF0(*uParam0), 2, iVar0, -1) };
+	unk_0xD1C578C204015E1F(*uParam0, 2, Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, 0);
 	if (iVar1 == -1)
 	{
 		iVar1 = func_165(2153, iParam1, 0);
@@ -65395,7 +65395,7 @@ void func_269(var uParam0, int iParam1, bool bParam2)
 	{
 		iVar2 = func_165(2160, iParam1, 0);
 	}
-	unk_0x586F9DF907703D3F(*uParam0, iVar1, iVar2);
+	unk_0x894EE2587C8D8D1E(*uParam0, iVar1, iVar2);
 }
 
 void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4, int iParam5)
@@ -65414,10 +65414,10 @@ void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 	int iVar11;
 	struct<5> Var12;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0) || iParam5)
+	if (!unk_0x4FAFF4BCB7633475(iParam0) || iParam5)
 	{
 		iVar0 = func_349(iParam0);
-		iVar1 = unk_0x504B9BB48D41C264(iParam0);
+		iVar1 = unk_0x4B423FAA24E8ABF0(iParam0);
 		iVar3 = 0;
 		while (iVar3 < 12)
 		{
@@ -65425,16 +65425,16 @@ void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 			{
 				if (bParam4)
 				{
-					if (uParam1->f_13[iVar3] != 0 && uParam1->f_13[iVar3] >= unk_0x39CBCB88BA546BDF(iParam0, iVar3))
+					if (uParam1->f_13[iVar3] != 0 && uParam1->f_13[iVar3] >= unk_0x1A4EFE92822E3123(iParam0, iVar3))
 					{
 						uParam1->f_13[iVar3] = 0;
 					}
-					if ((*uParam1)[iVar3] != 0 && (*uParam1)[iVar3] >= unk_0x2F05A8F9724E2992(iParam0, iVar3, uParam1->f_13[iVar3]))
+					if ((*uParam1)[iVar3] != 0 && (*uParam1)[iVar3] >= unk_0x8401C77F508D70FD(iParam0, iVar3, uParam1->f_13[iVar3]))
 					{
 						(*uParam1)[iVar3] = 0;
 					}
 				}
-				unk_0xFECAE061D8C80757(iParam0, iVar3, uParam1->f_13[iVar3], (*uParam1)[iVar3], uParam1->f_26[iVar3]);
+				unk_0xD1C578C204015E1F(iParam0, iVar3, uParam1->f_13[iVar3], (*uParam1)[iVar3], uParam1->f_26[iVar3]);
 			}
 			iVar3++;
 		}
@@ -65445,11 +65445,11 @@ void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 			{
 				if (uParam1->f_39[iVar3] != -1 && uParam1->f_39[iVar3] != 255)
 				{
-					if (uParam1->f_39[iVar3] >= unk_0x264D10830E27C58F(iParam0, iVar3))
+					if (uParam1->f_39[iVar3] >= unk_0x4D0F04723A52D0E9(iParam0, iVar3))
 					{
 						uParam1->f_39[iVar3] = -1;
 					}
-					else if (uParam1->f_49[iVar3] >= unk_0x8FCF05C5AF1F1EDA(iParam0, iVar3, uParam1->f_39[iVar3]))
+					else if (uParam1->f_49[iVar3] >= unk_0x1D77F90D87ACD2BA(iParam0, iVar3, uParam1->f_39[iVar3]))
 					{
 						uParam1->f_49[iVar3] = 0;
 					}
@@ -65457,11 +65457,11 @@ void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 			}
 			if (uParam1->f_39[iVar3] != -1 && uParam1->f_39[iVar3] != 255)
 			{
-				unk_0x0A3B6B850C2EC4FD(iParam0, iVar3, uParam1->f_39[iVar3], uParam1->f_49[iVar3], false, 1);
+				unk_0x7F08C4791E6D6969(iParam0, iVar3, uParam1->f_39[iVar3], uParam1->f_49[iVar3], false, 1);
 			}
 			else
 			{
-				unk_0x7E4E6DFA37692889(iParam0, iVar3, 1);
+				unk_0x09397806857F5DFB(iParam0, iVar3, 1);
 			}
 			iVar3++;
 		}
@@ -65482,7 +65482,7 @@ void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 				func_332(iParam0, 1, iVar2, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 			}
 		}
-		else if (unk_0xA26A9A07F761D8F8() && unk_0x504B9BB48D41C264(iParam0) == unk_0x504B9BB48D41C264(unk_0xC1A5EC5C986B98AD()))
+		else if (unk_0x76CD105BCAC6EB9F() && unk_0x4B423FAA24E8ABF0(iParam0) == unk_0x4B423FAA24E8ABF0(unk_0x4A8C381C258A124D()))
 		{
 			bVar4 = func_194(iParam0);
 			func_52(754, uParam1->f_60, Global_78338, 1, 0);
@@ -65516,7 +65516,7 @@ void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 				func_50(iParam0, 14, iVar8, 0, -1, 0, 0, 0, -1, -1, Global_78338, bVar4, 0, 0);
 			}
 		}
-		if (unk_0xA26A9A07F761D8F8() && iParam0 == unk_0xC1A5EC5C986B98AD())
+		if (unk_0x76CD105BCAC6EB9F() && iParam0 == unk_0x4A8C381C258A124D())
 		{
 			iVar9 = uParam1->f_59;
 			if (iVar1 == joaat("mp_m_freemode_01"))
@@ -65533,27 +65533,27 @@ void func_270(int iParam0, var uParam1, bool bParam2, bool bParam3, bool bParam4
 		}
 		if (iVar1 == joaat("mp_m_freemode_01") || iVar1 == joaat("mp_f_freemode_01"))
 		{
-			iVar10 = unk_0xFC680D6CC972AEFB(iParam0, 1, unk_0xAC464F61BE9FD50D(iParam0, 1), unk_0xEDEBC30DEBDF84C8(iParam0, 1));
-			iVar11 = unk_0xBC87DFB594B23350(iParam0, 1, unk_0x6BC6C26115124DFE(iParam0, 1, 1), unk_0xC5753F88DDA773E0(iParam0, 1));
+			iVar10 = unk_0x94B8A32AA940A6B5(iParam0, 1, unk_0xC0120BBCC298EA2F(iParam0, 1), unk_0xD6AED6BFCC58AF7F(iParam0, 1));
+			iVar11 = unk_0x6B7AEB5F3D578298(iParam0, 1, unk_0xB204F40D393426B6(iParam0, 1, 1), unk_0x0DC23FA727759F9F(iParam0, 1));
 			if (iVar10 == joaat("dlc_mp_arena_m_berd_13_0") || iVar10 == joaat("dlc_mp_arena_f_berd_13_0"))
 			{
-				if (!unk_0x7FEA86016BC12607(iVar11, joaat("arena_draw_0"), 1))
+				if (!unk_0x304A39EB177D246B(iVar11, joaat("arena_draw_0"), 1))
 				{
-					unk_0x469012E2C56B87C8(&Var12);
+					unk_0x7A491C9A90975007(&Var12);
 					if (iVar10 == joaat("dlc_mp_arena_m_berd_13_0"))
 					{
-						unk_0x58801753BDEA41F4(joaat("dlc_mp_arena_m_peyes_0_0"), &Var12);
+						unk_0x2DBB2D25D50A5392(joaat("dlc_mp_arena_m_peyes_0_0"), &Var12);
 					}
 					else
 					{
-						unk_0x58801753BDEA41F4(joaat("dlc_mp_arena_f_peyes_0_0"), &Var12);
+						unk_0x2DBB2D25D50A5392(joaat("dlc_mp_arena_f_peyes_0_0"), &Var12);
 					}
-					unk_0x0A3B6B850C2EC4FD(iParam0, 1, Var12.f_3, Var12.f_4, false, 1);
+					unk_0x7F08C4791E6D6969(iParam0, 1, Var12.f_3, Var12.f_4, false, 1);
 				}
 			}
-			else if (unk_0x7FEA86016BC12607(iVar11, joaat("arena_draw_0"), 1))
+			else if (unk_0x304A39EB177D246B(iVar11, joaat("arena_draw_0"), 1))
 			{
-				unk_0x7E4E6DFA37692889(iParam0, 1, 1);
+				unk_0x09397806857F5DFB(iParam0, 1, 1);
 			}
 		}
 	}
@@ -65565,10 +65565,10 @@ void func_271(int iParam0, int iParam1, int iParam2, int iParam3)
 	
 	if (func_272())
 	{
-		iVar0 = Global_2848280[iParam0 /*3*/][func_53(iParam2)];
+		iVar0 = Global_2848282[iParam0 /*3*/][func_53(iParam2)];
 		if (iVar0 != 0)
 		{
-			unk_0xD19BD90E0B76FB05(iVar0, iParam1, iParam3);
+			unk_0xF1D0B0CE940F620D(iVar0, iParam1, iParam3);
 		}
 	}
 }
@@ -65609,11 +65609,11 @@ int func_274(int iParam0, int iParam1, int iParam2)
 	int iVar32;
 	var uVar33;
 	
-	if (unk_0x66599E73DBA5A850(iParam0))
+	if (unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		return 0;
 	}
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
 	Global_78341[1 /*14*/] = { func_275(iVar0, iParam1, iParam2, -1) };
 	if (!BitTest(Global_78341[1 /*14*/].f_6, 0))
 	{
@@ -65688,12 +65688,12 @@ int func_274(int iParam0, int iParam1, int iParam2)
 	}
 	else if (iParam1 == 14)
 	{
-		if (unk_0x6BC6C26115124DFE(iParam0, Global_78341[1 /*14*/].f_12, 1) == Global_78341[1 /*14*/].f_3 && (unk_0xC5753F88DDA773E0(iParam0, Global_78341[1 /*14*/].f_12) == Global_78341[1 /*14*/].f_4 || Global_78341[1 /*14*/].f_3 == -1))
+		if (unk_0xB204F40D393426B6(iParam0, Global_78341[1 /*14*/].f_12, 1) == Global_78341[1 /*14*/].f_3 && (unk_0x0DC23FA727759F9F(iParam0, Global_78341[1 /*14*/].f_12) == Global_78341[1 /*14*/].f_4 || Global_78341[1 /*14*/].f_3 == -1))
 		{
 			return 1;
 		}
 	}
-	else if (Global_78341[1 /*14*/].f_3 == unk_0xAC464F61BE9FD50D(iParam0, func_209(iParam1)) && Global_78341[1 /*14*/].f_4 == unk_0xEDEBC30DEBDF84C8(iParam0, func_209(iParam1)))
+	else if (Global_78341[1 /*14*/].f_3 == unk_0xC0120BBCC298EA2F(iParam0, func_209(iParam1)) && Global_78341[1 /*14*/].f_4 == unk_0xD6AED6BFCC58AF7F(iParam0, func_209(iParam1)))
 	{
 		return 1;
 	}
@@ -84961,7 +84961,7 @@ int func_332(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 	struct<14> Var55;
 	var uVar69;
 	
-	if (unk_0x66599E73DBA5A850(iParam0) || iParam2 == -99)
+	if (unk_0x4FAFF4BCB7633475(iParam0) || iParam2 == -99)
 	{
 		return 0;
 	}
@@ -84971,7 +84971,7 @@ int func_332(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 	iVar7 = -99;
 	iVar8 = -99;
 	iVar9 = -99;
-	iVar10 = unk_0x504B9BB48D41C264(iParam0);
+	iVar10 = unk_0x4B423FAA24E8ABF0(iParam0);
 	if (iParam5 == 0)
 	{
 		Global_78341[1 /*14*/] = { func_275(iVar10, iParam1, iParam2, -1) };
@@ -85040,7 +85040,7 @@ int func_332(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 				iVar9 = func_202(iParam0, 2);
 			}
 		}
-		unk_0x729DD9A19A6484F7(iParam0, 1);
+		unk_0x445E7F949766A0C7(iParam0, 1);
 		uVar11 = 15;
 		if (iParam5 == 1)
 		{
@@ -85099,11 +85099,11 @@ int func_332(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 						}
 						if (iParam4 == -1)
 						{
-							unk_0xFECAE061D8C80757(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0x41CBA4CCBAA79DEF(iParam0, func_209(iVar0)));
+							unk_0xD1C578C204015E1F(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0xDAF263B0E792EAEC(iParam0, func_209(iVar0)));
 						}
 						else
 						{
-							unk_0xFECAE061D8C80757(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
+							unk_0xD1C578C204015E1F(iParam0, func_209(iVar0), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
 						}
 						func_346(iVar0);
 						if (Global_78339 == 1)
@@ -85237,11 +85237,11 @@ int func_332(int iParam0, int iParam1, int iParam2, int iParam3, int iParam4, in
 	{
 		if (iParam4 == -1)
 		{
-			unk_0xFECAE061D8C80757(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0x41CBA4CCBAA79DEF(iParam0, func_209(iParam1)));
+			unk_0xD1C578C204015E1F(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, unk_0xDAF263B0E792EAEC(iParam0, func_209(iParam1)));
 		}
 		else
 		{
-			unk_0xFECAE061D8C80757(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
+			unk_0xD1C578C204015E1F(iParam0, func_209(iParam1), Global_78341[1 /*14*/].f_3, Global_78341[1 /*14*/].f_4, iParam4);
 		}
 		if (Global_78339 == 1)
 		{
@@ -85377,7 +85377,7 @@ int func_336(int iParam0, int iParam1, int iParam2)
 	int iVar0;
 	int iVar1;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		if (iParam1 == 12)
 		{
@@ -86945,9 +86945,9 @@ int func_349(int iParam0)
 	int iVar0;
 	int iVar1;
 	
-	if (unk_0x7DE17ACDD8BA2642(iParam0))
+	if (unk_0xFC8BFE4B41177C22(iParam0))
 	{
-		iVar1 = unk_0x504B9BB48D41C264(iParam0);
+		iVar1 = unk_0x4B423FAA24E8ABF0(iParam0);
 		iVar0 = 0;
 		while (iVar0 <= 2)
 		{
@@ -87067,22 +87067,22 @@ int func_357(var uParam0, int iParam1, int iParam2)
 	
 	Var0 = { 0f, 0f, -20f };
 	Var3 = { 0f, 0f, 0f };
-	if (unk_0x7DE17ACDD8BA2642(*uParam0) && !unk_0x055111B11E6624FD(*uParam0, 0))
+	if (unk_0xFC8BFE4B41177C22(*uParam0) && !unk_0x1C2F771CDC87A3A5(*uParam0, 0))
 	{
-		Var12 = { unk_0x000D018EA42688BA(*uParam0, 2) };
-		Var15 = { unk_0x30BE8A934C020461(*uParam0, 1) };
+		Var12 = { unk_0x88124E0D60FB8D11(*uParam0, 2) };
+		Var15 = { unk_0xD1A6A821F5AC81DB(*uParam0, 1) };
 	}
-	if (unk_0xE7D67251D717D594())
+	if (unk_0x174DBD3C5DB3557B())
 	{
-		Var12 = { unk_0x2E14691C671C10F1(2) };
-		Var15 = { unk_0xAB9327AF433C2E46() };
+		Var12 = { unk_0xD84A545408A3099A(2) };
+		Var15 = { unk_0xCF141FCD0940B0A3() };
 	}
-	if (unk_0xF57C1326FD40C8A7(unk_0x3401C73FB9F2E08B()))
+	if (unk_0x78411E34CF90EA8C(unk_0xFCB6553111578B2F()))
 	{
-		Var12 = { unk_0x4C3FED86996E8840(unk_0x3401C73FB9F2E08B(), 2) };
-		Var15 = { unk_0x103F436394008500(unk_0x3401C73FB9F2E08B()) };
+		Var12 = { unk_0x9DDBEF363FADFA4C(unk_0xFCB6553111578B2F(), 2) };
+		Var15 = { unk_0xA452B06E281A9014(unk_0xFCB6553111578B2F()) };
 	}
-	Var6 = { unk_0xF2A6E8EA57F9D501(Var15, Var12.f_2, Var0) };
+	Var6 = { unk_0xF10F2A2453AF1DFB(Var15, Var12.f_2, Var0) };
 	Var9 = { Var12 + Var3 };
 	if (func_358(uParam0, func_423(iParam1, func_424(386, iParam2)), Var6, Var9, 0, 1, iParam2, 50f, 0, 1, 1, 0, 0))
 	{
@@ -87111,13 +87111,13 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 	{
 		if (func_417(&(Global_1574825[iParam10 /*6*/]), uParam0, iParam10, bParam14))
 		{
-			unk_0xE9C250FA35A936C8(&(Global_1574825[iParam10 /*6*/]));
-			unk_0xE9C250FA35A936C8(&(Global_1574825[iParam10 /*6*/].f_1));
-			unk_0x85BAE84748AD1A23(*uParam0, 0, 0);
-			unk_0x35DD50D05C962B6A(*uParam0);
-			unk_0x2FD51579188C5E5C(*uParam0, unk_0xD850DD08D5434072(*uParam0));
-			unk_0xDDE449983CE7572E(*uParam0, iParam15, 0);
-			unk_0x724FFAED1C56CE2B(*uParam0, iParam16, 0);
+			unk_0x734A9F4537A31459(&(Global_1574825[iParam10 /*6*/]));
+			unk_0x734A9F4537A31459(&(Global_1574825[iParam10 /*6*/].f_1));
+			unk_0xEE0BCDB1B5E36BCB(*uParam0, 0, 0);
+			unk_0x19626F992DC71FB9(*uParam0);
+			unk_0xFBF90D96AEB26BCF(*uParam0, unk_0xCFC0C995455A6204(*uParam0));
+			unk_0x44C48AC14D3C09ED(*uParam0, iParam15, 0);
+			unk_0x4285E11B28063EE0(*uParam0, iParam16, 0);
 			bVar0 = false;
 			if (func_416(iParam10) == 1)
 			{
@@ -87148,7 +87148,7 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 					}
 					func_401(iParam10);
 					func_400(iParam10, bParam9);
-					unk_0x44A8353CAB6959B3(*uParam0, &Var2);
+					unk_0x5CB7287FD7611BC7(*uParam0, &Var2);
 					func_52(2097, Var2.f_0, iParam10, 1, 0);
 					func_52(2098, Var2.f_1, iParam10, 1, 0);
 					func_52(2099, Var2.f_2, iParam10, 1, 0);
@@ -87175,7 +87175,7 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 					iVar16 = func_159(iParam1, iVar15);
 					if (iVar16 != -1)
 					{
-						func_160(unk_0x14580F20CBCE4FA9("hairOverlay"), *uParam0);
+						func_160(unk_0x70E57E9927B6BA58("hairOverlay"), *uParam0);
 						func_108(*uParam0, 0, 0, -1);
 						func_193(*uParam0, iVar16, 1);
 					}
@@ -87209,7 +87209,7 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 						}
 						if (iVar17 != -1)
 						{
-							func_160(unk_0x14580F20CBCE4FA9("hairOverlay"), *uParam0);
+							func_160(unk_0x70E57E9927B6BA58("hairOverlay"), *uParam0);
 							func_108(*uParam0, 0, 0, -1);
 							func_193(*uParam0, iVar17, 1);
 						}
@@ -87222,14 +87222,14 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 								iVar17 = func_159(iParam1, iVar19);
 								if (iVar16 != -1)
 								{
-									func_160(unk_0x14580F20CBCE4FA9("hairOverlay"), *uParam0);
+									func_160(unk_0x70E57E9927B6BA58("hairOverlay"), *uParam0);
 									func_108(*uParam0, 0, 0, -1);
 									func_193(*uParam0, iVar16, 1);
 								}
 							}
 						}
 					}
-					if (!unk_0xCC17806DB0C41C19())
+					if (!unk_0x761778199FE1211C())
 					{
 						func_52(753, func_96(385, iParam10), iParam10, 1, 0);
 						func_52(2053, func_96(385, iParam10), iParam10, 1, 0);
@@ -87266,7 +87266,7 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 				{
 					func_90(*uParam0, iParam10, bParam14);
 				}
-				unk_0x44A8353CAB6959B3(*uParam0, &Var20);
+				unk_0x5CB7287FD7611BC7(*uParam0, &Var20);
 				func_52(2097, Var20.f_0, iParam10, 1, 0);
 				func_52(2098, Var20.f_1, iParam10, 1, 0);
 				func_52(2099, Var20.f_2, iParam10, 1, 0);
@@ -87296,10 +87296,10 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 						func_371(iParam10);
 					}
 				}
-				unk_0x4538D1C20FB2AE8E(*uParam0, iParam10);
+				unk_0xF92FD7949E52DEA2(*uParam0, iParam10);
 			}
-			unk_0xC7A494C74ED33C50(*uParam0);
-			unk_0xBB6027D1D193CBA6(*uParam0, 0, 0);
+			unk_0xAF8337BF5A296283(*uParam0);
+			unk_0xD8ED11B32DF72E0B(*uParam0, 0, 0);
 			if (bParam14 == 0)
 			{
 				func_370(uParam0, iParam10, 0, 0);
@@ -87316,17 +87316,17 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 	}
 	else
 	{
-		if (!unk_0x66599E73DBA5A850(*uParam0))
+		if (!unk_0x4FAFF4BCB7633475(*uParam0))
 		{
-			unk_0x2718E9CC165A99F6(*uParam0, 1);
-			unk_0x909F139DC199D8E0(*uParam0);
-			unk_0xC5B2830898581862(*uParam0, 1);
+			unk_0x5D7CD709B34C90F0(*uParam0, 1);
+			unk_0x974022927CB47E68(*uParam0);
+			unk_0xAAA71DD7E9059338(*uParam0, 1);
 			if (!func_359())
 			{
 				if (bParam13)
 				{
-					unk_0xC2E3C377D893C17A(*uParam0, Param2, 1, 0, 0, 1);
-					unk_0x692C3FDAD7DB53CC(*uParam0, Param5.f_2);
+					unk_0xB2BD5837A8D3CEDA(*uParam0, Param2, 1, 0, 0, 1);
+					unk_0x5C96CEA06531AB03(*uParam0, Param5.f_2);
 				}
 			}
 		}
@@ -87337,14 +87337,14 @@ int func_358(var uParam0, int iParam1, struct<3> Param2, struct<3> Param5, bool 
 
 bool func_359()
 {
-	return Global_2694522;
+	return Global_2694524;
 }
 
 void func_360(int iParam0, int iParam1)
 {
 	struct<65> Var0;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		Var0 = 12;
 		Var0.f_13 = 12;
@@ -87362,7 +87362,7 @@ void func_361(int iParam0, struct<50> Param1, var uParam51, var uParam52, var uP
 	int iVar1;
 	int iVar2;
 	
-	if (Global_2695843 == 0)
+	if (Global_2695845 == 0)
 	{
 		iVar1 = 0;
 		iVar0 = 0;
@@ -87380,12 +87380,12 @@ void func_361(int iParam0, struct<50> Param1, var uParam51, var uParam52, var uP
 			return;
 		}
 	}
-	if (Global_2695844 == 0)
+	if (Global_2695846 == 0)
 	{
 		iVar2 = 0;
 		while (iVar2 <= 11)
 		{
-			if (Param1.f_13[iVar2] != 0 && Param1.f_13[iVar2] >= unk_0x39CBCB88BA546BDF(iParam0, iVar2))
+			if (Param1.f_13[iVar2] != 0 && Param1.f_13[iVar2] >= unk_0x1A4EFE92822E3123(iParam0, iVar2))
 			{
 				Param1.f_13[iVar2] = 0;
 			}
@@ -87394,7 +87394,7 @@ void func_361(int iParam0, struct<50> Param1, var uParam51, var uParam52, var uP
 		iVar2 = 0;
 		while (iVar2 <= 11)
 		{
-			if (Param1[iVar2] != 0 && Param1[iVar2] >= unk_0x2F05A8F9724E2992(iParam0, iVar2, Param1.f_13[iVar2]))
+			if (Param1[iVar2] != 0 && Param1[iVar2] >= unk_0x8401C77F508D70FD(iParam0, iVar2, Param1.f_13[iVar2]))
 			{
 				Param1[iVar2] = 0;
 			}
@@ -87523,7 +87523,7 @@ void func_366(int iParam0, int iParam1, int iParam2)
 	{
 		iParam1 = 255;
 	}
-	unk_0x5B9D75B86493C415(iParam0, iParam1, iParam2);
+	unk_0x0F575D68F532124C(iParam0, iParam1, iParam2);
 }
 
 void func_367(int iParam0, var uParam1, int iParam2, int iParam3)
@@ -87531,7 +87531,7 @@ void func_367(int iParam0, var uParam1, int iParam2, int iParam3)
 	int iVar0;
 	int iVar1;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		iVar0 = func_349(iParam0);
 		iVar1 = 0;
@@ -87555,7 +87555,7 @@ void func_367(int iParam0, var uParam1, int iParam2, int iParam3)
 			uParam1->f_63 = Global_113648.f_2365.f_539[iVar0 /*65*/].f_63;
 			uParam1->f_64 = Global_113648.f_2365.f_539[iVar0 /*65*/].f_64;
 		}
-		else if (unk_0xA26A9A07F761D8F8() && unk_0x504B9BB48D41C264(iParam0) == unk_0x504B9BB48D41C264(unk_0xC1A5EC5C986B98AD()))
+		else if (unk_0x76CD105BCAC6EB9F() && unk_0x4B423FAA24E8ABF0(iParam0) == unk_0x4B423FAA24E8ABF0(unk_0x4A8C381C258A124D()))
 		{
 			if (func_54(161, iParam3))
 			{
@@ -87568,7 +87568,7 @@ void func_367(int iParam0, var uParam1, int iParam2, int iParam3)
 			uParam1->f_60 = func_165(754, iParam3, 0);
 			uParam1->f_61 = func_165(755, iParam3, 0);
 		}
-		if (unk_0xA26A9A07F761D8F8() && iParam0 == unk_0xC1A5EC5C986B98AD())
+		if (unk_0x76CD105BCAC6EB9F() && iParam0 == unk_0x4A8C381C258A124D())
 		{
 			if (func_54(161, iParam3))
 			{
@@ -87589,8 +87589,8 @@ void func_368(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, i
 	iVar0 = func_349(iParam0);
 	if (iParam0 != 0)
 	{
-		*uParam2 = unk_0x6BC6C26115124DFE(iParam0, iParam1, 1);
-		*uParam3 = unk_0xC5753F88DDA773E0(iParam0, iParam1);
+		*uParam2 = unk_0xB204F40D393426B6(iParam0, iParam1, 1);
+		*uParam3 = unk_0x0DC23FA727759F9F(iParam0, iParam1);
 	}
 	else
 	{
@@ -87606,10 +87606,10 @@ void func_368(int iParam0, int iParam1, var uParam2, var uParam3, int iParam4, i
 		{
 			if (iParam0 != 0)
 			{
-				if (unk_0x2394F256C5B1D879(iParam0) && unk_0xAF4BC693CE971839(iParam0) != -1)
+				if (unk_0x6DBAC05AFA907A23(iParam0) && unk_0xB34A70D5AC13FB8C(iParam0) != -1)
 				{
-					*uParam2 = unk_0xAF4BC693CE971839(iParam0);
-					*uParam3 = unk_0x32B63A52BB0B3075(iParam0);
+					*uParam2 = unk_0xB34A70D5AC13FB8C(iParam0);
+					*uParam3 = unk_0xAA6E5BB6733B4BB0(iParam0);
 				}
 			}
 		}
@@ -87822,9 +87822,9 @@ void func_369(int iParam0, int iParam1, var uParam2, var uParam3, var uParam4, i
 	iVar0 = func_349(iParam0);
 	if (iParam0 != 0)
 	{
-		*uParam2 = unk_0xAC464F61BE9FD50D(iParam0, iParam1);
-		*uParam3 = unk_0xEDEBC30DEBDF84C8(iParam0, iParam1);
-		*uParam4 = unk_0x41CBA4CCBAA79DEF(iParam0, iParam1);
+		*uParam2 = unk_0xC0120BBCC298EA2F(iParam0, iParam1);
+		*uParam3 = unk_0xD6AED6BFCC58AF7F(iParam0, iParam1);
+		*uParam4 = unk_0xDAF263B0E792EAEC(iParam0, iParam1);
 	}
 	else
 	{
@@ -87956,7 +87956,7 @@ void func_370(var uParam0, int iParam1, bool bParam2, bool bParam3)
 	}
 	if (!bParam3)
 	{
-		unk_0xDAB8331141930045(*uParam0);
+		unk_0x98E00E3ED7D61628(*uParam0);
 	}
 	iVar13 = func_158(*uParam0);
 	bVar14 = func_153(*uParam0, 0);
@@ -87984,7 +87984,7 @@ void func_370(var uParam0, int iParam1, bool bParam2, bool bParam3)
 				{
 					if (!bParam3)
 					{
-						unk_0x462E1939BD8B6F55(*uParam0, Var0.f_4, Var0.f_5);
+						unk_0x49A5A17556C31561(*uParam0, Var0.f_4, Var0.f_5);
 					}
 				}
 			}
@@ -87993,21 +87993,21 @@ void func_370(var uParam0, int iParam1, bool bParam2, bool bParam3)
 	}
 	if (func_141(123, -1))
 	{
-		if (unk_0xB7FB7CB62C64CD47(joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz")) != 7)
+		if (unk_0x50CA4ACB66148FF0(joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz")) != 7)
 		{
 			if (!bParam3)
 			{
-				unk_0x462E1939BD8B6F55(*uParam0, joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz"));
+				unk_0x49A5A17556C31561(*uParam0, joaat("mpBeach_overlays"), joaat("FM_Hair_Fuzz"));
 			}
 		}
 	}
-	iVar19 = unk_0x762ED57E0EC8DCF9(iVar13);
+	iVar19 = unk_0x82D6E3FDBD0A80B6(iVar13);
 	iVar18 = 0;
 	while (iVar18 < iVar19)
 	{
-		if (unk_0xB1A5EC75CDEBE9BA(iVar13, iVar18, &Var20))
+		if (unk_0xC8FF7E3E267EBEF5(iVar13, iVar18, &Var20))
 		{
-			if (!unk_0xEF068EDE5319404F(Var20.f_0))
+			if (!unk_0x4BFA043D318BF9AE(Var20.f_0))
 			{
 				iVar35 = (129 + iVar18);
 				if (func_141(iVar35, iParam1))
@@ -88016,7 +88016,7 @@ void func_370(var uParam0, int iParam1, bool bParam2, bool bParam3)
 					{
 						if (!bParam3)
 						{
-							unk_0x462E1939BD8B6F55(*uParam0, Var20.f_2, Var20.f_3);
+							unk_0x49A5A17556C31561(*uParam0, Var20.f_2, Var20.f_3);
 							func_109(*uParam0, Var20.f_2, Var20.f_3);
 						}
 					}
@@ -88038,8 +88038,8 @@ void func_372(int iParam0, int iParam1)
 	bool bVar1;
 	struct<17> Var2;
 	
-	bVar1 = unk_0x504B9BB48D41C264(iParam0) == joaat("mp_m_freemode_01");
-	iVar0 = unk_0xFC680D6CC972AEFB(iParam0, 7, unk_0xAC464F61BE9FD50D(iParam0, 7), unk_0xEDEBC30DEBDF84C8(iParam0, 7));
+	bVar1 = unk_0x4B423FAA24E8ABF0(iParam0) == joaat("mp_m_freemode_01");
+	iVar0 = unk_0x94B8A32AA940A6B5(iParam0, 7, unk_0xC0120BBCC298EA2F(iParam0, 7), unk_0xD6AED6BFCC58AF7F(iParam0, 7));
 	if (bVar1)
 	{
 		switch (iVar0)
@@ -88666,7 +88666,7 @@ void func_373(int iParam0, int iParam1, struct<7> Param2, var uParam9, var uPara
 {
 	int iVar0;
 	
-	unk_0x9C6515C089F7E6F6(iParam1, &Param2);
+	unk_0x09A485A642AEADEF(iParam1, &Param2);
 	iVar0 = func_203(iParam0, Param2.f_3, Param2.f_4, Param2.f_6);
 	if (iVar0 != -99)
 	{
@@ -88681,28 +88681,28 @@ void func_374(bool bParam0)
 {
 	int iVar0;
 	
-	if (unk_0xAC464F61BE9FD50D(unk_0xC1A5EC5C986B98AD(), 5) != 0)
+	if (unk_0xC0120BBCC298EA2F(unk_0x4A8C381C258A124D(), 5) != 0)
 	{
-		unk_0x992BB708B4B7A005(unk_0xC1A5EC5C986B98AD(), 177, 1);
-		func_382(unk_0x93E99A2DBCBA9CFA(), func_165(586, -1, 0), 0);
+		unk_0x0FB8E752BCC547A9(unk_0x4A8C381C258A124D(), 177, 1);
+		func_382(unk_0x259BE71D8A81D4FA(), func_165(586, -1, 0), 0);
 		if (func_130(3610, -1))
 		{
 		}
 		iVar0 = func_165(2042, -1, 0);
-		unk_0x77D2A2A3D1168FF6(unk_0x93E99A2DBCBA9CFA(), func_72(unk_0xF2CFBB1105511E1A(unk_0x93E99A2DBCBA9CFA()), iVar0));
+		unk_0xC02C4AB8A5C744D7(unk_0x259BE71D8A81D4FA(), func_72(unk_0x56E414973C2A8C0E(unk_0x259BE71D8A81D4FA()), iVar0));
 		if (func_379(0))
 		{
-			func_382(unk_0x93E99A2DBCBA9CFA(), func_165(586, -1, 0), 0);
+			func_382(unk_0x259BE71D8A81D4FA(), func_165(586, -1, 0), 0);
 		}
 		else
 		{
-			func_382(unk_0x93E99A2DBCBA9CFA(), func_378(Global_2802971), 0);
+			func_382(unk_0x259BE71D8A81D4FA(), func_378(Global_2802973), 0);
 		}
-		func_70(unk_0x93E99A2DBCBA9CFA(), iVar0);
-		unk_0x0685F1EBBDA0A4F4(unk_0x93E99A2DBCBA9CFA(), 5, func_74(unk_0xC1A5EC5C986B98AD(), iVar0), func_73(unk_0xC1A5EC5C986B98AD(), iVar0), 0);
+		func_70(unk_0x259BE71D8A81D4FA(), iVar0);
+		unk_0x740F6E63EE1C1D43(unk_0x259BE71D8A81D4FA(), 5, func_74(unk_0x4A8C381C258A124D(), iVar0), func_73(unk_0x4A8C381C258A124D(), iVar0), 0);
 		func_377(func_165(2042, -1, 0), 1);
-		Global_2793044.f_287 = 1;
-		func_375(unk_0x93E99A2DBCBA9CFA(), -1, -1);
+		Global_2793046.f_287 = 1;
+		func_375(unk_0x259BE71D8A81D4FA(), -1, -1);
 		if (bParam0)
 		{
 		}
@@ -88711,23 +88711,23 @@ void func_374(bool bParam0)
 
 void func_375(int iParam0, int iParam1, int iParam2)
 {
-	if (unk_0xA26A9A07F761D8F8())
+	if (unk_0x76CD105BCAC6EB9F())
 	{
 		func_376();
 		if (iParam2 == -1)
 		{
 			iParam2 = func_165(2042, -1, 0);
 		}
-		unk_0x0685F1EBBDA0A4F4(iParam0, 5, func_74(unk_0xF2CFBB1105511E1A(iParam0), iParam2), func_73(unk_0xF2CFBB1105511E1A(iParam0), iParam2), 0);
-		unk_0x77D2A2A3D1168FF6(iParam0, func_72(unk_0xF2CFBB1105511E1A(iParam0), iParam2));
-		unk_0xFECAE061D8C80757(unk_0xF2CFBB1105511E1A(iParam0), 5, func_74(unk_0xF2CFBB1105511E1A(iParam0), iParam2), func_73(unk_0xF2CFBB1105511E1A(iParam0), iParam2), func_72(unk_0xF2CFBB1105511E1A(iParam0), iParam2));
+		unk_0x740F6E63EE1C1D43(iParam0, 5, func_74(unk_0x56E414973C2A8C0E(iParam0), iParam2), func_73(unk_0x56E414973C2A8C0E(iParam0), iParam2), 0);
+		unk_0xC02C4AB8A5C744D7(iParam0, func_72(unk_0x56E414973C2A8C0E(iParam0), iParam2));
+		unk_0xD1C578C204015E1F(unk_0x56E414973C2A8C0E(iParam0), 5, func_74(unk_0x56E414973C2A8C0E(iParam0), iParam2), func_73(unk_0x56E414973C2A8C0E(iParam0), iParam2), func_72(unk_0x56E414973C2A8C0E(iParam0), iParam2));
 		if (iParam1 == -1)
 		{
 			iParam1 = func_165(586, -1, 0);
 		}
 		if (func_379(1) && func_195(iParam0))
 		{
-			func_382(iParam0, func_378(Global_2802971), 0);
+			func_382(iParam0, func_378(Global_2802973), 0);
 		}
 		else
 		{
@@ -88738,7 +88738,7 @@ void func_375(int iParam0, int iParam1, int iParam2)
 			func_382(iParam0, Global_1836625, 1);
 		}
 		func_70(iParam0, iParam2);
-		unk_0x992BB708B4B7A005(unk_0xF2CFBB1105511E1A(iParam0), 177, 1);
+		unk_0x0FB8E752BCC547A9(unk_0x56E414973C2A8C0E(iParam0), 177, 1);
 	}
 }
 
@@ -88754,16 +88754,16 @@ void func_376()
 
 void func_377(int iParam0, int iParam1)
 {
-	if (unk_0xA26A9A07F761D8F8())
+	if (unk_0x76CD105BCAC6EB9F())
 	{
 		func_376();
 		func_52(2042, iParam0, -1, 1, 0);
-		unk_0x0685F1EBBDA0A4F4(unk_0x93E99A2DBCBA9CFA(), 5, func_74(unk_0xC1A5EC5C986B98AD(), iParam0), func_73(unk_0xC1A5EC5C986B98AD(), iParam0), 0);
-		func_70(unk_0x93E99A2DBCBA9CFA(), iParam0);
-		unk_0x77D2A2A3D1168FF6(unk_0x93E99A2DBCBA9CFA(), func_72(unk_0xC1A5EC5C986B98AD(), iParam0));
-		if ((iParam1 && !unk_0x66599E73DBA5A850(unk_0xC1A5EC5C986B98AD())) && unk_0xAC464F61BE9FD50D(unk_0xC1A5EC5C986B98AD(), 5) != 0)
+		unk_0x740F6E63EE1C1D43(unk_0x259BE71D8A81D4FA(), 5, func_74(unk_0x4A8C381C258A124D(), iParam0), func_73(unk_0x4A8C381C258A124D(), iParam0), 0);
+		func_70(unk_0x259BE71D8A81D4FA(), iParam0);
+		unk_0xC02C4AB8A5C744D7(unk_0x259BE71D8A81D4FA(), func_72(unk_0x4A8C381C258A124D(), iParam0));
+		if ((iParam1 && !unk_0x4FAFF4BCB7633475(unk_0x4A8C381C258A124D())) && unk_0xC0120BBCC298EA2F(unk_0x4A8C381C258A124D(), 5) != 0)
 		{
-			func_375(unk_0x93E99A2DBCBA9CFA(), -1, -1);
+			func_375(unk_0x259BE71D8A81D4FA(), -1, -1);
 		}
 	}
 }
@@ -88828,7 +88828,7 @@ int func_378(var uParam0)
 
 bool func_379(bool bParam0)
 {
-	return func_380(unk_0x93E99A2DBCBA9CFA(), bParam0);
+	return func_380(unk_0x259BE71D8A81D4FA(), bParam0);
 }
 
 bool func_380(int iParam0, bool bParam1)
@@ -88862,13 +88862,13 @@ void func_382(int iParam0, int iParam1, int iParam2)
 	
 	if (func_383(iParam1, iParam2, &uVar0, &uVar1))
 	{
-		unk_0xDDF5628AA2ED05A8(iParam0, uVar1);
-		unk_0x49E0991F296EFB60(iParam0, uVar0);
+		unk_0x9C63D805CB2ABDB5(iParam0, uVar1);
+		unk_0xCE1864BA99DCF3C2(iParam0, uVar0);
 	}
 	else
 	{
-		unk_0xDDF5628AA2ED05A8(iParam0, 0);
-		unk_0xA0E0099323EEA1B3(iParam0);
+		unk_0x9C63D805CB2ABDB5(iParam0, 0);
+		unk_0xC7DB642109D72AF8(iParam0);
 	}
 }
 
@@ -88990,17 +88990,17 @@ void func_384(bool bParam0, int iParam1, int iParam2, int iParam3, bool bParam4,
 	func_371(iParam3);
 	if (iParam2 == 0)
 	{
-		iParam2 = unk_0xC1A5EC5C986B98AD();
+		iParam2 = unk_0x4A8C381C258A124D();
 	}
 	if (func_395(iParam2) == 0)
 	{
-		unk_0xC6249EBDE530AFAE(iParam2, Global_1576217, Global_1576218, Global_1576219, 0);
-		unk_0xC6249EBDE530AFAE(iParam2, Global_1576217, Global_1576218, Global_1576219, 1);
-		unk_0xC6249EBDE530AFAE(iParam2, Global_1576217, Global_1576218, Global_1576219, 2);
-		unk_0xC6249EBDE530AFAE(iParam2, Global_1576217, Global_1576218, Global_1576219, 3);
+		unk_0xA3C0950202881572(iParam2, Global_1576217, Global_1576218, Global_1576219, 0);
+		unk_0xA3C0950202881572(iParam2, Global_1576217, Global_1576218, Global_1576219, 1);
+		unk_0xA3C0950202881572(iParam2, Global_1576217, Global_1576218, Global_1576219, 2);
+		unk_0xA3C0950202881572(iParam2, Global_1576217, Global_1576218, Global_1576219, 3);
 		if (bParam0 == 0)
 		{
-			if (!func_195(unk_0x93E99A2DBCBA9CFA()) || !unk_0xA26A9A07F761D8F8())
+			if (!func_195(unk_0x259BE71D8A81D4FA()) || !unk_0x76CD105BCAC6EB9F())
 			{
 				Var0 = 12;
 				Var0.f_13 = 12;
@@ -89028,9 +89028,9 @@ void func_384(bool bParam0, int iParam1, int iParam2, int iParam3, bool bParam4,
 		}
 		if (func_56())
 		{
-			if (unk_0x2BD01C3CAF96EB66() || unk_0xFEF17C3B5C5CB300())
+			if (unk_0xB10D024D4A098884() || unk_0x3369879DB5987727())
 			{
-				unk_0x0A3B6B850C2EC4FD(iParam2, 0, 1, 0, false, 1);
+				unk_0x7F08C4791E6D6969(iParam2, 0, 1, 0, false, 1);
 			}
 		}
 	}
@@ -89045,8 +89045,8 @@ void func_385(int iParam0, int iParam1, int iParam2, bool bParam3)
 	{
 		return;
 	}
-	iVar0 = unk_0x15A88CFAAFFC6C4B(0, 5);
-	iVar1 = unk_0x15A88CFAAFFC6C4B(0, 5);
+	iVar0 = unk_0xC5935DFB3F39785A(0, 5);
+	iVar1 = unk_0xC5935DFB3F39785A(0, 5);
 	switch (iParam1)
 	{
 		case 0:
@@ -89070,7 +89070,7 @@ void func_385(int iParam0, int iParam1, int iParam2, bool bParam3)
 			break;
 		
 		case 4:
-			if (unk_0x504B9BB48D41C264(*iParam0) == Global_152322.f_7)
+			if (unk_0x4B423FAA24E8ABF0(*iParam0) == Global_152322.f_7)
 			{
 				switch (iVar0)
 				{
@@ -89149,11 +89149,11 @@ void func_386(var uParam0, int iParam1, bool bParam2)
 	{
 		return;
 	}
-	if (unk_0x504B9BB48D41C264(*uParam0) == Global_152322.f_7)
+	if (unk_0x4B423FAA24E8ABF0(*uParam0) == Global_152322.f_7)
 	{
 		iVar0 = 0;
 	}
-	else if (unk_0x504B9BB48D41C264(*uParam0) == Global_152322.f_8)
+	else if (unk_0x4B423FAA24E8ABF0(*uParam0) == Global_152322.f_8)
 	{
 		iVar0 = 0;
 	}
@@ -89257,17 +89257,17 @@ void func_386(var uParam0, int iParam1, bool bParam2)
 			iVar9 = 128;
 			break;
 	}
-	if (!unk_0x66599E73DBA5A850(*uParam0))
+	if (!unk_0x4FAFF4BCB7633475(*uParam0))
 	{
-		unk_0x1C08E2F4F558A5FD(*uParam0);
+		unk_0x0C3579BA21459B45(*uParam0);
 		if (bParam2)
 		{
 			func_50(*uParam0, 11, iVar0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 		}
-		unk_0xC6249EBDE530AFAE(*uParam0, iVar1, iVar2, iVar3, 0);
-		unk_0xC6249EBDE530AFAE(*uParam0, iVar7, iVar8, iVar9, 1);
-		unk_0xC6249EBDE530AFAE(*uParam0, iVar4, iVar5, iVar6, 2);
-		unk_0xC6249EBDE530AFAE(*uParam0, iVar7, iVar8, iVar9, 3);
+		unk_0xA3C0950202881572(*uParam0, iVar1, iVar2, iVar3, 0);
+		unk_0xA3C0950202881572(*uParam0, iVar7, iVar8, iVar9, 1);
+		unk_0xA3C0950202881572(*uParam0, iVar4, iVar5, iVar6, 2);
+		unk_0xA3C0950202881572(*uParam0, iVar7, iVar8, iVar9, 3);
 	}
 }
 
@@ -89275,12 +89275,12 @@ int func_387()
 {
 	struct<13> Var0;
 	
-	if (unk_0x15342BF2828C4587())
+	if (unk_0x99DFE4CAC19D527F())
 	{
-		if ((unk_0x67EBFCF2F78761B9() && unk_0x7FFBE14C34D75E19()) && unk_0x56046AEC15223442())
+		if ((unk_0x261E3728EE56B3AC() && unk_0x5F9F81C08516558E()) && unk_0xFE087BC8EB584AA2())
 		{
 			Var0 = { func_388() };
-			if (unk_0xE52BCF7D5014E06E() && unk_0x7DD2CE58D33238D9(&Var0))
+			if (unk_0x7260716F2E4D7661() && unk_0xE582BF3EDDBB1A68(&Var0))
 			{
 				return 1;
 			}
@@ -89293,7 +89293,7 @@ struct<13> func_388()
 {
 	struct<13> Var0;
 	
-	unk_0xBC63AA40EF47053A(&Var0, 13);
+	unk_0x677540FE33795D26(&Var0, 13);
 	return Var0;
 }
 
@@ -89434,7 +89434,7 @@ int func_395(int iParam0)
 {
 	int iVar0;
 	
-	iVar0 = unk_0x504B9BB48D41C264(iParam0);
+	iVar0 = unk_0x4B423FAA24E8ABF0(iParam0);
 	if (iVar0 == joaat("u_m_m_filmdirector"))
 	{
 		return 1;
@@ -89463,7 +89463,7 @@ int func_397(int iParam0, bool bParam1)
 		case 9:
 			if (bParam1)
 			{
-				iVar1 = unk_0x15A88CFAAFFC6C4B(0, 5);
+				iVar1 = unk_0xC5935DFB3F39785A(0, 5);
 				switch (iVar1)
 				{
 					case 0:
@@ -89490,7 +89490,7 @@ int func_397(int iParam0, bool bParam1)
 			}
 			else
 			{
-				iVar1 = unk_0x15A88CFAAFFC6C4B(0, 5);
+				iVar1 = unk_0xC5935DFB3F39785A(0, 5);
 				switch (iVar1)
 				{
 					case 0:
@@ -89537,11 +89537,11 @@ void func_398(int iParam0, int iParam1)
 	float fVar12;
 	float fVar13;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		if (iParam0 == 0)
 		{
-			iParam0 = unk_0xC1A5EC5C986B98AD();
+			iParam0 = unk_0x4A8C381C258A124D();
 		}
 		iVar0 = func_424(447, iParam1);
 		iVar1 = func_424(448, iParam1);
@@ -89565,19 +89565,19 @@ void func_398(int iParam0, int iParam1)
 		{
 			fVar11 = 0f;
 		}
-		unk_0xC70211B0B9E81CB0(iParam0, 0, iVar0, fVar7);
+		unk_0xE5B6C9B29510B84E(iParam0, 0, iVar0, fVar7);
 		if (iVar1 >= 27)
 		{
 			iVar1 = (iVar1 - 7);
 		}
-		unk_0xC70211B0B9E81CB0(iParam0, 1, iVar1, fVar8);
-		unk_0x0BBBE17E7A0C35AD(iParam0, 1, 1, 0, 0);
-		unk_0xC70211B0B9E81CB0(iParam0, 2, iVar2, fVar9);
-		unk_0x0BBBE17E7A0C35AD(iParam0, 2, 1, 0, 0);
-		unk_0xC70211B0B9E81CB0(iParam0, 3, iVar3, fVar10);
-		unk_0xC70211B0B9E81CB0(iParam0, 4, iVar4, fVar11);
-		unk_0xC70211B0B9E81CB0(iParam0, 6, iVar5, fVar12);
-		unk_0xC70211B0B9E81CB0(iParam0, 7, iVar6, fVar13);
+		unk_0xE5B6C9B29510B84E(iParam0, 1, iVar1, fVar8);
+		unk_0x94965BB62753D4D6(iParam0, 1, 1, 0, 0);
+		unk_0xE5B6C9B29510B84E(iParam0, 2, iVar2, fVar9);
+		unk_0x94965BB62753D4D6(iParam0, 2, 1, 0, 0);
+		unk_0xE5B6C9B29510B84E(iParam0, 3, iVar3, fVar10);
+		unk_0xE5B6C9B29510B84E(iParam0, 4, iVar4, fVar11);
+		unk_0xE5B6C9B29510B84E(iParam0, 6, iVar5, fVar12);
+		unk_0xE5B6C9B29510B84E(iParam0, 7, iVar6, fVar13);
 	}
 }
 
@@ -89587,10 +89587,10 @@ void func_399(int iParam0, var uParam1, int iParam2, int iParam3)
 	
 	if (func_272())
 	{
-		iVar0 = Global_2847604[iParam0 /*3*/][func_53(iParam2)];
+		iVar0 = Global_2847606[iParam0 /*3*/][func_53(iParam2)];
 		if (iVar0 != 0)
 		{
-			unk_0x683F4BAF21D6EE25(iVar0, uParam1, iParam3);
+			unk_0x4F8678C02360C3D2(iVar0, uParam1, iParam3);
 		}
 	}
 }
@@ -89619,8 +89619,8 @@ void func_400(int iParam0, bool bParam1)
 			iVar1 = func_161(iVar1);
 		}
 		Var2 = { func_220(iVar16, 2, iVar1, -1) };
-		iVar17 = unk_0x7BB49FDC33CB9A06(iVar16, Var2.f_3, Var2.f_4);
-		iVar18 = unk_0xDEA375FD8F771518(iVar17);
+		iVar17 = unk_0xD839A970B98A1E9C(iVar16, Var2.f_3, Var2.f_4);
+		iVar18 = unk_0xBED8C136A36DA2C4(iVar17);
 		func_52(2153, iVar17, iParam0, 1, 0);
 		func_52(2160, iVar18, iParam0, 1, 0);
 	}
@@ -89646,14 +89646,14 @@ void func_401(int iParam0)
 	if (func_130(4211, iParam0) == 0)
 	{
 		func_413(4211, 1, iParam0);
-		uVar2 = unk_0xFC680D6CC972AEFB(unk_0xC1A5EC5C986B98AD(), 1, unk_0xAC464F61BE9FD50D(unk_0xC1A5EC5C986B98AD(), 1), unk_0xEDEBC30DEBDF84C8(unk_0xC1A5EC5C986B98AD(), 1));
-		if (unk_0x7FEA86016BC12607(uVar2, joaat("night_vision"), 0))
+		uVar2 = unk_0x94B8A32AA940A6B5(unk_0x4A8C381C258A124D(), 1, unk_0xC0120BBCC298EA2F(unk_0x4A8C381C258A124D(), 1), unk_0xD6AED6BFCC58AF7F(unk_0x4A8C381C258A124D(), 1));
+		if (unk_0x304A39EB177D246B(uVar2, joaat("night_vision"), 0))
 		{
-			func_50(unk_0xC1A5EC5C986B98AD(), 1, 0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
+			func_50(unk_0x4A8C381C258A124D(), 1, 0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 		}
-		else if (func_408(unk_0xC1A5EC5C986B98AD(), 0))
+		else if (func_408(unk_0x4A8C381C258A124D(), 0))
 		{
-			func_50(unk_0xC1A5EC5C986B98AD(), 1, 0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
+			func_50(unk_0x4A8C381C258A124D(), 1, 0, 0, -1, 0, 0, 0, -1, -1, -1, 0, 0, 0);
 		}
 		iVar3 = func_165(2053, iParam0, 0);
 		if (iVar3 == -99)
@@ -89738,11 +89738,11 @@ int func_402(int iParam0, int iParam1, int iParam2, bool bParam3, int iParam4)
 			}
 			if (iParam4 == 1 && bParam3 == 1)
 			{
-				iVar0 = unk_0xF15296EACCC386AE(Global_2883588);
+				iVar0 = unk_0x5A3F0A3B7ECCBD32(Global_2883588);
 				iVar1 = 0;
 				while (iVar1 < iVar0)
 				{
-					unk_0xEAB69C23DB3E475B(Global_2883588, iVar1, &iVar2, &uVar3, &iVar4);
+					unk_0x0249B53AB91BF9D0(Global_2883588, iVar1, &iVar2, &uVar3, &iVar4);
 					if (iVar2 != 0 && iVar2 != joaat("0"))
 					{
 						func_217(iVar2, 1, 1, 1, -1);
@@ -89793,11 +89793,11 @@ int func_402(int iParam0, int iParam1, int iParam2, bool bParam3, int iParam4)
 				iVar34 = func_165(func_224(iParam1, Global_78341[1 /*14*/].f_2), Global_78338, 0);
 				if (bParam3)
 				{
-					unk_0xECDAB41968FF21A8(&iVar34, Global_78341[1 /*14*/].f_1);
+					unk_0x0B0C9A0F9AAEB7F0(&iVar34, Global_78341[1 /*14*/].f_1);
 				}
 				else
 				{
-					unk_0x061B1200C95204CB(&iVar34, Global_78341[1 /*14*/].f_1);
+					unk_0x8744D2E3FC95740E(&iVar34, Global_78341[1 /*14*/].f_1);
 				}
 				func_52(func_224(iParam1, Global_78341[1 /*14*/].f_2), iVar34, Global_78338, 1, 0);
 			}
@@ -90296,7 +90296,7 @@ int func_402(int iParam0, int iParam1, int iParam2, bool bParam3, int iParam4)
 			{
 				if (iParam0 == joaat("mp_m_freemode_01"))
 				{
-					if ((((((((((((((((((((((Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_0") || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_1")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_2")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_3")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_4")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_5")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_6")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_7")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_8")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_9")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_10")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_11")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_12")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_13")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_14")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_15")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_16")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_17")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_18")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_19")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_20")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_21")) || unk_0x7FEA86016BC12607(Global_2883588, joaat("scuba_gear"), 0))
+					if ((((((((((((((((((((((Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_0") || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_1")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_2")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_3")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_4")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_5")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_6")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_7")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_8")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_9")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_10")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_11")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_12")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_13")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_14")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_15")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_16")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_17")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_18")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_19")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_20")) || Global_2883588 == joaat("dlc_mp_x17_m_outfit_scuba_21")) || unk_0x304A39EB177D246B(Global_2883588, joaat("scuba_gear"), 0))
 					{
 						if (func_130(26965, -1))
 						{
@@ -90309,7 +90309,7 @@ int func_402(int iParam0, int iParam1, int iParam2, bool bParam3, int iParam4)
 				}
 				else if (iParam0 == joaat("mp_f_freemode_01"))
 				{
-					if ((((((((((((((((((((((Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_0") || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_1")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_2")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_3")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_4")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_5")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_6")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_7")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_8")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_9")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_10")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_11")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_12")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_13")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_14")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_15")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_16")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_17")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_18")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_19")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_20")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_21")) || unk_0x7FEA86016BC12607(Global_2883588, joaat("scuba_gear"), 0))
+					if ((((((((((((((((((((((Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_0") || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_1")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_2")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_3")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_4")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_5")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_6")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_7")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_8")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_9")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_10")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_11")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_12")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_13")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_14")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_15")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_16")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_17")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_18")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_19")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_20")) || Global_2883588 == joaat("dlc_mp_x17_f_outfit_scuba_21")) || unk_0x304A39EB177D246B(Global_2883588, joaat("scuba_gear"), 0))
 					{
 						if (func_130(26965, -1))
 						{
@@ -90342,7 +90342,7 @@ void func_403(int iParam0, int iParam1, bool bParam2, bool bParam3, int iParam4)
 	if (func_218(iParam0, iParam1, &iVar2, &iVar1, bParam2, bParam3))
 	{
 		iVar3 = func_165(iVar2, iVar0, 0);
-		unk_0x061B1200C95204CB(&iVar3, iVar1);
+		unk_0x8744D2E3FC95740E(&iVar3, iVar1);
 		func_52(iVar2, iVar3, iVar0, 1, 0);
 	}
 }
@@ -90386,11 +90386,11 @@ int func_404(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4)
 			iVar0 = func_165(func_225(iParam1, Global_78341[1 /*14*/].f_2), Global_78338, 0);
 			if (bParam3)
 			{
-				unk_0xECDAB41968FF21A8(&iVar0, Global_78341[1 /*14*/].f_1);
+				unk_0x0B0C9A0F9AAEB7F0(&iVar0, Global_78341[1 /*14*/].f_1);
 			}
 			else
 			{
-				unk_0x061B1200C95204CB(&iVar0, Global_78341[1 /*14*/].f_1);
+				unk_0x8744D2E3FC95740E(&iVar0, Global_78341[1 /*14*/].f_1);
 			}
 			func_52(func_225(iParam1, Global_78341[1 /*14*/].f_2), iVar0, Global_78338, 1, 0);
 		}
@@ -90399,7 +90399,7 @@ int func_404(int iParam0, int iParam1, int iParam2, bool bParam3, bool bParam4)
 			if (func_216(iParam1, Global_78341[1 /*14*/].f_2, &iVar1))
 			{
 				iVar2 = func_165(iVar1, Global_78338, 0);
-				unk_0xECDAB41968FF21A8(&iVar2, Global_78341[1 /*14*/].f_1);
+				unk_0x0B0C9A0F9AAEB7F0(&iVar2, Global_78341[1 /*14*/].f_1);
 				func_52(iVar1, iVar2, Global_78338, 1, 0);
 			}
 		}
@@ -90661,10 +90661,10 @@ void func_407(int iParam0, int iParam1, int iParam2, int iParam3)
 {
 	int iVar0;
 	
-	iVar0 = Global_2805027[iParam0 /*3*/][func_53(iParam2)];
+	iVar0 = Global_2805029[iParam0 /*3*/][func_53(iParam2)];
 	if (iVar0 != 0)
 	{
-		unk_0x3CC35ACFFC9C730E(iVar0, iParam1, iParam3);
+		unk_0x1164A75E490C27B6(iVar0, iParam1, iParam3);
 	}
 	switch (iParam0)
 	{
@@ -90765,23 +90765,23 @@ void func_407(int iParam0, int iParam1, int iParam2, int iParam3)
 			break;
 		
 		case 1878:
-			Global_2851323[0 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[0 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 2269:
-			Global_2851323[1 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[1 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 2932:
-			Global_2851323[2 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[2 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3061:
-			Global_2851323[3 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[3 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 12424:
-			Global_2851502[func_53(iParam2)] = iParam1;
+			Global_2851504[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 765:
@@ -90813,311 +90813,311 @@ void func_407(int iParam0, int iParam1, int iParam2, int iParam3)
 			break;
 		
 		case 3056:
-			Global_2851411[0 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[0 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3057:
-			Global_2851411[1 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[1 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3058:
-			Global_2851411[2 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[2 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3059:
-			Global_2851411[3 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[3 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3060:
-			Global_2851411[4 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[4 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3639:
-			Global_2851505[0 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851507[0 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3640:
-			Global_2851505[1 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851507[1 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3641:
-			Global_2851505[2 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851507[2 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3642:
-			Global_2851505[3 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851507[3 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3643:
-			Global_2851505[4 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851507[4 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3644:
-			Global_2851521[0 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851523[0 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3645:
-			Global_2851521[1 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851523[1 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3646:
-			Global_2851521[2 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851523[2 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3647:
-			Global_2851521[3 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851523[3 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3648:
-			Global_2851521[4 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851523[4 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3224:
-			Global_2851411[5 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[5 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3230:
-			Global_2851323[4 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[4 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3666:
-			Global_2851537[func_53(iParam2)] = iParam1;
+			Global_2851539[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3667:
-			Global_2851546[func_53(iParam2)] = iParam1;
+			Global_2851548[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3668:
-			Global_2851540[func_53(iParam2)] = iParam1;
+			Global_2851542[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3669:
-			Global_2851549[func_53(iParam2)] = iParam1;
+			Global_2851551[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3670:
-			Global_2851543[func_53(iParam2)] = iParam1;
+			Global_2851545[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3671:
-			Global_2851552[func_53(iParam2)] = iParam1;
+			Global_2851554[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3692:
-			Global_2851555[func_53(iParam2)] = iParam1;
+			Global_2851557[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3232:
-			Global_2851411[6 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[6 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3233:
-			Global_2851323[5 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[5 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3237:
-			Global_2851411[7 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[7 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 3235:
-			Global_2851323[6 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[6 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4022:
-			Global_2851411[8 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[8 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4023:
-			Global_2851323[7 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[7 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4025:
-			Global_2851411[9 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[9 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4026:
-			Global_2851323[8 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[8 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4028:
-			Global_2851411[10 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[10 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4029:
-			Global_2851323[9 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[9 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4031:
-			Global_2851411[11 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[11 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 4032:
-			Global_2851323[10 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[10 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6112:
-			Global_2851411[12 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[12 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6113:
-			Global_2851323[11 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[11 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6170:
-			Global_2851411[13 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[13 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6171:
-			Global_2851323[12 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[12 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6548:
-			Global_2851411[14 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[14 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6549:
-			Global_2851323[13 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[13 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6561:
-			Global_2851411[15 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[15 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6562:
-			Global_2851323[14 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[14 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6564:
-			Global_2851411[16 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[16 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6565:
-			Global_2851323[15 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[15 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6567:
-			Global_2851411[17 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[17 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 6568:
-			Global_2851323[16 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[16 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 7286:
-			Global_2851323[17 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[17 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 7288:
-			Global_2851323[18 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[18 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 7290:
-			Global_2851323[19 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[19 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8013:
-			Global_2851323[20 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[20 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8285:
-			Global_2851558[func_53(iParam2)] = iParam1;
+			Global_2851560[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8286:
-			Global_2851561[func_53(iParam2)] = iParam1;
+			Global_2851563[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8287:
-			Global_2851564[func_53(iParam2)] = iParam1;
+			Global_2851566[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8288:
-			Global_2851567[func_53(iParam2)] = iParam1;
+			Global_2851569[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8289:
-			Global_2851570[func_53(iParam2)] = iParam1;
+			Global_2851572[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8290:
-			Global_2851573[func_53(iParam2)] = iParam1;
+			Global_2851575[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8291:
-			Global_2851576[func_53(iParam2)] = iParam1;
+			Global_2851578[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8292:
-			Global_2851579[func_53(iParam2)] = iParam1;
+			Global_2851581[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8293:
-			Global_2851582[func_53(iParam2)] = iParam1;
+			Global_2851584[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8294:
-			Global_2851585[func_53(iParam2)] = iParam1;
+			Global_2851587[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8295:
-			Global_2851588[func_53(iParam2)] = iParam1;
+			Global_2851590[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8296:
-			Global_2851591[func_53(iParam2)] = iParam1;
+			Global_2851593[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8297:
-			Global_2851594[func_53(iParam2)] = iParam1;
+			Global_2851596[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8905:
-			Global_2851597[func_53(iParam2)] = iParam1;
+			Global_2851599[func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8537:
-			Global_2851323[21 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[21 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8982:
-			Global_2851411[23 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[23 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8980:
-			Global_2851323[22 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[22 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8985:
-			Global_2851411[24 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[24 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 8983:
-			Global_2851323[23 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[23 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 9624:
-			Global_2851323[24 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[24 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 9913:
-			Global_2851323[25 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[25 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 10443:
-			Global_2851411[27 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[27 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 10441:
-			Global_2851323[26 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[26 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 10446:
-			Global_2851411[28 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851413[28 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		case 10444:
-			Global_2851323[27 /*3*/][func_53(iParam2)] = iParam1;
+			Global_2851325[27 /*3*/][func_53(iParam2)] = iParam1;
 			break;
 		
 		default:
@@ -91149,7 +91149,7 @@ int func_408(int iParam0, int iParam1)
 		iVar112 = 0;
 		while (iVar112 < 12)
 		{
-			if (Var0[iVar112] == unk_0xAC464F61BE9FD50D(iParam0, iVar112) && Var0.f_13[iVar112] == unk_0xEDEBC30DEBDF84C8(iParam0, iVar112))
+			if (Var0[iVar112] == unk_0xC0120BBCC298EA2F(iParam0, iVar112) && Var0.f_13[iVar112] == unk_0xD6AED6BFCC58AF7F(iParam0, iVar112))
 			{
 				return 1;
 			}
@@ -91158,7 +91158,7 @@ int func_408(int iParam0, int iParam1)
 		iVar112 = 0;
 		while (iVar112 < Var0.f_26)
 		{
-			if (Var0.f_26[iVar112] == unk_0x6BC6C26115124DFE(iParam0, iVar112, 1) && Var0.f_36[iVar112] == unk_0xC5753F88DDA773E0(iParam0, iVar112))
+			if (Var0.f_26[iVar112] == unk_0xB204F40D393426B6(iParam0, iVar112, 1) && Var0.f_36[iVar112] == unk_0x0DC23FA727759F9F(iParam0, iVar112))
 			{
 				return 1;
 			}
@@ -91224,7 +91224,7 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		}
 	}
 	bVar85 = false;
-	if (unk_0x504B9BB48D41C264(Param1.f_0) == joaat("mp_m_freemode_01"))
+	if (unk_0x4B423FAA24E8ABF0(Param1.f_0) == joaat("mp_m_freemode_01"))
 	{
 		bVar85 = true;
 	}
@@ -91266,13 +91266,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 					{
 						if (bVar85)
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_2_0"), &Var51);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_2_0"), &Var51);
 							Var0[1] = Var51.f_3;
 							Var0.f_13[1] = Var51.f_4;
 						}
 						else
 						{
-							unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_2_0"), &Var51);
+							unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_2_0"), &Var51);
 							Var0[1] = Var51.f_3;
 							Var0.f_13[1] = Var51.f_4;
 						}
@@ -91284,13 +91284,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 0:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91299,13 +91299,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 1:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91314,13 +91314,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 2:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91329,13 +91329,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 3:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91344,13 +91344,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 4:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_m_berd_0_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_m_berd_0_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_f_berd_0_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_f_berd_0_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91359,13 +91359,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 5:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_m_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_m_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_f_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_f_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91374,13 +91374,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 6:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_m_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_m_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_f_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_f_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91389,13 +91389,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 7:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_m_berd_2_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_m_berd_2_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_f_berd_2_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_f_berd_2_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91404,13 +91404,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 8:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91419,13 +91419,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 9:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91434,13 +91434,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 10:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91449,13 +91449,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 11:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91464,13 +91464,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 12:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91479,13 +91479,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 13:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91494,13 +91494,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 14:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91509,13 +91509,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 15:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91524,13 +91524,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 16:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91539,13 +91539,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 17:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91554,13 +91554,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 18:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91569,13 +91569,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 19:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_11"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_11"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91584,13 +91584,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 20:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_12"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_12"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91599,13 +91599,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 21:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_13"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_13"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91614,13 +91614,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 22:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_14"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_14"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91629,13 +91629,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 23:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_15"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_15"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91644,13 +91644,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 24:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_16"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_16"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91659,13 +91659,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 25:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_17"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_17"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91674,13 +91674,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 26:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_18"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_18"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_18"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_18"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91689,13 +91689,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 27:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_19"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_19"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91704,13 +91704,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 28:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_20"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_20"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91719,13 +91719,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 29:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_21"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_21"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_21"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_21"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91734,13 +91734,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 30:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_22"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_22"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_22"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_22"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91749,13 +91749,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 31:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_23"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_23"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_23"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_23"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91764,13 +91764,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 32:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_24"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_24"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_24"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_24"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91779,13 +91779,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 33:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_14_25"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_14_25"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_14_25"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_14_25"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91794,13 +91794,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 34:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd0_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd0_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd0_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd0_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91809,13 +91809,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 35:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd0_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd0_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd0_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd0_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91824,13 +91824,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 36:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd0_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd0_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd0_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd0_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91839,13 +91839,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 37:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd0_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd0_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd0_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd0_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91854,13 +91854,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 38:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_9_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_9_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_9_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_9_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91869,13 +91869,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 39:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91897,13 +91897,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 41:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_10_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_10_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_10_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_10_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91912,13 +91912,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 42:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91927,13 +91927,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 43:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_5_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_5_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_5_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_5_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91942,13 +91942,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 44:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_6_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_6_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_6_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_6_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -91957,13 +91957,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 45:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92024,13 +92024,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 50:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92039,13 +92039,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 51:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_11_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_11_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92054,13 +92054,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 52:
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_m_phead_4_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_m_phead_4_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_phead_4_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_phead_4_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
@@ -92071,13 +92071,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 53:
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_m_phead_5_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_phead_5_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
@@ -92088,13 +92088,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 54:
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_m_phead_6_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_m_phead_6_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_phead_6_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_phead_6_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
@@ -92105,13 +92105,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 55:
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_m_phead_7_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_m_phead_7_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_phead_7_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_phead_7_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
@@ -92182,13 +92182,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 60:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_m_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_m_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_f_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_f_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92223,13 +92223,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 63:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd1_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd1_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd1_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd1_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92238,13 +92238,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 64:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_15_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_15_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_15_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_15_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92253,13 +92253,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 65:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_15_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_15_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_15_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_15_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92268,13 +92268,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 66:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_15_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_15_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_15_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_15_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92283,13 +92283,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 67:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_15_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_15_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_15_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_15_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92298,13 +92298,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 68:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92326,13 +92326,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 70:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92341,13 +92341,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 71:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_m_berd_1_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_m_berd_1_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_f_berd_1_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_f_berd_1_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92356,13 +92356,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 72:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_15_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_15_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_15_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_15_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92371,13 +92371,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 73:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_m_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_m_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_f_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_f_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92386,13 +92386,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 74:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_m_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_m_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_lts_f_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_lts_f_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92401,13 +92401,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 75:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd2_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd2_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd2_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd2_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92416,13 +92416,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 76:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_12_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_12_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_12_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_12_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92431,13 +92431,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 77:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_12_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_12_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_12_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_12_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92446,13 +92446,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 78:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_12_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_12_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_12_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_12_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92461,13 +92461,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 79:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_12_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_12_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_12_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_12_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92476,13 +92476,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 80:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_val_m_berd1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_val_m_berd1_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_val_f_berd1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_val_f_berd1_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92491,13 +92491,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 81:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_15_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_15_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_15_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_15_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92506,13 +92506,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 82:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_15_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_15_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_15_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_15_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92521,13 +92521,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 83:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_val_m_berd0_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_val_m_berd0_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_val_f_berd0_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_val_f_berd0_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92588,13 +92588,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 88:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_13_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_13_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_13_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_13_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92603,13 +92603,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 89:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_13_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_13_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_13_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_13_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92618,13 +92618,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 90:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_13_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_13_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_13_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_13_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92633,13 +92633,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 91:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_13_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_13_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_13_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_13_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92648,13 +92648,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 92:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92663,13 +92663,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 93:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92678,13 +92678,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 94:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92693,13 +92693,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 95:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92708,13 +92708,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 96:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_18"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_18"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_18"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_18"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92723,13 +92723,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 97:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_19"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_19"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92738,13 +92738,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 98:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_20"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_20"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92753,13 +92753,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 99:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_17"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_17"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92768,13 +92768,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 100:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92783,13 +92783,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 101:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_21"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_21"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_21"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_21"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92798,13 +92798,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 102:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_23_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_23_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_23_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_23_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92813,13 +92813,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 103:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_23_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_23_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_23_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_23_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92828,13 +92828,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 104:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_23_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_23_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_23_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_23_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92843,13 +92843,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 105:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_23_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_23_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_23_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_23_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92858,13 +92858,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 106:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92873,13 +92873,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 107:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_23_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_23_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_23_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_23_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92888,13 +92888,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 108:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92903,13 +92903,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 109:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92918,13 +92918,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 110:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92933,13 +92933,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 111:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92948,13 +92948,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 112:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92963,13 +92963,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 113:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92978,13 +92978,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 114:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -92993,13 +92993,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 115:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93008,13 +93008,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 116:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93023,13 +93023,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 117:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd1_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd1_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93038,13 +93038,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 118:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93053,13 +93053,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 119:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93068,13 +93068,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 120:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93083,13 +93083,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 121:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93098,13 +93098,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 122:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93113,13 +93113,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 123:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93128,7 +93128,7 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 124:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_16_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_16_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 				Var0.f_26[0] = 4;
@@ -93138,10 +93138,10 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_16_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_16_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
 				Var0.f_26[1] = Var68.f_3;
 				Var0.f_36[1] = Var68.f_4;
 				Var0.f_26[0] = 4;
@@ -93152,10 +93152,10 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 125:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_16_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_16_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_m_phead_8_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_m_phead_8_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 				Var0.f_26[1] = 7;
@@ -93163,13 +93163,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_16_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_16_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
 				Var0.f_26[1] = Var68.f_3;
 				Var0.f_36[1] = Var68.f_4;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_phead_8_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_phead_8_0"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
@@ -93178,7 +93178,7 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 126:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_16_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_16_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 				Var0.f_26[1] = 7;
@@ -93188,10 +93188,10 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_16_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_16_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
 				Var0.f_26[1] = Var68.f_3;
 				Var0.f_36[1] = Var68.f_4;
 				Var0.f_26[0] = 4;
@@ -93202,24 +93202,24 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 127:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_16_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_16_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 				Var0.f_26[1] = 7;
 				Var0.f_36[1] = 0;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_m_phead_8_1"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_m_phead_8_1"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_16_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_16_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_eyes0_0"), &Var68);
 				Var0.f_26[1] = Var68.f_3;
 				Var0.f_36[1] = Var68.f_4;
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_heist_f_phead_8_1"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_heist_f_phead_8_1"), &Var68);
 				Var0.f_26[0] = Var68.f_3;
 				Var0.f_36[0] = Var68.f_4;
 			}
@@ -93228,13 +93228,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 128:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_18_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_18_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_18_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_18_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93243,13 +93243,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 129:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_18_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_18_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_18_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_18_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93258,13 +93258,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 130:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_18_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_18_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_18_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_18_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93273,13 +93273,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 131:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_18_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_18_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_18_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_18_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93288,13 +93288,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 132:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_15"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_15"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93303,13 +93303,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 133:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93318,13 +93318,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 134:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_14"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_14"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93333,13 +93333,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 135:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_10"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93348,13 +93348,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 136:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_12"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_12"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93363,13 +93363,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 137:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_13"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_13"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93378,13 +93378,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 138:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93393,13 +93393,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 139:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_12_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_12_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_12_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_12_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93408,13 +93408,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 140:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_8_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_8_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_8_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_8_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93423,13 +93423,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 141:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_12_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_12_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_12_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_12_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93438,13 +93438,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 142:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_8_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_8_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_8_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_8_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93453,13 +93453,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 143:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_12_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_12_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_12_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_12_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93468,13 +93468,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 144:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_9_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_9_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_9_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_9_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93483,13 +93483,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 145:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_2_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_2_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_2_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_2_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93498,13 +93498,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 146:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_9_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_9_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_9_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_9_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93513,13 +93513,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 147:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93528,13 +93528,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 148:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_0_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_0_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_0_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_0_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93543,13 +93543,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 149:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_6_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_6_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_6_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_6_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93558,13 +93558,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 150:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_0_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_0_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_0_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_0_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93573,13 +93573,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 151:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_6_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_6_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_6_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_6_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93588,13 +93588,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 152:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93603,13 +93603,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 153:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93618,13 +93618,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 154:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_3_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_3_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_3_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_3_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93633,13 +93633,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 155:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_4_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_4_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_4_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_4_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93648,13 +93648,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 156:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93663,13 +93663,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 157:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93678,13 +93678,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 158:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_5_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_5_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_5_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_5_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93693,13 +93693,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 159:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_7_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_7_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_7_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_7_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93708,13 +93708,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 160:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_10_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_10_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_10_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_10_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93723,13 +93723,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 161:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_11_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_11_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_11_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_11_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93738,13 +93738,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 162:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_10_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_10_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_10_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_10_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93753,13 +93753,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 163:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_m_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_m_berd_11_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hal_f_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hal_f_berd_11_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93770,13 +93770,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 164:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93785,13 +93785,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 165:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_5_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_5_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_5_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_5_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93800,13 +93800,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 166:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_11_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_11_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93815,13 +93815,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 167:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_12_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_12_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_12_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_12_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93830,13 +93830,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 168:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_12_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_12_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_12_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_12_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93845,13 +93845,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 169:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_12_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_12_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_12_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_12_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93860,13 +93860,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 170:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_13_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_13_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_13_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_13_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93875,13 +93875,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 171:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_16_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_16_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_16_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_16_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93890,13 +93890,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 172:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_16_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_16_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_16_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_16_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93905,13 +93905,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 173:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_16_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_16_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_16_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_16_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93920,13 +93920,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 174:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_16_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_16_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_16_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_16_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93935,13 +93935,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 175:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93950,13 +93950,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 176:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93965,13 +93965,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 177:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93980,13 +93980,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 178:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -93995,13 +93995,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 179:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94010,13 +94010,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 180:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94025,13 +94025,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 181:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94040,13 +94040,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 182:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94055,13 +94055,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 183:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_10_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_10_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_10_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_10_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94070,13 +94070,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 184:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_17_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_17_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94085,13 +94085,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 185:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_14_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_14_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_14_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_14_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94100,13 +94100,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 186:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_14_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_14_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_14_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_14_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94115,13 +94115,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 187:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_14_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_14_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_14_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_14_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94130,13 +94130,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 188:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_14_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_14_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_14_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_14_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94145,13 +94145,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 189:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_14_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_14_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_14_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_14_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94160,13 +94160,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 190:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_14_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_14_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_14_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_14_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94175,13 +94175,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 191:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94190,13 +94190,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 192:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94205,13 +94205,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 193:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94220,13 +94220,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 194:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94235,13 +94235,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 195:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94250,13 +94250,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 196:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94265,13 +94265,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 197:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94280,13 +94280,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 198:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_19_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_19_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_19_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_19_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94295,13 +94295,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 199:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_8_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_8_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94310,13 +94310,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 200:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_8_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_8_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_8_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_8_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94325,13 +94325,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 201:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_8_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_8_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_8_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_8_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94340,13 +94340,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 202:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_8_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_8_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_8_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_8_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94355,13 +94355,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 203:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_8_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_8_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_8_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_8_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94370,13 +94370,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 204:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_8_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_8_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_8_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_8_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94385,13 +94385,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 205:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_m_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_m_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_f_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_f_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94400,13 +94400,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 206:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_m_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_m_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_f_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_f_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94415,13 +94415,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 207:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_m_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_m_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_f_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_f_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94430,13 +94430,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 208:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_m_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_m_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_f_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_f_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94445,13 +94445,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 209:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_m_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_m_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_f_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_f_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94460,13 +94460,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 210:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_m_berd_6_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_m_berd_6_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_vwd_f_berd_6_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_vwd_f_berd_6_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94475,13 +94475,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 211:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94490,13 +94490,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 212:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_16"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_16"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94505,13 +94505,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 213:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_20_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_20_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_20_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_20_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94520,13 +94520,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 214:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94535,13 +94535,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 215:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94550,13 +94550,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 216:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94565,13 +94565,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 217:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94580,13 +94580,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 218:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_9_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_9_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_9_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_9_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94595,13 +94595,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 219:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94610,13 +94610,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 220:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94625,13 +94625,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 221:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94640,13 +94640,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 222:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94655,13 +94655,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 223:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94670,13 +94670,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 224:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94685,13 +94685,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 225:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94700,13 +94700,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 226:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94715,13 +94715,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 227:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_4_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_4_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94730,13 +94730,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 228:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_m_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_m_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_f_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_f_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94745,13 +94745,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 229:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_5_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_5_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94760,13 +94760,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 230:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_m_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_m_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_f_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_f_berd_2_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94775,13 +94775,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 231:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_6_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_6_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_6_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_6_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94790,13 +94790,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 232:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_m_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_m_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_f_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_f_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94805,13 +94805,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 233:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_m_berd_1_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_m_berd_1_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ind_f_berd_1_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ind_f_berd_1_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94820,13 +94820,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 234:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_m_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_m_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_f_berd_1_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_f_berd_1_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94835,13 +94835,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 235:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_m_berd_0_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_m_berd_0_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_hips_f_berd_0_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_hips_f_berd_0_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94850,13 +94850,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 236:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94865,13 +94865,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 237:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_9_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_9_11"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_9_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_9_11"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94880,13 +94880,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 238:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_7_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_7_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_7_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_7_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94895,13 +94895,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 239:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_9_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_9_17"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_9_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_9_17"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94910,13 +94910,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 240:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_3_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_3_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_3_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_3_6"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94925,13 +94925,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 241:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_3_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_3_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_3_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_3_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94940,13 +94940,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 242:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_7_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_7_19"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_7_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_7_19"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94955,13 +94955,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 243:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_7_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_7_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94970,13 +94970,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 244:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_3_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_3_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -94985,13 +94985,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 245:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_3_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_3_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_3_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_3_1"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95000,13 +95000,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 246:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_3_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_3_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_3_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_3_2"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95015,13 +95015,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 247:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_3_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_3_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_3_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_3_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95030,13 +95030,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 248:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_3_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_3_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_3_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_3_4"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95045,13 +95045,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 249:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_3_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_3_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_3_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_3_5"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95060,13 +95060,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 250:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_9"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95075,13 +95075,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 251:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95090,13 +95090,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 252:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_13"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_13"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95105,13 +95105,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 253:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_14"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_14"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95120,13 +95120,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 254:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_16"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_16"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95135,13 +95135,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 255:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd0_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd0_8"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95150,13 +95150,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 256:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd0_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd0_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd0_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd0_7"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95165,13 +95165,13 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 257:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_m_berd1_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_m_berd1_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_busi_f_berd1_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_busi_f_berd1_3"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
 			}
@@ -95182,11 +95182,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 258:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_10_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_10_1"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_10_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_10_1"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95195,11 +95195,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 259:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_10_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_10_2"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_10_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_10_2"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95208,11 +95208,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 260:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_10_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_10_6"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_10_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_10_6"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95221,11 +95221,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 261:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_m_berd_10_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_m_berd_10_11"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_ie_f_berd_10_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_ie_f_berd_10_11"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95234,11 +95234,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 262:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_1_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_1_8"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_1_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_1_8"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95247,11 +95247,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 263:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_1_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_1_5"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_1_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_1_5"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95260,11 +95260,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 264:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_1_2"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_1_2"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95273,11 +95273,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 265:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_1_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_1_1"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_1_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_1_1"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95286,11 +95286,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 266:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_3_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_3_4"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_3_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_3_4"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95299,11 +95299,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 267:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_3_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_3_2"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_3_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_3_2"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95312,11 +95312,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 268:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_3_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_3_1"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_3_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_3_1"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95325,11 +95325,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 269:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_3_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_3_5"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_3_5"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_3_5"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95338,11 +95338,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 270:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_3_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_3_7"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_3_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_3_7"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95351,11 +95351,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 271:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_3_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_3_11"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_3_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_3_11"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95364,11 +95364,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 272:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_0_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_0_6"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_0_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_0_6"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95377,11 +95377,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 273:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_0_8"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_0_8"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95390,11 +95390,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 274:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_0_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_0_10"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_0_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_0_10"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95403,11 +95403,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 275:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_0_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_0_14"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_0_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_0_14"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95416,11 +95416,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 276:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_0_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_0_20"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_0_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_0_20"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95429,11 +95429,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 277:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_0_23"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_0_23"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_0_23"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_0_23"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95442,21 +95442,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 278:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_0"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_0"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95465,21 +95465,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 279:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_1"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_1"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95488,21 +95488,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 280:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_10"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_10"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95511,21 +95511,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 281:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_11"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_11"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95534,21 +95534,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 282:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_12"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_12"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95557,21 +95557,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 283:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_14"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_14"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95580,21 +95580,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 284:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_15"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_15"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95603,21 +95603,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 285:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_m_berd_2_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_m_berd_2_17"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h4_f_berd_2_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h4_f_berd_2_17"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95626,21 +95626,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 286:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_9_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_9_1"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_9_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_9_1"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_1"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_1"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_1"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_1"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95649,21 +95649,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 287:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_m_berd_9_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_m_berd_9_3"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_h3_f_berd_9_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_h3_f_berd_9_3"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_5_3"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_5_3"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_5_3"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_5_3"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95672,11 +95672,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 288:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_1"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_1"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95685,11 +95685,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 289:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_19_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_19_2"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_19_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_19_2"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95698,11 +95698,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 290:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_3"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_3"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_3"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95711,11 +95711,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 291:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_6"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_6"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95724,11 +95724,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 292:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95737,11 +95737,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 293:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_20_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_20_0"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_20_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_20_0"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95750,11 +95750,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 294:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_21_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_21_1"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_21_1"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_21_1"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95763,11 +95763,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 295:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_22_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_22_0"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_22_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_22_0"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95776,19 +95776,19 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 296:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_hair_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_hair_0_0"), &Var51);
 				Var0[2] = Var51.f_3;
 				Var0.f_13[2] = Var51.f_4;
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_0_0"), &Var51);
 				Var0[1] = Var51.f_3;
 				Var0.f_13[1] = Var51.f_4;
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_hair_0_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_hair_0_0"), &Var51);
 				Var0[2] = Var51.f_3;
 				Var0.f_13[2] = Var51.f_4;
 			}
@@ -95797,21 +95797,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 297:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_smug_m_phead_4_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_smug_m_phead_4_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_smug_f_phead_4_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_smug_f_phead_4_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95820,21 +95820,21 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 298:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_m_berd_17_0"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_heist_f_berd_17_0"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
 			if (bVar85)
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_m_phead_10_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_m_phead_10_0"), &Var68);
 			}
 			else
 			{
-				unk_0x9C6515C089F7E6F6(joaat("dlc_mp_h3_f_phead_10_0"), &Var68);
+				unk_0x09A485A642AEADEF(joaat("dlc_mp_h3_f_phead_10_0"), &Var68);
 			}
 			Var0.f_26[0] = Var68.f_3;
 			Var0.f_36[0] = Var68.f_4;
@@ -95843,11 +95843,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 299:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_0"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_0"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_0"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95856,11 +95856,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 300:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_17"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_17"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95869,11 +95869,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 301:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_16"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_16"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95882,11 +95882,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 302:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_15"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_15"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95895,11 +95895,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 303:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_12"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_12"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_12"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95908,11 +95908,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 304:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_11"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_11"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95921,11 +95921,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 305:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_8"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_8"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95934,11 +95934,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 306:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_6"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_6"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95947,11 +95947,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 307:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_m_berd_1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_m_berd_1_2"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_gr_f_berd_1_2"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_gr_f_berd_1_2"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95960,11 +95960,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 308:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_8"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_8"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95973,11 +95973,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 309:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_19"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_19"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95986,11 +95986,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 310:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_17"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_17"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_17"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -95999,11 +95999,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 311:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_15"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_15"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96012,11 +96012,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 312:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_14"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_14"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96025,11 +96025,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 313:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_13"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_13"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_13"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96038,11 +96038,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 314:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_10"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_10"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96051,11 +96051,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 315:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_11_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_11_6"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_11_6"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_11_6"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96064,11 +96064,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 316:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_23"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_23"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_23"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_23"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96077,11 +96077,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 317:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_22"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_22"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_22"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_22"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96090,11 +96090,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 318:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_21"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_21"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_21"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_21"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96103,11 +96103,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 319:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_20"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_20"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_20"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96116,11 +96116,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 320:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_19"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_19"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_19"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96129,11 +96129,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 321:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_18"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_18"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_18"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_18"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96142,11 +96142,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 322:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_16"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_16"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96155,11 +96155,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 323:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_m_berd_8_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_m_berd_8_14"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_smug_f_berd_8_14"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_smug_f_berd_8_14"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96168,11 +96168,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 324:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_16"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_16"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_16"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96181,11 +96181,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 325:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_15"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_15"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_15"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96194,11 +96194,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 326:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_11"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_11"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_11"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96207,11 +96207,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 327:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_10"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_10"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96220,11 +96220,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 328:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_9"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_9"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96233,11 +96233,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 329:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_8"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_8"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_8"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96246,11 +96246,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 330:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_7"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_7"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_7"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96259,11 +96259,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 331:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_m_berd_0_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_m_berd_0_4"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_bh_f_berd_0_4"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_bh_f_berd_0_4"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96274,11 +96274,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 332:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_7_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_7_9"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_7_9"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_7_9"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96287,11 +96287,11 @@ int func_409(var uParam0, struct<9> Param1, var uParam10, var uParam11, var uPar
 		case 333:
 			if (bVar85)
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_m_berd_7_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_m_berd_7_10"), &Var51);
 			}
 			else
 			{
-				unk_0x3CD23E98A4BA2D16(joaat("dlc_mp_x17_f_berd_7_10"), &Var51);
+				unk_0xA5690D702773BED4(joaat("dlc_mp_x17_f_berd_7_10"), &Var51);
 			}
 			Var0[1] = Var51.f_3;
 			Var0.f_13[1] = Var51.f_4;
@@ -96375,7 +96375,7 @@ int func_411()
 
 var func_412()
 {
-	return Global_2684799.f_6326;
+	return Global_2684801.f_6326;
 }
 
 void func_413(int iParam0, int iParam1, int iParam2)
@@ -96384,7 +96384,7 @@ void func_413(int iParam0, int iParam1, int iParam2)
 	{
 		iParam2 = func_37();
 	}
-	unk_0x0111091C0EE35B9C(iParam0, iParam1, iParam2);
+	unk_0xA595AA1819B05EA0(iParam0, iParam1, iParam2);
 }
 
 void func_414(int iParam0, int iParam1)
@@ -96404,11 +96404,11 @@ void func_414(int iParam0, int iParam1)
 	float fVar12;
 	float fVar13;
 	
-	if (!unk_0x66599E73DBA5A850(iParam0))
+	if (!unk_0x4FAFF4BCB7633475(iParam0))
 	{
 		if (iParam0 == 0)
 		{
-			iParam0 = unk_0xC1A5EC5C986B98AD();
+			iParam0 = unk_0x4A8C381C258A124D();
 		}
 		iVar0 = func_96(447, iParam1);
 		iVar1 = func_96(448, iParam1);
@@ -96432,19 +96432,19 @@ void func_414(int iParam0, int iParam1)
 		{
 			fVar11 = 0f;
 		}
-		unk_0xC70211B0B9E81CB0(iParam0, 0, iVar0, uVar7);
+		unk_0xE5B6C9B29510B84E(iParam0, 0, iVar0, uVar7);
 		if (iVar1 >= 27)
 		{
 			iVar1 = (iVar1 - 7);
 		}
-		unk_0xC70211B0B9E81CB0(iParam0, 1, iVar1, uVar8);
-		unk_0x0BBBE17E7A0C35AD(iParam0, 1, 1, 0, 0);
-		unk_0xC70211B0B9E81CB0(iParam0, 2, iVar2, uVar9);
-		unk_0x0BBBE17E7A0C35AD(iParam0, 2, 1, 0, 0);
-		unk_0xC70211B0B9E81CB0(iParam0, 3, iVar3, uVar10);
-		unk_0xC70211B0B9E81CB0(iParam0, 4, iVar4, fVar11);
-		unk_0xC70211B0B9E81CB0(iParam0, 6, iVar5, fVar12);
-		unk_0xC70211B0B9E81CB0(iParam0, 7, iVar6, fVar13);
+		unk_0xE5B6C9B29510B84E(iParam0, 1, iVar1, uVar8);
+		unk_0x94965BB62753D4D6(iParam0, 1, 1, 0, 0);
+		unk_0xE5B6C9B29510B84E(iParam0, 2, iVar2, uVar9);
+		unk_0x94965BB62753D4D6(iParam0, 2, 1, 0, 0);
+		unk_0xE5B6C9B29510B84E(iParam0, 3, iVar3, uVar10);
+		unk_0xE5B6C9B29510B84E(iParam0, 4, iVar4, fVar11);
+		unk_0xE5B6C9B29510B84E(iParam0, 6, iVar5, fVar12);
+		unk_0xE5B6C9B29510B84E(iParam0, 7, iVar6, fVar13);
 	}
 }
 
@@ -96492,15 +96492,15 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 	switch (uParam0->f_5)
 	{
 		case 0:
-			if (unk_0xF57C1326FD40C8A7(unk_0x3401C73FB9F2E08B()))
+			if (unk_0x78411E34CF90EA8C(unk_0xFCB6553111578B2F()))
 			{
-				Var1 = { unk_0x103F436394008500(unk_0x3401C73FB9F2E08B()) };
+				Var1 = { unk_0xA452B06E281A9014(unk_0xFCB6553111578B2F()) };
 			}
 			else
 			{
-				Var1 = { unk_0x7D4F36E9E86B0A11() };
+				Var1 = { unk_0x02AF3EA0F67D2329() };
 			}
-			Var1 = { unk_0xF2A6E8EA57F9D501(Var1, 0f, 0f, -5f, 0f) };
+			Var1 = { unk_0xF10F2A2453AF1DFB(Var1, 0f, 0f, -5f, 0f) };
 			bVar13 = true;
 			if (bParam3 == 0)
 			{
@@ -96513,18 +96513,18 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 			uVar12 = func_423(iVar4, 0);
 			if (bParam3 == 0)
 			{
-				unk_0x852EC2A7DE66202D(uVar12);
+				unk_0xEC9DAA34BBB4658C(uVar12);
 			}
 			else
 			{
-				unk_0x920759D36616A8C5(uVar12);
+				unk_0x99EE60555ADD76D0(uVar12);
 			}
-			if (unk_0x0CBB7C273DED26E7(uVar12))
+			if (unk_0x6252BC0DD8A320DB(uVar12))
 			{
-				if (!unk_0x7DE17ACDD8BA2642(uParam0->f_1))
+				if (!unk_0xFC8BFE4B41177C22(uParam0->f_1))
 				{
-					uParam0->f_1 = unk_0x69FDD9508259E5B5(25, uVar12, Var1, 0f, 0, 0);
-					unk_0x2718E9CC165A99F6(uParam0->f_1, 1);
+					uParam0->f_1 = unk_0xB1DBFEB95C0EFB88(25, uVar12, Var1, 0f, 0, 0);
+					unk_0x5D7CD709B34C90F0(uParam0->f_1, 1);
 					if (bParam3 == 0)
 					{
 						iVar5 = func_96(1400, iParam2);
@@ -96543,19 +96543,19 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 					}
 					if (bParam3 == 1)
 					{
-						unk_0x724FFAED1C56CE2B(uParam0->f_1, 0, 0);
+						unk_0x4285E11B28063EE0(uParam0->f_1, 0, 0);
 					}
 					func_419(1, &iVar9, &iVar10, iVar5, iVar7, iVar6, iVar8);
-					iVar14 = (((unk_0xFB7D93168080568B(1) + unk_0xFB7D93168080568B(0)) + unk_0xFB7D93168080568B(3)) + unk_0xFB7D93168080568B(2));
+					iVar14 = (((unk_0x69618F2236615539(1) + unk_0x69618F2236615539(0)) + unk_0x69618F2236615539(3)) + unk_0x69618F2236615539(2));
 					if (iVar9 >= iVar14)
 					{
-						iVar9 = unk_0x372B850F32567D94(1);
+						iVar9 = unk_0x6C88944114345A04(1);
 					}
 					if (iVar10 >= iVar14)
 					{
-						iVar10 = unk_0x372B850F32567D94(0);
+						iVar10 = unk_0x6C88944114345A04(0);
 					}
-					unk_0x334EE0B36EFA252D(uParam0->f_1, iVar9, iVar10, 0, iVar9, iVar10, 0, fVar11, fVar11, 0f, true);
+					unk_0x0A5987DCA39E8BE5(uParam0->f_1, iVar9, iVar10, 0, iVar9, iVar10, 0, fVar11, fVar11, 0f, true);
 				}
 			}
 			else
@@ -96563,13 +96563,13 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 				bVar13 = false;
 			}
 			uVar12 = func_423(iVar4, 1);
-			unk_0x852EC2A7DE66202D(uVar12);
-			if (unk_0x0CBB7C273DED26E7(uVar12))
+			unk_0xEC9DAA34BBB4658C(uVar12);
+			if (unk_0x6252BC0DD8A320DB(uVar12))
 			{
-				if (!unk_0x7DE17ACDD8BA2642(*uParam0))
+				if (!unk_0xFC8BFE4B41177C22(*uParam0))
 				{
-					*uParam0 = unk_0x69FDD9508259E5B5(25, uVar12, Var1, 0f, 0, 0);
-					unk_0x2718E9CC165A99F6(*uParam0, 1);
+					*uParam0 = unk_0xB1DBFEB95C0EFB88(25, uVar12, Var1, 0f, 0, 0);
+					unk_0x5D7CD709B34C90F0(*uParam0, 1);
 					if (bParam3 == 0)
 					{
 						iVar5 = func_96(1396, iParam2);
@@ -96588,19 +96588,19 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 					}
 					if (bParam3 == 1)
 					{
-						unk_0x724FFAED1C56CE2B(*uParam0, 0, 0);
+						unk_0x4285E11B28063EE0(*uParam0, 0, 0);
 					}
 					func_419(0, &iVar9, &iVar10, iVar5, iVar7, iVar6, iVar8);
-					iVar15 = (((unk_0xFB7D93168080568B(1) + unk_0xFB7D93168080568B(0)) + unk_0xFB7D93168080568B(3)) + unk_0xFB7D93168080568B(2));
+					iVar15 = (((unk_0x69618F2236615539(1) + unk_0x69618F2236615539(0)) + unk_0x69618F2236615539(3)) + unk_0x69618F2236615539(2));
 					if (iVar9 >= iVar15)
 					{
-						iVar9 = unk_0x372B850F32567D94(1);
+						iVar9 = unk_0x6C88944114345A04(1);
 					}
 					if (iVar10 >= iVar15)
 					{
-						iVar10 = unk_0x372B850F32567D94(0);
+						iVar10 = unk_0x6C88944114345A04(0);
 					}
-					unk_0x334EE0B36EFA252D(*uParam0, iVar9, iVar10, 0, iVar9, iVar10, 0, fVar11, fVar11, 0f, true);
+					unk_0x0A5987DCA39E8BE5(*uParam0, iVar9, iVar10, 0, iVar9, iVar10, 0, fVar11, fVar11, 0f, true);
 				}
 			}
 			else
@@ -96616,17 +96616,17 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 				iVar16 = func_424(386, iParam2);
 			}
 			uVar12 = func_423(iVar4, iVar16);
-			unk_0x852EC2A7DE66202D(uVar12);
-			if (unk_0x0CBB7C273DED26E7(uVar12))
+			unk_0xEC9DAA34BBB4658C(uVar12);
+			if (unk_0x6252BC0DD8A320DB(uVar12))
 			{
-				if (!unk_0x7DE17ACDD8BA2642(*uParam1))
+				if (!unk_0xFC8BFE4B41177C22(*uParam1))
 				{
-					*uParam1 = unk_0x69FDD9508259E5B5(25, uVar12, Var1, 0f, 0, 0);
-					unk_0xCFFDA1550DF82B52(*uParam1, 0);
-					unk_0x2718E9CC165A99F6(*uParam1, 1);
+					*uParam1 = unk_0xB1DBFEB95C0EFB88(25, uVar12, Var1, 0f, 0, 0);
+					unk_0x886FA295C1257AAA(*uParam1, 0);
+					unk_0x5D7CD709B34C90F0(*uParam1, 1);
 					if (bParam3 == 1)
 					{
-						unk_0x724FFAED1C56CE2B(*uParam1, 0, 0);
+						unk_0x4285E11B28063EE0(*uParam1, 0, 0);
 					}
 				}
 			}
@@ -96641,7 +96641,7 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 			break;
 		
 		case 1:
-			if ((func_418(*uParam0) && func_418(uParam0->f_1)) && !unk_0x055111B11E6624FD(*uParam1, 0))
+			if ((func_418(*uParam0) && func_418(uParam0->f_1)) && !unk_0x1C2F771CDC87A3A5(*uParam1, 0))
 			{
 				if (bParam3 == 0)
 				{
@@ -96651,7 +96651,7 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 				{
 					uVar17 = func_100(97, iParam2);
 				}
-				unk_0xDA4740EED43F8E8F(*uParam1, *uParam0, uParam0->f_1, uVar17, -1082130432);
+				unk_0x335B397DCC88FD74(*uParam1, *uParam0, uParam0->f_1, uVar17, -1082130432);
 				uParam0->f_5 = 3;
 			}
 			break;
@@ -96669,14 +96669,14 @@ int func_417(var uParam0, var uParam1, int iParam2, bool bParam3)
 
 int func_418(int iParam0)
 {
-	if (unk_0x7DE17ACDD8BA2642(uParam0) && !unk_0x055111B11E6624FD(iParam0, 0))
+	if (unk_0xFC8BFE4B41177C22(uParam0) && !unk_0x1C2F771CDC87A3A5(iParam0, 0))
 	{
-		if (unk_0x1951CE8AED052DA4(iParam0))
+		if (unk_0x4CEC77F224BCD884(iParam0))
 		{
 			return 1;
 		}
 	}
-	unk_0xECDAB41968FF21A8(&(Global_1944413[1]), false);
+	unk_0x0B0C9A0F9AAEB7F0(&(Global_1944413[1]), false);
 	return 0;
 }
 
@@ -96686,86 +96686,86 @@ void func_419(bool bParam0, int iParam1, int iParam2, int iParam3, int iParam4, 
 	{
 		if (iParam3 == 255)
 		{
-			*iParam1 = (unk_0x372B850F32567D94(2) + iParam4);
+			*iParam1 = (unk_0x6C88944114345A04(2) + iParam4);
 		}
 		else if (iParam4 == 0)
 		{
-			*iParam1 = (unk_0x372B850F32567D94(0) + iParam3 * 2);
+			*iParam1 = (unk_0x6C88944114345A04(0) + iParam3 * 2);
 		}
 		else if (iParam4 == 1)
 		{
-			*iParam1 = (unk_0x372B850F32567D94(0) + iParam3 * 2) + 1;
+			*iParam1 = (unk_0x6C88944114345A04(0) + iParam3 * 2) + 1;
 		}
 		else if (iParam3 == 0)
 		{
-			*iParam1 = unk_0x372B850F32567D94(0) + 12;
+			*iParam1 = unk_0x6C88944114345A04(0) + 12;
 		}
 		else if (iParam3 == 3)
 		{
-			*iParam1 = unk_0x372B850F32567D94(0) + 13;
+			*iParam1 = unk_0x6C88944114345A04(0) + 13;
 		}
 		if (iParam5 == 255)
 		{
-			*iParam2 = (unk_0x372B850F32567D94(2) + iParam6);
+			*iParam2 = (unk_0x6C88944114345A04(2) + iParam6);
 		}
 		else if (iParam6 == 0)
 		{
-			*iParam2 = (unk_0x372B850F32567D94(0) + iParam5 * 2);
+			*iParam2 = (unk_0x6C88944114345A04(0) + iParam5 * 2);
 		}
 		else if (iParam6 == 1)
 		{
-			*iParam2 = (unk_0x372B850F32567D94(0) + iParam5 * 2) + 1;
+			*iParam2 = (unk_0x6C88944114345A04(0) + iParam5 * 2) + 1;
 		}
 		else if (iParam5 == 0)
 		{
-			*iParam2 = unk_0x372B850F32567D94(0) + 12;
+			*iParam2 = unk_0x6C88944114345A04(0) + 12;
 		}
 		else if (iParam5 == 3)
 		{
-			*iParam2 = unk_0x372B850F32567D94(0) + 13;
+			*iParam2 = unk_0x6C88944114345A04(0) + 13;
 		}
 	}
 	else
 	{
 		if (iParam3 == 255)
 		{
-			*iParam1 = (unk_0x372B850F32567D94(3) + iParam4);
+			*iParam1 = (unk_0x6C88944114345A04(3) + iParam4);
 		}
 		else if (iParam4 == 0)
 		{
-			*iParam1 = (unk_0x372B850F32567D94(1) + iParam3 * 2);
+			*iParam1 = (unk_0x6C88944114345A04(1) + iParam3 * 2);
 		}
 		else if (iParam4 == 1)
 		{
-			*iParam1 = (unk_0x372B850F32567D94(1) + iParam3 * 2) + 1;
+			*iParam1 = (unk_0x6C88944114345A04(1) + iParam3 * 2) + 1;
 		}
 		else if (iParam3 == 2)
 		{
-			*iParam1 = unk_0x372B850F32567D94(1) + 12;
+			*iParam1 = unk_0x6C88944114345A04(1) + 12;
 		}
 		else if (iParam3 == 1)
 		{
-			*iParam1 = unk_0x372B850F32567D94(1) + 13;
+			*iParam1 = unk_0x6C88944114345A04(1) + 13;
 		}
 		if (iParam5 == 255)
 		{
-			*iParam2 = (unk_0x372B850F32567D94(3) + iParam6);
+			*iParam2 = (unk_0x6C88944114345A04(3) + iParam6);
 		}
 		else if (iParam6 == 0)
 		{
-			*iParam2 = (unk_0x372B850F32567D94(1) + iParam5 * 2);
+			*iParam2 = (unk_0x6C88944114345A04(1) + iParam5 * 2);
 		}
 		else if (iParam6 == 1)
 		{
-			*iParam2 = (unk_0x372B850F32567D94(1) + iParam5 * 2) + 1;
+			*iParam2 = (unk_0x6C88944114345A04(1) + iParam5 * 2) + 1;
 		}
 		else if (iParam5 == 2)
 		{
-			*iParam2 = unk_0x372B850F32567D94(1) + 12;
+			*iParam2 = unk_0x6C88944114345A04(1) + 12;
 		}
 		else if (iParam5 == 1)
 		{
-			*iParam2 = unk_0x372B850F32567D94(1) + 13;
+			*iParam2 = unk_0x6C88944114345A04(1) + 13;
 		}
 	}
 }
@@ -96788,15 +96788,15 @@ int func_420(var uParam0, var uParam1, int iParam2, bool bParam3)
 	switch (uParam0->f_5)
 	{
 		case 0:
-			if (unk_0xF57C1326FD40C8A7(unk_0x3401C73FB9F2E08B()))
+			if (unk_0x78411E34CF90EA8C(unk_0xFCB6553111578B2F()))
 			{
-				Var0 = { unk_0x103F436394008500(unk_0x3401C73FB9F2E08B()) };
+				Var0 = { unk_0xA452B06E281A9014(unk_0xFCB6553111578B2F()) };
 			}
 			else
 			{
-				Var0 = { unk_0x7D4F36E9E86B0A11() };
+				Var0 = { unk_0x02AF3EA0F67D2329() };
 			}
-			Var0 = { unk_0xF2A6E8EA57F9D501(Var0, 0f, 0f, -5f, 0f) };
+			Var0 = { unk_0xF10F2A2453AF1DFB(Var0, 0f, 0f, -5f, 0f) };
 			bVar5 = true;
 			if (bParam3 == 0)
 			{
@@ -96809,11 +96809,11 @@ int func_420(var uParam0, var uParam1, int iParam2, bool bParam3)
 			uVar4 = func_423(iVar3, 0);
 			if (bParam3 == 0)
 			{
-				unk_0x852EC2A7DE66202D(uVar4);
+				unk_0xEC9DAA34BBB4658C(uVar4);
 			}
 			else
 			{
-				unk_0x920759D36616A8C5(uVar4);
+				unk_0x99EE60555ADD76D0(uVar4);
 			}
 			if (bParam3 == 0)
 			{
@@ -96824,35 +96824,35 @@ int func_420(var uParam0, var uParam1, int iParam2, bool bParam3)
 				iVar6 = func_424(386, iParam2);
 			}
 			uVar4 = func_423(iVar3, iVar6);
-			unk_0x852EC2A7DE66202D(uVar4);
-			if (unk_0x0CBB7C273DED26E7(uVar4))
+			unk_0xEC9DAA34BBB4658C(uVar4);
+			if (unk_0x6252BC0DD8A320DB(uVar4))
 			{
-				if (!unk_0x7DE17ACDD8BA2642(*uParam1))
+				if (!unk_0xFC8BFE4B41177C22(*uParam1))
 				{
-					*uParam1 = unk_0x69FDD9508259E5B5(25, uVar4, Var0, 0f, 0, 0);
-					unk_0xCFFDA1550DF82B52(*uParam1, 0);
-					unk_0x2718E9CC165A99F6(*uParam1, 1);
+					*uParam1 = unk_0xB1DBFEB95C0EFB88(25, uVar4, Var0, 0f, 0, 0);
+					unk_0x886FA295C1257AAA(*uParam1, 0);
+					unk_0x5D7CD709B34C90F0(*uParam1, 1);
 					if (bParam3 == 1)
 					{
-						unk_0x724FFAED1C56CE2B(*uParam1, 0, 0);
+						unk_0x4285E11B28063EE0(*uParam1, 0, 0);
 					}
-					unk_0xECDAB41968FF21A8(&(Global_1944413[1]), true);
+					unk_0x0B0C9A0F9AAEB7F0(&(Global_1944413[1]), true);
 				}
 			}
 			else
 			{
-				unk_0xECDAB41968FF21A8(&(Global_1944413[1]), 2);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_1944413[1]), 2);
 				bVar5 = false;
 			}
 			if (bVar5)
 			{
-				unk_0xECDAB41968FF21A8(&(Global_1944413[1]), 3);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_1944413[1]), 3);
 				uParam0->f_5 = 1;
 			}
 			break;
 		
 		case 1:
-			if (!unk_0x055111B11E6624FD(*uParam1, 0))
+			if (!unk_0x1C2F771CDC87A3A5(*uParam1, 0))
 			{
 				if (!bParam3)
 				{
@@ -96874,33 +96874,33 @@ int func_420(var uParam0, var uParam1, int iParam2, bool bParam3)
 				}
 				iVar7 = func_422(iVar7, 0, iVar9 == 1);
 				iVar8 = func_422(iVar8, 1, iVar10 == 1);
-				iVar13 = (((unk_0xFB7D93168080568B(1) + unk_0xFB7D93168080568B(0)) + unk_0xFB7D93168080568B(3)) + unk_0xFB7D93168080568B(2));
+				iVar13 = (((unk_0x69618F2236615539(1) + unk_0x69618F2236615539(0)) + unk_0x69618F2236615539(3)) + unk_0x69618F2236615539(2));
 				if (iVar7 >= iVar13)
 				{
-					iVar7 = unk_0x372B850F32567D94(1);
-					Global_2696191 = 1;
+					iVar7 = unk_0x6C88944114345A04(1);
+					Global_2696193 = 1;
 					func_421(1);
 				}
 				if (iVar8 >= iVar13)
 				{
-					iVar8 = unk_0x372B850F32567D94(0);
-					Global_2696191 = 1;
+					iVar8 = unk_0x6C88944114345A04(0);
+					Global_2696193 = 1;
 					func_421(1);
 				}
-				unk_0x334EE0B36EFA252D(*uParam1, iVar7, iVar8, 0, iVar7, iVar8, 0, uVar11, uVar12, 0f, true);
+				unk_0x0A5987DCA39E8BE5(*uParam1, iVar7, iVar8, 0, iVar7, iVar8, 0, uVar11, uVar12, 0f, true);
 				uParam0->f_5 = 3;
 			}
 			else
 			{
-				unk_0xECDAB41968FF21A8(&(Global_1944413[1]), 15);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_1944413[1]), 15);
 			}
 			break;
 		
 		case 3:
-			unk_0xECDAB41968FF21A8(&(Global_1944413[1]), 5);
+			unk_0x0B0C9A0F9AAEB7F0(&(Global_1944413[1]), 5);
 			if (func_418(*uParam1))
 			{
-				unk_0xECDAB41968FF21A8(&(Global_1944413[1]), 4);
+				unk_0x0B0C9A0F9AAEB7F0(&(Global_1944413[1]), 4);
 				uParam0->f_2 = 1;
 				return 1;
 			}
@@ -96911,7 +96911,7 @@ int func_420(var uParam0, var uParam1, int iParam2, bool bParam3)
 
 void func_421(int iParam0)
 {
-	Global_2696949 = iParam0;
+	Global_2696951 = iParam0;
 }
 
 int func_422(int iParam0, bool bParam1, bool bParam2)
@@ -96930,10 +96930,10 @@ int func_422(int iParam0, bool bParam1, bool bParam2)
 		iVar0 = 1;
 		iVar1 = 3;
 	}
-	iVar2 = unk_0x372B850F32567D94(iVar0);
+	iVar2 = unk_0x6C88944114345A04(iVar0);
 	if (bParam2)
 	{
-		iVar2 = unk_0x372B850F32567D94(iVar1);
+		iVar2 = unk_0x6C88944114345A04(iVar1);
 	}
 	return (iVar2 + iParam0);
 }
@@ -96954,7 +96954,7 @@ int func_423(int iParam0, int iParam1)
 			}
 			break;
 	}
-	return unk_0x504B9BB48D41C264(unk_0xC1A5EC5C986B98AD());
+	return unk_0x4B423FAA24E8ABF0(unk_0x4A8C381C258A124D());
 }
 
 int func_424(int iParam0, int iParam1)
@@ -96972,135 +96972,135 @@ int func_424(int iParam0, int iParam1)
 	iVar2 = 0;
 	if (iParam0 >= 384 && iParam0 < 457)
 	{
-		iVar1 = unk_0xDB02AD9243CE9944((iParam0 - 384), 0, 1, iParam1);
-		iVar2 = ((iParam0 - 384) - unk_0x1BC22253D783166C((iParam0 - 384)) * 8) * 8;
+		iVar1 = unk_0xC80B42F8AEC90782((iParam0 - 384), 0, 1, iParam1);
+		iVar2 = ((iParam0 - 384) - unk_0xC24FF3ECDBA75CAC((iParam0 - 384)) * 8) * 8;
 	}
 	else if (iParam0 >= 457 && iParam0 < 513)
 	{
-		iVar1 = unk_0xDB02AD9243CE9944((iParam0 - 457), 1, 1, iParam1);
-		iVar2 = ((iParam0 - 457) - unk_0x1BC22253D783166C((iParam0 - 457)) * 8) * 8;
+		iVar1 = unk_0xC80B42F8AEC90782((iParam0 - 457), 1, 1, iParam1);
+		iVar2 = ((iParam0 - 457) - unk_0xC24FF3ECDBA75CAC((iParam0 - 457)) * 8) * 8;
 	}
 	else if (iParam0 >= 1281 && iParam0 < 1305)
 	{
-		iVar1 = unk_0xDB02AD9243CE9944((iParam0 - 1281), 0, 0, 0);
-		iVar2 = ((iParam0 - 1281) - unk_0x1BC22253D783166C((iParam0 - 1281)) * 8) * 8;
+		iVar1 = unk_0xC80B42F8AEC90782((iParam0 - 1281), 0, 0, 0);
+		iVar2 = ((iParam0 - 1281) - unk_0xC24FF3ECDBA75CAC((iParam0 - 1281)) * 8) * 8;
 	}
 	else if (iParam0 >= 1305 && iParam0 < 1361)
 	{
-		iVar1 = unk_0xDB02AD9243CE9944((iParam0 - 1305), 1, 0, 0);
-		iVar2 = ((iParam0 - 1305) - unk_0x1BC22253D783166C((iParam0 - 1305)) * 8) * 8;
+		iVar1 = unk_0xC80B42F8AEC90782((iParam0 - 1305), 1, 0, 0);
+		iVar2 = ((iParam0 - 1305) - unk_0xC24FF3ECDBA75CAC((iParam0 - 1305)) * 8) * 8;
 	}
 	else if (iParam0 >= 1393 && iParam0 < 2919)
 	{
-		iVar1 = unk_0x82F3555CAD5266D9((iParam0 - 1393), 0, 1, iParam1);
-		iVar2 = ((iParam0 - 1393) - unk_0x1BC22253D783166C((iParam0 - 1393)) * 8) * 8;
+		iVar1 = unk_0x443206C9783C69F1((iParam0 - 1393), 0, 1, iParam1);
+		iVar2 = ((iParam0 - 1393) - unk_0xC24FF3ECDBA75CAC((iParam0 - 1393)) * 8) * 8;
 	}
 	else if (iParam0 >= 1361 && iParam0 < 1393)
 	{
-		iVar1 = unk_0x82F3555CAD5266D9((iParam0 - 1361), 0, 0, 0);
-		iVar2 = ((iParam0 - 1361) - unk_0x1BC22253D783166C((iParam0 - 1361)) * 8) * 8;
+		iVar1 = unk_0x443206C9783C69F1((iParam0 - 1361), 0, 0, 0);
+		iVar2 = ((iParam0 - 1361) - unk_0xC24FF3ECDBA75CAC((iParam0 - 1361)) * 8) * 8;
 	}
 	else if (iParam0 >= 3879 && iParam0 < 4143)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 3879), 0, 1, iParam1, "_NGPSTAT_INT");
-		iVar2 = ((iParam0 - 3879) - unk_0x1BC22253D783166C((iParam0 - 3879)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 3879), 0, 1, iParam1, "_NGPSTAT_INT");
+		iVar2 = ((iParam0 - 3879) - unk_0xC24FF3ECDBA75CAC((iParam0 - 3879)) * 8) * 8;
 	}
 	else if (iParam0 >= 4143 && iParam0 < 4207)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 4143), 0, 0, 0, "_MP_NGPSTAT_INT");
-		iVar2 = ((iParam0 - 4143) - unk_0x1BC22253D783166C((iParam0 - 4143)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 4143), 0, 0, 0, "_MP_NGPSTAT_INT");
+		iVar2 = ((iParam0 - 4143) - unk_0xC24FF3ECDBA75CAC((iParam0 - 4143)) * 8) * 8;
 	}
 	else if (iParam0 >= 4399 && iParam0 < 6028)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 4399), 0, 1, iParam1, "_MP_LRPSTAT_INT");
-		iVar2 = ((iParam0 - 4399) - unk_0x1BC22253D783166C((iParam0 - 4399)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 4399), 0, 1, iParam1, "_MP_LRPSTAT_INT");
+		iVar2 = ((iParam0 - 4399) - unk_0xC24FF3ECDBA75CAC((iParam0 - 4399)) * 8) * 8;
 	}
 	else if (iParam0 >= 6413 && iParam0 < 7262)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 6413), 0, 1, iParam1, "_MP_APAPSTAT_INT");
-		iVar2 = ((iParam0 - 6413) - unk_0x1BC22253D783166C((iParam0 - 6413)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 6413), 0, 1, iParam1, "_MP_APAPSTAT_INT");
+		iVar2 = ((iParam0 - 6413) - unk_0xC24FF3ECDBA75CAC((iParam0 - 6413)) * 8) * 8;
 	}
 	else if (iParam0 >= 7262 && iParam0 < 7313)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 7262), 0, 1, iParam1, "_MP_LR2PSTAT_INT");
-		iVar2 = ((iParam0 - 7262) - unk_0x1BC22253D783166C((iParam0 - 7262)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 7262), 0, 1, iParam1, "_MP_LR2PSTAT_INT");
+		iVar2 = ((iParam0 - 7262) - unk_0xC24FF3ECDBA75CAC((iParam0 - 7262)) * 8) * 8;
 	}
 	else if (iParam0 >= 7681 && iParam0 < 9361)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 7681), 0, 1, iParam1, "_MP_BIKEPSTAT_INT");
-		iVar2 = ((iParam0 - 7681) - unk_0x1BC22253D783166C((iParam0 - 7681)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 7681), 0, 1, iParam1, "_MP_BIKEPSTAT_INT");
+		iVar2 = ((iParam0 - 7681) - unk_0xC24FF3ECDBA75CAC((iParam0 - 7681)) * 8) * 8;
 	}
 	else if (iParam0 >= 9553 && iParam0 < 15265)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 9553), 0, 1, iParam1, "_MP_IMPEXPPSTAT_INT");
-		iVar2 = ((iParam0 - 9553) - unk_0x1BC22253D783166C((iParam0 - 9553)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 9553), 0, 1, iParam1, "_MP_IMPEXPPSTAT_INT");
+		iVar2 = ((iParam0 - 9553) - unk_0xC24FF3ECDBA75CAC((iParam0 - 9553)) * 8) * 8;
 	}
 	else if (iParam0 >= 15265 && iParam0 < 15369)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 15265), 0, 1, iParam1, "_MP_GUNRPSTAT_INT");
-		iVar2 = ((iParam0 - 15265) - unk_0x1BC22253D783166C((iParam0 - 15265)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 15265), 0, 1, iParam1, "_MP_GUNRPSTAT_INT");
+		iVar2 = ((iParam0 - 15265) - unk_0xC24FF3ECDBA75CAC((iParam0 - 15265)) * 8) * 8;
 	}
 	else if (iParam0 >= 7641 && iParam0 < 7681)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 7641), 0, 1, iParam1, "_NGDLCPSTAT_INT");
-		iVar2 = ((iParam0 - 7641) - unk_0x1BC22253D783166C((iParam0 - 7641)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 7641), 0, 1, iParam1, "_NGDLCPSTAT_INT");
+		iVar2 = ((iParam0 - 7641) - unk_0xC24FF3ECDBA75CAC((iParam0 - 7641)) * 8) * 8;
 	}
 	else if (iParam0 >= 7313 && iParam0 < 7321)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 7313), 0, 0, 0, "_MP_NGDLCPSTAT_INT");
-		iVar2 = ((iParam0 - 7313) - unk_0x1BC22253D783166C((iParam0 - 7313)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 7313), 0, 0, 0, "_MP_NGDLCPSTAT_INT");
+		iVar2 = ((iParam0 - 7313) - unk_0xC24FF3ECDBA75CAC((iParam0 - 7313)) * 8) * 8;
 	}
 	else if (iParam0 >= 16010 && iParam0 < 18098)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 16010), 0, 1, iParam1, "_DLCSMUGCHARPSTAT_INT");
-		iVar2 = ((iParam0 - 16010) - unk_0x1BC22253D783166C((iParam0 - 16010)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 16010), 0, 1, iParam1, "_DLCSMUGCHARPSTAT_INT");
+		iVar2 = ((iParam0 - 16010) - unk_0xC24FF3ECDBA75CAC((iParam0 - 16010)) * 8) * 8;
 	}
 	else if (iParam0 >= 18162 && iParam0 < 19018)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 18162), 0, 1, iParam1, "_GANGOPSPSTAT_INT");
-		iVar2 = ((iParam0 - 18162) - unk_0x1BC22253D783166C((iParam0 - 18162)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 18162), 0, 1, iParam1, "_GANGOPSPSTAT_INT");
+		iVar2 = ((iParam0 - 18162) - unk_0xC24FF3ECDBA75CAC((iParam0 - 18162)) * 8) * 8;
 	}
 	else if (iParam0 >= 19018 && iParam0 < 22066)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 19018), 0, 1, iParam1, "_BUSINESSBATPSTAT_INT");
-		iVar2 = ((iParam0 - 19018) - unk_0x1BC22253D783166C((iParam0 - 19018)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 19018), 0, 1, iParam1, "_BUSINESSBATPSTAT_INT");
+		iVar2 = ((iParam0 - 19018) - unk_0xC24FF3ECDBA75CAC((iParam0 - 19018)) * 8) * 8;
 	}
 	else if (iParam0 >= 22194 && iParam0 < 24962)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 22194), 0, 1, iParam1, "_ARENAWARSPSTAT_INT");
-		iVar2 = ((iParam0 - 22194) - unk_0x1BC22253D783166C((iParam0 - 22194)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 22194), 0, 1, iParam1, "_ARENAWARSPSTAT_INT");
+		iVar2 = ((iParam0 - 22194) - unk_0xC24FF3ECDBA75CAC((iParam0 - 22194)) * 8) * 8;
 	}
 	else if (iParam0 >= 25538 && iParam0 < 26810)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 25538), 0, 1, iParam1, "_CASINOPSTAT_INT");
-		iVar2 = ((iParam0 - 25538) - unk_0x1BC22253D783166C((iParam0 - 25538)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 25538), 0, 1, iParam1, "_CASINOPSTAT_INT");
+		iVar2 = ((iParam0 - 25538) - unk_0xC24FF3ECDBA75CAC((iParam0 - 25538)) * 8) * 8;
 	}
 	else if (iParam0 >= 27258 && iParam0 < 28098)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 27258), 0, 1, iParam1, "_CASINOHSTPSTAT_INT");
-		iVar2 = ((iParam0 - 27258) - unk_0x1BC22253D783166C((iParam0 - 27258)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 27258), 0, 1, iParam1, "_CASINOHSTPSTAT_INT");
+		iVar2 = ((iParam0 - 27258) - unk_0xC24FF3ECDBA75CAC((iParam0 - 27258)) * 8) * 8;
 	}
 	else if (iParam0 >= 28483 && iParam0 < 30227)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 28483), 0, 1, iParam1, "_SU20PSTAT_INT");
-		iVar2 = ((iParam0 - 28483) - unk_0x1BC22253D783166C((iParam0 - 28483)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 28483), 0, 1, iParam1, "_SU20PSTAT_INT");
+		iVar2 = ((iParam0 - 28483) - unk_0xC24FF3ECDBA75CAC((iParam0 - 28483)) * 8) * 8;
 	}
 	else if (iParam0 >= 30483 && iParam0 < 30515)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 30483), 0, 1, iParam1, "_HISLANDPSTAT_INT");
-		iVar2 = ((iParam0 - 30483) - unk_0x1BC22253D783166C((iParam0 - 30483)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 30483), 0, 1, iParam1, "_HISLANDPSTAT_INT");
+		iVar2 = ((iParam0 - 30483) - unk_0xC24FF3ECDBA75CAC((iParam0 - 30483)) * 8) * 8;
 	}
 	else if (iParam0 >= 30707 && iParam0 < 31707)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 30707), 0, 1, iParam1, "_TUNERPSTAT_INT");
-		iVar2 = ((iParam0 - 30707) - unk_0x1BC22253D783166C((iParam0 - 30707)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 30707), 0, 1, iParam1, "_TUNERPSTAT_INT");
+		iVar2 = ((iParam0 - 30707) - unk_0xC24FF3ECDBA75CAC((iParam0 - 30707)) * 8) * 8;
 	}
 	else if (iParam0 >= 32475 && iParam0 < 34123)
 	{
-		iVar1 = unk_0xFFC534990A2FDFAA((iParam0 - 32475), 0, 1, iParam1, "_FIXERPSTAT_INT");
-		iVar2 = ((iParam0 - 32475) - unk_0x1BC22253D783166C((iParam0 - 32475)) * 8) * 8;
+		iVar1 = unk_0x6B604293CA9BF4E0((iParam0 - 32475), 0, 1, iParam1, "_FIXERPSTAT_INT");
+		iVar2 = ((iParam0 - 32475) - unk_0xC24FF3ECDBA75CAC((iParam0 - 32475)) * 8) * 8;
 	}
-	if (!unk_0xFEA389A1B53E77A5(iVar1, &iVar0, iVar2, 8))
+	if (!unk_0x77B8D5FD0CF3258F(iVar1, &iVar0, iVar2, 8))
 	{
 		iVar0 = 0;
 	}
@@ -97114,11 +97114,11 @@ int func_425(int iParam0)
 {
 	int iVar0;
 	
-	if (!unk_0xA26A9A07F761D8F8())
+	if (!unk_0x76CD105BCAC6EB9F())
 	{
 		return 0;
 	}
-	iVar0 = unk_0x504B9BB48D41C264(uParam0);
+	iVar0 = unk_0x4B423FAA24E8ABF0(uParam0);
 	if (iVar0 == joaat("mp_m_freemode_01") || iVar0 == joaat("mp_f_freemode_01"))
 	{
 		return 0;
@@ -97166,24 +97166,24 @@ void func_428(var uParam0, int iParam1)
 	switch (iParam1)
 	{
 		case 1:
-			unk_0xAA961AD1C95B789A(uParam0, 16, 0);
+			unk_0x8307BFA58BB45ED9(uParam0, 16, 0);
 			break;
 		
 		case 2:
-			unk_0xAA961AD1C95B789A(uParam0, 17, 1);
+			unk_0x8307BFA58BB45ED9(uParam0, 17, 1);
 			break;
 	}
 }
 
 void func_429(var uParam0)
 {
-	if (unk_0x7DE17ACDD8BA2642(*uParam0))
+	if (unk_0xFC8BFE4B41177C22(*uParam0))
 	{
-		if (unk_0x1AFE963DA61006ED(*uParam0))
+		if (unk_0x110821AE6C63DD4F(*uParam0))
 		{
-			unk_0x85BAE84748AD1A23(*uParam0, 0, 0);
+			unk_0xEE0BCDB1B5E36BCB(*uParam0, 0, 0);
 		}
-		unk_0xE9C250FA35A936C8(uParam0);
+		unk_0x734A9F4537A31459(uParam0);
 	}
 }
 
@@ -97201,26 +97201,26 @@ void func_430()
 
 void func_431(int iParam0)
 {
-	if (unk_0x7DE17ACDD8BA2642(Global_1574825[iParam0 /*6*/]))
+	if (unk_0xFC8BFE4B41177C22(Global_1574825[iParam0 /*6*/]))
 	{
-		if (unk_0xAE770DDB34967EC3(Global_1574825[iParam0 /*6*/], 0))
+		if (unk_0x7C9905528EE2C3AB(Global_1574825[iParam0 /*6*/], 0))
 		{
-			if (!unk_0x1AFE963DA61006ED(Global_1574825[iParam0 /*6*/]))
+			if (!unk_0x110821AE6C63DD4F(Global_1574825[iParam0 /*6*/]))
 			{
-				unk_0x85BAE84748AD1A23(Global_1574825[iParam0 /*6*/], 0, 0);
+				unk_0xEE0BCDB1B5E36BCB(Global_1574825[iParam0 /*6*/], 0, 0);
 			}
-			unk_0xE9C250FA35A936C8(&(Global_1574825[iParam0 /*6*/]));
+			unk_0x734A9F4537A31459(&(Global_1574825[iParam0 /*6*/]));
 		}
 	}
-	if (unk_0x7DE17ACDD8BA2642(Global_1574825[iParam0 /*6*/].f_1))
+	if (unk_0xFC8BFE4B41177C22(Global_1574825[iParam0 /*6*/].f_1))
 	{
-		if (unk_0xAE770DDB34967EC3(Global_1574825[iParam0 /*6*/].f_1, 0))
+		if (unk_0x7C9905528EE2C3AB(Global_1574825[iParam0 /*6*/].f_1, 0))
 		{
-			if (!unk_0x1AFE963DA61006ED(Global_1574825[iParam0 /*6*/].f_1))
+			if (!unk_0x110821AE6C63DD4F(Global_1574825[iParam0 /*6*/].f_1))
 			{
-				unk_0x85BAE84748AD1A23(Global_1574825[iParam0 /*6*/].f_1, 0, 0);
+				unk_0xEE0BCDB1B5E36BCB(Global_1574825[iParam0 /*6*/].f_1, 0, 0);
 			}
-			unk_0xE9C250FA35A936C8(&(Global_1574825[iParam0 /*6*/].f_1));
+			unk_0x734A9F4537A31459(&(Global_1574825[iParam0 /*6*/].f_1));
 		}
 	}
 }

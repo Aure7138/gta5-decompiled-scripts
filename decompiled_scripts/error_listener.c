@@ -117,14 +117,14 @@ void func_2()
 	var uVar5;
 	
 	iVar0 = 0;
-	while (iVar0 < unk_0x89DE709C9F3052C5(2))
+	while (iVar0 < unk_0x703C4F7316B7195D(2))
 	{
-		iVar1 = unk_0xB09B723333956A0B(2, iVar0);
+		iVar1 = unk_0x4BC3E5D2FB0A1665(2, iVar0);
 		if (func_10(iVar1))
 		{
 			func_9(&Var2);
 			func_8(2, iVar0, iVar1, &Var2);
-			Var2.f_1 = (unk_0xE16824A2A0B2A6D8() - 1);
+			Var2.f_1 = (unk_0x8034325BF6D6E41F() - 1);
 			Var2.f_0 = iVar1;
 			if (!func_7(&Var2, &uVar5))
 			{
@@ -141,9 +141,9 @@ void func_3(int iParam0)
 	int iVar0;
 	
 	iVar0 = *iParam0;
-	if (((func_5() && func_4(iVar0)) && iVar0 != 248) && unk_0x95A5B3169785AB83())
+	if (((func_5() && func_4(iVar0)) && iVar0 != 248) && unk_0xF08B45C0CEBE11C2())
 	{
-		unk_0x5B3EF2A8B73D8B50(0, 1, 0);
+		unk_0xB0926B14C2D3A838(0, 1, 0);
 	}
 }
 
@@ -154,7 +154,7 @@ bool func_4(int iParam0)
 
 bool func_5()
 {
-	return Global_1853910[unk_0x93E99A2DBCBA9CFA() /*862*/].f_192 != 0;
+	return Global_1853910[unk_0x259BE71D8A81D4FA() /*862*/].f_192 != 0;
 }
 
 int func_6(int iParam0)
@@ -189,7 +189,7 @@ void func_8(int iParam0, int iParam1, int iParam2, var uParam3)
 	
 	if (((iParam2 == 248 || iParam2 == 249) || iParam2 == 250) || iParam2 == 251)
 	{
-		if (unk_0x11DE375695504B75(iParam0, iParam1, &uVar0, 1))
+		if (unk_0xFCEF367B86651ED3(iParam0, iParam1, &uVar0, 1))
 		{
 			uParam3->f_2 = uVar0;
 		}
@@ -215,6 +215,6 @@ int func_11()
 
 void func_12()
 {
-	unk_0x389D5B1C24A046B5();
+	unk_0x51CC1333A10C4E09();
 }
 

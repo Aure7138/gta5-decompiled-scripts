@@ -43,7 +43,7 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
-	if (unk_0x55EEDBBFDC6E810F(2))
+	if (unk_0x96CFB880BAC634CE(2))
 	{
 		func_18();
 	}
@@ -57,7 +57,7 @@ void __EntryFunction__()
 			{
 				if (Global_43219 != -1)
 				{
-					if (!unk_0xB8CEC43FB7EF2D92(Global_43220))
+					if (!unk_0xF40767E41852FB72(Global_43220))
 					{
 						func_17(&Global_43219);
 					}
@@ -146,7 +146,7 @@ void __EntryFunction__()
 			Global_38595 = 1;
 			if (Global_43257 != 5 && Global_43257 != 15)
 			{
-				unk_0xDAD6345C5D317E79(8);
+				unk_0xB1495D79F52B9EEE(8);
 			}
 			if (Global_43257 == 15 || Global_43257 == 6)
 			{
@@ -160,20 +160,20 @@ void __EntryFunction__()
 			{
 				if (!iLocal_20)
 				{
-					unk_0x76AAB1EF39420790(1);
+					unk_0x6E8BBCAC6E64214C(1);
 					iLocal_20 = 1;
 				}
 			}
 			else if (iLocal_20)
 			{
-				unk_0x76AAB1EF39420790(0);
+				unk_0x6E8BBCAC6E64214C(0);
 				iLocal_20 = 0;
 			}
 		}
 		iVar1 = Global_43257;
 		iVar0 = Global_43218;
 		Global_112074 = func_1();
-		Global_32440 = unk_0x058EE3447262300D();
+		Global_32440 = unk_0xDDA4278694CAA369();
 		unk_0x4EDE34FBADD967A6(0);
 	}
 	Global_43223 = 0;
@@ -183,12 +183,12 @@ var func_1()
 {
 	var uVar0;
 	
-	func_11(&uVar0, unk_0x731F95B6458DCF80());
-	func_10(&uVar0, unk_0x77BBAAED3E25322C());
-	func_9(&uVar0, unk_0x30DFE1FFD2CC7420());
-	func_4(&uVar0, unk_0x8C0F17CAC308A14B());
-	func_3(&uVar0, unk_0x61117764C67882B7());
-	func_2(&uVar0, unk_0x367F557725B53815());
+	func_11(&uVar0, unk_0x4BA5A16068183C5E());
+	func_10(&uVar0, unk_0x18E502A71E28968C());
+	func_9(&uVar0, unk_0x5295501D0862870D());
+	func_4(&uVar0, unk_0xB12880C92EA6EE15());
+	func_3(&uVar0, unk_0x8825A6E0A30BDCB8());
+	func_2(&uVar0, unk_0x7598FE4545010A75());
 	return uVar0;
 }
 
@@ -358,7 +358,7 @@ void func_13(bool bParam0)
 {
 	if (!bParam0)
 	{
-		Global_112290 = unk_0xA5E11AF0A2B928C1() + 250;
+		Global_112290 = unk_0x1DD05E817C89C737() + 250;
 	}
 	Global_112287 = bParam0;
 }
@@ -582,6 +582,6 @@ void func_18()
 {
 	func_17(&Global_43219);
 	Global_43223 = 0;
-	unk_0x675D9C12C73D3DE7();
+	unk_0xBBC29EBE6E1A48FA();
 }
 

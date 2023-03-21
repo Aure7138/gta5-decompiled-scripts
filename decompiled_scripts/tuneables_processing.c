@@ -38,14 +38,14 @@ void __EntryFunction__()
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
 	sLocal_20 = "NULL";
-	unk_0x389D5B1C24A046B5();
-	unk_0x1AB0A60264AA2E9E();
+	unk_0x51CC1333A10C4E09();
+	unk_0x18CACC03B0B46CA9();
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
 		if (func_1(ScriptParam_0.f_0, ScriptParam_0.f_1, ScriptParam_0.f_2))
 		{
-			unk_0x675D9C12C73D3DE7();
+			unk_0xBBC29EBE6E1A48FA();
 		}
 	}
 }
@@ -446,7 +446,7 @@ int func_1(int iParam0, int iParam1, bool bParam2)
 		case 75:
 			func_3();
 			func_2();
-			unk_0x29C15CE62DB7A939(&Global_2692742, &(Global_2692742.f_1), &(Global_2692742.f_2), &(Global_2692742.f_3), &(Global_2692742.f_4), &(Global_2692742.f_5));
+			unk_0x23CB97F04154A594(&Global_2692744, &(Global_2692744.f_1), &(Global_2692744.f_2), &(Global_2692744.f_3), &(Global_2692744.f_4), &(Global_2692744.f_5));
 			Global_262145.f_2340++;
 			break;
 		
@@ -480,7 +480,7 @@ int func_2()
 
 void func_3()
 {
-	Global_2684799.f_6299 = 1;
+	Global_2684801.f_6299 = 1;
 }
 
 void func_4(int iParam0, int iParam1)
@@ -1569,7 +1569,7 @@ void func_6(int iParam0, var uParam1, var uParam2, bool bParam3)
 	
 	uVar0 = func_7(iParam0);
 	uVar1 = *uParam2;
-	if (!unk_0xE04F0101BC206A86(uVar0, uParam1, uParam2))
+	if (!unk_0x3924757A6ED5FEDB(uVar0, uParam1, uParam2))
 	{
 		if (bParam3)
 		{
@@ -1579,7 +1579,7 @@ void func_6(int iParam0, var uParam1, var uParam2, bool bParam3)
 	}
 	else
 	{
-		unk_0x38B4945AEE462C38(uVar0, uParam1, uParam2);
+		unk_0xDF6F5F7DECDD6CA3(uVar0, uParam1, uParam2);
 	}
 	if (bParam3)
 	{
@@ -1594,7 +1594,7 @@ int func_7(int iParam0)
 	{
 		StringCopy(&cVar0, "CONTENT_MODIFIER_", 64);
 		StringIntConCat(&cVar0, (iParam0 - 28), 64);
-		return unk_0x14580F20CBCE4FA9(&cVar0);
+		return unk_0x70E57E9927B6BA58(&cVar0);
 	}
 	switch (iParam0)
 	{
@@ -1943,7 +1943,7 @@ void func_9(int iParam0, var uParam1, var uParam2, bool bParam3)
 	var uVar0;
 	
 	uVar0 = func_7(iParam0);
-	if (!unk_0xC7BB8FABF9427F5D(uVar0, uParam1))
+	if (!unk_0xAFEA31CC8C88FC36(uVar0, uParam1))
 	{
 		if (bParam3)
 		{
@@ -1952,8 +1952,8 @@ void func_9(int iParam0, var uParam1, var uParam2, bool bParam3)
 	}
 	else
 	{
-		*uParam2 = unk_0x3518853586BEA425(uVar0, uParam1);
-		unk_0xB2B85B61C924AFB7(uVar0, uParam1, uParam2);
+		*uParam2 = unk_0xBFCA4F7F15FD06CC(uVar0, uParam1);
+		unk_0xC9DC4A70BE727818(uVar0, uParam1, uParam2);
 	}
 	if (bParam3)
 	{
@@ -4059,7 +4059,7 @@ void func_12(int iParam0, var uParam1, var uParam2, bool bParam3)
 	
 	uVar0 = func_7(iParam0);
 	uVar1 = *uParam2;
-	if (!unk_0x8885801D5A217563(uVar0, uParam1, uParam2))
+	if (!unk_0xA484A1273D8798FF(uVar0, uParam1, uParam2))
 	{
 		if (bParam3)
 		{
@@ -4069,7 +4069,7 @@ void func_12(int iParam0, var uParam1, var uParam2, bool bParam3)
 	}
 	else
 	{
-		unk_0x1D01A720C5B65D70(uVar0, uParam1, uParam2);
+		unk_0xA517819975B6DC39(uVar0, uParam1, uParam2);
 	}
 	if (bParam3)
 	{
@@ -12965,7 +12965,7 @@ void func_20(int iParam0, int iParam1)
 	{
 		StringCopy(&cVar1, "PACK_CLOTHES_SALE_", 24);
 		StringIntConCat(&cVar1, iVar0, 24);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(&cVar1), &(Global_262145.f_23048[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(&cVar1), &(Global_262145.f_23048[iVar0]), 1);
 		iVar0++;
 	}
 	func_5(iParam0, iParam1, joaat("nightclubincomeuptopop5"), &(Global_262145.f_24022), 1);
@@ -18626,10 +18626,10 @@ void func_27(int iParam0, int iParam1)
 	{
 		StringCopy(&cVar1, "BB_EVENT_CARGO_ITEM_M_", 32);
 		StringIntConCat(&cVar1, iVar0, 32);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(&cVar1), &(Global_262145.f_25313[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(&cVar1), &(Global_262145.f_25313[iVar0]), 1);
 		StringCopy(&cVar1, "BB_EVENT_CARGO_ITEM_F_", 32);
 		StringIntConCat(&cVar1, iVar0, 32);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(&cVar1), &(Global_262145.f_25324[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(&cVar1), &(Global_262145.f_25324[iVar0]), 1);
 		iVar0++;
 	}
 	func_11(iParam0, iParam1, joaat("bb_business_battle_event_cargo_weighting"), &(Global_262145.f_25335), 1);
@@ -19919,7 +19919,7 @@ void func_31(int iParam0, int iParam1)
 	{
 		StringCopy(&cVar1, "INDIVIDUAL_VEHICLE_SALE_HASH_LABELS_", 64);
 		StringIntConCat(&cVar1, iVar0, 64);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(func_32(&cVar1)), &(Global_262145.f_13677[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(func_32(&cVar1)), &(Global_262145.f_13677[iVar0]), 1);
 		iVar0++;
 	}
 	func_8(iParam0, iParam1, joaat("all_weapon_mods_for_sale"), &(Global_262145.f_13818), 1);
@@ -24498,8 +24498,8 @@ void func_42(int iParam0, int iParam1)
 		StringIntConCat(&cVar1, iVar0, 32);
 		StringCopy(&cVar9, "RewardPlaylistItem_", 32);
 		StringIntConCat(&cVar9, iVar0, 32);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(&cVar1), &(Global_262145.f_8418[iVar0]), 1);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(&cVar9), &(Global_262145.f_8469[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(&cVar1), &(Global_262145.f_8418[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(&cVar9), &(Global_262145.f_8469[iVar0]), 1);
 		iVar0++;
 	}
 }
@@ -32635,10 +32635,10 @@ void func_86(int iParam0, int iParam1, bool bParam2)
 	{
 		StringCopy(&cVar1, "CRATE_DROP_WEAPON_", 32);
 		StringIntConCat(&cVar1, iVar0, 32);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(&cVar1), &(Global_262145.f_16[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(&cVar1), &(Global_262145.f_16[iVar0]), 1);
 		StringCopy(&cVar1, "CRATE_DROP_WEAPON_CLIPS_", 32);
 		StringIntConCat(&cVar1, iVar0, 32);
-		func_5(iParam0, iParam1, unk_0x14580F20CBCE4FA9(&cVar1), &(Global_262145.f_27[iVar0]), 1);
+		func_5(iParam0, iParam1, unk_0x70E57E9927B6BA58(&cVar1), &(Global_262145.f_27[iVar0]), 1);
 		iVar0++;
 	}
 	func_5(iParam0, iParam1, joaat("crate_drop_cash_min"), &(Global_262145.f_40), 1);
@@ -53739,7 +53739,7 @@ void func_89(int iParam0, bool bParam1)
 	
 	if (bParam1)
 	{
-		Global_2684799.f_6299 = 0;
+		Global_2684801.f_6299 = 0;
 	}
 	if (iParam0 == 6)
 	{
@@ -64927,6 +64927,6 @@ void func_89(int iParam0, bool bParam1)
 
 bool func_90()
 {
-	return Global_2683862.f_691;
+	return Global_2683864.f_691;
 }
 

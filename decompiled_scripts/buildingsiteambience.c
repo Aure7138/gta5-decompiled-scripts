@@ -47,21 +47,21 @@ void __EntryFunction__()
 	fLocal_21 = 0f;
 	fLocal_25 = -0.0375f;
 	fLocal_26 = 0.17f;
-	if (unk_0x55EEDBBFDC6E810F(67))
+	if (unk_0x96CFB880BAC634CE(67))
 	{
-		if (unk_0xC62B624C267237C2() != 2)
+		if (unk_0x36E4BBBE16306470() != 2)
 		{
 			func_4(19);
 		}
 		func_3();
 	}
 	func_2(19);
-	unk_0xD3EC2BD7C1DEA1A7(1);
-	while (!unk_0xF379D4FB3767B7FF("CONSTRUCTION_SITE_STREAM", "FBI_HEIST_SOUNDSET"))
+	unk_0x8E1F26D6742EC167(1);
+	while (!unk_0xB3157976738FC0C0("CONSTRUCTION_SITE_STREAM", "FBI_HEIST_SOUNDSET"))
 	{
 		unk_0x4EDE34FBADD967A6(0);
 	}
-	unk_0x5B0B38F44494AF79(-147f, -1005f, 28f);
+	unk_0x8D4B90E299F8C082(-147f, -1005f, 28f);
 	while (func_1(70))
 	{
 		unk_0x4EDE34FBADD967A6(0);
@@ -98,15 +98,15 @@ int func_2(int iParam0)
 	{
 		return 0;
 	}
-	unk_0xECDAB41968FF21A8(&(Global_113648.f_9087.f_99.f_219[iVar0]), bVar1);
+	unk_0x0B0C9A0F9AAEB7F0(&(Global_113648.f_9087.f_99.f_219[iVar0]), bVar1);
 	return 1;
 }
 
 void func_3()
 {
-	unk_0x0AED5D631A4A1C97();
-	unk_0xB68010349746BC3E();
-	unk_0x675D9C12C73D3DE7();
+	unk_0x22A76EDE2316E9A1();
+	unk_0x6CC88053C1AF072D();
+	unk_0xBBC29EBE6E1A48FA();
 }
 
 int func_4(int iParam0)
@@ -126,7 +126,7 @@ int func_4(int iParam0)
 	}
 	if (BitTest(Global_113648.f_9087.f_99.f_219[iVar0], bVar1))
 	{
-		unk_0x061B1200C95204CB(&(Global_113648.f_9087.f_99.f_219[iVar0]), bVar1);
+		unk_0x8744D2E3FC95740E(&(Global_113648.f_9087.f_99.f_219[iVar0]), bVar1);
 		return 1;
 	}
 	return 0;
