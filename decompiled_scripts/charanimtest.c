@@ -1,10 +1,10 @@
 void __EntryFunction__()
 {
-	if (unk_0xF4EE9D6C8E60AE22())
+	if (unk_0x5114FCEE2A997B95())
 	{
-		unk_0x9B0467159FAB9F56(500);
+		unk_0x18D7C8000EDEAAB4(500);
 	}
-	if (unk_0x78BF2001491914AC(18))
+	if (unk_0xB9B05E900D325C36(18))
 	{
 		func_1();
 	}
@@ -16,6 +16,6 @@ void __EntryFunction__()
 
 void func_1()
 {
-	unk_0xA232817B0B36F2E5();
+	unk_0xBEE2834559A8897A();
 }
 
