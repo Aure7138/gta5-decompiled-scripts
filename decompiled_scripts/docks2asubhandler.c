@@ -9,50 +9,50 @@ void __EntryFunction__()
 {
 	float fVar0;
 	
-	if (unk_0xE8A79675302ED812(19))
+	if (unk_0x5EBD03AF78E7B4DB(19))
 	{
 		func_1();
 	}
 	uLocal_0 = ScriptParam_0.f_0;
 	uLocal_1 = ScriptParam_0.f_1;
-	while (!unk_0xFA30DFD0084E92FE(uLocal_2, 1))
+	while (!unk_0x05EFB6A616B6FADE(uLocal_2, 1))
 	{
-		if (!unk_0xFA30DFD0084E92FE(uLocal_2, 0))
+		if (!unk_0x05EFB6A616B6FADE(uLocal_2, 0))
 		{
-			if (unk_0x724D816EA203A79E(uLocal_0))
+			if (unk_0xDC5D81351D6A4DDB(uLocal_0))
 			{
-				if (unk_0xE59B7F5A03335350(uLocal_0, 0))
+				if (unk_0x1095F403F52B42E1(uLocal_0, 0))
 				{
-					unk_0x77815D3407C6700D(uLocal_0, 0, 1);
-					unk_0x346478B12F69D4E3(uLocal_0, 1);
-					unk_0x06D93FD5E4D394CF(uLocal_0, 1, 1, 1, 1, 1, 0, 0, 0);
-					if (unk_0x724D816EA203A79E(uLocal_1))
+					unk_0x1F7948851FB36E88(uLocal_0, 0, 1);
+					unk_0xB29E08C7AB729BAD(uLocal_0, 1);
+					unk_0xD6CDDEFB0FD5B191(uLocal_0, 1, 1, 1, 1, 1, 0, 0, 0);
+					if (unk_0xDC5D81351D6A4DDB(uLocal_1))
 					{
-						unk_0x77815D3407C6700D(uLocal_1, 0, 1);
-						unk_0x346478B12F69D4E3(uLocal_1, 1);
-						unk_0x06D93FD5E4D394CF(uLocal_1, 1, 1, 1, 1, 1, 0, 0, 0);
+						unk_0x1F7948851FB36E88(uLocal_1, 0, 1);
+						unk_0xB29E08C7AB729BAD(uLocal_1, 1);
+						unk_0xD6CDDEFB0FD5B191(uLocal_1, 1, 1, 1, 1, 1, 0, 0, 0);
 					}
-					unk_0xF0059F27F7BB6680(&uLocal_2, 0);
+					unk_0x2BCFB39E86340DAA(&uLocal_2, 0);
 				}
 			}
 		}
-		else if (!unk_0x1D403DFADBC2DE3C(unk_0xBC25C936A095B5BA(), 0))
+		else if (!unk_0x7112137033807390(unk_0xA19140A5C42D8715(), 0))
 		{
-			if (unk_0xE59B7F5A03335350(uLocal_0, 0))
+			if (unk_0x1095F403F52B42E1(uLocal_0, 0))
 			{
-				fVar0 = unk_0xB7A628320EFF8E47(unk_0x541C2AEF053615BC(unk_0xBC25C936A095B5BA(), 1), unk_0x541C2AEF053615BC(uLocal_0, 1));
+				fVar0 = unk_0xB7A628320EFF8E47(unk_0xE2BBD32891C18569(unk_0xA19140A5C42D8715(), 1), unk_0xE2BBD32891C18569(uLocal_0, 1));
 				if (fVar0 > 90000f)
 				{
-					unk_0xF0059F27F7BB6680(&uLocal_2, 1);
+					unk_0x2BCFB39E86340DAA(&uLocal_2, 1);
 				}
-				else if (fVar0 > 40000f && !unk_0xD1DC4B08247A4317(uLocal_0))
+				else if (fVar0 > 40000f && !unk_0x1A8481A7E865EC7C(uLocal_0))
 				{
-					unk_0xF0059F27F7BB6680(&uLocal_2, 1);
+					unk_0x2BCFB39E86340DAA(&uLocal_2, 1);
 				}
 			}
 			else
 			{
-				unk_0xF0059F27F7BB6680(&uLocal_2, 1);
+				unk_0x2BCFB39E86340DAA(&uLocal_2, 1);
 			}
 		}
 		unk_0x4EDE34FBADD967A6(0);
@@ -62,8 +62,8 @@ void __EntryFunction__()
 
 void func_1()
 {
-	unk_0x1E7A09C1710FB071(&uLocal_0);
-	unk_0x91BCA7FA73FFCDF2(&uLocal_1);
-	unk_0x95E4B6F3ED223F5A();
+	unk_0x792676988A48387F(&uLocal_0);
+	unk_0x69C8D2CAA0701F42(&uLocal_1);
+	unk_0x8F1A9FE6D91AAFEB();
 }
 
