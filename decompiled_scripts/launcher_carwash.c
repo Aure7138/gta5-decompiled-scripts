@@ -1132,7 +1132,7 @@ int func_40(int iParam0)
 	}
 	else
 	{
-		return unk_0xCE990E643CD9D0E5(Global_2440049.f_1, iParam0);
+		return unk_0xCE990E643CD9D0E5(Global_2440277.f_1, iParam0);
 	}
 	return 1;
 }

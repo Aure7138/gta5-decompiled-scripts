@@ -432,12 +432,12 @@ void func_6(bool bParam0, bool bParam1)
 
 bool func_7()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 5);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 5);
 }
 
 bool func_8()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 19);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 19);
 }
 
 int func_9(int iParam0)

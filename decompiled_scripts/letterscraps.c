@@ -282,7 +282,7 @@ int func_4(int iParam0)
 
 bool func_5()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 19);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 19);
 }
 
 int func_6(int iParam0, int iParam1, int iParam2, int iParam3)
@@ -382,7 +382,7 @@ void func_9(bool bParam0, bool bParam1)
 
 bool func_10()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 5);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 5);
 }
 
 void func_11(var uParam0)
@@ -405,7 +405,7 @@ int func_13()
 	iVar1 = 0;
 	while (iVar1 <= 9)
 	{
-		if (Global_2462127[iVar1] != 0)
+		if (Global_2462355[iVar1] != 0)
 		{
 			Global_1315681 = iVar1;
 			iVar0 = 1;

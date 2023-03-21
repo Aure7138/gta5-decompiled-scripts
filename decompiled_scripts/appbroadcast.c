@@ -128,17 +128,17 @@ void func_3()
 	{
 		if (func_16())
 		{
-			if (Global_2462172)
+			if (Global_2462400)
 			{
 				unk_0xDF9C8CD1971F3081(0);
 				func_10(-326397561, func_11(1, 1));
-				Global_2462172 = 0;
+				Global_2462400 = 0;
 			}
 			else
 			{
 				unk_0xDF9C8CD1971F3081(1);
 				func_10(178504896, func_11(1, 1));
-				Global_2462172 = 1;
+				Global_2462400 = 1;
 			}
 			func_4(0);
 			return;
@@ -258,12 +258,12 @@ int func_7(int iParam0)
 
 bool func_8()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 5);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 5);
 }
 
 bool func_9()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 19);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 19);
 }
 
 void func_10(int iParam0, int iParam1)
@@ -384,7 +384,7 @@ int func_15(int iParam0, bool bParam1, bool bParam2)
 			}
 			if (bParam2)
 			{
-				if (!Global_2440049.f_3[iVar0])
+				if (!Global_2440277.f_3[iVar0])
 				{
 					return 0;
 				}
@@ -426,7 +426,7 @@ int func_18(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2587834[iParam0 /*3*/][func_19(iParam1)];
+	uVar0 = Global_2588062[iParam0 /*3*/][func_19(iParam1)];
 	if (unk_0xB9112C701DE2A810(uVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -445,13 +445,13 @@ int func_19(var uParam0)
 		iVar1 = func_14();
 		if (iVar1 > -1)
 		{
-			Global_2551544 = 0;
+			Global_2551772 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2551544 = 1;
+			Global_2551772 = 1;
 		}
 	}
 	return iVar0;
@@ -509,7 +509,7 @@ int func_26(int iParam0)
 {
 	if (func_15(iParam0, 0, 1))
 	{
-		return Global_2425869[iParam0 /*443*/].f_1;
+		return Global_2426097[iParam0 /*443*/].f_1;
 	}
 	return 0;
 }
@@ -630,7 +630,7 @@ void func_35()
 	func_43(Global_19662, "SET_DATA_SLOT_EMPTY", unk_0xBBDA792448DB5A89(13), -1082130432, -1082130432, -1082130432, -1082130432);
 	if (func_16())
 	{
-		if (Global_2462172)
+		if (Global_2462400)
 		{
 			func_42(Global_19662, "SET_DATA_SLOT", unk_0xBBDA792448DB5A89(13), unk_0xBBDA792448DB5A89(0), unk_0xBBDA792448DB5A89(12), -1f, -1f, &cLocal_46, 0, 0, 0, 0);
 		}

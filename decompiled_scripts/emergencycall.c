@@ -114,11 +114,11 @@ void __EntryFunction__()
 					func_8();
 					if (unk_0x25DDB354A40FFCDB())
 					{
-						if ((func_7(unk_0x460153A63B9477BC(), 0) && func_4(unk_0x460153A63B9477BC()) == 5) && Global_1694945)
+						if ((func_7(unk_0x460153A63B9477BC(), 0) && func_4(unk_0x460153A63B9477BC()) == 5) && Global_1694948)
 						{
-							if (Global_1694946 == 0)
+							if (Global_1694949 == 0)
 							{
-								Global_1694946 = 1;
+								Global_1694949 = 1;
 							}
 							iLocal_43 = 5;
 						}
@@ -561,12 +561,12 @@ int func_15(int iParam0)
 
 bool func_16()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 5);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 5);
 }
 
 bool func_17()
 {
-	return unk_0xCE990E643CD9D0E5(Global_1689730, 19);
+	return unk_0xCE990E643CD9D0E5(Global_1689733, 19);
 }
 
 int func_18()

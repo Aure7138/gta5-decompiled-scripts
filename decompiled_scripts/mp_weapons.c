@@ -3104,7 +3104,7 @@ int func_34(int iParam0, int iParam1, int iParam2)
 		if (iParam2 == 0)
 		{
 		}
-		iVar0 = Global_2551832[iParam0 /*3*/][func_35(iParam1)];
+		iVar0 = Global_2552060[iParam0 /*3*/][func_35(iParam1)];
 		if (unk_0xD2F202166691EDB2(iVar0, &uVar1, -1))
 		{
 			return uVar1;
@@ -3124,13 +3124,13 @@ int func_35(var uParam0)
 		iVar1 = func_144();
 		if (iVar1 > -1)
 		{
-			Global_2551544 = 0;
+			Global_2551772 = 0;
 			iVar0 = iVar1;
 		}
 		else
 		{
 			iVar0 = 0;
-			Global_2551544 = 1;
+			Global_2551772 = 1;
 		}
 	}
 	return iVar0;
@@ -3178,7 +3178,7 @@ int func_39(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2587834[iParam0 /*3*/][func_35(iParam1)];
+	uVar0 = Global_2588062[iParam0 /*3*/][func_35(iParam1)];
 	if (unk_0xB9112C701DE2A810(uVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -8136,7 +8136,7 @@ void func_61(int iParam0, var uParam1, int iParam2, int iParam3, bool bParam4)
 	if (bParam4)
 	{
 	}
-	iVar0 = Global_2551832[iParam0 /*3*/][func_35(iParam2)];
+	iVar0 = Global_2552060[iParam0 /*3*/][func_35(iParam2)];
 	if (iVar0 != 0)
 	{
 		unk_0x6000E4684CB4330B(iVar0, uParam1, iParam3);
@@ -8564,11 +8564,11 @@ void func_75(int iParam0, int iParam1, bool bParam2)
 	{
 		if (bParam2)
 		{
-			unk_0xBE20AB8238688965(&(Global_2550458.f_991[func_76(iParam0, iParam1)]), func_30(iVar0));
+			unk_0xBE20AB8238688965(&(Global_2550686.f_991[func_76(iParam0, iParam1)]), func_30(iVar0));
 		}
 		else
 		{
-			unk_0xD2459066EA58CE43(&(Global_2550458.f_991[func_76(iParam0, iParam1)]), func_30(iVar0));
+			unk_0xD2459066EA58CE43(&(Global_2550686.f_991[func_76(iParam0, iParam1)]), func_30(iVar0));
 		}
 	}
 }
@@ -9342,7 +9342,7 @@ var func_83(int iParam0, int iParam1)
 {
 	var uVar0;
 	
-	uVar0 = Global_2550458.f_991[func_76(iParam0, iParam1)];
+	uVar0 = Global_2550686.f_991[func_76(iParam0, iParam1)];
 	return uVar0;
 }
 
@@ -10951,7 +10951,7 @@ void func_98(var uParam0, var uParam1)
 	}
 	if (unk_0xC655D10BB6E32EF1(joaat("weapon_doubleaction")) && iLocal_66[49] == uParam1->f_5)
 	{
-		if (Global_262145.f_22949 && (func_105() || Global_1694984))
+		if (Global_262145.f_22949 && (func_105() || Global_1694987))
 		{
 			func_108(joaat("weapon_doubleaction"), uParam0, *uParam1, 0);
 		}
@@ -10963,15 +10963,15 @@ void func_98(var uParam0, var uParam1)
 			func_108(joaat("weapon_stone_hatchet"), uParam0, *uParam1, 0);
 		}
 	}
-	if ((unk_0xC655D10BB6E32EF1(joaat("weapon_raycarbine")) && iLocal_66[51] == uParam1->f_5) && Global_262145.f_26043)
+	if ((unk_0xC655D10BB6E32EF1(joaat("weapon_raycarbine")) && iLocal_66[51] == uParam1->f_5) && Global_262145.f_26044)
 	{
 		func_108(joaat("weapon_raycarbine"), uParam0, *uParam1, 0);
 	}
-	if ((unk_0xC655D10BB6E32EF1(joaat("weapon_rayminigun")) && iLocal_66[52] == uParam1->f_5) && Global_262145.f_26042)
+	if ((unk_0xC655D10BB6E32EF1(joaat("weapon_rayminigun")) && iLocal_66[52] == uParam1->f_5) && Global_262145.f_26043)
 	{
 		func_108(joaat("weapon_rayminigun"), uParam0, *uParam1, 0);
 	}
-	if ((unk_0xC655D10BB6E32EF1(joaat("weapon_raypistol")) && (((func_17(25007, -1, -1) || func_17(25002, -1, -1)) || func_90(joaat("weapon_raypistol"), -1, 0)) || Global_262145.f_25051)) && iLocal_66[53] == uParam1->f_5)
+	if ((unk_0xC655D10BB6E32EF1(joaat("weapon_raypistol")) && (((func_17(25007, -1, -1) || func_17(25002, -1, -1)) || func_90(joaat("weapon_raypistol"), -1, 0)) || Global_262145.f_25052)) && iLocal_66[53] == uParam1->f_5)
 	{
 		func_108(joaat("weapon_raypistol"), uParam0, *uParam1, 0);
 	}
@@ -10981,7 +10981,7 @@ void func_98(var uParam0, var uParam1)
 	}
 	if (unk_0xC655D10BB6E32EF1(joaat("weapon_navyrevolver")) && iLocal_66[55] == uParam1->f_5)
 	{
-		if (Global_262145.f_27666 && (func_100() || Global_1694990))
+		if (Global_262145.f_27667 && (func_100() || Global_1694993))
 		{
 			func_108(joaat("weapon_navyrevolver"), uParam0, *uParam1, 0);
 		}
@@ -11011,7 +11011,7 @@ int func_99(int iParam0, int iParam1)
 	var uVar0;
 	var uVar1;
 	
-	uVar0 = Global_2589927[iParam0 /*3*/][func_35(iParam1)];
+	uVar0 = Global_2590155[iParam0 /*3*/][func_35(iParam1)];
 	if (unk_0xB9112C701DE2A810(uVar0, &uVar1, -1))
 	{
 		return uVar1;
@@ -14317,7 +14317,7 @@ void func_150()
 	{
 		iLocal_66[48] = -1;
 	}
-	if ((Global_262145.f_22949 && unk_0xC655D10BB6E32EF1(joaat("weapon_doubleaction"))) && (func_105() || Global_1694984))
+	if ((Global_262145.f_22949 && unk_0xC655D10BB6E32EF1(joaat("weapon_doubleaction"))) && (func_105() || Global_1694987))
 	{
 		iLocal_66[49] = ((iLocal_65 / 9) + iLocal_64);
 		iLocal_65++;
@@ -14335,7 +14335,7 @@ void func_150()
 	{
 		iLocal_66[50] = -1;
 	}
-	if (unk_0xC655D10BB6E32EF1(joaat("weapon_raycarbine")) && Global_262145.f_26043)
+	if (unk_0xC655D10BB6E32EF1(joaat("weapon_raycarbine")) && Global_262145.f_26044)
 	{
 		iLocal_66[51] = ((iLocal_65 / 9) + iLocal_64);
 		iLocal_65++;
@@ -14344,7 +14344,7 @@ void func_150()
 	{
 		iLocal_66[51] = -1;
 	}
-	if (unk_0xC655D10BB6E32EF1(joaat("weapon_rayminigun")) && Global_262145.f_26042)
+	if (unk_0xC655D10BB6E32EF1(joaat("weapon_rayminigun")) && Global_262145.f_26043)
 	{
 		iLocal_66[52] = ((iLocal_65 / 9) + iLocal_64);
 		iLocal_65++;
@@ -14353,7 +14353,7 @@ void func_150()
 	{
 		iLocal_66[52] = -1;
 	}
-	if (unk_0xC655D10BB6E32EF1(joaat("weapon_raypistol")) && (((func_17(25007, -1, -1) || func_17(25002, -1, -1)) || func_90(joaat("weapon_raypistol"), -1, 0)) || Global_262145.f_25051))
+	if (unk_0xC655D10BB6E32EF1(joaat("weapon_raypistol")) && (((func_17(25007, -1, -1) || func_17(25002, -1, -1)) || func_90(joaat("weapon_raypistol"), -1, 0)) || Global_262145.f_25052))
 	{
 		iLocal_66[53] = ((iLocal_65 / 9) + iLocal_64);
 		iLocal_65++;
@@ -14371,7 +14371,7 @@ void func_150()
 	{
 		iLocal_66[54] = -1;
 	}
-	if ((Global_262145.f_27666 && unk_0xC655D10BB6E32EF1(joaat("weapon_navyrevolver"))) && (func_100() || Global_1694990))
+	if ((Global_262145.f_27667 && unk_0xC655D10BB6E32EF1(joaat("weapon_navyrevolver"))) && (func_100() || Global_1694993))
 	{
 		iLocal_66[55] = ((iLocal_65 / 9) + iLocal_64);
 		iLocal_65++;
@@ -14407,7 +14407,7 @@ void func_150()
 	{
 		iLocal_66[58] = -1;
 	}
-	if ((Global_262145.f_27666 && unk_0xC655D10BB6E32EF1(joaat("weapon_navyrevolver"))) && (func_100() || Global_1694990))
+	if ((Global_262145.f_27667 && unk_0xC655D10BB6E32EF1(joaat("weapon_navyrevolver"))) && (func_100() || Global_1694993))
 	{
 		iLocal_66[55] = ((iLocal_65 / 9) + iLocal_64);
 		iLocal_65++;
