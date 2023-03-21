@@ -33,7 +33,7 @@ void __EntryFunction__()
 	iLocal_11 = 12;
 	fLocal_14 = 0.001f;
 	iLocal_17 = -1;
-	unk_0xDB4E5F36ED3505EE();
+	unk_0x5B2BDC877F7E8802();
 	while (true)
 	{
 		unk_0x4EDE34FBADD967A6(0);
